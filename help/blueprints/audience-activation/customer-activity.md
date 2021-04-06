@@ -1,11 +1,11 @@
 ---
 title: Blueprint do Activity Hub do cliente
 description: Pesquisas de Perfil do cliente em tempo real para fornecer contexto para o suporte assistido por agentes e vendas.
-solution: Experience Platform, Data Collection
+solution: Experience Platform,Data Collection
 kt: 7195
-exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
+exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
 translation-type: tm+mt
-source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
+source-git-commit: 98d44067a1640dc8b695cb0d25f69ec26be647e1
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
