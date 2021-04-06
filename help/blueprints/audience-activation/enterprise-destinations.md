@@ -1,16 +1,16 @@
 ---
 title: Destinos de perfil e Audience Activation para empresas
 description: Destinos de perfil e Audience Activation para empresas
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+solution: Experience Platform,Real-time Customer Data Platform,Target,Audience Manager,Analytics,Experience Cloud Services,Data Collection
 kt: 7086
+exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 translation-type: tm+mt
-source-git-commit: f48f7e6d712db97e94d9b60309e15539f3ec4c9e
+source-git-commit: 98d44067a1640dc8b695cb0d25f69ec26be647e1
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
 
 ---
-
 
 # Cenário de perfis e Audience Activation para destinos empresariais
 
