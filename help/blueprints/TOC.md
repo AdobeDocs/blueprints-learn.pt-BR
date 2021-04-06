@@ -5,9 +5,9 @@ user-guide-description: Os blueprints são implementações repetíveis para res
 product: adobe experience platform
 role: Arquiteto, desenvolvedor, profissional de negócios
 translation-type: tm+mt
-source-git-commit: c867a2956363ae495492a8ad33fd6c2aee9f5f5c
+source-git-commit: 08b0a9e06b4a5cc1f411a3cab1cc23fa47325844
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 + Coleta e preparação de dados{#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
    + [Coleta de dados da empresa no lado do servidor](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Análise de dados e ciência de dados personalizados{#data-exploration}
++ Análise de dados e ciência de dados personalizada{#data-exploration}
    + [Visão geral](/help/blueprints/data-insights/overview.md)
    + [Ciência de dados personalizados para enriquecimento de perfil](/help/blueprints/data-insights/data-science.md)
 + Orquestração de mensagens multicanal{#multi-channel-message-orchestration}
