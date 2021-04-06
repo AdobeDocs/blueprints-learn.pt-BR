@@ -2,14 +2,14 @@
 title: Digital Experience Blueprints
 description: Os Digital Experience Blueprints são implementações repetíveis para solucionar problemas de estratégia e de negócios estabelecidos. Eles aceleram o tempo de implantação e fornecem um caminho rápido para o sucesso.
 solution: Experience Platform
+exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 37ef1ea91b3cf83e9ab444fa0f907d4115d0fd24
+source-git-commit: 28915e33bffece1d365803db1b03c0460224dd32
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
 
 ---
-
 
 # Digital Experience Blueprints
 
@@ -19,7 +19,7 @@ Cada Blueprint oferece aos clientes do Adobe uma série de artefatos que explica
 
 ## Novidades
 
-* **[Blueprint do Activity Hub do cliente](/help/blueprints/customer-activity-hub/overview.md)**
+* **[Blueprint do Activity Hub do cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Forneça o contexto do suporte assistido por agentes e das vendas.*
 * **[Enterprise Data Exploration and Reporting Blueprint](/help/blueprints/data-exploration/overview.md)**
