@@ -3,15 +3,14 @@ title: Cenário de personalização online/offline da Web
 description: Sincronize a personalização da Web com o email e outras personalizações de canal conhecidas e anônimas.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
+exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 9b6c220a515c5abae22b58fe33558d7d2fed375d
+source-git-commit: 2daba1965d6dce011bcce924f8e7471d7dfd42fb
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
-
-
 
 # Cenário de personalização online/offline da Web
 
@@ -36,10 +35,10 @@ Sincronize a personalização da Web com o email e outras personalizações de c
 
 ## Medidas de proteção
 
-* Os segmentos compartilhados de Experience Platform para Audience Manager são compartilhados em minutos de realização do segmento, seja por meio do streaming ou método de avaliação em lote. Há uma sincronização de configuração de segmento inicial entre o AEP e o AAM de aproximadamente 4 horas para que as associações de segmento do AEP comecem a ser realizadas em perfis AAM. Uma vez nos perfis de AAM, as associações de segmento da AEP estão disponíveis para a mesma personalização de página por meio do Adobe Target.
-* Observe que, para realizações de segmentos que ocorrem dentro de uma sincronização de configuração de segmento de 4 horas entre a AEP e a AAM, essas realizações de segmento serão realizadas em AAM no trabalho subsequente de segmento de lote como segmentos &quot;existentes&quot;.
-* Compartilhamento de segmentos em lote a partir do AEP - uma vez por dia ou iniciado manualmente por meio da API. Depois que essas associações de segmento forem realizadas, elas serão compartilhadas com o AAM em minutos e estarão disponíveis para a mesma/próxima personalização de página no Target.
-* A segmentação de transmissão é realizada dentro de ~ p95 5 min. Depois que essas realizações de segmento ocorrem, elas são compartilhadas com o AAM em minutos e disponibilizadas para a mesma/próxima personalização de página no Target.
+* Os segmentos compartilhados de Experience Platform para Audience Manager são compartilhados em minutos de realização do segmento, seja por meio do streaming ou método de avaliação em lote. Há uma sincronização de configuração de segmento inicial entre o Experience Platform e o Audience Manager de aproximadamente 4 horas para que as associações de segmento do Experience Platform comecem a ser realizadas em perfis do Audience Manager. Uma vez nos perfis do Audience Manager, as associações de segmento do Experience Platform estão disponíveis para a mesma personalização de página por meio do Adobe Target.
+* Observe que, para realizações de segmentos que ocorrem dentro de 4 horas de sincronização de configuração de segmento entre o Experience Platform e o Audience Manager, essas realizações de segmento serão realizadas no Audience Manager no trabalho subsequente de segmento de lote como segmentos &quot;existentes&quot;.
+* Compartilhamento de segmentos em lote a partir do Experience Platform - uma vez por dia ou iniciado manualmente por meio da API. Depois que essas associações de segmento forem realizadas, elas serão compartilhadas com o Audience Manager em minutos e estarão disponíveis para a mesma/próxima personalização de página no Target.
+* A segmentação de transmissão é realizada em aproximadamente 5 minutos. Depois que essas realizações de segmento ocorrem, elas são compartilhadas no Audience Manager em minutos e disponibilizadas para a mesma/próxima personalização de página no Target.
 * Por padrão, o serviço de compartilhamento de segmentos permite que no máximo 75 públicos sejam compartilhados para cada conjunto de relatórios do Adobe Analytics. Se o cliente tiver uma licença do Audience Manager, não há limite para o número de públicos-alvo que podem ser compartilhados entre o Adobe Analytics e o Adobe Target ou Audience Manager e o Adobe Target.
 
 ## Pré-requisitos de implementação
@@ -102,5 +101,3 @@ O blueprint de personalização Web/Mobile pode ser implementado usando SDKs tra
 * [Como a Adobe Experience Platform pode ajudar os clientes a personalizar suas mensagens móveis em tempo real com o Journey Orchestration Service e um fornecedor de mensagens móveis](https://medium.com/adobetech/how-adobe-experience-platform-helped-a-client-personalize-their-mobile-messaging-in-real-time-with-7d634aefa098)
 * [Segmentação em segundos: Como a Adobe Experience Platform tornou os perfis de clientes em tempo real uma realidade](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [Crie uma experiência online ideal: Enriquecer o perfil unificado com o serviço de query](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
-
