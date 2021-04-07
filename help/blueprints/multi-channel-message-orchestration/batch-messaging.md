@@ -1,18 +1,18 @@
 ---
-title: Cenário de mensagens em lote e Adobe Experience Platform
+title: Mensagens em lote e Adobe Experience Platform Blueprint
 description: Execute campanhas de mensagens programadas e em lote usando o Adobe Experience Platform como hub central para perfis e segmentação do cliente.
 solution: Experience Platform, Campaign
 kt: 7196
+exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
-
-# Cenário de mensagens em lote e Adobe Experience Platform
+# Mensagens em lote e Adobe Experience Platform Blueprint
 
 Execute campanhas de mensagens programadas e em lote usando o Adobe Experience Platform como hub central para perfis e segmentação do cliente.
 
