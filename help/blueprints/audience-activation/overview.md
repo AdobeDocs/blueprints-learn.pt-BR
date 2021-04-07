@@ -1,26 +1,26 @@
 ---
-title: Blueprint do perfil e Audience Activation
-description: Forneça publicidade ativada por vários canais ao público-alvo da plataforma de dados do cliente em tempo real ​.
+title: Público-alvo e ativação de perfil
+description: Forneça ao público-alvo ativadas e experiências centradas no perfil do cliente com o ​ da Plataforma de dados do cliente em tempo real.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: af73c0fa0576cd836685824964bade10c0e0110d
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 
-# Blueprint do perfil e Audience Activation
+# Público-alvo e Audience Activation
 
-A ativação do perfil e do público-alvo é a chave para o sucesso em um mundo de marketing orientado por dados. No entanto, muitas marcas ainda concentram seus esforços na ativação do canal, que geralmente oferece alcance e personalização inconsistentes. Com uma abordagem de canal primeiro, cada canal atua como um silo no qual os esforços de personalização direcionam somente os clientes que interagem com a marca nesse canal. Essa abordagem não reflete a realidade de que os clientes interagem com marcas em vários pontos de contato diferentes. A ativação do primeiro público-alvo permite que as marcas conectem as interações do cliente em vários canais, para fornecer um público-alvo centralizado que pode ser ativado para todos os canais.
+A ativação do perfil e do público-alvo é a chave para o sucesso em um mundo de marketing orientado por dados. No entanto, muitas marcas ainda concentram seus esforços na ativação do canal, que geralmente oferece alcance e personalização inconsistentes. Com uma abordagem de canal primeiro, cada canal atua como um silo no qual os esforços de personalização direcionam somente os clientes que interagem com a marca nesse canal. Essa abordagem não reflete a realidade de que os clientes interagem com marcas em vários pontos de contato diferentes. A ativação do perfil e do público-alvo permite que as marcas conectem interações do cliente em vários canais para fornecer um perfil e um público centralizados que podem ser ativados em todos os canais.
 
-## Cenários
+## Blueprints
 
-| Cenário | Descrição | Aplicativos Experience Cloud |
+| Blueprint | Descrição | Aplicativos Experience Cloud |
 |---|---|---|
 | **[Audience Activation Anonymous Web and Advertising](anonymous.md)** | <ul><li>Direcione públicos-alvo em canais da Web e de anúncios para dados anônimos e comportamentais do cliente.</li><li>Integre a dados de público-alvo de terceiros para aumentar a personalização.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Online/Offline + Perfil e Audience Activation de PII](online-offline.md)** | <ul><li>Ative destinos conhecidos com base em perfis, como provedores de email, redes sociais e destinos de anúncios. </li><li>Use atributos e eventos offline, como pedidos offline, transações, CRM ou dados de fidelidade, juntamente com o comportamento online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Plataforma de dados do cliente em tempo real</li><li>Adobe Audience Manager (opcional)</li></ul> |
