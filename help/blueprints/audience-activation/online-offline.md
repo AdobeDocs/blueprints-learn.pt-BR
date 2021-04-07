@@ -1,18 +1,18 @@
 ---
-title: Cenário de Audience Activation online/offline
+title: Audience Activation Blueprint online/offline
 description: Audience Activation online/offline.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
+exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: c4bd4bbd40f2ae6b9ab980c5274a6e2007d976d3
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
-
-# Cenário de Audience Activation online/offline
+# Audience Activation Blueprint online/offline
 
 Use atributos e eventos offline, como pedidos offline, transações, CRM ou dados de fidelidade, juntamente com o comportamento online para direcionamento e personalização online.
 
