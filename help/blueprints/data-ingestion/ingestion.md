@@ -1,12 +1,12 @@
 ---
 title: Preparação de dados e plano de assimilação
 description: Este blueprint mostra todos os métodos pelos quais os dados podem ser assimilados e preparados no Adobe Experience Platform.
-solution: Experience Platform, Data Collection
+solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
-exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
+exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 0%
