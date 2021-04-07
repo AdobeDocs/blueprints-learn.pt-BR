@@ -1,25 +1,26 @@
 ---
-title: Blueprint de personalização da Web e móvel
+title: Personalização da Web e móvel
 description: Forneça conteúdo personalizado da Web e móvel com o Perfil do cliente em tempo real.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
+exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: e1a9881996a181310bdc32cb083e4c5654139bf0
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
 
-# Blueprint de personalização da Web e móvel
+# Personalização da Web e móvel
 
 
-O Blueprint de personalização da Web e móvel aborda a capacidade de usar a segmentação de público-alvo em vários aplicativos para personalizar e otimizar as experiências do cliente. Você pode usar comportamentos de clientes, demografia, nível de fidelidade e transações anteriores para personalizar layouts, chamadas para ações e conteúdo.
+A Personalização da Web e móvel aborda a capacidade de usar a segmentação de público em vários aplicativos para personalizar e otimizar as experiências do cliente. Você pode usar comportamentos de clientes, demografia, nível de fidelidade e transações anteriores para personalizar layouts, chamadas para ações e conteúdo.
 
-## Cenários
+## Blueprints
 
-| Cenário | Descrição | Aplicativos Experience Cloud |
+| Blueprint | Descrição | Aplicativos Experience Cloud |
 |---|---|---|
 | **[Personalização comportamental](behavioral.md)** | <ul><li>Personalizar com base no comportamento online e nos dados do público-alvo</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 | **[Personalização online/offline da Web](online-offline.md)** | <ul><li>Personalize com atributos e eventos offline (transações, reservas, CRM e dados de fidelidade).</li><li>Sincronize a personalização através da Web, do email e de outros canais conhecidos.</li></ul> | <ul><li>Plataforma de dados do cliente em tempo real</li><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
@@ -40,4 +41,3 @@ O Blueprint de personalização da Web e móvel aborda a capacidade de usar a se
 * [Segmentação em segundos: Como a Adobe Experience Platform tornou os perfis de clientes em tempo real uma realidade](https://medium.com/adobetech/segmentation-in-seconds-how-adobe-experience-platform-made-real-time-customer-profiles-a-reality-a7a8552b0847)
 * [Cargas de trabalho analíticas e Perfil do cliente em tempo real — Dois lados do mesmo cérebro com uma finalidade única](https://medium.com/adobetech/analytical-workloads-and-real-time-customer-profile-two-sides-of-the-same-brain-with-a-cdfac85ce8c1)
 * [Crie uma experiência online ideal: Enriquecer o perfil unificado com o serviço de query](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
-
