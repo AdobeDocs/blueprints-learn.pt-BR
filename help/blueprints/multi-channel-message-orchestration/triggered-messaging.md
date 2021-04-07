@@ -1,18 +1,18 @@
 ---
-title: Cenário de mensagens acionadas e Adobe Experience Platform
+title: Mensagens acionadas e Adobe Experience Platform Blueprint
 description: Execute mensagens e experiências acionadas usando o Adobe Experience Platform como um hub central de dados de transmissão, perfis de clientes e segmentação.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
+exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: df1e14631eddb0055f8e7a42db1e34d459667433
+source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 1%
 
 ---
 
-
-# Cenário de mensagens acionadas e Adobe Experience Platform
+# Mensagens acionadas e Adobe Experience Platform Blueprint
 
 Execute mensagens e experiências acionadas usando o Adobe Experience Platform como um hub central de dados de transmissão, perfis de clientes e segmentação.
 
