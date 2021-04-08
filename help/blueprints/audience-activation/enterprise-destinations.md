@@ -3,15 +3,14 @@ title: Audience and Profile Ativation to Enterprise Destinations Blueprint
 description: Audience and Profile Ativation to Enterprise Destinations
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
-exl-id: null
+exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
+source-git-commit: 8bcd82eac5e8837c3cd84524174cf5792d73ac6e
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
 
 ---
-
 
 # Audience and Profile Ativation to Enterprise Destinations Blueprint
 
