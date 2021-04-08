@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,21 @@ Sincronize a personalização da Web com o email e outras personalizações de c
 * A segmentação de transmissão é realizada em aproximadamente 5 minutos. Depois que essas realizações de segmento ocorrem, elas são compartilhadas no Audience Manager em minutos e disponibilizadas para a mesma/próxima personalização de página no Target.
 * Por padrão, o serviço de compartilhamento de segmentos permite que no máximo 75 públicos sejam compartilhados para cada conjunto de relatórios do Adobe Analytics. Se o cliente tiver uma licença do Audience Manager, não há limite para o número de públicos-alvo que podem ser compartilhados entre o Adobe Analytics e o Adobe Target ou Audience Manager e o Adobe Target.
 
+## Padrões de implementação
+
+O blueprint de personalização Web/Mobile pode ser implementado por meio das seguintes abordagens, conforme descrito abaixo.
+
+1. Uso do SDK da Web da plataforma/SDK móvel e da rede de borda.
+1. Uso de SDKs tradicionais específicos do aplicativo (por exemplo, AppMeasurement.js)
+
+### 1. Plataforma Web/Mobile SDK e Abordagem de borda
+
+<img src="assets/websdkflow.svg" alt="Arquitetura de referência para o SDK da Web da plataforma/SDK móvel e abordagem de rede de borda" style="border:1px solid #4a4a4a" />
+
+### 2. Abordagem do SDK específica do aplicativo
+
+<img src="assets/appsdkflow.png" alt="Arquitetura de referência para a abordagem SDK específica do aplicativo" style="border:1px solid #4a4a4a" />
+
 ## Pré-requisitos de implementação
 
 | Aplicativo/Serviço | Biblioteca obrigatória | Notas |
@@ -64,18 +79,6 @@ Sincronize a personalização da Web com o email e outras personalizações de c
    >
    >Cada aplicativo deve usar a ID do Experience Cloud e fazer parte da mesma Org do Experience Cloud para permitir o compartilhamento de público-alvo entre aplicativos.
 1. [Solicitar provisionamento para o compartilhamento de público-alvo entre o Experience Platform e a Adobe Target (públicos compartilhados)](https://www.adobe.com/go/audiences)
-
-## Diagramas de fluxo de dados da implementação
-
-O blueprint de personalização Web/Mobile pode ser implementado usando SDKs tradicionais específicos do aplicativo (por exemplo, AppMeasurement.js) ou usando o SDK da Web da plataforma/SDK móvel e a Rede de borda.
-
-### Plataforma Web/Mobile SDK e Abordagem de borda
-
-<img src="assets/websdkflow.svg" alt="Arquitetura de referência para o SDK da Web da plataforma/SDK móvel e abordagem de rede de borda" style="border:1px solid #4a4a4a" />
-
-### Abordagem do SDK específica do aplicativo
-
-<img src="assets/appsdkflow.png" alt="Arquitetura de referência para a abordagem SDK específica do aplicativo" style="border:1px solid #4a4a4a" />
 
 ## Documentação relacionada
 
