@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 77ddc003d4328074ad269de5837a02f5e6d6add5
+source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,6 @@ Determinadas medidas de proteção se aplicam ao tempo limite da consulta e à q
 ## Aplicativos
 
 * Adobe Experience Platform
-
-## Cenários
-
-| Cenário | Descrição | Aplicativos/Serviços do Experience Cloud |
-|---|---|---|
-| **Exploração de dados - consulta bruta de dados** | <ul><li>Escreva e execute consultas SQL no lago de dados usando a interface de usuário de consulta interativa ou um cliente SQL conectado. O Data Science Workspace também pode ser usado para consultar e obter informações dos dados brutos no Experience Platform.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
-| **Dashboarding empresarial** | <ul><li>Conecte as ferramentas do Business Intelligence ao Experience Platform para visualizar dados para painéis e casos de uso de relatórios.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Arquitetura
 
