@@ -5,29 +5,22 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 7a097d7579d0e217ee5c6b469856bf786b17e6cb
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Ciência de dados personalizados para o esquema de enriquecimento de perfil
 
-Este Blueprint mostra como os dados no Adobe Experience Platform são usados pelo Data Science Workspace para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina. Esses modelos podem enviar diretamente para um conjunto de dados habilitado para o Perfil do cliente em tempo real. Os exemplos de insights de aprendizado de máquina incluem valor vitalício, afinidade de produto e categoria, propensão para conversão ou propensão para churn.
+A Ciência de dados personalizados para o esquema de enriquecimento de perfil ilustra como os dados no Adobe Experience Platform podem ser usados no Data Science Workspace para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina. Esses modelos podem ser enviados diretamente para um conjunto de dados habilitado para o Perfil do cliente em tempo real para enriquecer ainda mais os perfis do cliente. Esses insights podem ser ativados para personalização. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de produto e categoria, propensão para conversão ou propensão para churn.
 
 ## Casos de uso
 
 * Extraia padrões de insight e descoberta dos dados do cliente no Experience Platform. Treine e marque modelos a partir desses dados.
-* Enriqueça o Perfil do cliente em tempo real com insights e atributos orientados por modelo para personalização mais granular e otimização de jornadas otimizada.
+* Enriqueça o Perfil do cliente em tempo real com insights e atributos orientados por modelo para personalização mais granular e jornadas otimizadas.
 * Treine e avalie modelos para determinar insights do cliente, como valor vitalício do cliente, propensão para converter ou churn, afinidades de produto e conteúdo e pontuações de engajamento.
-
-## Cenários
-
-| Cenário | Descrição do cenário | Aplicativos Experience Cloud |
-|---|---|---|
-| Ciência dos dados exploratórios | <ul><li>Descubra sinais, integridade, correção de dados</li><li>Descubra novos insights usando as ferramentas de ciência de dados</li></ul> | <ul><li>Inteligência Experience Platform</li></ul> |
-| Enriquecimento de perfil com AI/ML<br> - lote | <ul><li>Descubra, crie, treine, implante, marque e operacionalize modelos.</li><li>Encaminhe a previsão do modelo para o perfil ou para o lago de dados para ativação em lote.</li></ul> | <ul><li>Inteligência Experience Platform</li></ul> |
 
 ## Arquitetura
 
