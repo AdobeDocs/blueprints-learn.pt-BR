@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,24 @@ Personalize com base no comportamento online e nos dados do público-alvo.
 
 Por padrão, o serviço de compartilhamento de segmentos permite que no máximo 75 públicos-alvo sejam compartilhados para cada conjunto de relatórios do Adobe Analytics. Se o Audience Manager estiver sendo usado para o compartilhamento de público, não há limite para o número de públicos que podem ser compartilhados. 
 
+## Padrões de implementação
+
+O blueprint de personalização Web/Mobile pode ser implementado por meio das seguintes abordagens, conforme descrito abaixo.
+
+1. Uso do SDK da Web da plataforma/SDK móvel e da rede de borda.
+1. Uso de SDKs tradicionais específicos do aplicativo (por exemplo, AppMeasurement.js)
+
+### 1. Plataforma Web/Mobile SDK e Abordagem de borda
+
+<img src="assets/websdkflow.svg" alt="Arquitetura de referência para o SDK da Web da plataforma/SDK móvel e abordagem de rede de borda" style="border:1px solid #4a4a4a" />
+
+### 2. Abordagem do SDK específica do aplicativo
+
+<img src="assets/appsdkflow.png" alt="Arquitetura de referência para a abordagem SDK específica do aplicativo" style="border:1px solid #4a4a4a" />
+
+
+
+
 ## Pré-requisitos de implementação
 
 | Aplicativo/Serviço | Biblioteca obrigatória | Notas |
@@ -65,21 +83,6 @@ Por padrão, o serviço de compartilhamento de segmentos permite que no máximo 
 1. [Solicitar provisionamento para os serviços de Pessoas e Compartilhamento de público-alvo (públicos compartilhados)](https://www.adobe.com/go/audiences)
 1. Construa segmentos em [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) ou [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) e [configure esses públicos para compartilhar com o Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html) (se estiver usando o Audience Manager ou Adobe Analytics)
 1. Quando os públicos-alvo estiverem disponíveis no Adobe Target, eles poderão ser usados para [segmentar experiências com o Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html)
-
-
-## Diagramas de fluxo de dados da implementação
-
-O Web/Mobile Personalization Blueprint pode ser implementado usando o SDK da Web da plataforma ou o SDK móvel e a rede de borda, ou usando SDKs tradicionais específicos do aplicativo (por exemplo, AppMeasurement.js).
-
-### Plataforma Web/Mobile SDK e Abordagem de rede de borda
-
-<img src="assets/websdkflow.svg" alt="Arquitetura de referência para o SDK da Web da plataforma/SDK móvel e abordagem de rede de borda" style="border:1px solid #4a4a4a" />
-
-
-### Abordagem do SDK específica do aplicativo
-
-<img src="assets/appsdkflow.png" alt="Arquitetura de referência para a abordagem SDK específica do aplicativo" style="border:1px solid #4a4a4a" />
-
 
 ## Documentação relacionada
 
