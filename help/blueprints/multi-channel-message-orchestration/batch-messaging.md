@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Execute campanhas de mensagens programadas e em lote usando o Adobe Experience P
 
 ## Arquitetura
 
-<img src="assets/aepbatch.svg" alt="Arquitetura de referência para o cenário de Mensagens em lote e Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="Arquitetura de referência para o Blueprint do Adobe Experience Platform e do Batch Messaging" style="border:1px solid #4a4a4a" />
 
 ## Medidas de proteção
 
@@ -69,7 +69,7 @@ Execute campanhas de mensagens programadas e em lote usando o Adobe Experience P
 1. Crie quaisquer namespaces específicos do cliente.
 1. Adicionar identidades a esquemas.
 1. Habilitar esquemas e conjuntos de dados para perfis.
-1. Configure regras de mesclagem para diferentes visualizações do Perfil do cliente em tempo real (opcional).
+1. Configure regras de mesclagem para diferentes exibições de [!UICONTROL Real-time Customer Profile] (opcional).
 1. Crie segmentos para uso da campanha.
 
 #### Fontes / Destinos
