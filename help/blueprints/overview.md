@@ -4,9 +4,9 @@ description: Os Digital Experience Blueprints são implementações repetíveis 
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 3c139ed925fc7999ea3b7e6eb21bf68ae9ff23cb
+source-git-commit: 5ee692fb1ffe0e360f561a8fdaa0c21b6545d41b
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,8 @@ Cada Blueprint oferece aos clientes do Adobe uma série de artefatos que explica
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="imagem em miniatura do Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Blueprint de personalização Web/móvel</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Digital Behavior Data Consolidation Blueprint 
+</strong></a></div>
     <p><em>Ter uma única visualização consolidada do comportamento do cliente em vários canais.</em></p>
   </td>
 </tr>
