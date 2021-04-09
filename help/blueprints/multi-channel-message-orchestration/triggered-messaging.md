@@ -5,9 +5,9 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Execute mensagens e experiências acionadas usando o Adobe Experience Platform c
 
 ## Arquitetura
 
-<img src="assets/triggered.svg" alt="Arquitetura de referência para o cenário de mensagens acionadas e Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/triggered.svg" alt="Arquitetura de referência para o blueprint do Triggered Messaging e do Adobe Experience Platform" style="border:1px solid #4a4a4a" />
 
 ## Padrões de integração
 
