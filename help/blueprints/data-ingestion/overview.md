@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: e9e8473f62fa222e483f7aeed33148433f1ec427
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,7 @@ A Coleta de dados e a Preparação englobam todos os métodos pelos quais os dad
 
 A preparação de dados inclui o mapeamento dos dados de origem para o esquema do Experience Data Model (XDM). Também inclui a execução de transformações nos dados, incluindo formatação de data, divisão/concatenação/conversões de campo e união/mesclagem/rechaveamento de registros. A preparação de dados ajuda a unificar os dados do cliente para fornecer análises agregadas/filtradas, incluindo relatórios ou preparação de dados para montagem/ciência/ativação de dados do perfil do cliente.
 
-## Blueprints
-
 | Blueprint | Descrição | Aplicativos Experience Cloud |
 |---|---|---|
 | **[Preparação e assimilação de dados para o Experience Platform](ingestion.md)** | <ul><li>O Plano de preparação e assimilação de dados abrange todos os métodos pelos quais os dados podem ser preparados e assimilados no Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[Encaminhamento pelo lado do servidor - Coleção empresarial](server-side-collection.md)** | <ul><li>Ative destinos conhecidos com base em perfis, como provedores de email, redes sociais e destinos de anúncios. </li><li>Use atributos e eventos offline, como pedidos offline, transações, CRM ou dados de fidelidade, juntamente com o comportamento online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> Plataforma de dados do cliente em tempo real</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Encaminhamento pelo lado do servidor - Coleção empresarial](server-side-collection.md)** | <ul><li>Ative destinos conhecidos com base em perfis, como provedores de email, redes sociais e destinos de anúncios. </li><li>Use atributos e eventos offline, como pedidos offline, transações, CRM ou dados de fidelidade, juntamente com o comportamento online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Audience Manager (opcional)</li></ul> |
