@@ -5,14 +5,14 @@ user-guide-description: Os blueprints são implementações repetíveis para res
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
-source-git-commit: f5d8b3fea11df0ffaeb59f0b53e93d76426ef252
+source-git-commit: 04fa7c1f111a27e782d4a70282f51397a096b46c
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 2%
+source-wordcount: '115'
+ht-degree: 25%
 
 ---
 
-# Digital Experience Blueprints {#architecture}
+# Digital Experience Blueprints  {#architecture}
 
 + [Visão geral](/help/blueprints/overview.md)
 + Diagramas de visão geral da arquitetura{#architecture-overview}
@@ -31,7 +31,7 @@ ht-degree: 2%
    + [Deflexão de chamada](/help/blueprints/customer-journey-analytics/call-deflect.md)
 + Coleta e preparação de dados{#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
-   + [Assimilação e preparação de dados para o Experience Platform](/help/blueprints/data-ingestion/ingestion.md)
+   + [Preparação e assimilação de dados](/help/blueprints/data-ingestion/ingestion.md)
    + [Coleta de dados da empresa no lado do servidor](/help/blueprints/data-ingestion/server-side-collection.md)
 + Análise de dados, inteligência e IA/ML{#data-exploration}
    + [Visão geral](/help/blueprints/data-insights/overview.md)
@@ -43,6 +43,6 @@ ht-degree: 2%
    + [Mensagens e Experience Platform acionados](/help/blueprints/multi-channel-message-orchestration/triggered-messaging.md)
 + Personalização da Web e móvel{#web-personalization}
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
-   + [Personalização comportamental da Web](/help/blueprints/web-personalization/behavioral.md)
-   + [Personalização online/offline da Web](/help/blueprints/web-personalization/online-offline.md)
+   + [Personalização comportamental](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalização online/offline](/help/blueprints/web-personalization/online-offline.md)
 
