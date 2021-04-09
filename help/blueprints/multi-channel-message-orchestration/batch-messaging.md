@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Execute campanhas de mensagens programadas e em lote usando o Adobe Experience P
 * O Campaign é a fonte de verdade para todos os perfis ativos, o que significa que eles devem existir no Campaign e novos perfis não devem ser criados com base em segmentos de Experience Platform.
 * A realização de associação de segmento no Experience Platform é latente para lote (1 por dia) e streaming (~5 minutos)
 
-**Compartilhamento de segmentos da Plataforma de dados do cliente em tempo real para a campanha:**
+**[!UICONTROL Compartilhamento de segmentos da ] plataforma de dados do cliente em tempo real para a campanha:**
 
 * Recomendação de limite de 20 segmentos
 * A ativação é limitada a cada 24 horas
