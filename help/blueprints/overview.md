@@ -4,10 +4,10 @@ description: Os Digital Experience Blueprints são implementações repetíveis 
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 2%
 
 ---
 
@@ -19,15 +19,15 @@ Cada Blueprint oferece aos clientes do Adobe uma série de artefatos que explica
 
 ## Novidades
 
+* **[Audience and Profile Ativation to Enterprise Destinations Blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)**
+
+   *Mantenha os perfis do cliente atualizados em todos os sistemas para capacitar suas equipes de vendas e suporte &#x200B;.*
 * **[Blueprint do Activity Hub do cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Forneça o contexto do suporte assistido por agentes e das vendas.*
-* **[Blueprint de análise e inteligência de dados](/help/blueprints/data-insights/overview.md)**
+* **[Blueprint de análise e inteligência de dados](/help/blueprints/data-insights/analysis.md)**
 
    *Realize a consulta exploratória e a análise dos dados no lago de dados.*
-* **[Customer Journey Analytics Blueprint](/help/blueprints/customer-journey-analytics/overview.md)**
-
-   *Unifique e analise dados e comportamentos do cliente na jornada do cliente. &#x200B;*
 
 ## Blueprints em destaque
 
@@ -54,7 +54,7 @@ Cada Blueprint oferece aos clientes do Adobe uma série de artefatos que explica
 
 ## Publicações no blog
 
-* [Apresentando os novos Blueprints de experiência digital da Adobe Experience Platform](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
-* [Blueprint para Audience Activation no Adobe Experience Platform](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
-* [Blueprint para personalização da Web usando o perfil do cliente em tempo real do Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
-* [Blueprint para o Multi-Channel Orchestration no Adobe Experience Platform](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
+* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
+* [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
+* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
