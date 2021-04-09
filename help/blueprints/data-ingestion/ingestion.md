@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: cd98c46d948af9026449c947496df82fd1be6718
+source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -40,19 +40,19 @@ A preparação de dados inclui o mapeamento dos dados de origem para o esquema d
 
 | Métodos de preparação de dados | Descrição |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Data Science Workspace - Preparação de dados | Transformação orientada por modelo, transformação com script.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
+| [!UICONTROL Data Science Workspace]  - Preparação de dados | Transformação orientada por modelo, transformação com script.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
 >[!NOTE]
 >
 >| Ferramenta ETL externa ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] e assim por diante) | Execute transformações complexas em ferramentas ETL e use APIs ou conectores de fonte de Experience Platform padrão para assimilar os dados resultantes.                                                                                                                                                               |
 
-| Serviço de query - Preparação de dados                                  | Une, divide, mescla, transforma, consulta e filtre dados em um novo conjunto de dados. Usando Criar Tabela como Selecionar (CTAS) <br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
+| [!UICONTROL Serviço de consulta] - Preparação de dados                                  | Une, divide, mescla, transforma, consulta e filtre dados em um novo conjunto de dados. Usando Criar Tabela como Selecionar (CTAS) <br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
 | Mapeador XDM e funções de preparação de dados (Streaming e lote)     | Mapeie os atributos de origem no formato CSV ou JSON em atributos XDM durante a assimilação do Experience Platform.<br>Calcular funções nos dados à medida que são assimilados; ou seja, formatação de dados, divisão, concatenação e assim por diante.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
 ## Publicações de blog relacionadas
 
-* [Como aproveitar as plataformas de dados externos no Adobe Experience Platform Journey Orchestration](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
-* [Assimilação de Alto Throughput com o Iceberg](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
-* [Truques do serviço de query no Adobe Experience Platform (Gravando consultas e Armazenamento de conjuntos de dados derivados)](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page-------------------------------------)
-* [Analisar o Experience Data Model da Adobe Experience Platform para entender mais completamente o poder do perfil do cliente em tempo real](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
-* [Uma introdução à Análise de dados exploratórios no Adobe Experience Platform](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
-* [Modelagem de dados XDM para ciência de dados em escala no Adobe Experience Platform](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)
+* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
+* [[!DNL High Throughput Ingestion with Iceberg]](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
+* [[!DNL Query Service Tricks in Adobe Experience Platform (Writing Queries and Storing Derived Datasets)]](https://medium.com/adobetech/query-service-tricks-in-adobe-experience-platform-writing-queries-and-storing-derived-datasets-eaee0d6d683e?source=your_stories_page-------------------------------------)
+* [[!DNL Digging into Adobe Experience Platform’s Experience Data Model to More Fully Understand the Power of Real-time Customer Profile]](https://medium.com/adobetech/digging-into-adobe-experience-platforms-experience-data-model-to-more-fully-understand-the-power-3e109271e04f?source=your_stories_page-------------------------------------)
+* [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a?source=your_stories_page-------------------------------------)
+* [[!DNL Modeling XDM Data for Data Science at Scale on Adobe Experience Platform]](https://medium.com/adobetech/modeling-xdm-data-for-data-science-at-scale-on-adobe-experience-platform-222bb2a6dbf7?source=your_stories_page-------------------------------------)
