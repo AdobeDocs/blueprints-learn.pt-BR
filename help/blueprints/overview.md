@@ -4,9 +4,9 @@ description: Os Digital Experience Blueprints são implementações repetíveis 
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 5ee692fb1ffe0e360f561a8fdaa0c21b6545d41b
+source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '274'
 ht-degree: 2%
 
 ---
@@ -34,19 +34,18 @@ Cada Blueprint oferece aos clientes do Adobe uma série de artefatos que explica
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="imagem em miniatura para o Triggered Messaging e o Adobe Experience Platform Blueprint" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Mensagens acionadas e Adobe Experience Platform Blueprint</strong></a></div>
-    <p><em>Acione mensagens e experiências usando o Adobe Experience Platform como um hub central.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="imagem em miniatura para o Blueprint Experience Platform e mensagens acionadas" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Mensagens e Experience Platform acionadas</strong></a></div>
+    <p><em>Acione mensagens e experiências usando a [!UICONTROL Platform] como um hub central.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="imagem em miniatura para o Blueprint Audience Activation online/offline" src="audience-activation/assets/onoff.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation Blueprint online/offline</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation online/offline</strong></a></div>
     <p><em>Forneça anúncios multicanal ativados pelo público-alvo.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="imagem em miniatura do Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Digital Behavior Data Consolidation Blueprint 
-</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Consolidação de dados comportamentais digitais</strong></a></div>
     <p><em>Ter uma única visualização consolidada do comportamento do cliente em vários canais.</em></p>
   </td>
 </tr>
