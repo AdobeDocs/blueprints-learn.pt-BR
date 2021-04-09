@@ -5,14 +5,14 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: d5f7502d97386d10d81fadc2c882a17ada36226c
+source-git-commit: 087da6c5c5c6a6e9deee890d2ea02cf8591bdf15
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-# Esquema de personalização comportamental da Web
+# Behavioural Web/Mobile Personalization Blueprint
 
 Personalize com base no comportamento online e nos dados do público-alvo.
 
