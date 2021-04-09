@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 2343151a1ed5374c299fb9317f6282c232d5d23b
+source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,9 @@ A preparação de dados inclui o mapeamento dos dados de origem para o esquema d
 | Métodos de preparação de dados | Descrição |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Data Science Workspace]  - Preparação de dados | Transformação orientada por modelo, transformação com script.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
->[!NOTE]
->
->| Ferramenta ETL externa ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] e assim por diante) | Execute transformações complexas em ferramentas ETL e use APIs ou conectores de fonte de Experience Platform padrão para assimilar os dados resultantes.                                                                                                                                                               |
-
-| [!UICONTROL Serviço de consulta] - Preparação de dados                                  | Une, divide, mescla, transforma, consulta e filtre dados em um novo conjunto de dados. Usando Criar Tabela como Selecionar (CTAS) <br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql)                                                                       |
-| Mapeador XDM e funções de preparação de dados (Streaming e lote)     | Mapeie os atributos de origem no formato CSV ou JSON em atributos XDM durante a assimilação do Experience Platform.<br>Calcular funções nos dados à medida que são assimilados; ou seja, formatação de dados, divisão, concatenação e assim por diante.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
+| Ferramenta ETL externa ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] e assim por diante) | Execute transformações complexas em ferramentas de ETL e use APIs padrão do Experience Platform [!UICONTROL Serviço de fluxo] ou conectores de origem para assimilar os dados resultantes. |
+| [!UICONTROL Serviço]  de query - Preparação de dados | Une, divide, mescla, transforma, consulta e filtre dados em um novo conjunto de dados. Usando Criar Tabela como Selecionar (CTAS) <br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql) |
+| Mapeador XDM e funções de preparação de dados (Streaming e lote) | Mapeie atributos de origem no formato CSV ou JSON para atributos XDM durante a assimilação do Experience Platform.<br>Calcular funções nos dados à medida que são assimilados; ou seja, formatação de dados, divisão, concatenação e assim por diante.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
 
 ## Publicações de blog relacionadas
 
