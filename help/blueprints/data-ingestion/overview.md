@@ -6,9 +6,9 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: ee1d97af9bf58076fbce24fbc8a3f0d50a4b52a0
+source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,5 @@ A preparação de dados inclui o mapeamento dos dados de origem para o esquema d
 
 | Blueprint | Descrição | Aplicativos Experience Cloud |
 |---|---|---|
-| **[Preparação e assimilação de dados para o Experience Platform](ingestion.md)** | <ul><li>O Plano de preparação e assimilação de dados abrange todos os métodos pelos quais os dados podem ser preparados e assimilados no Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[Encaminhamento pelo lado do servidor - Coleção empresarial](server-side-collection.md)** | <ul><li>Ative destinos conhecidos com base em perfis, como provedores de email, redes sociais e destinos de anúncios. </li><li>Use atributos e eventos offline, como pedidos offline, transações, CRM ou dados de fidelidade, juntamente com o comportamento online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Preparação e assimilação de dados](ingestion.md)** | <ul><li>O Plano de preparação e assimilação de dados abrange todos os métodos pelos quais os dados podem ser preparados e assimilados no Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
+| **[Coleta de dados da empresa no lado do servidor](server-side-collection.md)** | <ul><li>Ative destinos conhecidos com base em perfis, como provedores de email, redes sociais e destinos de anúncios. </li><li>Use atributos e eventos offline, como pedidos offline, transações, CRM ou dados de fidelidade, juntamente com o comportamento online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Audience Manager (opcional)</li></ul> |
