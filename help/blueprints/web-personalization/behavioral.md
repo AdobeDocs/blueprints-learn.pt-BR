@@ -5,9 +5,9 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 087da6c5c5c6a6e9deee890d2ea02cf8591bdf15
+source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ Por padrão, o serviço de compartilhamento de segmentos permite que no máximo 
 
 O blueprint de personalização Web/Mobile pode ser implementado por meio das seguintes abordagens, conforme descrito abaixo.
 
-1. Uso do SDK da Web da plataforma/SDK móvel e da rede de borda.
+1. Usando o [!UICONTROL SDK da Web da plataforma] ou [!UICONTROL SDK móvel da plataforma] e [!UICONTROL Rede de borda].
 1. Uso de SDKs tradicionais específicos do aplicativo (por exemplo, AppMeasurement.js)
 
 ### 1. Plataforma Web/Mobile SDK e Abordagem de borda
 
-<img src="assets/websdkflow.svg" alt="Arquitetura de referência para o SDK da Web da plataforma/SDK móvel e abordagem de rede de borda" style="border:1px solid #4a4a4a" />
+<img src="assets/websdkflow.svg" alt="Arquitetura de referência para o [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] e a abordagem [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
 
 ### 2. Abordagem do SDK específica do aplicativo
 
@@ -59,10 +59,10 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 
 | Aplicativo/Serviço | Biblioteca obrigatória | Notas |
 |---|---|---|
-| Adobe Target | Plataforma Web SDK*, at.js 0.9.1+ ou mbox.js 61+ | A at.js é preferida, pois a mbox.js não está mais sendo desenvolvida. |
-| Adobe Audience Manager (opcional) | Plataforma Web SDK* ou dil.js 5.0+ |  |
-| Adobe Analytics (opcional) | Plataforma Web SDK* ou AppMeasurement.js 1.6.4+ |  |
-| Serviço de identidade do Experience Cloud | Plataforma Web SDK* ou VisitorAPI.js 2.0+ |  |
+| Adobe Target | [!UICONTROL Plataforma Web SDK]*, at.js 0.9.1+ ou mbox.js 61+ | A at.js é preferida, pois a mbox.js não está mais sendo desenvolvida. |
+| Adobe Audience Manager (opcional) | [!UICONTROL Plataforma Web SDK]* ou dil.js 5.0+ |  |
+| Adobe Analytics (opcional) | [!UICONTROL Plataforma Web SDK]* ou AppMeasurement.js 1.6.4+ |  |
+| Serviço de identidade do Experience Cloud | [!UICONTROL Plataforma Web SDK]* ou VisitorAPI.js 2.0+ |  |
 | SDK do Experience Platform Mobile (opcional) | 4.11 ou superior para iOS e Android™ |  |
 | Experience Platform Web SDK | 1.0, a versão atual do SDK do Experience Platform tem [vários casos de uso ainda não suportados nos aplicativos do Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
@@ -70,7 +70,7 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 
 1. [Implemente o Adobe ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) Target para seus aplicativos móveis ou da Web.
 
-   Se estiver usando o Audience Manager ou Analytics:
+   Se estiver usando o Audience Manager ou Adobe Analytics:
 
 1. [Implementar o Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)
 1. [Implementar o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)
