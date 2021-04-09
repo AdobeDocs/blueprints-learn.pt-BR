@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 2404d871a852df8fed3adb97a79cc15e994db762
+source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Ative públicos-alvo para destinos conhecidos com base em perfis, como provedore
 
 ## Arquitetura
 
-<img src="assets/onoff.svg" alt="Arquitetura de referência para o cenário Audience Activation online/offline" style="border:1px solid #4a4a4a" />
+<img src="assets/onoff.svg" alt="Arquitetura de referência para o Blueprint de Audience Activation online/offline" style="border:1px solid #4a4a4a" />
 
 ## Medidas de proteção
 
