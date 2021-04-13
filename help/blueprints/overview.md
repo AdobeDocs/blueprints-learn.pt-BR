@@ -4,18 +4,16 @@ description: Os Digital Experience Blueprints são implementações repetíveis 
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: 652f8d2cab997418aa8752d3d2c80f715ef6a85c
+source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '265'
 ht-degree: 2%
 
 ---
 
 # Digital Experience Blueprints
 
-Os Digital Experience Blueprints são implementações repetíveis para solucionar problemas de estratégia e de negócios estabelecidos. Os blueprints aceleram o tempo de implantação e fornecem um caminho rápido para o sucesso.
-
-Cada Blueprint oferece aos clientes do Adobe uma série de artefatos que explicam o problema comercial de alto valor, arquiteturas, etapas de implementação, considerações técnicas e links para a documentação relevante.
+Os Digital Experience Blueprints são implementações repetíveis que permitem que você solucione a estratégia e solucione rapidamente problemas de negócios estabelecidos. Cada Blueprint fornece uma série de artefatos que explicam o problema de negócios de alto valor, arquiteturas, etapas de implementação, considerações técnicas e links para a documentação relevante.
 
 ## Novidades
 
