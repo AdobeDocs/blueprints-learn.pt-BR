@@ -1,18 +1,18 @@
 ---
-title: Digital Behavior Data Consolidation Blueprint
-description: Analise e extraia insights das interações do cliente na jornada do cliente.
+title: Análise de Jornada entre canais
+description: Analise e extraia insights das interações em toda a jornada do cliente.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: 844fff1cefe367575beb5c03aa0f0d026eb9f39b
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 0%
+source-wordcount: '568'
+ht-degree: 2%
 
 ---
 
-# Digital Behavior Data Consolidation Blueprint
+# Blueprint de análise de Jornada entre canais
 
 Tenha uma única visualização consolidada do comportamento do cliente em vários canais, unificando dados de várias propriedades da Web, móveis e offline.
 
