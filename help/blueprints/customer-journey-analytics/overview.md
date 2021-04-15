@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 10%
@@ -27,7 +27,7 @@ Análises comuns incluem:
 
 | Blueprint | Descrição | Aplicativos Experience Cloud |
 |---|---|---|
-| **[Consolidação de dados comportamentais digitais](digital-behavioral-data-consolidation.md)** | <ul><li>Tenha uma única visualização consolidada do comportamento do cliente em vários canais, unificando dados de várias propriedades da Web, móveis e offline.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
+| **[Análise de Jornada entre canais](digital-behavioral-data-consolidation.md)** | <ul><li>Tenha uma única visualização consolidada do comportamento do cliente em vários canais, unificando dados de várias propriedades da Web, móveis e offline.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
 | **[Análise de Jornada de Deflexão de Chamada](call-deflect.md)** | <ul><li>Determine quais comportamentos são mais indicativos em chamadas assistidas por agentes, reunindo dados do Call Center com dados da Web, móveis e outras interações.</li><li>Esses insights podem ser usados para otimizar a experiência do cliente e reduzir o caminho para interações assistidas por agentes por meio de conteúdo e ferramentas otimizadas de autoatendimento.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Publicações de blog relacionadas
