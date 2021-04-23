@@ -1,6 +1,6 @@
 ---
-title: 'Orquestração de mensagens multicanais '
-description: Forneça experiências individuais e just-in-time do cliente em todas as telas.
+title: 'Orquestração de mensagens multicanais  '
+description: Proporcione experiências do cliente individuais e oportunas em todos os canais.
 solution: Experience Platform
 kt: null
 thumbnail: null
@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9a5137c5e71946c258cb94188ee53d742396d361
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 0%
+ht-degree: 92%
 
 ---
 
-# Orquestração de mensagens multicanais
+# Orquestração de mensagens multicanais 
 
-O Multi-channel Message Orchestration mostra como as marcas podem se envolver e se comunicar proativamente com seus clientes por meio de canais como email, SMS e alertas móveis.
+O de orquestração de mensagens multicanal apresenta como as marcas podem se engajar e se comunicar proativamente com os clientes por meio de canais, como email, SMS e alertas em dispositivos móveis.
 
-As ferramentas de orquestração podem se integrar a outros canais de interação (como canais de entrada) para personalização da Web e de dispositivos móveis ao compartilhar o estado do público-alvo com os mecanismos de decisão dos outros canais. Vários fatores ajudam a determinar quais aplicativos e opções de implantação usar, como se a interação do cliente é baseada em acionador ou programada, quais dados são necessários para o direcionamento e a personalização e assim por diante. Esses fatores resultam em vários cenários possíveis e opções de implantação ao criar o recurso de orquestração de mensagens.
+As ferramentas de orquestração podem se integrar a outros canais de interação (como canais de entrada) para personalização da Web e móvel. Isso é feito ao compartilhar o estado do público-alvo com os mecanismos de decisão dos outros canais. Há diversos fatores que ajudam a definir quais opções de aplicativos e implantações usar. Por exemplo, se a interação do cliente é com base em acionamento ou é programada, ou, quais dados são necessários para a segmentação e a personalização, e assim por diante. Esses fatores resultam em vários cenários e opções de implantações possíveis ao criar a funcionalidade de orquestração de mensagens.
 
 
-| Blueprint | Descrição | Aplicativos Experience Cloud |
+| Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
-| **Mensagens em lote e transacionais** | <ul><li>Crie e execute campanhas de saída programadas e em lote</li><li>Enviar mensagens transacionais</li></ul> | <ul><li>Adobe Campaign Classic e Managed Services</li><li>Adobe Campaign Standard</li></ul> |
-| **[Mensagens em lote e Adobe Experience Platform](batch-messaging.md)** | <ul><li>Executar campanhas de mensagens agendadas e em lote usando o Adobe Experience Platform como hub central para perfis e segmentação do cliente</li></ul> | <ul><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Campaign Classic, Managed Services ou Campaign Standard</li><li>Provedor de mensagens de terceiros suportado</li></ul> |
-| **[Mensagens acionadas e Adobe Experience Platform](triggered-messaging.md)** | <ul><li>Executar mensagens acionadas e de transmissão usando o Adobe Experience Platform como hub central para transmissão de dados, perfis de clientes e segmentação, com Journey Orchestration para transmissão de orquestração de jornadas e entrega de mensagens</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>Adobe Campaign ou outro aplicativo de terceiros para entrega de mensagem</li></ul> |
+| **Mensagens em lote e transacionais** | <ul><li>Crie e execute campanhas de saída programadas e em lote</li><li>Envie mensagens transacionais</li></ul> | <ul><li>Adobe Campaign Classic e Managed Services</li><li>Adobe Campaign Standard</li></ul> |
+| **[Mensagens em lote e Adobe Experience Platform](batch-messaging.md)** | <ul><li>Execute campanhas de mensagens programadas e em lote usando a Adobe Experience Platform como hub central para perfis e segmentação de clientes</li></ul> | <ul><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Campaign Classic, Managed Services ou Campaign Standard</li><li>Provedor de mensagens de terceiros compatíveis</li></ul> |
+| **[Mensagens acionadas e Adobe Experience Platform](triggered-messaging.md)** | <ul><li>Execute mensagens acionadas e por streaming usando a Adobe Experience Platform como hub central para transmissão de dados, perfis e segmentação de clientes, com o Journey Orchestration para transmitir a orquestração de jornadas e entrega de mensagens</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>Adobe Campaign ou outro aplicativo de terceiros para entrega de mensagens</li></ul> |
