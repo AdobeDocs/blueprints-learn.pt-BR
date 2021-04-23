@@ -1,5 +1,5 @@
 ---
-title: Audience Activation Blueprint anônimo
+title: Audience Activation anônimo Blueprint
 description: Audience Activation anônimo.
 solution: Experience Platform, Audience Manager
 kt: 7211
@@ -9,18 +9,18 @@ translation-type: tm+mt
 source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 0%
+ht-degree: 87%
 
 ---
 
 # Audience Activation Blueprint anônimo
 
-Você pode direcionar públicos-alvo em canais da Web e de publicidade com base em dados anônimos e comportamentais do cliente. Essa capacidade permite experiências personalizadas e consistentes do cliente em tempo real em todos os dispositivos.
+É possível segmentar públicos-alvos na Web e em todos os canais de anúncios com base em dados comportamentais e anônimos de clientes. Essa funcionalidade possibilita experiências do cliente consistentes e personalizadas em tempo real em todos os dispositivos.
 
 ## Casos de uso
 
-* Execute o direcionamento e a personalização de público-alvo digital anônimo.
-* Crie públicos para direcionamento em redes de publicidade compatíveis.
+* Realização de direcionamento e personalização de público digital anônimo.
+* Criação de públicos para direcionamento em redes de anúncios compatíveis.
 
 ## Aplicativos
 
@@ -30,19 +30,19 @@ Você pode direcionar públicos-alvo em canais da Web e de publicidade com base 
 
 <img src="assets/aam.svg" alt="Arquitetura de referência para o Anonymous Audience Activation Blueprint" style="border:1px solid #4a4a4a" />
 
-## Etapas da implementação
+## Etapas de implementação
 
 <!-- These steps should link to help. -->
 
 1. [Implemente o Audience Manager](https://experienceleague.corp.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=en#implementation-integration-guides).
-1. Colete dados no Audience Manager.
-1. Configure sinais e características para uso em definições de segmentos.
+1. Colete dados para o Audience Manager.
+1. Configure sinais e características para usar em definições de segmentos.
 1. Crie segmentos no Audience Manager.
-1. Configure os destinos no Audience Manager para compartilhar públicos.
+1. Configure destinos no Audience Manager para compartilhar públicos.
 
-## Documentação relacionada
+## Documentos relacionados
 
-* [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=en)
-* [Públicos- [!UICONTROL alvo do Experience Cloud]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
-* [Integração do Audience Manager com o Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* [Compartilhamento de segmentos do Adobe Analytics por meio do Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=pt-BR)
+* [[!UICONTROL Públicos da Experience Cloud]](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
+* [Integração do Audience Manager com o Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=pt-BR)
+* [Compartilhamento de segmentos do Adobe Analytics por meio do Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
