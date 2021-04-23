@@ -1,6 +1,6 @@
 ---
 title: Blueprint de personalização online/offline da Web
-description: Sincronize a personalização da Web com o email e outras personalizações de canal conhecidas e anônimas.
+description: Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
@@ -8,26 +8,26 @@ translation-type: tm+mt
 source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
 source-wordcount: '865'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 
 # Blueprint de personalização online/offline Web/móvel
 
-Sincronize a personalização da Web com o email e outras personalizações de canal conhecidas e anônimas.
+Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
 
 ## Casos de uso
 
-* Otimização da página de aterrissagem
-* Definição de metas de perfil comportamental e offline
-* Personalização com base em visualizações anteriores de produto/conteúdo, afinidade de produto/conteúdo, atributos ambientais, dados de público-alvo de terceiros e demografia, além de insights offline como transações, dados de fidelidade e CRM e insights modelados
+* Aprimoramento da página de aterrissagem
+* Direcionamento de perfis comportamentais e offline
+* Personalização com base em visualizações anteriores de produtos/conteúdos, afinidade com produtos/conteúdos, características ambientais, dados de público-alvo de terceiros e dados demográficos, além de insights offline, como transações, dados de fidelização e de CRM e modelos de insights
 
 ## Aplicativos
 
 * [!UICONTROL Plataforma de dados do cliente em tempo real]
 * Adobe Target
-* Adobe Audience Manager (opcional): Adiciona dados de público-alvo de terceiros, gráfico de dispositivos baseado em cooperação, a capacidade de exibir segmentos da plataforma no Adobe Analytics e a capacidade de exibir segmentos da Adobe Analytics na plataforma
-* Adobe Analytics (opcional): Adiciona a capacidade de criar segmentos com base em dados comportamentais históricos e na segmentação detalhada dos dados do Adobe Analytics
+* Adobe Audience Manager (opcional): adiciona dados do público-alvo de terceiros, gráfico de dispositivos com base em co-op, capacidade de apresentar segmentos da Platform no Adobe Analytics e de apresentar segmentos do Adobe Analytics na Platform
+* Adobe Analytics (opcional): adiciona a capacidade de criar segmentos com base em dados comportamentais históricos e criar segmentação detalhada a partir dos dados do Adobe Analytics
 
 ## Arquitetura
 
@@ -35,11 +35,11 @@ Sincronize a personalização da Web com o email e outras personalizações de c
 
 ## Medidas de proteção
 
-* Os segmentos compartilhados de Experience Platform para Audience Manager são compartilhados em minutos de realização do segmento, seja por meio do streaming ou método de avaliação em lote. Há uma sincronização de configuração de segmento inicial entre o Experience Platform e o Audience Manager de aproximadamente 4 horas para que as associações de segmento do Experience Platform comecem a ser realizadas em perfis do Audience Manager. Uma vez nos perfis do Audience Manager, as associações de segmento do Experience Platform estão disponíveis para a mesma personalização de página por meio do Adobe Target.
+* Segmentos são compartilhados da Experience Platform para o Audience Manager em minutos a partir da realização de segmentos, seja pelo método de streaming ou pelo método de avaliação por lote. Há uma sincronização de configuração de segmento inicial entre o Experience Platform e o Audience Manager de aproximadamente 4 horas para que as associações de segmento do Experience Platform comecem a ser realizadas em perfis do Audience Manager. Uma vez nos perfis do Audience Manager, as associações de segmento do Experience Platform estão disponíveis para a mesma personalização de página por meio do Adobe Target.
 * Observe que, para realizações de segmentos que ocorrem dentro de 4 horas de sincronização de configuração de segmento entre o Experience Platform e o Audience Manager, essas realizações de segmento serão realizadas no Audience Manager no trabalho subsequente de segmento de lote como segmentos &quot;existentes&quot;.
 * Compartilhamento de segmentos em lote a partir do Experience Platform - uma vez por dia ou iniciado manualmente por meio da API. Depois que essas associações de segmento forem realizadas, elas serão compartilhadas com o Audience Manager em minutos e estarão disponíveis para a mesma/próxima personalização de página no Target.
 * A segmentação de transmissão é realizada em aproximadamente 5 minutos. Depois que essas realizações de segmento ocorrem, elas são compartilhadas no Audience Manager em minutos e disponibilizadas para a mesma/próxima personalização de página no Target.
-* Por padrão, o serviço de compartilhamento de segmentos permite que no máximo 75 públicos sejam compartilhados para cada conjunto de relatórios do Adobe Analytics. Se o cliente tiver uma licença do Audience Manager, não há limite para o número de públicos-alvo que podem ser compartilhados entre o Adobe Analytics e o Adobe Target ou Audience Manager e o Adobe Target.
+* Por padrão, o serviço de compartilhamento de segmentos permite que no máximo 75 públicos-alvos sejam compartilhados para cada conjunto de relatórios do Adobe Analytics. Se o cliente tiver uma licença do Audience Manager, a quantidade de públicos-alvo que podem ser compartilhados entre o Adobe Analytics e o Adobe Target, ou o Audience Manager e o Adobe Target é ilimitada.
 
 ## Padrões de implementação
 
@@ -54,45 +54,45 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 
 ### 2. Abordagem do SDK específica do aplicativo
 
-<img src="assets/appsdkflow.png" alt="Arquitetura de referência para a abordagem SDK específica do aplicativo" style="border:1px solid #4a4a4a" />
+<img src="assets/appsdkflow.png" alt="Arquitetura de referência para abordagem do SDK específico para aplicativos" style="border:1px solid #4a4a4a" />
 
 ## Pré-requisitos de implementação
 
-| Aplicativo/Serviço | Biblioteca obrigatória | Notas |
+| Aplicativo/Serviço | Biblioteca necessária | Observações |
 |---|---|---|
-| Adobe Target | [!UICONTROL Plataforma Web SDK]*, at.js 0.9.1+ ou mbox.js 61+ | A at.js é preferida, pois a mbox.js não está mais sendo desenvolvida. |
+| Adobe Target | [!UICONTROL Plataforma Web SDK]*, at.js 0.9.1+ ou mbox.js 61+ | Preferência pela at.js, uma vez que a mbox.js não está mais sendo desenvolvida. |
 | Adobe Audience Manager (opcional) | [!UICONTROL Plataforma Web SDK]* ou dil.js 5.0+ |  |
-| Adobe Analytics (opcional) | [!UICONTROL Plataforma Web SDK]* ou AppMeasurement.js 1.6.4+ | O rastreamento do Adobe Analytics deve usar a Coleta de dados regionais (RDC). |
-| Serviço de Experience Cloud ID | [!UICONTROL Plataforma Web SDK]* ou VisitorAPI.js 2.0+ | (Recomendado) Use o Experience Platform Launch para implantar o serviço de ID para garantir que a ID seja definida antes de qualquer chamada de aplicativo |
-| SDK do Experience Platform Mobile (opcional) | 4.11 ou superior para iOS e Android™ |  |
-| Experience Platform Web SDK | 1.0, a versão atual do SDK do Experience Platform tem [vários casos de uso ainda não suportados nos aplicativos do Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
+| Adobe Analytics (opcional) | [!UICONTROL Plataforma Web SDK]* ou AppMeasurement.js 1.6.4+ | O rastreamento do Adobe Analytics deve usar a Coleção de Dados Regionais (RDC). |
+| Serviço da Experience Cloud ID | [!UICONTROL Plataforma Web SDK]* ou VisitorAPI.js 2.0+ | (Recomendado) Use o Experience Platform Launch para implantar o ID Service e assim garantir que a ID esteja configurada antes de qualquer chamada de aplicativo |
+| SDK Móvel da Experience Platform (opcional) | Versão 4.11 ou posterior para iOS e Android™ |  |
+| SDK da Web da Experience Platform | Versão 1.0. A versão atual do SDK da Experience Platform tem [vários casos de uso ainda não compatíveis com os aplicativos da Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
 
-## Etapas da implementação
+## Etapas de implementação
 
-1. [Implementar o Adobe ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html) Target para aplicativos móveis ou da Web
-1. [Implementar o Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html)  (opcional)
-1. [Implementar o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html)   (opcional)
-1. [Implementar o Experience Platform e o perfil do cliente em tempo  [!UICONTROL real]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html)
-1. Implementar [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) ou [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+1. [Implemente o Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=pt-BR) para seus aplicativos da Web ou seus aplicativos para dispositivos móveis
+1. [Implemente o Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR) (opcional)
+1. [Implemente o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=pt-BR)  (opcional)
+1. [[!UICONTROL Implemente a Experience Platform e o Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=pt-BR)
+1. Implemente o [Identity Service da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=pt-BR) ou o [SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
    >[!NOTE]
    >
-   >Cada aplicativo deve usar a ID do Experience Cloud e fazer parte da mesma Org do Experience Cloud para permitir o compartilhamento de público-alvo entre aplicativos.
-1. [Solicitar provisionamento para o compartilhamento de público-alvo entre o Experience Platform e a Adobe Target (públicos compartilhados)](https://www.adobe.com/go/audiences)
+   >Cada aplicativo deve usar a Experience Cloud ID e fazer parte da mesma organização da Experience Cloud, permitindo assim o compartilhamento de públicos entre os aplicativos.
+1. [Solicite provisionamento para Compartilhamento de públicos-alvos entre a Experience Platform e o Adobe Target (Públicos compartilhados)](https://www.adobe.com/go/audiences)
 
-## Documentação relacionada
+## Documentos relacionados
 
-* [Compartilhamento de segmento do Experience Platform com o Audience Manager e outras soluções do Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html)
-* [Visão geral da segmentação de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
-* [Segmentação de fluxo](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Visão geral do construtor de segmentos de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)
-* [Conector de origem Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-* [Compartilhamento de segmentos do Adobe Analytics por meio da Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-* [Documentação do SDK da Web do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
-* [Documentação do serviço de ID do Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html)
-* [Documentação do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html)
+* [Compartilhamento de segmentos da Experience Platform com o Audience Manager e outras soluções da Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=pt-BR)
+* [Visão geral da Segmentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR)
+* [Segmentação por streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR)
+* [Visão geral do Construtor de segmentos da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR)
+* [Conector de origem do Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR)
+* [Compartilhamento de segmentos do Adobe Analytics por meio da Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
+* [Documentação do SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Documentação do serviço da Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR)
+* [Documentação do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=pt-BR)
 
-## Publicações de blog relacionadas
+## Publicações do blog relacionadas
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Build an Optimal Online Experience: Enrich Unified Profile with Query Service]](https://medium.com/adobetech/build-an-optimal-online-experience-enrich-unified-profile-with-query-service-8027c196ab33)
