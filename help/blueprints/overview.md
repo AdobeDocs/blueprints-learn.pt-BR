@@ -1,17 +1,17 @@
 ---
-title: Digital Experience Blueprints
-description: Os Digital Experience Blueprints são implementações repetíveis para solucionar problemas de estratégia e de negócios estabelecidos. Eles aceleram o tempo de implantação e fornecem um caminho rápido para o sucesso.
+title: Blueprints de experiência digital
+description: Os Blueprints de experiência digital são implementações replicáveis que atendem a estratégias e resolvem problemas empresariais consagrados. Eles aceleram o tempo de retorno do investimento e fornecem um caminho mais rápido para o sucesso.
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
 source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 2%
+ht-degree: 37%
 
 ---
 
-# Digital Experience Blueprints
+# Blueprints de experiência digital
 
 Os Digital Experience Blueprints são implementações repetíveis que permitem que você solucione a estratégia e solucione rapidamente problemas de negócios estabelecidos. Cada Blueprint fornece uma série de artefatos que explicam o problema de negócios de alto valor, arquiteturas, etapas de implementação, considerações técnicas e links para a documentação relevante.
 
@@ -20,14 +20,14 @@ Os Digital Experience Blueprints são implementações repetíveis que permitem 
 * **[Audience and Profile Ativation to Enterprise Destinations Blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Mantenha os perfis do cliente atualizados em todos os sistemas para capacitar suas equipes de vendas e suporte &#x200B;.*
-* **[Blueprint do Activity Hub do cliente](/help/blueprints/audience-activation/customer-activity.md)**
+* **[Blueprint do Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
-   *Forneça o contexto do suporte assistido por agentes e das vendas.*
+   *Fornece contexto para suporte e vendas assistidas por agentes.*
 * **[Blueprint de análise e inteligência de dados](/help/blueprints/data-insights/analysis.md)**
 
-   *Realize a consulta exploratória e a análise dos dados no lago de dados.*
+   *Realiza consulta e análise exploratória dos dados no data lake.*
 
-## Blueprints em destaque
+## Blueprints de destaque
 
 <table style="table-layout:fixed">
 <tr>
@@ -39,17 +39,17 @@ Os Digital Experience Blueprints são implementações repetíveis que permitem 
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="imagem em miniatura para o Blueprint Audience Activation online/offline" src="audience-activation/assets/onoff.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation online/offline</strong></a></div>
-    <p><em>Forneça anúncios multicanal ativados pelo público-alvo.</em></p>
+    <p><em>Forneça publicidade entre canais ativadas pelo público.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="imagem em miniatura do Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Consolidação de dados comportamentais digitais</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Consolidação de dados digitais comportamentais</strong></a></div>
     <p><em>Ter uma única visualização consolidada do comportamento do cliente em vários canais.</em></p>
   </td>
 </tr>
 </table>
 
-## Publicações no blog
+## Publicações do blog
 
 * [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
