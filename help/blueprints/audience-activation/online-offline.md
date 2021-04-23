@@ -8,21 +8,21 @@ translation-type: tm+mt
 source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
 # Audience Activation Blueprint online/offline
 
-Use atributos e eventos offline, como pedidos offline, transações, CRM ou dados de fidelidade, juntamente com o comportamento online para direcionamento e personalização online.
+Use atributos e eventos offline, como pedidos, transações, dados de CRM ou de fidelização, com comportamentos online para direcionamento e personalização online.
 
-Ative públicos-alvo para destinos conhecidos com base em perfis, como provedores de email, redes sociais e destinos de anúncios.
+Ative públicos para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.
 
 ## Casos de uso
 
-* Direcionamento de público-alvo para públicos-alvo conhecidos em destinos sociais e publicitários.
+* Direcionamento de públicos para públicos conhecidos em destinos sociais e de publicidade.
 * Personalização online com atributos online e offline.
-* Ative públicos-alvo para canais conhecidos, como email e SMS.
+* Ative públicos para canais conhecidos, como email e SMS.
 
 ## Aplicativos
 
@@ -35,40 +35,40 @@ Ative públicos-alvo para destinos conhecidos com base em perfis, como provedore
 
 ## Medidas de proteção
 
-* [Diretrizes de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* Os trabalhos de segmento em lote são executados uma vez por dia com base no agendamento predeterminado. As tarefas de exportação de segmento são executadas antes do delivery de destino agendado. Observe que os trabalhos de segmento de lote e de delivery de destino são executados separadamente. Os trabalhos de segmento em lote e o desempenho do trabalho de exportação dependem do número de perfis, do tamanho dos perfis e do número de segmentos que estão sendo avaliados.
-* Os trabalhos de segmento de transmissão são avaliados em minutos de dados de transmissão chegando ao perfil, e grava imediatamente a associação de segmento no perfil e envia um evento para os aplicativos assinarem.
-* A associação do segmento de transmissão é agida imediatamente para destinos de transmissão e é entregue em eventos de associação de segmento único ou em um microlote de vários eventos de perfil dependentes dos padrões de assimilação do destino. Os destinos agendados iniciarão um trabalho de exportação de segmentos do perfil antes da entrega, para quaisquer segmentos avaliados em streaming que são entregues por meio da entrega agendada de segmentos em lote.
+* [Guias de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
+* Os trabalhos de segmentos em lote são executados uma vez ao dia, com base na programação pré-definida. Os trabalhos de exportação de segmentos são executados em seguida, antes da entrega programada do destino. Observe que os trabalhos de segmentos em lote e de entregas de destino são executados separadamente. O desempenho dos trabalhos de segmentos em lote e do trabalho de exportação depende da quantidade de perfis, do tamanho dos perfis e da quantidade de segmentos que estão sendo avaliados.
+* Trabalhos de segmentos por streaming são avaliados em minutos, a partir da chegada dos dados por streaming ao perfil. Após isso, os trabalhos gravam imediatamente a associação dos segmentos ao perfil e enviam um evento ao qual os aplicativos devem se cadastrar.
+* A associação de segmentos por streaming acontece imediatamente para destinos de streaming, e é entregue em eventos de associação de um só segmento ou eventos de um microlote de múltiplos perfis, dependendo dos padrões de assimilação do destino. Destinos programados inicializarão um trabalho de exportação de segmentos a partir do perfil, antes da entrega, para quaisquer segmentos avaliados na transmissão, fornecidos por meio de entrega programada de segmentos em lote.
 * Para compartilhar [!UICONTROL Associação de segmento da Plataforma de dados do cliente em tempo real] no Audience Manager, isso acontece em minutos para segmentos de transmissão e em minutos após a conclusão da avaliação do segmento de lote para segmentação de lote.
-* Os segmentos compartilhados de Experience Platform para Audience Manager são compartilhados em minutos de realização do segmento, seja por meio do streaming ou método de avaliação em lote. Há uma sincronização de configuração de segmento inicial entre o Experience Platform e o Audience Manager depois que o segmento é criado inicialmente, após ~4 horas, as associações de segmento do Experience Platform podem começar a ser realizadas em perfis do Audience Manager. A associação de público-alvo realizada antes da configuração do compartilhamento de público-alvo do Experience Platform e do Audience Manager ou antes da sincronização dos metadados do público-alvo do Experience Platform para o Audience Manager não será realizada no Audience Manager até que o trabalho do segmento a seguir, onde as associações de segmento &quot;existentes&quot; são compartilhadas.
-* Trabalhos de destino em lote ou em fluxo contínuo de trabalhos de segmentos em lote podem compartilhar atualizações de atributos de perfil, bem como associações de segmentos.
-* Os trabalhos de segmentação de streaming para destinos de streaming compartilham somente atualizações de associação de segmento.
+* Segmentos são compartilhados da Experience Platform para o Audience Manager em minutos a partir da realização de segmentos, seja pelo método de streaming ou pelo método de avaliação por lote. Há uma sincronização de configuração de segmento inicial entre o Experience Platform e o Audience Manager depois que o segmento é criado inicialmente, após ~4 horas, as associações de segmento do Experience Platform podem começar a ser realizadas em perfis do Audience Manager. A Associação de públicos não será feita no Audience Manager até o próximo trabalho de segmento, em que associações de segmentos “existentes” estejam compartilhadas. Isso acontece no caso da associação realizada antes da configuração do compartilhamento de públicos da Experience Platform e do Audience Manager, ou antes de os metadados do público estarem sincronizados da Experience Platform para o Audience Manager.
+* Trabalhos de destinos em lote ou por streaming podem compartilhar atualizações de atributos de perfil, assim como associações de segmentos.
+* Trabalhos de segmentação por streaming para destinos de streaming compartilham somente atualizações de associação de segmentos.
 
-## Etapas da implementação
+## Etapas de implementação
 
-1. Configure schemas e conjuntos de dados no Experience Platform.
-1. Configure as identidades e os namespaces de identidade corretos no esquema para garantir que os dados assimilados possam se unir a um perfil unificado.
-1. Habilite o esquema e os conjuntos de dados para o Perfil.
-1. Assimilar dados na plataforma.
+1. Configure esquemas e conjuntos de dados na Experience Platform.
+1. Configure as identidades certas e os namespaces de identidade no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
+1. Habilite esquemas e conjuntos de dados para o Perfil.
+1. Assimile os dados na Platform.
 1. Provisione [!UICONTROL Plataforma de dados do cliente em tempo real] o compartilhamento de segmentos entre o Experience Platform e o Audience Manager para que os públicos-alvo definidos no Experience Platform sejam compartilhados com o Audience Manager.
-1. Crie segmentos no Experience Platform, que serão avaliados em lote ou streaming. O sistema determina automaticamente se o segmento é avaliado como lote ou streaming.
-1. Configure destinos para compartilhar atributos de perfil e associações de público-alvo com os destinos desejados.
+1. Crie Segmentos na Experience Platform para serem avaliados em lote ou por streaming. O sistema decide automaticamente se o segmento é avaliado em lote ou por streaming.
+1. Configure destinos para compartilhar atributos de perfil e associações de públicos com destinos desejados.
 
-## Considerações sobre a implementação
+## Considerações de implementação
 
-* O compartilhamento de dados de perfil em destinos exige que você inclua o valor de identidade específico usado pelo destino na carga útil do destino. Qualquer identidade necessária para um destino deve ser assimilada na Platform e configurada como uma identidade para o [!UICONTROL Perfil do cliente em tempo real].
+* Compartilhar dados de perfil com destinos exige a inclusão de valor específico de identidade, usado pelo destino na carga de destino. Qualquer identidade necessária para um destino deve ser assimilada na Platform e configurada como uma identidade para o [!UICONTROL Perfil do cliente em tempo real].
 
-* Para cenários de ativação em que os públicos-alvo são compartilhados de Experience Platform para Audience Manager, todas as identidades incluídas no [!UICONTROL Real-time Customer Profile] são compartilhadas com o Audience Manager. Os públicos-alvo do Experience Platform podem ser compartilhados por meio de destinos do Audience Manager quando as identidades de destino necessárias estão incluídas no [!UICONTROL Perfil do cliente em tempo real], ou quando as identidades no [!UICONTROL Perfil do cliente em tempo real] podem ser relacionadas às identidades de destino necessárias vinculadas no Audience Manager.
+* Para cenários de ativação em que os públicos são compartilhados da Experience Platform para o Audience Manager, todas as identidades incluídas no [!UICONTROL Perfil de cliente em tempo real] são compartilhadas com o Audience Manager. É possível compartilhar os públicos da Experience Platform por meio dos destinos do Audience Manager, quando as identidades de destino necessárias estiverem incluídas no [!UICONTROL Perfil de cliente em tempo real]. Ou também onde as identidades no [!UICONTROL Perfil de cliente em tempo real] possam ser relacionadas às identidades de destino vinculadas ao Audience Manager.
 
-## Documentação relacionada
+## Documentos relacionados
 
-* [[!UICONTROL Descrição do produto da ] Plataforma de dados do cliente em tempo real](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform.html)
+* [Descrição do produto Plataforma de dados do cliente em tempo real](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Diretrizes de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [Documentação de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
-* [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+* [Documentação de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR)
+* [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR)
 
-## Vídeos e Tutorials relacionados
+## Vídeos e tutoriais relacionados
 
-* [[!UICONTROL Visão geral da ] plataforma de dados do cliente em tempo real](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html)
-* [Demonstração da plataforma de dados do cliente em tempo  [!UICONTROL real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html)
-* [Criar segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Visão geral da Plataforma de dados do cliente em tempo real](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
+* [[!UICONTROL Demonstração da Plataforma de dados do cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
+* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR)
