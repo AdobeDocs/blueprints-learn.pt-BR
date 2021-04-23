@@ -1,7 +1,7 @@
 ---
 source-git-commit: 8225c25ca54acb10ff9e9dd07d869b0c9a626c0b
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '431'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Este Código de conduta se aplica tanto em espaços do projeto como em espaços 
 
 ## Aplicação
 
-Exemplos de comportamento abusivo, assédio ou de outra forma inaceitável podem ser relatados ao entrar em contato com a equipe do projeto em Grp-opensourceoffice@adobe.com. Todas as denúncias serão analisadas e investigadas e resultarão em resposta que será considerada necessária e adequada às circunstâncias. A equipe do projeto é obrigada a manter a confidencialidade em relação ao relator de um incidente. 
+Exemplos de comportamento abusivo, assédio ou de outra forma inaceitável podem ser relatados ao entrar em contato com a equipe do projeto em Grp-opensourceoffice@adobe.com. Todas as denúncias serão analisadas e investigadas e resultarão em resposta que será considerada necessária e adequada às circunstâncias. A equipe do projeto é obrigada a manter a confidencialidade em relação ao relator de um incidente.
 Pormenores adicionais sobre as políticas específicas de aplicação podem ser publicados separadamente.
 
 Os mantenedores de projetos que não seguirem ou aplicarem de boa fé o Código de conduta poderão lidar com repercussões temporárias ou permanentes, determinadas por outros membros da liderança do projeto.
