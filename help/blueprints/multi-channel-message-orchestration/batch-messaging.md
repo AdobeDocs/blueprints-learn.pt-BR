@@ -1,6 +1,6 @@
 ---
 title: Mensagens em lote e Adobe Experience Platform Blueprint
-description: Execute campanhas de mensagens programadas e em lote usando o Adobe Experience Platform como hub central para perfis e segmentação do cliente.
+description: Faça campanhas com mensagens em lote e programadas usando a Adobe Experience Platform como hub central para perfis de clientes e segmentação.
 solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
@@ -8,18 +8,18 @@ translation-type: tm+mt
 source-git-commit: 37416aafc997838888edec2658d2621d20839f94
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
 # Mensagens em lote e Adobe Experience Platform Blueprint
 
-Execute campanhas de mensagens programadas e em lote usando o Adobe Experience Platform como hub central para perfis e segmentação do cliente.
+Faça campanhas com mensagens em lote e programadas usando a Adobe Experience Platform como hub central para perfis de clientes e segmentação.
 
 ## Casos de uso
 
 * Campanhas de email programadas
-* Campanhas de integração e remarketing
+* Campanhas de integração e de remarketing
 
 ## Aplicativos
 
@@ -39,72 +39,72 @@ Execute campanhas de mensagens programadas e em lote usando o Adobe Experience P
 
 * Suporta somente implantações de unidade organizacional única do Adobe Campaign
 * O Adobe Campaign é a fonte de verdade para todos os perfis ativos, o que significa que eles devem existir no Adobe Campaign e novos perfis não devem ser criados com base em segmentos de Experience Platform.
-* A realização de associação de segmento no Experience Platform é latente para lote (1 por dia) e streaming (~5 minutos)
+* A associação de segmentos da Experience Platform é latente tanto para lotes (1 por dia) quanto para streaming (~5 minutos)
 
 **[!UICONTROL Compartilhamento de segmentos da ] plataforma de dados do cliente em tempo real com a Adobe Campaign:**
 
 * Recomendação de limite de 20 segmentos
 * A ativação é limitada a cada 24 horas
-* Somente atributos de esquema de união disponíveis para ativação (sem suporte para eventos de matriz/mapas/experiência).
-* Recomendação de no máximo 20 atributos por segmento
-* Um arquivo por segmento de todos os perfis com associação de segmento &quot;realizada&quot; OU se a associação de segmento for adicionada como um atributo no arquivo tanto os perfis &quot;realizado&quot; quanto os &quot;concluídos&quot;
-* Exportações de segmento incrementais ou completas são compatíveis
-* Não há suporte para criptografia de arquivo
+* Somente atributos de esquema de união estão disponíveis para ativação (sem suporte para array/mapas/eventos de experiência).
+* Recomendação de não ultrapassar 20 atributos por segmento
+* Um arquivo por segmento de todos os perfis com associação de segmentos “realizada”. OU, se a associação de segmentos estiver adicionada como um atributo no arquivo, nos perfis “realizada” e “encerrada”
+* Exportações incrementais ou de segmentos completos são compatíveis
+* A criptografia de arquivos não é compatível
 * Workflows para exportação do Adobe Campaign a serem executados no máximo a cada 4 horas
-* Consulte [medidas de proteção de ingestão de perfil e dados para Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* Consulte [medidas de proteção para assimilação de dados e perfis na Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 
-## Etapas da implementação
+## Etapas de implementação
 
 ### Adobe Experience Platform
 
-#### Esquema / Conjuntos de dados
+#### Esquema/Conjuntos de dados
 
-1. Configure perfis individuais, eventos de experiência e esquemas de várias entidades no Experience Platform, com base nos dados fornecidos pelo cliente.
+1. Configure perfil individual, evento de experiência e esquemas de várias entidades na Experience Platform com base nos dados fornecidos pelo cliente.
 1. Crie esquemas do Adobe Campaign para broadLog, trackingLog, endereços não entregues e preferências de perfil (opcional).
 1. Adicione rótulos de uso de dados ao conjunto de dados para governança.
-1. Crie políticas que impõem a governança em destinos.
+1. Crie políticas que apliquem governança nos destinos.
 
-#### Perfil / identidade
+#### Perfil/Identidade
 
-1. Crie quaisquer namespaces específicos do cliente.
-1. Adicionar identidades a esquemas.
-1. Habilitar esquemas e conjuntos de dados para perfis.
+1. Crie qualquer namespace específico para clientes.
+1. Adicione identidades a esquemas.
+1. Habilite esquemas e conjuntos de dados para o perfil.
 1. Configure regras de mesclagem para diferentes exibições de [!UICONTROL Real-time Customer Profile] (opcional).
 1. Crie segmentos para uso do Adobe Campaign.
 
-#### Fontes / Destinos
+#### Origens/Destinos
 
-1. Insira dados no Experience Platform usando APIs de fluxo e conectores de origem.
+1. Assimile dados na Experience Platform usando APIs de streaming e conectores de origem.
 1. Configure o [!DNL Azure] destino de armazenamento de blobs para uso com o Adobe Campaign.
 
-#### Implantação de aplicativo móvel
+#### Implantação de aplicativo para dispositivos móveis
 
 1. Implemente o SDK do Adobe Campaign para Adobe Campaign Classic ou Experience Platform SDK para Adobe Campaign Standard. Se o Experience Platform Launch estiver presente, a recomendação é usar a extensão Adobe Campaign Classic ou Adobe Campaign Standard com o Experience Platform SDK.
 
 #### Adobe Campaign
 
-1. Configure schemas para perfis, dados de pesquisa e dados relevantes de personalização do delivery.
+1. Configure esquemas para perfil, dados de pesquisa e dados relevantes de personalização de entrega.
 
 >[!IMPORTANT]
 >
 >É importante entender neste momento qual é o modelo de dados no Experience Platform para dados de perfil e evento, para que você saiba quais dados serão exigidos no Adobe Campaign.
 
-#### Importar workflows
+#### Importação de fluxos de trabalho
 
 1. Carregar e assimilar dados de perfil simplificados no Adobe Campaign sFTP.
 1. Carregue e assimile dados de personalização de orquestração e mensagens no Adobe Campaign sFTP.
-1. Assimilar segmentos de Experience Platform do blob [!DNL Azure] por workflows.
+1. Assimile segmentos da Experience Platform do blob do [!DNL Azure] por meio de fluxos de trabalho.
 
-#### Exportar workflows
+#### Exportação de fluxos de trabalho
 
 1. Envie logs do Adobe Campaign de volta para o Experience Platform via workflows a cada quatro horas (broadLog, trackingLog, endereços não entregues).
-1. Envie as preferências de perfil de volta ao Experience Platform por meio de fluxos de trabalho criados por consultoria a cada quatro horas (opcional).
+1. Devolva preferências de perfil à Experience Platform por meio de fluxos de trabalho criados por consultas a cada quatro horas (opcional).
 
 
-## Documentação relacionada
+## Documentos relacionados
 
-* [Documentação do Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
-* [Documentação do Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=en)
-* [Documentação do Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=en)
-* [Documentação do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
-* [Documentação do SDK do Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=en)
+* [Documentação da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
+* [Documentação do Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=pt-BR)
+* [Documentação do Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=pt-BR)
+* [Documentação do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch.html?lang=pt-BR)
+* [Documentação do SDK móvel da Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)
