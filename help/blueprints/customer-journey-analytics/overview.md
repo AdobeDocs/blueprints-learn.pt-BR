@@ -1,6 +1,6 @@
 ---
 title: Customer Journey Analytics
-description: Unificar e analisar dados e comportamentos em toda a jornada do cliente
+description: Unificação e análise de dados e comportamentos do cliente a partir da jornada do cliente
 solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
@@ -9,28 +9,28 @@ translation-type: tm+mt
 source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 10%
+ht-degree: 96%
 
 ---
 
 # Customer Journey Analytics
 
-O Customer Journey Analytics mostra como as marcas podem unificar os dados e o comportamento do cliente de vários canais e fontes de interação para criar uma exibição baseada em jornadas de todas as interações do cliente. Os relatórios e a análise podem ser executados no serviço de aplicativo do Customer Journey Analytics para avaliar e obter informações sobre a interação do cliente e os padrões de comportamento.
+O do Customer Journey Analytics apresenta como as marcas podem unificar os dados e o comportamento do cliente oriundos de vários canais e fontes de interação. O objetivo é criar uma visualização com base na jornada de todas as interações do cliente. É possível elaborar relatórios e análises no serviço de aplicativos do Customer Journey Analytics para avaliar e obter insights da interação com o cliente e de padrões de comportamento.
 
 Análises comuns incluem:
 
-* Caminhos de conversão superior/inferior
-* Conteúdo mais exibido
+* Caminhos de conversão do início ao fim
+* Conteúdo mais visualizado
 * Categorias e produtos
-* Quais campanhas resultaram em conversão e maior engajamento
+* Quais campanhas resultaram em conversão e aumento de engajamento
 * Análise de uso de ferramentas para otimizar experiências de autoatendimento
 
-| Blueprint | Descrição | Aplicativos Experience Cloud |
+| Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
-| **[Análise de Jornada entre canais](digital-behavioral-data-consolidation.md)** | <ul><li>Tenha uma única visualização consolidada do comportamento do cliente em vários canais, unificando dados de várias propriedades da Web, móveis e offline.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
-| **[Análise de Jornada de Deflexão de Chamada](call-deflect.md)** | <ul><li>Determine quais comportamentos são mais indicativos em chamadas assistidas por agentes, reunindo dados do Call Center com dados da Web, móveis e outras interações.</li><li>Esses insights podem ser usados para otimizar a experiência do cliente e reduzir o caminho para interações assistidas por agentes por meio de conteúdo e ferramentas otimizadas de autoatendimento.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Análise de Jornada entre canais](digital-behavioral-data-consolidation.md)** | <ul><li>Tenha uma visualização consolidada única do comportamento do cliente em vários canais ao unificar dados de várias propriedades da web, móveis e offline.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
+| **[Análise de Jornada de Deflexão de Chamada](call-deflect.md)** | <ul><li>Determine quais comportamentos são mais indicativos nos resultados de chamadas atendidas por agentes ao reunir dados da central de atendimento com dados da web, dispositivos móveis e outros dados de interação.</li><li>É possível usar esses insights para aprimorar a experiência do cliente e encurtar o caminho para interações atendidas por agentes por meio de conteúdo e ferramentas de autoatendimento.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Publicações de blog relacionadas
+## Publicações do blog relacionadas
 
 * [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)
