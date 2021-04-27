@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 009a55715b832c3167e9a3413ccf89e0493227df
+source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 81%
+source-wordcount: '990'
+ht-degree: 35%
 
 ---
 
@@ -36,13 +36,27 @@ Ative públicos para destinos conhecidos com base no perfil, como provedores de 
 ## Medidas de proteção
 
 * [Guias de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
-* Os trabalhos de segmentos em lote são executados uma vez ao dia, com base na programação pré-definida. Os trabalhos de exportação de segmentos são executados em seguida, antes da entrega programada do destino. Observe que os trabalhos de segmentos em lote e de entregas de destino são executados separadamente. O desempenho dos trabalhos de segmentos em lote e do trabalho de exportação depende da quantidade de perfis, do tamanho dos perfis e da quantidade de segmentos que estão sendo avaliados.
-* Trabalhos de segmentos por streaming são avaliados em minutos, a partir da chegada dos dados por streaming ao perfil. Após isso, os trabalhos gravam imediatamente a associação dos segmentos ao perfil e enviam um evento ao qual os aplicativos devem se cadastrar.
-* A associação de segmentos por streaming acontece imediatamente para destinos de streaming, e é entregue em eventos de associação de um só segmento ou eventos de um microlote de múltiplos perfis, dependendo dos padrões de assimilação do destino. Destinos programados inicializarão um trabalho de exportação de segmentos a partir do perfil, antes da entrega, para quaisquer segmentos avaliados na transmissão, fornecidos por meio de entrega programada de segmentos em lote.
-* Para compartilhar [!UICONTROL Associação de segmento da Plataforma de dados do cliente em tempo real] no Audience Manager, isso acontece em minutos para segmentos de transmissão e em minutos após a conclusão da avaliação do segmento de lote para segmentação de lote.
-* Segmentos são compartilhados da Experience Platform para o Audience Manager em minutos a partir da realização de segmentos, seja pelo método de streaming ou pelo método de avaliação por lote. Há uma sincronização de configuração de segmento inicial entre o Experience Platform e o Audience Manager depois que o segmento é criado inicialmente, após ~4 horas, as associações de segmento do Experience Platform podem começar a ser realizadas em perfis do Audience Manager. A Associação de públicos não será feita no Audience Manager até o próximo trabalho de segmento, em que associações de segmentos “existentes” estejam compartilhadas. Isso acontece no caso da associação realizada antes da configuração do compartilhamento de públicos da Experience Platform e do Audience Manager, ou antes de os metadados do público estarem sincronizados da Experience Platform para o Audience Manager.
-* Trabalhos de destinos em lote ou por streaming podem compartilhar atualizações de atributos de perfil, assim como associações de segmentos.
-* Trabalhos de segmentação por streaming para destinos de streaming compartilham somente atualizações de associação de segmentos.
+
+### Grades de proteção para avaliação e ativação de segmentos
+
+| Tipo de segmentação | Frequência | Taxa de transferência | Latência (Avaliação de segmentos) | Latência (Ativação de segmento) | Carga de ativação |
+|-|-|-|-|-|-|
+| Segmentação de borda | A segmentação de borda está atualmente em beta e permite que a segmentação válida em tempo real seja avaliada na rede de borda do Experience Platform para obter decisões de página em tempo real e em tempo real, por meio do Adobe Target e do Adobe Journey Optimizer. |  | ~100 ms | Disponível imediatamente para personalização no Adobe Target, para pesquisas de perfil no Perfil de borda e para ativação via destinos baseados em cookies. | Associações de público-alvo disponíveis no Edge para pesquisas de perfil e destinos com base em cookies.<br>Associações de público-alvo e atributos de perfil estão disponíveis para Adobe Target e Journey Optimizer.  |
+| Segmentação de transmissão | Toda vez que um novo evento ou registro de transmissão é assimilado no perfil do cliente em tempo real e a definição do segmento é um segmento de transmissão válido. <br>Consulte a  [documentação ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR) de segmentação para obter orientação sobre os critérios de segmento de streaming | Até 1500 eventos por segundo.  | ~ p95 &lt;5 min | Destinos de transmissão: As associações de público-alvo de streaming são ativadas em aproximadamente 10 minutos ou em microlote com base nos requisitos do destino.<br>Destinos agendados: As associações de público-alvo de streaming são ativadas em lote com base no tempo agendado de delivery do destino. | Destinos de transmissão: Alterações na associação do público-alvo, valores de identidade e atributos do perfil.<br>Destinos agendados: Alterações na associação do público-alvo, valores de identidade e atributos do perfil. |
+| Segmentação incremental | Uma vez por hora para novos dados que foram assimilados no perfil do cliente em tempo real desde a última avaliação de segmento incremental ou de lote. |  |  | Destinos de transmissão: As associações de público-alvo incremental são ativadas em aproximadamente 10 minutos ou em microlote com base nos requisitos do destino.<br>Destinos agendados: As associações de público-alvo incremental são ativadas em lote com base no tempo agendado de entrega do destino. | Destinos de transmissão: Alterações de associação de público-alvo e valores de identidade somente.<br>Destinos agendados: Alterações na associação do público-alvo, valores de identidade e atributos do perfil. |
+| Segmentação em lote | Uma vez por dia, com base em um agendamento predeterminado do conjunto de sistemas, ou iniciado manualmente via API. |  | Aproximadamente uma hora por trabalho para até 10 TB de tamanho de armazenamento de perfil, 2 horas por trabalho para 10 TB a 100 TB de tamanho de armazenamento de perfil. O desempenho do trabalho do segmento em lote depende do número de perfis, do tamanho dos perfis e do número de segmentos que estão sendo avaliados. | Destinos de transmissão: As associações de público-alvo em lote são ativadas aproximadamente 10 após a conclusão da avaliação de segmentação ou em microlote com base nos requisitos do destino.<br>Destinos agendados: As associações de público-alvo em lote são ativadas com base no tempo agendado de entrega do destino. | Destinos de transmissão: Alterações de associação de público-alvo e valores de identidade somente.<br>Destinos agendados: Alterações na associação do público-alvo, valores de identidade e atributos do perfil. |
+
+### Grades de proteção para compartilhamento de público em aplicativos cruzados
+
+| Integrações de aplicativos de público-alvo | Frequência | Taxa de transferência/volume | Latência (Avaliação de segmentos) | Latência (Ativação de segmento) |
+|-|-|-|-|-|
+| Plataforma de dados do cliente em tempo real para o Audience Manager | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Em minutos após a conclusão da avaliação do segmento.<br>A sincronização da configuração inicial do público-alvo entre a Plataforma de dados do cliente em tempo real e o Audience Manager demora aproximadamente 4 horas.<br>Todas as associações de público-alvo realizadas durante o período de 4 horas serão gravadas no Audience Manager no trabalho subsequente de segmentação em lote como associações de público-alvo &quot;existentes&quot;. |
+| Adobe Analytics para Audience Manager |  | Por padrão, no máximo 75 públicos podem ser compartilhados para cada conjunto de relatórios do Adobe Analytics. Se uma licença do Audience Manager for usada, não há limite para o número de públicos-alvo que podem ser compartilhados entre o Adobe Analytics e o Adobe Target ou Adobe Audience Manager e Adobe Target. |  |  |
+| Adobe Analytics para a plataforma de dados do cliente em tempo real | Não disponível atualmente | Não disponível atualmente | Não disponível atualmente | Não disponível atualmente |
+
+
+
+
 
 ## Etapas de implementação
 
@@ -64,7 +78,7 @@ Ative públicos para destinos conhecidos com base no perfil, como provedores de 
 
 * [Descrição do produto Plataforma de dados do cliente em tempo real](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Diretrizes de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
-* [Documentação de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR)
+* [Documentação de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
 * [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR)
 
 ## Vídeos e tutoriais relacionados
