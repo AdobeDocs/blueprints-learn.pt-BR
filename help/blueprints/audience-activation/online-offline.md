@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 24b6ffe3021389d33e84688a8f1a90711ca4b772
+source-git-commit: db083e30d8add029e99cade25d561a26da78338e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1040'
+ht-degree: 34%
 
 ---
 
@@ -51,8 +51,10 @@ Ative públicos para destinos conhecidos com base no perfil, como provedores de 
 | Integrações do aplicativo de público-alvo | Frequência | Throughput/Volume | Latência (Avaliação de segmento) | Latência (Ativação de segmento) |
 |---|---|---|---|---|
 | Plataforma de dados do cliente em tempo real para o Audience Manager | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Em minutos da conclusão da avaliação do segmento.<br>A sincronização da configuração inicial do público-alvo entre a Plataforma de dados do cliente em tempo real e o Audience Manager demora aproximadamente 4 horas.<br>Todas as associações de público-alvo realizadas durante o período de 4 horas serão gravadas no Audience Manager no trabalho subsequente de segmentação em lote como associações de público-alvo &quot;existentes&quot;. |
-| Adobe Analytics para Audience Manager |  | Por padrão, um máximo de 75 públicos-alvo pode ser compartilhado para cada conjunto de relatórios do Adobe Analytics. Se uma licença do Audience Manager for usada, não há limite para o número de públicos-alvo que podem ser compartilhados entre o Adobe Analytics e o Adobe Target ou Adobe Audience Manager e Adobe Target. |  |  |
+| Plataforma de dados do cliente em tempo real para a Ad Cloud | Observe que o compartilhamento de públicos-alvo da Plataforma de dados do cliente em tempo real para a Adobe Advertising Cloud requer o Audience Manager. As mesmas medidas de proteção que se aplicam ao compartilhamento da Plataforma de dados do cliente em tempo real para o Audience Manager serão aplicadas para a integração de públicos da Plataforma de dados do cliente em tempo real com o Advertising Cloud. | - | - | - |
 | Adobe Analytics para a plataforma de dados do cliente em tempo real | Não disponível no momento | Não disponível no momento | Não disponível no momento | Não disponível no momento |
+| Adobe Analytics para Audience Manager | - | Por padrão, um máximo de 75 públicos-alvo pode ser compartilhado para cada conjunto de relatórios do Adobe Analytics. Se uma licença do Audience Manager for usada, não há limite para o número de públicos-alvo que podem ser compartilhados entre o Adobe Analytics e o Adobe Target ou Adobe Audience Manager e Adobe Target. | - | - |
+
 
 
 
