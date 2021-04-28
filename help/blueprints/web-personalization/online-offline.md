@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 2f35195b875d85033993f31c8cef0f85a7f6cccc
+source-git-commit: 9a52c5f9513e39b31956aaa0f30cad1426b63a95
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 48%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,21 +37,21 @@ Sincronize a personalização da Web com emails e outras personalizações de ca
 
 ### Grades de proteção para avaliação e ativação de segmentos
 
-| Tipo de segmentação | Frequência | Taxa de transferência | Latência (Avaliação de segmentos) | Latência (Ativação de segmento) |
-|-|-|-|-|-|
-| Segmentação de borda | A segmentação de borda está atualmente em beta e permite que a segmentação válida em tempo real seja avaliada na rede de borda do Experience Platform para obter decisões de página em tempo real e em tempo real, por meio do Adobe Target e do Adobe Journey Optimizer. |  | ~100 ms | Disponível imediatamente para personalização no Adobe Target, para pesquisas de perfil no Perfil de borda e para ativação via destinos baseados em cookies. |
-| Segmentação de transmissão | Toda vez que um novo evento ou registro de transmissão é assimilado no perfil do cliente em tempo real e a definição do segmento é um segmento de transmissão válido. <br>Consulte a  [documentação ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR) de segmentação para obter orientação sobre os critérios de segmento de streaming | Até 1500 eventos por segundo.  | ~ p95 &lt;5 min | Depois que essas realizações de segmento ocorrem, elas são compartilhadas com o Audience Manager e o serviço de compartilhamento de público-alvo em minutos e disponibilizadas para a mesma/próxima personalização de página no Adobe Target. |
-| Segmentação incremental | Uma vez por hora para novos dados que foram assimilados no perfil do cliente em tempo real desde a última avaliação de segmento incremental ou de lote. |  |  | Depois que essas associações de segmento são realizadas, elas são compartilhadas com o Audience Manager e o serviço de compartilhamento de público-alvo em minutos e estão disponíveis para a mesma/próxima personalização de página no Adobe Target. |
-| Segmentação em lote | Uma vez por dia, com base em um agendamento predeterminado do conjunto de sistemas, ou iniciado manualmente via API. |  | Aproximadamente uma hora por trabalho para até 10 TB de tamanho de armazenamento de perfil, 2 horas por trabalho para 10 TB a 100 TB de tamanho de armazenamento de perfil. O desempenho do trabalho do segmento em lote depende do número de perfis, do tamanho dos perfis e do número de segmentos que estão sendo avaliados. | Depois que essas associações de segmento são realizadas, elas são compartilhadas com o Audience Manager e o serviço de compartilhamento de público-alvo em minutos e estão disponíveis para a mesma/próxima personalização de página no Adobe Target. |
+| Tipo de segmentação | Frequência | Taxa de transferência | Latência (Avaliação de segmento) | Latência (Ativação de segmento) |
+|---|---|---|---|---|
+| Segmentação de borda | A segmentação de borda está atualmente em beta e permite que a segmentação válida em tempo real seja avaliada na rede de borda do Experience Platform para obter decisões de página em tempo real e em tempo real, por meio do Adobe Target e do Adobe Journey Optimizer. |  | ~100 ms | Disponível imediatamente para personalização no Adobe Target, para pesquisas de perfil no Perfil do Edge e para ativação via destinos baseados em cookies. |
+| Segmentação por streaming | Toda vez que um novo evento ou registro de transmissão é assimilado no perfil do cliente em tempo real e a definição do segmento é um segmento de transmissão válido. <br>Consulte a  [documentação ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR) de segmentação para obter orientação sobre os critérios de segmento de streaming | Até 1500 eventos por segundo. | ~ p95 &lt;5 min | Depois que essas realizações de segmento ocorrem, elas são compartilhadas com o Audience Manager e o serviço de compartilhamento de público-alvo em minutos e disponibilizadas para a mesma/próxima personalização de página no Adobe Target. |
+| Segmentação incremental | Uma vez por hora para novos dados que foram assimilados no perfil do cliente em tempo real desde a última avaliação de segmento incremental ou em lote. |  |  | Depois que essas associações de segmento forem realizadas, elas serão compartilhadas com o Audience Manager e o serviço de compartilhamento de público-alvo em minutos e estarão disponíveis para a mesma/próxima personalização de página no Adobe Target. |
+| Segmentação em lote | Uma vez por dia, com base em um agendamento predeterminado do conjunto de sistemas ou no início manual da ad hoc por meio da API. |  | Aproximadamente uma hora por trabalho para até 10 TB de tamanho de armazenamento de perfil, 2 horas por trabalho para 10 TB a 100 TB de tamanho de armazenamento de perfil. O desempenho do trabalho do segmento em lote depende do número de perfis, do tamanho dos perfis e do número de segmentos que estão sendo avaliados. | Depois que essas associações de segmento forem realizadas, elas serão compartilhadas com o Audience Manager e o serviço de compartilhamento de público-alvo em minutos e estarão disponíveis para a mesma/próxima personalização de página no Adobe Target. |
 
 ### Grades de proteção para compartilhamento de público em aplicativos cruzados
 
 
-| Padrão de integração de compartilhamento de público-alvo | Detalhe | Frequência | Taxa de transferência | Latência (Avaliação de segmentos) | Latência (Ativação de segmento) |
-|-|-|-|-|-|-|
-| Plataforma de dados do cliente em tempo real para o Audience Manager |  | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Em minutos após a conclusão da avaliação do segmento.<br>A sincronização da configuração inicial do público-alvo entre a Plataforma de dados do cliente em tempo real e o Audience Manager demora aproximadamente 4 horas.<br>Todas as associações de público-alvo realizadas durante o período de 4 horas serão gravadas no Audience Manager no trabalho subsequente de segmentação em lote como associações de público-alvo &quot;existentes&quot;. |
-| Adobe Analytics para Audience Manager | Por padrão, no máximo 75 públicos podem ser compartilhados para cada conjunto de relatórios do Adobe Analytics. Se uma licença do Audience Manager for usada, não há limite para o número de públicos-alvo que podem ser compartilhados entre o Adobe Analytics e o Adobe Target ou Adobe Audience Manager e Adobe Target. |  |  |  |  |
-| Adobe Analytics para a plataforma de dados do cliente em tempo real | Não disponível atualmente. |  |  |  |  |
+| Padrão de integração de compartilhamento de público-alvo | Detalhe | Frequência | Taxa de transferência | Latência (Avaliação de segmento) | Latência (Ativação de segmento) |
+|---|---|---|---|---|---|
+| Plataforma de dados do cliente em tempo real para o Audience Manager |  | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Em minutos da conclusão da avaliação do segmento.<br>A sincronização da configuração inicial do público-alvo entre a Plataforma de dados do cliente em tempo real e o Audience Manager demora aproximadamente 4 horas.<br>Todas as associações de público-alvo realizadas durante o período de 4 horas serão gravadas no Audience Manager no trabalho subsequente de segmentação em lote como associações de público-alvo &quot;existentes&quot;. |
+| Adobe Analytics para Audience Manager | Por padrão, um máximo de 75 públicos-alvo pode ser compartilhado para cada conjunto de relatórios do Adobe Analytics. Se uma licença do Audience Manager for usada, não há limite para o número de públicos-alvo que podem ser compartilhados entre o Adobe Analytics e o Adobe Target ou Adobe Audience Manager e Adobe Target. |  |  |  |  |
+| Adobe Analytics para a plataforma de dados do cliente em tempo real | Não disponível no momento. |  |  |  |  |
 
 ## Padrões de implementação
 
