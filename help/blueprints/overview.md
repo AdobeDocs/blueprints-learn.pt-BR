@@ -4,7 +4,7 @@ description: Os Blueprints de experiência digital são implementações replic�
 solution: Experience Platform
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 translation-type: tm+mt
-source-git-commit: b5b2fff60678a9a36ffffd0a2bf22c8f76573a3e
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 37%
@@ -37,7 +37,7 @@ Os Digital Experience Blueprints são implementações repetíveis que permitem 
     <p><em>Acione mensagens e experiências usando a [!UICONTROL Platform] como um hub central.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="imagem em miniatura para o Blueprint Audience Activation online/offline" src="audience-activation/assets/onoff.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="imagem em miniatura para o Blueprint Audience Activation online/offline" src="audience-activation/assets/online_offline_activation.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation online/offline</strong></a></div>
     <p><em>Forneça publicidade entre canais ativadas pelo público.</em></p>
   </td>
