@@ -5,7 +5,7 @@ solution: Experience Platform, Target, Audience Manager, Analytics, Experience C
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 translation-type: tm+mt
-source-git-commit: 870541f548266ab82d74fec2e84b8cb6d5c952eb
+source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 78%
@@ -30,7 +30,7 @@ Personalize com base no comportamento online e nos dados do público-alvo.
 
 ## Arquitetura
 
-<img src="assets/personalization.svg" alt="Arquitetura de referência para o Behavioral Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Arquitetura de referência para o Behavioral Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
 
 
 ## Medidas de proteção
@@ -46,14 +46,11 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 
 ### 1. Plataforma Web/Mobile SDK e Abordagem de borda
 
-<img src="assets/websdkflow.svg" alt="Arquitetura de referência para o [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] e a abordagem [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para o [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] e a abordagem [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
 
 ### 2. Abordagem do SDK específica do aplicativo
 
-<img src="assets/appsdkflow.png" alt="Arquitetura de referência para abordagem do SDK específico para aplicativos" style="border:1px solid #4a4a4a" />
-
-
-
+<img src="assets/app_sdk_flow.png" alt="Arquitetura de referência para abordagem do SDK específico para aplicativos" style="border:1px solid #4a4a4a" />
 
 ## Pré-requisitos de implementação
 
