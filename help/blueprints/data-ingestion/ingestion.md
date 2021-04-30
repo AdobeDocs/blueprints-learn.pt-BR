@@ -1,51 +1,51 @@
 ---
-title: Preparação de dados e plano de assimilação
-description: Este blueprint mostra todos os métodos pelos quais os dados podem ser assimilados e preparados no Adobe Experience Platform.
+title: Blueprint de Preparação e assimilação de dados
+description: Este blueprint apresenta todos os métodos pelos quais os dados podem são assimilados e preparados na Adobe Experience Platform.
 solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1,5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
-# Preparação de dados e plano de assimilação
+# Blueprint de Preparação e assimilação de dados
 
-O Plano de preparação e assimilação de dados abrange todos os métodos pelos quais os dados podem ser preparados e assimilados no Adobe Experience Platform.
+O Blueprint de Preparação e assimilação de dados abrange todos os métodos pelos quais os dados podem ser preparados e assimilados na Adobe Experience Platform.
 
-A preparação de dados inclui o mapeamento dos dados de origem para o esquema do Experience Data Model (XDM). Também inclui a execução de transformações nos dados, incluindo formatação de data, divisão/concatenação/conversões de campo e união/mesclagem/rechaveamento de registros. A preparação de dados ajuda a unificar os dados do cliente para fornecer análises agregadas/filtradas, incluindo relatórios ou preparação de dados para montagem/ciência/ativação de dados do perfil do cliente.
+A preparação de dados inclui o mapeamento dos dados de origem para o esquema do Experience Data Model (XDM). Inclui também transformações nos dados, como formatação de dados, separação/concatenação/conversões de campos e junção/mesclagem/rechaveamento de registros. A preparação de dados ajuda na unificação dos dados do cliente para fornecer análise agregada/filtrada, incluindo relatórios ou preparação dos dados para agrupamento/ciência de dados/ativação do perfil do cliente.
 
 ## Arquitetura
 
-<img src="assets/dataingest.svg" alt="Arquitetura de referência para o plano de preparação e assimilação de dados" style="border:1px solid #4a4a4a" />
+<img src="assets/data_ingestion.svg" alt="Blueprint de arquitetura de referência para Preparação e assimilação de dados" style="border:1px solid #4a4a4a" />
 
 ## Métodos de assimilação de dados
 
-| Métodos de ingestão | Descrição |
+| Métodos de assimilação | Descrição |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SDK Web/móvel | Latência:<ul><li>Tempo real - mesma coleção de páginas à rede de borda</li><li>Assimilação de streaming para o Perfil ~1 minuto</li><li>Assimilação de streaming para lago de dados (microlote ~15 minutos)</ul>Documentação: <ul><li>[Web SDK](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[SDK móvel](https://experienceleague.adobe.com/docs/mobile.html?lang=en)</li></ul> |
-| Fontes de transmissão | Latência:<ul><li>Tempo real - mesma coleção de páginas à rede de borda</li><li>Assimilação de streaming para o Perfil ~1 minuto</li><li>Assimilação de streaming para lago de dados (microlote ~15 minutos)</li></ul>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors) |
-| API de transmissão | Latência:<ul><li>Tempo real - mesma coleção de páginas à rede de borda</li><li>Assimilação de streaming para o Perfil ~1 minuto</li><li>Assimilação de streaming para lago de dados (microlote ~15 minutos)</li><li>7 GB/hora</li></ul>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=en#what-can-you-do-with-streaming-ingestion%3F) |
-| Ferramenta ETL | Use ferramentas ETL para modificar e transformar dados corporativos antes da assimilação em Experience Platform.<br><br>Latência:<ul><li>O tempo depende do agendamento da ferramenta ETL externa, então as medidas de proteção de assimilação padrão são aplicadas com base no método usado para assimilação.</li></ul> |
-| Fontes em lote | Busca agendada de fontes<br>Latência: ~ 200 GB/hora<br><br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Tutorials de vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html) |
-| API em lote | Latência:<ul><li>Assimilação em lote ao Perfil dependendo do tamanho e das cargas de tráfego ~45 minutos</li><li>Assimilação em lote ao lago de dados dependendo do tamanho e das cargas de tráfego</li></ul>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=en#batch) |
-| Conectores de aplicativos Adobe | assimilar automaticamente dados provenientes de aplicativos Adobe Experience Cloud<ul><li>Adobe Analytics: [Documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=en#connectors) e [Tutorial em vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html)</li><li>Audience Manager: [Documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=en#connectors) e [Tutorial em vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html)</li></ul> |
+| SDK da Web/Móvel | Latência:<ul><li>Tempo real - coleção da mesma página para a Edge Network</li><li>Assimilação por streaming para o Perfil ~1 minuto</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</ul>Documentação: <ul><li>[SDK da Web](https://experienceleague.corp.adobe.com/docs/web-sdk.html)</li><li>[SDK móvel](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)</li></ul> |
+| Fontes de streaming | Latência:<ul><li>Tempo real - coleção da mesma página para a Edge Network</li><li>Assimilação por streaming para o Perfil ~1 minuto</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</li></ul>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#connectors) |
+| API de streaming | Latência:<ul><li>Tempo real - coleção da mesma página para a Edge Network</li><li>Assimilação por streaming para o Perfil ~1 minuto</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</li><li>7 GB/hora</li></ul>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR#what-can-you-do-with-streaming-ingestion%3F) |
+| Ferramentas de ETL | Use ferramentas de ETL para modificar e transformar dados corporativos antes de assimilá-los na Experience Platform.<br><br>Latência:<ul><li>O tempo depende da programação da ferramenta externa de ETL. Em seguida, aplicam-se medidas de proteção padrão de assimilação, com base no método usado.</li></ul> |
+| Origens de lote | Busca programada na origem<br>Latência: ~ 200 GB/hora<br><br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=en#connectors)<br>[Tutoriais em vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=pt-BR) |
+| API de lote | Latência:<ul><li>A assimilação em lote para o Perfil depende do tamanho e das cargas de tráfego ~45 minutos</li><li>A assimilação em lote para o data lake depende do tamanho e das cargas de tráfego</li></ul>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=pt-BR#batch) |
+| Conectores de aplicativos da Adobe | Assimile automaticamente os dados cuja origem se encontra nos aplicativos da Adobe Experience Cloud<ul><li>Adobe Analytics: [Documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR#connectors) e [Tutorial em vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-adobe-analytics.html?lang=pt-BR)</li><li>Audience Manager: [Documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR#connectors) e [Tutorial em vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-aam.html?lang=pt-BR)</li></ul> |
 
 
 ## Métodos de preparação de dados
 
 | Métodos de preparação de dados | Descrição |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Data Science Workspace]  - Preparação de dados | Transformação orientada por modelo, transformação com script.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=en) |
+| [!UICONTROL Data Science Workspace]  - Preparação de dados | Transformação orientada por modelos, transformação por script.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=pt-BR) |
 | Ferramenta ETL externa ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] e assim por diante) | Execute transformações complexas em ferramentas de ETL e use APIs padrão do Experience Platform [!UICONTROL Serviço de fluxo] ou conectores de origem para assimilar os dados resultantes. |
-| [!UICONTROL Serviço]  de query - Preparação de dados | Une, divide, mescla, transforma, consulta e filtre dados em um novo conjunto de dados. Usando Criar Tabela como Selecionar (CTAS) <br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=en#sql) |
-| Mapeador XDM e funções de preparação de dados (Streaming e lote) | Mapeie atributos de origem no formato CSV ou JSON para atributos XDM durante a assimilação do Experience Platform.<br>Calcular funções nos dados à medida que são assimilados; ou seja, formatação de dados, divisão, concatenação e assim por diante.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=en) |
+| [!UICONTROL Serviço]  de query - Preparação de dados | Une, divide, mescla, transforma, consulta e filtre dados em um novo conjunto de dados. Usando Criar Tabela como Selecionar (CTAS) <br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR#sql) |
+| Mapeador XDM e funções de preparação de dados (Streaming e lote) | Mapeie atributos de origem no formato CSV ou JSON para atributos XDM durante a assimilação do Experience Platform.<br>Compute funções sobre dados conforme eles são assimilados, ou seja, formatação, separação, concatenação de dados, e assim por diante.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=pt-BR) |
 
-## Publicações de blog relacionadas
+## Publicações do blog relacionadas
 
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17?source=your_stories_page-------------------------------------)
 * [[!DNL High Throughput Ingestion with Iceberg]](https://medium.com/adobetech/high-throughput-ingestion-with-iceberg-ccf7877a413f?source=your_stories_page-------------------------------------)
