@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 translation-type: tm+mt
-source-git-commit: 9a52c5f9513e39b31956aaa0f30cad1426b63a95
+source-git-commit: ed56e79cd45c956cab23c640810dc8e1cc204c16
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '648'
+ht-degree: 80%
 
 ---
 
@@ -31,27 +31,11 @@ Sincronize a personalização da Web com emails e outras personalizações de ca
 
 ## Arquitetura
 
-<img src="assets/onoff.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline na Web" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline na Web" style="border:1px solid #4a4a4a" />
 
 ## Medidas de proteção
 
-### Grades de proteção para avaliação e ativação de segmentos
-
-| Tipo de segmentação | Frequência | Taxa de transferência | Latência (Avaliação de segmento) | Latência (Ativação de segmento) |
-|---|---|---|---|---|
-| Segmentação de borda | A segmentação de borda está atualmente em beta e permite que a segmentação válida em tempo real seja avaliada na rede de borda do Experience Platform para obter decisões de página em tempo real e em tempo real, por meio do Adobe Target e do Adobe Journey Optimizer. |  | ~100 ms | Disponível imediatamente para personalização no Adobe Target, para pesquisas de perfil no Perfil do Edge e para ativação via destinos baseados em cookies. |
-| Segmentação por streaming | Toda vez que um novo evento ou registro de transmissão é assimilado no perfil do cliente em tempo real e a definição do segmento é um segmento de transmissão válido. <br>Consulte a  [documentação ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR) de segmentação para obter orientação sobre os critérios de segmento de streaming | Até 1500 eventos por segundo. | ~ p95 &lt;5 min | Depois que essas realizações de segmento ocorrem, elas são compartilhadas com o Audience Manager e o serviço de compartilhamento de público-alvo em minutos e disponibilizadas para a mesma/próxima personalização de página no Adobe Target. |
-| Segmentação incremental | Uma vez por hora para novos dados que foram assimilados no perfil do cliente em tempo real desde a última avaliação de segmento incremental ou em lote. |  |  | Depois que essas associações de segmento forem realizadas, elas serão compartilhadas com o Audience Manager e o serviço de compartilhamento de público-alvo em minutos e estarão disponíveis para a mesma/próxima personalização de página no Adobe Target. |
-| Segmentação em lote | Uma vez por dia, com base em um agendamento predeterminado do conjunto de sistemas ou no início manual da ad hoc por meio da API. |  | Aproximadamente uma hora por trabalho para até 10 TB de tamanho de armazenamento de perfil, 2 horas por trabalho para 10 TB a 100 TB de tamanho de armazenamento de perfil. O desempenho do trabalho do segmento em lote depende do número de perfis, do tamanho dos perfis e do número de segmentos que estão sendo avaliados. | Depois que essas associações de segmento forem realizadas, elas serão compartilhadas com o Audience Manager e o serviço de compartilhamento de público-alvo em minutos e estarão disponíveis para a mesma/próxima personalização de página no Adobe Target. |
-
-### Grades de proteção para compartilhamento de público em aplicativos cruzados
-
-
-| Padrão de integração de compartilhamento de público-alvo | Detalhe | Frequência | Taxa de transferência | Latência (Avaliação de segmento) | Latência (Ativação de segmento) |
-|---|---|---|---|---|---|
-| Plataforma de dados do cliente em tempo real para o Audience Manager |  | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Dependendo do tipo de segmentação - consulte a tabela de medidas de proteção de segmentação acima. | Em minutos da conclusão da avaliação do segmento.<br>A sincronização da configuração inicial do público-alvo entre a Plataforma de dados do cliente em tempo real e o Audience Manager demora aproximadamente 4 horas.<br>Todas as associações de público-alvo realizadas durante o período de 4 horas serão gravadas no Audience Manager no trabalho subsequente de segmentação em lote como associações de público-alvo &quot;existentes&quot;. |
-| Adobe Analytics para Audience Manager | Por padrão, um máximo de 75 públicos-alvo pode ser compartilhado para cada conjunto de relatórios do Adobe Analytics. Se uma licença do Audience Manager for usada, não há limite para o número de públicos-alvo que podem ser compartilhados entre o Adobe Analytics e o Adobe Target ou Adobe Audience Manager e Adobe Target. |  |  |  |  |
-| Adobe Analytics para a plataforma de dados do cliente em tempo real | Não disponível no momento. |  |  |  |  |
+Consulte as grades de proteção na seção Esquemas de ativação de público-alvo e perfil - [LINK](../audience-activation/overview.md)
 
 ## Padrões de implementação
 
@@ -62,11 +46,11 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 
 ### 1. Plataforma Web/Mobile SDK e Abordagem de borda
 
-<img src="assets/websdkflow.svg" alt="Arquitetura de referência para o [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] e a abordagem [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para o [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] e a abordagem [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
 
 ### 2. Abordagem do SDK específica do aplicativo
 
-<img src="assets/appsdkflow.png" alt="Arquitetura de referência para abordagem do SDK específico para aplicativos" style="border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.png" alt="Arquitetura de referência para abordagem do SDK específico para aplicativos" style="border:1px solid #4a4a4a" />
 
 ## Pré-requisitos de implementação
 
@@ -96,7 +80,7 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 
 * [Compartilhamento de segmentos da Experience Platform com o Audience Manager e outras soluções da Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=pt-BR)
 * [Visão geral da Segmentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR)
-* [Segmentação por streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html)
+* [Segmentação por streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR)
 * [Visão geral do Construtor de segmentos da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR)
 * [Conector de origem do Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR)
 * [Compartilhamento de segmentos do Adobe Analytics por meio da Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
