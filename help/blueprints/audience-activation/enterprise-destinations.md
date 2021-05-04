@@ -5,10 +5,10 @@ solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: 762836aba236ed78f4f396e8521a99c775dd52fc
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 39%
+source-wordcount: '418'
+ht-degree: 43%
 
 ---
 
@@ -35,13 +35,14 @@ Consulte as grades de proteção conforme descrito na página Visão geral de p�
 
 ## Etapas de implementação
 
-1. Crie esquemas para os dados que serão assimilados.
-1. Crie conjuntos de dados para que os dados sejam assimilados.
-1. Configure as identidades certas e os namespaces de identidade no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
-1. Ative os esquemas e conjuntos de dados para processamento de perfis.
-1. Configure quaisquer fontes para assimilação de dados.
-1. Crie segmentos no Experience Platform, que serão avaliados em lote ou streaming. O sistema decide automaticamente se o segmento é avaliado em lote ou por streaming.
-1. Configure destinos para compartilhar atributos de perfil e associações de públicos com destinos desejados.
+1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para os dados que serão assimilados.
+1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de dados para que os dados sejam assimilados.
+1. [Configure as identidades certas e os namespaces de identidade no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
+1. [Habilite esquemas e conjuntos de dados para o Perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [Assimile os dados na Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
+1. [Forneça compartilhamento de segmentos da plataforma de dados do cliente em tempo real entre a Experience Platform e o Audience Manager. Assim, os públicos definidos na Experience Platform podem ser compartilhados com o Audience Manager.](https://www.adobe.com/go/audiences)
+1. [Crie segmentos no Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR), que serão avaliados em lote ou streaming. O sistema decide automaticamente se o segmento é avaliado em lote ou por streaming.
+1. [Configure destinos para compartilhar atributos de perfil e associações de públicos com destinos desejados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html)
 
 ## Documentos relacionados
 
@@ -56,4 +57,4 @@ Consulte as grades de proteção conforme descrito na página Visão geral de p�
 
 * [Visão geral da Plataforma de dados do cliente em tempo real](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
 * [[!UICONTROL Demonstração da Plataforma de dados do cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
-* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR)
+* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
