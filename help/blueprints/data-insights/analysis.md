@@ -6,10 +6,10 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039,a972ea56-d1c8-45da-9044-ed31222a2441
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 44%
+source-wordcount: '291'
+ht-degree: 36%
 
 ---
 
@@ -39,9 +39,8 @@ Determinadas medidas de proteção se aplicam ao tempo limite da consulta e à q
 
 ## Medidas de proteção
 
-* Tempo limite de 10 minutos para consultas interativas
-* Limite de 100 registros retornados na interface
-* Limite de 50.000 registros retornados por meio do conector SQL
+Consulte a Documentação do produto do Serviço de query para obter detalhes sobre práticas recomendadas e medidas de proteção.
+[Diretrizes do Serviço de query](https://experienceleague.adobe.com/docs/experience-platform/query/best-practices/writing-queries.html?lang=en#best-practices)
 
 ## Etapas de implementação
 
