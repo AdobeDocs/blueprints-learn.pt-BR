@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '518'
 ht-degree: 98%
 
 ---
@@ -35,13 +35,6 @@ Tenha uma visualização consolidada única do comportamento do cliente em vári
 ## Arquitetura
 
 <img src="assets/CJA.svg" alt="Blueprint de arquitetura de referência para o Customer Journey Analytics" style="border:1px solid #4a4a4a" />
-
-## Medidas de proteção
-
-Assimilação de dados no Customer Journey Analytics:
-
-* Assimilação de dados para o lake: API ~ 7 GB/hora, conector de origem ~ 200 GB/hora, streaming para o lake ~ 15 minutos, conector de origem do Adobe Analytics para o lake ~ 45 minutos.
-* Após a publicação dos dados no data lake, pode demorar até 90 minutos para processá-los no Customer Journey Analytics.
 
 ## Etapas de implementação
 
