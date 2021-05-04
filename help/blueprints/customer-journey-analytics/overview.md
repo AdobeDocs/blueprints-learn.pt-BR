@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 translation-type: tm+mt
-source-git-commit: b0664edc3d29d693d33eefc3b3c6da8bf7308224
+source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 96%
+source-wordcount: '250'
+ht-degree: 90%
 
 ---
 
@@ -29,6 +29,13 @@ Análises comuns incluem:
 |---|---|---|
 | **[Análise de Jornada entre canais](digital-behavioral-data-consolidation.md)** | <ul><li>Tenha uma visualização consolidada única do comportamento do cliente em vários canais ao unificar dados de várias propriedades da web, móveis e offline.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
 | **[Análise de Jornada de Deflexão de Chamada](call-deflect.md)** | <ul><li>Determine quais comportamentos são mais indicativos nos resultados de chamadas atendidas por agentes ao reunir dados da central de atendimento com dados da web, dispositivos móveis e outros dados de interação.</li><li>É possível usar esses insights para aprimorar a experiência do cliente e encurtar o caminho para interações atendidas por agentes por meio de conteúdo e ferramentas de autoatendimento.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+
+## Grades de proteção para Customer Journey Analytics Blueprints
+
+### Diagrama de Proteção
+
+<img src="assets/cja_guardrails.svg" alt="Diagrama de grade de proteção para o Customer Journey Analytics Blueprints" style="border:1px solid #4a4a4a" />
+
 
 ## Publicações do blog relacionadas
 
