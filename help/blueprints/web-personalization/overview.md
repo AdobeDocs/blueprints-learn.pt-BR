@@ -6,10 +6,10 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: cbc9c48041d00c45fc75d3bb65bd865f1f7ecc9c
+source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 90%
+source-wordcount: '247'
+ht-degree: 78%
 
 ---
 
@@ -21,6 +21,14 @@ O de personalização da Web e móvel aborda a capacidade de utilizar a segmenta
 |---|---|---|
 | **[Personalização comportamental da Web/móvel](behavioral.md)** | <ul><li>Personalize com base em comportamentos online e nos dados do público</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 | **[Personalização online/offline Web/móvel](online-offline.md)** | <ul><li>Personalize com atributos e eventos offline (transações, reservas, CRM e dados de fidelização).</li><li>Sincronize a personalização na Web, nos emails e em outros canais conhecidos.</li></ul> | <ul><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
+
+## Grades de proteção para a Web e a personalização móvel
+
+Consulte as grades de proteção na seção Esquemas de ativação de público-alvo e perfil - [LINK](../audience-activation/overview.md)
+
+### Diagrama de proteção de personalização online/offline
+
+<img src="assets/personalization_guardrails.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline na Web" style="border:1px solid #4a4a4a" />
 
 ## Publicações do blog relacionadas
 
