@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: 61cb72965cd528cf264231058b1010829a87df9e
+source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 74%
@@ -34,6 +34,7 @@ Ative públicos para destinos conhecidos com base no perfil, como provedores de 
 ### Audience Activation online/offline com destinos
 
 <img src="assets/online_offline_activation.svg" alt="Arquitetura de referência para o Blueprint de Audience Activation online/offline" style="border:1px solid #4a4a4a" />
+<br>
 
 ### Audience Activation on-line/off-line com aplicativos Experience Cloud
 
