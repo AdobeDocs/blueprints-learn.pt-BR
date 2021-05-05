@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
 translation-type: tm+mt
-source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
+source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 73%
@@ -44,7 +44,7 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 1. [Configure as identidades certas e os namespaces de identidade no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
 1. [Ative os esquemas e conjuntos de dados para perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
 1. [Assimile dados na Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. [Configurar políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html)
+1. [Configurar políticas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) de mesclagem.
 1. Use a API de [Entidades para buscar um atributo de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html), da entidade de registro ou da entidade de evento de experiência.
 
 ## Documentos relacionados
