@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b,c7d6356d-a1ae-472b-b501-5c736e990252
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,8 @@ O Blueprint de coleção de dados corporativos do servidor apresenta como os dad
 
 ## Documentos relacionados
 
-[Documentação do servidor do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=pt-BR#server-side-info)
+[Documentação do servidor do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=pt-BR#server-side-info) 
+[Vídeos do servidor Experience Platform Launch](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html)
 
 ## Publicações do blog relacionadas
 
