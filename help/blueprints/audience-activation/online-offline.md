@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 translation-type: tm+mt
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
+source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 69%
+source-wordcount: '543'
+ht-degree: 63%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 69%
 Use atributos e eventos offline, como pedidos, transações, dados de CRM ou de fidelização, com comportamentos online para direcionamento e personalização online.
 
 Ative públicos para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.
+
+O Blueprint Audience Activation Online/Offline se alinha ao [Audience and Profile Ativation with Experience Cloud Applications Blueprint](platform-and-applications.md). Detalhes adicionais são fornecidos no [Audience and Profile Ativation with Experience Cloud Applications Blueprint](platform-and-applications.md)   específico para integrações entre aplicativos Experience Platform e Experience Cloud.
 
 ## Casos de uso
 
@@ -42,7 +44,7 @@ Ative públicos para destinos conhecidos com base no perfil, como provedores de 
 
 ## Medidas de proteção
 
-Consulte as grades de proteção conforme descrito na página Visão geral de público-alvo e ativação de perfil - [LINK](overview.md)
+[Consulte as grades de proteção conforme descrito na página Visão geral de público-alvo e ativação de perfil .](overview.md)
 
 ## Etapas de implementação
 
