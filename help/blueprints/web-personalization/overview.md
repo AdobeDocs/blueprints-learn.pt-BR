@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 translation-type: tm+mt
-source-git-commit: da21d1796eb9a2c9c0f087d82606874ca55bd4ea
+source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 76%
 
 ---
@@ -24,7 +24,7 @@ O de personalização da Web e móvel aborda a capacidade de utilizar a segmenta
 
 ## Grades de proteção para a Web e a personalização móvel
 
-Para painéis de proteção relacionados à ativação de público-alvo e perfil, consulte as grades de proteção na seção Esquemas de ativação de público-alvo e perfil - [LINK](../audience-activation/overview.md)
+[Para painéis de proteção relacionados à ativação de público-alvo e perfil, consulte as grades de proteção na seção Blueprints de ativação de público-alvo e perfil .](../audience-activation/overview.md)
 
 ### Diagrama de proteção de personalização online/offline
 
