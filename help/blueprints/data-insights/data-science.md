@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 translation-type: tm+mt
-source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
+source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 69%
+source-wordcount: '398'
+ht-degree: 63%
 
 ---
 
@@ -28,8 +28,9 @@ A Ciência de dados personalizados para o esquema de enriquecimento de perfil il
 
 ## Etapas de implementação
 
-1. Crie esquemas e conjuntos de dados.
-1. Assimile dados na Experience Platform.
+1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para os dados que serão assimilados.
+1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de dados para que os dados sejam assimilados.
+1. [Assimile os dados na Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
 1. Crie um DSW notebook.
 1. Escolha um idioma. Python e PySpark são compatíveis.
 1. Crie um modelo no notebook.
