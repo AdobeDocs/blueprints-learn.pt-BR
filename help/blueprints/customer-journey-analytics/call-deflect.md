@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: 7209
 exl-id: 13593c1c-4c58-4b8a-aa6c-7530fd679a14
 translation-type: tm+mt
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
+source-git-commit: 6365fa00a77ba22774b2d6de3e882a3e09dcae0f
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 98%
+source-wordcount: '638'
+ht-degree: 93%
 
 ---
 
@@ -36,8 +36,9 @@ Analise o comportamento do cliente no desktop e em publicações de conteúdo pa
 
 ## Etapas de implementação
 
-1. Configure conjuntos de dados e esquemas.
-1. Assimile os dados na Platform.
+1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para os dados que serão assimilados.
+1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de dados para que os dados sejam assimilados.
+1. [Assimile os dados na Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion).
 Os dados devem ser assimilados na Platform antes de assimilá-los no Customer Journey Analytics.
 1. Analise conjuntos de dados de eventos entre canais.
 Conjuntos de dados analisados juntos devem ter uma ID de namespace comum ou ser rechaveados por meio da funcionalidade de adesão com base nos campos do Customer Journey Analytics. 
