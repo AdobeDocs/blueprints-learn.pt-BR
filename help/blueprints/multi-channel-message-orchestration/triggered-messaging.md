@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 translation-type: tm+mt
-source-git-commit: 37416aafc997838888edec2658d2621d20839f94
+source-git-commit: 81df87f850b7ac4be9dce7a3b96d39a3a47685c5
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 81%
+source-wordcount: '694'
+ht-degree: 70%
 
 ---
 
@@ -68,23 +68,23 @@ Execute mensagens e experiências acionadas usando a Adobe Experience Platform c
 
 #### Esquemas/Conjuntos de dados
 
-1. Configure perfis individuais, eventos de experiência e esquemas de várias entidades na Experience Platform com base em dados fornecidos pelo cliente.
-1. Crie esquemas do Adobe Campaign para o seguinte: broadLog, trackingLog, endereços não entregues e preferências de perfil (opcional).
-1. Adicione rótulos de uso de dados ao conjunto de dados para governança.
-1. Crie políticas para aplicar governança nos destinos.
+1. [Configure perfil individual, evento de experiência e esquemas de várias entidades na Experience Platform com base nos dados fornecidos pelo cliente.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. Crie esquemas do Adobe Campaign para broadLog, trackingLog, endereços não entregues e preferências de perfil (opcional).
+1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de dados no Experience Platform para que os dados sejam assimilados.
+1. [Adicione ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html) rótulos de uso de dados no Experience Platform ao conjunto de dados para controle.
+1. [Crie políticas que apliquem governança nos destinos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html)
 
 #### Perfil/Identidade
 
-1. Crie qualquer namespace específico para clientes.
-1. Adicione identidades a esquemas.
-1. Habilite esquemas e conjuntos de dados para o perfil.
-1. Configure regras de mesclagem para diferentes exibições de [!UICONTROL Real-time Customer Profile] (opcional).
+1. [Crie qualquer namespace específico para clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Habilite esquemas e conjuntos de dados para o Perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
+1. [Configure ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) políticas de mesclagem para diferentes visualizações do Perfil do cliente em tempo  [!UICONTROL real]  (opcional).
 1. Crie segmentos para uso do Adobe Campaign.
 
 #### Origens/Destinos
 
-1. Assimile dados na Experience Platform usando APIs de streaming e conectores de origem.
-1. Configure o [!DNL Azure] destino de armazenamento de blobs para uso com o Adobe Campaign.
+1. [Insira dados na Experience ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) Platform usando APIs de fluxo e conectores de origem.1. Configure o destino de armazenamento de  [!DNL Azure] blob para uso com o Adobe Campaign.
 
 #### Implantação de aplicativo para dispositivos móveis
 
