@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 translation-type: tm+mt
-source-git-commit: ee4e59f014ad73df8e9bceb2a41752b3bc760761
+source-git-commit: 5471d9c0f6fdef6fbac72d5d35f32353ea5a5ee8
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 28%
@@ -25,7 +25,7 @@ Com uma abordagem que prioriza os canais, cada canal age como um silo, no qual o
 | **[Audience Activation anônimo](anonymous.md)** | <ul><li>Direcione públicos-alvos na Web e nos canais de publicidade para dados de clientes anônimos e comportamentais.</li><li>Integre a dados de público de terceiros para personalização aprimorada.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Audience Activation online/offline](online-offline.md)** | <ul><li>Ative destinos conhecidos com base em perfis, como provedores de email, redes sociais e destinos de anúncios. </li><li>Use atributos e eventos offline, como pedidos offline, transações, CRM ou dados de fidelidade, juntamente com o comportamento online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Audience Manager (opcional)</li></ul> |
 | **[Audience and Profile Ativation to Enterprise Destinations](enterprise-destinations.md)** | <ul><li>Replicação e atualização de alterações de perfil e público-alvo em armazenamentos de dados corporativos para casos de uso de ativação e relatórios. </li></ul><ul><li>Inicie uma ação de vendas ou suporte ao cliente por meio da notificação de uma ação do cliente da [!UICONTROL Real-time Customer Data Platform] para sistemas e aplicativos corporativos.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Ativação de Experience Platform</li><li>Adobe Audience Manager (opcional)</li></ul> |
-| **[Ativação de público-alvo e perfil com aplicativos Experience Cloud](aep+apps.md)** | </ul><li>Gerencie perfis e públicos no Experience Platform e compartilhe-os com aplicativos Experience Cloud</li><li>Crie e compartilhe segmentos avançados de clientes e insights no Experience Platform e compartilhe-os com Aplicativos Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Ativação de Experience Platform</li><li>Aplicativos da Experience Cloud</li></ul> |
+| **[Ativação de público-alvo e perfil com aplicativos Experience Cloud](platform-and-applications.md)** | </ul><li>Gerencie perfis e públicos no Experience Platform e compartilhe-os com aplicativos Experience Cloud</li><li>Crie e compartilhe segmentos avançados de clientes e insights no Experience Platform e compartilhe-os com Aplicativos Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Ativação de Experience Platform</li><li>Aplicativos da Experience Cloud</li></ul> |
 | **[Hub de atividades do cliente](customer-activity.md)** | <ul><li>Forneça contexto aprofundado do consumidor nas interações com agentes, como suporte e experiências de vendas. Usando a pesquisa de perfil no Experience Platform, os agentes podem receber mais contexto sobre o consumidor, como compras recentes, interações de campanha, tendências, associações de público-alvo e outros atributos e insights armazenados no perfil do cliente em tempo real.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 
