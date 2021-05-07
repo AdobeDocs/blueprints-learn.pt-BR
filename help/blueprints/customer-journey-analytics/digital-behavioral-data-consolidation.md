@@ -1,5 +1,5 @@
 ---
-title: Análise de Jornada entre canais
+title: Análise da jornada entre canais
 description: Analise e extraia insights de interações em toda a jornada do cliente.
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
@@ -8,18 +8,18 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
-# Blueprint de análise de Jornada entre canais
+# Blueprint de análise da jornada entre canais
 
 Tenha uma visualização consolidada única do comportamento do cliente em vários canais ao unificar dados de várias propriedades da web, móveis e offline.
 
 ## Casos de uso
 
 * Análise de interações com o cliente em desktops e dispositivos móveis para compreender o comportamento do cliente e extrair insights, aprimorando assim as experiências digitais do cliente.
-* Análise de interações com o cliente em todos os canais,incluindo canais digitais e offline, como interações de suporte e compras na loja. Isso gera um melhor entendimento e aprimora a jornada do cliente. 
+* Análise de interações com o cliente em todos os canais, incluindo canais digitais e offline, como interações de suporte e compras na loja. Isso gera um melhor entendimento e aprimora a jornada do cliente. 
 
 ## Aplicativos
 
@@ -38,8 +38,8 @@ Tenha uma visualização consolidada única do comportamento do cliente em vári
 
 ## Etapas de implementação
 
-1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para os dados que serão assimilados.
-1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de dados para que os dados sejam assimilados.
+1. [Crie esquemas para que os dados sejam assimilados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Crie conjuntos de dados para que os dados sejam assimilados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Assimile dados na Experience Platform.
 ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 Os dados devem ser assimilados na Platform antes de processá-los no Customer Journey Analytics.
@@ -72,7 +72,7 @@ Os dados devem ser assimilados na Platform antes de processá-los no Customer Jo
 
    Objetos e atributos do mesmo campo XDM mesclam-se em uma dimensão no Customer Journey Analytics. Para mesclar vários atributos de vários conjuntos de dados na mesma dimensão do Customer Journey Analytics, os conjuntos de dados devem fazer referência ao mesmo campo ou esquema XDM.
 
-## Documentos relacionados
+## Documentação relacionada
 
 * [Descrição do produto Customer Journey Analytics](https://helpx.adobe.com/br/legal/product-descriptions/customer-journey-analytics.html)
 * [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=pt-BR)
