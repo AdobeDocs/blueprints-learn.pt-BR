@@ -7,23 +7,23 @@ translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
 # Blueprints de experiência digital
 
-Os Digital Experience Blueprints são implementações repetíveis que permitem que você solucione a estratégia e solucione rapidamente problemas de negócios estabelecidos. Cada Blueprint fornece uma série de artefatos que explicam o problema de negócios de alto valor, arquiteturas, etapas de implementação, considerações técnicas e links para a documentação relevante.
+Os blueprints de experiência digital são implementações replicáveis que atendem a estratégias e resolvem com rapidez problemas empresariais consagrados. Cada blueprint fornece uma série de artefatos que explicam o problema empresarial de alta relevância, as arquiteturas, as etapas de implementação, as considerações técnicas e os links para a documentação relevante.
 
 ## Novidades
 
-* **[Audience and Profile Ativation to Enterprise Destinations Blueprint](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[Blueprint de ativação de público-alvo e perfil para destinos corporativos](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
-   *Mantenha os perfis do cliente atualizados em todos os sistemas para capacitar suas equipes de vendas e suporte &#x200B;.*
+   *Mantenha os perfis de clientes atualizados em todos os sistemas para capacitar suas equipes de vendas e suporte&#x200B;.*
 * **[Blueprint do Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Fornece contexto para suporte e vendas assistidas por agentes.*
-* **[Blueprint de análise e inteligência de dados](/help/blueprints/data-insights/analysis.md)**
+* **[Blueprint de análise de dados e inteligência](/help/blueprints/data-insights/analysis.md)**
 
    *Realiza consulta e análise exploratória dos dados no data lake.*
 
@@ -32,19 +32,19 @@ Os Digital Experience Blueprints são implementações repetíveis que permitem 
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><img alt="imagem em miniatura para o Blueprint Experience Platform e mensagens acionadas" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Mensagens e Experience Platform acionadas</strong></a></div>
-    <p><em>Acione mensagens e experiências usando a [!UICONTROL Platform] como um hub central.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html?lang=pt-BR"><img alt="imagem em miniatura do blueprint de mensagens acionadas e da Experience Platform" src="multi-channel-message-orchestration/assets/triggered.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/triggered-messaging.html"><strong>Mensagens acionadas e Experience Platform</strong></a></div>
+    <p><em>Acione mensagens e experiências usando a [!UICONTROL Platform] como hub central.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><img alt="imagem em miniatura para o Blueprint Audience Activation online/offline" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Audience Activation online/offline</strong></a></div>
-    <p><em>Forneça publicidade entre canais ativadas pelo público.</em></p>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=pt-BR"><img alt="imagem em miniatura do blueprint de ativação de público-alvo online/offline" src="audience-activation/assets/online_offline_activation.svg" /></a>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Ativação de público-alvo online/offline</strong></a></div>
+    <p><em>Forneça publicidade entre canais ativada pelo público.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><img alt="imagem em miniatura do Digital Behavioral Data Consolidation Blueprint" src="customer-journey-analytics/assets/CJA.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html?lang=pt-BR"><img alt="imagem em miniatura do blueprint de consolidação de dados digitais comportamentais" src="customer-journey-analytics/assets/CJA.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/digital-behavioral-data-consolidation.html"><strong>Consolidação de dados digitais comportamentais</strong></a></div>
-    <p><em>Ter uma única visualização consolidada do comportamento do cliente em vários canais.</em></p>
+    <p><em>Tenha uma única visualização consolidada do comportamento do cliente em vários canais.</em></p>
   </td>
 </tr>
 </table>
