@@ -1,6 +1,6 @@
 ---
 title: Blueprint do Hub de atividades do cliente
-description: '[!UICONTROL Pesquisas de perfis de clientes em tempo real para fornecer contexto ao suporte e às vendas atendidas por agentes.]'
+description: Pesquisas de [!UICONTROL perfis de clientes em tempo real] para fornecer contexto ao suporte e às vendas atendidas por agentes.
 solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 73%
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 73%
 
 O Blueprint do Hub de atividades do cliente apresenta como aplicativos externos podem acessar o [!UICONTROL Perfil de cliente em tempo real] da Adobe Experience Platform.
 
-Aplicativos externos podem acessar perfis com uma solicitação de GET de API. Atributos, eventos, associações de segmentos e funcionalidades orientadas por modelos armazenadas no perfil podem depois ser usados nesses aplicativos externos que não são da Adobe.
+Aplicativos externos podem acessar Perfis de clientes com uma solicitação GET da API. Atributos, eventos, associações de segmentos e funcionalidades orientadas por modelos armazenadas no perfil podem depois ser usados nesses aplicativos externos que não são da Adobe.
 
 Com essa funcionalidade, é possível acessar conteúdo avançado durante chamadas de clientes à central de atendimento. Agentes de suporte teriam visibilidade do valor vitalício do cliente, da propensão à rotatividade ou exposição a campanhas de marketing, por exemplo. Os agentes de vendas também podem se beneficiar de conteúdos extras ou insights sobre os clientes.
 
@@ -35,21 +35,21 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 
 ## Medidas de proteção
 
-* [Medidas de proteção para dados de perfis de cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
+* [Medidas de proteção para dados de [!UICONTROL perfis de cliente em tempo real]](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 
 ## Etapas de implementação
 
-1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para os dados que serão assimilados.
-1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de dados para que os dados sejam assimilados.
-1. [Configure as identidades certas e os namespaces de identidade no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
+1. [Crie esquemas para que os dados sejam assimilados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Crie conjuntos de dados para que os dados sejam assimilados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
+1. [Configure as identidades corretas e os namespaces de identidade no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
 1. [Ative os esquemas e conjuntos de dados para perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
 1. [Assimile dados na Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. [Configurar políticas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) de mesclagem.
 1. Use a API de [Entidades para buscar um atributo de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html), da entidade de registro ou da entidade de evento de experiência.
 
-## Documentos relacionados
+## Documentação relacionada
 
 * [Descrição do produto Adobe Experience Platform Activation](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform0.html)
-* [Documentação do Perfil de cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR)
+* Documentação do [[!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR)
 * [Medidas de proteção de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [API de pesquisa de perfil](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
