@@ -1,5 +1,5 @@
 ---
-title: Blueprint de Ciência de dados personalizada para aprimoramento de perfis
+title: Blueprint de ciência de dados personalizada para aprimoramento de perfis
 description: Este blueprint apresenta como o Data Science Workspace, da Adobe Experience Platform, pode usar os dados contidos na Experience Platform para treinar, implantar e classificar modelos a fim de fornecer insights de aprendizado de máquina a partir dos dados.
 solution: Experience Platform,Data Collection
 kt: 7203
@@ -8,18 +8,18 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 63%
+ht-degree: 95%
 
 ---
 
-# Blueprint de Ciência de dados personalizada para aprimoramento de perfis
+# Blueprint de ciência de dados personalizada para aprimoramento de perfis
 
-A Ciência de dados personalizados para o esquema de enriquecimento de perfil ilustra como os dados no Adobe Experience Platform podem ser usados no [!UICONTROL Data Science Workspace] para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina. Esses modelos podem ser enviados diretamente para um conjunto de dados habilitado para [!UICONTROL Real-time Customer Profile] para enriquecer ainda mais os perfis de clientes. Esses insights podem ser ativados para personalização. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de produto e categoria, propensão para conversão ou propensão para churn.
+O Blueprint de ciência de dados personalizada para aprimoramento de perfis ilustra como os dados na Adobe Experience Platform podem ser usados no [!UICONTROL Data Science Workspace] para treinar, implantar e pontuar modelos a fim de fornecer insights de aprendizado de máquina. Esses modelos podem ser enviados diretamente para um conjunto de dados habilitado para o [!UICONTROL Perfil de cliente em tempo real] para aprimorar ainda mais os perfis de clientes. Esses insights podem ser utilizados na personalização. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de categorias e produtos, propensão à conversão ou à rotatividade.
 
 ## Casos de uso
 
 * Extraia insights e descubra padrões a partir de dados do cliente na Experience Platform. Treine e classifique modelos com esses dados.
-* Enriqueça o [!UICONTROL Perfil do cliente em tempo real] com insights e atributos orientados por modelo para personalização mais granular e jornadas otimizadas.
+* Aprimore o [!UICONTROL Perfil de cliente em tempo real] com insights e atributos orientados por modelos para uma personalização mais detalhada e jornadas aperfeiçoadas.
 * Treine e classifique modelos para determinar insights do cliente, como valor vitalício do cliente, propensão à conversão ou à rotatividade, afinidade de conteúdos e produtos e classificação de engajamentos.
 
 ## Arquitetura
@@ -28,21 +28,21 @@ A Ciência de dados personalizados para o esquema de enriquecimento de perfil il
 
 ## Etapas de implementação
 
-1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para os dados que serão assimilados.
-1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de dados para que os dados sejam assimilados.
+1. [Crie esquemas para que os dados sejam assimilados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Crie conjuntos de dados para que os dados sejam assimilados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Assimile dados na Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. Crie um DSW notebook.
 1. Escolha um idioma. Python e PySpark são compatíveis.
 1. Crie um modelo no notebook.
 1. Treine o modelo.
 1. Classifique o modelo para gerar predições com os dados do público-alvo.
-1. Ative o conjunto de dados de resultados do modelo para o perfil, caso envie os resultados do modelo para o [!UICONTROL Real-time Customer Profile].
+1. Habilite o conjunto de dados de resultados do modelo para perfil em caso de envio de resultados do modelo para o [!UICONTROL Perfil de cliente em tempo real].
 
-## Documentos relacionados
+## Documentação relacionada
 
 * [Descrição do produto Adobe Experience Platform Intelligence](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Documentação do Data Science Workspace](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=pt-BR)
-* [Tutoriais do Data Science Workspace](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=pt-BR)
+* Documentação do [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=pt-BR)
+* Tutoriais do [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/understanding-data-science-workspace.html?lang=pt-BR)
 
 ## Publicações do blog relacionadas
 
