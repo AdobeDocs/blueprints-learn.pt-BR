@@ -7,8 +7,8 @@ role: Architect, Developer, Business Practitioner
 translation-type: tm+mt
 source-git-commit: b8770bdc4db581be11b347e3788b1d6e6534fe10
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '120'
+ht-degree: 95%
 
 ---
 
@@ -19,24 +19,24 @@ ht-degree: 0%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform e Aplicativos](/help/blueprints/experience-platform/platform-applications.md)
    + [Fluxo de dados da Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-+ Público-alvo e ativação de perfil{#audience-activation}
++ Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
-   + [Audience Activation anônimo](/help/blueprints/audience-activation/anonymous.md)
-   + [Audience Activation online/offline](/help/blueprints/audience-activation/online-offline.md)
-   + [Ativation to Enterprise Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + [Ativação de público-alvo anônima](/help/blueprints/audience-activation/anonymous.md)
+   + [Ativação de público-alvo online/offline](/help/blueprints/audience-activation/online-offline.md)
+   + [Ativação para destinos corporativos](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Ativação com aplicativos Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Hub de atividades do cliente ](/help/blueprints/audience-activation/customer-activity.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Visão geral](/help/blueprints/customer-journey-analytics/overview.md)
-   + [Análise de Jornada entre canais](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
+   + [Análise da jornada entre canais](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [Diminuição de chamadas](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ Coleta e preparação de dados{#data-ingestion}
++ Coleta e preparação de dados {#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
-   + [Assimilação e preparação de dados ](/help/blueprints/data-ingestion/ingestion.md)
+   + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
    + [Coleção de dados corporativos do servidor ](/help/blueprints/data-ingestion/server-side-collection.md)
-+ Análise de dados, inteligência e IA/ML{#data-exploration}
++ Análise de dados, Inteligência e IA/Aprendizado de máquina {#data-exploration}
    + [Visão geral](/help/blueprints/data-insights/overview.md)
-   + [Análise de dados e inteligência](/help/blueprints/data-insights/analysis.md)
+   + [Análise de dados e Inteligência](/help/blueprints/data-insights/analysis.md)
    + [Ciência de dados personalizada para aprimoramento de perfis ](/help/blueprints/data-insights/data-science.md)
 + Orquestração de mensagens multicanais {#multi-channel-message-orchestration}
    + [Visão geral](/help/blueprints/multi-channel-message-orchestration/overview.md)
