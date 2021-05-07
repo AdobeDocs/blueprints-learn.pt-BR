@@ -1,6 +1,6 @@
 ---
-title: Blueprint de Preparação e assimilação de dados
-description: Este blueprint apresenta todos os métodos pelos quais os dados podem são assimilados e preparados na Adobe Experience Platform.
+title: Blueprint de preparação e assimilação de dados
+description: Este blueprint apresenta todos os métodos pelos quais os dados podem ser assimilados e preparados na Adobe Experience Platform.
 solution: Experience Platform,Data Collection
 kt: 7204
 thumbnail: null
@@ -9,19 +9,19 @@ translation-type: tm+mt
 source-git-commit: 9e0954334e8b8a8c5bf52651611e7afa165f6d21
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Blueprint de Preparação e assimilação de dados
+# Blueprint de preparação e assimilação de dados
 
-O Blueprint de Preparação e assimilação de dados abrange todos os métodos pelos quais os dados podem ser preparados e assimilados na Adobe Experience Platform.
+O blueprint de preparação e assimilação de dados abrange todos os métodos pelos quais os dados podem ser preparados e assimilados na Adobe Experience Platform.
 
 A preparação de dados inclui o mapeamento dos dados de origem para o esquema do Experience Data Model (XDM). Inclui também transformações nos dados, como formatação de dados, separação/concatenação/conversões de campos e junção/mesclagem/rechaveamento de registros. A preparação de dados ajuda na unificação dos dados do cliente para fornecer análise agregada/filtrada, incluindo relatórios ou preparação dos dados para agrupamento/ciência de dados/ativação do perfil do cliente.
 
 ## Arquitetura
 
-<img src="assets/data_ingestion.svg" alt="Blueprint de arquitetura de referência para Preparação e assimilação de dados" style="border:1px solid #4a4a4a" />
+<img src="assets/data_ingestion.svg" alt="Blueprint de arquitetura de referência para preparação e assimilação de dados" style="border:1px solid #4a4a4a" />
 
 ## Métodos de assimilação de dados
 
@@ -40,10 +40,10 @@ A preparação de dados inclui o mapeamento dos dados de origem para o esquema d
 
 | Métodos de preparação de dados | Descrição |
 |------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Data Science Workspace]  - Preparação de dados | Transformação orientada por modelos, transformação por script.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=pt-BR) |
-| Ferramenta ETL externa ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] e assim por diante) | Execute transformações complexas em ferramentas de ETL e use APIs padrão do Experience Platform [!UICONTROL Serviço de fluxo] ou conectores de origem para assimilar os dados resultantes. |
-| [!UICONTROL Serviço]  de query - Preparação de dados | Une, divide, mescla, transforma, consulta e filtre dados em um novo conjunto de dados. Usando Criar Tabela como Selecionar (CTAS) <br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR#sql) |
-| Mapeador XDM e funções de preparação de dados (Streaming e lote) | Mapeie atributos de origem no formato CSV ou JSON para atributos XDM durante a assimilação do Experience Platform.<br>Compute funções sobre dados conforme eles são assimilados, ou seja, formatação, separação, concatenação de dados, e assim por diante.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=pt-BR) |
+| [!UICONTROL Data Science Workspace] - Preparação de dados | Transformação orientada por modelos, transformação por script.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-science-workspace/home.html?lang=pt-BR) |
+| Ferramenta de ETL externa ([!DNL Snaplogic], [!DNL Mulesoft], [!DNL Informatica] e assim por diante) | Execute transformações complexas em ferramentas de ETL e use as APIs padrão dos [!UICONTROL Serviços de fluxo] da Experience Platform ou os conectores de origem para assimilar os dados resultantes. |
+| [!UICONTROL Serviço de consulta] - Preparação de dados | Reúna, separe, mescle, transforme, consulte e filtre dados em um novo conjunto de dados. Utilização do Create Table as Select (CTAS) <br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR#sql) |
+| Mapeador XDM e funções de preparação de dados (em lote e por streaming) | Mapeie atributos de origem no formato CSV ou JSON para atributos XDM durante a assimilação da Experience Platform.<br>Compute funções sobre dados conforme eles são assimilados, ou seja, formatação, separação, concatenação de dados, e assim por diante.<br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/data-prep/home.html?lang=pt-BR) |
 
 ## Publicações do blog relacionadas
 
