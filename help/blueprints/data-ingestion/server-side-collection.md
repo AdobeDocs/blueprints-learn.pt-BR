@@ -29,7 +29,7 @@ O Blueprint de coleção de dados corporativos do servidor apresenta como os dad
 
 <img src="assets/enterprise_collection.svg" alt="Arquitetura de referência para coleção de dados corporativos" style="border:1px solid #4a4a4a" />
 
-## Documentos relacionados
+## Documentação relacionada
 
 [Documentação do servidor do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=pt-BR#server-side-info) 
 [Vídeos do servidor Experience Platform Launch](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html)
