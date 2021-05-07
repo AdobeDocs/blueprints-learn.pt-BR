@@ -1,6 +1,6 @@
 ---
-title: 'Personalização da Web e móvel '
-description: Forneça conteúdo personalizado da Web e móvel com [!UICONTROL Real-time Customer Profile].
+title: Personalização da Web e móvel
+description: Forneça conteúdo personalizado da Web e móvel com o [!UICONTROL Perfil de cliente em tempo real].
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
@@ -9,18 +9,18 @@ translation-type: tm+mt
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 76%
+ht-degree: 87%
 
 ---
 
-#  de personalização da Web e móvel
+# Personalização da Web e móvel
 
-O de personalização da Web e móvel aborda a capacidade de utilizar a segmentação de público em vários aplicativos para personalizar e aprimorar experiências do cliente. É possível usar comportamentos do cliente, dados demográficos, nível de fidelização e transações prévias para personalizar layouts, planos de ações e conteúdos.
+Personalização da Web e móvel aborda a capacidade de utilizar a segmentação de público em vários aplicativos para personalizar e aprimorar as experiências do cliente. É possível usar comportamentos do cliente, dados demográficos, nível de fidelização e transações prévias para personalizar layouts, planos de ações e conteúdos.
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
-| **[Personalização comportamental da Web/móvel](behavioral.md)** | <ul><li>Personalize com base em comportamentos online e nos dados do público</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
-| **[Personalização online/offline Web/móvel](online-offline.md)** | <ul><li>Personalize com atributos e eventos offline (transações, reservas, CRM e dados de fidelização).</li><li>Sincronize a personalização na Web, nos emails e em outros canais conhecidos.</li></ul> | <ul><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
+| **[Personalização da Web/móvel com base comportamental](behavioral.md)** | <ul><li>Personalize com base em comportamentos online e nos dados do público</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
+| **[Personalização online/offline da Web/móvel](online-offline.md)** | <ul><li>Personalize com atributos e eventos offline (transações, reservas, CRM e dados de fidelização).</li><li>Sincronize a personalização na Web, nos emails e em outros canais conhecidos.</li></ul> | <ul><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 
 ## Grades de proteção para a Web e a personalização móvel
 
@@ -28,7 +28,7 @@ O de personalização da Web e móvel aborda a capacidade de utilizar a segmenta
 
 ### Diagrama de proteção de personalização online/offline
 
-<img src="assets/personalization_guardrails.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline na Web" style="border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="border:1px solid #4a4a4a" />
 
 ## Publicações do blog relacionadas
 
