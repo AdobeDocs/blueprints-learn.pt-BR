@@ -1,5 +1,5 @@
 ---
-title: Esquema de personalização comportamental da Web
+title: Blueprint de personalização da Web com base comportamental
 description: Personalize com base no comportamento online e nos dados do público-alvo.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
 workflow-type: tm+mt
 source-wordcount: '532'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Behavioural Web/Mobile Personalization Blueprint
+# Blueprint de personalização da Web/móvel com base comportamental
 
 Personalize com base no comportamento online e nos dados do público-alvo.
 
@@ -30,7 +30,7 @@ Personalize com base no comportamento online e nos dados do público-alvo.
 
 ## Arquitetura
 
-<img src="assets/behavioral_personalization.svg" alt="Arquitetura de referência para o Behavioral Web Personalization Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/behavioral_personalization.svg" alt="Arquitetura de referência para Blueprint de personalização da Web com base comportamental" style="border:1px solid #4a4a4a" />
 
 
 ## Medidas de proteção
@@ -39,16 +39,16 @@ Por padrão, o serviço de compartilhamento de segmentos permite compartilhar no
 
 ## Padrões de implementação
 
-O blueprint de personalização Web/Mobile pode ser implementado por meio das seguintes abordagens, conforme descrito abaixo.
+O blueprint de personalização da Web/móvel pode ser implementado por meio das seguintes abordagens, conforme descrito abaixo.
 
-1. Usando o [!UICONTROL SDK da Web da plataforma] ou [!UICONTROL SDK móvel da plataforma] e [!UICONTROL Rede de borda].
-1. Uso de SDKs tradicionais específicos do aplicativo (por exemplo, AppMeasurement.js)
+1. Usando o [!UICONTROL SDK da Web da Platform] ou o [!UICONTROL SDK móvel da Platform] e o [!UICONTROL Edge Network].
+1. Usando SDKs tradicionais específicos para aplicativos (por exemplo, AppMeasurement.js)
 
-### 1. Plataforma Web/Mobile SDK e Abordagem de borda
+### 1. Abordagem do SDK da Web/Móvel da Platform e o Edge
 
-<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para o [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] e a abordagem [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para a Abordagem do [!UICONTROL SDK da Web da Platform] ou do [!UICONTROL SDK móvel da Platform] e o [!UICONTROL Edge Newtwork]" style="border:1px solid #4a4a4a" />
 
-### 2. Abordagem do SDK específica do aplicativo
+### 2. Abordagem do SDK específico para aplicativos
 
 <img src="assets/app_sdk_flow.png" alt="Arquitetura de referência para abordagem do SDK específico para aplicativos" style="border:1px solid #4a4a4a" />
 
@@ -56,10 +56,10 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 
 | Aplicativo/Serviço | Biblioteca necessária | Observações |
 |---|---|---|
-| Adobe Target | [!UICONTROL Plataforma Web SDK]*, at.js 0.9.1+ ou mbox.js 61+ | Preferência pela at.js, uma vez que a mbox.js não está mais sendo desenvolvida. |
-| Adobe Audience Manager (opcional) | [!UICONTROL Plataforma Web SDK]* ou dil.js 5.0+ |  |
-| Adobe Analytics (opcional) | [!UICONTROL Plataforma Web SDK]* ou AppMeasurement.js 1.6.4+ |  |
-| Identity Service da Experience Cloud | [!UICONTROL Plataforma Web SDK]* ou VisitorAPI.js 2.0+ |  |
+| Adobe Target | [!UICONTROL SDK da Web da Platform]*, at.js 0.9.1+ ou mbox.js 61+ | Preferência pela at.js, uma vez que a mbox.js não está mais sendo desenvolvida. |
+| Adobe Audience Manager (opcional) | [!UICONTROL SDK da Web da Platform]* ou dil.js 5.0+ |  |
+| Adobe Analytics (opcional) | [!UICONTROL SDK da Web da Platform]* ou AppMeasurement.js 1.6.4+ |  |
+| Identity Service da Experience Cloud | [!UICONTROL SDK da Web da Platform]* ou VisitorAPI.js 2.0+ |  |
 | SDK Móvel da Experience Platform (opcional) | Versão 4.11 ou posterior para iOS e Android™ |  |
 | SDK da Web da Experience Platform | Versão 1.0. A versão atual do SDK da Experience Platform tem [vários casos de uso ainda não compatíveis com os aplicativos da Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
@@ -67,7 +67,7 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 
 1. [Implemente o Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=pt-BR) em seus aplicativos da Web ou dispositivos móveis.
 
-   Se estiver usando o Audience Manager ou Adobe Analytics:
+   Se estiver usando o Audience Manager ou o Adobe Analytics:
 
 1. [Implemente o Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR)
 1. [Implemente o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=pt-BR)
@@ -81,11 +81,11 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 1. Crie segmentos no [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=pt-BR) ou no [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=pt-BR) e [configure esses públicos para compartilhamento com a Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)  (se estiver usando o Audience Manager ou o Adobe Analytics)
 1. Depois que os públicos estiverem disponíveis no Adobe Target, eles podem ser usados para [experiências de direcionamento com o Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=pt-BR)
 
-## Documentos relacionados
+## Documentação relacionada
 
 * [Públicos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
 * [Integração do Audience Manager com o Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=pt-BR)
-* [Compartilhamento de segmentos do Adobe Analytics por meio da Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Compartilhamento de segmentos do Adobe Analytics por meio do Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 
 ## Publicações do blog relacionadas
