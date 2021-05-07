@@ -1,5 +1,5 @@
 ---
-title: Blueprint de Análise de Deflexão de Chamadas
+title: Blueprint de análise de diminuição de chamadas
 description: Analise o comportamento do cliente antes que ele entre em contato com a central de atendimento.
 solution: Experience Platform, Customer Journey Analytics
 kt: 7209
@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: 9fe9d67c5f97b633e45155bd54e2006f1b797332
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
-# Blueprint de Análise de Jornada de Detecção de Chamadas
+# Blueprint de análise da jornada da diminuição de chamadas
 
 Analise o comportamento do cliente no desktop e em publicações de conteúdo para dispositivos móveis antes que ele entre em contato com a central de atendimento. Identifique oportunidades para aprimorar a jornada de seus clientes ao entender que ações eles tentam finalizar, que conteúdo visualizam e que termos eles pesquisam antes de entrarem em contato com o suporte ao cliente. Determine o conteúdo e as ferramentas de autoatendimento que podem ser melhoradas para ajudar seus clientes a solucionarem problemas sem a necessidade de telefonar.
 
@@ -36,8 +36,8 @@ Analise o comportamento do cliente no desktop e em publicações de conteúdo pa
 
 ## Etapas de implementação
 
-1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html) esquemas para os dados que serão assimilados.
-1. [Crie ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html) conjuntos de dados para que os dados sejam assimilados.
+1. [Crie esquemas para que os dados sejam assimilados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
+1. [Crie conjuntos de dados para que os dados sejam assimilados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
 1. [Assimile dados na Experience Platform.
 ](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 Os dados devem ser assimilados na Platform antes de assimilá-los no Customer Journey Analytics.
@@ -74,7 +74,7 @@ Conjuntos de dados analisados juntos devem ter uma ID de namespace comum ou ser 
 
    Objetos e atributos do mesmo campo XDM mesclam-se em uma dimensão no Customer Journey Analytics. Para mesclar vários atributos de vários conjuntos de dados na mesma dimensão do CJA, os conjuntos de dados devem fazer referência ao mesmo campo ou esquema XDM.
 
-## Documentos relacionados
+## Documentação relacionada
 
 * [Descrição do produto Customer Journey Analytics](https://helpx.adobe.com/br/legal/product-descriptions/customer-journey-analytics.html)
 * [Documentação do Customer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics.html?lang=pt-BR)
