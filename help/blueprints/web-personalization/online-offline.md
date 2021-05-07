@@ -8,11 +8,11 @@ translation-type: tm+mt
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 80%
+ht-degree: 97%
 
 ---
 
-# Blueprint de personalização online/offline Web/móvel
+# Blueprint de personalização online/offline da Web/Publicações de conteúdo para dispositivos móveis
 
 Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
 
@@ -31,7 +31,7 @@ Sincronize a personalização da Web com emails e outras personalizações de ca
 
 ## Arquitetura
 
-<img src="assets/online_offline_personalization_with_apps.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline na Web" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_personalization_with_apps.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="border:1px solid #4a4a4a" />
 
 ## Medidas de proteção
 
@@ -39,16 +39,16 @@ Sincronize a personalização da Web com emails e outras personalizações de ca
 
 ## Padrões de implementação
 
-O blueprint de personalização Web/Mobile pode ser implementado por meio das seguintes abordagens, conforme descrito abaixo.
+O blueprint de personalização da Web/móvel pode ser implementado por meio das seguintes abordagens, conforme descrito abaixo.
 
-1. Usando o [!UICONTROL SDK da Web da plataforma] ou [!UICONTROL SDK móvel da plataforma] e [!UICONTROL Rede de borda].
-1. Uso de SDKs tradicionais específicos do aplicativo (por exemplo, AppMeasurement.js)
+1. Usando o [!UICONTROL SDK da Web da Platform] ou o [!UICONTROL SDK móvel da Platform] e o [!UICONTROL Edge Network].
+1. Usando SDKs tradicionais específicos para aplicativos (por exemplo, AppMeasurement.js)
 
-### 1. Plataforma Web/Mobile SDK e Abordagem de borda
+### 1. Abordagem do SDK da Web/Móvel da Platform e o Edge
 
-<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para o [!UICONTROL Platform Web SDK] ou [!UICONTROL Platform Mobile SDK] e a abordagem [!UICONTROL Edge Network]" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para a Abordagem do [!UICONTROL SDK da Web da Platform] ou do [!UICONTROL SDK móvel da Platform] e o [!UICONTROL Edge Newtwork]" style="border:1px solid #4a4a4a" />
 
-### 2. Abordagem do SDK específica do aplicativo
+### 2. Abordagem do SDK específico para aplicativos
 
 <img src="assets/app_sdk_flow.png" alt="Arquitetura de referência para abordagem do SDK específico para aplicativos" style="border:1px solid #4a4a4a" />
 
@@ -56,10 +56,10 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 
 | Aplicativo/Serviço | Biblioteca necessária | Observações |
 |---|---|---|
-| Adobe Target | [!UICONTROL Plataforma Web SDK]*, at.js 0.9.1+ ou mbox.js 61+ | Preferência pela at.js, uma vez que a mbox.js não está mais sendo desenvolvida. |
-| Adobe Audience Manager (opcional) | [!UICONTROL Plataforma Web SDK]* ou dil.js 5.0+ |  |
-| Adobe Analytics (opcional) | [!UICONTROL Plataforma Web SDK]* ou AppMeasurement.js 1.6.4+ | O rastreamento do Adobe Analytics deve usar a Coleção de Dados Regionais (RDC). |
-| Serviço da Experience Cloud ID | [!UICONTROL Plataforma Web SDK]* ou VisitorAPI.js 2.0+ | (Recomendado) Use o Experience Platform Launch para implantar o ID Service e assim garantir que a ID esteja configurada antes de qualquer chamada de aplicativo |
+| Adobe Target | [!UICONTROL SDK da Web da Platform]*, at.js 0.9.1+ ou mbox.js 61+ | Preferência pela at.js, uma vez que a mbox.js não está mais sendo desenvolvida. |
+| Adobe Audience Manager (opcional) | [!UICONTROL SDK da Web da Platform]* ou dil.js 5.0+ |  |
+| Adobe Analytics (opcional) | [!UICONTROL SDK da Web da Platform]* ou AppMeasurement.js 1.6.4+ | O rastreamento do Adobe Analytics deve usar a Coleção de Dados Regionais (RDC). |
+| Serviço da Experience Cloud ID | [!UICONTROL SDK da Web da Platform]* ou VisitorAPI.js 2.0+ | (Recomendado) Use o Experience Platform Launch para implantar o ID Service e assim garantir que a ID esteja configurada antes de qualquer chamada de aplicativo |
 | SDK Móvel da Experience Platform (opcional) | Versão 4.11 ou posterior para iOS e Android™ |  |
 | SDK da Web da Experience Platform | Versão 1.0. A versão atual do SDK da Experience Platform tem [vários casos de uso ainda não compatíveis com os aplicativos da Experience Cloud](https://github.com/adobe/alloy/projects/5) |  |
 
@@ -69,21 +69,21 @@ O blueprint de personalização Web/Mobile pode ser implementado por meio das se
 1. [Implemente o Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=pt-BR) para seus aplicativos da Web ou seus aplicativos para dispositivos móveis
 1. [Implemente o Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR) (opcional)
 1. [Implemente o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=pt-BR)  (opcional)
-1. [[!UICONTROL Implemente a Experience Platform e o Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=pt-BR)
+1. [Implemente a Experience Platform e o [!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=pt-BR)
 1. Implemente o [Identity Service da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=pt-BR) ou o [SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
    >[!NOTE]
    >
    >Cada aplicativo deve usar a Experience Cloud ID e fazer parte da mesma organização da Experience Cloud, permitindo assim o compartilhamento de públicos entre os aplicativos.
 1. [Solicite provisionamento para Compartilhamento de públicos-alvos entre a Experience Platform e o Adobe Target (Públicos compartilhados)](https://www.adobe.com/go/audiences)
 
-## Documentos relacionados
+## Documentação relacionada
 
 * [Compartilhamento de segmentos da Experience Platform com o Audience Manager e outras soluções da Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=pt-BR)
 * [Visão geral da Segmentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=pt-BR)
 * [Segmentação por streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR)
 * [Visão geral do Construtor de segmentos da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR)
 * [Conector de origem do Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR)
-* [Compartilhamento de segmentos do Adobe Analytics por meio da Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
+* [Compartilhamento de segmentos do Adobe Analytics por meio do Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
 * [Documentação do SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Documentação do serviço da Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR)
 * [Documentação do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=pt-BR)
