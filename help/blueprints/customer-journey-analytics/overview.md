@@ -9,13 +9,13 @@ translation-type: tm+mt
 source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
 # Customer Journey Analytics
 
-O do Customer Journey Analytics apresenta como as marcas podem unificar os dados e o comportamento do cliente oriundos de vários canais e fontes de interação. O objetivo é criar uma visualização com base na jornada de todas as interações do cliente. É possível elaborar relatórios e análises no serviço de aplicativos do Customer Journey Analytics para avaliar e obter insights da interação com o cliente e de padrões de comportamento.
+O Customer Journey Analytics apresenta como as marcas podem unificar os dados e o comportamento do cliente oriundos de vários canais e fontes de interação. O objetivo é criar uma visualização com base na jornada de todas as interações do cliente. É possível elaborar relatórios e análises no serviço de aplicativos do Customer Journey Analytics para avaliar e obter insights da interação com o cliente e de padrões de comportamento.
 
 Análises comuns incluem:
 
@@ -27,8 +27,8 @@ Análises comuns incluem:
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
-| **[Análise de Jornada entre canais](digital-behavioral-data-consolidation.md)** | <ul><li>Tenha uma visualização consolidada única do comportamento do cliente em vários canais ao unificar dados de várias propriedades da web, móveis e offline.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
-| **[Análise de Jornada de Deflexão de Chamada](call-deflect.md)** | <ul><li>Determine quais comportamentos são mais indicativos nos resultados de chamadas atendidas por agentes ao reunir dados da central de atendimento com dados da web, dispositivos móveis e outros dados de interação.</li><li>É possível usar esses insights para aprimorar a experiência do cliente e encurtar o caminho para interações atendidas por agentes por meio de conteúdo e ferramentas de autoatendimento.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
+| **[Análise da jornada entre canais](digital-behavioral-data-consolidation.md)** | <ul><li>Tenha uma visualização consolidada única do comportamento do cliente em vários canais ao unificar dados de várias propriedades da web, móveis e offline.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
+| **[Análise da jornada da diminuição de chamadas](call-deflect.md)** | <ul><li>Determine quais comportamentos são mais indicativos nos resultados de chamadas atendidas por agentes ao reunir dados da central de atendimento com dados da web, dispositivos móveis e outros dados de interação.</li><li>É possível usar esses insights para aprimorar a experiência do cliente e encurtar o caminho para interações atendidas por agentes por meio de conteúdo e ferramentas de autoatendimento.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Grades de proteção para Customer Journey Analytics Blueprints
 
