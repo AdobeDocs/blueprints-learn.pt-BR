@@ -1,26 +1,26 @@
 ---
-title: Ativação de público-alvo e perfil com o blueprint de aplicativos do Experience Cloud
-description: Gerencie perfis e públicos no Experience Platform e compartilhe-os com aplicativos Experience Cloud.
+title: Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud
+description: Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 39%
+ht-degree: 92%
 
 ---
 
-# Ativação de público-alvo e perfil com o blueprint de aplicativos do Experience Cloud
+# Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud
 
-Gerencie perfis e públicos no Experience Platform e compartilhe-os com Aplicativos Experience Cloud. Crie e compartilhe segmentos avançados de clientes e insights no Experience Platform e compartilhe-os com aplicativos do Experience Cloud.
+Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud. Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud.
 
-A Ativation with Experience Cloud Applications está alinhada ao [Online/Offline Audience Activation Blueprint](online-offline.md).
+A ativação com aplicativos da Experience Cloud está em sintonia com o [Blueprint de ativação de público-alvo online/offline](online-offline.md).
 
 ## Casos de uso
 
-* Personalize e direcione em todos os canais de interação do cliente com o Experience Cloud.
-* Compartilhe dados de público-alvo e perfil entre aplicativos Experience Platform e Experience Cloud.
+* Personalize e direcione em canais de interação com o cliente impulsionados pela Experience Cloud.
+* Compartilhe dados de públicos-alvos e perfis entre a Experience Platform e os aplicativos da Experience Cloud.
 
 ## Aplicativos
 
@@ -35,16 +35,16 @@ A Ativation with Experience Cloud Applications está alinhada ao [Online/Offline
 
 ## Arquitetura
 
-[Consulte a Seção Experience Platform and Applications Architecture para obter diagramas de arquitetura adicionais relacionados às integrações do Experience Platform com aplicativos Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html)
+[Consulte a Seção Experience Platform and Applications Architecture para obter diagramas de arquitetura adicionais relacionados às integrações do Experience Platform com aplicativos Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=pt-BR)
 
-### Ativação de público-alvo e perfil com aplicativos Experience Cloud
+### Ativação de público-alvo e perfil com aplicativos da Experience Cloud
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitetura de referência para Audience and Profile Ativation with Experience Cloud Applications" style="border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitetura de referência para a ativação de público-alvo e perfil com aplicativos da Experience Cloud" style="border:1px solid #4a4a4a" />
 <br>
 
 ## Medidas de proteção
 
-Consulte as [medidas de proteção na página Visão geral de público-alvo e ativação de perfil](overview.md)
+Consulte as [medidas de proteção na página de Visão geral de ativação de público-alvo e perfil](overview.md)
 
 ## Documentação relacionada
 
