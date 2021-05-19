@@ -7,7 +7,7 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Use atributos e eventos offline, como pedidos, transações, dados de CRM ou de 
 
 Ative públicos para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.
 
-O Blueprint Audience Activation Online/Offline se alinha ao [Audience and Profile Ativation with Experience Cloud Applications Blueprint](platform-and-applications.md). Detalhes adicionais são fornecidos no [Audience and Profile Ativation with Experience Cloud Applications Blueprint](platform-and-applications.md)   específico para integrações entre aplicativos Experience Platform e Experience Cloud.
+O Blueprint de ativação de público-alvo online/offline está em sintonia com o [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md). Detalhes adicionais são fornecidos no [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md), específico para integrações entre a Experience Platform e os aplicativos da Experience Cloud.
 
 ## Casos de uso
 
@@ -32,25 +32,25 @@ O Blueprint Audience Activation Online/Offline se alinha ao [Audience and Profil
 
 ## Arquitetura
 
-### Audience Activation online/offline com destinos
+### Ativação de público-alvo online/offline com destinos
 
-<img src="assets/online_offline_activation.svg" alt="Arquitetura de referência para o blueprint de ativação de público-alvo online/offline" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_activation.svg" alt="Arquitetura de referência para o Blueprint de ativação de público-alvo online/offline" style="border:1px solid #4a4a4a" />
 <br>
 
 ## Medidas de proteção
 
-[Consulte as grades de proteção conforme descrito na página Visão geral de público-alvo e ativação de perfil .](overview.md)
+[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público-alvo e perfil.](overview.md)
 
 ## Etapas de implementação
 
-1. [Crie esquemas para que os dados sejam assimilados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html)
-1. [Crie conjuntos de dados para que os dados sejam assimilados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html)
-1. [Configure as identidades corretas e os namespaces de identidade no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html)
-1. [Ative os esquemas e conjuntos de dados para perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html).
-1. [Assimile dados na Experience Platform.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
-1. [Forneça compartilhamento de segmentos da [!UICONTROL Plataforma de dados do cliente em tempo real] entre a Experience Platform e o Audience Manager. Assim, os públicos definidos na Experience Platform podem ser compartilhados com o Audience Manager.](https://www.adobe.com/go/audiences)
-1. [Criar ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR) segmentos no Experience Platform. O sistema decide automaticamente se o segmento é avaliado em lote ou por streaming.
-1. [Configure destinos para compartilhar atributos de perfil e associações de públicos com destinos desejados.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html)
+1. [Crie esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=pt-BR) para que os dados sejam assimilados.
+1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
+1. [Configure as identidades corretas e os namespaces de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR) no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
+1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
+1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
+1. [Forneça compartilhamento de segmentos da [!UICONTROL Plataforma de dados do cliente em tempo real]](https://www.adobe.com/go/audiences) entre a Experience Platform e o Audience Manager. Assim, os públicos definidos na Experience Platform podem ser compartilhados com o Audience Manager.
+1. [Crie segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR) na Experience Platform. O sistema decide automaticamente se o segmento é avaliado em lote ou por streaming.
+1. [Configure destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=pt-BR) para compartilhar atributos de perfil e associações de públicos com destinos desejados.
 
 ## Considerações de implementação
 
