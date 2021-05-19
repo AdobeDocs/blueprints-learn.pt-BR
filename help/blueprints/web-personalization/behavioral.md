@@ -4,9 +4,9 @@ description: Personalize com base no comportamento online e nos dados do públic
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76fe52d8e83e075f9e7ce6e8596880181b01a7fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ O blueprint de personalização da Web/móvel pode ser implementado por meio das
 
 * [Públicos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
 * [Integração do Audience Manager com o Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=pt-BR)
-* [Compartilhamento de segmentos do Adobe Analytics por meio do Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Compartilhamento de segmentos do Adobe Analytics por meio do Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
 
 
 ## Publicações do blog relacionadas
