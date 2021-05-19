@@ -5,11 +5,11 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Personalização da Web e móvel aborda a capacidade de utilizar a segmentação
 | **[Personalização da Web/móvel com base comportamental](behavioral.md)** | <ul><li>Personalize com base em comportamentos online e nos dados do público</li></ul> | <ul><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 | **[Personalização online/offline da Web/móvel](online-offline.md)** | <ul><li>Personalize com atributos e eventos offline (transações, reservas, CRM e dados de fidelização).</li><li>Sincronize a personalização na Web, nos emails e em outros canais conhecidos.</li></ul> | <ul><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Target</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 
-## Grades de proteção para a Web e a personalização móvel
+## Medidas de proteção para personalização da Web e móvel
 
-[Para painéis de proteção relacionados à ativação de público-alvo e perfil, consulte as grades de proteção na seção Blueprints de ativação de público-alvo e perfil .](../audience-activation/overview.md)
+[Para medidas de proteção relacionadas à ativação de público-alvo e perfil, consulte as medidas de proteção na seção Blueprints de ativação de público-alvo e perfil.](../audience-activation/overview.md)
 
-### Diagrama de proteção de personalização online/offline
+### Diagrama de medidas de proteção de personalização online/offline
 
 <img src="assets/personalization_guardrails.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="border:1px solid #4a4a4a" />
 
