@@ -5,9 +5,9 @@ solution: Experience Platform, Real-time Customer Data Platform, Target, Audienc
 kt: 7722
 exl-id: null
 source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ A ativação com aplicativos da Experience Cloud está em sintonia com o [Bluepr
 
 ## Arquitetura
 
-[Consulte a Seção Experience Platform and Applications Architecture para obter diagramas de arquitetura adicionais relacionados às integrações do Experience Platform com aplicativos Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=pt-BR)
+[Consulte a seção Experience Platform e Arquitetura de aplicativos para obter diagramas de arquitetura adicionais relacionados a integrações da Experience Platform com aplicativos da Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=pt-BR)
 
 ### Ativação de público-alvo e perfil com aplicativos da Experience Cloud
 
