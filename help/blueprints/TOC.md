@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints de experiência digital são implementações replicáveis para resolver problemas empresariais consagrados. Eles contêm diagramas de arquitetura, considerações técnicas e links para documentações relevantes.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+source-git-commit: 366c1c90e8132faac85da17eade60e3b7be77906
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 100%
    + [Visão geral](/help/blueprints/customer-journey-analytics/overview.md)
    + [Análise da jornada entre canais](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [Diminuição de chamadas](/help/blueprints/customer-journey-analytics/call-deflect.md)
++ Jornadas do cliente{#customer-journeys}
+   + [Visão geral](/help/blueprints/customer-journeys/overview.md)
+   + [Mensagens em lote e Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
+   + [Mensagens acionadas e Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Coleta e preparação de dados {#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
@@ -37,10 +41,6 @@ ht-degree: 100%
    + [Visão geral](/help/blueprints/data-insights/overview.md)
    + [Análise de dados e Inteligência](/help/blueprints/data-insights/analysis.md)
    + [Ciência de dados personalizada para aprimoramento de perfis](/help/blueprints/data-insights/data-science.md)
-+ Orquestração de mensagens multicanais {#customer-journeys}
-   + [Visão geral](/help/blueprints/customer-journeys/overview.md)
-   + [Mensagens em lote e Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
-   + [Mensagens acionadas e Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
 + Personalização da Web e móvel {#web-personalization}
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
    + [Personalização com base comportamental](/help/blueprints/web-personalization/behavioral.md)
