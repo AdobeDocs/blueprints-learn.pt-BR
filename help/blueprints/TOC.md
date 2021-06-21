@@ -4,9 +4,9 @@ breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints de experiência digital são implementações replicáveis para resolver problemas empresariais consagrados. Eles contêm diagramas de arquitetura, considerações técnicas e links para documentações relevantes.
 product: adobe experience platform
 role: Architect, Developer, Business Practitioner
-source-git-commit: 366c1c90e8132faac85da17eade60e3b7be77906
+source-git-commit: d2bd81f4c4c7145508cfea74c74c0d9f62e0a884
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '116'
 ht-degree: 98%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 98%
 + Jornadas do cliente{#customer-journeys}
    + [Visão geral](/help/blueprints/customer-journeys/overview.md)
    + [Mensagens em lote e Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
-   + [Mensagens acionadas e Experience Platform](/help/blueprints/customer-journeys/triggered-messaging.md)
+   + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
 + Coleta e preparação de dados {#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
