@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: faf65f9cd457982baea0a94275a441cd8b5c0b3a
+source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 54%
+source-wordcount: '190'
+ht-degree: 45%
 
 ---
 
@@ -18,6 +18,5 @@ As Jornadas do cliente abordam a capacidade das marcas de se engajarem e se comu
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
-| **Mensagens transacionais e em lote** | <ul><li>Crie e execute campanhas de saída programadas e em lote</li><li>Envie mensagens transacionais</li></ul> | <ul><li>Adobe Campaign Classic e Managed Services</li><li>Adobe Campaign Standard</li></ul> |
-| **[Mensagens em lote e Adobe Experience Platform](batch-messaging.md)** | <ul><li>Execute campanhas de mensagens programadas e em lote usando a Adobe Experience Platform como hub central para perfis e segmentação de clientes</li></ul> | <ul><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Campaign Classic, Managed Services ou Campaign Standard</li><li>Provedor de mensagens de terceiros compatíveis</li></ul> |
-| **[Mensagens acionadas e Adobe Experience Platform](triggered-messaging.md)** | <ul><li>Execute mensagens acionadas e por streaming usando a Adobe Experience Platform como hub central para transmissão de dados, perfis e segmentação de clientes, com o Journey Orchestration para transmitir a orquestração de jornadas e entrega de mensagens</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Orchestration</li><li>Adobe Campaign ou outro aplicativo de terceiros para entrega de mensagens</li></ul> |
+| **[Adobe Campaign](batch-messaging.md)** | <ul><li>Execute campanhas de mensagens programadas e em lote usando a Adobe Experience Platform como hub central para perfis e segmentação de clientes</li></ul> | <ul><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Campaign Classic, Managed Services ou Campaign Standard</li><li>Provedor de mensagens de terceiros compatíveis</li></ul> |
+| **[Journey Optimizer](journey-optimizer.md)** | <ul><li>Execute mensagens acionadas e por streaming usando a Adobe Experience Platform como hub central para transmissão de dados, perfis e segmentação de clientes, com o Journey Orchestration para transmitir a orquestração de jornadas e entrega de mensagens</li></ul> | <ul><li>Adobe Experience Platform</li><li>Journey Optimizer</li></ul> |
