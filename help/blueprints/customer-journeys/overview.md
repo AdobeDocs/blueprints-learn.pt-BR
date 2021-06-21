@@ -1,23 +1,20 @@
 ---
-title: 'Orquestração de mensagens multicanais '
+title: 'Jornadas do cliente '
 description: Proporcione experiências do cliente individuais e oportunas em todos os canais.
 solution: Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 584007cc71e00729732c67a97546e2c21aed3f87
+source-git-commit: faf65f9cd457982baea0a94275a441cd8b5c0b3a
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 54%
 
 ---
 
-# Orquestração de mensagens multicanais
+# Jornadas do cliente
 
-O de orquestração de mensagens multicanal apresenta como as marcas podem se engajar e se comunicar proativamente com os clientes por meio de canais, como email, SMS e alertas em dispositivos móveis.
-
-As ferramentas de orquestração podem se integrar a outros canais de interação (como canais de entrada) para personalização da Web e móvel. Isso é feito ao compartilhar o estado do público-alvo com os mecanismos de decisão dos outros canais. Há diversos fatores que ajudam a definir quais opções de aplicativos e implantações usar. Por exemplo, se a interação do cliente é com base em acionamento ou é programada, ou, quais dados são necessários para a segmentação e a personalização, e assim por diante. Esses fatores resultam em vários cenários e opções de implantações possíveis ao criar a funcionalidade de orquestração de mensagens.
-
+As Jornadas do cliente abordam a capacidade das marcas de se engajarem e se comunicarem de forma proativa com seus clientes por meio de canais como email, SMS e alertas móveis. As ferramentas de orquestração também podem ser integradas a outros canais de interação, como canais de entrada para personalização Web/móvel, compartilhando o estado do público-alvo com outros mecanismos de decisão específicos do canal. Vários fatores determinam quais aplicativos e opções de implantação devem ser usados para as Jornadas do cliente, mas podem ser resumidos em duas abordagens diferentes:  reagir a um cliente durante o engajamento (disparado) OU reagir a um grupo de clientes durante o engajamento (programado).
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
