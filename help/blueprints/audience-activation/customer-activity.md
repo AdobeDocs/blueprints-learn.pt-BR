@@ -3,10 +3,9 @@ title: Blueprint do Hub de atividades do cliente
 description: Pesquisas de [!UICONTROL perfis de clientes em tempo real] para fornecer contexto ao suporte e às vendas atendidas por agentes.
 solution: Experience Platform,Data Collection
 kt: 7195
-exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c,4f15aa5d-9ee3-4d92-8012-3e2f0c0d615f
-translation-type: ht
-source-git-commit: d6eaf978a8f587b881480c14f192cb9e29e3c7e2
-workflow-type: ht
+exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
+source-git-commit: 8b055d87a9c55b640bd35e54325977526ce21d94
+workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
 
@@ -32,7 +31,6 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 
 <img src="assets/customer_activity_hub.svg" alt="Blueprint de arquitetura de referência para o Hub de atividades do cliente" style="border:1px solid #4a4a4a" />
 
-
 ## Medidas de proteção
 
 * [Medidas de proteção para dados de [!UICONTROL perfis de cliente em tempo real]](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
@@ -51,5 +49,5 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 
 * [Descrição do produto Adobe Experience Platform Activation](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform0.html)
 * Documentação do [[!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR)
-* [Medidas de proteção de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
+* [Medidas de proteção de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 * [API de pesquisa de perfil](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
