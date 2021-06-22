@@ -5,9 +5,8 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-translation-type: ht
-source-git-commit: 58368eb06b9bbd6c332424bdcfa2789dde7d4c2f
-workflow-type: ht
+source-git-commit: 45e47c3ac88a67069485952aaa57741820c37143
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -34,7 +33,7 @@ Análises comuns incluem:
 
 ### Diagrama de medidas de proteção
 
-<img src="assets/cja_guardrails.svg" alt="Diagrama de medidas de proteção para Blueprints do Customer Journey Analytics" style="border:1px solid #4a4a4a" />
+<img src="assets/cja_guardrails.png" alt="Diagrama de medidas de proteção para Blueprints do Customer Journey Analytics" style="border:1px solid #4a4a4a" />
 
 
 ## Publicações do blog relacionadas
