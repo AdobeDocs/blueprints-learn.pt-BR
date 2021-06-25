@@ -4,9 +4,8 @@ description: Sincronize a personalização da Web com emails e outras personaliz
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-translation-type: ht
 source-git-commit: d30af99dc08d0bc723edc4c1c4705ebc07c3c7b7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -84,7 +83,7 @@ O blueprint de personalização da Web/móvel pode ser implementado por meio das
 * [Visão geral do Construtor de segmentos da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=pt-BR)
 * [Conector de origem do Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR)
 * [Compartilhamento de segmentos do Adobe Analytics por meio do Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
-* [Documentação do SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
+* [Documentação do SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [Documentação do serviço da Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR)
 * [Documentação do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=pt-BR)
 
