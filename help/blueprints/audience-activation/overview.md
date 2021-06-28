@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8cdb08ae29b766adf16877919af82d0691768576
+source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
@@ -31,13 +31,13 @@ Com uma abordagem que prioriza os canais, cada canal age como um silo, no qual o
 
 A ilustração abaixo descreve os componentes principais do Perfil do cliente em tempo real da Experience Platform.
 
+<img src="assets/profile_architecture.jpg" alt="Arquitetura de referência para o Perfil do cliente em tempo real" style="border:1px solid #4a4a4a" width="90%"/>
+
 As primeiras fontes de dados são assimiladas na Experience Platform. Se a fonte de dados estiver configurada para processamento de perfil, ela será alimentada no Perfil do cliente em tempo real. Um único fragmento de perfil ou documento é criado para cada fonte de dados e cada registro de ID primária configurado para cada fonte de dados. Além disso, conforme os dados são assimilados ao perfil, eles também são processados pelo serviço de identidade. Qualquer registro oriundo de fontes de dados que tenham mais de uma identidade marcada no esquema e com valores correspondentes preenchidos no registro será processado como um relacionamento de identidade dentro do serviço de identidade.
 
 Observe que os registros com apenas uma identidade não são processados pelo serviço de identidade, pois esses registros não têm links de identidade para preencher ainda mais o gráfico. Observe também que o serviço de identidade não distingue identidades primárias de identidades secundárias. Ele simplesmente processa as relações de identidades em todas elas.
 
 A mesclagem de fragmentos de perfil ocorre quando o gráfico de identidade fornece as relações nos vários fragmentos de perfil de origem que foram relacionados. A política de mesclagem determina que fragmentos de origem e que gráfico de identidade serão usados conforme os fragmentos forem mesclados. Sempre que o perfil for acessado, a mesclagem dos fragmentos de perfil ocorre para garantir a exibição combinada mais atualizada do perfil. As regras de governança e política asseguram que somente os segmentos e atributos autorizados possam ser ativados para os destinos especificados.
-
-<img src="assets/profile_architecture.jpg" alt="Arquitetura de referência para o Perfil do cliente em tempo real" style="border:1px solid #4a4a4a" />
 
 
 ## Medidas de proteção para Blueprints de ativação de público-alvo e perfil
