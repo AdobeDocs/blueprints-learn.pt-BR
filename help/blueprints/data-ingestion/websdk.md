@@ -1,18 +1,18 @@
 ---
-title: Blueprint de preparação e assimilação de dados
+title: Esquema de coleta de dados do SDK Web/móvel
 description: Este blueprint mostra a arquitetura e a assimilação por meio do Experience Platform Web e Mobile SDK
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: null
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: f6f25c1b650445c5c3686de80c80334aacc17db5
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
-# Coleta de dados do Experience Platform WebSDK
+# Coleta de dados do SDK móvel/Web do Experience Platform
 
 O diagrama de arquitetura abaixo ilustra os caminhos de integração e a coleta de dados utilizando o Experience Platform WebSDK.
 
@@ -20,4 +20,4 @@ O diagrama de arquitetura abaixo ilustra os caminhos de integração e a coleta 
 
 ## Documentação de referência
 
-[Visão geral do Experience Platform WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
+[Visão geral do SDK do Experience Platform Web/Mobile](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en)
