@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+source-git-commit: 64f29b492d010539e310c7d24979dedee56068f7
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 97%
 
 ---
 
@@ -39,6 +39,11 @@ Observe que os registros com apenas uma identidade não são processados pelo se
 
 A mesclagem de fragmentos de perfil ocorre quando o gráfico de identidade fornece as relações nos vários fragmentos de perfil de origem que foram relacionados. A política de mesclagem determina que fragmentos de origem e que gráfico de identidade serão usados conforme os fragmentos forem mesclados. Sempre que o perfil for acessado, a mesclagem dos fragmentos de perfil ocorre para garantir a exibição combinada mais atualizada do perfil. As regras de governança e política asseguram que somente os segmentos e atributos autorizados possam ser ativados para os destinos especificados.
 
+## Visão geral de segmentação e destino
+
+A ilustração abaixo descreve os vários métodos de segmentação e os vários padrões de ativação de perfil e público-alvo.
+
+<img src="assets/segmentation_destination_overview.png" alt="Arquitetura de referência para o Perfil do cliente em tempo real" style="border:1px solid #4a4a4a" width="90%"/>
 
 ## Medidas de proteção para Blueprints de ativação de público-alvo e perfil
 
