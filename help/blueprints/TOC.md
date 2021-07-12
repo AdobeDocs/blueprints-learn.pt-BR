@@ -3,11 +3,11 @@ user-guide-title: Blueprints de experiência digital
 breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints de experiência digital são implementações replicáveis para resolver problemas empresariais consagrados. Eles contêm diagramas de arquitetura, considerações técnicas e links para documentações relevantes.
 product: adobe experience platform
-role: Architect, Developer, Business Practitioner
-source-git-commit: 55e2bf2ac2339b0a6bf4a6ba3a4592ea511dd858
+role: Architect, Developer, User
+source-git-commit: 1c352489190da65d9c39e126456980d7aa7981f1
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
