@@ -1,5 +1,5 @@
 ---
-title: Journey Optimizer - Mensagens acionadas e Adobe Experience Platform Blueprint
+title: Journey Optimizer – Blueprint de mensagens acionadas e da Adobe Experience Platform
 description: Execute mensagens e experiências acionadas usando a Adobe Experience Platform como um hub central para dados de transmissão, perfis de clientes e segmentação.
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
@@ -7,13 +7,13 @@ exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: dc13a1fe9a32f70497c5c73485618e6989b7a644
 workflow-type: tm+mt
 source-wordcount: '700'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 # Journey Optimizer
 
-O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reagirem em tempo real aos comportamentos dos clientes e atendê-los onde estiverem. Os recursos de gerenciamento de dados foram transferidos para a Adobe Experience Platform, permitindo que as equipes de marketing se concentrem no que fazem de melhor: que está criando jornadas de clientes de classe mundial e conversas personalizadas.  Este blueprint descreve os recursos técnicos do aplicativo e fornece um mergulho profundo nos vários componentes de arquitetura que compõem o Adobe Journey Optimizer.
+O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reagirem em tempo real aos comportamentos dos clientes e atendê-los onde quer que eles estejam. Os recursos de gerenciamento de dados foram transferidos para a Adobe Experience Platform, permitindo que as equipes de marketing se concentrem no que fazem de melhor: criar jornadas de clientes de alto nível e conversas personalizadas.  Este blueprint descreve os recursos técnicos do aplicativo e fornece detalhes sobre os diferentes componentes de arquitetura que compõem o Adobe Journey Optimizer.
 
 ## Casos de uso
 
@@ -32,40 +32,40 @@ O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reag
 
 ## Pré-requisitos
 
-1. O cliente deve ser provisionado para o Experience Cloud com uma Organização IMS válida
-1. Push móvel
+1. O cliente deve ser provisionado para a Experience Cloud com uma Organização IMS válida
+1. Push para publicação de conteúdo para dispositivos móveis
 
-* O cliente deve ter um desenvolvedor móvel disponível para criar o aplicativo
-* Adobe Experience Platform Mobile SDK
+* O cliente deve ter um desenvolvedor de publicações de conteúdo para dispositivos móveis disponível para criar o aplicativo
+* SDK móvel da Adobe Experience Platform
 * Adobe Launch
    * Propriedade móvel
       * Extensões:
          * Extensão do Adobe Journey Optimizer
-         * Rede de borda Adobe Experience Platform
+         * Rede de borda da Adobe Experience Platform
          * Identidade
          * Mobile Core
          * Perfil
    * Configurações do aplicativo
-   * Datastreams
-      * Ativado para Experience Platform
-      * Conjunto de dados de eventos - usado para coletar o comportamento móvel geral
-      * Conjunto de dados de perfil - Conjunto de dados do perfil de push do AJO (não pode ser diferente)
+   * Fluxos de dados
+      * Habilitado para a Experience Platform
+      * Conjunto de dados de eventos – usado para coletar o comportamento móvel geral
+      * Conjunto de dados de perfil – conjunto de dados do perfil de push do AJO (não pode ser diferente)
 
 ## Medidas de proteção
 
 * Consulte o link para obter mais detalhes sobre limitações
-* Segmentos em lote - precisam garantir que você compreenda o volume diário de usuários qualificados e garanta que o sistema de destino possa lidar com a taxa de transferência de explosão por jornada e em todas as jornadas
-* Segmentos de transmissão - é necessário garantir que a explosão inicial das qualificações de perfil possa ser tratada junto com o volume de qualificação de transmissão diária por jornada e em todas as jornadas
-* Atividade de atualização de perfil - o Perfil do cliente em tempo real pode ser atualizado nativamente de uma jornada.  Há um atraso de até 1 minuto no processamento da atualização na loja de perfis
-* Eventos de negócios - uma jornada baseada em segmento de leitura pode ser acionada para iniciar com base em uma chamada externa para o sistema JO
-* Oferece suporte nativo ao Offer Decisioning somente em mensagens. Suporte futuro por ação nativa
+* Segmentos em lote – precisam assegurar que você entenda o volume diário de usuários qualificados e que o sistema de destino possa lidar com a taxa de transferência intermitente por jornada e em todas as jornadas
+* Segmentos por streaming – precisam assegurar que a intermitência inicial de qualificações de perfis possam ser manipuladas com o volume de qualificações de streaming diárias por jornada e em todas as jornadas
+* Atividade de atualização de perfil – o Perfil do cliente em tempo real pode ser atualizado nativamente a partir de uma jornada.  Há um atraso de até 1 minuto no processamento da atualização na loja de perfis
+* Eventos de negócios – uma jornada baseada em segmento de leitura pode ser acionada para iniciar com base em uma chamada externa para o sistema JO
+* Oferece suporte nativo ao Offer Decisioning somente em mensagens. Suporte futuro por meio de ação nativa
 * Canais compatíveis:
    * Email
    * Push (FCM/APNS)
-   * Rest Endpoints de API
-* Processa eventos 5k por segundo com dimensionamento horizontal (a carteira é limitação)
-* O teste A/B é feito usando dois deliveries e determinando resultados usando QS ou CJA
-* Integração Litmus - deve ter uma conta com o Litmus para aproveitar a integração
+   * Endpoints de API Rest
+* Processa 5 mil eventos por segundo com dimensionamento horizontal (a limitação é a carteira)
+* O teste A/B é executado usando dois deliveries, e os resultados são determinados usando QS ou CJA
+* Integração com o Litmus – é preciso ter uma conta Litmus para usar a integração
 
 ## Etapas de implementação
 
@@ -98,7 +98,7 @@ O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reag
 
 ### Journey Orchestration
 
-1. Os dados de transmissão usados para iniciar uma jornada do cliente devem ser configurados no Journey Optimizer primeiro para obter uma ID de orquestração. Depois, essa ID de orquestração será fornecida ao desenvolvedor para usá-la na assimilação.
+1. Dados de streaming usados para inicializar uma jornada do cliente devem estar configurados primeiro dentro do Journey Optimizer para obter uma ID de orquestração. Depois, essa ID de orquestração será fornecida ao desenvolvedor para usá-la na assimilação.
 1. Configure as origens de dados externos.
 1. Configure as ações personalizadas.
 
