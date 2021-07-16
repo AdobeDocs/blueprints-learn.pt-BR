@@ -8,13 +8,13 @@ exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
 source-git-commit: 83cda30e0fac5c3a2c38ca4b2df2c2405736e4a0
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
 # Jornadas do cliente
 
-As Jornadas do cliente abordam a capacidade das marcas de se engajarem e se comunicarem de forma proativa com seus clientes por meio de canais como email, SMS e alertas móveis. As ferramentas de orquestração também podem ser integradas a outros canais de interação, como canais de entrada para personalização Web/móvel, compartilhando o estado do público-alvo com outros mecanismos de decisão específicos do canal. Vários fatores determinam quais aplicativos e opções de implantação devem ser usados para as Jornadas do cliente, mas podem ser resumidos em duas abordagens diferentes:  reagir a um cliente durante o engajamento (disparado) OU reagir a um grupo de clientes durante o engajamento (programado).
+As Jornadas do cliente abordam a capacidade das marcas de se engajarem e se comunicarem de forma proativa com seus clientes por meio de canais, como email, SMS e alertas móveis. As ferramentas de orquestração também podem ser integradas a outros canais de interação, como canais de entrada para personalização da Web e móvel. Isso é feito ao compartilhar o estado do público-alvo com os mecanismos de decisão específicos dos outros canais. Vários fatores determinam quais aplicativos e opções de implantação devem ser usados para as Jornadas do cliente, mas podem ser resumidos em duas abordagens diferentes: reagir a um cliente durante o engajamento (acionado) OU reagir a um grupo de clientes durante o engajamento (programado).
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
