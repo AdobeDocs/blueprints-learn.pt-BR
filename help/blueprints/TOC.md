@@ -6,8 +6,8 @@ product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: 1c352489190da65d9c39e126456980d7aa7981f1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '119'
+ht-degree: 97%
 
 ---
 
