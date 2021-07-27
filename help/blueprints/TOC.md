@@ -4,10 +4,10 @@ breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints de experiência digital são implementações replicáveis para resolver problemas empresariais consagrados. Eles contêm diagramas de arquitetura, considerações técnicas e links para documentações relevantes.
 product: adobe experience platform
 role: Architect, Developer, User
-source-git-commit: 1c352489190da65d9c39e126456980d7aa7981f1
+source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 97%
+source-wordcount: '121'
+ht-degree: 93%
 
 ---
 
@@ -45,5 +45,5 @@ ht-degree: 97%
 + Personalização da Web e móvel {#web-personalization}
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
    + [Personalização com base comportamental](/help/blueprints/web-personalization/behavioral.md)
-   + [Personalização online/offline](/help/blueprints/web-personalization/online-offline.md)
+   + [Personalização com dados online e offline](/help/blueprints/web-personalization/online-offline.md)
 
