@@ -7,7 +7,7 @@ role: Architect, Developer, User
 source-git-commit: c5fd3f33d48d830b5e5058b919e814e7f84ace81
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
    + [Visão geral](/help/blueprints/customer-journey-analytics/overview.md)
    + [Análise da jornada entre canais](/help/blueprints/customer-journey-analytics/digital-behavioral-data-consolidation.md)
    + [Diminuição de chamadas](/help/blueprints/customer-journey-analytics/call-deflect.md)
-+ Jornadas do cliente{#customer-journeys}
++ Jornadas do cliente {#customer-journeys}
    + [Visão geral](/help/blueprints/customer-journeys/overview.md)
    + [Mensagens em lote e Experience Platform](/help/blueprints/customer-journeys/batch-messaging.md)
    + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
@@ -37,7 +37,7 @@ ht-degree: 93%
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
    + [Coleção de dados corporativos do servidor](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Experience Platform WebSDK](/help/blueprints/data-ingestion/websdk.md)
+   + [SDK da Web da Experience Platform](/help/blueprints/data-ingestion/websdk.md)
 + Análise de dados, Inteligência e IA/Aprendizado de máquina {#data-exploration}
    + [Visão geral](/help/blueprints/data-insights/overview.md)
    + [Análise de dados e Inteligência](/help/blueprints/data-insights/analysis.md)
