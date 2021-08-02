@@ -1,14 +1,15 @@
 ---
 title: Blueprint de ativação de público-alvo anônima
-description: Ativação de público-alvo anônima.
+description: Saiba como direcionar públicos-alvo em canais da Web e de publicidade com base em dados anônimos e comportamentais do cliente. Essa funcionalidade possibilita experiências do cliente consistentes e personalizadas em tempo real em todos os dispositivos.
+landing-page-description: Saiba como direcionar públicos-alvo em canais da Web e de publicidade com base em dados anônimos e comportamentais do cliente.
 solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 53914ce36ef0e48734c04818fbf8a5285fbb14ab
+source-git-commit: f461f94dcd4a1c15e09269edcf0121f83f2f896d
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 83%
 
 ---
 
