@@ -1,23 +1,23 @@
 ---
-title: Blueprint de ativação de público-alvo online/offline
+title: Ativação com o Blueprint de dados online e offline
 description: Ativação de público-alvo online/offline.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: f527b23587e4ec893532997c3c99270946d7fa31
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 91%
 
 ---
 
-# Blueprint de ativação de público-alvo online/offline
+# Ativação com o Blueprint de dados online e offline
 
 Use atributos e eventos offline, como pedidos, transações, dados de CRM ou de fidelização, com comportamentos online para direcionamento e personalização online.
 
 Ative públicos para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.
 
-O Blueprint de ativação de público-alvo online/offline está em sintonia com o [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md). Detalhes adicionais são fornecidos no [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md), específico para integrações entre a Experience Platform e os aplicativos da Experience Cloud.
+A Ativation with online and offline data blueprint se alinha à [Audience and Profile Ativation with Experience Cloud Applications Blueprint](platform-and-applications.md). Detalhes adicionais são fornecidos no [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md), específico para integrações entre a Experience Platform e os aplicativos da Experience Cloud.
 
 ## Casos de uso
 
@@ -32,9 +32,9 @@ O Blueprint de ativação de público-alvo online/offline está em sintonia com 
 
 ## Arquitetura
 
-### Ativação de público-alvo online/offline com destinos
+### Ativação com dados online e offline com destinos
 
-<img src="assets/online_offline_activation.svg" alt="Arquitetura de referência para o Blueprint de ativação de público-alvo online/offline" style="border:1px solid #4a4a4a" />
+<img src="assets/online_offline_activation.svg" alt="Arquitetura de referência para o blueprint de ativação de público-alvo online/offline" style="border:1px solid #4a4a4a" />
 <br>
 
 ## Medidas de proteção
