@@ -1,17 +1,17 @@
 ---
-title: Blueprint de ativação de público-alvo e perfil para destinos corporativos
+title: Ativação de público-alvo e perfil para o blueprint de destinos de transmissão de arquivo e empresa
 description: Ativação de público-alvo e perfil para destinos corporativos
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 2fc1adc04a9ca2184c88970d5ba0785957327f68
+source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 94%
 
 ---
 
-# Blueprint de ativação de público-alvo e perfil para destinos corporativos
+# Ativação de público-alvo e perfil para o blueprint de destinos de transmissão de arquivo e empresa
 
 Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em lote da [!UICONTROL Plataforma de dados do cliente em tempo real] para armazenamentos e aplicativos de dados corporativos. Esses eventos de perfil e público-alvo podem ser usados para iniciar uma ação de vendas ou suporte ao cliente. Exemplos incluem: acompanhar um processo de aplicativo abandonado ou de inscrição em webinário, ou atualizar aplicativos corporativos com os atributos e informações mais recentes do cliente a partir da [!UICONTROL Plataforma de dados do cliente em tempo real].
 
