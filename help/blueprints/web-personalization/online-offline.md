@@ -1,13 +1,14 @@
 ---
 title: Personalização da Web/móvel com dados online e offline
 description: Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
+landing-page-description: Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
+source-git-commit: aa0cb68acc93821b978e58f638f8ab16a33cdfe6
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 91%
+source-wordcount: '760'
+ht-degree: 92%
 
 ---
 
