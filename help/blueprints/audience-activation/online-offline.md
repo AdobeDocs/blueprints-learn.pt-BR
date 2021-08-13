@@ -1,23 +1,23 @@
 ---
-title: Ativação com o Blueprint de dados online e offline
+title: Ativação com o blueprint de dados online e offline
 description: Ativação de público-alvo online/offline.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 0a1cd20e267136df305bba0b740ab57a450cb953
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Ativação com o Blueprint de dados online e offline
+# Ativação com o blueprint de dados online e offline
 
 Use atributos e eventos offline, como pedidos, transações, dados de CRM ou de fidelização, com comportamentos online para direcionamento e personalização online.
 
 Ative públicos para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.
 
-A Ativation with online and offline data blueprint se alinha à [Audience and Profile Ativation with Experience Cloud Applications Blueprint](platform-and-applications.md). Detalhes adicionais são fornecidos no [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md), específico para integrações entre a Experience Platform e os aplicativos da Experience Cloud.
+A ativação com o blueprint de dados online e offline está em sintonia com o [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md). Detalhes adicionais são fornecidos no [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md), específico para integrações entre a Experience Platform e os aplicativos da Experience Cloud.
 
 ## Casos de uso
 
@@ -69,4 +69,4 @@ A Ativation with online and offline data blueprint se alinha à [Audience and Pr
 
 * Visão geral da [[!UICONTROL Plataforma de dados do cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
 * [Demonstração da [!UICONTROL Plataforma de dados do cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
-* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR)
