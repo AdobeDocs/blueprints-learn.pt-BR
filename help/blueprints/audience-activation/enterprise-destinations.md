@@ -1,17 +1,17 @@
 ---
-title: Ativação de público-alvo e perfil para o blueprint de destinos de transmissão de arquivo e empresa
+title: Ativação de público-alvo e perfil para o blueprint de destinos por streaming de arquivos e empresas
 description: Ativação de público-alvo e perfil para destinos corporativos
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
 source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Ativação de público-alvo e perfil para o blueprint de destinos de transmissão de arquivo e empresa
+# Ativação de público-alvo e perfil para o blueprint de destinos por streaming de arquivos e empresas
 
 Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em lote da [!UICONTROL Plataforma de dados do cliente em tempo real] para armazenamentos e aplicativos de dados corporativos. Esses eventos de perfil e público-alvo podem ser usados para iniciar uma ação de vendas ou suporte ao cliente. Exemplos incluem: acompanhar um processo de aplicativo abandonado ou de inscrição em webinário, ou atualizar aplicativos corporativos com os atributos e informações mais recentes do cliente a partir da [!UICONTROL Plataforma de dados do cliente em tempo real].
 
@@ -21,7 +21,7 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Aplicativos
 
-* Adobe Experience Platform Ativação
+* Adobe Experience Platform Activation
 
 ## Arquitetura
 
@@ -56,4 +56,4 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 * Visão geral da [[!UICONTROL Plataforma de dados do cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
 * [Demonstração da [!UICONTROL Plataforma de dados do cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
-* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR)
