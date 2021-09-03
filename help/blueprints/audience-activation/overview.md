@@ -5,10 +5,10 @@ solution: Experience Platform, Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8f1d76c317dbe4c7e916b4513960b4549a2d3424
-workflow-type: ht
-source-wordcount: '970'
-ht-degree: 100%
+source-git-commit: cbeb90f9ed89e91bab45dcb1dbb30f59c5910bbd
+workflow-type: tm+mt
+source-wordcount: '951'
+ht-degree: 92%
 
 ---
 
@@ -23,8 +23,8 @@ Com uma abordagem que prioriza os canais, cada canal age como um silo, no qual o
 |---|---|---|
 | **[Ativação de público-alvo anônima](anonymous.md)** | <ul><li>Direcione públicos-alvos na Web e nos canais de publicidade para dados de clientes anônimos e comportamentais.</li><li>Integre a dados de público de terceiros para personalização aprimorada.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
 | **[Ativação com dados online e offline](online-offline.md)** | <ul><li>Ativação para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade. </li><li>Use atributos e eventos offline, como pedidos, transações, dados de CRM ou de fidelização, com comportamentos online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Audience Manager (opcional)</li></ul> |
-| **[Ativação para destinos por streaming de arquivos e empresas](enterprise-destinations.md)** | <ul><li>Replicação e atualização de alterações de perfil e público-alvo em armazenamentos de dados corporativos para casos de uso de ativação e relatórios. </li></ul><ul><li>Inicie uma ação de vendas ou suporte ao cliente por meio da notificação de uma ação do cliente na [!UICONTROL Plataforma de dados do cliente em tempo real] para sistemas e aplicativos corporativos.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager (opcional)</li></ul> |
-| **[Ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md)** | <ul><li>Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li><li>Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Experience Platform Activation</li><li>Aplicativos da Experience Cloud</li></ul> |
+| **[Ativação para destinos por streaming de arquivos e empresas](enterprise-destinations.md)** | <ul><li>Ativação e acesso do perfil do cliente em tempo real em sistemas e aplicativos empresariais para potencializar experiências de cliente contextuais sofisticadas. </li></ul><ul><li>Inicie uma experiência de vendas ou suporte utilizando insights e eventos do perfil do cliente em tempo real.</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Experience Platform Activation</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md)** | <ul><li>Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li><li>Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Ativação de Experience Platform</li><li>Aplicativos da Experience Cloud</li></ul> |
 | **[Hub de atividades do cliente](customer-activity.md)** | <ul><li>Forneça contexto aprofundado do consumidor nas interações com agentes, como suporte e experiências de vendas. Ao usar a pesquisa de perfil na Experience Platform, os agentes podem receber mais contexto sobre o consumidor, como compras recentes, interações com campanhas, propensões, associações do público e outros atributos e insights que são armazenados no perfil do cliente em tempo real.</li></ul> | <ul><li>Adobe Experience Platform</li></ul> |
 
 ## Arquitetura do Perfil do cliente em tempo real
@@ -53,11 +53,11 @@ A ilustração abaixo descreve os diferentes métodos de segmentação e os dife
 ### Ativação de atributos e identidades
 
 * A [!UICONTROL Plataforma de dados do cliente em tempo real] pode ativar associações de público-alvo, bem como alterações de atributos e identidades que ocorrem em perfis que são membros dos segmentos selecionados para ativação. Se o objetivo for ativar atributos ou identidades, deve-se definir um segmento global que inclua todos os perfis para os quais as atualizações de atributos e identidades são enviadas. A essa altura, é possível selecionar o segmento e os atributos que deseja ativar como parte da configuração de destino.
-* Observe que os destinos em lote não são compatíveis com a ativação de eventos de alteração somente de atributos. Associações completas ou incrementais de público-alvo podem ser enviadas junto com os atributos selecionados para ativação, mas não é possível ativar eventos de alteração somente de atributos por meio de destinos em lote.
+* Observe que os destinos em lote não são compatíveis com a ativação de eventos de alteração somente de atributos. As associações de público-alvo completo ou incremental podem ser enviadas junto com os atributos selecionados para ativação.
 
 ### Ativação de segmentos em lote para destinos por streaming
 
-* Há suporte à ativação de segmentos em lote para destinos por streaming. Os trabalhos de segmento em lote adicionam mensagens ao pipeline quando o trabalho do segmento é concluído para permitir a ativação por streaming
+* Há suporte à ativação de segmentos em lote para destinos por streaming. Como os perfis se qualificam para associação de público-alvo a partir de trabalhos de segmentos em lote, essas realizações podem ser ativadas por meio da ativação de streaming.
 
 ### Ativação de segmentos por streaming para destinos em lote
 
