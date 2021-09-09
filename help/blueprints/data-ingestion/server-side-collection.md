@@ -4,16 +4,16 @@ description: Dados coletados por streaming pelos SDKs da Experience Platform par
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 82%
 
 ---
 
 # Blueprint de coleção de dados corporativos do servidor
 
-O Blueprint de coleção de dados corporativos do servidor apresenta como os dados coletados com os SDKs móveis e da Web da Adobe Experience Platform podem ser encaminhados da Edge Network da Experience Platform para o destino de seu escolha. É possível encaminhar todos os dados brutos coletados dos SDKs ou dados específicos com base em eventos e regras configurados no Experience Platform Launch.
+O Blueprint de coleção de dados corporativos do servidor apresenta como os dados coletados com os SDKs móveis e da Web da Adobe Experience Platform podem ser encaminhados da Edge Network da Experience Platform para o destino de seu escolha. É possível encaminhar todos os dados brutos coletados dos SDKs ou dados específicos com base em eventos e regras, conforme configurado nas propriedades da tag (antigo Launch).
 
 ## Casos de uso
 
@@ -30,8 +30,8 @@ O Blueprint de coleção de dados corporativos do servidor apresenta como os dad
 
 ## Documentação relacionada
 
-[Documentação do servidor do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=pt-BR#server-side-info)
-[Vídeos sobre o lado do servidor do Experience Platform Launch](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=pt-BR)
+* [Documentação de encaminhamento do evento](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)
+* [Vídeos de encaminhamento de eventos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=pt-BR)
 
 ## Publicações do blog relacionadas
 

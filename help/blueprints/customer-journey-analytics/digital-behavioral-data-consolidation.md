@@ -4,10 +4,10 @@ description: Analise e extraia insights de interações em toda a jornada do cli
 solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
-source-git-commit: 2cf3445775b2db827938d2927214a4073da20cdb
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '622'
+ht-degree: 99%
 
 ---
 
@@ -37,10 +37,10 @@ Tenha uma visualização consolidada única do comportamento do cliente em vári
 
 ## Etapas de implementação
 
-1. [Crie esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=pt-BR) para que os dados sejam assimilados.
+1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
-1. Assimile dados na Experience Platform.
-Os dados devem ser assimilados na Platform antes de processá-los no Customer Journey Analytics. Para obter mais informações sobre a assimilação de dados e os tipos de fontes de dados, consulte a documentação a seguir. [Fontes de dados,](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR) incluindo o [Conector de dados do Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR). [Tutorial de assimilação de dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR)
+1. [Assimile dados na Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR).
+Os dados devem ser assimilados na Platform antes de processá-los no Customer Journey Analytics. Para obter mais informações sobre a assimilação de dados e os tipos de fontes de dados, consulte a documentação a seguir. [Fontes de dados,](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR) incluindo o [Conector de dados do Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR). [Tutorial de assimilação de dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
 1. Analise em união conjuntos de dados de eventos entre canais para garantir que eles tenham uma ID de namespace comum ou sejam rechaveados por meio da funcionalidade de adesão com base nos campos do Customer Journey Analytics. Consulte a documentação de análise entre canais para obter mais informações sobre a adesão de identidades no Customer Journey Analytics. [Adesão de identidades](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=pt-BR)
 
    >[!NOTE]

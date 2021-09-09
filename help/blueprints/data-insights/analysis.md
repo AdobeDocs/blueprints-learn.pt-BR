@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: 3bcb5d798986e563fda6f40fc730ff62b74b3187
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -43,11 +43,11 @@ Consulte a documentação do produto Serviço de consulta para detalhes sobre pr
 
 ## Etapas de implementação
 
-1. [Crie esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=pt-BR) para que os dados sejam assimilados.
+1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
-1. Confirme se os dados estão disponíveis para o [!UICONTROL Serviço de consulta] e o [!UICONTROL Data Science Workspace] para acesso e consulta brutos.
-1. Conecte as ferramentas de Business Intelligence e os clientes SQL ao [!UICONTROL Serviço de consulta] para visualização, consulta de dados e exploração.
+1. Confirme se os dados estão disponíveis para o [[!UICONTROL Serviço de consulta]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en) e o [[!UICONTROL Data Science Workspace] para acesso e consulta brutos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en)
+1. [Conecte as ferramentas de Business Intelligence e os clientes SQL ao [!UICONTROL Serviço de consulta] para visualização, consulta de dados e exploração.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.dash)
 
 ## Documentação relacionada
 

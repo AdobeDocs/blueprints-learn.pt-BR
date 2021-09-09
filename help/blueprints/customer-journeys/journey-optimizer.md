@@ -4,10 +4,10 @@ description: Execute mensagens e experiências acionadas usando a Adobe Experien
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: dc13a1fe9a32f70497c5c73485618e6989b7a644
+source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 98%
 
 ---
 
@@ -37,8 +37,8 @@ O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reag
 
 * O cliente deve ter um desenvolvedor de publicações de conteúdo para dispositivos móveis disponível para criar o aplicativo
 * SDK móvel da Adobe Experience Platform
-* Adobe Launch
-   * Propriedade móvel
+* Coleta de dados
+   * Propriedade de tags móveis
       * Extensões:
          * Extensão do Adobe Journey Optimizer
          * Rede de borda da Adobe Experience Platform
@@ -73,7 +73,7 @@ O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reag
 
 #### Esquemas/Conjuntos de dados
 
-1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-a-schema.html?lang=pt-BR) na Experience Platform com base nos dados fornecidos pelo cliente.
+1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) na Experience Platform com base nos dados fornecidos pelo cliente.
 1. Crie esquemas do Adobe Campaign para broadLog, trackingLog, endereços sem entrega e preferências de perfil (opcional).
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) na Experience Platform para que os dados sejam assimilados.
 1. [Adicione rótulos de uso de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=pt-BR) na Experience Platform para o conjunto de dados para governança.
