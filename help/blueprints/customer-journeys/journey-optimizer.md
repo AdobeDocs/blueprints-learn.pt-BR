@@ -4,10 +4,10 @@ description: Execute mensagens e experiências acionadas usando a Adobe Experien
 solution: Experience Platform, Campaign, Journey Orchestration
 kt: 7197
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+source-git-commit: 93561231286b5bfd9bf3660399b542d27aedb52c
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 98%
+source-wordcount: '712'
+ht-degree: 95%
 
 ---
 
@@ -53,7 +53,7 @@ O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reag
 
 ## Medidas de proteção
 
-* Consulte o link para obter mais detalhes sobre limitações
+* Consulte o link para obter mais detalhes sobre grades de proteção para Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
 * Segmentos em lote – precisam assegurar que você entenda o volume diário de usuários qualificados e que o sistema de destino possa lidar com a taxa de transferência intermitente por jornada e em todas as jornadas
 * Segmentos por streaming – precisam assegurar que a intermitência inicial de qualificações de perfis possam ser manipuladas com o volume de qualificações de streaming diárias por jornada e em todas as jornadas
 * Atividade de atualização de perfil – o Perfil do cliente em tempo real pode ser atualizado nativamente a partir de uma jornada.  Há um atraso de até 1 minuto no processamento da atualização na loja de perfis
