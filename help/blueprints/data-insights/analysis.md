@@ -4,8 +4,8 @@ description: Este blueprint apresenta a capacidade da Adobe Experience Platform 
 solution: Experience Platform
 kt: 7207
 thumbnail: null
-exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
+exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
+source-git-commit: 5e93d3a5a09a3a20418ec7e563b93d22aef3ddc7
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 91%
