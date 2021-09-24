@@ -5,9 +5,9 @@ solution: Experience Platform, Customer Journey Analytics, Data Collection
 kt: 7208
 exl-id: b042909c-d323-40d5-8b35-f3e5e3e26694
 source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Tenha uma visualização consolidada única do comportamento do cliente em vári
 1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Assimile dados na Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR).
-Os dados devem ser assimilados na Platform antes de processá-los no Customer Journey Analytics. Para obter mais informações sobre a assimilação de dados e os tipos de fontes de dados, consulte a documentação a seguir. [Fontes de dados,](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR) incluindo o [Conector de dados do Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR). [Tutorial de assimilação de dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion)
+Os dados devem ser assimilados na Platform antes de processá-los no Customer Journey Analytics. Para obter mais informações sobre a assimilação de dados e os tipos de fontes de dados, consulte a documentação a seguir. [Fontes de dados,](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR) incluindo o [Conector de dados do Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR). [Tutorial de assimilação de dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR)
 1. Analise em união conjuntos de dados de eventos entre canais para garantir que eles tenham uma ID de namespace comum ou sejam rechaveados por meio da funcionalidade de adesão com base nos campos do Customer Journey Analytics. Consulte a documentação de análise entre canais para obter mais informações sobre a adesão de identidades no Customer Journey Analytics. [Adesão de identidades](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=pt-BR)
 
    >[!NOTE]
@@ -61,7 +61,7 @@ Os dados devem ser assimilados na Platform antes de processá-los no Customer Jo
 * Dados de séries temporais a serem unificados devem ter o mesmo namespace de ID em cada registro.
 * O processo de unificar conjuntos de dados discrepantes exige uma chave primária comum de pessoa/entidade nos conjuntos de dados.
 * Atualmente, unificações secundárias com base nas chaves não são suportadas.
-* O processo de adesão de identidades com base nos campos permite rechavear identidades em linhas de acordo com registros de ID temporários subsequentes, como uma ID de autenticação. Esse processo permite a solução de registros discrepantes para uma única ID para análise no nível de pessoa, em vez de no nível de dispositivo ou cookie.
+* O processo de adesão de identidades com base nos campos permite rechavear identidades em linhas de acordo com registros de ID temporários subsequentes, como uma ID de autenticação. Ele permite a solução de registros discrepantes para uma única ID para análise no nível de pessoa, em vez de no nível de dispositivo ou cookie.
 * A compilação acontece uma vez por semana, com uma repetição após a adesão.
 
 ## FAQs
