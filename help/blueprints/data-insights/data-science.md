@@ -5,9 +5,9 @@ solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ O Blueprint de ciência de dados personalizada para aprimoramento de perfis ilus
 1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
-1. [Crie um DSW notebook](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en).
+1. [Crie um DSW notebook](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=pt-BR).
 1. Escolha um idioma. Python e PySpark são compatíveis.
-1. [Crie um modelo no notebook.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=en)
-1. [Treine o modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en).
-1. [Classifique o modelo para gerar predições com os dados do público-alvo.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en)
-1. [Habilite o conjunto de dados de resultados do modelo para perfil em caso de envio de resultados do modelo para o [!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=en).
+1. [Crie um modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=pt-BR) no notebook.
+1. [Treine o modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=pt-BR).
+1. [Classifique o modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=pt-BR) para gerar predições com os dados do público-alvo.
+1. [Habilite o conjunto de dados de resultados do modelo para perfil em caso de envio de resultados do modelo para o [!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=pt-BR).
 
 ## Documentação relacionada
 
