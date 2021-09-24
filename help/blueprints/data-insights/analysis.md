@@ -8,7 +8,7 @@ exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 5e93d3a5a09a3a20418ec7e563b93d22aef3ddc7
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -46,8 +46,8 @@ Consulte a documentação do produto Serviço de consulta para detalhes sobre pr
 1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
-1. Confirme se os dados estão disponíveis para o [[!UICONTROL Serviço de consulta]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=en) e o [[!UICONTROL Data Science Workspace] para acesso e consulta brutos.](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=en)
-1. [Conecte as ferramentas de Business Intelligence e os clientes SQL ao [!UICONTROL Serviço de consulta] para visualização, consulta de dados e exploração.](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.dash)
+1. Confirme se os dados estão disponíveis para o [[!UICONTROL Serviço de consulta]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=pt-BR) e o [[!UICONTROL Data Science Workspace]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=pt-BR) para acesso e consulta brutos.
+1. [Conecte as ferramentas de Business Intelligence e os clientes SQL ao [!UICONTROL Serviço de consulta]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.qsvc.dash) para visualização, consulta de dados e exploração.
 
 ## Documentação relacionada
 

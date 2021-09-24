@@ -7,7 +7,7 @@ exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: d19f42a181b51135c3cf672eeb957709279fe49a
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -37,8 +37,8 @@ O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reag
 
 * O cliente deve ter um desenvolvedor de publicações de conteúdo para dispositivos móveis disponível para criar o aplicativo
 * SDK móvel da Adobe Experience Platform
-* Coleta de dados
-   * Propriedade de tags móveis
+* Coleção de dados
+   * Propriedade de tags de dispositivo móvel
       * Extensões:
          * Extensão do Adobe Journey Optimizer
          * Rede de borda da Adobe Experience Platform
@@ -53,7 +53,7 @@ O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reag
 
 ## Medidas de proteção
 
-* Consulte o link para obter mais detalhes sobre grades de proteção para Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=en)
+* Consulte o link para obter mais detalhes sobre as medidas de proteção para o Journey Optimizer [LINK](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=pt-BR)
 * Segmentos em lote – precisam assegurar que você entenda o volume diário de usuários qualificados e que o sistema de destino possa lidar com a taxa de transferência intermitente por jornada e em todas as jornadas
 * Segmentos por streaming – precisam assegurar que a intermitência inicial de qualificações de perfis possam ser manipuladas com o volume de qualificações de streaming diárias por jornada e em todas as jornadas
 * Atividade de atualização de perfil – o Perfil do cliente em tempo real pode ser atualizado nativamente a partir de uma jornada.  Há um atraso de até 1 minuto no processamento da atualização na loja de perfis
