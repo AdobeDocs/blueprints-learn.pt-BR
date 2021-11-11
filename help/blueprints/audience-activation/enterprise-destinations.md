@@ -4,8 +4,8 @@ description: Ativação de público-alvo e perfil para destinos corporativos
 solution: Experience Platform,Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5,None
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Arquitetura
 
-<img src="assets/enterprise_destination_activation.svg" alt="Arquitetura de referência para cenários de ativação empresarial" style="border:1px solid #4a4a4a" />
+<img src="assets/enterprise_destination_activation.svg" alt="Arquitetura de referência para cenários de ativação empresarial" style="width:80%; border:1px solid #4a4a4a" />
 
 
 ## Medidas de proteção
@@ -56,4 +56,4 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 * Visão geral da [[!UICONTROL Plataforma de dados do cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
 * [Demonstração da [!UICONTROL Plataforma de dados do cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
-* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR)
+* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

@@ -5,7 +5,7 @@ solution: Experience Platform, Campaign, Analytics, Target, Audience Manager, Ma
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 42f67219f6ced3f563c8416e2e73d217e6998193
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 100%
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 O diagrama de arquitetura abaixo ilustra como os aplicativos da Adobe Experience Cloud e da Adobe Experience Platform encaixam-se em uma arquitetura de experiência de cliente empresarial.
 
-<img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="border:1px solid #4a4a4a" />
+<img src="assets/aec_experience_architecture.svg" alt="Experience Cloud" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 <br>
 O diagrama de arquitetura abaixo ilustra como a Adobe Experience Platform se conecta e se integra aos aplicativos do Adobe Experience Cloud.
 
-<img src="assets/experience_cloud.svg" alt="Experience Cloud" style="border:1px solid #4a4a4a" />
+<img src="assets/experience_cloud.svg" alt="Experience Cloud" style="width:80%; border:1px solid #4a4a4a" />

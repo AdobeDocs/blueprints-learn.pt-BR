@@ -5,8 +5,8 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: null
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 O diagrama de arquitetura abaixo ilustra os caminhos de integração e a coleção de dados utilizando o SDK da Web da Experience Platform.
 
-<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para implementação usando o SDK da Web e móvel da Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para implementação usando o SDK da Web e móvel da Experience Platform" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Documentação de referência
 

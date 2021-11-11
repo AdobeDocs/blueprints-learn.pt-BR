@@ -4,8 +4,8 @@ description: Ofereça experiências de cliente centradas em perfil e públicos-a
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 exl-id: null
-source-git-commit: d811d82418d477372caa9e5b0b67af197275d459
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Várias fontes de dados B2B podem ser usadas para mapear dados de contas, leads,
 
 ## Arquitetura
 
-<img src="assets/b2b-activation.svg" alt="Arquitetura de referência para o B2B Ativation Blueprint" style="border:1px solid #4a4a4a" />
+<img src="assets/b2b-activation.svg" alt="Arquitetura de referência para o B2B Ativation Blueprint" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Medidas de proteção
@@ -95,7 +95,7 @@ Se a implementação usar o Marketo Engage como fonte e o Marketo Engage estiver
 
 ## Documentação relacionada
 
-* [Edição B2B da Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=pt-BR)
+* [Edição B2B da Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=pt-BR)
 * [Adobe Experience Platform – Conector de origem do Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=pt-BR)

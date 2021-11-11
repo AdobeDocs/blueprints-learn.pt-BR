@@ -4,8 +4,8 @@ description: Crie campanhas com mensagens em lote e programadas usando a Adobe E
 solution: Experience Platform, Campaign
 kt: 7196
 exl-id: 4e55218c-c158-4f78-9f0b-c03528d992fa
-source-git-commit: 3c950cebaa25901ae50433775c510ed834d8bcd5
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Crie campanhas com mensagens em lote e programadas usando a Adobe Experience Pla
 
 ## Arquitetura
 
-<img src="assets/aepbatch.svg" alt="Arquitetura de referência para o Blueprint de mensagens em lote e Adobe Experience Platform" style="border:1px solid #4a4a4a" />
+<img src="assets/aepbatch.svg" alt="Arquitetura de referência para o Blueprint de mensagens em lote e Adobe Experience Platform" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Medidas de proteção
 
@@ -67,7 +67,7 @@ Compartilhamento de segmentos da **[!UICONTROL Plataforma de dados do cliente em
 #### Perfil/Identidade
 
 1. [Crie qualquer namespace específico para clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
-1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
+1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
 1. [Habilite os esquemas e conjuntos de dados para o Perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Adobe Campaign.

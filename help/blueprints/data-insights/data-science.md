@@ -4,8 +4,8 @@ description: Este blueprint apresenta como o Data Science Workspace, da Adobe Ex
 solution: Experience Platform,Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: c26bf7523dc9b3310678a4129ea10ad06ef5e7cb
-workflow-type: ht
+source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ O Blueprint de ciência de dados personalizada para aprimoramento de perfis ilus
 
 ## Arquitetura
 
-<img src="assets/data_science.svg" alt="Blueprint de arquitetura de referência para Ciência de dados personalizada para aprimoramento de perfis" style="border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Blueprint de arquitetura de referência para Ciência de dados personalizada para aprimoramento de perfis" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Etapas de implementação
 
@@ -34,7 +34,7 @@ O Blueprint de ciência de dados personalizada para aprimoramento de perfis ilus
 1. Escolha um idioma. Python e PySpark são compatíveis.
 1. [Crie um modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/recipe-builder-template.html?lang=pt-BR) no notebook.
 1. [Treine o modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=pt-BR).
-1. [Classifique o modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=pt-BR) para gerar predições com os dados do público-alvo.
+1. [Classifique o modelo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/schedule-training-scoring.html?lang=en) para gerar predições com os dados do público-alvo.
 1. [Habilite o conjunto de dados de resultados do modelo para perfil em caso de envio de resultados do modelo para o [!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/dsw-profile-segmentation.html?lang=pt-BR).
 
 ## Documentação relacionada
