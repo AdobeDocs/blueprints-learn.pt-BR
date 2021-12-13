@@ -5,10 +5,10 @@ solution: Experience Platform, Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: ec32344078e8bad9639d8d11ce93ed68fda186f3
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: 18c5ac6e01636d4d3b0ea0eb2edb92c949c870c5
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 83%
 
 ---
 
@@ -25,9 +25,12 @@ Análises comuns incluem:
 * Quais campanhas resultaram em conversão e aumento de engajamento
 * Análise de uso de ferramentas para otimizar experiências de autoatendimento
 
-| Blueprint | Descrição | Aplicativos da Experience Cloud |
-|---|---|---|
-| **[Análise da jornada entre canais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=pt-BR)** | <ul><li>Tenha uma visualização consolidada única do comportamento do cliente em vários canais ao unificar dados de várias propriedades da web, móveis e offline.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
+Uma lista completa de casos de uso de Customer Journey Analytics pode ser encontrada na documentação do Customer Journey Analytics localizada aqui.
+
+## [Link de casos de uso de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=en)
+
+Os casos de uso principais de exemplo incluíram o seguinte.
+| Blueprint | Descrição | Aplicativos Experience Cloud | |—|—| | **[Análise de Jornada entre canais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=pt-BR)**  | <ul><li>Tenha uma visualização consolidada única do comportamento do cliente em vários canais ao unificar dados de várias propriedades da web, móveis e offline.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul>|
 | **[Análise da jornada da diminuição de chamadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=pt-BR)** | <ul><li>Determine quais comportamentos são mais indicativos nos resultados de chamadas atendidas por agentes ao reunir dados da central de atendimento com dados da web, dispositivos móveis e outros dados de interação.</li><li>É possível usar esses insights para aprimorar a experiência do cliente e encurtar o caminho para interações atendidas por agentes por meio de conteúdo e ferramentas de autoatendimento.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Diagrama de medidas de proteção para Blueprints do Customer Journey Analytics
