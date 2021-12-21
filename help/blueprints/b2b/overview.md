@@ -1,12 +1,12 @@
 ---
 title: Análise e ativação B2B
-description: Ofereça experiências de cliente centradas em perfil e públicos-alvo baseados em contas com a Real-time Customer Data Platform.
+description: Forneça públicos-alvo baseados em conta e experiências de clientes centradas em perfis com o Real-time Customer Data Platform ​.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: 6da7ce0e5ae27fd7946c57f1a05a55a98026839d
+source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 86%
+ht-degree: 70%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 
 A ativação de público-alvo e perfil B2B é a chave para o sucesso em um mundo de marketing orientado por dados. Contudo, muitas marcas ainda concentram seus esforços na ativação inicial pelo canal, que por vezes fornece alcance e personalização inconsistentes.
 
-Com uma abordagem que prioriza os canais, cada canal age como um silo, no qual os esforços de personalização se concentram somente na interação do cliente com a marca naquele canal. Esta abordagem não reflete a realidade com que os clientes interagem com as marcas nos vários pontos de contato diferentes. A ativação de público-alvo e perfil B2B permite que as marcas conectem interações do cliente em vários canais, alinhem isso às respectivas informações baseadas em conta e oportunidade para fornecer um perfil e um público-alvo centralizados que possam ser ativados em todos os canais.
+Com uma abordagem que prioriza os canais, cada canal age como um silo, no qual os esforços de personalização se concentram somente na interação do cliente com a marca naquele canal. Essa abordagem não reflete a realidade de que os clientes interagem com marcas em vários pontos de contato diferentes. A ativação de público-alvo e perfil B2B permite que as marcas conectem interações do cliente em vários canais, alinhem isso às respectivas informações baseadas em conta e oportunidade para fornecer um perfil e um público-alvo centralizados que possam ser ativados em todos os canais.
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|

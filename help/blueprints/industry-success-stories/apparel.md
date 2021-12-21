@@ -3,7 +3,7 @@ title: Setor de vestuário - Ativação com aplicativos Experience Cloud
 description: Vários Blueprints foram usados para permitir marketing em tempo real, ativação entre canais e análise entre canais.
 solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
-source-git-commit: 41cb8d159c5aa358bb492e722a39ac61e3414dcc
+source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 16%
@@ -13,7 +13,7 @@ ht-degree: 16%
 
 # Desafio comercial da indústria de vestuário
 
-Esta empresa apperal específica é líder mundial em design, desenvolvimento, produção e marketing e vendas mundiais de calçado, vestuário, equipamentos, acessórios e serviços.
+Esta empresa de recurso específica é líder mundial em design, desenvolvimento, produção e marketing e vendas mundiais de calçado, vestuário, equipamentos, acessórios e serviços.
 
 A equipe de tecnologia global está usando o Adobe Experience Platform e as soluções de Adobe relevantes para resolver as seguintes áreas principais de pontos problemáticos:
 
@@ -30,18 +30,19 @@ A equipe de tecnologia global está usando o Adobe Experience Platform e as solu
 
 ## Valor comercial fornecido
 
-| Metas | Táticas | Valor não bloqueado |
+| Metas | Táticas | Valor desbloqueado |
 |---|---|---|
-| **Experiências entre canais conectadas **<br></br>**Envolvimento e retenção da unidade **<br></br>**Democratização de dados e insights**</ul> | <ul><li>Vários conjuntos de dados corporativos integrados para criar dezenas de milhões de perfis e centenas de segmentos, vários destinos e painéis de relatórios</li><li>Ativação em vários destinos usando o Real-time Customer Data Platform</li><li>Recurso de análise no nível do cliente desbloqueado com a Análise de Jornada do cliente</li><li>Acionadores de evento automatizados para interações do cliente implementadas por meio do Adobe Journey Optimizer</li></ul> | <ul><li><strong> Perfil do cliente:</strong>Visão de 360 graus dos clientes para segmentação</li><li><strong>Ativações de destino:</strong>Ativação em mídia paga, email e plataformas sociais</li><li><strong>Análise e atribuição do cliente:</strong>Análise de atribuição entre canais disponível ad hoc e distribuída facilmente<li><strong>Journey Orchestration:</strong> Crie e operacionalize campanhas acionadas e campanhas programadas usando contexto em tempo real</li></ul> |
+| **Experiências entre canais conectadas **<br></br>**Envolvimento e retenção da unidade **<br></br>**Democratização de dados e insights**</ul> | <ul><li>Vários conjuntos de dados corporativos integrados para criar dezenas de milhões de perfis e centenas de segmentos, vários destinos e painéis de relatórios</li><li>Ativação em vários destinos usando o Real-time Customer Data Platform</li><li>Recurso de análise no nível do cliente desbloqueado com a Análise de Jornada do cliente</li><li>Acionadores de evento automatizados para interações do cliente implementadas por meio do Adobe Journey Optimizer</li></ul> | <ul><li><strong> Perfil do cliente: </strong>Visão de 360 graus dos clientes para segmentação</li><li><strong>Ativações de destino: </strong>Ativação em mídia paga, email e plataformas sociais</li><li><strong>Análise e atribuição do cliente: </strong>Análise de atribuição entre canais disponível ad hoc e distribuída facilmente<li><strong>Journey Orchestration: </strong> Crie e operacionalize campanhas acionadas e campanhas programadas usando contexto em tempo real</li></ul> |
 
 ## Blueprint principal: Público-alvo e ativação com aplicativos Experience Cloud
 
-<strong>Descrição</strong>
+### Descrição
+
 <ul><li>Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li><li>Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li></ul>
 
-<strong>Aplicativos da Experience Cloud</strong>
-<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicativos da Experience Cloud</li></ul> 
-<br>
+### Aplicativos da Experience Cloud
+
+<ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicativos da Experience Cloud</li></ul>
 
 ### Arquitetura do Blueprint
 
