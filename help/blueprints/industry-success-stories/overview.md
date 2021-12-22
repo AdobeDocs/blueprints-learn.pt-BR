@@ -1,7 +1,7 @@
 ---
 title: Digital Experience Blueprints Histórias de sucesso do setor
 description: O Digital Experience Blueprints tem histórias de sucesso que mostram como vários setores estão obtendo valor comercial usando os aplicativos Adobe Experience Cloud, fornecidos pela Adobe Experience Platform.
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
+source-git-commit: 12bf012d41c9a78840da685de14672247e2a1583
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 27%
@@ -19,21 +19,32 @@ Saiba como os clientes estão arquitetando excelentes experiências e tendo suce
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR"><img alt="imagem em miniatura de um setor de Vestuário usando ativação de público-alvo, análise de jornada do cliente e jornada Blueprints do cliente" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+    </td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=pt-BR"><img alt="imagem em miniatura de um setor de varejo usando Ativação com dados online/offline e Journey Optimizer Blueprints" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+
+</td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="imagem em miniatura do Journey Optimizer Blueprint" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en" /></a>
+  </td>
+  <td>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=pt-BR"><img alt="imagem em miniatura para Ativação do Digital/Offline Data Blueprint" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg" /></a>
+  </td>
+</tr>
+<tr>
+  <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en"><strong>Indústria de vestuário</strong></a></div>
     <p><em>Marketing em tempo real, ativação entre canais e análise entre canais.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=pt-BR"><img alt="imagem em miniatura de um setor de varejo usando Ativação com dados online/offline e Journey Optimizer Blueprints" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>Setor de varejo</strong></a></div>
     <p><em>Experiências do cliente em tempo real em mídia digital, email, push e canais da Web.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><img alt="imagem em miniatura do Journey Optimizer Blueprint" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/journey-optimizer.png?lang=en" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en"><strong>Setor das telecomunicações</strong></a></div>
     <p><em>Personalizar negócios em tempo real, além de integrar eficientemente o cliente para fidelidade de longo prazo.</em></p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=pt-BR"><img alt="imagem em miniatura para Ativação do Digital/Offline Data Blueprint" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/online_offline_activation.svg" /></a>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en"><strong>Setor de Viagens e Hospitalidade</strong></a></div>
     <p><em>Decisões em tempo real com uma visão consolidada do comportamento do cliente em vários canais.</em></p>
   </td>
