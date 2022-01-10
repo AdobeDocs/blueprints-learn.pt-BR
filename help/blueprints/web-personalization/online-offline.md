@@ -5,9 +5,9 @@ landing-page-description: Sincronize a personalização da Web com emails e outr
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: b52346f224964b50ff5e5e553eca88670b7580f3
+source-git-commit: 0de426911553ae3b7907d7d08b25a07a11b34c0f
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1078'
 ht-degree: 67%
 
 ---
@@ -42,9 +42,9 @@ Sincronize a personalização da Web com emails e outras personalizações de ca
 <thead>
   <tr>
     <th class="tg-y6fn">#</th>
-    <th class="tg-f7v4">Padrão de integração</th>
+    <th class="tg-f7v4">Integration Pattern</th>
     <th class="tg-y6fn">Recurso</th>
-    <th class="tg-f7v4">Pré-requisitos</th>
+    <th class="tg-f7v4">Pre-Requisites</th>
   </tr>
 </thead>
 <tbody>
@@ -52,25 +52,31 @@ Sincronize a personalização da Web com emails e outras personalizações de ca
     <td class="tg-0lax">1</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Streaming de RTCDP e compartilhamento em lote do público-alvo para o Target e o Audience Manager por meio da abordagem do serviço de compartilhamento de público-alvo</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Compartilhe públicos-alvo de transmissão e lote do RTCDP para o Target e o Audience Manager por meio do serviço de compartilhamento de público-alvo. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 3.</span></td>
-    <td class="tg-73oq">- A projeção de público-alvo por meio do serviço de compartilhamento de público-alvo deve ser provisionada.<br>- A integração com o Target requer a mesma Organização IMS que a instância do Experience Platform.<br>- A identidade deve ser resolvida para o ECID para compartilhar na borda do Target para ação. AAM tem uma lista separada de identidades aprovadas para correspondência<br>- A implantação do WebSDK não é necessária para essa integração.</td>
+    <td class="tg-73oq">- Audience projection via audience sharing service must be provisioned.<br>- A integração com o Target requer a mesma Organização IMS que a instância do Experience Platform.<br>- A identidade deve ser resolvida para o ECID para compartilhar na borda do Target para ação. AAM has a separate list of approved identities to match against<br>- WebSDK deployment is not required for this integration.</td>
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-73oq">Streaming de RTCDP e compartilhamento em lote do público-alvo para o Target por meio da abordagem do Edge</td>
-    <td class="tg-0lax">- Compartilhe públicos-alvo de fluxo e lote da RTCDP no Target por meio da Edge Network. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 3.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- Atualmente em beta</span><br>- O destino do Target deve ser configurado em Destinos RTCDP.<br>- A integração com o Target requer a mesma Organização IMS que a instância do Experience Platform.<br>WebSDK não é necessário. WebSDk e AT.js são compatíveis. <br>- Se estiver usando a AT.js, somente a pesquisa de perfil em relação à ECID será suportada. <br>- Para pesquisas de namespace de id personalizadas no Edge, a implantação do WebSDK é necessária e cada identidade deve ser definida como uma identidade no mapa de identidade.</td>
+    <td class="tg-73oq">RTCDP streaming and batch audience sharing to Target via the Edge approach</td>
+    <td class="tg-0lax">- Share streaming and batch audiences from RTCDP to Target via the Edge Network. Audiences evaluated in real-time require the WebSDK and real-time audience evaluation outlined in integration pattern 3.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- Atualmente em beta</span><br>- O destino do Target deve ser configurado em Destinos RTCDP.<br>- A integração com o Target requer a mesma Organização IMS que a instância do Experience Platform.<br>WebSDK is not required. WebSDk and AT.js are supported. <br>- Se estiver usando a AT.js, somente a pesquisa de perfil em relação à ECID será suportada. <br>- For custom id namespace lookups on the Edge, the WebSDK deployment is required and each identity must be set as an identity in the identity map.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-73oq">Avaliação de segmento em tempo real RTCDP no Edge compartilhado com o Target por meio da Edge Network usando o WebSDK.</td>
-    <td class="tg-0lax">- Avalie os públicos-alvo em tempo real para a mesma ou próxima personalização de página no Edge.</td>
-    <td class="tg-73oq"><span style="text-decoration:none">- Atualmente em beta</span><br>- O destino do Target deve ser configurado em Destinos RTCDP.<br>- A integração com o Target requer a mesma Organização IMS que a instância do Experience Platform.<br>- O WebSDK deve ser implementado.<br>- Também compatível por meio da API.</td>
+    <td class="tg-73oq">RTCDP real-time segment evaluation on the Edge shared to Target via the Edge Network using the WebSDK.</td>
+    <td class="tg-0lax">- Evaluate audiences in real-time for same or next page personalization on the Edge.</td>
+    <td class="tg-73oq"><span style="text-decoration:none">- Atualmente em beta</span><br>- O destino do Target deve ser configurado em Destinos RTCDP.<br>- A integração com o Target requer a mesma Organização IMS que a instância do Experience Platform.<br>- O WebSDK deve ser implementado.<br>- Also supported via API.</td>
   </tr>
 </tbody>
 </table>
 
 
 ## Arquitetura
+
+Overview Architecture
+
+<img src="assets/RTCDP+Target.png" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:80%; border:1px solid #4a4a4a" />
+
+Arquitetura detalhada
 
 <img src="assets/online_offline_personalization_with_apps.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:80%; border:1px solid #4a4a4a" />
 
