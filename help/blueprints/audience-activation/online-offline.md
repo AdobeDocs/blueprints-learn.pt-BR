@@ -4,10 +4,10 @@ description: Ativação de público-alvo online/offline.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: c51ea51266ef61d5fdfdb50f4e0c1316790b1986
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+source-git-commit: 0415f2fb46b3a8d667c938c6ae13affb683530c6
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 92%
 
 ---
 
@@ -60,7 +60,7 @@ A ativação com o blueprint de dados online e offline está em sintonia com o [
 
 * A associação de públicos do RTCDP é compartilhada com o Audience Manager de forma contínua assim que a avaliação de segmento é concluída e gravada no perfil do Cliente em tempo real, independentemente de a avaliação de segmento ter ocorrido em lote ou por streaming. Se o perfil qualificado contiver as informações de roteamento regional para dispositivos de perfil relacionados, a associação de públicos do RTCDP será qualificada de forma contínua no Audience Manager Edge associado. Se os perfis do RTCDP não contiverem informações de roteamento regional, as associações de perfil serão enviadas para o local do hub do Audience Manager para avaliação e ativação baseadas em lote. Os perfis qualificados para ativação do Edge serão ativados miutos depois da qualificação de segmento do RTCDP. Os perfis que não se qualificarem para ativação do Edge serão qualificados no hub do Audience Manager, e o processamento poderá levar de 12 a 24 horas.
 
-* As informações de roteamento regional, para as quais as informações de dispositivo relacionadas ao perfil são armazenadas no Audience Manager Edge, podem ser coletadas no Conector de dados do Analytics quando os dados do Analytics são ativados para coleção de perfil ou diretamente do WebSDK como um conjunto de dados de classe de registro de perfil separado que deve ser ativado para o perfil.
+* As informações de roteamento regional para as quais as informações de dispositivo relacionadas ao perfil são armazenadas no Audience Manager Edge podem ser coletadas do Conector de dados do Analytics quando os dados do Analytics são ativados para a coleta de perfis ou diretamente do SDK da Web como um conjunto de dados de classe de registro de perfil separado que deve ser ativado para o perfil.
 
 * Para cenários de ativação em que os públicos são compartilhados da Experience Platform para o Audience Manager, as seguintes identidades são compartilhadas automaticamente: IDFA, GAID, AdCloud, Google, ECID e EMAIL_LC_SHA256. Atualmente, os namespaces personalizados não são compartilhados.
 
@@ -77,4 +77,4 @@ A ativação com o blueprint de dados online e offline está em sintonia com o [
 
 * Visão geral da [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
 * [Demonstração da [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
-* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR)
+* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)

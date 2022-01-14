@@ -4,10 +4,10 @@ description: Dados coletados por streaming pelos SDKs da Experience Platform par
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 55584ea85570bbcd4c959b0bd94b9e0bdc2e962f
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: 0415f2fb46b3a8d667c938c6ae13affb683530c6
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 93%
 
 ---
 
@@ -32,6 +32,7 @@ O Blueprint de coleção de dados corporativos do servidor apresenta como os dad
 
 * [Documentação de encaminhamento do evento](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=pt-BR)
 * [Vídeos sobre encaminhamento de eventos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=pt-BR)
+* [Lição de encaminhamento do evento](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html) do tutorial do SDK da Web
 
 ## Publicações do blog relacionadas
 

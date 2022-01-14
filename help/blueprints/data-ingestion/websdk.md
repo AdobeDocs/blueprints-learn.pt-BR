@@ -5,10 +5,10 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: b26edf62d49ce548bcbff47f19a9fe3d664fd7e9
+source-git-commit: 0746a479d4e651244995a8c355ed4c58b968f0c1
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 100%
+source-wordcount: '88'
+ht-degree: 82%
 
 ---
 
@@ -20,4 +20,5 @@ O diagrama de arquitetura abaixo ilustra os caminhos de integração e a coleç�
 
 ## Documentação de referência
 
-[Visão geral do SDK da Web/Móvel da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
+* [Visão geral do SDK da Web/Móvel da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
+* [Implementar o Adobe Experience Cloud com o tutorial do SDK da Web](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html)
