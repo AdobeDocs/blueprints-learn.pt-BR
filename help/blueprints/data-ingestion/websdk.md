@@ -4,8 +4,9 @@ description: Este blueprint mostra a arquitetura e a assimilação por meio do S
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
-source-git-commit: bc8aab586175ab004614764645ee8a86713b407b
-workflow-type: ht
+exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
+source-git-commit: b26edf62d49ce548bcbff47f19a9fe3d664fd7e9
+workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 100%
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 O diagrama de arquitetura abaixo ilustra os caminhos de integração e a coleção de dados utilizando o SDK da Web da Experience Platform.
 
-<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para implementação usando o SDK da Web e móvel da Experience Platform" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.png" alt="Arquitetura de referência para implementação usando o SDK da Web e móvel da Experience Platform" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Documentação de referência
 
