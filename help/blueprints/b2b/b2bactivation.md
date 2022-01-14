@@ -1,10 +1,10 @@
 ---
 title: Ativação B2B
-description: Ofereça experiências de cliente centradas em perfil e públicos-alvo baseados em contas com a Real-time Customer Data Platform.
+description: Ofereça experiências do cliente centradas em perfil e públicos-alvo baseados em contas com a Real-time Customer Data Platform.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
 source-git-commit: 733394239c4f8f647291a7dfe198b741cb21ed36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Use as informações de conta, oportunidade e lead vinculadas a um cliente indiv
 ## Padrões de integração
 
 * Fontes de dados B2B (Marketo, Salesforce etc.) -> Edição B2B da Real-time Customer Data Platform -> Destinos
-Várias fontes de dados B2B podem ser usadas para mapear dados de contas, leads, oportunidades e pessoas para a Edição B2B do Real-time Customer Data Platform.
+Várias fontes de dados B2B podem ser usadas para mapear dados de contas, leads, oportunidades e pessoas para a Edição B2B da Real-time Customer Data Platform.
 
 ## Arquitetura
 
@@ -88,13 +88,13 @@ Existem dois padrões de implementação possíveis. A capacidade de assimilar p
 Orientações sobre as principais considerações e configurações do blueprint.
 
 * Integração da CRM com e sem o Marketo:
-Se a implementação usar o Marketo Engage como fonte e o Marketo Engage estiver conectado à CRM, use o conector de origem do Marketo na Experience Platform para assimilar os dados da CRM na Experience Platform. Use o conector de origem da Experience Platform se as tabelas adicionais forem necessárias. Se a implementação não estiver usando o Marketo Engage como uma fonte, conecte a fonte da CRM diretamente à AEP usando o conector de origem da Experience Platform da CRM.
+Se a implementação usar o Marketo Engage como fonte e o Marketo Engage estiver conectado à CRM, use o conector de origem do Marketo na Experience Platform para assimilar os dados da CRM na Experience Platform. Use o conector de origem da Experience Platform se as tabelas adicionais precisarem ser assimiladas. Se a implementação não estiver usando o Marketo Engage como uma fonte, conecte a fonte da CRM diretamente à AEP usando o conector de origem da Experience Platform da CRM.
 * Não é recomendável iniciar e nutrir o lead apenas por meio da Edição B2B da Real-time Customer Data Platform. Para este caso de uso, recomenda-se o uso de uma ferramenta de nutrição do lead (como o Marketo Engage).
 * O conector de destino do Marketo Engage para AEP, que envia públicos-alvo para o Marketo Engage para ativação, envia somente endereços de email e ECIDs. Ele não criará um novo lead se o contato ainda não existir, portanto, é necessário assimilar o perfil e os dados do lead no Marketo Engage.
 
 ## Documentação relacionada
 
-* [Edição B2B da Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
+* [Edição B2B da Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=pt-BR)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=pt-BR)
 * [Adobe Experience Platform – Conector de origem do Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=pt-BR)
