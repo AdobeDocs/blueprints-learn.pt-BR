@@ -5,9 +5,9 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 role: Architect, Developer, User
 source-git-commit: 12a791205a2d8ee1cd0a7184eba54340f7d9ab1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 92%
 
 + [Visão geral](/help/blueprints/overview.md)
 + [Ver todos os casos de uso](/help/blueprints/use-cases.md)
-+ Veja todas as histórias de sucesso do setor{#industry-success-stories}
++ Veja todas as histórias de sucesso do setor {#industry-success-stories}
    + [Visão geral](/help/blueprints/industry-success-stories/overview.md)
    + [Vestuário](/help/blueprints/industry-success-stories/apparel.md)
    + [Varejo](/help/blueprints/industry-success-stories/retail.md)
    + [Telecomunicações](/help/blueprints/industry-success-stories/telecommunications.md)
-   + [Viagem e hospitalidade](/help/blueprints/industry-success-stories/travel-hospitality.md)
+   + [Viagens e hospitalidade](/help/blueprints/industry-success-stories/travel-hospitality.md)
 + Visões gerais da arquitetura {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform e aplicativos](/help/blueprints/experience-platform/platform-applications.md)
