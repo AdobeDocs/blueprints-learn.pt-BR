@@ -3,8 +3,7 @@ title: Ativação e análise B2B
 description: Ofereça experiências do cliente centradas em perfil e públicos-alvo baseados em contas com a Real-time Customer Data Platform.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: 9d0766cba6562066e5d8d7dc5c8983ab6fb1824b
+source-git-commit: 3b5628d856d754046b7a95ad22b660211c35260d
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 95%
@@ -19,7 +18,6 @@ Com uma abordagem que prioriza os canais, cada canal age como um silo, no qual o
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
-
-| **[Análise B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>Inclua informações da conta B2B na análise de jornada do cliente</li></ul>|<ul><li>Adobe Customer Journey Analytics</li></ul>|
-| **[Ativação de público-alvo B2B](b2bactivation.md)** | <ul><li>Direcione públicos-alvo B2B por meio de emails, Web e canais de anúncios.</li></ul>|<ul><li>Edição B2B da Adobe Real-time Customer Data Platform</li></ul>|
+| **[Análise B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html)** | <ul><li>Inclua informações da conta B2B na análise de jornada do cliente</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
+| **[Ativação de público-alvo B2B](b2bactivation.md)** | <ul><li>Direcione públicos-alvo B2B por meio de emails, Web e canais de anúncios.</li></ul> | <ul><li>Edição B2B da Adobe Real-time Customer Data Platform</li></ul> |
 
