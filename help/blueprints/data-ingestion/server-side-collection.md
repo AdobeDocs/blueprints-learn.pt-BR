@@ -4,7 +4,7 @@ description: Dados coletados por streaming pelos SDKs da Experience Platform par
 solution: Experience Platform,Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: 0415f2fb46b3a8d667c938c6ae13affb683530c6
+source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 93%

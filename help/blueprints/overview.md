@@ -2,8 +2,8 @@
 title: Blueprints de experiência digital
 description: Os Blueprints de experiência digital são implementações replicáveis que atendem a estratégias e resolvem problemas empresariais consagrados. Eles aceleram o tempo de retorno do investimento e fornecem um caminho mais rápido para o sucesso.
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: d2b0643bd567a10b27591d22480db1bde2a0a36a
-workflow-type: ht
+source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
+workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 100%
 
@@ -31,17 +31,17 @@ Os blueprints de experiência digital são implementações replicáveis que ate
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=pt-BR"><img alt="imagem em miniatura do Blueprint de mensagens acionadas e da Experience Platform" src="customer-journeys/assets/journey-optimizer.png" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=pt-BR"><strong>Mensagens acionadas e Experience Platform</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html"><strong>Mensagens acionadas e Experience Platform</strong></a></div>
     <p><em>Acione mensagens e experiências usando a [!UICONTROL Platform] como hub central.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=pt-BR"><img alt="imagem em miniatura do blueprint de ativação de público-alvo online/offline" src="audience-activation/assets/online_offline_activation.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=pt-BR"><strong>Ativação de público-alvo online/offline</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html"><strong>Ativação de público-alvo online/offline</strong></a></div>
     <p><em>Forneça publicidade entre canais ativada pelo público.</em></p>
   </td>
   <td>
     <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=pt-BR"><img alt="imagem em miniatura do blueprint de consolidação de dados digitais comportamentais" src="customer-journey-analytics/assets/CJA.svg" /></a>
-    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=pt-BR"><strong>Análise da jornada entre canais</strong></a></div>
+    <div><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=en"><strong>Análise da jornada entre canais</strong></a></div>
     <p><em>Tenha uma única visualização consolidada do comportamento do cliente em vários canais.</em></p>
   </td>
 </tr>
