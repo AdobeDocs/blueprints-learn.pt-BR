@@ -2,9 +2,10 @@
 title: Blueprint do Campaign v8
 description: O Adobe Campaign v8 é a ferramenta de campanha da próxima geração criada para canais de marketing tradicionais, como email e mala direta. Ele oferece recursos avançados de ETL e gerenciamento de dados para ajudar a criar e preparar a campanha perfeita. Seu mecanismo de orquestração fornece programas de marketing multitoque avançados com foco principal em jornadas orientadas por lote.  Ele também vem junto com um servidor de mensagens em tempo real escalável que permite que as equipes de marketing enviem mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para coisas como redefinição de senha, confirmação de pedido, e-receipt's e muito mais.
 solution: Campaign v8
-source-git-commit: 1c46cbdfc395de4fc9139966cf869ba1feeceaaa
+exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
+source-git-commit: 0c072465c2cac954631fe3a8dbdcef280ee397ab
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
@@ -89,9 +90,7 @@ O Adobe Campaign v8 é a ferramenta de campanha da próxima geração criada par
 ### Dimensionamento do servidor de mensagens em tempo real
 
 * Pode enviar até 1 M de mensagens por hora
-* Por padrão, apenas um (1) servidor de mensagens em tempo real é provisionado. Isso garante que qualquer comunicação com o servidor seja feita por meio de um token de sessão que expira em 24 horas
-* Como opção, você pode implantar até oito (8) servidores de mensagens em tempo real, mas a autenticação só oferece suporte a usuário/passagem
-* A abordagem recomendada é sempre utilizar um servidor de mensagens em tempo real para aproveitar o auth baseado em token de sessão sempre que possível
+* Por padrão, dois servidores de mensagens em tempo real são provisionados. Capacidade de dimensionar até oito servidores de mensagens em tempo real.
 
 ### Configuração de SMS
 
