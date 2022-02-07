@@ -4,10 +4,10 @@ description: Ativação de público-alvo online/offline.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
+source-git-commit: c4adcc5d23bb0482a348d7b5b2b70b06ff2873e8
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 100%
+source-wordcount: '764'
+ht-degree: 79%
 
 ---
 
@@ -58,9 +58,9 @@ A ativação com o blueprint de dados online e offline está em sintonia com o [
 
 ### Compartilhamento de públicos do Real-time Customer Data Platform para o Audience Manager
 
-* A associação de públicos do RTCDP é compartilhada com o Audience Manager de forma contínua assim que a avaliação de segmento é concluída e gravada no perfil do Cliente em tempo real, independentemente de a avaliação de segmento ter ocorrido em lote ou por streaming. Se o perfil qualificado contiver as informações de roteamento regional para dispositivos de perfil relacionados, a associação de públicos do RTCDP será qualificada de forma contínua no Audience Manager Edge associado. Se os perfis do RTCDP não contiverem informações de roteamento regional, as associações de perfil serão enviadas para o local do hub do Audience Manager para avaliação e ativação baseadas em lote. Os perfis qualificados para ativação do Edge serão ativados minutos depois da qualificação de segmento do RTCDP. Os perfis que não se qualificarem para ativação do Edge serão qualificados no hub do Audience Manager, e o processamento poderá levar de 12 a 24 horas.
+* A associação de públicos do RTCDP é compartilhada com o Audience Manager de forma contínua assim que a avaliação de segmento é concluída e gravada no perfil do Cliente em tempo real, independentemente de a avaliação de segmento ter ocorrido em lote ou por streaming. Se o perfil qualificado contiver as informações de roteamento regional para dispositivos de perfil relacionados, a associação de públicos do RTCDP será qualificada de forma contínua no Audience Manager Edge associado. Se as informações de roteamento regional foram aplicadas a um perfil com um carimbo de data e hora nos últimos 14 dias, elas serão avaliadas no Audience Manager Edge em streaming. Se os perfis do RTCDP não contiverem informações de roteamento regional ou se as informações de roteamento regional tiverem mais de 14 dias, as associações de perfil serão enviadas para o local do hub Audience Manager para avaliação e ativação baseadas em lote. Os perfis qualificados para ativação do Edge serão ativados dentro de minutos da qualificação de segmento do RTCDP, os perfis que não se qualificarem para ativação do Edge serão qualificados no hub do Audience Manager e podem ter um período de 12 a 24 horas para processamento.
 
-* As informações de roteamento regional, para as quais as informações de dispositivo relacionadas ao perfil são armazenadas no Audience Manager Edge, podem ser coletadas no Conector de dados do Analytics quando os dados do Analytics são ativados para coleta de perfil. Ou podem ser coletadas diretamente do SDK da Web como um conjunto de dados de classe de registro de perfil separado, que deve ser ativado para o perfil.
+* As informações de roteamento regional para as quais o Edge do perfil do Audience Manager é armazenado podem ser coletadas para o Experience Platform a partir do Audience Manager, do Serviço de ID do visitante, do Analytics, do Launch ou diretamente do SDK da Web como um conjunto de dados de classe de registro de perfil separado usando o grupo de campos XDM &quot;informações da região de captura de dados&quot;.
 
 * Para cenários de ativação em que os públicos são compartilhados da Experience Platform para o Audience Manager, as seguintes identidades são compartilhadas automaticamente: IDFA, GAID, AdCloud, Google, ECID e EMAIL_LC_SHA256. Atualmente, os namespaces personalizados não são compartilhados.
 
