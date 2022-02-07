@@ -39,8 +39,7 @@ ht-degree: 86%
    + [Visão geral](/help/blueprints/customer-journey-analytics/overview.md)
 + Jornadas do cliente {#customer-journeys}
    + [Visão geral](/help/blueprints/customer-journeys/overview.md)
-   + Journey
-  Optimizer{#journey-optimizer}
+   + Journey Optimizer{#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + [Journey Optimizer com Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensagens de terceiros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
