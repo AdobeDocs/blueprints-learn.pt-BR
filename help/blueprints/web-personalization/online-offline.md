@@ -5,10 +5,10 @@ landing-page-description: Sincronize a personalização da Web com emails e outr
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 5e27cc2f0114e404c6b6bb1e6f88a79d762f9e03
+source-git-commit: d639a2c76290588f92e443f645e95864caac442a
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 91%
+source-wordcount: '1147'
+ht-degree: 68%
 
 ---
 
@@ -27,7 +27,7 @@ Sincronize a personalização da Web com emails e outras personalizações de ca
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager (opcional): adiciona dados do público-alvo de terceiros, gráfico de dispositivos com base em co-op, capacidade de apresentar segmentos da Platform no Adobe Analytics e de apresentar segmentos do Adobe Analytics na Platform
+* Adobe Audience Manager (opcional): Adiciona dados de público-alvo de terceiros, gráfico de dispositivos baseado em cooperação, a capacidade de exibir públicos-alvo da Real-time Customer Data Platform no Adobe Analytics e a capacidade de exibir públicos-alvo da Adobe Analytics no Real-time Customer Data Platform
 * Adobe Analytics (opcional): adiciona a capacidade de criar segmentos com base em dados comportamentais históricos e criar segmentação detalhada a partir dos dados do Adobe Analytics
 
 ## Padrões de integração
@@ -50,21 +50,21 @@ Sincronize a personalização da Web com emails e outras personalizações de ca
 <tbody>
   <tr>
     <td class="tg-0lax">1</td>
-    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Compartilhamento de públicos-alvo de transmissão e em lote da RTCDP para o Target e o Audience Manager por meio da abordagem de serviço de compartilhamento de público-alvo</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">– Compartilhe públicos-alvo de transmissão e em lote da RTCDP para o Target e o Audience Manager por meio do serviço de compartilhamento de público-alvo. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 3.</span></td>
-    <td class="tg-73oq">– A projeção de público-alvo por meio do serviço de compartilhamento de público-alvo deve ser provisionada.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>– Para que o Target prossiga, a identidade deve ser transferida para a ECID para que possa ser compartilhada com o Edge. <br>- A implantação do WebSDK não é necessária para essa integração.</td>
+<td class="tg-73oq">Avaliação de segmento em tempo real do Real-time Customer Data Platform no Edge compartilhada com o Target</td>
+    <td class="tg-0lax">– Avalie os públicos-alvo em tempo real para a mesma ou próxima personalização de página no Edge.</td>
+    <td class="tg-73oq">- O destino do Target deve ser configurado em Destinos do Real-time Customer Data Platform.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>– O WebSDK deve ser implementado.<br>- A implementação com base em API e SDK móvel não está disponível no momento</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
-    <td class="tg-73oq">Compartilhamento de públicos-alvo de transmissão e em lote da RTCDP para o Target por meio da abordagem do Edge</td>
-    <td class="tg-0lax">– Compartilhe públicos-alvo de fluxo e em lote da RTCDP no Target por meio do Edge Network. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 3.</td>
-    <td class="tg-73oq">- O destino do Target deve ser configurado em Destinos RTCDP.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>WebSDK não é necessário. <br>– Se estiver usando a AT.js, somente a pesquisa de perfil em relação à ECID será suportada. <br>– Para pesquisas de namespace de ID personalizadas no Edge, a implantação do WebSDK é necessária, e cada identidade deve ser definida como uma identidade no mapa de identidade.</td>
+    <td class="tg-73oq">Transmissão em lote e compartilhamento de público-alvo do Real-time Customer Data Platform para o Target por meio da abordagem do Edge</td>
+    <td class="tg-0lax">- Compartilhe públicos-alvo de fluxo e lote do Real-time Customer Data Platform para o Target por meio da Edge Network. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 1.</td>
+    <td class="tg-73oq">- O destino do Target deve ser configurado em Destinos do Real-time Customer Data Platform.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>WebSDK não é necessário. <br>– Se estiver usando a AT.js, somente a pesquisa de perfil em relação à ECID será suportada. <br>- Para pesquisas de namespace de identidade personalizadas no Edge, a implantação do WebSDK é necessária e cada identidade deve ser definida como uma identidade no mapa de identidade.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
-    <td class="tg-73oq">Avaliação de segmento em tempo real da RTCDP no Edge compartilhado com o Target por meio do Edge usando o WebSDK.</td>
-    <td class="tg-0lax">– Avalie os públicos-alvo em tempo real para a mesma ou próxima personalização de página no Edge.</td>
-    <td class="tg-73oq">- O destino do Target deve ser configurado em Destinos RTCDP.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>– O WebSDK deve ser implementado.<br>- A implementação com base em API e SDK móvel ainda não está disponível</td>
+    <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Streaming do Real-time Customer Data Platform e compartilhamento em lote de público-alvo para o Target e o Audience Manager por meio da abordagem do serviço de compartilhamento de público-alvo</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Compartilhe públicos-alvo de streaming e lote do Real-time Customer Data Platform para o Target e o Audience Manager por meio do serviço de Compartilhamento de público-alvo. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 1.</span></td>
+    <td class="tg-73oq">– A projeção de público-alvo por meio do serviço de compartilhamento de público-alvo deve ser provisionada.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>– Para que o Target prossiga, a identidade deve ser transferida para a ECID para que possa ser compartilhada com o Edge. <br>- A implantação do WebSDK não é necessária para essa integração.</td>
   </tr>
 </tbody>
 </table>
@@ -97,37 +97,26 @@ Arquitetura detalhada
 
 O blueprint de personalização da Web/móvel pode ser implementado por meio das seguintes abordagens, conforme descrito abaixo.
 
-1. Usando o [!UICONTROL SDK da Web da Platform] ou o [!UICONTROL SDK móvel da Platform] e o [!UICONTROL Edge Network].
+1. Usando o [!UICONTROL SDK da Web da Platform] ou o [!UICONTROL SDK móvel da Platform] e o [!UICONTROL Edge Network]. [Consulte o blueprint do SDK da Web e móvel da Experience Platform](../data-ingestion/websdk.md)
 1. Usando SDKs tradicionais específicos para aplicativos (por exemplo, AppMeasurement.js)
-
-### 1. Abordagem do Edge e do SDK da Web/Móvel da Platform
-
-[Consulte o blueprint do SDK da Web e móvel da Experience Platform](../data-ingestion/websdk.md)
-
-### 2. Abordagem do SDK específico para aplicativos
-
 <img src="assets/app_sdk_flow.png" alt="Arquitetura de referência para abordagem do SDK específico para aplicativos" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Considerações de implementação
 
 Pré-requisitos de identidade
 
-* O compartilhamento de públicos-alvo da Adobe Experience Platform para o Adobe Target requer o uso da ECID como identidade.
+* Qualquer identidade primária pode ser aproveitada ao utilizar o padrão de integração 1 descrito acima com a rede Edge e o WebSDK. A primeira personalização de logon requer que o conjunto de solicitações de personalização corresponda à identidade primária do perfil do Real-time Customer Data Platform. A identificação entre dispositivos anônimos e clientes conhecidos é processada no hub e subsequentemente projetada para a borda. Portanto, se a identidade primária for definida como o identificador do dispositivo, os dados conhecidos do cliente não serão aplicados até as sessões subsequentes, onde os perfis anônimos e conhecidos foram unificados.
+* O compartilhamento de públicos do Adobe Experience Platform para a Adobe Target requer o uso da ECID como uma identidade ao usar o serviço de compartilhamento de público, conforme descrito no padrão de integração 3 acima.
 * Identidades alternativas também podem ser usadas para compartilhar públicos-alvo da Experience Platform com o Adobe Target por meio do Audience Manager. A Experience Platform ativa públicos-alvo para o Audience Manager por meio dos seguintes namespaces compatíveis: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Observe que o Audience Manager e o Target resolvem as associações de público-alvo por meio da identidade da ECID; portanto, a ECID ainda é necessária para o compartilhamento do público-alvo final com o Adobe Target.
 
 ## Etapas de implementação
-
 
 1. [Implemente o Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=pt-BR) para seus aplicativos da Web ou seus aplicativos para dispositivos móveis
 1. [Implemente o Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR) (opcional)
 1. [Implemente o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=pt-BR) (opcional)
 1. [Implemente a Experience Platform e o [!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=pt-BR)
-1. Implemente o [Identity Service da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=pt-BR) ou o [SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) O SDK da Web do Experience Platform é necessário para a segmentação de Edge em tempo real, mas não é necessário para compartilhar públicos de streaming e lote da RTCDP no Target. Observe que o suporte para a segmentação em tempo real por meio do SDK móvel ainda está em desenvolvimento.
+1. Implemente o [Identity Service da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=pt-BR) ou o [SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) O SDK da Web do Experience Platform é necessário para a segmentação de Edge em tempo real, mas não é necessário para compartilhar públicos de streaming e lote do Real-time Customer Data Platform com o Target. Observe que o suporte para segmentação em tempo real por meio do SDK móvel e da API não está disponível no momento.
 1. [Habilitar o Adobe Target como destino na Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR) ou, para a abordagem de compartilhamento de público-alvo, [Solicitar provisionamento para o compartilhamento de público-alvo entre a Experience Platform e o Adobe Target (públicos-alvo compartilhados)](https://www.adobe.com/go/audiences) para compartilhar públicos-alvo da Experience Platform com o Target.
-   >[!NOTE]
-   >
-   >Ao usar o serviço de Compartilhamento de público-alvo entre a RTCDP e o Adobe Target, os públicos-alvo deverão ser compartilhados usando a Experience Cloud ID e fazer parte da mesma organização da Experience Cloud. O suporte para identidades diferentes da ECID requer o uso do WebSDK e do Experience Edge Network.
-
 
 ## Documentação relacionada
 
