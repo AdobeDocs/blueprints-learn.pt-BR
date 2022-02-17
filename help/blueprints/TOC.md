@@ -3,13 +3,15 @@ user-guide-title: Blueprints de experiência digital
 breadcrumb-title: 'Blueprints '
 user-guide-description: Blueprints de experiência digital são implementações replicáveis para resolver problemas empresariais consagrados e contêm diagramas de arquitetura, considerações técnicas e links para documentações relevantes.
 product: adobe experience platform
+mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 66b0ceec973d31a902eef0c3a86bd7fcd51b7b8a
+source-git-commit: 28774e211ceedec2e099abbe0dbfee91267bda21
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
+
 
 # Blueprints de experiência digital {#architecture}
 
@@ -28,7 +30,9 @@ ht-degree: 86%
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
    + [Ativação de público-alvo anônima](/help/blueprints/audience-activation/anonymous.md)
-   + [Ativação com dados online e offline](/help/blueprints/audience-activation/online-offline.md)
+   + [Ativação para canais sociais e publicitários]{#audience-activation}
+      + [Ativação com dados online e offline](/help/blueprints/audience-activation/online-offline.md)
+      + [Ativação para públicos-alvo personalizados da Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
    + [Ativação para destinos por streaming de arquivos e empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Ativação com aplicativos da Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)
@@ -61,4 +65,3 @@ ht-degree: 86%
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
    + [Personalização com base comportamental](/help/blueprints/web-personalization/behavioral.md)
    + [Personalização com dados online e offline](/help/blueprints/web-personalization/online-offline.md)
-
