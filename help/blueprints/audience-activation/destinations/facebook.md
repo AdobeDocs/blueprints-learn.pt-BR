@@ -3,13 +3,13 @@ title: Ativação para públicos-alvo personalizados da Facebook
 description: Ativação para públicos-alvo personalizados da Facebook.
 solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
+source-git-commit: 051b094412419363e5e2406f2e436cc528bd409e
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
-
 
 # Ativação para públicos-alvo personalizados da Facebook
 
@@ -19,7 +19,9 @@ Assimile dados de clientes de várias fontes para criar uma única visualizaçã
 
 * Direcionamento de públicos para públicos conhecidos em destinos sociais e de publicidade.
 * Personalização online com atributos online e offline.
-Aplicativos
+
+## Aplicativos
+
 * Real-time Customer Data Platform
 
 ## Arquitetura
@@ -32,7 +34,7 @@ Aplicativos
    * Use namespaces prontos como Email, Email SHA256 Hash, quando disponível.
    * A facebook tem uma lista de identidades suportadas. Para ativar públicos personalizados do Facebook, uma das identidades suportadas deve estar presente nos perfis a serem ativados.
    * Atualmente, as seguintes identidades são suportadas pela Facebook: GAID, IDFA, phone_sha256, email_lc_sha256, external_id.
-   * Para obter mais detalhes, consulte a [Guia de destino do facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en).
+   * Para obter mais detalhes, consulte a [Guia de destino do facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html).
    * Crie namespaces personalizados onde os namespaces prontos não estão disponíveis para as identidades aplicáveis.
 1. Configurar esquemas e conjuntos de dados da fonte de dados do perfil.
    * Crie esquemas de registro de perfil para todos os dados de origem do registro de perfil.
@@ -67,7 +69,7 @@ Aplicativos
    * Revise a contagem de resultados do segmento para os segmentos em questão.
    * Investigue o perfil que deve ser incluído no segmento para verificar se a associação de segmento está incluída na parte de associação de segmento do perfil.
 1. Configure o delivery do público-alvo para o destino na configuração Destino .
-   * Consulte a [Guia de destino do facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en) para obter mais detalhes sobre como configurar o Destino do Facebook.
+   * Consulte a [Guia de destino do facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) para obter mais detalhes sobre como configurar o Destino do Facebook.
    * Ao configurar um destino, selecione qual público-alvo deseja ativar para o destino.
    * Determine a data de início agendada para a qual deseja que o fluxo de dados de destino comece a entregar o público-alvo ao destino.
    * Cada destino tem atributos obrigatórios e opcionais que serão enviados.
@@ -88,4 +90,4 @@ Aplicativos
 
 ## Documentação relacionada
 
-Ativação para públicos-alvo personalizados da Facebook - [Configuração de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=en)
+Ativação para públicos-alvo personalizados da Facebook - [Configuração de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)

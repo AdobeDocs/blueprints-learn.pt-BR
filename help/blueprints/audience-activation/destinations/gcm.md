@@ -1,79 +1,93 @@
 ---
-title: Ativação com o blueprint de dados online e offline
-description: Ativação de público-alvo online/offline.
-solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
+title: Ativação para a correspondência do cliente da Google
+description: Ativação para FGoogle Customer Match.
+solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
-source-git-commit: f1477d39a2b2349708ad74625bab6c5f4012ae1e
+source-git-commit: 0a0181a5fd84a645344fadefd47838237807c97c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1010'
+ht-degree: 3%
 
 ---
 
-# Ativação com o blueprint de dados online e offline
 
-Use atributos e eventos offline, como pedidos, transações, CRM ou dados de fidelização offline, com comportamentos online para direcionamento e personalização online.
+# Ativação para Correspondência de Cliente do FGoogle
 
-Ative públicos para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.
-
-Detalhes adicionais são fornecidos no [Blueprint de ativação de público e perfil com aplicativos da Experience Cloud](platform-and-applications.md), específico para integrações entre a Experience Platform e os aplicativos da Experience Cloud.
+Assimile dados de clientes de várias fontes para criar uma única visualização de perfil do cliente, segmente esses perfis para criar públicos-alvo para marketing e personalização, compartilhe-os em redes de anúncios sociais, como a Correspondência de clientes do Google, para direcionar e personalizar campanhas contra esses públicos-alvo. A Correspondência de clientes do Google permite que você use seus dados online e offline para acessar e reengajar seus clientes em todas as propriedades próprias e operadas da Google, como: Pesquisar, Comprar, Gmail e YouTube.
 
 ## Casos de uso
 
 * Direcionamento de públicos para públicos conhecidos em destinos sociais e de publicidade.
 * Personalização online com atributos online e offline.
-* Ative públicos para canais conhecidos, como email e SMS.
 
 ## Aplicativos
 
-* Adobe Experience Platform
-* [!UICONTROL Real-time Customer Data Platform]
+* Real-time Customer Data Platform
 
 ## Arquitetura
 
-### Ativação com dados online e offline com destinos
-
-<img src="assets/online_offline_activation.svg" alt="Arquitetura de referência para o blueprint de ativação de público-alvo online/offline" style="width:80%; border:1px solid #4a4a4a" />
-<br>
-
-## Medidas de proteção
-
-[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público e perfil.](overview.md)
+<img src="../assets/gcm.png" alt="Arquitetura de referência para Google Customer Match Ativation" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Etapas de implementação
 
-1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
-1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
-1. [Configure as identidades corretas e os namespaces de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR) no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
-1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
-1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
-1. [Forneça compartilhamento de segmentos da [!UICONTROL Real-time Customer Data Platform]](https://www.adobe.com/go/audiences) entre a Experience Platform e o Audience Manager. Assim, os públicos definidos na Experience Platform podem ser compartilhados com o Audience Manager.
-1. [Crie segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR) na Experience Platform. O sistema decide automaticamente se o segmento é avaliado em lote ou por streaming.
-1. [Configure destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=pt-BR) para compartilhar atributos de perfil e associações de públicos com destinos desejados.
+1. Configure Namespaces de identidade a serem usados nas fontes de dados do perfil.
+   * Use namespaces prontos como Email, Email SHA256 Hash, quando disponível.
+   * A Correspondência de clientes do Google tem uma lista de identidades suportadas. Para ativar a Correspondência de clientes do Google, uma das identidades suportadas deve estar presente nos perfis a serem ativados.
+   * Atualmente, as seguintes identidades são suportadas pela Correspondência de clientes do Google: GAID, IDFA, phone_sha256_e.164, email_lc_sha256, user_id.
+   * Para obter mais detalhes, consulte a [Guia de destino de correspondência do cliente do Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html).
+   * Crie namespaces personalizados onde os namespaces prontos não estão disponíveis para as identidades aplicáveis.
+1. Configurar esquemas e conjuntos de dados da fonte de dados do perfil.
+   * Crie esquemas de registro de perfil para todos os dados de origem do registro de perfil.
+      * Especifique a identidade primária e as identidades secundárias para cada esquema.
+      * Ative o esquema para assimilação de perfil.
+   * Crie conjuntos de dados de registro de perfil para todos os dados de origem do registro de perfil, atribuindo o esquema associado.
+      * Ative o conjunto de dados para assimilação de perfil.
+   * Crie esquemas de evento de experiência de perfil para todos os dados de origem baseados em séries de tempo de perfil.
+      * Especifique a identidade primária e as identidades secundárias do esquema.
+   * Ative o esquema para assimilação de perfil.
+   * Crie conjuntos de dados de eventos de experiência de perfil para todos os dados de origem do evento de experiência de perfil, atribuindo o esquema associado.
+      * Ative o conjunto de dados para assimilação de perfil.
+1. Assimilar os dados de origem usando um conector de origem no conjunto de dados associado configurado acima.
+   * Configure a conta do conector de origem com credenciais.
+   * Configure um fluxo de dados para assimilar os dados do local do arquivo de origem ou da pasta em um agendamento especificado para o conjunto de dados especificado.
+   * Mapeie qualquer campo a partir dos dados de origem para o schema de destino.
+   * Transforme todos os campos no formato correto para assimilação em Experience Platform.
+      * Transformações de data
+      * Transformar em minúsculas, quando apropriado - como endereço de email
+      * Transformações de padrão (número de telefone, por exemplo)
+      * Adicione IDs de registros exclusivos para registros de eventos de experiência, se não estiverem presentes nos dados de origem.
+      * Transforme matrizes e campos do tipo de mapa para garantir o mapeamento e a modelagem corretos de matrizes e mapas para segmentação no Experience Platform.
+1. Configure a Política de mesclagem de perfis para garantir a configuração correta do gráfico de identidade e quais conjuntos de dados devem ser incluídos na mesclagem de perfis.
+1. Após a execução dos fluxos de dados, verifique se a assimilação de dados do perfil foi bem-sucedida, sem erros.
+   * Inspect o gráfico de identidade de vários perfis para garantir o processamento correto dos relacionamentos de identidade.
+   * Inspect os atributos e eventos de vários perfis para garantir a assimilação correta de atributos e eventos nos perfis.
+1. Crie segmentos para criar públicos-alvo de perfil
+   * Construa segmentos no construtor de segmentos usando regras em relação a atributos e eventos.
+   * Salve o segmento para avaliação. Os segmentos serão avaliados no agendamento especificado uma vez por dia.
+      * Se as regras de segmento estiverem qualificadas para a segmentação de transmissão, o segmento será avaliado conforme novos dados de transmissão são assimilados para os perfis. Segmentos de fluxo também serão avaliados uma vez por dia durante a segmentação de lote agendada.
+1. Certifique-se de que os resultados do segmento sejam os esperados.
+   * Revise a contagem de resultados do segmento para os segmentos em questão.
+   * Investigue o perfil que deve ser incluído no segmento para verificar se a associação de segmento está incluída na parte de associação de segmento do perfil.
+1. Configure o delivery do público-alvo para o destino na configuração Destino .
+   * Consulte a [Guia de destino de correspondência do cliente do Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) para obter mais detalhes sobre como configurar o Destino do Facebook.
+   * Ao configurar um destino, selecione qual público-alvo deseja ativar para o destino.
+   * Determine a data de início agendada para a qual deseja que o fluxo de dados de destino comece a entregar o público-alvo ao destino.
+   * Cada destino tem atributos obrigatórios e opcionais que serão enviados.
+      * Para a Correspondência de clientes do Google, uma das identidades necessárias deve ser incluída e é usada para corresponder os perfis nos públicos no Experience Platform a um perfil direcionável pela Correspondência de clientes do Google.
+   * Cada destino também tem um tipo de delivery especificado, seja streaming ou lote, arquivo baseado em arquivo ou carga JSON.
+      * Para a Correspondência de clientes da Google, as associações de público-alvo são fornecidas de forma contínua a um terminal de Correspondência de clientes da Google no formato JSON.
+      * As associações de público-alvo serão fornecidas de forma contínua, após a avaliação da segmentação por streaming ou lote no Experience Platform.
+1. Verifique se o fluxo de destino entregou o público-alvo ao destino conforme esperado.
+   * Verifique a interface de monitoramento para confirmar que o público-alvo foi entregue com o número de perfis esperado. O tamanho do público-alvo deve refletir o número esperado de perfis ativados, observando que um destino específico, como a Correspondência de clientes do Google, exigirá determinados campos, como uma identidade de hash de email, e se não estiver presente no perfil que é membro do público-alvo, ele não será ativado no destino.
+   * Verifique se há perfis ignorados para identidades de perfil ausentes ou atributos ausentes que eram obrigatórios.
+   * Verifique se há outros erros que possam precisar ser resolvidos.
+1. Verifique se o público-alvo foi ativado para o destino final com o número esperado de associações de público-alvo.
+   * Após concluir o fluxo de ativação, alterne para sua conta do Google Ads. Os segmentos ativados são mostrados em sua conta do Google como listas de clientes. Observe que, dependendo do tamanho do seu segmento, alguns públicos-alvo não são preenchidos a menos que haja mais de 100 usuários ativos para serem atendidos.
 
-## Considerações de implementação
+## Medidas de proteção
 
-* Compartilhar dados de perfil com destinos exige a inclusão de valor específico de identidade, usado pelo destino na carga de destino. Qualquer identidade necessária para um destino de público-alvo deve ser assimilada na Platform e configurada como uma identidade para o [!UICONTROL Perfil de cliente em tempo real].
-
-### Compartilhamento de públicos do Real-time Customer Data Platform para o Audience Manager
-
-* A associação de públicos do RTCDP é compartilhada com o Audience Manager de forma contínua assim que a avaliação de segmento é concluída e gravada no perfil do Cliente em tempo real, independentemente de a avaliação de segmento ter ocorrido em lote ou por streaming. Se o perfil qualificado contiver as informações de roteamento regional para dispositivos de perfil relacionados, a associação de públicos do RTCDP será qualificada de forma contínua no Audience Manager Edge associado. Se as informações de roteamento regional foram aplicadas a um perfil com um carimbo de data e hora nos últimos 14 dias, elas serão avaliadas no Audience Manager Edge em streaming. Se os perfis do RTCDP não contiverem informações de roteamento regional ou se as informações de roteamento regional tiverem mais de 14 dias, as associações de perfil serão enviadas para o local do hub Audience Manager para avaliação e ativação baseadas em lote. Os perfis qualificados para ativação do Edge serão ativados dentro de minutos da qualificação de segmento do RTCDP, os perfis que não se qualificarem para ativação do Edge serão qualificados no hub do Audience Manager e podem ter um período de 12 a 24 horas para processamento.
-
-* As informações de roteamento regional para as quais o Edge do perfil do Audience Manager é armazenado podem ser coletadas para o Experience Platform a partir do Audience Manager, do Serviço de ID do visitante, do Analytics, do Launch ou diretamente do SDK da Web como um conjunto de dados de classe de registro de perfil separado usando o grupo de campos XDM &quot;informações da região de captura de dados&quot;.
-
-* Para cenários de ativação em que os públicos são compartilhados da Experience Platform para o Audience Manager, as seguintes identidades são compartilhadas automaticamente: IDFA, GAID, AdCloud, Google, ECID e EMAIL_LC_SHA256. Atualmente, os namespaces personalizados não são compartilhados.
-
-É possível compartilhar os públicos da Experience Platform por meio dos destinos do Audience Manager, quando as identidades de destino necessárias estiverem incluídas no [!UICONTROL Perfil de cliente em tempo real]. Ou também onde as identidades no [!UICONTROL Perfil de cliente em tempo real] possam ser relacionadas às identidades de destino vinculadas ao Audience Manager.
+[Proteção de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 
 ## Documentação relacionada
 
-* Descrição do produto [[!UICONTROL Real-time Customer Data Platform]](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform.html)
-* [Guias de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
-* [Documentação de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR)
-* [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR)
-
-## Vídeos e tutoriais relacionados
-
-* Visão geral da [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
-* [Demonstração da [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
-* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+Ativação para a correspondência do cliente da Google - [Configuração de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)
