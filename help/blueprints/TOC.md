@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a61fa9d1c6a77e9eb32ff363f724de92fbac8585
+source-git-commit: bdbf083e60a94b29debb70976aad47a083b41e32
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 78%
+source-wordcount: '177'
+ht-degree: 76%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 78%
    + [Ativação com dados online e offline](/help/blueprints/audience-activation/online-offline.md)
    + Ativação para canais sociais e publicitários{#audience-activation}
       + [Ativação para públicos-alvo personalizados da Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
+      + [Ativação para a correspondência do cliente da Google](/help/blueprints/audience-activation/destinations/gcm.md)
    + [Ativação para destinos por streaming de arquivos e empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
    + [Ativação com aplicativos da Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
    + [Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)
