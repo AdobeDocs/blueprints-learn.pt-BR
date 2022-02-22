@@ -3,7 +3,8 @@ title: Ativação B2B
 description: Ofereça experiências do cliente centradas em perfil e públicos-alvo baseados em contas com a Real-time Customer Data Platform.
 solution: Experience Platform, Real-time Customer Data Platform
 kt: 9311
-source-git-commit: 733394239c4f8f647291a7dfe198b741cb21ed36
+exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
+source-git-commit: fcfd45ce954e9a273561ab6fd824aa16fd0fe1e9
 workflow-type: ht
 source-wordcount: '821'
 ht-degree: 100%
@@ -21,7 +22,7 @@ Use as informações de conta, oportunidade e lead vinculadas a um cliente indiv
 
 ## Aplicativos
 
-* Real-time Customer Data Platform Edição B2B
+* Edição B2B da Real-time Customer Data Platform
 
 ## Padrões de integração
 
