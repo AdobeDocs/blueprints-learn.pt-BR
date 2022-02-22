@@ -6,7 +6,7 @@ kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -23,4 +23,4 @@ O [!UICONTROL Data Science Workspace] habilita a execução de exploração de d
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
 | **[Análise de dados e Inteligência](analysis.md)** | <ul><li>O Blueprint de Análise de dados e Inteligência engloba os métodos pelos quais os dados podem ser consultados e analisados para obter insights aprofundados na Adobe Experience Platform</ul></li> | <ul><li> Inteligência da Adobe Experience Platform</ul></li> |
-| **[Ciência de dados personalizada para aprimoramento de perfis](data-science.md)** | <ul><li>Treine, pontue e operacionalize modelos para enriquecer ainda mais os perfis e os insights do cliente orientados por modelos de ações</li></ul> | <ul><li>Inteligência da Adobe Experience Platform</li><li> [!UICONTROL Plataforma de dados do cliente em tempo real]</li></ul> |
+| **[Ciência de dados personalizada para aprimoramento de perfis](data-science.md)** | <ul><li>Treine, pontue e operacionalize modelos para enriquecer ainda mais os perfis e os insights do cliente orientados por modelos de ações</li></ul> | <ul><li>Inteligência da Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li></ul> |
