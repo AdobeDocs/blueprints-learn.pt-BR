@@ -5,7 +5,7 @@ solution: Experience Platform,Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -49,5 +49,5 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 
 * [Descrição do produto Adobe Experience Platform Activation](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform0.html)
 * Documentação do [[!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR)
-* [Medidas de proteção de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
+* [Medidas de proteção de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 * [API de pesquisa de perfil](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
