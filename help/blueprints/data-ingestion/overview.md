@@ -6,7 +6,7 @@ kt: 7204
 thumbnail: null
 exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -21,4 +21,4 @@ A preparação de dados inclui o mapeamento dos dados de origem para o esquema d
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
 | **[Preparação e assimilação de dados](ingestion.md)** | <ul><li>O blueprint de preparação e assimilação de dados abrange todos os métodos pelos quais os dados podem ser preparados e assimilados na Adobe Experience Platform.</ul></li> | <ul><li> Adobe Experience Platform </ul></li> |
-| **[Coleção de dados corporativos do servidor](server-side-collection.md)** | <ul><li>Ativação para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade. </li><li>Use atributos e eventos offline, como pedidos, transações, dados de CRM ou de fidelização, com comportamentos online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Plataforma de dados do cliente em tempo real]</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Coleção de dados corporativos do servidor](server-side-collection.md)** | <ul><li>Ativação para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade. </li><li>Use atributos e eventos offline, como pedidos, transações, dados de CRM ou de fidelização, com comportamentos online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (opcional)</li></ul> |
