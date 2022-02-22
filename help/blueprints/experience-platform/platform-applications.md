@@ -6,7 +6,7 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       <td colspan="1">Ad Cloud</td>
       <td colspan="1">
         <ul>
-          <li>Os públicos-alvos definidos na Plataforma de dados do cliente em tempo real podem ser compartilhados com a Ad Cloud para direcionamento por meio do Audience Manager.</li>
+          <li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com a Ad Cloud para direcionamento por meio do Audience Manager.</li>
         </ul>
       </td>
       <td colspan="1">Sem integração atual</td>
@@ -88,7 +88,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       <td>Audience Manager</td>
       <td>
         <ul>
-          <li>Os públicos-alvos definidos na Plataforma de dados do cliente em tempo real podem ser compartilhados com o Audience Manager para ativação para destinos de cookies de terceiros.</li>
+          <li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com o Audience Manager para ativação para destinos de cookies de terceiros.</li>
         </ul>
       </td>
       <td>
@@ -100,13 +100,13 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       <td>
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Ativação de público-alvo anônima</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=pt-BR">Ativação de público-alvo anônima</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Ativação de público-alvo online/offline</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=pt-BR">Ativação de público-alvo online/offline</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Ativação com a Experience Platform e aplicativos</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR">Ativação com a Experience Platform e aplicativos</a>
           </li>
         </ul>
       </td>
@@ -115,12 +115,12 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       <td colspan="1">Campaign Classic</td>
       <td colspan="1">
         <ul>
-          <li>Os públicos-alvos definidos na Plataforma de dados do cliente em tempo real podem ser compartilhados com o Campaign Classic como público-alvo a iniciar campanhas.</li>
+          <li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com o Campaign Classic como público-alvo a iniciar campanhas.</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
-          <li>Os dados de interação e de campanhas coletados pelo Campaign podem ser assimilados na Experience Platform como uma fonte de dados para uso adicional na criação de públicos-alvos e na análise. A criação de públicos-alvos se dá por meio da Plataforma de dados do cliente em tempo real, e na análise, por meio do Customer Journey Analytics, do Serviço de consulta da Experience Platform e do Data Science Workspace.</li>
+          <li>Os dados de interação e de campanhas coletados pelo Campaign podem ser assimilados na Experience Platform como uma fonte de dados para uso adicional na criação de públicos-alvos e na análise. A criação de públicos-alvos se dá por meio da Real-time Customer Data Platform, e na análise, por meio do Customer Journey Analytics, do Serviço de consulta da Experience Platform e do Data Science Workspace.</li>
         </ul>
       </td>
       <td colspan="1">
@@ -135,18 +135,18 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       <td colspan="1">Campaign Standard</td>
       <td colspan="1">
         <ul>
-          <li>Os públicos-alvos definidos na Plataforma de dados do cliente em tempo real podem ser compartilhados com o Campaign Standard como público-alvo a iniciar campanhas.</li>
+          <li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com o Campaign Standard como público-alvo a iniciar campanhas.</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
-          <li>Os dados de interação e de campanhas coletados pelo Campaign podem ser assimilados na Experience Platform como uma fonte de dados para uso adicional na criação de públicos-alvos e na análise. A criação de públicos-alvos se dá por meio da Plataforma de dados do cliente em tempo real, e na análise, por meio do Customer Journey Analytics, do Serviço de consulta da Experience Platform e do Data Science Workspace.</li>
+          <li>Os dados de interação e de campanhas coletados pelo Campaign podem ser assimilados na Experience Platform como uma fonte de dados para uso adicional na criação de públicos-alvos e na análise. A criação de públicos-alvos se dá por meio da Real-time Customer Data Platform, e na análise, por meio do Customer Journey Analytics, do Serviço de consulta da Experience Platform e do Data Science Workspace.</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=en">Mensagens em lote</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/batch-messaging.html?lang=pt-BR">Mensagens em lote</a>
           </li>
         </ul>
       </td>
@@ -178,7 +178,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Ativação de público-alvo online/offline</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=pt-BR">Ativação de público-alvo online/offline</a>
           </li>
         </ul>
       </td>
@@ -192,7 +192,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       </td>
       <td colspan="1">
         <ul>
-          <li>Os dados de interação e de campanhas produzidos pelo Journey Optimizer são coletados para a Experience Platform para uso adicional na criação de públicos-alvos e na análise. A criação de públicos-alvos se dá por meio da Plataforma de dados do cliente em tempo real, e na análise, por meio do Customer Journey Analytics, do Serviço de consulta da Experience Platform e do Data Science Workspace.</li>
+          <li>Os dados de interação e de campanhas produzidos pelo Journey Optimizer são coletados para a Experience Platform para uso adicional na criação de públicos-alvos e na análise. A criação de públicos-alvos se dá por meio da Real-time Customer Data Platform, e na análise, por meio do Customer Journey Analytics, do Serviço de consulta da Experience Platform e do Data Science Workspace.</li>
         </ul>
       </td>
       <td colspan="1">
@@ -213,7 +213,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       <td colspan="1">Marketo</td>
       <td colspan="1">
         <ul>
-          <li>Os públicos-alvos definidos na Plataforma de dados do cliente em tempo real podem ser compartilhados com o Marketo como público-alvo a iniciar campanhas do Marketo e atualizar objetos do Marketo.</li>
+          <li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com o Marketo como público-alvo a iniciar campanhas do Marketo e atualizar objetos do Marketo.</li>
         </ul>
       </td>
       <td colspan="1">
@@ -229,10 +229,10 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       </td>
     </tr>
     <tr>
-      <td colspan="1">CDP em tempo real</td>
+      <td colspan="1">Real-time CDP</td>
       <td colspan="1">
         <ul>
-          <li>Os dados assimilados e coletados para a Experience Platform são a fonte de dados para a montagem de perfis de clientes em tempo real que alimentam a Plataforma de dados do cliente em tempo real.</li>
+          <li>Os dados assimilados e coletados para a Experience Platform são a fonte de dados para a montagem de perfis de clientes em tempo real que alimentam a Real-time Customer Data Platform.</li>
         </ul>
       </td>
       <td colspan="1">
@@ -244,10 +244,10 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Ativação de público-alvo online/offline</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=pt-BR">Ativação de público-alvo online/offline</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Ativação com a Experience Platform e aplicativos</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR">Ativação com a Experience Platform e aplicativos</a>
           </li>
         </ul>
       </td>
@@ -256,22 +256,22 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
       <td colspan="1">Target</td>
       <td colspan="1">
         <ul>
-          <li>Os públicos-alvos definidos na Plataforma de dados do cliente em tempo real podem ser compartilhados com o Target e usados em experiências de personalização e direcionamento fornecidas pelo Target. </li>
+          <li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com o Target e usados em experiências de personalização e direcionamento fornecidas pelo Target. </li>
           <li>A integração do Direct Experience Edge com o Target para associação de segmento em tempo real e acesso a atributos de perfil está no roteiro.</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
-          <li>Os dados coletados para experiências e interações do Target podem ser coletados na Experience Platform por meio do SDK da Web da Experience Platform. É possível usar esses dados na criação de públicos-alvos por meio da Plataforma de dados do cliente em tempo real, e na análise, por meio do Customer Journey Analytics,  do Serviço de consulta da Experience Platform e do Data Science Workspace.</li>
+          <li>Os dados coletados para experiências e interações do Target podem ser coletados na Experience Platform por meio do SDK da Web da Experience Platform. É possível usar esses dados na criação de públicos-alvos por meio da Real-time Customer Data Platform, e na análise, por meio do Customer Journey Analytics,  do Serviço de consulta da Experience Platform e do Data Science Workspace.</li>
         </ul>
       </td>
       <td colspan="1">
         <ul>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=en">Ativação de público-alvo online/offline</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=pt-BR">Ativação de público-alvo online/offline</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Ativação com a Experience Platform e aplicativos</a>
+            <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR">Ativação com a Experience Platform e aplicativos</a>
           </li>
         </ul>
       </td>
