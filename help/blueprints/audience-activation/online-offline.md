@@ -27,7 +27,7 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 ## Aplicativos
 
-* Adobe Experience Platform
+* Adobe Experience Platform 
 * [!UICONTROL Real-time Customer Data Platform]
 
 ## Arquitetura

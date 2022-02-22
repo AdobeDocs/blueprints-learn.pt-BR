@@ -30,7 +30,7 @@ Quais desses casos de uso são importantes para sua empresa? Descubra quais Blue
   público-alvo e perfil</td>
  </tr>
  <tr>
-  <td>Criação de públicos-alvos para direcionamento em redes de anúncios compatíveis.</td>
+  <td>Criação de públicos-alvo para direcionamento em redes de anúncios compatíveis.</td>
  </tr>
  <tr>
   <td>Direcionamento de públicos-alvos para públicos-alvos conhecidos em
@@ -110,8 +110,7 @@ Quais desses casos de uso são importantes para sua empresa? Descubra quais Blue
  <tr>
   <td>Mensagens acionadas.</td>
   <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey
-  Optimizer</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></td>
  </tr>
  <tr>
   <td>Confirmações de registro.</td>

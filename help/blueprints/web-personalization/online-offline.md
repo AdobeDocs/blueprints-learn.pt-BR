@@ -8,7 +8,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 91db73c9fb14d461ee62444199c3d053bd094639
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 68%
+ht-degree: 70%
 
 ---
 
@@ -64,7 +64,7 @@ Sincronize a personalização da Web com emails e outras personalizações de ca
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Streaming do Real-time Customer Data Platform e compartilhamento em lote de público-alvo para o Target e o Audience Manager por meio da abordagem do serviço de compartilhamento de público-alvo</span></td>
     <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Compartilhe públicos-alvo de streaming e lote do Real-time Customer Data Platform para o Target e o Audience Manager por meio do serviço de Compartilhamento de público-alvo. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 1.</span></td>
-    <td class="tg-73oq">– A projeção de público-alvo por meio do serviço de compartilhamento de público-alvo deve ser provisionada.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>– Para que o Target prossiga, a identidade deve ser transferida para a ECID para que possa ser compartilhada com o Edge. <br>- A implantação do WebSDK não é necessária para essa integração.</td>
+    <td class="tg-73oq">– A projeção de público-alvo por meio do serviço de compartilhamento de público-alvo deve ser provisionada.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>– Para que o Target prossiga, a identidade deve ser transferida para a ECID para que possa ser compartilhada com o Edge.<br>- A implantação do WebSDK não é necessária para essa integração.</td>
   </tr>
 </tbody>
 </table>
@@ -115,7 +115,7 @@ Pré-requisitos de identidade
 1. [Implemente o Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR) (opcional)
 1. [Implemente o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=pt-BR) (opcional)
 1. [Implemente a Experience Platform e o [!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=pt-BR)
-1. Implemente o [Identity Service da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=pt-BR) ou o [SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR). O SDK da Web do Experience Platform é necessário para a segmentação de Edge em tempo real, mas não é necessário para compartilhar públicos de streaming e lote do Real-time Customer Data Platform com o Target. Observe que o suporte para segmentação em tempo real por meio do SDK móvel e da API não está disponível no momento.
+1. Implemente o [Identity Service da Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=pt-BR) ou o [SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) . O SDK da Web do Experience Platform é necessário para a segmentação de Edge em tempo real, mas não é necessário para compartilhar públicos de streaming e lote do Real-time Customer Data Platform com o Target. Observe que o suporte para segmentação em tempo real por meio do SDK móvel e da API não está disponível no momento.
 1. [Habilitar o Adobe Target como destino na Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR) ou, para a abordagem de compartilhamento de público-alvo, [Solicitar provisionamento para o compartilhamento de público-alvo entre a Experience Platform e o Adobe Target (públicos-alvo compartilhados)](https://www.adobe.com/go/audiences) para compartilhar públicos-alvo da Experience Platform com o Target.
 
 ## Documentação relacionada
@@ -135,7 +135,7 @@ Pré-requisitos de identidade
 
 ### Tutoriais
 
-* [Personalização de próxima ocorrência com a CDP em tempo real e a Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=en)
+* [Personalização de próxima ocorrência com Real-Time CDP e Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=pt-BR)
 
 ## Publicações do blog relacionadas
 
