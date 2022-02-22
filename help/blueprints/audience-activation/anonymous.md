@@ -7,7 +7,7 @@ kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 ## Casos de uso
 
 * Realização de direcionamento e personalização de público digital anônimo.
-* Criação de públicos para direcionamento em redes de anúncios compatíveis.
+* Criação de públicos-alvo para direcionamento em redes de anúncios compatíveis.
 
 ## Aplicativos
 
