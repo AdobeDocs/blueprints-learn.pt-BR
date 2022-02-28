@@ -5,9 +5,9 @@ landing-page-description: Sincronize a personalização da Web com emails e outr
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 7d614edd9d6db1d6da936c79f4de9bb66db72c0b
+source-git-commit: 4d02197b437c167a90cbadf16b0b19fc733a9f65
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 50%
 
 ---
@@ -51,19 +51,19 @@ Sincronize a personalização da Web com emails e outras personalizações de ca
   <tr>
     <td class="tg-0lax">1</td>
 <td class="tg-73oq">Avaliação de segmento em tempo real no Edge compartilhado do Real-time Customer Data Platform para o Target</td>
-    <td class="tg-0lax">– Avalie os públicos-alvo em tempo real para a mesma ou próxima personalização de página no Edge.<br>- Além disso, qualquer segmento avaliado no streaming ou lote também será projetado para a Rede de borda para ser incluído na avaliação e personalização do segmento de borda.</td>
+    <td class="tg-0lax">– Avalie os públicos-alvo em tempo real para a mesma ou próxima personalização de página no Edge.<br>- Além disso, quaisquer segmentos avaliados em streaming ou lote também serão projetados para a Rede de borda para serem incluídos na avaliação e personalização do segmento de borda.</td>
     <td class="tg-73oq">- O conjunto de dados deve ser configurado no Experience Edge com a extensão do Target e do Experience Platform ativada, o ID do conjunto de dados será fornecido na configuração de destino do Target.<br>- O destino do Target deve ser configurado em Destinos do Real-time Customer Data Platform.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>– O WebSDK deve ser implementado.<br>- A implementação com base em API e SDK móvel não está disponível no momento</td> 
   </tr>
   <tr>
     <td class="tg-0lax">2</td>
     <td class="tg-73oq">Streaming e compartilhamento em lote do público-alvo no Real-time Customer Data Platform para o Target por meio da abordagem do Edge</td>
-    <td class="tg-0lax">- Compartilhe públicos-alvo de fluxo e lote do Real-time Customer Data Platform para o Target por meio da Edge Network. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 1.</td>
-    <td class="tg-73oq">- O conjunto de dados deve ser configurado no Experience Edge, a ID do conjunto de dados será fornecida na configuração de destino do Target, embora não seja necessário implementar esse conjunto de dados para personalização ou compartilhamento de públicos de fluxo e lote no momento, se estiver usando a abordagem de implementação da AT.js, no entanto, ele deve ser configurado na Rede de borda.<br>- O destino do Target deve ser configurado em Destinos do Real-time Customer Data Platform.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>- O WebSDK não é necessário para compartilhar públicos de streaming e lote no Target, embora seja necessário para habilitar a avaliação de segmentos de borda em tempo real, conforme descrito no padrão de integração 1. <br>- Se estiver usando a AT.js, somente a integração de perfil com o namespace de identidade da ECID será compatível. <br>- Para pesquisas de namespace de identidade personalizadas no Edge, a implantação do WebSDK é necessária e cada identidade deve ser definida como uma identidade no mapa de identidade.</td>
+    <td class="tg-0lax">- Compartilhe públicos-alvo de fluxo e lote do Real-time Customer Data Platform para o Target por meio da Edge Network. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 1.<br>- Normalmente, essa integração é aproveitada para compartilhar públicos de streaming e lote usando SDKs tradicionais, em vez de migrar para o Edge Collection e o WebSDK, que alimenta públicos em tempo real, bem como públicos de streaming e lote, conforme descrito no padrão de integração 1.</td>
+    <td class="tg-73oq">- O conjunto de dados deve ser configurado no Experience Edge, a ID do conjunto de dados será fornecida na configuração de destino do Target.<br>- O destino do Target deve ser configurado em Destinos do Real-time Customer Data Platform.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>- O WebSDK não é necessário para compartilhar públicos de streaming e lote no Target, embora seja necessário para habilitar a avaliação de segmentos de borda em tempo real, conforme descrito no padrão de integração 1. <br>- Se estiver usando a AT.js, somente a integração de perfil com o namespace de identidade da ECID será compatível. <br>- Para pesquisas de namespace de identidade personalizadas no Edge, a implantação do WebSDK é necessária e cada identidade deve ser definida como uma identidade no mapa de identidade.</td>
   </tr>
   <tr>
     <td class="tg-0lax">3</td>
     <td class="tg-73oq"><span style="font-weight:400;font-style:normal">Transmissão e compartilhamento em lote do público-alvo do Real-time Customer Data Platform para o Target e Audience Manager por meio da abordagem do serviço de compartilhamento de público-alvo</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Compartilhe públicos-alvo de streaming e lote do Real-time Customer Data Platform para o Target e o Audience Manager por meio do serviço de Compartilhamento de público-alvo. Esse padrão de integração pode ser aproveitado quando o enriquecimento adicional de dados de terceiros e públicos-alvo no Audience Manager é desejado. Caso contrário, são preferidos os padrões de integração 1 e 2. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 1.</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal">- Compartilhe públicos-alvo de streaming e lote do Real-time Customer Data Platform para o Target e o Audience Manager por meio do serviço de Compartilhamento de público-alvo.<br> -Esse padrão de integração pode ser aproveitado quando o enriquecimento adicional de dados de terceiros e públicos-alvo no Audience Manager é desejado. Caso contrário, são preferidos os padrões de integração 1 e 2. Os públicos-alvo avaliados em tempo real exigem o WebSDK e a avaliação de público-alvo em tempo real descrita no padrão de integração 1.</span></td>
     <td class="tg-73oq">– A projeção de público-alvo por meio do serviço de compartilhamento de público-alvo deve ser provisionada.<br>– A integração com o Target requer uma organização IMS igual a da instância da Experience Platform.<br>– Para que o Target prossiga, a identidade deve ser transferida para a ECID para que possa ser compartilhada com o Edge.<br>- A implantação do WebSDK não é necessária para essa integração.</td>
   </tr>
 </tbody>
