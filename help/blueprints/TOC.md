@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: bdbf083e60a94b29debb70976aad47a083b41e32
+source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 76%
+source-wordcount: '175'
+ht-degree: 82%
 
 ---
 
@@ -30,13 +30,14 @@ ht-degree: 76%
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
    + [Ativação de público-alvo anônima](/help/blueprints/audience-activation/anonymous.md)
-   + [Ativação com dados online e offline](/help/blueprints/audience-activation/online-offline.md)
-   + Ativação para canais sociais e publicitários{#audience-activation}
-      + [Ativação para públicos-alvo personalizados da Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
-      + [Ativação para a correspondência do cliente da Google](/help/blueprints/audience-activation/destinations/gcm.md)
-   + [Ativação para destinos por streaming de arquivos e empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
+   + Ativação conhecida do cliente{#known-customer-audience-activation}
+      + [Visão geral](/help/blueprints/audience-activation/known.md)
+      + Ativação para canais sociais e publicitários{#audience-activation}
+         + [Ativação para públicos-alvo personalizados da Facebook](/help/blueprints/audience-activation/destinations/facebook.md)
+         + [Ativação para a correspondência do cliente da Google](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [Ativação para destinos por streaming de arquivos e empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)
    + [Ativação com aplicativos da Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
-   + [Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)
 + Ativação e marketing B2B {#b2b-activation}
    + [Visão geral](/help/blueprints/b2b/overview.md)
    + [Ativação B2B](/help/blueprints/b2b/b2bactivation.md)
@@ -48,8 +49,8 @@ ht-degree: 76%
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + [Journey Optimizer com Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensagens de terceiros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
-   + Campanha v8{#campaign-v8}
-      + [Campanha v8](/help/blueprints/customer-journeys/campaign-v8.md)
+   + Campaign v8{#campaign-v8}
+      + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
    + Campaign v7{#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP com Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)

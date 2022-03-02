@@ -4,10 +4,10 @@ description: Gerencie perfis e públicos-alvos na Experience Platform e comparti
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
-workflow-type: ht
-source-wordcount: '270'
-ht-degree: 100%
+source-git-commit: 0f0cd7487c67066b3d1d7ec162fadc634b50627b
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud. Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud.
 
-A ativação com aplicativos da Experience Cloud está em sintonia com o [Blueprint de ativação de público-alvo online/offline](online-offline.md).
+A Ativation with Experience Cloud Applications está alinhada à [Blueprint de Ativação do Cliente Conhecido](known.md).
 
 ## Casos de uso
 
@@ -24,7 +24,7 @@ A ativação com aplicativos da Experience Cloud está em sintonia com o [Bluepr
 
 ## Aplicativos
 
-* Adobe Experience Platform
+* Adobe Experience Platform 
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Aplicativos da Experience Cloud

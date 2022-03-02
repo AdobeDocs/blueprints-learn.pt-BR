@@ -2,10 +2,10 @@
 title: Casos de uso dos Blueprints de experiência digital
 description: Os Blueprints de experiência digital são implementações replicáveis que atendem a estratégias e resolvem problemas empresariais consagrados. Eles aceleram o tempo de retorno do investimento e fornecem um caminho mais rápido para o sucesso.
 exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
-source-git-commit: 3afcc2c293242a3b68ee4e4603ab686f6b309232
+source-git-commit: 657e94baf69ba1898a163a082fbfef36fdfd9a3a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 98%
+source-wordcount: '691'
+ht-degree: 96%
 
 ---
 
@@ -36,8 +36,7 @@ Quais desses casos de uso são importantes para sua empresa? Descubra quais Blue
   <td>Direcionamento de públicos-alvos para públicos-alvos conhecidos em
   destinos sociais e de publicidade.</td>
   <td rowspan="3" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/online-offline.html?lang=pt-BR">Ativação de público-alvo
-  online/offline</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known.html?lang=en">Ativação conhecida do cliente</a></td>
  </tr>
  <tr>
   <td>Personalização online com atributos online e offline.</td>
@@ -50,13 +49,13 @@ Quais desses casos de uso são importantes para sua empresa? Descubra quais Blue
   ou destinos de streaming para empresas que fazem rastreamento, armazenamento, análise e
   ativação de dados e insights do cliente.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=pt-BR">Ativação para destinos
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/enterprise-destinations.html?lang=en">Ativação para destinos
   corporativos</a></td>
  </tr>
  <tr>
   <td>Personalize e direcione em canais de interação com o cliente impulsionados pela Experience Cloud.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR">Ativação com aplicativos
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Ativação com aplicativos
   da Experience Cloud</a></td>
  </tr>
  <tr>
@@ -70,7 +69,7 @@ Quais desses casos de uso são importantes para sua empresa? Descubra quais Blue
   do público-alvo e outros atributos e insights que são armazenados no perfil do cliente em
   tempo real.</td>
   <td style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=pt-BR">Hub de
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/customer-activity.html?lang=en">Hub de
   atividades do cliente</a></td>
  </tr>
  <tr>
