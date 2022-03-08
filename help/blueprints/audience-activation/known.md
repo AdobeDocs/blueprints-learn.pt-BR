@@ -4,7 +4,7 @@ description: Ativação de público-alvo online/offline.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: aba3bfcecac07cb51393fef9e6278d9d6af3e377
+source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 76%
@@ -39,7 +39,7 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 ## Medidas de proteção
 
-[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público e perfil.](overview.md)
+[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público e perfil](overview.md).
 
 ## Etapas de implementação
 
