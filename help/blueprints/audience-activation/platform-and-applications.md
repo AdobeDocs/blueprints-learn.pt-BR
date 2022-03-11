@@ -4,10 +4,10 @@ description: Gerencie perfis e públicos-alvos na Experience Platform e comparti
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
+source-git-commit: 8d9875595cb5cb4a4815fff9213defc2921e647d
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ A Ativation with Experience Cloud Applications está alinhada à [Blueprint de A
 
 ## Arquitetura
 
-[Consulte a seção Experience Platform e Arquitetura de aplicativos para obter diagramas de arquitetura adicionais relacionados a integrações da Experience Platform com aplicativos da Experience Cloud.](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=pt-BR)
+Consulte a [Seção Experience Platform and Applications Architecture](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=pt-BR) para diagramas de arquitetura adicionais relacionados às integrações do Experience Platform com aplicativos Experience Cloud.
 
 ### Ativação de público-alvo e perfil com aplicativos da Experience Cloud
 
