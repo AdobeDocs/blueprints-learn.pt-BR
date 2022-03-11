@@ -4,10 +4,10 @@ description: Ativação de público-alvo online/offline.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 7611084c357e721f954ff980ef88b965609dd5ed
+source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 76%
+source-wordcount: '473'
+ht-degree: 88%
 
 ---
 
@@ -49,22 +49,14 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
 1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
 1. [Forneça compartilhamento de segmentos da [!UICONTROL Real-time Customer Data Platform]](https://www.adobe.com/go/audiences) entre a Experience Platform e o Audience Manager. Assim, os públicos definidos na Experience Platform podem ser compartilhados com o Audience Manager.
-1. [Crie segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR) na Experience Platform. O sistema decide automaticamente se o segmento é avaliado em lote ou por streaming.
+1. [Crie segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR) na Experience Platform. O sistema decide automaticamente se o segmento é avaliado em lote ou por transmissão.
 1. [Configure destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=pt-BR) para compartilhar atributos de perfil e associações de públicos com destinos desejados.
 
 ## Considerações de implementação
 
 * Compartilhar dados de perfil com destinos exige a inclusão de valor específico de identidade, usado pelo destino na carga de destino. Qualquer identidade necessária para um destino de público-alvo deve ser assimilada na Platform e configurada como uma identidade para o [!UICONTROL Perfil de cliente em tempo real].
 
-### Compartilhamento de públicos do Real-time Customer Data Platform para o Audience Manager
-
-* A associação de públicos do RTCDP é compartilhada com o Audience Manager de forma contínua assim que a avaliação de segmento é concluída e gravada no perfil do Cliente em tempo real, independentemente de a avaliação de segmento ter ocorrido em lote ou por streaming. Se o perfil qualificado contiver as informações de roteamento regional para dispositivos de perfil relacionados, a associação de públicos do RTCDP será qualificada de forma contínua no Audience Manager Edge associado. Se as informações de roteamento regional foram aplicadas a um perfil com um carimbo de data e hora nos últimos 14 dias, elas serão avaliadas no Audience Manager Edge em streaming. Se os perfis do RTCDP não contiverem informações de roteamento regional ou se as informações de roteamento regional tiverem mais de 14 dias, as associações de perfil serão enviadas para o local do hub Audience Manager para avaliação e ativação baseadas em lote. Os perfis qualificados para ativação do Edge serão ativados dentro de minutos da qualificação de segmento do RTCDP, os perfis que não se qualificarem para ativação do Edge serão qualificados no hub do Audience Manager e podem ter um período de 12 a 24 horas para processamento.
-
-* As informações de roteamento regional para as quais o Edge do perfil do Audience Manager é armazenado podem ser coletadas para o Experience Platform a partir do Audience Manager, do Serviço de ID do visitante, do Analytics, do Launch ou diretamente do SDK da Web como um conjunto de dados de classe de registro de perfil separado usando o grupo de campos XDM &quot;informações da região de captura de dados&quot;.
-
-* Para cenários de ativação em que os públicos são compartilhados da Experience Platform para o Audience Manager, as seguintes identidades são compartilhadas automaticamente: IDFA, GAID, AdCloud, Google, ECID e EMAIL_LC_SHA256. Atualmente, os namespaces personalizados não são compartilhados.
-
-É possível compartilhar os públicos da Experience Platform por meio dos destinos do Audience Manager, quando as identidades de destino necessárias estiverem incluídas no [!UICONTROL Perfil de cliente em tempo real]. Ou também onde as identidades no [!UICONTROL Perfil de cliente em tempo real] possam ser relacionadas às identidades de destino vinculadas ao Audience Manager.
+* Consulte a [Ativação de público-alvo e perfil com o blueprint de aplicativos do Experience Cloud](platform-and-applications.md) para obter detalhes adicionais sobre o compartilhamento de públicos-alvo do Real-time Customer Data Platform para o Audience Manager, Analytics, Target, Campaign e Journey Optimizer.
 
 ## Documentação relacionada
 

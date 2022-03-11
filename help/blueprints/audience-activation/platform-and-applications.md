@@ -4,10 +4,10 @@ description: Gerencie perfis e públicos-alvos na Experience Platform e comparti
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 0f0cd7487c67066b3d1d7ec162fadc634b50627b
+source-git-commit: 20dd657a85ffeb8ae2f160855369643c2f2743bb
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 95%
+source-wordcount: '710'
+ht-degree: 86%
 
 ---
 
@@ -45,6 +45,28 @@ A Ativation with Experience Cloud Applications está alinhada à [Blueprint de A
 ## Medidas de proteção
 
 Consulte as [medidas de proteção na página de Visão geral de ativação de público-alvo e perfil](overview.md)
+
+## Considerações de implementação
+
+* Compartilhar dados de perfil com destinos exige a inclusão de valor específico de identidade, usado pelo destino na carga de destino. Qualquer identidade necessária para um destino de público-alvo deve ser assimilada na Platform e configurada como uma identidade para o [!UICONTROL Perfil de cliente em tempo real].
+
+### Compartilhamento de públicos do Real-time Customer Data Platform para o Audience Manager
+
+* A associação de públicos do RTCDP é compartilhada com o Audience Manager de forma contínua assim que a avaliação de segmento é concluída e gravada no perfil do Cliente em tempo real, independentemente de a avaliação de segmento ter ocorrido em lote ou por transmissão. Se o perfil qualificado contiver as informações de roteamento regional para dispositivos de perfil relacionados, a associação de públicos do RTCDP será qualificada de forma contínua no Audience Manager Edge associado. Se as informações de roteamento regional foram aplicadas a um perfil com um carimbo de data e hora nos últimos 14 dias, elas serão avaliadas no Audience Manager Edge por transmissão. Se os perfis da RTCDP não contiverem informações de roteamento regional ou se tais informações tiverem mais de 14 dias, as associações de perfil serão enviadas para o local do hub do Audience Manager para avaliação e ativação baseadas em lote. Os perfis qualificados para ativação do Edge serão ativados minutos depois da qualificação de segmento da RTCDP. Os perfis que não se qualificarem para ativação do Edge serão qualificados no hub do Audience Manager, e o processamento poderá levar de 12 a 24 horas.
+
+* As informações de roteamento regional para as quais o Edge do perfil do Audience Manager é armazenado podem ser coletadas para a Experience Platform a partir do Audience Manager, do Serviço de ID de visitante, do Analytics, do Adobe Experience Platform Launch ou diretamente do SDK da Web como um conjunto de dados de classe de registro de perfil independente usando o grupo de campos XDM “informações da região de captura de dados”.
+
+* Para cenários de ativação em que os públicos são compartilhados da Experience Platform para o Audience Manager, as seguintes identidades são compartilhadas automaticamente: IDFA, GAID, AdCloud, Google, ECID e EMAIL_LC_SHA256. Atualmente, os namespaces personalizados não são compartilhados.
+
+* É possível compartilhar os públicos da Experience Platform por meio dos destinos do Audience Manager, quando as identidades de destino necessárias estiverem incluídas no [!UICONTROL Perfil de cliente em tempo real]. Ou também onde as identidades no [!UICONTROL Perfil de cliente em tempo real] possam ser relacionadas às identidades de destino vinculadas ao Audience Manager.
+
+### Compartilhamento de público do Real-time Customer Data Platform para o Target
+
+* Consulte a [Personalização Web/móvel com o blueprint de dados online e offline](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) para obter detalhes adicionais sobre o compartilhamento de perfis e públicos-alvo do Real-time Customer Data Platform para o Target.
+
+### Compartilhamento de público do Real-time Customer Data Platform para o Campaign e Journey Optimizer
+
+* Consulte a [Jornada Blueprints do cliente](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html) para obter detalhes adicionais sobre o compartilhamento de perfis e públicos-alvo do Real-time Customer Data Platform para o Campaign e Journey Optimizer.
 
 ## Documentação relacionada
 
