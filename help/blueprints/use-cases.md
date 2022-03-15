@@ -5,7 +5,7 @@ exl-id: 7ec2b5c9-b46c-4434-b0d3-8aba863e9006
 source-git-commit: 657e94baf69ba1898a163a082fbfef36fdfd9a3a
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ Quais desses casos de uso são importantes para sua empresa? Descubra quais Blue
  <tr>
   <td>Campanhas de email programadas.</td>
   <td rowspan="2" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-managed-cloud-services.html?lang=en">Cloud Services gerenciados da campanha</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/campaign-managed-cloud-services.html?lang=pt-BR">Campaign Managed Cloud Services</a></td>
   <td rowspan="6" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)">Jornadas
   do cliente</td>
  </tr>
@@ -109,7 +109,7 @@ Quais desses casos de uso são importantes para sua empresa? Descubra quais Blue
  <tr>
   <td>Mensagens acionadas.</td>
   <td rowspan="4" style="vertical-align: middle; border-left: 1px solid rgb(219,219,219); border-right:  1px solid rgb(219,219,219)"><a
-  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=en">Journey Optimizer</a></td>
+  href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=pt-BR">Journey Optimizer</a></td>
  </tr>
  <tr>
   <td>Confirmações de registro.</td>
