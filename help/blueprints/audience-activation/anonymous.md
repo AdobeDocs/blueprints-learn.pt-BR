@@ -6,25 +6,29 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
-source-wordcount: '198'
-ht-degree: 100%
+source-git-commit: f46c09a88cf2b49c816ab27c5daef20c01e99b09
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 40%
 
 ---
 
 # Blueprint de ativação de público-alvo anônima
 
-É possível segmentar públicos-alvos na Web e em todos os canais de anúncios com base em dados comportamentais e anônimos de clientes. Essa funcionalidade possibilita experiências do cliente consistentes e personalizadas em tempo real em todos os dispositivos.
+A ativação de público-alvo anônimo é a capacidade de direcionar e personalizar públicos-alvo em canais da Web, móveis e de anúncios com base em dispositivos anônimos e dados comportamentais.
 
 ## Casos de uso
 
-* Realização de direcionamento e personalização de público digital anônimo.
-* Criação de públicos-alvo para direcionamento em redes de anúncios compatíveis.
+* Execute o direcionamento e a personalização de público-alvo digital anônimo no site, no aplicativo móvel ou nos canais de publicidade compatíveis.
+* Otimize a página de aterrissagem e as experiências de pré-autenticação com base em características conhecidas do dispositivo e do comportamento.
+* Aproveite a rede de dados de terceiros do Audience Manager para refinar e expandir seus públicos-alvo para direcionamento.
+
 
 ## Aplicativos
 
-* Adobe Audience Manager
+O Audience Manager e o Real-time Customer Data Platform podem ser aproveitados para alimentar o Audience Activation anônimo para destinos no site e de anúncios. Observe que o Real-time Customer Data Platform suporta apenas um subconjunto de destinos de publicidade com identificadores de dispositivo anônimos, como catalogado na variável [documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
+
+O Microsoft Bing, Google DV360 e TradeDesk são os principais destinos de publicidade da Real-time Customer Data Platform com suporte para definição de metas anônima com base em dispositivos. Além disso, a Real-time Customer Data Platform oferece suporte a vários destinos conhecidos baseados no cliente, como catalogados na [documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) e conforme descrito no [blueprint de ativação do cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Arquitetura
 
@@ -40,9 +44,13 @@ ht-degree: 100%
 1. Crie segmentos no Audience Manager.
 1. Configure destinos no Audience Manager para compartilhar públicos.
 
+Para obter as etapas de implementação da Real-time Customer Data Platform, consulte [blueprint de ativação do cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+
 ## Documentação relacionada
 
 * [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=pt-BR)
 * [[!UICONTROL Públicos] da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
 * [Integração do Audience Manager com o Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=pt-BR)
 * [Compartilhamento de segmentos do Adobe Analytics por meio do Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
+* [Blueprint de Ativação do Cliente Conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)
