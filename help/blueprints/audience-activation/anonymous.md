@@ -6,10 +6,10 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: f46c09a88cf2b49c816ab27c5daef20c01e99b09
+source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 40%
+source-wordcount: '397'
+ht-degree: 41%
 
 ---
 
@@ -26,6 +26,9 @@ A ativação de público-alvo anônimo é a capacidade de direcionar e personali
 
 ## Aplicativos
 
+* Audience Manager
+* Real-time Customer Data Platform
+
 O Audience Manager e o Real-time Customer Data Platform podem ser aproveitados para alimentar o Audience Activation anônimo para destinos no site e de anúncios. Observe que o Real-time Customer Data Platform suporta apenas um subconjunto de destinos de publicidade com identificadores de dispositivo anônimos, como catalogado na variável [documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
 
 O Microsoft Bing, Google DV360 e TradeDesk são os principais destinos de publicidade da Real-time Customer Data Platform com suporte para definição de metas anônima com base em dispositivos. Além disso, a Real-time Customer Data Platform oferece suporte a vários destinos conhecidos baseados no cliente, como catalogados na [documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) e conforme descrito no [blueprint de ativação do cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
@@ -34,9 +37,9 @@ O Microsoft Bing, Google DV360 e TradeDesk são os principais destinos de public
 
 <img src="assets/anonymous_activation.svg" alt="Arquitetura de referência para o blueprint de ativação de público-alvo anônima" style="width:80%; border:1px solid #4a4a4a" />
 
-## Etapas de implementação
+<br>
 
-<!-- These steps should link to help. -->
+## Etapas de implementação
 
 1. [Implemente o Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR#implementation-integration-guides).
 1. Colete dados para o Audience Manager.
