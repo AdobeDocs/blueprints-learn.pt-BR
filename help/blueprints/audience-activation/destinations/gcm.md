@@ -5,7 +5,7 @@ solution: Experience Platform, Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
 source-git-commit: 60d99de0ec64a091662f0921b23aea0725965681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Assimile dados de clientes de várias fontes para criar uma única visualizaçã
    * Analise a contagem de resultados do segmento para os segmentos em questão.
    * Apure o perfil que deve ser incluído no segmento para verificar se a associação de segmento está incluída na parte de associação de segmento do perfil.
 1. Configure a entrega do público ao destino na configuração de Destino.
-   * Consulte o [Manual de destino do Google Customer Match](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html) para obter mais detalhes sobre como configurar o Destino do Google Customer Match.
+   * Consulte o [Manual de destino do Google Customer Match](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=pt-BR) para obter mais detalhes sobre como configurar o Destino do Google Customer Match.
    * Ao configurar um destino, selecione o público que deseja ativar para o destino.
    * Defina a data inicial programada na qual deseja que o fluxo de dados do destino comece a entregar o público ao destino.
    * Para cada destino são enviados atributos obrigatórios e opcionais.
@@ -91,4 +91,4 @@ Assimile dados de clientes de várias fontes para criar uma única visualizaçã
 
 ## Documentação relacionada
 
-Ativação para o Google Customer Match - [Configuração de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html)
+Ativação para o Google Customer Match - [Configuração de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=pt-BR)
