@@ -6,8 +6,8 @@ kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
 source-git-commit: 2b4e1f7134b240b68a432bfd70fe698ff634857a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud. Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud.
 
-A Ativation with Experience Cloud Applications está alinhada à [Blueprint de Ativação do Cliente Conhecido](known.md).
+A ativação com aplicativos da Experience Cloud está em sintonia com o [Blueprint de ativação de cliente conhecido](known.md).
 
 ## Casos de uso
 
@@ -24,7 +24,7 @@ A Ativation with Experience Cloud Applications está alinhada à [Blueprint de A
 
 ## Aplicativos
 
-* Adobe Experience Platform 
+* Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Aplicativos da Experience Cloud
@@ -35,7 +35,7 @@ A Ativation with Experience Cloud Applications está alinhada à [Blueprint de A
 
 ## Arquitetura
 
-Consulte a [Seção Experience Platform and Applications Architecture](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=pt-BR) para diagramas de arquitetura adicionais relacionados às integrações do Experience Platform com aplicativos Experience Cloud.
+Consulte a seção [Experience Platform e Arquitetura de aplicativos](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=pt-BR) para obter diagramas de arquitetura adicionais relacionados a integrações da Experience Platform com aplicativos da Experience Cloud.
 
 ### Ativação de público-alvo e perfil com aplicativos da Experience Cloud
 
@@ -62,13 +62,13 @@ Consulte as [medidas de proteção na página de Visão geral de ativação de p
 
 * É possível compartilhar os públicos da Experience Platform por meio dos destinos do Audience Manager, quando as identidades de destino necessárias estiverem incluídas no [!UICONTROL Perfil de cliente em tempo real]. Ou também onde as identidades no [!UICONTROL Perfil de cliente em tempo real] possam ser relacionadas às identidades de destino vinculadas ao Audience Manager.
 
-### Compartilhamento de público do Real-time Customer Data Platform para o Target
+### Compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Target
 
-* Consulte a [Personalização Web/móvel com o blueprint de dados online e offline](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html) para obter detalhes adicionais sobre o compartilhamento de perfis e públicos-alvo do Real-time Customer Data Platform para o Target.
+* Consulte o [Blueprint de personalização da Web/móvel com dados online e offline](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/online-offline.html?lang=pt-BR) para obter mais detalhes sobre o compartilhamento de públicos-alvo e perfis da Real-time Customer Data Platform com o Target.
 
-### Compartilhamento de público do Real-time Customer Data Platform para o Campaign e Journey Optimizer
+### Compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Campaign e o Journey Optimizer
 
-* Consulte a [Jornada Blueprints do cliente](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html) para obter detalhes adicionais sobre o compartilhamento de perfis e públicos-alvo do Real-time Customer Data Platform para o Campaign e Journey Optimizer.
+* Consulte os [Blueprints de jornadas do cliente](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/overview.html?lang=pt-BR) para obter mais detalhes sobre o compartilhamento de públicos-alvo e perfis da Real-time Customer Data Platform com o Campaign e o Journey Optimizer.
 
 ## Documentação relacionada
 

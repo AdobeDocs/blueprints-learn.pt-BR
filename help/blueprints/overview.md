@@ -4,8 +4,8 @@ description: Os Blueprints de experiência digital são implementações replic�
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Os blueprints de experiência digital são implementações replicáveis que ate
     <p><em>Envie mensagens e influencie as experiências do cliente em tempo real usando a [!UICONTROL Platform] como um hub central.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="imagem em miniatura do esquema de ativação do cliente conhecido" src="audience-activation/assets/known_activation.svg" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="imagem em miniatura do blueprint de ativação de cliente conhecido" src="audience-activation/assets/known_activation.svg" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Ativação de público-alvo online/offline</strong></a></div>
     <p><em>Forneça publicidade entre canais ativada pelo público.</em></p>
   </td>

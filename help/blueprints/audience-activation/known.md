@@ -1,17 +1,17 @@
 ---
-title: Ativação conhecida do cliente
+title: Ativação de cliente conhecido
 description: Ativação de público-alvo online/offline.
 solution: Experience Platform, Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 58e589d230d1f5d8506869d02ad2bb0ddc966b7d
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Blueprint de Ativação do Cliente Conhecido
+# Blueprint de ativação de cliente conhecido
 
 Use atributos e eventos offline, como pedidos, transações, CRM ou dados de fidelização offline, com comportamentos online para direcionamento e personalização online.
 
@@ -27,7 +27,7 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 ## Aplicativos
 
-* Adobe Experience Platform 
+* Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
 * Os destinos com base em pessoas do Audience Manager também podem ser usados para ativação baseada em pessoas no Facebook, LinkedIn e Correspondência de clientes do Google.
 
@@ -62,7 +62,7 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 * Compartilhar dados de perfil com destinos exige a inclusão de valor específico de identidade, usado pelo destino na carga de destino. Qualquer identidade necessária para um destino de público-alvo deve ser assimilada na Platform e configurada como uma identidade para o [!UICONTROL Perfil de cliente em tempo real].
 
-* Consulte a [Ativação de público-alvo e perfil com o blueprint de aplicativos do Experience Cloud](platform-and-applications.md) para obter detalhes adicionais sobre o compartilhamento de públicos-alvo do Real-time Customer Data Platform para o Audience Manager, Analytics, Target, Campaign e Journey Optimizer.
+* Consulte o [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md) para obter mais detalhes sobre o compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Audience Manager, o Analytics, o Target, o Campaign e o Journey Optimizer.
 
 ## Etapas de implementação para destinos com base em Audience Manager People
 
