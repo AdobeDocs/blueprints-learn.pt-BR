@@ -4,9 +4,9 @@ description: Mostra como a Adobe Experience Platform, seu Perfil do cliente em t
 solution: Experience Platform, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: e158cb7c14970a9deb035fde50c9c070b0760203
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e s
 
 ## Aplicativos
 
-* Adobe Experience Platform Real-Time CDP
+* Real-Time CDP da Adobe Experience Platform
 * Adobe Campaign v7 ou Campaign Standard
 
 <br>
@@ -71,7 +71,7 @@ Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e s
 #### Perfil/Identidade
 
 1. [Crie qualquer namespace específico para clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
-1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
 1. [Habilite os esquemas e conjuntos de dados para o Perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Adobe Campaign.
