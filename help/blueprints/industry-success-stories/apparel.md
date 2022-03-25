@@ -1,15 +1,15 @@
 ---
 title: Setor de vestuário – Ativação com aplicativos da Experience Cloud
 description: Vários blueprints foram usados para permitir o marketing em tempo real, a ativação entre canais e a análise entre canais.
-solution: Experience Platform, Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
-source-git-commit: c393d73d2fa7acd4e5c2d99c098503b023b6115d
-workflow-type: ht
+exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
 ---
-
 
 # Desafio das empresas do setor de vestuário
 
@@ -47,7 +47,3 @@ A equipe de tecnologia global está usando a Adobe Experience Platform e as solu
 ### Arquitetura do Blueprint
 
 <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR"><img alt="imagem em miniatura de uma empresa de vestuário usando os blueprints de ativação de público-alvo, análise de jornada do cliente e jornadas do cliente" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
-
-
-
-

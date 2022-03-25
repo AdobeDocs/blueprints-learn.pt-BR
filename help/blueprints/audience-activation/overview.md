@@ -1,12 +1,12 @@
 ---
 title: Ativação de público-alvo e perfil
 description: Ofereça experiências de cliente ativadas pelo público-alvo e centradas em perfil com a Real-time Customer Data Platform.
-solution: Experience Platform, Real-time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: d0fd2d638ad14b1cfd3b48d82093b676de465286
-workflow-type: ht
+source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
+workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 100%
 
