@@ -6,10 +6,10 @@ solution: Experience Platform, Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 64e7b61c1b4b1d600641fd3299a2b84154873cfb
+source-git-commit: 4a46b7a4c278107c806d3ddd14591c7abe1a13d3
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 41%
+source-wordcount: '380'
+ht-degree: 34%
 
 ---
 
@@ -39,15 +39,13 @@ O Microsoft Bing, Google DV360 e TradeDesk são os principais destinos de public
 
 <br>
 
-## Etapas de implementação
+## Etapas de implementação para Audience Manager
 
-1. [Implemente o Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR#implementation-integration-guides).
-1. Colete dados para o Audience Manager.
-1. Configure sinais e características para usar em definições de segmentos.
-1. Crie segmentos no Audience Manager.
-1. Configure destinos no Audience Manager para compartilhar públicos.
+* Para obter detalhes sobre a implementação do Audience Manager, consulte o seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
 
-Para obter as etapas de implementação da Real-time Customer Data Platform, consulte [blueprint de ativação do cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+## Etapas de implementação para Real-time Customer Data Platform
+
+* Para obter as etapas de implementação do Real-time Customer Data Platform, consulte o seguinte [documentação](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Documentação relacionada
 
@@ -55,5 +53,5 @@ Para obter as etapas de implementação da Real-time Customer Data Platform, con
 * [[!UICONTROL Públicos] da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
 * [Integração do Audience Manager com o Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=pt-BR)
 * [Compartilhamento de segmentos do Adobe Analytics por meio do Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
-* [Blueprint de Ativação do Cliente Conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* [Blueprint de ativação de cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)
