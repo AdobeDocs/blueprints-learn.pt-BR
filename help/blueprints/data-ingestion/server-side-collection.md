@@ -1,13 +1,13 @@
 ---
 title: Blueprint de coleção de dados corporativos do servidor
 description: Dados coletados por streaming pelos SDKs da Experience Platform para os destinos
-solution: Experience Platform,Data Collection
+solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
-source-git-commit: a347672abe145f5cb1eedee79bc4d8d4c08d991e
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
