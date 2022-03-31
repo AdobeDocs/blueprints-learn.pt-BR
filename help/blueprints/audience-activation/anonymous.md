@@ -8,20 +8,20 @@ thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '380'
+ht-degree: 95%
 
 ---
 
 # Blueprint de ativação de público-alvo anônima
 
-A ativação de público-alvo anônimo é a capacidade de direcionar e personalizar públicos-alvo em canais da Web, móveis e de anúncios com base em dispositivos anônimos e dados comportamentais.
+A ativação de público-alvo anônimo é a capacidade de direcionar e personalizar públicos-alvo em canais da Web, móveis e de publicidade com base em dados comportamentais e de dispositivos anônimos.
 
 ## Casos de uso
 
 * Execute o direcionamento e a personalização de público-alvo digital anônimo no site, no aplicativo móvel ou nos canais de publicidade compatíveis.
-* Otimize a página de aterrissagem e as experiências de pré-autenticação com base em características conhecidas do dispositivo e do comportamento.
-* Aproveite a rede de dados de terceiros do Audience Manager para refinar e expandir seus públicos-alvo para direcionamento.
+* Otimize a landing page e as experiências antes da autenticação com base em características conhecidas do dispositivo e do comportamento.
+* Aproveite a rede de dados de terceiros do Audience Manager para melhorar e expandir seus públicos-alvo para direcionamento.
 
 
 ## Aplicativos
@@ -29,9 +29,9 @@ A ativação de público-alvo anônimo é a capacidade de direcionar e personali
 * Audience Manager
 * Real-time Customer Data Platform
 
-O Audience Manager e o Real-time Customer Data Platform podem ser aproveitados para alimentar o Audience Activation anônimo para destinos no site e de anúncios. Observe que o Real-time Customer Data Platform suporta apenas um subconjunto de destinos de publicidade com identificadores de dispositivo anônimos, como catalogado na variável [documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en).
+O Audience Manager e a Real-time Customer Data Platform podem ser usados para potencializar a Ativação de público anônimo para destinos no site e de publicidade. Observe que a Real-time Customer Data Platform é compatível apenas com um subconjunto de destinos de publicidade com identificadores de dispositivos anônimos, conforme catalogado na variável [documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=pt-BR).
 
-O Microsoft Bing, Google DV360 e TradeDesk são os principais destinos de publicidade da Real-time Customer Data Platform com suporte para definição de metas anônima com base em dispositivos. Além disso, a Real-time Customer Data Platform oferece suporte a vários destinos conhecidos baseados no cliente, como catalogados na [documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) e conforme descrito no [blueprint de ativação do cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+O Microsoft Bing, o Google DV360 e o TradeDesk são os principais destinos de publicidade da Real-time Customer Data Platform compatíveis com o direcionamento com base em dispositivos anônimos. Além disso, a Real-time Customer Data Platform é compatível com vários destinos conhecidos com base no cliente, conforme catalogado na [documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=en) e descrito no [blueprint de ativação de cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=pt-BR).
 
 ## Arquitetura
 
@@ -41,7 +41,7 @@ O Microsoft Bing, Google DV360 e TradeDesk são os principais destinos de public
 
 ## Etapas de implementação para Audience Manager
 
-* Para obter detalhes sobre a implementação do Audience Manager, consulte o seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
+* Para obter detalhes sobre a implementação do Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
 
 ## Etapas de implementação para Real-time Customer Data Platform
 
@@ -54,4 +54,4 @@ O Microsoft Bing, Google DV360 e TradeDesk são os principais destinos de public
 * [Integração do Audience Manager com o Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=pt-BR)
 * [Compartilhamento de segmentos do Adobe Analytics por meio do Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
 * [Blueprint de ativação de cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
-* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)
+* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR)

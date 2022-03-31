@@ -6,8 +6,8 @@ kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 17faffdd972f2485951ac1e870b578e9b1a011a5
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,18 +29,18 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 * Adobe Experience Platform
 * [!UICONTROL Real-time Customer Data Platform]
-* Os destinos com base em pessoas do Audience Manager também podem ser usados para ativação baseada em pessoas no Facebook, LinkedIn e Correspondência de clientes do Google.
+* Os Destinos com base em pessoas do Audience Manager também podem ser usados para ativação baseada em pessoas no Facebook, LinkedIn e Google Customer Match.
 
 ## Arquitetura
 
-### Ativação conhecida do cliente via Real-time Customer Data Platform
+### Ativação de cliente conhecido via Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Arquitetura de referência para o esquema conhecido de ativação do cliente" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Arquitetura de referência do blueprint de ativação de cliente conhecido" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
-### Ativação de cliente conhecida via Destinos baseados em pessoas do Audience Manager
+### Ativação de cliente conhecido via Destinos com base em pessoas do Audience Manager
 
-<img src="assets/AAM_PBD.svg" alt="Arquitetura de referência para o esquema conhecido de ativação do cliente" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Arquitetura de referência do blueprint de ativação de cliente conhecido" style="width:80%; border:1px solid #4a4a4a" />
 <br>
 
 ## Medidas de proteção
@@ -64,11 +64,11 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 * Consulte o [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md) para obter mais detalhes sobre o compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Audience Manager, o Analytics, o Target, o Campaign e o Journey Optimizer.
 
-## Etapas de implementação para destinos com base em Audience Manager People
+## Etapas de implementação para Destinos com base em pessoas do Audience Manager
 
-* Para obter detalhes sobre a implementação do Audience Manager, consulte o seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
+* Para obter detalhes sobre a implementação do Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
 
-* Para obter detalhes sobre a implementação de destinos com base em pessoas no Audience Manager, consulte o seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html).
+* Para obter detalhes sobre a implementação de Destinos com base em pessoas no Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html?lang=pt-BR).
 
 ## Documentação relacionada
 
