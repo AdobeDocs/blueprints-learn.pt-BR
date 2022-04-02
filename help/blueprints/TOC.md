@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 274f87c0d9bf7e9276b978a097a9633a55f09ede
-workflow-type: ht
+source-git-commit: d80f7171c61373f4757d2a84313d0ceab800d29b
+workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,6 +59,7 @@ ht-degree: 100%
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
    + [Coleção de dados corporativos do servidor](/help/blueprints/data-ingestion/server-side-collection.md)
    + [SDK da Web da Experience Platform](/help/blueprints/data-ingestion/websdk.md)
+   + [SDKs do aplicativo](/help/blueprints/data-ingestion/appsdk.md)
 + Análise de dados, Inteligência e IA/Aprendizado de máquina {#data-exploration}
    + [Visão geral](/help/blueprints/data-insights/overview.md)
    + [Análise de dados e Inteligência](/help/blueprints/data-insights/analysis.md)
@@ -66,4 +67,4 @@ ht-degree: 100%
 + Personalização da Web e móvel {#web-personalization}
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
    + [Personalização com base comportamental](/help/blueprints/web-personalization/behavioral.md)
-   + [Personalização com dados online e offline](/help/blueprints/web-personalization/online-offline.md)
+   + [Personalization conhecida do cliente](/help/blueprints/web-personalization/known-personalization.md)
