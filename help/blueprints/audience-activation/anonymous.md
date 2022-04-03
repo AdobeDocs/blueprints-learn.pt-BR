@@ -6,7 +6,7 @@ solution: Audience Manager, Experience Platform
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 95%
@@ -35,7 +35,7 @@ O Microsoft Bing, o Google DV360 e o TradeDesk são os principais destinos de pu
 
 ## Arquitetura
 
-<img src="assets/anonymous_activation.svg" alt="Arquitetura de referência para o blueprint de ativação de público-alvo anônima" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="Arquitetura de referência para o blueprint de ativação de público-alvo anônima" style="width:90%; border:1px solid #4a4a4a" />
 
 <br>
 

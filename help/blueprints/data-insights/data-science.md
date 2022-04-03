@@ -4,10 +4,10 @@ description: Este blueprint apresenta como o Data Science Workspace, da Adobe Ex
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '453'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ O Blueprint de ciência de dados personalizada para aprimoramento de perfis ilus
 
 ## Arquitetura
 
-<img src="assets/data_science.svg" alt="Blueprint de arquitetura de referência para Ciência de dados personalizada para aprimoramento de perfis" style="width:80%; border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Blueprint de arquitetura de referência para Ciência de dados personalizada para aprimoramento de perfis" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Etapas de implementação
 
