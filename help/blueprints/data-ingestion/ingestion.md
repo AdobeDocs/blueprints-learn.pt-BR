@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 1d286f4dabe71f359c14a88c91f306ea443646a6
+source-git-commit: c08dbf26ad559d48dfc8af5e19ec30e5bbfced65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '652'
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ A preparação de dados inclui o mapeamento dos dados de origem para o esquema d
 
 ## Arquitetura
 
-<img src="../experience-platform/assets/aep_data_flow.png" alt="Blueprint de arquitetura de referência para preparação e assimilação de dados" style="width:80%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep_data_flow.svg" alt="Blueprint de arquitetura de referência para preparação e assimilação de dados" style="width:80%; border:1px solid #4a4a4a" />
 
 ## Medidas de proteção da assimilação de dados
 
 O diagrama abaixo ilustra as medidas de proteção de desempenho médio e a latência para a assimilação de dados na Adobe Experience Platform.
 
-<img src="../experience-platform/assets/aep_data_flow_guardrails.png" alt="Fluxo de dados da Experience Platform" style="border:1px solid #4a4a4a" width="90%" />
+<img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Fluxo de dados da Experience Platform" style="border:1px solid #4a4a4a" width="90%" />
 
 ## Métodos de assimilação de dados
 
