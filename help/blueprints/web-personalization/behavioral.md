@@ -1,14 +1,14 @@
 ---
 title: Blueprint de personalização da Web com base comportamental
-description: Personalize com base no comportamento online e nos dados do público-alvo.
+description: Descubra como personalizar o conteúdo com base no comportamento online e nos dados do público-alvo.
 landing-page-description: Aprenda a personalizar com base no comportamento online e nos dados do público-alvo.
 solution: Experience Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+source-git-commit: 16b022263e622c07528329e71f479c63628f6ee0
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 96%
+source-wordcount: '617'
+ht-degree: 94%
 
 ---
 
