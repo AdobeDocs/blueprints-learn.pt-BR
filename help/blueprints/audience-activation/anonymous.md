@@ -9,7 +9,7 @@ exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
 source-git-commit: 16c05fcb36fb3f11b0d86ad30710e399cecc05c0
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -39,13 +39,13 @@ O Microsoft Bing, o Google DV360 e o TradeDesk são os principais destinos de pu
 
 <br>
 
-## Etapas de implementação para Audience Manager
+## Etapas para a implementação do Audience Manager
 
 * Para obter detalhes sobre a implementação do Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
 
-## Etapas de implementação para Real-time Customer Data Platform
+## Etapas de implementação da Real-time Customer Data Platform
 
-* Para obter as etapas de implementação do Real-time Customer Data Platform, consulte o seguinte [documentação](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
+* Para conhecer as etapas para a implementação da Real-time Customer Data Platform, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html).
 
 ## Documentação relacionada
 
