@@ -4,7 +4,8 @@ description: Este blueprint mostra a arquitetura e a assimilação por meio dos 
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
+exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
+source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 49%
@@ -15,7 +16,7 @@ ht-degree: 49%
 
 O diagrama de arquitetura abaixo ilustra os caminhos de integração e a coleta de dados utilizando SDKs específicos do aplicativo para implementação.
 
-<img src="assets/app_sdk_flow.png" alt="Arquitetura de referência para implementação usando SDKs específicos do aplicativo" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.svg" alt="Arquitetura de referência para implementação usando SDKs específicos do aplicativo" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Documentação de referência
 
