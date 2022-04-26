@@ -8,7 +8,7 @@ exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Personalização da Web e móvel aborda a capacidade de utilizar a segmentação
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
 | **[Personalização da Web/móvel com base comportamental](behavioral.md)** | <ul><li>Personalize com base em comportamentos online e nos dados do público</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(opcional)*</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
-| **[Web/Mobile Personalization com dados conhecidos do cliente](known-personalization.md)** | <ul><li>Os perfis completos do cliente e a segmentação aprimorada proporcionam experiências mais personalizadas.</li><li>Personalize com atributos e eventos offline (transações, reservas, CRM e dados de fidelização).</li><li>Sincronize a personalização na Web, nos emails e em outros canais conhecidos.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
+| **[Personalização da Web/Mobile com dados de clientes conhecidos](known-personalization.md)** | <ul><li>Os perfis completos do cliente e a segmentação aprimorada proporcionam experiências mais personalizadas.</li><li>Personalize com atributos e eventos offline (transações, reservas, CRM e dados de fidelização).</li><li>Sincronize a personalização na Web, nos emails e em outros canais conhecidos.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 
 <br>
 
@@ -31,7 +31,7 @@ Personalização da Web e móvel aborda a capacidade de utilizar a segmentação
 
 <br>
 
-### Diagrama de proteção conhecido do Personalization do cliente
+### Diagrama das medidas de proteção de personalização de cliente conhecido
 
 <img src="assets/personalization_guardrails.png" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:90%; border:1px solid #4a4a4a" />
 

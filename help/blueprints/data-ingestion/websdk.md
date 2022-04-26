@@ -16,7 +16,7 @@ ht-degree: 100%
 
 O diagrama de arquitetura abaixo ilustra os caminhos de integração e a coleção de dados utilizando o SDK da Web da Experience Platform.
 
-<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para implementação usando o SDK da Web e móvel da Experience Platform" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_flow.svg" alt="Arquitetura de referência para implementação usando o SDK da Web e Mobile da Experience Platform" style="width:90%; border:1px solid #4a4a4a" />
 
 Diagrama de sequência
 

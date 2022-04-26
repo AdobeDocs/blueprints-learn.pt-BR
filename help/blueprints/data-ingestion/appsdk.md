@@ -1,6 +1,6 @@
 ---
-title: Implantação específica do SDK do aplicativo
-description: Este blueprint mostra a arquitetura e a assimilação por meio dos SDKs específicos do aplicativo
+title: Implantação de SDK específico ao aplicativo
+description: Este blueprint mostra a arquitetura e a ingestão por meio dos SDKs específicos ao aplicativo
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
@@ -8,15 +8,15 @@ exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
 source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
-# Implantação específica do SDK do aplicativo
+# Implantação de SDK específico ao aplicativo
 
-O diagrama de arquitetura abaixo ilustra os caminhos de integração e a coleta de dados utilizando SDKs específicos do aplicativo para implementação.
+O diagrama de arquitetura abaixo ilustra os caminhos de integração e coleção de dados que usam SDKs específicos ao aplicativo para implementação.
 
-<img src="assets/app_sdk_flow.svg" alt="Arquitetura de referência para implementação usando SDKs específicos do aplicativo" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/app_sdk_flow.svg" alt="Arquitetura de referência para implementação usando SDKs específicos ao aplicativo" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Documentação de referência
 
