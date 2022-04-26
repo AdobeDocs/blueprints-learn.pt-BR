@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 5309a5ce986ebf238884df2aac38eb175f3dda11
+source-git-commit: ae12e10c85efaf5d4af2b9d02d3aca6a0378cf2d
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 97%
       + [Journey Optimizer com Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensagens de terceiros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
       + Offer Decisioning{#offer-decisioning}
-      + [offer decisioning na borda](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [offer decisioning na borda](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
    + Campaign v7 {#campaign-v7}
