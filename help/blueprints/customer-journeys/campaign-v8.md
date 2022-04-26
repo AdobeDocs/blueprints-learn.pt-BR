@@ -4,7 +4,7 @@ description: O Adobe Campaign v8 é a ferramenta de campanha de última geraçã
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
 source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
 ht-degree: 100%
 
