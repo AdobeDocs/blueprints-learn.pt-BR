@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Assimile dados de clientes de várias fontes para criar uma única visualizaçã
    * Analise a contagem de resultados do segmento para os segmentos em questão.
    * Apure o perfil que deve ser incluído no segmento para verificar se a associação de segmento está incluída na parte de associação de segmento do perfil.
 1. Configure a entrega do público ao destino na configuração de Destino.
-   * Consulte o [Manual de destino do Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html) para obter mais detalhes sobre como configurar o Destino do Facebook.
+   * Consulte o [Manual de destino do Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=pt-BR) para obter mais detalhes sobre como configurar o Destino do Facebook.
    * Ao configurar um destino, selecione o público que deseja ativar para o destino.
    * Defina a data inicial programada na qual deseja que o fluxo de dados do destino comece a entregar o público ao destino.
    * Para cada destino são enviados atributos obrigatórios e opcionais.
@@ -90,4 +90,4 @@ Assimile dados de clientes de várias fontes para criar uma única visualizaçã
 
 ## Documentação relacionada
 
-Ativação para o Facebook Custom Audiences - [Configuração de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html)
+Ativação para o Facebook Custom Audiences - [Configuração de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=pt-BR)
