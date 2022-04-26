@@ -5,7 +5,7 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: acef1c8122285cfecdae633ca004ddbf3a0cf719
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 36%
@@ -36,7 +36,7 @@ O diagrama de arquitetura abaixo ilustra a implantação e a coleta de dados uti
 
 Diagrama de sequência da Experience Edge, serviços do Experience Platform e aplicativos
 
-<img src="assets/web_sdk_sequence.png" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/web_sdk_sequence.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Documentação de referência
 

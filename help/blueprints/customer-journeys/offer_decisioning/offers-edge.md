@@ -2,9 +2,10 @@
 title: Offer Decisioning
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo quiosques e experiências assistidas por agentes.
 solution: Experience Platform, Journey Optimizer
-source-git-commit: 5309a5ce986ebf238884df2aac38eb175f3dda11
+exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
+source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '702'
 ht-degree: 39%
 
 ---
@@ -71,12 +72,14 @@ Adobe Experience Platform
 ## Padrões de implementação
 
 * Use o SDK da Web ou móvel para implantação em sites e aplicativos móveis para implementar o Offer Decisioning, onde o SDK foi implantado.
+   * [Blueprint do SDK Web/móvel](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=pt-BR)
    * [WebSDK](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/web-sdk.html)
    * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
 
 Ou
 
-* Para uma implementação baseada em servidor de API, use a API do Servidor de Rede de Borda para direcionar o servidor para a implementação do Offer Decisioning. [Link](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
+* Para uma implementação baseada em servidor de API, use a API do Servidor de Rede de Borda para direcionar o servidor para a implementação do Offer Decisioning.
+   * [API do Servidor de Rede de Borda](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
 
 <br>
 
