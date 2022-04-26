@@ -1,14 +1,14 @@
 ---
 title: Blueprint de personalização da Web com base comportamental
-description: Descubra como personalizar o conteúdo com base no comportamento online e nos dados do público-alvo.
+description: Saiba como personalizar conteúdo com base no comportamento online e nos dados do público-alvo.
 landing-page-description: Aprenda a personalizar com base no comportamento online e nos dados do público-alvo.
 solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7085thumb-web-personalization-scenario1.jpg
 exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 24d5ec498d09f6dac443561bd530d58a33dae7af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,8 +38,8 @@ Personalize com base no comportamento online e nos dados do público-alvo.
 
 O blueprint de personalização da Web/móvel pode ser implementado por meio das seguintes abordagens, conforme descrito abaixo.
 
-1. Usando o [!UICONTROL SDK da Web da Platform] ou o [!UICONTROL SDK móvel da Platform] e o [!UICONTROL Edge Network]. [Consulte o blueprint do SDK da Web e móvel da Experience Platform](../data-ingestion/websdk.md)
-1. Usando SDKs tradicionais específicos para aplicativos (por exemplo, AppMeasurement.js). [Consulte o Esquema do SDK específico do aplicativo](../data-ingestion/appsdk.md)
+1. Usando o [!UICONTROL SDK da Web da Platform] ou o [!UICONTROL SDK móvel da Platform] e o [!UICONTROL Edge Network]. [Consulte o blueprint do SDK da Web e Mobile da Experience Platform](../data-ingestion/websdk.md)
+1. Usando SDKs tradicionais específicos para aplicativos (por exemplo, AppMeasurement.js). [Consulte o Blueprint do SDK específico do aplicativo](../data-ingestion/appsdk.md)
 
 ## Etapas de implementação
 
@@ -59,7 +59,7 @@ O blueprint de personalização da Web/móvel pode ser implementado por meio das
 1. Crie segmentos no [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=pt-BR) ou no [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=pt-BR) e [configure esses públicos para compartilhamento com a Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)  (se estiver usando o Audience Manager ou o Adobe Analytics)
 1. Depois que os públicos estiverem disponíveis no Adobe Target, eles podem ser usados para [experiências de direcionamento com o Adobe Target](https://experienceleague.adobe.com/docs/target/using/audiences/target.html?lang=pt-BR)
 
-### Etapas da implementação - Real-time Customer Data Platform
+### Etapas de implementação - Real-time Customer Data Platform
 
 1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
@@ -75,7 +75,7 @@ O blueprint de personalização da Web/móvel pode ser implementado por meio das
 
 * [Públicos da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
 * [Integração do Audience Manager com o Adobe Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=pt-BR)
-* [Compartilhamento de segmentos do Adobe Analytics por meio do Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* [Compartilhamento de segmentos do Adobe Analytics por meio do Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
 * Visão geral da [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
 * Descrição do produto [[!UICONTROL Real-time Customer Data Platform]](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Guias de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
