@@ -1,40 +1,39 @@
 ---
-title: offer decisioning na borda
-description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências móveis e da Web em tempo real.
+title: offer decisioning no hub
+description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo quiosques, experiências assistidas por agentes e em emails e outros deliveries de saída.
 solution: Experience Platform, Journey Optimizer
-exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 86956e351c166bac0aa37deccc18b7dc151d1473
+source-git-commit: 8ad119551e25c1f6acb66fec544c8a67b26c0927
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 36%
+ht-degree: 35%
 
 ---
 
-# Journey Optimizer - Offer decisioning na borda
+# Journey Optimizer - Offer decisioning no hub
 
 O Gerenciamento de decisão do Adobe é um serviço fornecido como parte da Adobe Journey Optimizer. Este blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece um mergulho profundo nos vários componentes da arquitetura e considerações que compõem o Offer Decisioning.
 
-O Gerenciamento de decisões pode ser implantado de uma das duas maneiras. O primeiro é através do Adobe Experience Platform Hub, que é uma arquitetura de data center única. Na abordagem &quot;hub&quot;, as ofertas são executadas, personalizadas e entregues na segunda latência. Assim, a arquitetura do hub é mais adequada para a experiência do cliente que não exige latência de subsegundo, os exemplos incluem decisões de oferta que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais.
+O Gerenciamento de decisões pode ser implantado de uma das duas maneiras. A primeira é através do hub Adobe Experience Platform, que é uma arquitetura central de data center. Na abordagem &quot;hub&quot;, as ofertas são executadas, personalizadas e entregues em latência de mais de 500 ms. Assim, a arquitetura do hub é mais adequada para experiências do cliente que não exigem latência de sub-segundo, os exemplos incluem decisões de oferta que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais. As ofertas inseridas em emails e campanhas de saída também são acionadas pela abordagem de hub.
 
-A segunda abordagem é por meio da Experience Edge Network, que é uma infraestrutura distribuída geograficamente globalmente para fornecer experiências rápidas de sub-segundo e milissegundo. A experiência do consumidor final que está sendo executada pela infraestrutura de borda mais próxima da localização geográfica dos consumidores para minimizar a latência. O Gerenciamento de decisões no Edge foi projetado para fornecer experiências do consumidor em tempo real. Isso inclui experiências como solicitações de personalização de entrada da Web ou móvel.
+A segunda abordagem é por meio da Experience Edge Network, que é uma infraestrutura distribuída geograficamente globalmente para fornecer experiências rápidas de sub-segundo e milissegundo. A experiência do consumidor final que está sendo executada pela infraestrutura de borda mais próxima da localização geográfica dos consumidores para minimizar a latência. O Gerenciamento de decisões no Edge foi projetado para fornecer experiências do consumidor em tempo real, como solicitações de personalização de entrada da Web ou móvel.
 
-Esse blueprint abordará as especificidades do Gerenciamento de decisões no Edge.
+Esse blueprint abordará as especificidades do Gerenciamento de decisões no hub.
 
-Para saber mais sobre o Gerenciamento de decisões no hub, consulte [Gerenciamento de decisões no hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) blueprint.
+Para saber mais sobre o Gerenciamento de decisões no Edge, consulte [Gerenciamento de decisões na borda](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) blueprint.
 
-Para saber mais sobre o Gerenciamento de decisões, consulte a documentação do produto [AQUI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+Para saber mais sobre o Gerenciamento de decisões, consulte a documentação do produto AQUI (https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
 
 ## Casos de uso
 
-* Personalização online via Web ou móvel.
-* Offer decisioning de entrada e apresentações de oferta.
+* Ofertas personalizadas em quiosques e em experiências de loja.
+* Ofertas personalizadas por meio de experiência assistida por agente, como centrais de atendimento ou interações de vendas.
 * Execução de jornada entre canais - consistência de ofertas na Web, dispositivos móveis, email e outros canais de interação por meio do Adobe Journey Optimizer.
 
 <br>
 
 ## Arquitetura
 
-<img src="../assets/offers_edge.svg" alt="Offer decisioning de arquitetura de referência no blueprint da borda" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_hub.svg" alt="Offer decisioning de arquitetura de referência no blueprint da borda" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -73,16 +72,9 @@ Adobe Experience Platform
 
 ## Padrões de implementação
 
-* Use o SDK da Web ou móvel para implantação em sites e aplicativos móveis para implementar o Offer Decisioning, onde o SDK foi implantado.
-   * [Blueprint do SDK Web/móvel](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/websdk.html?lang=pt-BR)
-   * [WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html)
-   * [MobileSDK](https://aep-sdks.gitbook.io/docs/)
-
-Ou
-
-* Para uma implementação baseada em servidor de API, use a API do Serviço de Rede de Borda para implementar o Offer Decisioning diretamente do servidor para o servidor.
-   * [API do Servidor de Rede de Borda](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* Implementado em email, SMS e canais de saída por meio da integração direta com o Adobe Journey Optimizer.
+* Para outras experiências de canal, aproveite a variável [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+* Para experiências em tempo real baseadas no Edge, use o SDK da Web/Mobile ou a API do Edge Decisioning, conforme descrito na seção [offer decisioning no blueprint do Edge](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html).
 
 <br>
 
