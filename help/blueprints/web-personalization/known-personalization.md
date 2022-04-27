@@ -5,10 +5,10 @@ landing-page-description: Sincronize a personalização da Web com emails e outr
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 4d0313e079a6f0f48f9c958f598f0fd02b90fd5f
+source-git-commit: b1da29f76b274334ca36d0c144adcb6aa797fc0e
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 99%
+source-wordcount: '1268'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 
 | Padrão de integração | Recurso | Pré-requisitos |
 |---|---|---|
-| Avaliação de segmentos em tempo real na borda compartilhada da Real-time Customer Data Platform com o Target | <ul><li>Avalie públicos em tempo real personalização da mesma página ou próxima página no Edge.</li><li>Além disso, todos os segmentos avaliados por streaming ou em lote também serão projetados para a rede de borda para serem incluídos na avaliação e personalização do segmento de borda.</li></ul> | <ul><li>O SDK da Web/Mobile precisa ser implementado.</li><li>A sequência de dados precisa ser configurada no Experience Edge com a extensão Target e Experience Platform ativada</li><li>O destino do Target precisa ser configurado nos Destinos da Real-time Customer Data Platform.</li><li>A integração com o Target requer uma organização IMS igual à da instância da Experience Platform.</li></ul> |
+| Avaliação de segmentos em tempo real na borda compartilhada da Real-time Customer Data Platform com o Target | <ul><li>Avalie públicos em tempo real personalização da mesma página ou próxima página no Edge.</li><li>Além disso, todos os segmentos avaliados por streaming ou em lote também serão projetados para a rede de borda para serem incluídos na avaliação e personalização do segmento de borda.</li></ul> | <ul><li>O SDK Web/Mobile deve ser implementado ou a API do Servidor de Rede de Borda</li><li>A sequência de dados precisa ser configurada no Experience Edge com a extensão Target e Experience Platform ativada</li><li>O destino do Target precisa ser configurado nos Destinos da Real-time Customer Data Platform.</li><li>A integração com o Target requer uma organização IMS igual à da instância da Experience Platform.</li></ul> |
 | Compartilhamento de públicos-alvo por streaming e em lote da Real-time Customer Data Platform com o Target por meio da abordagem de borda | <ul><li>Compartilhe públicos de transmissão e em lote da Real-time Customer Data Platform com o Target por meio do Edge Network. A avaliação em tempo real de públicos-alvo exige implementação do WebSDK e Edge Network.</li></ul> | <ul><li>O SDK da Web/Mobile não é necessário para compartilhar públicos-alvo por streaming e em lote com o Target, embora seja para habilitar a avaliação de segmentos de borda em tempo real.</li><li>Se estiver usando a AT.js, somente a integração de perfil em relação ao namespace de identidade ECID será permitida.</li><li>Para pesquisas de namespace de identidade personalizadas no Edge, a implantação do WebSDK é necessária, e cada identidade precisa ser definida como uma identidade no mapa de identidade.</li><li>O destino do Target precisa ser configurado nos Destinos da Real-time Customer Data Platform.</li><li>A integração com o Target requer uma organização IMS igual à da instância da Experience Platform.</li></ul> |
 | Compartilhamento de públicos-alvo por streaming e em lote da Real-time Customer Data Platform com o Target e o Audience Manager por meio da abordagem do serviço de compartilhamento de público-alvo | <ul><li>Esse padrão de integração pode ser utilizado quando o enriquecimento adicional de dados de terceiros e públicos-alvo é desejado no Audience Manager.</li></ul> | <ul><li>O SDK da Web/Mobile não é necessário para compartilhar públicos-alvo por streaming e em lote com o Target, embora seja para habilitar a avaliação de segmentos de borda em tempo real.</li><li>Se estiver usando a AT.js, somente a integração de perfil em relação ao namespace de identidade ECID será permitida.</li><li>Para pesquisas de namespace de identidade personalizadas no Edge, a implantação do WebSDK é necessária, e cada identidade precisa ser definida como uma identidade no mapa de identidade.</li><li>A projeção de público-alvo por meio do serviço de compartilhamento de público-alvo precisa ser provisionada.</li><li>O destino do Target precisa ser configurado nos Destinos da Real-time Customer Data Platform.</li><li>A integração com o Target requer uma organização IMS igual à da instância da Experience Platform.</li></ul> |
 
@@ -55,11 +55,11 @@ Visão geral da arquitetura
 
 A personalização de cliente conhecido é permitida por várias abordagens de implementação.
 
-### Padrão de implementação 1 - Rede de borda com SDK da Web/Mobile (abordagem recomendada)
+### Padrão de implementação 1 - Rede de borda com SDK Web/Mobile ou API de rede de borda (Abordagem recomendada)
 
-Usar a rede de borda com o SDK da Web/Mobile. A segmentação de borda em tempo real exige a abordagem de implementação do SDK da Web/Mobile ou da API de borda.
-
-[Consulte o blueprint do SDK da Web e Mobile da Experience Platform](../data-ingestion/websdk.md)
+* Usar a rede de borda com o SDK da Web/Mobile. A segmentação de borda em tempo real exige a abordagem de implementação do SDK da Web/Mobile ou da API de borda.
+* [Consulte o blueprint do SDK da Web e Mobile da Experience Platform](../data-ingestion/websdk.md) para a implementação baseada em SDK.
+* [Consulte a API do Servidor de Rede de Borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) para uma implementação baseada em API do Adobe Target com Perfil de borda.
 
 ### Padrão de implementação 2 - SDKs específicos ao aplicativo
 
