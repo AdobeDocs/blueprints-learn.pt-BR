@@ -3,7 +3,7 @@ title: offer decisioning na borda
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências móveis e da Web em tempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 86956e351c166bac0aa37deccc18b7dc151d1473
+source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 36%
@@ -82,7 +82,7 @@ Ou
 
 * Para uma implementação baseada em servidor de API, use a API do Serviço de Rede de Borda para implementar o Offer Decisioning diretamente do servidor para o servidor.
    * [API do Servidor de Rede de Borda](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/deliver-offers.html)
-   * [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html).
+   * [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html)
 
 <br>
 
