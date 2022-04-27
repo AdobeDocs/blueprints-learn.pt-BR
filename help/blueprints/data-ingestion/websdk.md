@@ -5,19 +5,20 @@ solution: Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3e75ce52939c84ce9ae1faf72f7f1508d74c1ecc
+source-git-commit: 3c134d6a4f8afb091631c14b05f34d6133a8865b
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 36%
+source-wordcount: '237'
+ht-degree: 33%
 
 ---
 
 
 # Visão geral
 
-Para obter uma visão geral e detalhes sobre o SDK da Web e do Mobile, consulte o seguinte.
+Para obter uma visão geral e detalhes sobre o SDK da Web e móvel, e a API do servidor de rede de borda, consulte o seguinte.
 * [Visão geral do WebSDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=pt-BR)
 * [Visão geral do MobileSDK](https://aep-sdks.gitbook.io/docs/)
+* [API do Servidor de Rede de Borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 Para obter um outline detalhado de qual funcionalidade de aplicativo é compatível no WebSDK, consulte a seguinte documentação.
 * [Suporte à funcionalidade do aplicativo WebSDK](https://github.com/orgs/adobe/projects/18/views/1)
@@ -28,7 +29,7 @@ Para obter detalhes relacionados à migração de SDKs específicos do aplicativ
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 * [Analytics para Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html)
 
-## Implantação do SDK do Experience Platform Web/Mobile
+## Experience Platform Web/Mobile SDK ou Implantação de API do Edge Network Server
 
 O diagrama de arquitetura abaixo ilustra a implantação e a coleta de dados utilizando o Experience Platform Web SDK.
 
