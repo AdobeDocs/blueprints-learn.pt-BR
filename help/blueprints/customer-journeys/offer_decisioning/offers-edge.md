@@ -3,10 +3,10 @@ title: offer decisioning na borda
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências móveis e da Web em tempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 9cdb1bf7a8e97fce6a41fb135441c12ed8e477e0
+source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 36%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,8 +56,8 @@ Adobe Experience Platform
 
 ## Medidas de proteção
 
-[Link do produto medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-
+* Para os guarda-hidráulicos Journey Optimizer, consulte [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
+* Para os guarda-Offers decisioning, consultar: [Descrição do produto Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 ### Medidas de proteção da assimilação de dados
 
@@ -114,5 +114,5 @@ Ou
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * [Gerenciamento de decisões da Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-* [Descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)
+* [Descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 * [Descrição do produto Offer decisioning Adobe](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
