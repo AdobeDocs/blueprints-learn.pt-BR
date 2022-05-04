@@ -3,10 +3,10 @@ title: offer decisioning na borda
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências móveis e da Web em tempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: fd8762711a6c3b04d0dd991e4dced2fb6be48c13
+source-git-commit: bfc8133f0a48cb35dd62e74e92eeb041e93be5c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '768'
+ht-degree: 35%
 
 ---
 
@@ -56,8 +56,8 @@ Adobe Experience Platform
 
 ## Medidas de proteção
 
-* Para os guarda-hidráulicos Journey Optimizer, consulte [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html)
-* Para os guarda-Offers decisioning, consultar: [Descrição do produto Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
+* Para as medidas de proteção da Journey Optimizer, consulte o seguinte [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html).
+* Para as medidas de proteção de Offer decisioning, consulte [Descrição do produto Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html).
 
 ### Medidas de proteção da assimilação de dados
 
