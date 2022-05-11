@@ -3,14 +3,16 @@ title: offer decisioning na borda
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências móveis e da Web em tempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: bedfce6f9ded6c168656e8c37c59f85f250481a1
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 35%
+source-wordcount: '772'
+ht-degree: 34%
 
 ---
 
 # Journey Optimizer - Offer decisioning na borda
+
+Para saber mais sobre o Gerenciamento de decisões, consulte a documentação do produto [AQUI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) e a Visão geral do Offer Decisioning [AQUI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
 
 O Gerenciamento de decisão do Adobe é um serviço fornecido como parte da Adobe Journey Optimizer. Este blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece um mergulho profundo nos vários componentes da arquitetura e considerações que compõem o Offer Decisioning.
 
@@ -20,14 +22,11 @@ A segunda abordagem é por meio da Experience Edge Network, que é uma infraestr
 
 Esse blueprint abordará as especificidades do Gerenciamento de decisões no Edge.
 
-Para saber mais sobre o Gerenciamento de decisões no hub, consulte [Gerenciamento de decisões no hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html?lang=en) blueprint.
+Para saber mais sobre o Gerenciamento de decisões no hub, consulte [Gerenciamento de decisões no hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-hub.html) blueprint.
 
-Para saber mais sobre o Gerenciamento de decisões, consulte a documentação do produto [AQUI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+## Casos de uso do gerenciamento de decisões na borda
 
-## Casos de uso
-
-* Personalização online via Web ou móvel.
-* Offer decisioning de entrada e apresentações de oferta.
+* Personalização online por meio de experiências de entrada da Web ou móvel.
 * Execução de jornada entre canais - consistência de ofertas na Web, dispositivos móveis, email e outros canais de interação por meio do Adobe Journey Optimizer.
 
 <br>

@@ -3,16 +3,20 @@ title: offer decisioning no hub
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo quiosques, experiências assistidas por agentes e em emails e outros deliveries de saída.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 494d70fca12a42befb7b726562d98cec17a21d22
+source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 32%
+source-wordcount: '904'
+ht-degree: 28%
 
 ---
 
 # Journey Optimizer - Offer decisioning no hub
 
+Para saber mais sobre o Gerenciamento de decisões, consulte a documentação do produto [AQUI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html) e a Visão geral do Offer Decisioning [AQUI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-overview.html)
+
 O Gerenciamento de decisão do Adobe é um serviço fornecido como parte da Adobe Journey Optimizer. Este blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece um mergulho profundo nos vários componentes da arquitetura e considerações que compõem o Offer Decisioning.
+
+O Journey Optimizer é usado para oferecer a melhor oferta e experiência aos clientes em todos os pontos de contato na hora certa. O Offer Decisioning facilita a personalização com uma biblioteca central de ofertas de marketing e um mecanismo de decisão que aplica regras e restrições a perfis ricos em tempo real criados pela Adobe Experience Platform para ajudar você a enviar aos clientes a oferta certa na hora certa.
 
 O Gerenciamento de decisões pode ser implantado de uma das duas maneiras. A primeira é através do hub Adobe Experience Platform, que é uma arquitetura central de data center. Na abordagem &quot;hub&quot;, as ofertas são executadas, personalizadas e entregues em latência de mais de 500 ms. Assim, a arquitetura do hub é mais adequada para experiências do cliente que não exigem latência de sub-segundo, os exemplos incluem decisões de oferta que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais. As ofertas inseridas em emails e campanhas de saída também são acionadas pela abordagem de hub.
 
@@ -20,11 +24,9 @@ A segunda abordagem é por meio da Experience Edge Network, que é uma infraestr
 
 Esse blueprint abordará as especificidades do Gerenciamento de decisões no hub.
 
-Para saber mais sobre o Gerenciamento de decisões no Edge, consulte [Gerenciamento de decisões na borda](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html?lang=en) blueprint.
+Para saber mais sobre o Gerenciamento de decisões no Edge, consulte [Gerenciamento de decisões na borda](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/offers-edge.html) blueprint.
 
-Para saber mais sobre o Gerenciamento de decisões, consulte a documentação do produto [AQUI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
-
-## Casos de uso
+## Casos de uso do gerenciamento de decisões no hub
 
 * Ofertas personalizadas em quiosques e em experiências de loja.
 * Ofertas personalizadas por meio de experiência assistida por agente, como centrais de atendimento ou interações de vendas.
