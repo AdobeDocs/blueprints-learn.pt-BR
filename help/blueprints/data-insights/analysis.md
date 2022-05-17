@@ -5,10 +5,10 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: 4eb6100fa29eac9426fd03ccceadc0a64f1d4b8f
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 82%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 A Análise de dados e Inteligência consiste na capacidade da Adobe Experience Platform de realizar consultas e análises exploratórias dos dados existentes no data lake.
 
-Com o [!UICONTROL Serviço de consulta] da Experience Platform é possível realizar consultas SQL nos dados. O [!UICONTROL Data Science Workspace] habilita a execução de exploração de dados, ciência de dados e cargas de trabalho de aprendizado de máquina.
+Com o [!UICONTROL Serviço de consulta] da Experience Platform é possível realizar consultas SQL nos dados.
 
-Além disso, a Experience Platform permite conexões com clientes SQL de terceiros, interfaces e ferramentas de Business Intelligence (BI) para conectar, acessar e consultar os dados diretamente na Experience Platform, usando o protocolo [!DNL PostgreSQL].
+O Experience Platform permite que conexões com clientes SQL de terceiros, interfaces e ferramentas de Business Intelligence (BI) se conectem diretamente, acessem e consultem os dados no Experience Platform, usando o [!DNL PostgreSQL] protocolo.
 
-Algumas medidas de proteção se aplicam pelo tempo limite de consulta e pela quantidade de dados incluídos no resultado da consulta, conforme observado nos detalhes do blueprint.
+Determinadas medidas de proteção se aplicam ao tempo limite da consulta e à quantidade de dados incluídos no resultado da consulta, conforme observado na seção de medidas de proteção abaixo.
 
 ## Casos de uso
 
@@ -30,7 +30,7 @@ Algumas medidas de proteção se aplicam pelo tempo limite de consulta e pela qu
 
 ## Aplicativos
 
-* Adobe Experience Platform
+* Adobe Experience Platform  
 
 ## Arquitetura
 
