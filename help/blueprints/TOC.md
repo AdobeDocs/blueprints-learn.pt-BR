@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ ht-degree: 91%
    + [Visão geral](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Offer Decisioning{#offer-decisioning}
+      + Offer Decisioning {#offer-decisioning}
          + [Visão geral](/help/blueprints/customer-journeys/offer_decisioning/offers-overview.md)
-         + [offer decisioning na borda](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
-         + [offer decisioning no hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
+         + [Offer Decisioning na borda](/help/blueprints/customer-journeys/offer_decisioning/offers-edge.md)
+         + [Offer Decisioning no hub](/help/blueprints/customer-journeys/offer_decisioning/offers-hub.md)
       + [Journey Optimizer com Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensagens de terceiros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}
@@ -62,8 +62,8 @@ ht-degree: 91%
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
    + [Coleção de dados corporativos do servidor](/help/blueprints/data-ingestion/server-side-collection.md)
-   + Implantação{#deployment}
-      + [SDK da Web do Experience Platform e rede de borda](/help/blueprints/data-ingestion/websdk.md)
+   + Implantação {#deployment}
+      + [SDK da Web da Experience Platform e Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [SDKs do aplicativo](/help/blueprints/data-ingestion/appsdk.md)
 + Análise de dados, Inteligência e IA/Aprendizado de máquina {#data-exploration}
    + [Visão geral](/help/blueprints/data-insights/overview.md)
