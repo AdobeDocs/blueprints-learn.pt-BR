@@ -3,10 +3,10 @@ title: Offer Decisioning na borda
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências da Web e móveis em tempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 7f566536c4ff5a6af321d60058ad67c13c28bf64
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '847'
+ht-degree: 85%
 
 ---
 
@@ -57,6 +57,10 @@ Adobe Experience Platform
 
 * Para as medidas de proteção do Journey Optimizer, consulte [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=pt-BR).
 * Para as medidas de proteção do Offer Decisioning, consulte [Descrição do produto Offer Decisioning](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html).
+* Solicitações por segundo = 5000.
+* Latência da resposta &lt; 250 ms.
+* Acesso ao perfil Edge em tempo real. Somente públicos-alvo projetados de borda e atributos de perfil estarão disponíveis no perfil.
+* Se a personalização for necessária nas experiências de primeira vez, o hub será ideal, pois o perfil completo está disponível. O perfil de borda deve sincronizar a partir do hub pela primeira vez na experiência de borda. Portanto, a primeira experiência da borda não incluirá dados de perfil previamente carregados no hub.
 
 ### Medidas de proteção da assimilação de dados
 

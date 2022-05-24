@@ -3,10 +3,10 @@ title: Offer Decisioning no hub
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em quiosques, em experiências assistidas por agentes e em emails e outras apresentações.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 86%
+source-wordcount: '901'
+ht-degree: 84%
 
 ---
 
@@ -56,6 +56,9 @@ Adobe Experience Platform
 
 * Para as medidas de proteção do Journey Optimizer, consulte [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=pt-BR).
 * Para as medidas de proteção do Offer Decisioning, consulte [Descrição do produto Offer Decisioning](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html).
+* Solicitações por segundo = 2000.
+* Latência da resposta &lt; 500 ms.
+* Acesso ao perfil completo do cliente em tempo real, incluindo associações de público-alvo, atributos e eventos de experiência.
 
 
 ### Medidas de proteção da assimilação de dados

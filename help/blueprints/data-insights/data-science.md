@@ -4,10 +4,10 @@ description: Este blueprint apresenta como o Data Science Workspace, da Adobe Ex
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
+source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 70%
+source-wordcount: '505'
+ht-degree: 48%
 
 ---
 
@@ -30,6 +30,25 @@ A Ciência de dados personalizados para o esquema de enriquecimento de perfil il
 1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
+
+Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo real, faça o seguinte antes de assimilar dados:
+
+1. [Configure as identidades corretas e os namespaces de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR) no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
+1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
+
+## Considerações de implementação
+
+* Na maioria dos casos, o resultado do modelo deve ser assimilado como atributos de perfil e não como eventos de experiência. Os resultados do modelo podem ser uma cadeia de caracteres de atributo simples. Se houver vários resultados de modelo que serão assimilados, é recomendável usar um campo de tipo matriz ou mapa.
+* O conjunto de dados de instantâneo de perfil diário, que é uma exportação diária dos dados de atributo de perfil unificado, pode ser aproveitado para treinar modelos nos dados de atributo de perfil. A documentação do conjunto de dados de instantâneo de perfil pode ser acessada [here](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
+* Para extrair dados do Experience Platform, os seguintes métodos podem ser usados:
+   * SDK de acesso a dados
+      * Os dados estão em forma de arquivo bruto
+      * Os dados de evento da experiência de perfil permanecem no seu estado bruto não unificado.
+   * Destinos da RTCDP
+      * Somente atributos de perfil e associações de segmento podem ser descartados.
+   * Serviço de query
+      * O acesso a grandes quantidades de dados brutos pode fazer com que o query atinja o tempo limite em 10 minutos. É recomendável consultar os dados de forma incremental.
+
 
 ## Documentação relacionada
 
