@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: fff87b7bbea6db6bb5af0386b5919e78077a7858
+source-git-commit: f39c916d4b13d17eb3705c7adf01353929ff7956
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 98%
+source-wordcount: '194'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 98%
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
    + [Encaminhamento de evento](/help/blueprints/data-ingestion/server-side-collection.md)
+   + [Coleta de dados de várias sandboxes](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
    + Implantação {#deployment}
       + [SDK da Web da Experience Platform e Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [SDKs do aplicativo](/help/blueprints/data-ingestion/appsdk.md)
