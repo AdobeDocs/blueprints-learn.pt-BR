@@ -6,9 +6,9 @@ kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: 011f5b247ccd606348b4cbb4210218f28eddbd4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ A Análise de dados e Inteligência consiste na capacidade da Adobe Experience P
 
 Com o [!UICONTROL Serviço de consulta] da Experience Platform é possível realizar consultas SQL nos dados.
 
-O Experience Platform permite que conexões com clientes SQL de terceiros, interfaces e ferramentas de Business Intelligence (BI) se conectem diretamente, acessem e consultem os dados no Experience Platform, usando o [!DNL PostgreSQL] protocolo.
+A Experience Platform permite conexões com clientes SQL de terceiros, interfaces e ferramentas de Business Intelligence (BI) para conectar, acessar e consultar os dados diretamente na Experience Platform, usando o protocolo [!DNL PostgreSQL].
 
-Determinadas medidas de proteção se aplicam ao tempo limite da consulta e à quantidade de dados incluídos no resultado da consulta, conforme observado na seção de medidas de proteção abaixo.
+Algumas medidas de proteção se aplicam pelo tempo limite de consulta e pela quantidade de dados incluídos no resultado da consulta, conforme observado na seção de medidas de proteção abaixo.
 
 ## Casos de uso
 
@@ -30,7 +30,7 @@ Determinadas medidas de proteção se aplicam ao tempo limite da consulta e à q
 
 ## Aplicativos
 
-* Adobe Experience Platform  
+* Adobe Experience Platform
 
 ## Arquitetura
 
