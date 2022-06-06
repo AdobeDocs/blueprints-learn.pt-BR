@@ -49,8 +49,8 @@ ht-degree: 0%
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
       + Gerenciamento de decisões{#decision-management}
          + [Visão geral](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
-         + [Gerenciamento de decisões na borda](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
-         + [Gerenciamento de decisões no hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
+         + [Gestão de decisões na borda](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
+         + [Gestão de decisões no hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer com Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensagens de terceiros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign v8 {#campaign-v8}

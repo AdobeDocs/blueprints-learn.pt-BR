@@ -6,18 +6,18 @@ kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 48%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Blueprint de ciência de dados personalizada para aprimoramento de perfis
 
-A Ciência de dados personalizados para o esquema de enriquecimento de perfil ilustra como os dados no Adobe Experience Platform podem ser usados para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina para o Experience Platform e o Real-time Customer Data Platform a partir de ferramentas de aprendizado de máquina e ciência de dados. É possível assimilar insights modelados no Experience Platform para enriquecer o perfil do cliente em tempo real. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de categorias e produtos, propensão à conversão ou à rotatividade.
+O Blueprint de ciência de dados personalizada para aprimoramento de perfis ilustra como os dados na Adobe Experience Platform podem ser usados para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina para a Experience Platform e a Real-time Customer Data Platform a partir de ferramentas de aprendizado de máquina e ciência de dados. É possível assimilar insights modelados na Experience Platform para enriquecer o perfil do cliente em tempo real. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de categorias e produtos, propensão à conversão ou à rotatividade.
 
 ## Casos de uso
 
-* Extraia padrões de insight e descoberta a partir de dados do cliente, modelos de treinamento e pontuação a partir desses dados.
+* Extraia insights e descubra padrões a partir de dados do cliente; treine e pontue modelos de acordo com esses dados.
 * Aprimore o [!UICONTROL Perfil de cliente em tempo real] com insights e atributos orientados por modelos para uma personalização mais detalhada e jornadas aperfeiçoadas.
 * Treine e classifique modelos para determinar insights do cliente, como valor vitalício do cliente, propensão à conversão ou à rotatividade, afinidade de conteúdos e produtos e classificação de engajamentos.
 
@@ -53,7 +53,7 @@ Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo
 ## Documentação relacionada
 
 * [Descrição do produto Adobe Experience Platform Intelligence](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Serviço de query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html)
+* [Serviço de consulta da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR)
 
 ## Publicações do blog relacionadas
 
