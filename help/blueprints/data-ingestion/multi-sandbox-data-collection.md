@@ -1,31 +1,32 @@
 ---
-title: Blueprint de coleta de dados do encaminhamento de eventos de várias sandboxes
-description: Transmitir dados coletados pelos SDKs do Experience Platform para várias sandboxes usando o Encaminhamento de eventos
+title: Blueprint de coleção de dados do Encaminhamento de eventos de várias sandboxes
+description: Transmitir dados coletados pelos SDKs da Experience Platform para várias sandboxes por meio da utilização do Encaminhamento de eventos
 solution: Data Collection
 kt: 7202
-source-git-commit: 8ea7041103f86f034740f00a607ae36ca0b358cf
-workflow-type: tm+mt
+exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
+source-git-commit: 793a92218999185f8a993be528c4830fa07f4865
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
-# Blueprint de coleta de dados do encaminhamento de eventos de várias sandboxes
+# Blueprint de coleção de dados do Encaminhamento de eventos de várias sandboxes
 
-O Multi Sandbox Event Forwarding Data Collection Blueprint mostra como os dados coletados com Adobe Experience Platform Web e Mobile SDKs podem ser configurados para coletar um único evento e encaminhar para várias sandboxes da AEP. Este Blueprint é um caso de uso específico que usa o recurso Encaminhamento de eventos das Tags de Adobe.
+O Blueprint de coleção de dados do Encaminhamento de eventos de várias sandboxes mostra como os dados coletados com os SDKs móveis e da Web da Adobe Experience Platform podem ser configurados para coletar um único evento e encaminhar para várias sandboxes da AEP. Esse Blueprint é um caso de uso específico que usa o recurso Encaminhamento de eventos das tags da Adobe.
 
-Além de replicar o evento, usando os recursos de Encaminhamento de eventos, você pode adicionar, filtrar ou manipular os dados coletados originais que atendem aos requisitos de outras sandboxes. Por exemplo, a Sandbox A precisa receber todos os elementos de dados do evento e a Sandbox B deve receber apenas dados não PII.
+Além de replicar o evento, por meio da utilização dos recursos de Encaminhamento de eventos, você pode adicionar, filtrar ou manipular os dados coletados originais que atendam aos requisitos de outras sandboxes. Por exemplo, a Sandbox A precisa receber todos os elementos de dados do evento e a Sandbox B deve receber apenas dados não PII.
 
-O Encaminhamento de eventos usa uma propriedade de tag separada que contém os Elementos de dados, Regras e Extensões necessários para seus requisitos de dados. Com um evento de entrada, sua propriedade de encaminhamento de eventos pode coletar os dados e gerenciar, conforme necessário, antes do encaminhamento.
+O Encaminhamento de eventos usa uma propriedade de tag independente que contém as Regras, extensões e elementos de dados necessários para os seus requisitos de dados. Com um Evento de entrada, a sua Propriedade de encaminhamento de eventos pode coletar e gerenciar os dados, conforme necessário, antes do encaminhamento.
 
-Sua caixa de entrada de destino precisaria de um Ponto Final de Streaming HTTP configurado que fosse usado pela Extensão HTTPS do Encaminhamento de Eventos.
+Sua sandbox de destino precisaria de um Ponto de extremidade de transmissão HTTP configurado que fosse usado pela Extensão HTTPS de encaminhamento de eventos.
 
 
 
 ## Casos de uso
 
-* Relatórios de dados globais - ao usar várias sandboxes para isolar ambientes operacionais e a necessidade de consolidar a Coleta de dados em uma sandbox para relatórios entre sandbox. O Encaminhamento de eventos para uma sandbox de relatórios permite que cada ambiente operacional da sandbox envie dados conforme são coletados em tempo real para uma sandbox de relatórios
-* Gerencie a coleta de dados em sandboxes com base em regras de dados diferentes para cada ambiente operacional da sandbox. Esses ambientes operacionais que exigem filtragem de dados confidenciais, como Saúde e Serviços Financeiros
+* Relatórios de dados globais - em caso de utilização de várias sandboxes para isolar ambientes operacionais e da necessidade de consolidar a coleção de dados em uma sandbox para relatórios entre sandboxes. O Encaminhamento de eventos para uma sandbox de relatórios permite que cada ambiente operacional de sandbox envie dados em tempo real para uma sandbox de relatórios conforme eles são coletados
+* Gerencie a coleção de dados em sandboxes com base em regras de dados diferentes para cada ambiente operacional de sandbox. Ambientes operacionais que requerem a filtragem de dados confidenciais, tais como Serviços financeiros e de saúde
 
 ## Aplicativos
 
@@ -35,26 +36,26 @@ Sua caixa de entrada de destino precisaria de um Ponto Final de Streaming HTTP c
 
 <img src="assets/multi-Sandbox-Data-Collection.svg" alt="Arquitetura de referência para encaminhamento de eventos de várias sandboxes" style="width:90%; border:1px solid #4a4a4a" />
 
-1. Os Autores da tag definem uma propriedade de tag e uma propriedade de encaminhamento de eventos. Aqui, os autores definirão os Elementos de dados, Regras e Ações que gerenciam a coleta de dados. Lembre-se, o código da propriedade de tag é executado no cliente e distribuído por um Host CDN. O código da propriedade de encaminhamento de eventos é executado no servidor do Adobe Edge.
+1. Os Autores de tag definem uma Propriedade de tag e uma Propriedade de encaminhamento de eventos. Aqui, os autores definem as Regras, ações e elementos de dados que gerenciam a coleção de dados. Lembre-se que o código de Propriedade de tag é executado no cliente e distribuído por um Host CDN. O código de Propriedade de encaminhamento de eventos é executado no servidor do Adobe Edge.
 
-1. Os dados coletados no cliente são enviados para o Servidor de Borda. Os clientes também têm a opção de enviar dados para seu próprio servidor primeiro como um método de coleta do lado do servidor.
-O WebSDK pode fornecer um recurso de coleta de Servidor para Servidor . No entanto, é necessário um modelo de programação diferente para a execução. Consulte a documentação **Visão geral da API do Servidor de rede de borda** below
+1. Os dados coletados no cliente são enviados para o Servidor do Edge. Os clientes também têm a opção de enviar os dados primeiro para o seu próprio servidor como uma forma de coleção do lado do servidor.
+O WebSDK pode fornecer um recurso de coleção de Servidor para servidor. Para isso, no entanto, é necessário implementar um modelo de programação diferente. Consulte a documentação **Visão geral da API de Servidor da Edge Network** abaixo
 
-1. O Platform Edge Server recebe cargas de coleta de dados e orquestra o fluxo de dados para os sistemas necessários, como Target e Analytics.
+1. O Platform Edge Server recebe cargas de coleção de dados e organiza o fluxo de dados para os sistemas necessários, como o Target e o Analytics.
 
-1. A propriedade Encaminhamento de evento Elementos de dados é usada para acessar Dados do evento que chegam no payload. As regras também podem ser usadas para manipular os dados do Evento, conforme necessário, antes do encaminhamento. Como formatar os dados no XDM necessário para a assimilação de dados de fluxo
+1. Os Elementos de dados da propriedade Encaminhamento de eventos são usados para acessar Dados do evento que chegam na carga. As Regras também podem ser usadas para, conforme seja necessário, manipular os dados do evento antes do encaminhamento. Como na formatação dos dados no XDM necessário para a assimilação de dados de transmissão
 
-1. O Encaminhamento de eventos fornece a extensão HTTPS que fornece a capacidade de encaminhar seus dados de eventos para um ponto final HTTPS.
+1. O Encaminhamento de eventos fornece a extensão HTTPS que possibilita encaminhar seus dados do evento para um ponto de extremidade HTTPS.
 
-1. A sandbox 2 é configurada com um Ponto final de transmissão que recebe o evento encaminhado.
+1. A Sandbox 2 é configurada com um Ponto final de transmissão que recebe o evento encaminhado.
 
 ## Documentação relacionada
 
 * [Documentação de encaminhamento do evento](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=pt-BR)
 * [Vídeos sobre encaminhamento de eventos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=pt-BR)
 * [Aula sobre encaminhamento de eventos](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=pt-BR) do tutorial do SDK da Web
-* [Visão geral do Experience Platform WebSDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
-* [Visão geral da API do Servidor de rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
+* [Visão geral do WebSDK da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
+* [Visão geral da API de servidor da Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
 
 ## Publicações do blog relacionadas
 
