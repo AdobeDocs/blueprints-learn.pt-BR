@@ -1,19 +1,19 @@
 ---
-title: Blueprint do encaminhamento de eventos
+title: Blueprint de encaminhamento de eventos
 description: Dados coletados por streaming pelos SDKs da Experience Platform para os destinos
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: 7181c1dc3f823a9ea6f0e95f036eb4623b1b6c3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Blueprint do encaminhamento de eventos
+# Blueprint de encaminhamento de eventos
 
-O Blueprint do encaminhamento de eventos mostra como os dados coletados com os SDKs da Web e móvel do Adobe Experience Platform podem ser encaminhados da rede de borda do Experience Platform para um destino desejado. É possível encaminhar todos os dados brutos coletados dos SDKs ou dados específicos com base em eventos e regras configurados nas propriedades de tag (antigo Launch).
+O Blueprint de encaminhamento de eventos apresenta como os dados coletados com os SDKs móveis e da Web da Adobe Experience Platform podem ser encaminhados da Edge Network da Experience Platform para o destino de sua escolha. É possível encaminhar todos os dados brutos coletados dos SDKs ou dados específicos com base em eventos e regras configurados nas propriedades de tag (antigo Launch).
 
 ## Casos de uso
 
