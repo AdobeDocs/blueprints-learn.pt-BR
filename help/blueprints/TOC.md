@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '194'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 0%
    + [Visão geral](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
       + [Journey Optimizer](/help/blueprints/customer-journeys/journey-optimizer.md)
-      + Gerenciamento de decisões{#decision-management}
+      + Gestão de decisões {#decision-management}
          + [Visão geral](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [Gestão de decisões na borda](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [Gestão de decisões no hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
@@ -61,8 +61,8 @@ ht-degree: 0%
 + Coleção e preparação de dados {#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
-   + [Encaminhamento de evento](/help/blueprints/data-ingestion/server-side-collection.md)
-   + [Coleta de dados de várias sandboxes](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
+   + [Encaminhamento de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
+   + [Coleção de dados de várias sandboxes](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
    + Implantação {#deployment}
       + [SDK da Web da Experience Platform e Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [SDKs do aplicativo](/help/blueprints/data-ingestion/appsdk.md)
@@ -74,4 +74,4 @@ ht-degree: 0%
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
    + [Personalização com base comportamental](/help/blueprints/web-personalization/behavioral.md)
    + [Personalização de cliente conhecido](/help/blueprints/web-personalization/known-personalization.md)
-   + [Gerenciamento de decisões](/help/blueprints/web-personalization/decision-management-edge.md)
+   + [Gestão de decisões](/help/blueprints/web-personalization/decision-management-edge.md)
