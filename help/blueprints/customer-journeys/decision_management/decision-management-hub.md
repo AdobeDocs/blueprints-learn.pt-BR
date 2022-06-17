@@ -1,22 +1,22 @@
 ---
-title: Gerenciamento de decisões no hub
+title: Gestão de decisões no hub
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em quiosques, em experiências assistidas por agentes e em emails e outras apresentações.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 source-git-commit: 5b2f7531cc05178127fb08d3fdafcbce70192ecd
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '901'
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Gerenciamento de decisões no hub
+# Journey Optimizer - gestão de decisões no hub
 
-Para saber mais sobre o Gerenciamento de decisões, consulte a documentação do produto [AQUI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR) e a Visão geral da gestão de decisões [AQUI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-overview.html)
+Para saber mais sobre a gestão de decisões, consulte a documentação do produto [AQUI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR) e a Visão geral da gestão de decisões [AQUI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-overview.html?lang=pt-BR)
 
-A gestão de decisões da Adobe é um serviço fornecido como parte do Adobe Journey Optimizer. Este blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece um aprofundamento sobre os vários componentes e considerações de arquitetura que compõem o Gerenciamento de decisões.
+A gestão de decisões da Adobe é um serviço fornecido como parte do Adobe Journey Optimizer. Esse blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece mais detalhes sobre os diferentes componentes da arquitetura e considerações que compõem a gestão de decisões.
 
-O Journey Optimizer é usado para oferecer a melhor oferta e experiência aos clientes em todos os pontos de contato na hora certa. O Gerenciamento de decisões facilita a personalização com uma biblioteca central de ofertas de marketing e um mecanismo de decisão que aplica regras e restrições a perfis ricos em tempo real criados pela Adobe Experience Platform para ajudar você a enviar aos clientes a oferta certa na hora certa.
+O Journey Optimizer é usado para fornecer a melhor oferta e experiência aos clientes em todos os pontos de contato no momento certo. A gestão de decisões ajuda você a enviar a oferta certa para o os clientes no momento certo, facilitando a personalização com uma biblioteca central de ofertas de marketing e um mecanismo de decisão que aplica regras e restrições a perfis avançados em tempo real criados pela Adobe Experience Platform.
 
 A gestão de decisões pode ser implantada de duas maneiras. A primeira é por meio do hub da Adobe Experience Platform, que é uma arquitetura de datacenter centralizada. Na abordagem de “hub”, as ofertas são executadas, personalizadas e entregues na latência de >500 milissegundos. Por isso, a arquitetura de hub é mais adequada para experiências do cliente que não exigem latência de subsegundo. Exemplos incluem definições de ofertas que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais. As ofertas inseridas em emails e campanhas de saída também são possibilitadas pela abordagem de hub.
 
@@ -24,21 +24,21 @@ A segunda abordagem é por meio da Experience Edge Network, que é uma infraestr
 
 Esse blueprint abordará as especificidades da gestão de decisões no hub.
 
-Para obter mais informações sobre a gestão de decisões na borda, consulte o blueprint [Gestão de decisões na borda](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-edge.html).
+Para obter mais informações sobre a gestão de decisões na borda, consulte o blueprint [Gestão de decisões na borda](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-edge.html?lang=pt-BR).
 
-## Casos de uso do gerenciamento de decisões no hub
+## Casos de uso da gestão de decisões no hub
 
 * Ofertas personalizadas em quiosques e experiências em loja.
 * Ofertas personalizadas por meio de experiências assistidas por agente, como centrais de atendimento ou interações de vendas.
-* Ofertas incluídas em email, SMS, notificações por push móveis ou outras interações de saída.
-* Oferecer ofertas a sistemas externos ESP e de envio de mensagens para entrega.
+* Ofertas incluídas em emails, mensagens SMS, notificações por push ou outras interações de saída.
+* Forneça ofertas a sistemas externos de ESP e de envio de mensagens para delivery.
 * Execução de jornada entre canais - consistência de ofertas na Web, dispositivos móveis, email e outros canais de interação por meio do Adobe Journey Optimizer.
 
 <br>
 
 ## Arquitetura
 
-<img src="../assets/offers_hub.svg" alt="Gerenciamento de decisão da arquitetura de referência no blueprint de borda" style="width:100%; border:1px solid #4a4a4a" />
+<img src="../assets/offers_hub.svg" alt="Arquitetura de referência do blueprint da gestão de decisões na borda" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -55,10 +55,10 @@ Adobe Experience Platform
 ## Medidas de proteção
 
 * Para as medidas de proteção do Journey Optimizer, consulte [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=pt-BR).
-* Para as medidas de proteção da gestão de decisões, consulte o seguinte: [Descrição do produto Gerenciamento de decisões](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html).
-* Solicitações por segundo = 2000.
-* Latência da resposta &lt; 500 ms.
-* Acesso ao perfil completo do cliente em tempo real, incluindo associações de público-alvo, atributos e eventos de experiência.
+* Para as medidas de proteção da gestão de decisões, consulte [Descrição do produto gestão de decisões](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html).
+* Solicitações por segundo = 2.000.
+* Latência de resposta &lt; 500 ms.
+* Acesso ao perfil completo do cliente em tempo real, incluindo atributos, eventos de experiência e associações de público.
 
 
 ### Medidas de proteção da assimilação de dados
@@ -76,9 +76,9 @@ Adobe Experience Platform
 ## Padrões de implementação
 
 * Implementado em emails, mensagens SMS e canais de saída por meio da integração direta com o [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/offers-e2e.html?lang=pt-BR).
-* Para a implementação baseada em API do servidor do Gerenciamento de decisões, utilize o [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html?lang=pt-BR).
-* Para a implementação de decisões baseadas em lote para fornecer ofertas em massa para um aplicativo de entrega de mensagens, utilize a [API de decisão em lote](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html?lang=pt-BR).
-* Para experiências em tempo real baseadas no Edge, use o SDK da Web/Mobile ou a API do Edge Decisioning, conforme descrito na seção [Gerenciamento de decisões no Edge blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-edge.html).
+* Para a implementação baseada em API de servidor da gestão de decisões, utilize a [API de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/decisioning-vs-edge-apis.html?lang=pt-BR).
+* Para a implementação de decisões baseadas em lote para fornecer ofertas em massa para um aplicativo de entrega de mensagem, utilize a [API de decisão em lote](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery/batch-decisioning-api.html?lang=pt-BR).
+* Para experiências em tempo real baseadas em borda, use o SDK da Web/móvel ou a API de decisão na borda, conforme descrito no [Blueprint na borda da gestão de decisões](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/offer-decisioning/decision-management-edge.html?lang=pt-BR).
 <br>
 
 ## Etapas de implementação
@@ -95,7 +95,7 @@ Adobe Experience Platform
 #### Perfil/Identidade
 
 1. [Crie qualquer namespace específico para clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
-1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
 1. [Habilite os esquemas e conjuntos de dados para o Perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Journey.
@@ -108,6 +108,6 @@ Adobe Experience Platform
 
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=pt-BR)
-* [Gestão de decisões do Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html)
+* [Gestão de decisões do Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR)
 * [Descrição do produto Adobe Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Descrição do produto Gerenciamento de decisão do Adobe](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+* [Descrição do produto gestão de decisões da Adobe](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html)
