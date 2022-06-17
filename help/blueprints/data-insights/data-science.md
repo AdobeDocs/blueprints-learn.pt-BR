@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
@@ -31,23 +31,23 @@ O Blueprint de ciência de dados personalizada para aprimoramento de perfis ilus
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
 
-Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo real, faça o seguinte antes de assimilar dados:
+Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo real, faça o seguinte antes da assimilar dados:
 
 1. [Configure as identidades corretas e os namespaces de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR) no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
 1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
 
 ## Considerações de implementação
 
-* Na maioria dos casos, o resultado do modelo deve ser assimilado como atributos de perfil e não como eventos de experiência. Os resultados do modelo podem ser uma cadeia de caracteres de atributo simples. Se houver vários resultados de modelo que serão assimilados, é recomendável usar um campo de tipo matriz ou mapa.
-* O conjunto de dados de instantâneo de perfil diário, que é uma exportação diária dos dados de atributo de perfil unificado, pode ser aproveitado para treinar modelos nos dados de atributo de perfil. A documentação do conjunto de dados de instantâneo de perfil pode ser acessada [here](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html#profile-attribute-datasets).
-* Para extrair dados do Experience Platform, os seguintes métodos podem ser usados:
+* Na maioria dos casos, o resultado do modelo deve ser assimilado como atributos de perfil, e não como eventos de experiência. Os resultados do modelo podem ser uma cadeia de caracteres de atributo simples. Se houver vários resultados de modelo a assimilar, é recomendável usar um campo de tipo matriz ou mapa.
+* O conjunto de dados de instantâneo de perfil diário, que é uma exportação diária dos dados de atributo de perfil unificado, pode ser aproveitado para treinar modelos em dados de atributo de perfil. A documentação do conjunto de dados de instantâneo de perfil pode ser acessada [aqui](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=pt-BR#profile-attribute-datasets).
+* Para extrair dados da Experience Platform, os seguintes métodos podem ser usados:
    * SDK de acesso a dados
-      * Os dados estão em forma de arquivo bruto
-      * Os dados de evento da experiência de perfil permanecem no seu estado bruto não unificado.
+      * Os dados estão na forma de arquivo bruto
+      * Os dados do evento de experiência de perfil permanecem em seu estado bruto e não unificado.
    * Destinos da RTCDP
-      * Somente atributos de perfil e associações de segmento podem ser descartados.
-   * Serviço de query
-      * O acesso a grandes quantidades de dados brutos pode fazer com que o query atinja o tempo limite em 10 minutos. É recomendável consultar os dados de forma incremental.
+      * Só é possível fazer a saída de atributos de perfil e associações de segmento.
+   * Serviço de consulta
+      * O acesso a grandes quantidades de dados brutos pode fazer com que o query atinja o tempo limite de 10 minutos. É recomendável consultar dados de forma progressiva.
 
 
 ## Documentação relacionada
