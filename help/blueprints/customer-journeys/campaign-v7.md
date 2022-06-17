@@ -4,9 +4,9 @@ description: O Adobe Campaign v7 é uma ferramenta de campanha criada para canai
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
 source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1193'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketin
 
 | Cenário | Descrição | Recursos |
 | :-- | :--- | :--- |
-| [Journey Optimizer com Adobe Campaign](ajo-and-campaign.md) | Mostra como usar o Adobe Journey Optimizer para organizar experiências individualizadas utilizando o Perfil do cliente em tempo real e aproveitar o sistema nativo de mensagens transacionais do Adobe Campaign para enviar a mensagem | Aproveite o Perfil do cliente em tempo real e o poder do Journey Optimizer para organizar as experiências na hora, enquanto utiliza os recursos nativos de mensagens em tempo real do Adobe Campaign para fazer a comunicação de última milha<br><br>Considerações:<br><ul><li>Envia até 50 mil mensagens por hora por meio do servidor de mensagens em tempo real<li>Não se faz regulagem a partir do Journey Optimizer, então providencie a avaliação técnica de um arquiteto empresarial de pré-vendas</li><li>O Gerenciamento de decisões não é compatível em cargas para o servidor de mensagens em tempo real do Campaign v7</li></ul> |
+| [Journey Optimizer com Adobe Campaign](ajo-and-campaign.md) | Mostra como usar o Adobe Journey Optimizer para organizar experiências individualizadas utilizando o Perfil do cliente em tempo real e aproveitar o sistema nativo de mensagens transacionais do Adobe Campaign para enviar a mensagem | Aproveite o Perfil do cliente em tempo real e o poder do Journey Optimizer para organizar as experiências na hora, enquanto utiliza os recursos nativos de mensagens em tempo real do Adobe Campaign para fazer a comunicação de última milha<br><br>Considerações:<br><ul><li>Envia até 50 mil mensagens por hora por meio do servidor de mensagens em tempo real<li>Não se faz regulagem a partir do Journey Optimizer, então providencie a avaliação técnica de um arquiteto empresarial de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o servidor de mensagens em tempo real do Campaign v7</li></ul> |
 | [Real-Time CDP com Adobe Campaign](rtcdp-and-campaign.md) | Mostra como o Real-Time CDP da Adobe Experience Platform e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign para proporcionar conversas personalizadas | <ul><li>Compartilhamento de públicos do Real-Time CDP com o Adobe Campaign por meio da utilização de fluxos de trabalho tanto de troca de arquivos de armazenamento na nuvem como de assimilação do Adobe Campaign </li><li>Compartilhe facilmente com o Real-Time CDP da Adobe Campaign os dados de entrega e interação das conversas dos clientes para aprimorar o Perfil do cliente em tempo real e gerar relatórios entre canais sobre campanhas de mensagens</li></ul> |
 
 <br>
