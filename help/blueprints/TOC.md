@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: ac995cdb942fd14d87281c4b499239732a1e4019
+source-git-commit: dfd1592c79fd20899705e68cfd4cd1a1bb3ebb87
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 100%
    + [Ativação B2B](/help/blueprints/b2b/b2bactivation.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Visão geral](/help/blueprints/customer-journey-analytics/overview.md)
+   + [Compartilhamento de públicos do CJA em RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
 + Jornadas do cliente {#customer-journeys}
    + [Visão geral](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer {#journey-optimizer}
