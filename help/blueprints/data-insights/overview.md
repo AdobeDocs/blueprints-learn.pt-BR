@@ -5,9 +5,9 @@ solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: 3b22dfdd-3fbe-40b3-b798-1ee983723039
-source-git-commit: f323d2deee5547abd0ccc8247a23ac7a144b2f07
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
+workflow-type: tm+mt
+source-wordcount: '171'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 A Análise de dados, Inteligência e IA/Aprendizado de máquina consiste na capacidade da Adobe Experience Platform de realizar consultas e análises exploratórias dos dados existentes no data lake.
 
 Com o [!UICONTROL Serviço de consulta] da Experience Platform é possível realizar consultas SQL nos dados. Além disso, a Experience Platform permite conexões com clientes SQL de terceiros, interfaces e ferramentas de Business Intelligence (BI) para conectar, acessar e consultar os dados diretamente na Experience Platform, usando o protocolo [!DNL PostgreSQL].
-
-O [!UICONTROL Data Science Workspace] habilita a execução de exploração de dados, ciência de dados e cargas de trabalho de aprendizado de máquina. Os modelos podem ser treinados, pontuados e operacionalizados para enriquecer ainda mais os perfis do cliente e obter insights aprofundados sobre os comportamentos e experiências do cliente.
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|

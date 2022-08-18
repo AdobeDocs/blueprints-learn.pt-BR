@@ -1,19 +1,19 @@
 ---
 title: Blueprint de ciência de dados personalizada para aprimoramento de perfis
-description: Este blueprint apresenta como o Data Science Workspace, da Adobe Experience Platform, pode usar os dados contidos na Experience Platform para treinar, implantar e classificar modelos a fim de fornecer insights de aprendizado de máquina a partir dos dados.
+description: Este blueprint mostra como os insights baseados na ciência de dados podem ser assimilados no Experience Platform para enriquecer o Perfil do cliente em tempo real.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 56ed25f8ed954126c3291559b7f67f04565c01d4
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 83%
 
 ---
 
 # Blueprint de ciência de dados personalizada para aprimoramento de perfis
 
-O Blueprint de ciência de dados personalizada para aprimoramento de perfis ilustra como os dados na Adobe Experience Platform podem ser usados para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina para a Experience Platform e a Real-time Customer Data Platform a partir de ferramentas de aprendizado de máquina e ciência de dados. É possível assimilar insights modelados na Experience Platform para enriquecer o perfil do cliente em tempo real. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de categorias e produtos, propensão à conversão ou à rotatividade.
+A Ciência de dados personalizados para o esquema de enriquecimento de perfil ilustra como os dados podem ser usados para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina para o Experience Platform e a Real-time Customer Data Platform a partir de ferramentas de aprendizado de máquina e ciência de dados. É possível assimilar insights modelados na Experience Platform para enriquecer o perfil do cliente em tempo real. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de categorias e produtos, propensão à conversão ou à rotatividade.
 
 ## Casos de uso
 
@@ -38,17 +38,14 @@ Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo
 
 ## Considerações de implementação
 
-* Na maioria dos casos, o resultado do modelo deve ser assimilado como atributos de perfil, e não como eventos de experiência. Os resultados do modelo podem ser uma cadeia de caracteres de atributo simples. Se houver vários resultados de modelo a assimilar, é recomendável usar um campo de tipo matriz ou mapa.
+* Na maioria dos casos, o resultado do modelo deve ser assimilado como atributos de perfil, e não como eventos de experiência. Os resultados do modelo podem ser strings de atributo simples. Se houver vários resultados de modelo a assimilar, é recomendável usar um campo de tipo matriz ou mapa.
 * O conjunto de dados de instantâneo de perfil diário, que é uma exportação diária dos dados de atributo de perfil unificado, pode ser aproveitado para treinar modelos em dados de atributo de perfil. A documentação do conjunto de dados de instantâneo de perfil pode ser acessada [aqui](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=pt-BR#profile-attribute-datasets).
 * Para extrair dados da Experience Platform, os seguintes métodos podem ser usados:
    * SDK de acesso a dados
       * Os dados estão na forma de arquivo bruto
       * Os dados do evento de experiência de perfil permanecem em seu estado bruto e não unificado.
    * Destinos da RTCDP
-      * Só é possível fazer a saída de atributos de perfil e associações de segmento.
-   * Serviço de consulta
-      * O acesso a grandes quantidades de dados brutos pode fazer com que o query atinja o tempo limite de 10 minutos. É recomendável consultar dados de forma progressiva.
-
+      * Atributos de perfil e associações de segmento podem ser mencionados.
 
 ## Documentação relacionada
 
