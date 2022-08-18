@@ -4,16 +4,20 @@ description: Unifique e analise dados e comportamentos do cliente na jornada do 
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 0d188a41b6c90bc838eaf4b1d0d1f31b3596e7ca
+source-git-commit: 8a252e0f061bddb14ce1a21b49137a22fdf700da
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Customer Journey Analytics com Real-time Customer Data Platform
 
 Crie e publique públicos-alvo identificados no Customer Journey Analytics (CJA) para o Perfil do cliente em tempo real no Adobe Experience Platform para direcionamento e personalização do cliente. Ideal para criar públicos-alvo usando dados históricos ou públicos-alvo mais refinados a partir de filtragem granular e campos calculados no Customer Journey Analytics.
+
+## Guia de publicação do público-alvo do Customer Journey Analytics
+
+Consulte a documentação a seguir para obter orientação sobre implementação e configuração na publicação de públicos-alvo do Customer Journey Analytics para a Real-time Customer Data Platform. [Documentação](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
 ## Arquitetura de Blueprints do Customer Journey Analytics
 
@@ -22,10 +26,6 @@ Crie e publique públicos-alvo identificados no Customer Journey Analytics (CJA)
 ## Diagrama de medidas de proteção para Blueprints do Customer Journey Analytics
 
 ![Diagrama de medidas de proteção](assets/cja_guardrails.svg)
-
-## Guia de publicação do público-alvo do Customer Journey Analytics
-
-Consulte a documentação a seguir para obter orientação sobre implementação e configuração na publicação de públicos-alvo do Customer Journey Analytics para a Real-time Customer Data Platform. [Documentação](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html)
 
 ## Publicações do blog relacionadas
 
