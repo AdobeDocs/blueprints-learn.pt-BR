@@ -5,7 +5,7 @@ exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
 source-git-commit: 3de073a8e11dfc228c597f52f494159725eef1ed
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Saiba como os clientes estão arquitetando excelentes experiências e tendo suce
 <tr>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/apparel.html"><strong>Setor de vestuário</strong></a></div>
-    <p><em>Marketing em tempo real, ativação entre canais e análise entre canais.</em></p>
+    <p><em>Marketing em tempo real, ativação entre canais e Cross-Channel Analytics.</em></p>
   </td>
   <td>
     <div><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/industry-success-stories/retail.html"><strong>Setor de varejo</strong></a></div>
