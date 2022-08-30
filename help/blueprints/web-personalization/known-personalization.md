@@ -5,10 +5,10 @@ landing-page-description: Sincronize a personalização da Web com emails e outr
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 310ef2284ffbc58d74f1924f5fe73ca226201da0
+source-git-commit: 590096ff0f2f96871fd03623fc167d215d55cdb8
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 80%
+source-wordcount: '1379'
+ht-degree: 78%
 
 ---
 
@@ -59,6 +59,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 
 * Usar a rede de borda com o SDK da Web/Mobile. A segmentação de borda em tempo real exige a abordagem de implementação do SDK da Web/Mobile ou da API de borda.
 * [Consulte o blueprint do SDK da Web e Mobile da Experience Platform](../data-ingestion/websdk.md)  para uma implementação baseada em SDK.
+* Para uso no SDK móvel, a variável [Adobe Journey Optimizer - Extensão de decisão](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) deve ser instalado no SDK móvel.
 * [Consulte a API de servidor da Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR) para uma implementação baseada em API do Adobe Target com Edge Profile.
 
 ### Padrão de implementação 2 - SDKs específicos ao aplicativo
@@ -71,7 +72,7 @@ Usar SDKs tradicionais específicos para aplicativos (por exemplo, AT.js e AppMe
 
 1. [Implemente o Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=pt-BR) para seus aplicativos da Web ou seus aplicativos para dispositivos móveis
 1. [Implemente a Experience Platform e o [!UICONTROL Real-time Customer Profile]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=pt-BR); certifique-se de que os públicos-alvo criados sejam ativados na borda, configurando a [política de mesclagem](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR#create-a-merge-policy) como ativa na borda.
-1. Implementar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) ou o SDK do Experience Platform Mobile. O Experience Platform Web/Mobile SDK ou a API EDGE são necessários para a segmentação de Edge em tempo real, mas não para o compartilhamento de públicos de streaming e lote do Real-time Customer Data Platform para o Target.
+1. Implementar [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) ou [Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/) com a extensão correta (Target ou Adobe Journey Optimizer - Decisioning) instalada. O Experience Platform Web/Mobile SDK ou a API EDGE são necessários para a segmentação de Edge em tempo real, mas não para o compartilhamento de públicos de streaming e lote do Real-time Customer Data Platform para o Target.
 1. [Configure a rede de borda com uma sequência de dados de borda](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=pt-BR)
 1. [Habilite o Adobe Target como um destino na Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR)
 1. (Opcional) [Implemente o Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
