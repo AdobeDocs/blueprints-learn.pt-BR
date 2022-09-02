@@ -4,22 +4,23 @@ description: Unifique e analise dados e comportamentos do cliente em toda a jorn
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
-source-git-commit: 2f0d018f10bedece6d29a3942578dcd489637373
-workflow-type: tm+mt
+exl-id: 5ae084bf-a98d-418a-8038-e6f849ff7c1d
+source-git-commit: a3e55b9dc61c87393c12b3d0a4793256a64b6c54
+workflow-type: ht
 source-wordcount: '140'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 # Customer Journey Analytics com Journey Optimizer
 
-Os dados do Journey Optimizer são compartilhados com o Experience Platform data lake e estão disponíveis para assimilação, análise e relatórios no Customer Journey Analytics. A entrega de jornadas, a interação e a eficácia podem ser analisadas e reportadas no Customer Journey Analytics.
+Os dados do Journey Optimizer são compartilhados com o data lake da Experience Platform e estão disponíveis para assimilação, análise e relatórios no Customer Journey Analytics. A entrega, a interação e a eficácia da jornada podem ser analisadas e reportadas no Customer Journey Analytics.
 
-Além disso, os públicos-alvo criados no Customer Journey Analytics podem ser publicados no Perfil do cliente em tempo real do Experience Platform e estão disponíveis para execução de jornada no Journey Optimizer.
+Além disso, os públicos criados no Customer Journey Analytics podem ser publicados no Perfil do cliente em tempo real da Experience Platform e estão disponíveis para execução de jornada no Journey Optimizer.
 
 ## Guia de implementação
 
-Consulte a documentação a seguir para obter orientação sobre a implementação e configuração dos dados do Journey Optimizer no Customer Journey Analytics. [Documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-overview.html)
+Consulte a documentação a seguir para obter orientação sobre a implementação e a configuração dos dados do Journey Optimizer no Customer Journey Analytics. [Documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/reports/sharing-overview.html?lang=pt-BR)
 
 ## Arquitetura do Customer Journey Analytics com Journey Optimizer
 
