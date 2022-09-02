@@ -1,19 +1,19 @@
 ---
-title: Blueprint de ciência de dados personalizada para aprimoramento de perfis
-description: Este blueprint mostra como os insights baseados na ciência de dados podem ser assimilados no Experience Platform para enriquecer o Perfil do cliente em tempo real.
+title: Blueprint de Ciência de dados personalizada para enriquecimento de perfis
+description: Este blueprint mostra como os insights baseados na ciência de dados podem ser assimilados na Experience Platform para enriquecer o Perfil do cliente em tempo real.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# Blueprint de ciência de dados personalizada para aprimoramento de perfis
+# Blueprint de Ciência de dados personalizada para enriquecimento de perfis
 
-A Ciência de dados personalizados para o esquema de enriquecimento de perfil ilustra como os dados podem ser usados para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina para o Experience Platform e a Real-time Customer Data Platform a partir de ferramentas de aprendizado de máquina e ciência de dados. É possível assimilar insights modelados na Experience Platform para enriquecer o perfil do cliente em tempo real. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de categorias e produtos, propensão à conversão ou à rotatividade.
+O Blueprint de Ciência de dados personalizada para enriquecimento de perfis ilustra como os dados podem ser usados para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina para a Experience Platform e a Real-time Customer Data Platform por meio de ferramentas de aprendizado de máquina e ciência de dados. É possível assimilar insights modelados na Experience Platform para enriquecer o perfil do cliente em tempo real. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de categorias e produtos, propensão à conversão ou à rotatividade.
 
 ## Casos de uso
 
@@ -23,7 +23,7 @@ A Ciência de dados personalizados para o esquema de enriquecimento de perfil il
 
 ## Arquitetura
 
-<img src="assets/data_science.svg" alt="Blueprint de arquitetura de referência para Ciência de dados personalizada para aprimoramento de perfis" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/data_science.svg" alt="Blueprint de arquitetura de referência para Ciência de dados personalizada para enriquecimento de perfis" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Etapas de implementação
 
@@ -38,18 +38,18 @@ Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo
 
 ## Considerações de implementação
 
-* Na maioria dos casos, o resultado do modelo deve ser assimilado como atributos de perfil, e não como eventos de experiência. Os resultados do modelo podem ser strings de atributo simples. Se houver vários resultados de modelo a assimilar, é recomendável usar um campo de tipo matriz ou mapa.
+* Na maioria dos casos, o resultado do modelo deve ser assimilado como atributos de perfil, e não como eventos de experiência. Os resultados do modelo podem ser uma cadeia de caracteres de atributo simples. Se houver vários resultados de modelo a assimilar, é recomendável usar um campo de tipo matriz ou mapa.
 * O conjunto de dados de instantâneo de perfil diário, que é uma exportação diária dos dados de atributo de perfil unificado, pode ser aproveitado para treinar modelos em dados de atributo de perfil. A documentação do conjunto de dados de instantâneo de perfil pode ser acessada [aqui](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=pt-BR#profile-attribute-datasets).
-* Para extrair dados da Experience Platform, os seguintes métodos podem ser usados:
+* Para extrair dados da Experience Platform, os seguintes métodos podem ser usados
    * SDK de acesso a dados
       * Os dados estão na forma de arquivo bruto
       * Os dados do evento de experiência de perfil permanecem em seu estado bruto e não unificado.
    * Destinos da RTCDP
-      * Atributos de perfil e associações de segmento podem ser mencionados.
+      * É possível fazer a saída de atributos de perfil e associações de segmento.
 
 ## Documentação relacionada
 
-* [Descrição do produto Adobe Experience Platform Intelligence](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Descrição do produto Inteligência do Adobe Experience Platform](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [Serviço de consulta da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR)
 
 ## Publicações do blog relacionadas
