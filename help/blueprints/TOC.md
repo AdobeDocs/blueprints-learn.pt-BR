@@ -6,9 +6,9 @@ product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
 source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '203'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
