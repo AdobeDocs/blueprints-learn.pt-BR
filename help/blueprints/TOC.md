@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: a5a8de74c2ce176e1ca36fa536ad1c088fccdc27
-workflow-type: ht
-source-wordcount: '203'
-ht-degree: 100%
+source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 95%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 100%
    + [Fluxo de dados da Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
-   + [Ativação de público-alvo anônima](/help/blueprints/audience-activation/anonymous.md)
-   + Ativação de cliente conhecido {#known-customer-audience-activation}
+   + [Ativação de público-alvo anônima (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + Ativação de cliente conhecida (RTCDP) {#known-customer-audience-activation}
       + [Visão geral](/help/blueprints/audience-activation/known.md)
       + Ativação para canais sociais e publicitários {#audience-activation}
          + [Ativação para o Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -74,6 +74,6 @@ ht-degree: 100%
    + [Ciência de dados personalizada para enriquecimento de perfis](/help/blueprints/data-insights/data-science.md)
 + Personalização da Web e móvel {#web-personalization}
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
-   + [Personalização com base comportamental](/help/blueprints/web-personalization/behavioral.md)
-   + [Personalização de cliente conhecido](/help/blueprints/web-personalization/known-personalization.md)
+   + [Personalização com base comportamental - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalização conhecida do cliente - Target e RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestão de decisões](/help/blueprints/web-personalization/decision-management-edge.md)
