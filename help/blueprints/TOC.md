@@ -1,14 +1,14 @@
 ---
 user-guide-title: Blueprints de experiência digital
-breadcrumb-title: 'Blueprints '
+breadcrumb-title: Blueprints
 user-guide-description: Blueprints de experiência digital são implementações replicáveis para resolver problemas empresariais consagrados e contêm diagramas de arquitetura, considerações técnicas e links para documentações relevantes.
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: c0994c3f09d854c635049054328abcd2d552c28e
+source-git-commit: 4aced09f12b47c0af25af7aaa97085a607d749b3
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 + [Visão geral](/help/blueprints/overview.md)
 + [Ver todos os casos de uso](/help/blueprints/use-cases.md)
-+ Veja todas as histórias de sucesso do setor {#industry-success-stories}
++ Planos verticais do setor{#vertical-blueprints}
    + [Visão geral](/help/blueprints/industry-success-stories/overview.md)
    + [Vestuário](/help/blueprints/industry-success-stories/apparel.md)
    + [Varejo](/help/blueprints/industry-success-stories/retail.md)
