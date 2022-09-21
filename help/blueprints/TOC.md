@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 833524d20fe69a08a299035020e29d2d877b797d
+source-git-commit: 9fac27843985da725ffac9c6b01518b595fdb22b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 90%
 
 ---
 
@@ -27,6 +27,9 @@ ht-degree: 0%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform e aplicativos](/help/blueprints/experience-platform/platform-applications.md)
    + [Fluxo de dados da Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
+   + Modelos de implantação{#deployment}
+      + [SDK da Web da Experience Platform e Edge Network](/help/blueprints/data-ingestion/websdk.md)
+      + [SDKs do aplicativo](/help/blueprints/data-ingestion/appsdk.md)
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
    + [Ativação de público-alvo anônima (AAM)](/help/blueprints/audience-activation/anonymous.md)
@@ -61,14 +64,11 @@ ht-degree: 0%
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP com Adobe Campaign](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
-+ Coleção e preparação de dados {#data-ingestion}
++ Assimilação de dados e exportação de dados{#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
    + [Encaminhamento de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
    + [Coleção de dados de várias sandboxes](/help/blueprints/data-ingestion/multi-sandbox-data-collection.md)
-   + Implantação {#deployment}
-      + [SDK da Web da Experience Platform e Edge Network](/help/blueprints/data-ingestion/websdk.md)
-      + [SDKs do aplicativo](/help/blueprints/data-ingestion/appsdk.md)
 + Análise de dados, Inteligência e IA/Aprendizado de máquina {#data-exploration}
    + [Visão geral](/help/blueprints/data-insights/overview.md)
    + [Análise de dados e Inteligência](/help/blueprints/data-insights/analysis.md)
