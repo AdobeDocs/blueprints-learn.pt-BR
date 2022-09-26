@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: fc247d3a933d6df33e43f3a1f55f9dfb1eba35a6
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 90%
       + [SDKs do aplicativo](/help/blueprints/data-ingestion/appsdk.md)
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
-   + [Ativação de público-alvo anônima (AAM)](/help/blueprints/audience-activation/anonymous.md)
-   + Ativação de cliente conhecida (RTCDP) {#known-customer-audience-activation}
+   + [Ativação de público-alvo anônima  (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + Ativação de cliente conhecido (RTCDP) {#known-customer-audience-activation}
       + [Visão geral](/help/blueprints/audience-activation/known.md)
       + Ativação para canais sociais e publicitários {#audience-activation}
          + [Ativação para o Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
@@ -75,6 +75,6 @@ ht-degree: 90%
    + [Ciência de dados personalizada para enriquecimento de perfis](/help/blueprints/data-insights/data-science.md)
 + Personalização da Web e móvel {#web-personalization}
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
-   + [Personalização com base comportamental - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalização com base comportamental  - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personalização conhecida do cliente - Target e RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestão de decisões](/help/blueprints/web-personalization/decision-management-edge.md)
