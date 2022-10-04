@@ -1,12 +1,12 @@
 ---
-title: Blueprint do Campaign v8
+title: Blueprint do Campaign v8, Campanha e AEP
 description: O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para canais de marketing tradicionais, como email e correspondência direta, que oferece recursos sólidos de ETL e gerenciamento de dados para ajudar a arquitetar e organizar a campanha perfeita. Seu mecanismo de orquestração alimenta sofisticados programas de marketing multitoques com foco em jornadas orientadas por lote. Ele também vem emparelhado com um servidor de mensagens em tempo real escalável que permite às equipes de marketing enviar mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para questões como redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 37fa3bc00175a4636766564f0b8fb847fa8a951e
-workflow-type: ht
-source-wordcount: '1035'
-ht-degree: 100%
+source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
+workflow-type: tm+mt
+source-wordcount: '1059'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,8 @@ O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para
 * Campanhas de integração e de remarketing
 * Campanhas de publicidade por correspondência direta, folheto e revista
 * Mensagens transacionais simples (ou seja, redefinição de senha, recebimento de email, confirmação de pedidos, etc.)
+* Integração dos dados do Campaign com o Adobe Experience Platform para análise e criação de perfis
+* Compartilhamento de públicos do Real-time Customer Data Platform para o Campaign.
 
 <br>
 
