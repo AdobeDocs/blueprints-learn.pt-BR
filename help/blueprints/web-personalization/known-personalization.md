@@ -5,10 +5,10 @@ landing-page-description: Sincronize a personalização da Web com emails e outr
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 31f5e095ed5817ea1f6586aecdd13c1e06fb5e4a
+source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 100%
+source-wordcount: '1378'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 * [!UICONTROL Real-time Customer Data Platform]
 * Adobe Target
-* Adobe Audience Manager (opcional): adiciona dados de público-alvo de terceiros, gráfico de dispositivos baseado em cooperação
+* Adobe Audience Manager (opcional): Adiciona dados de público-alvo de terceiros
 * Adobe Analytics ou Customer Journey Analytics (opcional): adiciona a capacidade de criar segmentos com base em dados históricos de clientes e dados comportamentais com segmentação detalhada
 
 ## Padrões de integração

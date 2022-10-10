@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 163dd644b690c1f5554a3929e1f83c121e132df5
+source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 92%
+source-wordcount: '248'
+ht-degree: 80%
 
 ---
 
@@ -58,12 +58,17 @@ ht-degree: 92%
          + [Gestão de decisões no hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
       + [Journey Optimizer com Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensagens de terceiros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
+   + Campaign Standard{#campaign-standard}
+      + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html)
+      + [Real-Time CDP com Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html)
    + Campaign v8 {#campaign-v8}
       + [Campaign v8](/help/blueprints/customer-journeys/campaign-v8.md)
       + [Real-Time CDP com Adobe Campaign v8](/help/blueprints/customer-journeys/rtcdp-and-campaign-v8.md)
+      + [Journey Optimizer com Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP com Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Journey Optimizer com Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Assimilação de dados e exportação de dados{#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
