@@ -8,7 +8,7 @@ role: Architect, Developer, User
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 80%
 # Blueprints de experiência digital {#architecture}
 
 + [Visão geral](/help/blueprints/overview.md)
-+ Planos verticais do setor{#vertical-blueprints}
++ Blueprints de indústria vertical {#vertical-blueprints}
    + [Visão geral](/help/blueprints/vertical-blueprints/overview.md)
    + [Vestuário](/help/blueprints/vertical-blueprints/apparel.md)
    + [Varejo](/help/blueprints/vertical-blueprints/retail.md)
@@ -31,7 +31,7 @@ ht-degree: 80%
       + [SDKs do aplicativo](/help/blueprints/data-ingestion/appsdk.md)
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
-   + [Ativação de público-alvo anônima  (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Ativação de público-alvo anônima   (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Ativação de cliente conhecido (RTCDP) {#known-customer-audience-activation}
       + [Visão geral](/help/blueprints/audience-activation/known.md)
       + Ativação para canais sociais e publicitários {#audience-activation}
@@ -39,7 +39,7 @@ ht-degree: 80%
          + [Ativação para o Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
       + [Ativação para destinos por transmissão de arquivos e empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)
-      + [Correspondência de segmentos](/help/blueprints/audience-activation/segment-match.md)
+      + [Correspondência de Segmentos](/help/blueprints/audience-activation/segment-match.md)
    + [Ativação com aplicativos da Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
 + Ativação e marketing B2B {#b2b-activation}
    + [Visão geral](/help/blueprints/b2b/overview.md)
@@ -69,7 +69,7 @@ ht-degree: 80%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP com Adobe Campaign v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer com Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Assimilação de dados e exportação de dados{#data-ingestion}
++ Assimilação de dados e exportação de dados {#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
    + [Encaminhamento de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
@@ -80,6 +80,6 @@ ht-degree: 80%
    + [Ciência de dados personalizada para enriquecimento de perfis](/help/blueprints/data-insights/data-science.md)
 + Personalização da Web e móvel {#web-personalization}
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
-   + [Personalização com base comportamental  - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalização com base comportamental   - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personalização conhecida do cliente - Target e RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestão de decisões](/help/blueprints/web-personalization/decision-management-edge.md)
