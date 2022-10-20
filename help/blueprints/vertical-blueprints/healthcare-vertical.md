@@ -4,8 +4,8 @@ description: Saiba mais sobre o Healthcare Shield, um complemento Adobe Experien
 solution: Experience Platform
 source-git-commit: 3e71aa9ea63e94b9fc0002e2fc879894149e5d0f
 workflow-type: tm+mt
-source-wordcount: '2382'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
+source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 84%
 + Blueprints de indústria vertical {#vertical-blueprints}
    + [Visão geral](/help/blueprints/vertical-blueprints/overview.md)
    + [Vestuário](/help/blueprints/vertical-blueprints/apparel.md)
+   + [Saúde](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [Varejo](/help/blueprints/vertical-blueprints/retail.md)
    + [Telecomunicações](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [Viagens e hospitalidade](/help/blueprints/vertical-blueprints/travel-hospitality.md)
@@ -26,9 +27,10 @@ ht-degree: 84%
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform e aplicativos](/help/blueprints/experience-platform/platform-applications.md)
    + [Fluxo de dados da Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
-   + Padrões de implantação{#deployment}
+   + Implantação {#deployment}
       + [SDK da Web da Experience Platform e Edge Network](/help/blueprints/data-ingestion/websdk.md)
       + [SDKs do aplicativo](/help/blueprints/data-ingestion/appsdk.md)
+      + [Medidas de proteção](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
    + [Ativação de público-alvo anônima   (AAM)](/help/blueprints/audience-activation/anonymous.md)
