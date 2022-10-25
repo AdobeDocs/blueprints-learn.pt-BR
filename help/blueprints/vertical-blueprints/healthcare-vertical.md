@@ -2,16 +2,16 @@
 title: Saúde
 description: Saiba mais sobre o Healthcare Shield, um complemento Adobe Experience Platform para aplicativos baseados em plataforma, como Real-Time CDP, Customer Journey Analytics e Adobe Journey Optimizer. O complemento torna esses aplicativos qualificados para os requisitos de HIPAA e PHI.
 solution: Experience Platform
-source-git-commit: 3e71aa9ea63e94b9fc0002e2fc879894149e5d0f
+source-git-commit: a7dd0634533110859500e2dab63779014f8cf9b9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2367'
+ht-degree: 1%
 
 ---
 
 # Escudo da Saúde
 
-O Healthcare Shield é um complemento Adobe Experience Platform para os aplicativos baseados na Adobe Experience Platform, como Real-Time CDP, Customer Journey Analytics e Adobe Journey Optimizer. Ele foi projetado para preparar esses aplicativos para HIPAA e atender aos requisitos sobre o processamento e uso de Informações de Integridade Protegidas (PHI).
+O Healthcare Shield é um complemento Adobe Experience Platform para aplicativos baseados em Adobe Experience Platform, como Real-time Customer Data Platform, Customer Journey Analytics e Adobe Journey Optimizer. Ele foi projetado para preparar esses aplicativos para HIPAA e atender aos requisitos sobre o processamento e uso de Informações de Integridade Protegidas (PHI).
 
 ## Perguntas frequentes sobre o Healthcare Shield
 
@@ -41,7 +41,7 @@ O Healthcare Shield for Real-Time CDP destina-se aos clientes que são uma entid
 
 ### Por que as perspectivas de saúde da Real-Time CDP devem comprar o Healthcare Shield?
 
-Como complemento do Real-Time CDP, o Healthcare Shield atualiza o aplicativo para um status &quot;preparado para HIPAA&quot;. Isto significa que o aplicativo tem as salvaguardas para usar a PHI de acordo com os requisitos da HIPAA. Além disso, com o Healthcare Shield, o Adobe está disposto e capaz de autorizar o cliente a trazer certos tipos de dados pessoais confidenciais permitidos para o aplicativo pronto para HIPAA. O Adobe assina os Business Associate Agreements (BAAs) com clientes que licenciam o Healthcare Shield para um aplicativo compatível baseado na plataforma.
+Como complemento do Real-Time CDP, o Healthcare Shield atualiza o aplicativo para um status &quot;preparado para HIPAA&quot;. Isto significa que o aplicativo tem as salvaguardas para usar a PHI de acordo com os requisitos da HIPAA. Além disso, com o Healthcare Shield, o Adobe está disposto e capaz de autorizar o cliente a trazer certos tipos de dados pessoais confidenciais permitidos para os aplicativos prontos para HIPAA. O Adobe assina os Business Associate Agreements (BAAs) com clientes que licenciam o Healthcare Shield para um aplicativo compatível baseado na plataforma.
 
 ### Que tipos de dados estão autorizados para o Real-Time CDP com o Healthcare Shield (e quais não estão)?
 
@@ -73,16 +73,16 @@ Um cliente que licencie o Healthcare Shield deve usar um bom senso para determin
 
 | Casos de uso padrão da RTCDP B2C Edition | Descrição |
 |-----|-----|
-| Coleta de dados de fluxo | <ul><li>Modelos de dados normalizados e flexíveis utilizáveis em conexões Adobe e não Adobe<li>Esquemas de dados com base em conta e pessoa projetados para marketing B2C<li>O Tag Management e o encaminhamento de eventos coletam e distribuem dados no nível do evento em tempo real.<li> Perfis otimizados que aceleram o tempo de entrega da experiência</li></ul> |
-| Gerenciamento de perfil confiável | <ul><li>Perfis unificados que contêm dados de atributo do consumidor, comportamento e preferência<li> A estrutura de governança de dados é flexível, transparente e aplicada a perfis unificados com criação de políticas e aplicação automática para evitar o mau uso dos dados. </li></ul> |
-| Ativação em tempo real | <ul><li>Segmentação de arrastar e soltar projetada para profissionais de marketing B2C<li>Resolução de identidade de nível de pessoa e conta e enriquecimento de perfil para ativação entre canais<li> Experiências consistentes do cliente por meio da orquestração de público-alvo e ativação em tempo real em canais e ambientes (Adobe e não-Adobe) </li></ul> |
-| Aquisição do cliente | <ul><li>Insights da conversão de usuários não autenticados em reconhecidos/autenticados<li>Incentive usuários não registrados a se registrarem para associação.<li> Aumentar e/ou recuperar assinaturas<li> Analise perfis de clientes para entender a propensão (por exemplo, . comparar segmentos de alto valor com segmentos de baixo desempenho e otimizar para aquisição)</li></ul> |
-| Envolvimento do cliente | <ul><li>Ofertas do Target com base no comportamento do consumidor, recenticidade e ação de frequência para ofertas (online e offline)<li>Unifique as propriedades digitais para uma experiência conectada (por exemplo, incentive downloads de aplicativos móveis e use a ativação de segmentos em canais para conectar experiências)</li></ul> |
-| Personalização em escala | <ul><li> Avaliar segmentos na borda para a mesma página em tempo real e a próxima personalização da página<li>Aumente o engajamento fornecendo experiências exclusivas e direcionadas para visitantes que abandonam uma sessão entre jornadas (por exemplo, abandonem o carrinho, repetem visitantes que não conseguem converter).<li> Unifique e conecte comportamentos offline e online para otimizar e engajar usuários</li></ul> |
-| Venda cruzada/venda adicional | <ul><li>Manter clientes enquanto expande e mantém relações existentes com usuários<li>Impulsionar novos fluxos de receita com unidade de negócios/marca/oferta para o valor vitalício do cliente<li>Obtenha insights do AOV entre produtos e SKUs (por exemplo, pacotes frequentes, sensibilidade a preços)</li></ul> |
-| Retenção/Fidelidade do Cliente | <ul><li> Reativar consumidores para gerar fidelidade e evitar churn do cliente<li>Preparar recomendações personalizadas de produtos para clientes de alto valor com base em preferências e propensão<li>Crie uma cadência padrão de envolvimento e ofertas especiais para consumidores fiéis<li> Vincular preferências online e offline para otimizar ofertas em canais</li></ul> |
-| Colaboração de dados | <ul><li> Crie handshakes em uma interface do usuário para criar workflows de colaboração de dados.<li>(Aproveite as sobreposições de dados primários em todos os setores para informar as decisões e campanhas estratégicas de negócios.<li>Analisar silos de dados e entender a jornada holística do cliente<li> Respeitar preferências e consentimento por caso de uso</li></ul> |
-| Eficiência e otimização de mídia/marketing | <ul><li> Ganhe eficiência organizacional centralizando e mantendo os canais de ativação e dados do cliente em um sistema de registro<li>Campanhas de supressão de suporte para gastos/eficiências de mídia eficazes<li> Alinhar-se às políticas de TI por meio de controle e aplicação de políticas<li>Forneça acesso aos dados conforme necessário, em tempo real, para oferecer suporte a campanhas oportunas</li></ul> |
+| Coleta de dados de fluxo | <ul><li>Modelos de dados normalizados e flexíveis utilizáveis em conexões Adobe e não Adobe<li>Esquemas de dados com base em pessoas e contas projetados para marketing B2C.<li>O Tag Management e o encaminhamento de eventos coletam e distribuem dados no nível do evento em tempo real.<li> Perfis otimizados que aceleram a entrega de experiência.</li></ul> |
+| Gerenciamento de perfil confiável | <ul><li>Perfis unificados que contêm dados de atributo do consumidor, comportamento e preferência.<li> A estrutura de governança de dados é flexível, transparente e aplicada a perfis unificados com criação de políticas e aplicação automática para evitar o mau uso dos dados. </li></ul> |
+| Ativação em tempo real | <ul><li>Segmentação de arrastar e soltar projetada para profissionais de marketing B2C.<li>Resolução de identidade de pessoa e nível de conta e enriquecimento do perfil para ativação entre canais.<li> Experiências consistentes do cliente por meio da orquestração de público-alvo e ativação em tempo real em canais e ambientes (Adobe e não Adobe).</li></ul> |
+| Aquisição do cliente | <ul><li>Insights da conversão de usuários não autenticados em reconhecidos/autenticados.<li>Incentive usuários não registrados a se registrarem para associação.<li> Aumente e/ou recupere assinaturas.<li> Analise perfis de clientes para entender a propensão (por exemplo, . comparar segmentos de alto valor com segmentos de baixo desempenho e otimizar para aquisição).</li></ul> |
+| Envolvimento do cliente | <ul><li>Ofertas do Target com base no recenticidade do comportamento do consumidor e na frequência de ofertas (online e offline).<li>Unifique as propriedades digitais para uma experiência conectada (por exemplo, incentive downloads de aplicativos móveis e use a ativação de segmentos em canais para conectar experiências).</li></ul> |
+| Personalização em escala | <ul><li> Avalie segmentos na borda do para a mesma página em tempo real e a próxima personalização da página.<li>Aumente o engajamento fornecendo experiências exclusivas e direcionadas para visitantes que abandonam uma sessão entre jornadas (por exemplo, abandonem o carrinho, repetem visitantes que não conseguem converter).<li> Unifique e conecte comportamentos offline e online para otimizar e engajar usuários.</li></ul> |
+| Venda cruzada/venda adicional | <ul><li>Manter os clientes enquanto expandem e mantém os relacionamentos existentes com os usuários.<li>Impulsione novos fluxos de receita com a unidade/marca comercial/oferta cruzada para aumentar o valor vitalício do cliente.<li>Obtenha insights do AOV entre produtos e SKUs (por exemplo, pacotes frequentes, sensibilidade a preços).</li></ul> |
+| Retenção/Fidelidade do Cliente | <ul><li> Reative os consumidores para direcionar a fidelidade e evitar o churn do cliente&lt;.li>Prepare recomendações personalizadas de produtos para clientes de alto valor com base em preferências e propensão.<li>Crie uma cadência padrão para engajamento e ofertas especiais para consumidores fiéis.<li> Vincule preferências online e offline para otimizar ofertas entre canais.</li></ul> |
+| Colaboração de dados | <ul><li> Crie handshakes em uma interface do usuário para criar workflows de colaboração de dados.<li>(Aproveite as sobreposições de dados primários em todos os setores para informar as decisões e campanhas estratégicas de negócios.<li>Analise silos de dados e entenda as jornadas holísticas do cliente.<li> Respeitar preferências e consentimento por caso de uso.</li></ul> |
+| Eficiência e otimização de mídia/marketing | <ul><li> Ganhe eficiência organizacional centralizando e mantendo os canais de ativação e dados do cliente em um sistema de registro.<li>Oferece suporte a campanhas de supressão para gastos/eficiências de mídia eficazes.<li> Alinhe-se às políticas de TI por meio de controle e aplicação de políticas.<li>Forneça acesso aos dados conforme necessário, em tempo real, para oferecer suporte a campanhas oportunas.</li></ul> |
 
 ## Capacidades técnicas relevantes
 
@@ -178,13 +178,11 @@ Consulte [HIPAA e produtos e serviços de Adobe](https://www.adobe.com/trust/com
 
 Produtos prontos para HIPAA (e não):
 
-![Pronto para Hippa](assets/hippa-ready.png)
-
 **Diagrama de marketing**
 
-![Pronto para Hippa](assets/HIPAA-readiness.png)
+* Os aplicativos ilustrados em cinza ainda não estão prontos para HIPAA.
 
-[Fonte do lucidgráfico](https://lucid.app/lucidchart/8a795213-3bfa-43f3-a542-f0de56123afd/edit?invitationId=inv_d3183739-8c07-4ca2-bfd1-16d819b911a6&amp;page=0_0)
+![Pronto para Hippa](assets/HIPAA-readiness.png)
 
 ## Abordagem
 
