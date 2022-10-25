@@ -3,10 +3,10 @@ title: Experience Platform e Medidas de Proteção de Aplicativos
 description: As garantias definem as expectativas de desempenho e o impacto para os componentes e serviços no Adobe Experience Platform e em aplicativos
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
+source-git-commit: e75f8b39b52794b61c4efd33df1f658a6615a7b8
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 31%
+source-wordcount: '297'
+ht-degree: 30%
 
 ---
 
@@ -27,6 +27,8 @@ As medidas de proteção são limites recomendados que fornecem orientação par
 [Medidas de proteção de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
 
 [Medidas de Proteção do Serviço de Consulta](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
+
+[Medidas de Proteção de Ativação de Destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
 
 [Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
 
