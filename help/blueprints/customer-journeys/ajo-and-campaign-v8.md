@@ -1,15 +1,15 @@
 ---
-title: Journey Optimizer com Adobe Campaign v8 Blueprint
+title: Blueprint do Journey Optimizer com Adobe Campaign v8
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign para enviar mensagens utilizando o servidor de mensagens em tempo real no Campaign de forma nativa
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1128'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer com Adobe Campaign v8
+# Journey Optimizer com Adobe Campaign  v8
 
 Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign para enviar mensagens utilizando o servidor de mensagens em tempo real no Campaign de forma nativa.
 
@@ -47,12 +47,12 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 ### Medidas de proteção adicionais do Journey Optimizer
 
 * O limite agora está disponível por meio de API para garantir que o sistema de destino não esteja saturado ao ponto de falha. Isso significa que as mensagens que excederem o limite serão completamente removidas sem ser enviadas. A regulagem não é compatível.
-   * Conexões máximas - número máximo de conexões http/s com que um destino pode lidar
-   * Contagem máxima de chamadas - número máximo de chamadas a serem realizadas no parâmetro periodInMs
-   * periodInMs - tempo em milissegundos
+   * Conexões máximas – número máximo de conexões http/s com que um destino pode lidar
+   * Contagem máxima de chamadas – número máximo de chamadas a serem realizadas no parâmetro periodInMs
+   * periodInMs – tempo em milissegundos
 * Jornadas iniciadas por associação de segmentos podem operar em dois modos:
    * Segmentos em lote (atualizados a cada 24 horas)
-   * Segmentos de transmissão (qualificação de &lt;5 minutos)
+   * Segmentos de transmissão (qualificação de &lt; 5 minutos)
 * Segmentos em lote – precisam assegurar que você entenda o volume diário de usuários qualificados e que o sistema de destino possa lidar com a taxa de transferência intermitente por jornada e em todas as jornadas
 * Segmentos de transmissão – precisam assegurar que a intermitência inicial de qualificações de perfis possam ser manipuladas com o volume de qualificações de transmissão diárias por jornada e em todas as jornadas
 * A gestão de decisões não é compatível
@@ -65,7 +65,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 
 <br>
 
-### Campanha (v8)
+### Campaign (v8)
 
 * A instância de execução do Centro de Mensagens deve ser hospedada por Adobe Managed Cloud Services
 * Precisa ter build v7 superior a 21.1 ou v8
@@ -77,7 +77,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
    * Mensagens de jornadas baseadas em eventos de Empresas e de Read audience não são compatíveis, devido ao volume que pode ser enviado para as instâncias de execução
 * O AC (v7) e o AC (v8) não são compatíveis com a gestão de decisões nas mensagens
 * Não é feita regulagem de chamadas de API de saída feitas para o Campaign
-* Com o Campaign v8.4 é possível aproveitar o Conector de origem Managed Services do Adobe Campaign no Experience Platform para sincronizar eventos de entrega e rastreamento do Campaign no Experience Platform. Consulte a Documentação do conector de origem para obter mais detalhes. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Com o Campaign v8.4, é possível aproveitar o Adobe Campaign Managed Services Source Connector na Experience Platform para sincronizar eventos de rastreamento e de entrega do Campaign na Experience Platform. Para mais detalhes, consulte a Documentação do Source Connector. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR)
 
 <br>
 
@@ -96,7 +96,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 #### Perfil/Identidade
 
 1. [Crie qualquer namespace específico para clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
-1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html).
+1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
 1. [Habilite os esquemas e conjuntos de dados para o Perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Journey.
@@ -111,11 +111,11 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 1. Configure as origens de dados externos
 1. Configure ações personalizadas para a instância do Campaign
 
-### Campanha v8
+### Campaign v8
 
 * Os modelos de mensagens precisam ser configurados com o contexto de personalização apropriado
-* Para o Campaign standard - Os workflows de exportação precisam ser configurados para exportar os logs de mensagens transacionais de volta para o Experience Platform. A recomendação é executar no máximo a cada 4 horas.
-* Para o Campaign v8.4, é possível aproveitar o Adobe Campaign Managed Services Source Connector no Experience Platform para sincronizar eventos de entrega e rastreamento do Campaign no Experience Platform. Consulte a Documentação do conector de origem para obter mais detalhes. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* Para o Campaign Standard – Os fluxos de trabalho de exportação precisam ser configurados para exportar os logs de mensagens transacionais de volta para a Experience Platform. A recomendação é executar no máximo a cada quatro horas.
+* Para o Campaign v8.4, é possível aproveitar o Adobe Campaign Managed Services Source Connector na Experience Platform para sincronizar eventos de rastreamento e de entrega do Campaign na Experience Platform. Para mais detalhes, consulte a Documentação do Source Connector. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR)
 
 ### Configuração de push para publicação de conteúdo para dispositivos móveis (opcional)
 
