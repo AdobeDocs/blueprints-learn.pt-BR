@@ -4,9 +4,9 @@ description: Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: 6901596cbb661ffa8cf57c6ae958db1978bf1520
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '504'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -48,12 +48,12 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 ### Medidas de proteção adicionais do Journey Optimizer
 
 * O limite agora está disponível por meio de API para garantir que o sistema de destino não esteja saturado ao ponto de falha. Isso significa que as mensagens que excederem o limite serão completamente removidas sem ser enviadas. A regulagem não é compatível.
-   * Conexões máximas - número máximo de conexões http/s com que um destino pode lidar
-   * Contagem máxima de chamadas - número máximo de chamadas a serem realizadas no parâmetro periodInMs
-   * periodInMs - tempo em milissegundos
+   * Conexões máximas – número máximo de conexões http/s com que um destino pode lidar
+   * Contagem máxima de chamadas – número máximo de chamadas a serem realizadas no parâmetro periodInMs
+   * periodInMs – tempo em milissegundos
 * Jornadas iniciadas por associação de segmentos podem operar em dois modos:
    * Segmentos em lote (atualizados a cada 24 horas)
-   * Segmentos de transmissão (qualificação de &lt;5 minutos)
+   * Segmentos de transmissão (qualificação de &lt; 5 minutos)
 * Segmentos em lote – precisam assegurar que você entenda o volume diário de usuários qualificados e que o sistema de destino possa lidar com a taxa de transferência intermitente por jornada e em todas as jornadas
 * Segmentos de transmissão – precisam assegurar que a intermitência inicial de qualificações de perfis possam ser manipuladas com o volume de qualificações de transmissão diárias por jornada e em todas as jornadas
 * A gestão de decisões não é compatível
@@ -66,9 +66,9 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 
 <br>
 
-### Integrações da campanha
+### Integrações do Campaign
 
 Para obter orientação sobre a integração com sua versão específica do Adobe Campaign e do Adobe Journey Optimizer, consulte o guia correspondente para cada versão do Adobe Campaign.
 
-* [Adobe Journey Optimizer &amp; Campaign v7](ajo-and-campaign-v7.md)
-* [Adobe Journey Optimizer &amp; Campaign v8](ajo-and-campaign-v8.md)
+* [Adobe Journey Optimizer e Campaign v7](ajo-and-campaign-v7.md)
+* [Adobe Journey Optimizer e Campaign v8](ajo-and-campaign-v8.md)
