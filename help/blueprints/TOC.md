@@ -5,7 +5,7 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 4ada1c55ea67a2d723050a2c72b4ab02c9394660
+source-git-commit: e7a640580038c547cf983956ed155099aa14b159
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -19,7 +19,6 @@ ht-degree: 0%
 + Blueprints de indústria vertical {#vertical-blueprints}
    + [Visão geral](/help/blueprints/vertical-blueprints/overview.md)
    + [Vestuário](/help/blueprints/vertical-blueprints/apparel.md)
-   + [Saúde](/help/blueprints/vertical-blueprints/healthcare-vertical.md)
    + [Varejo](/help/blueprints/vertical-blueprints/retail.md)
    + [Telecomunicações](/help/blueprints/vertical-blueprints/telecommunications.md)
    + [Viagens e hospitalidade](/help/blueprints/vertical-blueprints/travel-hospitality.md)
