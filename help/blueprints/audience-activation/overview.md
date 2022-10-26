@@ -5,10 +5,10 @@ solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: b3d4e89c7e4170ffee2cc1776ffa26d2e0ce79e6
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,8 +46,7 @@ A ilustração abaixo descreve os diferentes métodos de segmentação e os dife
 
 ## Medidas de proteção para Blueprints de ativação de público-alvo e perfil
 
-* [Guias de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
-
+* Para obter informações detalhadas sobre medidas de proteção e latências extremas, consulte o [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md) e [Medidas de proteção de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 
 ### Ativação de atributos e identidades
 

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 3d2fbd7b6e94b6f56a72e0956709557c21b4c419
-workflow-type: ht
-source-wordcount: '175'
-ht-degree: 100%
+source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,9 @@ Consulte a documentação a seguir para obter orientação sobre a implementaç�
 
 ## Diagrama de medidas de proteção para Blueprints do Customer Journey Analytics
 
-![Diagrama de medidas de proteção](assets/cja_guardrails.svg)
+* Para obter informações detalhadas sobre medidas de proteção e latências extremas, consulte o [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md)
+
+![Diagrama de medidas de proteção](../experience-platform/assets/CJA_guardrails.svg)
 
 ## Publicações do blog relacionadas
 

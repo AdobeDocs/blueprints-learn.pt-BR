@@ -3,10 +3,10 @@ title: Experience Platform e Medidas de Proteção de Aplicativos
 description: As garantias definem as expectativas de desempenho e o impacto para os componentes e serviços no Adobe Experience Platform e em aplicativos
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: a6b0e80c58ae3968b58a607765a45ed846428c71
+source-git-commit: 24699f79ed4966a72f78138ad9dd9f3763674b4e
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 24%
+source-wordcount: '300'
+ht-degree: 25%
 
 ---
 
@@ -50,7 +50,13 @@ As medidas de proteção são limites recomendados que fornecem orientação par
 
 ### Real-time Customer Data Platform e Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="RTCDP e Target" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="DCDP e garantias do Target" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Customer Journey Analytics
+
+<img src="../assets/CJA_guardrails.svg" alt="Medidas de proteção CJA" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 

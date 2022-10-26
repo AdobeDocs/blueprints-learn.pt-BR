@@ -4,10 +4,10 @@ description: Ofereça experiências do cliente centradas em perfil e públicos-a
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 2db815520027e3fed71eb1eb5138009fd2ed93a1
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,10 @@ Várias fontes de dados B2B podem ser usadas para mapear dados de contas, leads,
 
 ## Medidas de proteção
 
-Observe que as medidas de proteção e de implementação relacionadas ao Marketo Engage só são relevantes quando o Marketo Engage é usado como fonte e/ou destino.
+* Observe que as medidas de proteção e de implementação relacionadas ao Marketo Engage só são relevantes quando o Marketo Engage é usado como fonte e/ou destino.
+
+* Para obter mais detalhes e medidas de proteção para latências extremas, consulte o [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md)
+
 
 ### Suporte a várias instâncias e organizações IMS:
 
@@ -56,7 +59,7 @@ A seguir, são descritos os padrões suportados de instâncias de mapeamento da 
 
 #### Proteção de perfil e segmentação da Experience Platform:
 
-* Consulte a proteção de perfil e segmentação para a Experience Platform – [Diretrizes de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
+* Consulte as grades de proteção de perfil e segmentação para o Experience Platform - [Medidas de proteção de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 * Segmentos B2B que incluem contas, leads, oportunidades usam relacionamentos de várias entidades que resultam na avaliação do segmento se transformando em lote. A segmentação de transmissão é compatível com segmentos que sejam limitados a pessoas e eventos.
 
 #### Experience Platform – conector de origem do Marketo Engage:
@@ -75,7 +78,7 @@ A seguir, são descritos os padrões suportados de instâncias de mapeamento da 
 
 #### Proteção de destino
 
-* Consulte a documentação de destino para obter orientações específicas sobre os destinos. [Diretrizes de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR)
+* Consulte a documentação de destino para obter orientações específicas sobre os destinos. [Proteção de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=en)
 
 
 ## Etapas de implementação
@@ -95,7 +98,7 @@ Se a implementação usar o Marketo Engage como fonte e o Marketo Engage estiver
 
 ## Documentação relacionada
 
-* [Edição B2B da Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=pt-BR)
+* [Edição B2B da Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=en)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=pt-BR)
 * [Adobe Experience Platform – Conector de origem do Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=pt-BR)
