@@ -3,10 +3,10 @@ title: Experience Platform e Medidas de Proteção de Aplicativos
 description: As garantias definem as expectativas de desempenho e o impacto para os componentes e serviços no Adobe Experience Platform e em aplicativos
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: e22c01fb768eed22d71748fd1e5bd8d3bc25068c
+source-git-commit: f618f3be083e15ebd0a00fcb242bd2ca07798272
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 30%
+source-wordcount: '285'
+ht-degree: 25%
 
 ---
 
@@ -38,15 +38,19 @@ As medidas de proteção são limites recomendados que fornecem orientação par
 
 ### Assimilação de dados
 
-O diagrama abaixo ilustra as medidas de proteção de desempenho médio e a latência para a assimilação de dados na Adobe Experience Platform.
-
 <img src="../assets/aep_data_flow_guardrails.svg" alt="Fluxo de dados da Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+
+<br>
+
+### Segmentação
+
+<img src="../assets/segmentation_guardrails.svg" alt="Medidas de proteção de segmentação de Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Journey Optimizer
 
-<img src="../assets/activation-latency.svg" alt="Blueprint do Journey Optimizer com arquitetura de referência" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../assets/AJO_guardrails.svg" alt="Blueprint do Journey Optimizer com arquitetura de referência" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
