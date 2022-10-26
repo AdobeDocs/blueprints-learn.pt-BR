@@ -3,7 +3,7 @@ title: Journey Optimizer – Blueprint de mensagens acionadas e da Adobe Experie
 description: Execute mensagens e experiências acionadas usando a Adobe Experience Platform como um hub central para dados de transmissão, perfis de clientes e segmentação.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 8a53151558f4df9d2909d43d13bdbd800adbc79f
+source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 100%
@@ -97,7 +97,7 @@ Fique ciente dos seguintes itens, os quais não estão listados no link acima:
 
 ### Medidas de Proteção de ativação
 
-<img src="../experience-platform/assets/activation-latency.svg" alt="Blueprint do Journey Optimizer com arquitetura de referência" style="width:85%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/AJO_guardrails.svg" alt="Blueprint do Journey Optimizer com arquitetura de referência" style="width:85%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -136,7 +136,7 @@ Fique ciente dos seguintes itens, os quais não estão listados no link acima:
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
 1. Adobe Journey Optimizer
 1. Rede de borda da Adobe Experience Platform
-1. Identidade   para Edge Network
+1. Identidade  para Edge Network
 1. Mobile Core
 1. Certifique-se de ter um fluxo de dados dedicado para implantações de aplicativos móveis e implantações da Web
 1. Para mais informações, siga o [Manual do Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
