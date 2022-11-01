@@ -4,10 +4,10 @@ description: Este blueprint mostra como os insights baseados na ciência de dado
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 6d44401fba8cc75402d4303825e32e7948753449
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 92%
 
 ---
 
@@ -24,6 +24,10 @@ O Blueprint de Ciência de dados personalizada para enriquecimento de perfis ilu
 ## Arquitetura
 
 <img src="assets/data_science.svg" alt="Blueprint de arquitetura de referência para Ciência de dados personalizada para enriquecimento de perfis" style="width:90%; border:1px solid #4a4a4a" />
+
+## Medidas de proteção
+
+* Para obter medidas de proteção detalhadas e latências extremas ao assimilar resultados da ciência de dados no Experience Platform e no Perfil do cliente em tempo real, consulte as medidas de proteção de assimilação de dados e o diagrama de latência referenciados no [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md).
 
 ## Etapas de implementação
 
