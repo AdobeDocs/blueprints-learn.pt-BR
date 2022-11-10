@@ -1,40 +1,40 @@
 ---
-title: Experience Platform e Medidas de Proteção de Aplicativos
-description: As garantias definem as expectativas de desempenho e o impacto para os componentes e serviços no Adobe Experience Platform e em aplicativos
+title: Experience Platform e medidas de proteção de aplicativos
+description: As medidas de proteção definem o impacto e as expectativas de desempenho dos componentes e serviços na Adobe Experience Platform e em Aplicativos da Adobe
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
-source-git-commit: 24699f79ed4966a72f78138ad9dd9f3763674b4e
+exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
+source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 25%
+ht-degree: 85%
 
 ---
 
-
 # Medidas de proteção
 
-As medidas de proteção são limites recomendados que fornecem orientação para o uso de dados e sistema, otimizando o desempenho e evitando erros ou resultados inesperados no Adobe Experience Platform e em aplicativos. As garantias destinam-se a refletir as restrições do sistema e as expectativas de desempenho para facilitar a arquitetura do cliente e a otimização do desempenho do caso de uso. As garantias não se destinam a ser contratos de nível de serviço. Para obter informações sobre contratos de nível de serviço específicos do produto, consulte a documentação Descrições do produto vinculada abaixo.
+As medidas de proteção são limites recomendados que oferecem orientação para o uso de dados e sistemas, otimizando o desempenho e evitando erros ou resultados inesperados na Adobe Experience Platform e nos Aplicativos da Adobe. As garantias destinam-se a refletir as restrições do sistema e as expectativas de desempenho para facilitar a arquitetura do cliente e a otimização do desempenho do caso de uso. As medidas de proteção não se destinam a ser contratos de nível de serviço. Para acessar informações sobre contratos de nível de serviço específicos do produto, consulte a documentação de Descrições do produto vinculada abaixo.
 
 
-## Garantias para Adobe Experience Platform e Aplicativos
+## Medidas de proteção para a Adobe Experience Platform e os Aplicativos da Adobe
 
-[Medidas de proteção da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=en)
+[Medidas de proteção da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=pt-BR)
 
-[Proteção da API de rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=en)
+[Proteção à API de rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=pt-BR)
 
-[Medidas de proteção de perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en)
+[Medidas de proteção do perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 
-[Medidas de proteção de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=en)
+[Medidas de proteção de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=pt-BR)
 
-[Medidas de Proteção do Serviço de Consulta](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=en)
+[Medidas de proteção do serviço de Query](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=pt-BR)
 
 [Medidas de Proteção de Ativação de Destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
 
-[Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en)
+[Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR)
 
 <br>
 
-## Diagramas de latência de ponta a ponta
+## Latência de ponta a ponta Diagramas
 
 ### Assimilação de dados
 
@@ -66,24 +66,24 @@ As medidas de proteção são limites recomendados que fornecem orientação par
 
 <br>
 
-## Descrições do produto
+## Descrições dos produtos
 
-[Experience Platform Collection Enterprise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
+[Experience Platform Collection Enterprise](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
 [Real-time Customer Data Platform](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform.html)
 
-[Plataforma de dados do cliente B2B](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-b2b.html)
+[B2B Customer Data Platform](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-b2b.html)
 
 [Experience Platform Activation](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform0.html)
 
-[Experience Platform Intelligence](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+[Experience Platform Intelligence](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 
-[Serviços inteligentes](https://helpx.adobe.com/legal/product-descriptions/intelligent-services.html)
+[Serviços inteligentes](https://helpx.adobe.com/br/legal/product-descriptions/intelligent-services.html)
 
 [Customer Journey Analytics](https://helpx.adobe.com/br/legal/product-descriptions/customer-journey-analytics.html)
 
-[Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
+[Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)
 
-[Journey Orchestration](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)
+[Journey Orchestration](https://helpx.adobe.com/br/legal/product-descriptions/journey-orchestration.html)
 
-[Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
+[Offer Decisioning](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html)

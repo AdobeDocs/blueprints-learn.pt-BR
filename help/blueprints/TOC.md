@@ -32,7 +32,7 @@ ht-degree: 0%
       + [Medidas de proteção](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
-   + [Ativação de público-alvo anônima  (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Ativação de público-alvo anônima   (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Ativação de cliente conhecido (RTCDP) {#known-customer-audience-activation}
       + [Visão geral](/help/blueprints/audience-activation/known.md)
       + Ativação para canais sociais e publicitários {#audience-activation}
@@ -68,7 +68,7 @@ ht-degree: 0%
       + [Journey Optimizer com Adobe Campaign v8](/help/blueprints/customer-journeys/ajo-and-campaign-v8.md)
    + Campaign v7 {#campaign-v7}
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
-      + [Real-Time CDP com Adobe Campaign  v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
+      + [Real-Time CDP com Adobe Campaign   v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer com Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Coleta, acesso e exportação de dados{#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
@@ -82,6 +82,6 @@ ht-degree: 0%
    + [Ciência de dados personalizada para enriquecimento de perfis](/help/blueprints/data-insights/data-science.md)
 + Personalização da Web e móvel {#web-personalization}
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
-   + [Personalização com base comportamental    - Target](/help/blueprints/web-personalization/behavioral.md)
+   + [Personalização com base comportamental     - Target](/help/blueprints/web-personalization/behavioral.md)
    + [Personalização conhecida do cliente – Target e RTCDP](/help/blueprints/web-personalization/known-personalization.md)
    + [Gestão de decisões](/help/blueprints/web-personalization/decision-management-edge.md)
