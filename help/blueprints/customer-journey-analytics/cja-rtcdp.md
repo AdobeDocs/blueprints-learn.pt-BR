@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: d47efe9bb7d19a745e0d75d21a09cb87912bd60b
+source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 92%
+source-wordcount: '392'
+ht-degree: 44%
 
 ---
 
@@ -29,6 +29,18 @@ Consulte a documentação a seguir para obter orientação sobre a implementaç�
 * Para obter informações detalhadas sobre medidas de proteção e latências extremas, consulte o [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md)
 
 ![Diagrama de medidas de proteção](../experience-platform/assets/CJA_guardrails.svg)
+
+## Perguntas frequentes
+
+* Se um perfil correspondente não existir no RTCDP enviado pelo CJA, um novo perfil será criado ou os públicos-alvo serão registrados somente no CJA para perfis que já estão presentes? Sim, um novo perfil será criado. Como resultado, se a implementação da RTCDP for somente para clientes conhecidos, as regras de público-alvo da CJA devem ser gravadas para filtrar somente perfis com identidades conhecidas. Isso garantirá que a contagem de perfis RTCDP não aumente a partir de perfis anônimos, se não desejar.
+
+* O CJA envia os dados do público-alvo como eventos de pipeline ou um arquivo simples que também vai para o data lake? Os públicos-alvo do CJA são transmitidos por pipeline para o RTCDP Profile Service, no entanto, os dados também são armazenados no data lake como um conjunto de dados.
+
+* Quais identidades o CJA envia? O CJA envia as identidades que foram configuradas como &quot;ID de pessoa&quot; durante a configuração do CJA.
+
+* O que é definido como a identidade primária? Qualquer identidade que o usuário tenha selecionado ao configurar o CJA como a ID de &quot;pessoa&quot; principal.
+
+* O serviço de identidade também processa as mensagens CJA? ou seja, o CJA pode adicionar identidades a um gráfico de identidade de perfil por meio do compartilhamento de público-alvo? Não, o serviço de identidade não processa as mensagens CJA.
 
 ## Publicações do blog relacionadas
 
