@@ -3,10 +3,11 @@ title: Acesso aos dados e exportação do blueprint
 description: Este blueprint fornece uma visão geral de todos os métodos pelos quais os dados podem ser acessados e exportados do Adobe Experience Platform e de aplicativos.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
-source-git-commit: 67e66068bb8a2106dd8aa9784b5a39377225c045
+exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
+source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 4%
+source-wordcount: '1513'
+ht-degree: 5%
 
 ---
 
@@ -50,7 +51,7 @@ Consulte a [API de acesso ao perfil do cliente em tempo real](https://experience
 
 * Perfil do cliente em tempo real [medidas de proteção](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) aplicar.
 * Projetado para pesquisa de perfil único de cada vez. Não usado para acesso a perfis em massa ou download de toda a população de perfis para o uso de análise ou ciência de dados.
-* O tempo de resposta da pesquisa de perfil é atualizado para as medidas de proteção do perfil. Requisitos de baixa latência - por exemplo, para os mesmos requisitos de personalização de página devem utilizar o Perfil de borda ou destinos de personalização de cliente para acesso a perfil de baixa latência. [Documentação](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en).
+* O tempo de resposta da pesquisa de perfil é atualizado para as medidas de proteção do perfil. Requisitos de latência baixa em tempo real - por exemplo, para os mesmos requisitos de personalização de página devem utilizar o Perfil de borda do para [Conexão Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR) ou [Conexão de personalização personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=en) para acesso a perfil em tempo real no navegador e na personalização do aplicativo.
 
 ### API de acesso a dados {#data-access-api}
 
@@ -129,7 +130,7 @@ Consulte a [Destinos do Real-time Customer Data Platform](https://experienceleag
 
 #### Casos de uso
 
-* Ative as informações do atributo de perfil, incluindo a associação do público-alvo a um armazenamento de dados corporativo interno, ferramenta de análise, sistema de email ou sistema de suporte.
+* Ative as informações do atributo de perfil, incluindo a associação do público-alvo a armazenamentos de dados internos da empresa, ferramentas de análise, sistemas de email ou sistemas de suporte.
 * Ative a associação de público-alvo de perfil a um fornecedor externo de anúncios para direcionar e personalizar o conteúdo para o perfil.
 
 #### Considerações
@@ -150,17 +151,7 @@ Consulte a [Ações personalizadas do Journey Optimizer](https://experienceleagu
 
 #### Considerações
 
-* Grades de proteção na taxa de transferência suportada por [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=en) e os enriquecimentos apoiados pela [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) aplicar.
+* Grades de proteção na taxa de transferência suportada por [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR) e os enriquecimentos apoiados pela [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) aplicar.
 * As ações personalizadas podem ser executadas de forma contínua e de uma forma para cada evento ou perfil em uma jornada. Não é possível executar operações em massa ou saídas de dados em massa na forma de arquivos ou solicitações agregadas nas jornadas do cliente.
 * Acesso contínuo aos atributos do Perfil do cliente em tempo real e aos eventos de experiência que podem ser incluídos no payload de ativação.
 * Os dados do evento podem ser filtrados e transformações de mapeamento simples aplicadas antes de enviar eventos para destinos externos.
-
-
-
-
-
-
-
-
-
-
