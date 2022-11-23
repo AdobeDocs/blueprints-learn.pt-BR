@@ -5,9 +5,9 @@ solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '568'
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 ## Medidas de proteção
 
-[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público e perfil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=en#guardrails-for-audience-and-profile-activation-blueprints).
+[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público e perfil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=pt-BR#guardrails-for-audience-and-profile-activation-blueprints).
 
 ## Etapas de implementação para Real-time Customer Data Platform
 
-1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
+1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Configure as identidades corretas e os namespaces de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR) no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
 1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
@@ -80,4 +80,4 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 * Visão geral da [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
 * [Demonstração da [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
-* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html)
+* [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR)
