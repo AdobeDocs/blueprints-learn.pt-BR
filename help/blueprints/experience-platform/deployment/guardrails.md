@@ -5,15 +5,15 @@ solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer 
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Medidas de proteção
 
-As medidas de proteção são limites recomendados que oferecem orientação para o uso de dados e sistemas, otimizando o desempenho e evitando erros ou resultados inesperados na Adobe Experience Platform e nos Aplicativos da Adobe. As garantias destinam-se a refletir as restrições do sistema e as expectativas de desempenho para facilitar a arquitetura do cliente e a otimização do desempenho do caso de uso. As medidas de proteção não se destinam a ser contratos de nível de serviço. Para acessar informações sobre contratos de nível de serviço específicos do produto, consulte a documentação de Descrições do produto vinculada abaixo.
+As medidas de proteção são limites recomendados que oferecem orientação para o uso de dados e sistemas, otimizando o desempenho e evitando erros ou resultados inesperados na Adobe Experience Platform e nos Aplicativos da Adobe. As medidas de proteção destinam-se a refletir as restrições do sistema e as expectativas de desempenho para facilitar a otimização do desempenho de casos de uso e da arquitetura do cliente. As medidas de proteção não se destinam a ser contratos de nível de serviço. Para acessar informações sobre contratos de nível de serviço específicos do produto, consulte a documentação de Descrições do produto vinculada abaixo.
 
 
 ## Medidas de proteção para a Adobe Experience Platform e os Aplicativos da Adobe
@@ -28,13 +28,13 @@ As medidas de proteção são limites recomendados que oferecem orientação par
 
 [Medidas de proteção do serviço de Query](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=pt-BR)
 
-[Medidas de Proteção de Ativação de Destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html)
+[Medidas de proteção de ativação de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/guardrails.html?lang=pt-BR)
 
 [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR)
 
 <br>
 
-## Latência de ponta a ponta Diagramas
+## Latência de ponta a ponta  Diagramas
 
 ### Assimilação de dados
 
@@ -44,13 +44,13 @@ As medidas de proteção são limites recomendados que oferecem orientação par
 
 ### Segmentação
 
-<img src="../assets/segmentation_guardrails.svg" alt="Medidas de proteção de segmentação de Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/segmentation_guardrails.svg" alt="Medidas de proteção da segmentação da Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
 ### Real-time Customer Data Platform e Adobe Target
 
-<img src="../assets/RTCDP_Target_guardrails.svg" alt="DCDP e garantias do Target" style="border:1px solid #4a4a4a" width="85%" />
+<img src="../assets/RTCDP_Target_guardrails.svg" alt="Medidas de proteção do Target e RTCDP" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
