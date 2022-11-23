@@ -5,9 +5,9 @@ solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
 source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ O Blueprint de Ciência de dados personalizada para enriquecimento de perfis ilu
 
 ## Medidas de proteção
 
-* Para obter medidas de proteção detalhadas e latências extremas ao assimilar resultados da ciência de dados no Experience Platform e no Perfil do cliente em tempo real, consulte as medidas de proteção de assimilação de dados e o diagrama de latência referenciados no [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md).
+* Para obter medidas de proteção detalhadas e latências de ponta a ponta ao assimilar resultados de ciência de dados na Experience Platform e no Perfil de cliente em tempo real, consulte as medidas de proteção de assimilação de dados e o diagrama de latências referenciados no [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md).
 
 ## Etapas de implementação
 
-1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
+1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
 
