@@ -6,7 +6,7 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 122e317b34c7704dc80da11d08b9a8ff955dfa8c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -94,8 +94,8 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 </td>
 <td>
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=pt-BR">Ativação de público-alvo anônima</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=pt-BR">Ativação de cliente conhecido</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/anonymous.html?lang=en">Ativação de público-alvo anônima</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html">Ativação de cliente conhecido</a></li>
 <li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR">Ativação com a Experience Platform e aplicativos</a></li>
 </ul>
 </td>
@@ -240,8 +240,8 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=pt-BR">Ativação de cliente conhecido</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR">Ativação com a Experience Platform e aplicativos</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Ativação de cliente conhecido</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Ativação com a Experience Platform e aplicativos</a></li>
 </ul>
 </td>
 </tr>
@@ -259,8 +259,8 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 </td>
 <td colspan="1">
 <ul>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=pt-BR">Ativação de cliente conhecido</a></li>
-<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR">Ativação com a Experience Platform e aplicativos</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=en">Ativação de cliente conhecido</a></li>
+<li><a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=en">Ativação com a Experience Platform e aplicativos</a></li>
 </ul>
 </td>
 </tr>
