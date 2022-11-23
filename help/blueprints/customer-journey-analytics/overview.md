@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Os casos de uso principais de exemplo incluíram o seguinte.
 
 ## Diagrama de medidas de proteção para Blueprints do Customer Journey Analytics
 
-* Para obter informações detalhadas sobre medidas de proteção e latências extremas, consulte o [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md)
+* Para obter informações detalhadas e medidas de proteção para latências de ponta a ponta, consulte o [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md)
 
 ![Diagrama de medidas de proteção](../experience-platform/assets/CJA_guardrails.svg)
 
