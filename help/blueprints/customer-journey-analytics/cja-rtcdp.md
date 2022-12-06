@@ -6,9 +6,9 @@ kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 985f7320db7c77b8541ec4ef76b1eb7ad0caae56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,15 @@ Consulte a documentação a seguir para obter orientação sobre a implementaç�
 
 ## Perguntas frequentes
 
-* Se um perfil correspondente não existir no RTCDP enviado pelo CJA, um novo perfil será criado ou os públicos-alvo serão registrados somente no CJA para perfis que já estão presentes? Sim, um novo perfil será criado. Como resultado, se a implementação da RTCDP for somente para clientes conhecidos, as regras de público-alvo da CJA devem ser gravadas para filtrar somente perfis com identidades conhecidas. Isso garantirá que a contagem de perfis RTCDP não aumente a partir de perfis anônimos, se não desejar.
+* Se não existir um perfil correspondente no RTCDP que tenha sido enviado pelo CJA, um novo perfil será criado ou os públicos somente serão registrados no CJA para os perfis que já estiverem presentes? Sim, um novo perfil será criado. Como resultado, se a implementação da RTCDP for somente para clientes conhecidos, as regras de público do CJA devem ser gravadas para filtrar somente perfis com identidades conhecidas. Dessa forma, será possível garantir que a contagem de perfis RTCDP não aumente com base em perfis anônimos, se isso não for desejado.
 
-* O CJA envia os dados do público-alvo como eventos de pipeline ou um arquivo simples que também vai para o data lake? Os públicos-alvo do CJA são transmitidos por pipeline para o RTCDP Profile Service, no entanto, os dados também são armazenados no data lake como um conjunto de dados.
+* O CJA envia os dados do público como eventos de pipeline ou como um arquivo simples que também vai para o data lake? Os públicos do CJA são transmitidos por meio de pipelines para o Serviço de perfis do RTCDP; porém, os dados também são armazenados no data lake como um conjunto de dados.
 
-* Quais identidades o CJA envia? O CJA envia as identidades que foram configuradas como &quot;ID de pessoa&quot; durante a configuração do CJA.
+* Quais identidades são enviadas pelo CJA? O CJA envia as identidades que foram definidas como &quot;ID de pessoa&quot; durante a configuração do CJA.
 
-* O que é definido como a identidade primária? Qualquer identidade que o usuário tenha selecionado ao configurar o CJA como a ID de &quot;pessoa&quot; principal.
+* O que é definido como identidade primária? Qualquer identidade que o usuário tenha selecionado ao configurar o CJA como ID de &quot;pessoa&quot; principal.
 
-* O serviço de identidade também processa as mensagens CJA? ou seja, o CJA pode adicionar identidades a um gráfico de identidade de perfil por meio do compartilhamento de público-alvo? Não, o serviço de identidade não processa as mensagens CJA.
+* O serviço de identidade também processa as mensagens do CJA? Ou seja, o CJA pode adicionar identidades a um gráfico de identidade de perfil por meio do compartilhamento de público? Não, o serviço de identidade não processa as mensagens do CJA.
 
 ## Publicações do blog relacionadas
 
