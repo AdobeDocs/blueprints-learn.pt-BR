@@ -1,5 +1,5 @@
 ---
-title: Visão geral da personalização da Web/Mobile   - Adobe Target e RTCDP
+title: Visão geral da personalização da Web/Mobile    - Adobe Target e RTCDP
 description: Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
 landing-page-description: Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -8,7 +8,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
 workflow-type: tm+mt
 source-wordcount: '1625'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 83%
 
 | Padrão de integração | Recurso | Pré-requisitos |
 |---|---|---|
-| Avaliação de segmentos em tempo real na borda compartilhada da Real-time Customer Data Platform com o Target | <ul><li>Avalie públicos em tempo real personalização da mesma página ou próxima página no Edge.</li><li>Além disso, todos os segmentos avaliados por streaming ou em lote também serão projetados para a rede de borda para serem incluídos na avaliação e personalização do segmento de borda.</li></ul> | <ul><li>O SDK da Web/móvel deve ser implementado ou a API de servidor da rede de borda</li><li>A sequência de dados precisa ser configurada no Experience Edge com a extensão Target e Experience Platform ativada</li><li>O destino do Target precisa ser configurado nos Destinos da Real-time Customer Data Platform.</li><li>A integração com o Target requer uma organização IMS igual à da instância da Experience Platform.</li></ul> |
+| Avaliação de segmentos em tempo real na borda compartilhada da Real-time Customer Data Platform com o Target | <ul><li>Avalie públicos em tempo real personalização da mesma página ou próxima página no Edge.</li><li>Além disso, todos os segmentos avaliados por streaming ou em lote também serão projetados para a rede de borda para serem incluídos na avaliação e personalização do segmento de borda.</li></ul> | <ul><li>O SDK da Web/móvel deve ser implementado ou a API de servidor da rede de borda.</li><li>A sequência de dados precisa ser configurada no Experience Edge com a extensão Target e Experience Platform ativada.</li><li>O destino do Target precisa ser configurado nos Destinos da Real-time Customer Data Platform.</li><li>A integração com o Target requer uma organização IMS igual à da instância da Experience Platform.</li></ul> |
 | Compartilhamento de públicos-alvo por streaming e em lote da Real-time Customer Data Platform com o Target por meio da abordagem de borda | <ul><li>Compartilhe públicos de transmissão e em lote da Real-time Customer Data Platform com o Target por meio da rede de borda. A avaliação em tempo real de públicos-alvo exige implementação do WebSDK e rede de borda.</li></ul> | <ul><li>A implementação do Target usando o SDK da Web/Móvel ou a API do Edge não é necessária para compartilhar públicos da RTCDP por streaming e em lote com o Target, embora seja para habilitar a avaliação de segmentos de borda em tempo real.</li><li>Se estiver usando a AT.js, somente a integração de perfil em relação ao namespace de identidade ECID será permitida.</li><li>Para pesquisas de namespace de identidade personalizadas no Edge, a implantação de API do WebSDK/Edge é necessária, e cada identidade precisa ser definida como uma identidade no mapa de identidade.</li><li>O destino do Target precisa ser configurado nos Destinos da Real-time Customer Data Platform, somente a sandbox de produção padrão em RTCDP é compatível.</li><li>A integração com o Target requer uma organização IMS igual à da instância da Experience Platform.</li></ul> |
 | Compartilhamento de públicos-alvo por streaming e em lote da Real-time Customer Data Platform com o Target e o Audience Manager por meio da abordagem do serviço de compartilhamento de público-alvo | <ul><li>Esse padrão de integração pode ser utilizado quando o enriquecimento adicional de dados de terceiros e públicos-alvo é desejado no Audience Manager.</li></ul> | <ul><li>O SDK da Web/Mobile não é necessário para compartilhar públicos-alvo por streaming e em lote com o Target, embora seja para habilitar a avaliação de segmentos de borda em tempo real.</li><li>Se estiver usando a AT.js, somente a integração de perfil em relação ao namespace de identidade ECID será permitida.</li><li>Para pesquisas de namespace de identidade personalizadas no Edge, a implantação de API do WebSDK/Edge é necessária, e cada identidade precisa ser definida como uma identidade no mapa de identidade.</li><li>A projeção de público-alvo por meio do serviço de compartilhamento de público-alvo precisa ser provisionada.</li><li>A integração com o Target requer uma organização IMS igual à da instância da Experience Platform.</li><li>Somente os públicos da sandbox de produção padrão oferecem suporte ao serviço principal de compartilhamento de público.</li></ul> |
 
@@ -58,7 +58,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 ### Padrão de implementação 1 – Rede de borda com SDK da Web/móvel ou API da rede de borda (abordagem recomendada)
 
 * Usar a rede de borda com o SDK da Web/Mobile. A segmentação de borda em tempo real exige a abordagem de implementação do SDK da Web/Mobile ou da API de borda.
-* [Consulte o blueprint do SDK da Web e Mobile da Experience Platform](../data-ingestion/websdk.md)   para uma implementação baseada em SDK.
+* [Consulte o blueprint do SDK da Web e Mobile da Experience Platform](../data-ingestion/websdk.md)    para uma implementação baseada em SDK.
 * Para uso no SDK móvel, a [Adobe Journey Optimizer – Extensão de decisão](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) deve ser instalada no SDK móvel.
 * [Consulte a API de servidor da rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR) para uma implementação baseada em API do Adobe Target com o perfil de borda.
 
@@ -82,9 +82,9 @@ Usar SDKs tradicionais específicos para aplicativos (por exemplo, AT.js e AppMe
 
 [Consulte as medidas de proteção na página de Visão geral dos Blueprints de personalização móvel e da Web.](overview.md)
 
-* Os perfis de borda só são criados quando um usuário está ativo no Edge, o que significa que seu perfil tem eventos de streaming sendo enviados ao Edge por meio do SDK Web/Mobile ou da API do servidor de borda. Isso geralmente corresponde ao usuário que está ativo em um site ou aplicativo móvel.
-* Os perfis de borda têm um tempo padrão de vida de 14 dias. Se o usuário não tiver coletado eventos de borda ativos, o perfil expirará na borda após 14 dias de inatividade. O perfil permanecerá válido no hub e será sincronizado com a borda depois que o usuário se tornar ativo na borda novamente.
-* Quando um novo perfil é criado na borda, uma chamada de sincronização é feita de forma assíncrona no hub para buscar quaisquer públicos-alvo e atributos configurados para projeção de borda por meio de um destino. Como é um processo assíncrono, pode levar de 1 segundo a vários minutos para que o perfil do hub seja sincronizado com a borda. Dessa forma, os novos perfis não podem ter o contexto do perfil do hub para as experiências da primeira página. Isso também se aplica aos dados coletados recentemente no hub. Esses dados são projetados para a borda de forma assíncrona e, portanto, o momento em que os dados chegam à borda apropriada será separado da atividade da borda. Somente os perfis ativos na borda persistirão os atributos e os públicos-alvo projetados a partir do hub.
+* Os perfis de borda somente são criados quando um usuário está ativo no Edge, o que significa que seu perfil inclui os eventos de streaming enviados ao Edge por meio do SDK da Web/Móvel ou da API do servidor Edge. Geralmente corresponde ao usuário que está ativo em um site ou aplicativo móvel.
+* Os perfis de borda têm um tempo de vida padrão de 14 dias. Se o usuário não tiver coletado eventos de borda ativos, o perfil expirará na borda após 14 dias de inatividade. O perfil permanecerá válido no hub e será sincronizado com a borda assim que o usuário voltar a ficar ativo na borda.
+* Quando um novo perfil é criado na borda, uma chamada de sincronização é feita de forma assíncrona no hub para buscar quaisquer públicos e atributos configurados para projeção de borda por meio de um destino. Como se trata de um processo assíncrono, pode levar de 1 segundo a vários minutos para que o perfil do hub seja sincronizado com a borda. Dessa forma, não é garantido que os novos perfis terão o contexto do perfil do hub para as primeiras experiências na página. O mesmo se aplica aos dados recém-coletados no hub. Esses dados são projetados para a borda de forma assíncrona e, portanto, os dados chegarão na borda apropriada em momentos diferentes da atividade da borda. Somente os perfis ativos na borda persistirão os atributos e os públicos projetados do hub.
 
 ## Considerações de implementação
 
@@ -92,7 +92,7 @@ Pré-requisitos de identidade
 
 * Qualquer identidade principal pode ser aproveitada quando se utiliza o padrão de implementação 1 descrito acima com a rede de borda e o WebSDK. A primeira personalização de logon requer que a identidade principal do conjunto de solicitações de personalização corresponda à identidade principal do perfil do Real-time Customer Data Platform. A associação de identidades de dispositivos anônimos a clientes conhecidos é processada no hub e, em uma etapa posterior, projetada para a borda.
 * Observe que os dados carregados no hub antes de um consumidor visitar ou fazer logon em um site não estarão disponíveis imediatamente para personalização. Primeiro, deve existir um perfil de borda ativo para que os dados do hub sejam sincronizados. Depois de criado, o perfil de borda será sincronizado com o perfil de hub de forma assíncrona, resultando na próxima personalização da página.
-* O compartilhamento de públicos do Adobe Experience Platform para a Adobe Target requer o uso da ECID como uma identidade ao usar o serviço de compartilhamento de público-alvo, conforme descrito nos padrões de integração 2 e 3 acima.
+* O compartilhamento de públicos da Adobe Experience Platform com o Adobe Target requer o uso da ECID como identidade quando se usa o serviço de compartilhamento de público conforme descrito no padrão de integração 2 e 3 acima.
 * Identidades alternativas também podem ser usadas para compartilhar públicos-alvo da Experience Platform com o Adobe Target por meio do Audience Manager. A Experience Platform ativa públicos-alvo para o Audience Manager por meio dos seguintes namespaces compatíveis: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Observe que o Audience Manager e o Target resolvem associações de público-alvo por meio da identidade da ECID, portanto, a ECID ainda precisa estar no gráfico de identidade do consumidor para o compartilhamento de público-alvo final com o Adobe Target.
 
 ## Documentação relacionada

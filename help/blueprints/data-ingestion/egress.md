@@ -7,7 +7,7 @@ exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Consulte a documentação da [API de acesso ao perfil do cliente em tempo real](
 
 * [Medidas de proteção](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR) do perfil do cliente em tempo real se aplicam.
 * Projetado para pesquisa de um perfil único por vez. Não usado para acesso a perfis em massa ou para download de toda a população de perfis para fins de análise ou ciência de dados.
-* O tempo de resposta da pesquisa de perfil cumpre as medidas de proteção do perfil. Requisitos de latência baixa em tempo real - por exemplo, para os mesmos requisitos de personalização de página devem utilizar o Perfil de borda do para [Conexão Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR) ou [Conexão de personalização personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=pt-BR) para acesso a perfil em tempo real no navegador e na personalização do aplicativo.
+* O tempo de resposta da pesquisa de perfil cumpre as medidas de proteção do perfil. Requisitos de baixa latência em tempo real – por exemplo, para personalização na mesma página, os requisitos devem utilizar o perfil de borda da [Conexão do Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR) ou da [Conexão de personalização personalizada](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html?lang=pt-BR) para acesso ao perfil em tempo real na personalização no navegador e no aplicativo.
 
 ### API de acesso a dados {#data-access-api}
 
@@ -130,7 +130,7 @@ Consulte a documentação de [Destinos da Real-time Customer Data Platform](http
 
 #### Casos de uso
 
-* Ative as informações do atributo de perfil, incluindo a associação do público-alvo a armazenamentos de dados internos da empresa, ferramentas de análise, sistemas de email ou sistemas de suporte.
+* Ative as informações do atributo de perfil, incluindo a associação de público a armazenamentos de dados corporativos internos, ferramentas de análise, sistemas de email ou sistemas de suporte.
 * Ative a associação de público de perfil a um fornecedor externo de publicidade para direcionar e personalizar o conteúdo ao perfil.
 
 #### Considerações
