@@ -4,10 +4,10 @@ description: As medidas de proteção definem o impacto e as expectativas de des
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
-workflow-type: ht
-source-wordcount: '300'
-ht-degree: 100%
+source-git-commit: f208fcd938bfc12882421f213192a6888f546a79
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 97%
 
 ---
 
@@ -80,10 +80,12 @@ As medidas de proteção são limites recomendados que oferecem orientação par
 
 [Serviços inteligentes](https://helpx.adobe.com/br/legal/product-descriptions/intelligent-services.html)
 
-[Customer Journey Analytics](https://helpx.adobe.com/br/legal/product-descriptions/customer-journey-analytics.html)
+[Distiller de dados](https://helpx.adobe.com/legal/product-descriptions/data-distiller.html)
 
-[Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)
+[Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics.html)
 
-[Journey Orchestration](https://helpx.adobe.com/br/legal/product-descriptions/journey-orchestration.html)
+[Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html)
 
-[Offer Decisioning](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html)
+[Journey Orchestration](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html)
+
+[Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html)
