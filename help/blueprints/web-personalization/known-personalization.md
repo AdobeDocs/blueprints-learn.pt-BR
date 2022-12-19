@@ -5,7 +5,7 @@ landing-page-description: Sincronize a personalização da Web com emails e outr
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 87679928d2bfcfe74c85bb054341c662999e52a5
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 100%
@@ -58,7 +58,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 ### Padrão de implementação 1 – Rede de borda com SDK da Web/móvel ou API da rede de borda (abordagem recomendada)
 
 * Usar a rede de borda com o SDK da Web/Mobile. A segmentação de borda em tempo real exige a abordagem de implementação do SDK da Web/Mobile ou da API de borda.
-* [Consulte o blueprint do SDK da Web e Mobile da Experience Platform](../data-ingestion/websdk.md)    para uma implementação baseada em SDK.
+* [Consulte o blueprint do SDK da Web e Mobile da Experience Platform](../experience-platform/deployment/websdk.md)    para uma implementação baseada em SDK.
 * Para uso no SDK móvel, a [Adobe Journey Optimizer – Extensão de decisão](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) deve ser instalada no SDK móvel.
 * [Consulte a API de servidor da rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR) para uma implementação baseada em API do Adobe Target com o perfil de borda.
 
@@ -66,7 +66,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 
 Usar SDKs tradicionais específicos para aplicativos (por exemplo, AT.js e AppMeasurement.js). A avaliação de segmento de borda em tempo real não é compatível com essa abordagem de implementação. No entanto, o compartilhamento de público-alvo de lote e streaming do hub da Experience Platform são compatíveis com essa abordagem de implementação.
 
-[Consulte o Blueprint do SDK específico do aplicativo](../data-ingestion/appsdk.md)
+[Consulte o Blueprint do SDK específico do aplicativo](../experience-platform/deployment/appsdk.md)
 
 ### Etapas de implementação
 
@@ -99,14 +99,14 @@ Pré-requisitos de identidade
 
 ### Documentação do SDK
 
-* [Documentação do SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
+* [Documentação do SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
 * [Documentação de tags da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR)
 * [Documentação do serviço da Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR)
 
 ### Documentação de conexão
 
-* [Conexão do Adobe Target com a Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=en)
-* [Configuração da sequência de dados de borda](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)
+* [Conexão do Adobe Target com a Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR)
+* [Configuração da sequência de dados de borda](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=pt-BR)
 * [Compartilhamento de segmentos da Experience Platform com o Audience Manager e outras soluções da Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=pt-BR)
 
 ### Documentação de segmentação
@@ -115,7 +115,7 @@ Pré-requisitos de identidade
 * [Segmentação em tempo real](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=pt-BR)
 * [Segmentação de transmissão](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR)
 * [Compartilhamento de segmentos do Adobe Analytics por meio do Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
-* [Configuração da política de mesclagem](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#create-a-merge-policy)
+* [Configuração da política de mesclagem](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR#create-a-merge-policy)
 
 ### Tutoriais
 

@@ -2,7 +2,7 @@
 description: Entrada e criação - Otimize a cadeia de fornecimento de campanha com a Marketo e a Workfront
 title: Tomar e criar
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
@@ -25,7 +25,7 @@ O fluxo de trabalho abaixo mostra uma solicitação de webinar feita por um gere
 
 >[!TIP]
 >
->Para saber mais sobre os diferentes tipos de objetos no Workfront usados para organizar a campanha de marketing e como ela é mapeada para um programa do Marketo Engage, verifique o [Visão geral do Marketo e Workfront](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}.
+>Para saber mais sobre os diferentes tipos de objetos no Workfront usados para organizar a campanha de marketing e como ela é mapeada para um programa do Marketo Engage, verifique o [Visão geral do Marketo e Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}.
 
 ## Prepare seu processo de desenvolvimento de campanha para automação {#prepare-your-campaign-development-process-for-automation}
 

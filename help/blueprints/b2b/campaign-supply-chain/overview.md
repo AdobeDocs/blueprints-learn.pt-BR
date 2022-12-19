@@ -2,7 +2,7 @@
 description: Visão geral - Otimizar a cadeia de suprimento do Campaign com a Marketo e a Workfront
 title: Visão geral
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
 workflow-type: tm+mt
 source-wordcount: '1738'
 ht-degree: 0%
@@ -147,7 +147,7 @@ Agora que você tem uma compreensão fundamental de como o Workfront e o Marketo
 
 ### Introdução à integração do Workfront Fusion, Workfront e Marketo Engage {#getting-started-with-workfront-fusion}
 
-* [Tomar e criar](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md){target=&quot;_blank&quot;} - Automação de desenvolvimento de campanha com Marketo Engage e Workfront
+* [Tomar e criar](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target=&quot;_blank&quot;} - Automação de desenvolvimento de campanha com Marketo Engage e Workfront
 
 * Prova e Aprovar (em breve)
 
