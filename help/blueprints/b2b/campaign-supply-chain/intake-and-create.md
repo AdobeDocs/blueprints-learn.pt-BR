@@ -2,7 +2,7 @@
 description: Entrada e criação - Otimize a cadeia de fornecimento de campanha com a Marketo e a Workfront
 title: Tomar e criar
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 52d71533a6d33cc35b5158007d9851dc880bc937
+source-git-commit: c33790d001c98628fcaa57f0ef8ebf449adb8af2
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 0%
@@ -157,4 +157,4 @@ Este é um exemplo de como a lógica do fluxo de trabalho pode ser montada em Fu
 
 * [Módulos Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html){target=&quot;_blank&quot;}
 
-* [Visão geral do Marketo e Workfront](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md){target=&quot;_blank&quot;}
+* [Visão geral do Marketo e Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target=&quot;_blank&quot;}
