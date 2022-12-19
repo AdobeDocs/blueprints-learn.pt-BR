@@ -5,7 +5,7 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
+source-git-commit: af390011dc068c4289f98d7fc0108ce48a5375c7
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 95%
@@ -47,8 +47,8 @@ ht-degree: 95%
    + [Ativação B2B](/help/blueprints/b2b/b2bactivation.md)
    + Cadeia de Suprimentos da Campanha com Marketo e Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
       + [Visão geral](/help/blueprints/b2b/campaign-supply-chain/overview.md)
-      + [Histórias de sucesso do cliente](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
       + [Tomar e criar](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
+      + [Histórias de sucesso do cliente](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Visão geral](/help/blueprints/customer-journey-analytics/overview.md)
    + [Compartilhamento de públicos do CJA em RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
