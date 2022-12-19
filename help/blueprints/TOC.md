@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: e07ff74f901932c42ddaf6cb36b557535b9a2c43
+source-git-commit: 2baa77bfe61abc1e4cf2aa9dbfe344f1b1e280ce
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 94%
+source-wordcount: '261'
+ht-degree: 95%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 94%
 + Ativação e marketing B2B {#b2b-activation}
    + [Visão geral](/help/blueprints/b2b/overview.md)
    + [Ativação B2B](/help/blueprints/b2b/b2bactivation.md)
+   + Cadeia de Suprimentos da Campanha com Marketo e Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
+      + [Visão geral](/help/blueprints/b2b/campaign-supply-chain/overview.md)
+      + [Histórias de sucesso do cliente](/help/blueprints/b2b/campaign-supply-chain/customer-success-stories.md)
+      + [Tomar e criar](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Visão geral](/help/blueprints/customer-journey-analytics/overview.md)
    + [Compartilhamento de públicos do CJA em RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
@@ -79,10 +83,6 @@ ht-degree: 94%
    + [Visão geral](/help/blueprints/data-insights/overview.md)
    + [Análise de dados e Inteligência](/help/blueprints/data-insights/analysis.md)
    + [Ciência de dados personalizada para enriquecimento de perfis](/help/blueprints/data-insights/data-science.md)
-+ Otimizar a cadeia de suprimento do Campaign com a Marketo e a Workfront{#optimize-campaign-supply-chain-with-marketo-and-workfront}
-   + [Visão geral](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/overview.md)
-   + [Histórias de sucesso do cliente](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/customer-success-stories.md)
-   + [Tomar e criar](/help/blueprints/optimize-campaign-supply-chain-with-marketo-and-workfront/intake-and-create.md)
 + Personalização da Web e móvel {#web-personalization}
    + [Visão geral](/help/blueprints/web-personalization/overview.md)
    + [Personalização com base comportamental       - Target](/help/blueprints/web-personalization/behavioral.md)
