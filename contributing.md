@@ -1,8 +1,8 @@
 ---
 source-git-commit: b8709e01d7771ac9002fbc286c2d9709ef3d0ca2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # Contribuição
@@ -17,7 +17,7 @@ Este projeto segue o [código de conduta](code-of-conduct.md) da Adobe. Ao parti
 
 ## Documentação do manual do colaborador
 
-Consulte o [Manual do colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consulte o [Manual do colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=pt-BR).
 
 ## Gostaria de fazer alguma pergunta?
 
@@ -29,7 +29,7 @@ Todas as contribuições de terceiros para este projeto devem estar acompanhadas
 
 ## Revisões do código
 
-Todos os pedidos devem assumir a forma de solicitações de envio e devem ser revisados pelos autores do commit do projeto. Leia [Documentação de solicitação de envio do GitHub](https://help.github.com/articles/about-pull-requests/) para obter mais informações sobre como enviar solicitações de envio.
+Todos os pedidos devem assumir a forma de solicitações de envio e devem ser revisados pelos autores do commit do projeto. Leia [Documentação de solicitação de envio do GitHub](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) para obter mais informações sobre como enviar solicitações de envio.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
