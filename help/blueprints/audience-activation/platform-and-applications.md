@@ -1,21 +1,21 @@
 ---
-title: Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud
+title: Ativação de público-alvo e perfil com o blueprint de aplicativos do Experience Cloud
 description: Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
-# Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud
+# Ativação de público-alvo e perfil com o blueprint de aplicativos do Experience Cloud
 
 Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud. Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud.
 
-A ativação com aplicativos da Experience Cloud está em sintonia com o [Blueprint de ativação de cliente conhecido](known.md).
+Ativation with Experience Cloud Applications (Ativação com aplicativos) está alinhada à [Blueprint de Ativação do Cliente Conhecido](known.md).
 
 ## Casos de uso
 
@@ -41,9 +41,9 @@ A ativação com aplicativos da Experience Cloud está em sintonia com o [Bluepr
 
 Consulte a seção [Experience Platform e Arquitetura de aplicativos](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=pt-BR) para obter diagramas de arquitetura adicionais relacionados a integrações da Experience Platform com aplicativos da Experience Cloud.
 
-### Ativação de público-alvo e perfil com aplicativos da Experience Cloud
+### Ativação de público-alvo e perfil com aplicativos Experience Cloud
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitetura de referência para a ativação de público-alvo e perfil com aplicativos da Experience Cloud" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitetura de referência para Audience and Profile Ativation com aplicativos Experience Cloud" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Medidas de proteção
