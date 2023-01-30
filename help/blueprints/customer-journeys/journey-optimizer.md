@@ -3,14 +3,14 @@ title: Journey Optimizer – Blueprint de mensagens acionadas e da Adobe Experie
 description: Execute mensagens e experiências acionadas usando a Adobe Experience Platform como um hub central para dados de transmissão, perfis de clientes e segmentação.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a76295eeb8bb83ebaf5254c790514735b4eeec9f
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1044'
+ht-degree: 97%
 
 ---
 
-# Journey Optimizer
+# Journey Optimizer blueprints
 
 O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reagirem em tempo real aos comportamentos dos clientes e atendê-los onde quer que eles estejam. Os recursos de gerenciamento de dados foram transferidos para a Adobe Experience Platform, permitindo que as equipes de marketing se concentrem no que fazem de melhor: criar jornadas de clientes de alto nível e conversas personalizadas.  Este blueprint descreve os recursos técnicos do aplicativo e fornece detalhes sobre os diferentes componentes de arquitetura que compõem o Adobe Journey Optimizer.
 
@@ -33,7 +33,7 @@ O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reag
 
 <br>
 
-## Cenários do blueprint
+## Cenários de blueprint
 
 | Cenário | Descrição | Recursos |
 | :-- | :--- | :--- |
@@ -89,13 +89,13 @@ Fique ciente dos seguintes itens, os quais não estão listados no link acima:
    * Autenticação por usuário/senha ou token de autorização
 * Não é possível empacotar e mover componentes individuais da Adobe Experience Platform ou do Journey Optimizer entre várias sandboxes. Em ambientes novos, deve ser implementado outra vez
 
-### Medidas de proteção da assimilação de dados
+### Medidas de proteção para a ingestão de dados
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Fluxo de dados da Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
 <br>
 
-### Medidas de Proteção de ativação
+### Medidas de proteção de ativação
 
 <img src="../experience-platform/assets/AJO_guardrails.svg" alt="Blueprint do Journey Optimizer com arquitetura de referência" style="width:85%; border:1px solid #4a4a4a" />
 
@@ -105,14 +105,14 @@ Fique ciente dos seguintes itens, os quais não estão listados no link acima:
 
 ### Adobe Experience Platform
 
-#### Esquemas/Conjuntos de dados
+#### Esquema/conjuntos de dados
 
 1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) na Experience Platform com base nos dados fornecidos pelo cliente.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) na Experience Platform para que os dados sejam assimilados.
 1. [Adicione rótulos de uso de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=pt-BR) na Experience Platform para o conjunto de dados para governança.
 1. [Crie políticas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=pt-BR) que apliquem governança nos destinos.
 
-#### Perfil/Identidade
+#### Perfil/identidade
 
 1. [Crie qualquer namespace específico para clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
 1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
@@ -120,7 +120,7 @@ Fique ciente dos seguintes itens, os quais não estão listados no link acima:
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Journey.
 
-#### Origens/Destinos
+#### Fontes/destinos
 
 1. [Assimile dados na Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) usando APIs de transmissão e conectores de origem.
 
@@ -130,7 +130,7 @@ Fique ciente dos seguintes itens, os quais não estão listados no link acima:
 1. Configure as origens de dados externos.
 1. Configure as ações personalizadas.
 
-### Configuração de push para publicação de conteúdo para dispositivos móveis
+### Configuração de push móvel
 
 1. Implemente o SDK móvel da Experience Platform para coletar tokens de push e informações de logon a serem vinculadas a perfis de clientes conhecidos
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
