@@ -1,15 +1,16 @@
 ---
-title: Padrão de integração do Real-Time CDP com o Adobe Campaign v8
+title: Real-Time CDP com padrão de integração do Adobe Campaign v8
 description: Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign v8 para proporcionar conversas personalizadas.
 solution: Real-time Customer Data Platform, Campaign
-source-git-commit: f8116387105cf1fe0adfc148562529d62ca90cfc
-workflow-type: ht
+exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
-# Padrão de integração do Real-Time CDP com o Adobe Campaign v8
+# Real-Time CDP com padrão de integração do Adobe Campaign v8
 
 Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign para proporcionar conversas personalizadas.
 
@@ -24,7 +25,7 @@ Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e s
 
 ## Arquitetura
 
-<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Arquitetura de referência para o padrão de integração de mensagens em lote e Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaignv8-architecture.svg" alt="Arquitetura de referência para o padrão de integração de Mensagens em lote e Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -60,7 +61,7 @@ Consulte a documentação a seguir sobre como configurar o conector de origem do
 * A latência de ativação tem um mínimo de 3 horas
 * Somente atributos de esquema de união estão disponíveis para ativação (sem suporte para array/mapas/eventos de experiência)
 * Recomendação de não ultrapassar 20 atributos por segmento
-* Um arquivo por segmento de todos os perfis com associação de segmentos “realizada”. OU, se a associação de segmentos estiver adicionada como um atributo no arquivo, nos perfis “realizada” e “encerrada”
+* Um arquivo por segmento de todos os perfis com associação de segmento &quot;realizada&quot; OU se a associação de segmento for adicionada como um atributo no arquivo tanto os perfis &quot;realizado&quot; quanto os &quot;concluídos&quot;
 * Exportações incrementais e de segmentos completos são compatíveis
 * A criptografia de arquivos não é compatível
 * Consulte medidas de proteção de ingestão de perfil e dados para AEP – [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
