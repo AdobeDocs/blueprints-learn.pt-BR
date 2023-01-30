@@ -1,23 +1,23 @@
 ---
-title: Ativação de cliente conhecido
+title: Ativação de cliente conhecido blueprint
 description: Ativação de público-alvo online/offline.
 solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
 exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: ht
-source-wordcount: '568'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 79%
 
 ---
 
-# Blueprint de ativação de cliente conhecido
+# Blueprint de Ativação do Cliente Conhecido
 
 Use atributos e eventos offline, como pedidos, transações, CRM ou dados de fidelização offline, com comportamentos online para direcionamento e personalização online.
 
 Identificadores expandidos com controles de governança integrados fornecem mais oportunidades para se comunicar com clientes conhecidos. Ative públicos para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.
 
-Detalhes adicionais são fornecidos no [Blueprint de ativação de público e perfil com aplicativos da Experience Cloud](platform-and-applications.md), específico para integrações entre a Experience Platform e os aplicativos da Experience Cloud.
+Os detalhes adicionais são fornecidos no [Ativação de público-alvo e perfil com aplicativos Experience Cloud Blueprint](platform-and-applications.md) específico para integrações entre aplicativos Experience Platform e Experience Cloud.
 
 ## Casos de uso
 
@@ -32,21 +32,21 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 ## Arquitetura
 
-### Ativação de cliente conhecido via Real-time Customer Data Platform
+### Ativação de cliente conhecida via Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Arquitetura de referência do blueprint de ativação de cliente conhecido" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Arquitetura de referência para o blueprint de Ativação do Cliente Conhecido" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
-### Ativação de cliente conhecido via Destinos com base em pessoas do Audience Manager
+### Ativação de cliente conhecida via Destinos baseados em pessoas do Audience Manager
 
-<img src="assets/AAM_PBD.svg" alt="Arquitetura de referência do blueprint de ativação de cliente conhecido" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Arquitetura de referência para o blueprint de Ativação do Cliente Conhecido" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Medidas de proteção
 
 [Consulte as medidas de proteção descritas na página de Visão geral de ativação de público e perfil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=pt-BR#guardrails-for-audience-and-profile-activation-blueprints).
 
-## Etapas de implementação para Real-time Customer Data Platform
+## Etapas de implementação do Real-time Customer Data Platform
 
 1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
@@ -61,9 +61,9 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 * Compartilhar dados de perfil com destinos exige a inclusão de valor específico de identidade, usado pelo destino na carga de destino. Qualquer identidade necessária para um destino de público-alvo deve ser assimilada na Platform e configurada como uma identidade para o [!UICONTROL Perfil de cliente em tempo real].
 
-* Consulte o [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md) para obter mais detalhes sobre o compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Audience Manager, o Analytics, o Target, o Campaign e o Journey Optimizer.
+* Consulte a [Ativação de público-alvo e perfil com aplicativos Experience Cloud Blueprint](platform-and-applications.md) para obter detalhes adicionais sobre o compartilhamento de públicos-alvo do Real-time Customer Data Platform para o Audience Manager, Analytics, Target, Campaign e Journey Optimizer.
 
-## Etapas de implementação para Destinos com base em pessoas do Audience Manager
+## Etapas de implementação para destinos com base em pessoas do Audience Manager
 
 * Para obter detalhes sobre a implementação do Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
 
