@@ -1,16 +1,16 @@
 ---
-title: Blueprint do Journey Optimizer com Adobe Campaign v8
+title: Journey Optimizer com blueprint do Adobe Campaign v8
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign para enviar mensagens utilizando o servidor de mensagens em tempo real no Campaign de forma nativa
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: 779b55ab12a27796a00db4b1adb6add7d3ccd0a8
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# Journey Optimizer com Adobe Campaign   v8
+# Journey Optimizer com Adobe Campaign   v8 blueprint
 
 Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign para enviar mensagens utilizando o servidor de mensagens em tempo real no Campaign de forma nativa.
 
@@ -45,7 +45,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 
 [Link do produto medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=pt-BR)
 
-### Medidas de proteção adicionais do Journey Optimizer
+### Medidas de proteção adicionais da Journey Optimizer
 
 * O limite agora está disponível por meio de API para garantir que o sistema de destino não esteja saturado ao ponto de falha. Isso significa que as mensagens que excederem o limite serão completamente removidas sem ser enviadas. A regulagem não é compatível.
    * Conexões máximas – número máximo de conexões http/s com que um destino pode lidar
@@ -81,7 +81,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 
 ### Adobe Experience Platform
 
-#### Esquemas/Conjuntos de dados
+#### Esquema/conjuntos de dados
 
 1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) na Experience Platform com base nos dados fornecidos pelo cliente.
 1. Crie esquemas baseados em classe do Experience Event para tabelas de broadLog, trackingLog e endereços sem entrega do Adobe Campaign (opcional).
@@ -89,7 +89,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 1. [Adicione rótulos de uso de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=pt-BR) na Experience Platform para o conjunto de dados para governança.
 1. [Crie políticas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/create-data-usage-policies.html?lang=pt-BR) que apliquem governança nos destinos.
 
-#### Perfil/Identidade
+#### Perfil/identidade
 
 1. [Crie qualquer namespace específico para clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
 1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
@@ -97,7 +97,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Journey.
 
-#### Origens/Destinos
+#### Fontes/destinos
 
 1. [Assimile dados na Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) usando APIs de transmissão e conectores de origem.
 
@@ -113,7 +113,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 * Para o Campaign Standard – Os fluxos de trabalho de exportação precisam ser configurados para exportar os logs de mensagens transacionais de volta para a Experience Platform. A recomendação é executar no máximo a cada quatro horas.
 * Para o Campaign v8.4, é possível aproveitar o Adobe Campaign Managed Services Source Connector na Experience Platform para sincronizar eventos de rastreamento e de entrega do Campaign na Experience Platform. Para mais detalhes, consulte a Documentação do Source Connector. [Link](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR)
 
-### Configuração de push para publicação de conteúdo para dispositivos móveis (opcional)
+### Configuração de push móvel (opcional)
 
 1. Implemente o SDK móvel da Experience Platform para coletar tokens de push e informações de logon a serem vinculadas a perfis de clientes conhecidos
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
