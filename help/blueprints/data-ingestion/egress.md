@@ -4,10 +4,10 @@ description: Este blueprint fornece uma visão geral de todos os métodos pelos 
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platform, Tags
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: c0fe0e94e30351f593e32ea0e6809dd832f976ad
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -17,20 +17,20 @@ O Blueprint de acesso e exportação de dados descreve todos os métodos possív
 
 O Blueprint é dividido em duas categorias para acesso a dados da Experience Platform e dos aplicativos. Em primeiro lugar, abordagens para obtenção de dados da Experience Platform e dos aplicativos; este seria considerado um método de saída de dados do tipo push. Em segundo lugar, abordagens para acesso aos dados da Experience Platform e dos aplicativos; este seria considerado um método de acesso a dados do tipo pull.
 
-Abordagens de acesso a dados
+Acesso aos dados:
 
 * [API de acesso ao perfil do cliente em tempo real](#rtcp-profile-access-api)
 * [API de acesso a dados](#data-access-api)
 * [Serviço de consulta](#query-service)
 
-Abordagens da exportação de dados
+Abordagens para exportação de dados:
 
 * [Tags do lado do cliente](#client-side-tags-extensions)
 * [Encaminhamento de eventos](#event-forwarding)
 * [Destinos da Real-time Customer Data Platform](#RTCDP-destinations)
 * [Ações personalizadas do Journey Optimizer](#jo-custom-actions)
 
-## Visão geral da arquitetura de acesso e exportação de dados
+## Arquitetura da visão geral de acesso e exportação de dados
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Blueprint de arquitetura de referência para preparação e assimilação de dados" style="width:90%; border:1px solid #4a4a4a" />
 
@@ -105,7 +105,7 @@ Consulte a documentação de [Visão geral das tags](https://experienceleague.ad
 * Capacidade de configurar regras para solicitar dados somente quando determinados critérios forem atendidos.
 * Os dados são coletados diretamente do cliente, limitando os tipos de transformações e enriquecimentos que podem ser executados antes da coleta de dados.
 
-### Encaminhamento de eventos {#event-forwarding}
+### Encaminhamento de evento {#event-forwarding}
 
 As solicitações de coleta de dados são coletadas diretamente na Edge Network da Adobe. Na Edge Network, as solicitações para endpoints RESTful externos podem ser configuradas para serem encaminhadas para o destino externo.
 
@@ -117,12 +117,12 @@ Para obter mais informações, consulte a seguinte documentação: [Encaminhamen
 
 #### Considerações
 
-* Para usar o Encaminhamento de eventos, os dados devem ser enviados para a Edge Network usando WebSDK ou MobileSDK.
+* Para usar o Encaminhamento de eventos, os dados devem ser enviados para a Rede de borda usando o SDK da Web ou o MobileSDK.
 * A abordagem de encaminhamento de eventos reduz o tempo e o peso do carregamento da página devido à adição de tags na página.
 * No momento, não há suporte ao enriquecimento do perfil de borda ou de outras fontes de dados.
 * Há suporte limitado à filtragem de dados e a transformações de mapeamento simples.
 
-### Destinos da Real-time Customer Data Platform {#RTCDP-destinations}
+### Destinos do Real-time Customer Data Platform {#RTCDP-destinations}
 
 Os dados de atributo de perfil e de associação de público podem ser ativados para destinos empresariais e publicitários. Isso significa que os dados obtidos devem ser assimilados no Perfil do cliente em tempo real da Experience Platform.
 
@@ -151,7 +151,7 @@ Consulte a documentação de [Ações personalizadas do Journey Optimizer](https
 
 #### Considerações
 
-* O [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR) oferece suporte a medidas de proteção na taxa de transferência e o [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en) oferece suporte a enriquecimentos.
+* O [Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR) oferece suporte a medidas de proteção na taxa de transferência e o [Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR) oferece suporte a enriquecimentos.
 * As ações personalizadas podem ser executadas uma a uma por streaming para cada evento ou perfil em uma jornada. Não é possível executar operações em massa ou saídas de dados em massa na forma de arquivos ou solicitações agregadas nas jornadas do cliente.
 * Acesso de streaming aos atributos e eventos de experiência do Perfil do cliente em tempo real que podem ser incluídos na carga de ativação.
 * Os dados do evento podem ser filtrados e transformações de mapeamento simples podem ser aplicadas antes de enviar eventos para destinos externos.
