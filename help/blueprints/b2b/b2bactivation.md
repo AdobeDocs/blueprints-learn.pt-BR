@@ -1,17 +1,17 @@
 ---
-title: Ativação B2B
+title: Plano de Ativação de Perfil e Público-alvo B2B
 description: Ofereça experiências do cliente centradas em perfil e públicos-alvo baseados em contas com a Real-time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 98%
 
 ---
 
-# Ativação de público-alvo e perfil B2B
+# Ativação de público-alvo e perfil B2B blueprint
 
 Use as informações de conta, oportunidade e lead vinculadas a um cliente individual para criar perfis B2B acionáveis com o intuito de melhorar a personalização e o direcionamento nos canais.
 
