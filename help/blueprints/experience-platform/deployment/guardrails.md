@@ -4,10 +4,10 @@ description: As medidas de proteção definem o impacto e as expectativas de des
 solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: f208fcd938bfc12882421f213192a6888f546a79
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 As medidas de proteção são limites recomendados que oferecem orientação para o uso de dados e sistemas, otimizando o desempenho e evitando erros ou resultados inesperados na Adobe Experience Platform e nos Aplicativos da Adobe. As medidas de proteção destinam-se a refletir as restrições do sistema e as expectativas de desempenho para facilitar a otimização do desempenho de casos de uso e da arquitetura do cliente. As medidas de proteção não se destinam a ser contratos de nível de serviço. Para acessar informações sobre contratos de nível de serviço específicos do produto, consulte a documentação de Descrições do produto vinculada abaixo.
 
 
-## Medidas de proteção para a Adobe Experience Platform e os Aplicativos da Adobe
+## Grades de proteção para Adobe Experience Platform e aplicativos
 
-[Medidas de proteção da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=pt-BR)
+[Medidas de proteção para a ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=pt-BR)
 
 [Proteção à API de rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=pt-BR)
 
@@ -34,7 +34,7 @@ As medidas de proteção são limites recomendados que oferecem orientação par
 
 <br>
 
-## Latência de ponta a ponta   Diagramas
+## Diagramas de latência de ponta a ponta
 
 ### Assimilação de dados
 
@@ -66,7 +66,7 @@ As medidas de proteção são limites recomendados que oferecem orientação par
 
 <br>
 
-## Descrições dos produtos
+## Descrições do produto
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
