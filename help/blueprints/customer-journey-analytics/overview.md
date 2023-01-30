@@ -1,26 +1,26 @@
 ---
-title: Customer Journey Analytics
+title: Customer Journey Analytics blueprints
 description: Unificação e análise de dados e comportamentos do cliente a partir da jornada do cliente
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: 6059edc6a6b65e87ed1c06a072feea45703e9103
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
-# Customer Journey Analytics
+# Customer Journey Analytics blueprints
 
 O Customer Journey Analytics apresenta como as marcas podem unificar os dados e o comportamento do cliente oriundos de vários canais e fontes de interação. O objetivo é criar uma visualização com base na jornada de todas as interações com o cliente. É possível elaborar relatórios e análises no serviço de aplicativos do Customer Journey Analytics para avaliar e obter insights da interação com o cliente e de padrões de comportamento.
 
 Uma lista completa de casos de uso do Customer Journey Analytics pode ser encontrada na documentação do Customer Journey Analytics localizada aqui.
 
-## [Link de casos de uso do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=pt-BR)
+## Casos de uso do Customer Journey Analytics
 
-Casos de uso comuns incluem:
+[Casos de uso comuns incluem:](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cja-usecases.html?lang=pt-BR)
 
 * Criar e publicar públicos na Real-time Customer Data Platform
 * Caminhos de conversão do início ao fim
@@ -41,17 +41,17 @@ Os casos de uso principais de exemplo incluíram o seguinte.
 | **[Publicar públicos na Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=pt-BR)** | <ul><li>Crie e publique públicos identificados no Customer Journey Analytics (CJA) para o Perfil do cliente em tempo real na Adobe Experience Platform para direcionamento e personalização do cliente. Ideal para criar públicos usando dados históricos ou públicos mais refinados por meio da filtragem granular e campos calculados no Customer Journey Analytics.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
 | **[Análise da jornada da diminuição de chamadas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=pt-BR)** | <ul><li>Determine quais comportamentos são mais indicativos nos resultados de chamadas atendidas por agentes ao reunir dados da central de atendimento com dados da web, dispositivos móveis e outros dados de interação.</li><li>É possível usar esses insights para aprimorar a experiência do cliente e encurtar o caminho para interações atendidas por agentes por meio de conteúdo e ferramentas de autoatendimento.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
-## Diagrama de medidas de proteção para Blueprints do Customer Journey Analytics
+## Diagrama de grade de proteção para blueprints de Customer Journey Analytics
 
 * Para obter informações detalhadas e medidas de proteção para latências de ponta a ponta, consulte o [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md)
 
 ![Diagrama de medidas de proteção](../experience-platform/assets/CJA_guardrails.svg)
 
-## Publicações do blog relacionadas
+## Publicações de blog relacionadas
 
-* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184){target=&quot;_blank&quot;}
-* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17){target=&quot;_blank&quot;}
-* [[!DNL Event-Based Triggering on Adobe Experience Platform Orchestration Service using Apache Airflow]](https://medium.com/adobetech/event-based-triggering-on-adobe-experience-platform-orchestration-service-using-apache-airflow-8607b28251f1){target=&quot;_blank&quot;}
-* [[!DNL Adobe Campaign Classic Integration with Journey Orchestration]](https://medium.com/adobetech/adobe-campaign-classic-integration-with-journey-orchestration-ae577653281){target=&quot;_blank&quot;}
-* [[!DNL Demonstrating the Power of Adobe’s New Journey Orchestration Service to Build Personalized Omnichannel Experiences in Real-Time]](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34){target=&quot;_blank&quot;}
-* [[!DNL Journey Orchestration in an Omnichannel World]](https://medium.com/adobetech/journey-orchestration-in-an-omnichannel-world-3a2d32d556d9){target=&quot;_blank&quot;}
+* [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184){target="_blank"}
+* [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17){target="_blank"}
+* [[!DNL Event-Based Triggering on Adobe Experience Platform Orchestration Service using Apache Airflow]](https://medium.com/adobetech/event-based-triggering-on-adobe-experience-platform-orchestration-service-using-apache-airflow-8607b28251f1){target="_blank"}
+* [[!DNL Adobe Campaign Classic Integration with Journey Orchestration]](https://medium.com/adobetech/adobe-campaign-classic-integration-with-journey-orchestration-ae577653281){target="_blank"}
+* [[!DNL Demonstrating the Power of Adobe's New Journey Orchestration Service to Build Personalized Omnichannel Experiences in Real-Time]](https://medium.com/adobetech/demonstrating-the-power-of-adobes-new-journey-orchestration-service-to-build-personalized-aa60d88cd34){target="_blank"}
+* [[!DNL Journey Orchestration in an Omnichannel World]](https://medium.com/adobetech/journey-orchestration-in-an-omnichannel-world-3a2d32d556d9){target="_blank"}
