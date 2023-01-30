@@ -3,10 +3,10 @@ title: Blueprint do Campaign v7
 description: O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketing tradicionais, como email e correspondência direta, que oferece recursos sólidos de ETL e gerenciamento de dados para ajudar a arquitetar e organizar a campanha perfeita. Seu mecanismo de orquestração alimenta sofisticados programas de marketing multitoques com foco em jornadas orientadas por lote. Ele também vem emparelhado com um servidor de mensagens em tempo real que permite às equipes de marketing enviar mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para questões como redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: a74ef566bf468c5508263f4070beaf6d0cd73a0e
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1195'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -42,13 +42,13 @@ O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketin
 
 ## Pré-requisitos
 
-### Servidor de mensagens em tempo real e servidor de aplicativos
+### Servidor de aplicativos e servidor de mensagens em tempo real
 
 * O Adobe Campaign Client Console é necessário para a utilização do software Campaign v8 e interação. Trata-se de um cliente baseado em Windows que usa protocolos-padrão de Internet (SOAP, HTTP, etc.). Certifique-se de que as permissões necessárias para distribuir, instalar e executar o software estão ativas em sua organização
 
 * Lista de permissões de endereço IP
    * Identifique os intervalos de IP que serão usados por todos os usuários durante o acesso ao console do cliente
-   * Identifique os sistemas empresariais que serão autorizados a se comunicar com o servidor de mensagens em tempo real e garanta que eles tenham um IP ou intervalo atribuído estaticamente que possa ser incluído na lista de permissões
+   * Identifique quais sistemas empresariais poderão se comunicar com o servidor de mensagens em tempo real e garantir que eles tenham um IP ou intervalo atribuído estaticamente que você possa lista de permissões
    * A configuração e o controle podem ser feitos pelo Painel de controle do Campaign
 * Gerenciamento de chaves sFTP
    * Tenha chaves públicas SSH disponíveis para serem usadas com o sFTP fornecido pelo Campaign. A configuração e o controle podem ser feitos pelo Painel de controle do Campaign.
@@ -59,7 +59,7 @@ O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketin
 * O subdomínio pode ser totalmente delegado à Adobe (recomendado) ou podem ser usados CNAMEs para indicar servidores DNS específicos da Adobe (personalizado)
 * É necessário registro TXT do Google para cada subdomínio, para garantir um boa capacidade de entrega
 
-### Push para publicação de conteúdo para dispositivos móveis
+### Push móvel
 
 * Tenha um desenvolvedor para dispositivos móveis disponível para implantar, configurar e criar o aplicativo móvel
 * A Adobe oferece apenas um SDK para coletar as informações necessárias do FCM (Android) e do APNS (iOS) para enviar cargas de mensagem aos servidores deles. A forma como o aplicativo móvel precisa ser codificado, implantado, gerenciado e depurado é de responsabilidade do cliente
@@ -100,7 +100,7 @@ O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketin
    * SMS MO (originado no celular): SMSs enviados de celulares para o Adobe Campaign por meio do provedor SMPP.
    * SMS SR (relatório de status), DR ou DLR (recibo de entrega): um recibo de retorno enviado dos celulares para o Adobe Campaign por meio do provedor SMPP indicando que o SMS foi recebido. O Adobe Campaign também pode receber SRs indicando que a mensagem não pôde ser entregue, geralmente com uma descrição do erro.
 
-### Configuração de push para publicação de conteúdo para dispositivos móveis
+### Configuração de push móvel
 
 * Duas abordagens compatíveis de integração com dispositivos móveis para notificações por push:
    * SDK móvel da Experience Platform (recomendada)
