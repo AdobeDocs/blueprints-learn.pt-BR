@@ -1,35 +1,38 @@
 ---
-title: SDK da Web/móvel, Blueprint de implantação da Edge Network
+title: Web/Mobile SDK, diagrama da arquitetura de implantação de rede de borda
 description: Esse blueprint mostra a arquitetura e a assimilação por meio do SDK da Web/móvel da Experience Platform e da Edge Network
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 0b0f77eaf903f592993ed8f4abe29827b733c769
-workflow-type: ht
-source-wordcount: '242'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 77%
 
 ---
 
 
-# Visão geral
+# Experience Platform Web SDK e diagrama de arquitetura de rede de borda
 
 Para obter uma visão geral e detalhes sobre o SDK da Web e móvel, bem como da API de servidor da Edge Network, consulte:
-* [Visão geral do WebSDK](https://experienceleague.adobe.com/docs/web-sdk.html?lang=pt-BR)
-* [Visão geral do MobileSDK](https://developer.adobe.com/client-sdks/documentation/)
+
+* [Visão geral do SDK da Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=pt-BR)
+* [Visão geral do SDK móvel](https://developer.adobe.com/client-sdks/documentation/)
 * [API de servidor da Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
 
-Para obter uma descrição detalhada de qual funcionalidade de aplicativo é compatível com o WebSDK, consulte a seguinte documentação:
-* [Suporte à funcionalidade de aplicativo WebSDK](https://github.com/orgs/adobe/projects/18/views/1)
+Para obter um outline detalhado de qual funcionalidade de aplicativo é compatível no SDK da Web, consulte a seguinte documentação.
+
+* [Suporte à funcionalidade do aplicativo SDK da Web](https://github.com/orgs/adobe/projects/18/views/1)
 
 Para obter detalhes relacionados à migração de SDKs específicos do aplicativo para SDKs da Web e móveis, consulte a seguinte documentação:
+
 * [Serviços de identidade](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=pt-BR)
 * [Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html?lang=pt-BR)
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=pt-BR)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=pt-BR)
 
-## Implantação utilizando o SDK da Web/móvel da Experience Platform ou a API de servidor da Edge Network
+## Implantação do Experience Platform Web/Mobile SDK ou da API do Edge Network Server
 
 O diagrama de arquitetura abaixo ilustra a implantação e a coleção de dados utilizando o SDK da Web da Experience Platform.
 
