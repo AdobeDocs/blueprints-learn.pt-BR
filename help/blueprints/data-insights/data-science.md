@@ -1,17 +1,17 @@
 ---
-title: Blueprint de Ciência de dados personalizada para enriquecimento de perfis
+title: Ciência de dados personalizada para o blueprint do enriquecimento de perfil
 description: Este blueprint mostra como os insights baseados na ciência de dados podem ser assimilados na Experience Platform para enriquecer o Perfil do cliente em tempo real.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
-source-git-commit: 6f10178e2d8d8877ec254e6ca83d1711fa4a82b0
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Blueprint de Ciência de dados personalizada para enriquecimento de perfis
+# Ciência de dados personalizada para o blueprint do enriquecimento de perfil
 
 O Blueprint de Ciência de dados personalizada para enriquecimento de perfis ilustra como os dados podem ser usados para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina para a Experience Platform e a Real-time Customer Data Platform por meio de ferramentas de aprendizado de máquina e ciência de dados. É possível assimilar insights modelados na Experience Platform para enriquecer o perfil do cliente em tempo real. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de categorias e produtos, propensão à conversão ou à rotatividade.
 
@@ -56,7 +56,7 @@ Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo
 * [Descrição do produto Inteligência do Adobe Experience Platform](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * [Serviço de consulta da Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR)
 
-## Publicações do blog relacionadas
+## Publicações de blog relacionadas
 
 * [[!DNL Content and Commerce AI: Personalizing Your Interactions with Customers Through Content Intelligence]](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
 * [[!DNL An Introductory Look at Exploratory Data Analysis on Adobe Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
