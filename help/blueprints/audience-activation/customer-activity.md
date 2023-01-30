@@ -1,19 +1,19 @@
 ---
-title: Blueprint do Hub de atividades do cliente
-description: '"Pesquisas de [!UICONTROL perfis de clientes em tempo real] para fornecer contexto ao suporte e às vendas atendidas por agentes."'
+title: blueprint do Activity Hub do cliente
+description: "Pesquisas de [!UICONTROL perfis de clientes em tempo real] para fornecer contexto ao suporte e às vendas atendidas por agentes."
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
-# Blueprint do Hub de atividades do cliente
+# blueprint do Activity Hub do cliente
 
-O Blueprint do Hub de atividades do cliente apresenta como aplicativos externos podem acessar o [!UICONTROL Perfil de cliente em tempo real] da Adobe Experience Platform.
+O blueprint do Activity Hub do cliente mostra como os aplicativos externos podem acessar o Adobe Experience Platform [!UICONTROL Perfil do cliente em tempo real].
 
 Aplicativos externos podem acessar Perfis de clientes com uma solicitação GET da API. Atributos, eventos, associações de segmentos e funcionalidades orientadas por modelos armazenadas no perfil podem depois ser usados nesses aplicativos externos que não são da Adobe.
 
