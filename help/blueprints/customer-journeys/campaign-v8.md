@@ -1,12 +1,12 @@
 ---
-title: Blueprint do Campaign v8, Campaign e AEP
+title: Campaign v8 blueprint, Campaign & Platform
 description: O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para canais de marketing tradicionais, como email e correspondência direta, que oferece recursos sólidos de ETL e gerenciamento de dados para ajudar a arquitetar e organizar a campanha perfeita. Seu mecanismo de orquestração alimenta sofisticados programas de marketing multitoques com foco em jornadas orientadas por lote.  Ele também vem emparelhado com um servidor de mensagens em tempo real escalável que permite às equipes de marketing enviar mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para questões como redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: c79422931cb4305347a4034ae1cb6bac2be1e229
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -45,7 +45,7 @@ O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para
 ## Pré-requisitos
 
 
-### Servidor de mensagens em tempo real e servidor de aplicativos
+### Servidor de aplicativos e servidor de mensagens em tempo real
 
 * O Adobe Campaign Client Console é necessário para a utilização do software Campaign v8 e interação. Trata-se de um cliente baseado em Windows que usa protocolos-padrão de Internet (SOAP, HTTP, etc.). Certifique-se de que as permissões necessárias para distribuir, instalar e executar o software estão ativas em sua organização
 
@@ -62,7 +62,7 @@ O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para
 * O subdomínio pode ser totalmente delegado à Adobe (recomendado) ou podem ser usados CNAMEs para indicar servidores DNS específicos da Adobe (personalizado)
 * É necessário registro TXT do Google para cada subdomínio, para garantir um boa capacidade de entrega
 
-### Push para publicação de conteúdo para dispositivos móveis
+### Push móvel
 
 * Tenha um desenvolvedor para dispositivos móveis disponível para implantar, configurar e criar o aplicativo móvel
 * A Adobe oferece apenas um SDK para coletar as informações necessárias do FCM (Android) e do APNS (iOS) para enviar cargas de mensagem aos servidores deles. A forma como o aplicativo móvel precisa ser codificado, implantado, gerenciado e depurado é de responsabilidade do cliente
@@ -104,7 +104,7 @@ O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para
    * SMS MO (originado no celular): SMSs enviados de celulares para o Adobe Campaign por meio do provedor SMPP.
    * SMS SR (relatório de status), DR ou DLR (recibo de entrega): um recibo de retorno enviado dos celulares para o Adobe Campaign por meio do provedor SMPP indicando que o SMS foi recebido. O Adobe Campaign também pode receber SRs indicando que a mensagem não pôde ser entregue, geralmente com uma descrição do erro.
 
-### Configuração de push para publicação de conteúdo para dispositivos móveis
+### Configuração de push móvel
 
 * O SDK do Campaign é o único compatível com o Campaign v8. Para ter acesso, entre em contato com o Atendimento ao cliente da Adobe
 * Siga a [Documentação do SDK do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=pt-BR) para saber como instalar e configurar o SDK
