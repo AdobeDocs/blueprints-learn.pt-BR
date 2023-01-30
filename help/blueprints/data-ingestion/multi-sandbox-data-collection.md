@@ -1,17 +1,17 @@
 ---
-title: Blueprint de coleção de dados do Encaminhamento de eventos de várias sandboxes
+title: Esquema de Coleta de dados do encaminhamento de eventos de várias sandboxes
 description: Transmitir dados coletados pelos SDKs da Experience Platform para várias sandboxes por meio da utilização do Encaminhamento de eventos
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: 793a92218999185f8a993be528c4830fa07f4865
-workflow-type: ht
-source-wordcount: '608'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '609'
+ht-degree: 73%
 
 ---
 
-# Blueprint de coleção de dados do Encaminhamento de eventos de várias sandboxes
+# Esquema de Coleta de dados do encaminhamento de eventos de várias sandboxes
 
 O Blueprint de coleção de dados do Encaminhamento de eventos de várias sandboxes mostra como os dados coletados com os SDKs móveis e da Web da Adobe Experience Platform podem ser configurados para coletar um único evento e encaminhar para várias sandboxes da AEP. Esse Blueprint é um caso de uso específico que usa o recurso Encaminhamento de eventos das tags da Adobe.
 
@@ -30,34 +30,33 @@ Sua sandbox de destino precisaria de um Ponto de extremidade de transmissão HTT
 
 ## Aplicativos
 
-* Coleção da Adobe Experience Platform
+* Coleção de dados da Adobe Experience Platform
 
 ## Arquitetura
 
 <img src="assets/multi-Sandbox-Data-Collection.svg" alt="Arquitetura de referência para encaminhamento de eventos de várias sandboxes" style="width:90%; border:1px solid #4a4a4a" />
 
-1. Os Autores de tag definem uma Propriedade de tag e uma Propriedade de encaminhamento de eventos. Aqui, os autores definem as Regras, ações e elementos de dados que gerenciam a coleção de dados. Lembre-se que o código de Propriedade de tag é executado no cliente e distribuído por um Host CDN. O código de Propriedade de encaminhamento de eventos é executado no servidor do Adobe Edge.
+1. Os autores de tags definem uma propriedade de tag e uma Propriedade de encaminhamento de eventos. Aqui, os autores definirão os elementos de dados, as regras e as ações que gerenciam a coleta de dados. Lembre-se, o código de propriedade da tag é executado no cliente e distribuído por um Host CDN. O código de Propriedade de encaminhamento de eventos é executado no servidor do Adobe Edge.
 
-1. Os dados coletados no cliente são enviados para o Servidor do Edge. Os clientes também têm a opção de enviar os dados primeiro para o seu próprio servidor como uma forma de coleção do lado do servidor.
-O WebSDK pode fornecer um recurso de coleção de Servidor para servidor. Para isso, no entanto, é necessário implementar um modelo de programação diferente. Consulte a documentação **Visão geral da API de Servidor da Edge Network** abaixo
+1. Os dados coletados no cliente são enviados para a Edge Network. Os clientes também têm a opção de enviar os dados primeiro para o seu próprio servidor como uma forma de coleção do lado do servidor.  O SDK da Web pode fornecer um recurso de coleta de servidor para servidor. Para isso, no entanto, é necessário implementar um modelo de programação diferente. Consulte a documentação **Visão geral da API de Servidor da Edge Network** abaixo
 
-1. O Platform Edge Server recebe cargas de coleção de dados e organiza o fluxo de dados para os sistemas necessários, como o Target e o Analytics.
+1. A Platform Edge Network recebe cargas de coleta de dados e orquestra o fluxo de dados para os sistemas necessários, como Target e Analytics.
 
-1. Os Elementos de dados da propriedade Encaminhamento de eventos são usados para acessar Dados do evento que chegam na carga. As Regras também podem ser usadas para, conforme seja necessário, manipular os dados do evento antes do encaminhamento. Como na formatação dos dados no XDM necessário para a assimilação de dados de transmissão
+1. Os elementos de dados da propriedade de encaminhamento de eventos são usados para acessar dados do evento que chegam no payload. As Regras também podem ser usadas para, conforme seja necessário, manipular os dados do evento antes do encaminhamento. Como na formatação dos dados no XDM necessário para a assimilação de dados de transmissão
 
-1. O Encaminhamento de eventos fornece a extensão HTTPS que possibilita encaminhar seus dados do evento para um ponto de extremidade HTTPS.
+1. O encaminhamento de eventos fornece a extensão HTTPS que fornece a capacidade de encaminhar seus dados de eventos para um ponto final HTTPS.
 
-1. A Sandbox 2 é configurada com um Ponto final de transmissão que recebe o evento encaminhado.
+1. A sandbox 2 é configurada com um ponto de extremidade de transmissão que recebe o evento encaminhado.
 
 ## Documentação relacionada
 
 * [Documentação de encaminhamento do evento](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=pt-BR)
 * [Vídeos sobre encaminhamento de eventos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=pt-BR)
 * [Aula sobre encaminhamento de eventos](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=pt-BR) do tutorial do SDK da Web
-* [Visão geral do WebSDK da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
+* [Visão geral do SDK da Web do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
 * [Visão geral da API de servidor da Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
 
-## Publicações do blog relacionadas
+## Publicações de blog relacionadas
 
 * [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
 * [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
