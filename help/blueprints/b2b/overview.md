@@ -1,17 +1,17 @@
 ---
-title: Ativação e análise B2B
+title: Ativação e análise B2B blueprints
 description: Ofereça experiências do cliente centradas em perfil e públicos-alvo baseados em contas com a Real-time Customer Data Platform.
 solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: bd0a93ef2efa702b4d4f3eb20d126ee22fb113af
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 97%
 
 ---
 
-# Ativação e análise B2B
+# Projetos de análise e ativação B2B
 
 A ativação de público-alvo e perfil B2B é a chave para o sucesso em um mundo de marketing orientado por dados. Contudo, muitas marcas ainda concentram seus esforços na ativação inicial pelo canal, que por vezes fornece alcance e personalização inconsistentes.
 
