@@ -1,17 +1,17 @@
 ---
-title: Ativação de público-alvo e perfil para o blueprint de destinos por streaming de arquivos e empresas
+title: Ativação de público-alvo e perfil para destinos de transmissão de arquivos e empresas
 description: Ativação de público-alvo e perfil para destinos corporativos
 solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 3425495df36ff8da0f2fd737b35d294ccafe31bd
-workflow-type: ht
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
-# Ativação de público-alvo e perfil para o blueprint de destinos por streaming de arquivos e empresas
+# Ativação de público-alvo e perfil para destinos de transmissão de arquivos e empresas
 
 Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em lote da [!UICONTROL Real-time Customer Data Platform] para armazenamentos e aplicativos de dados corporativos. Esses eventos de perfil e público-alvo podem ser usados para iniciar uma ação de vendas ou suporte ao cliente. Exemplos incluem: acompanhar um processo de aplicativo abandonado ou de inscrição em webinário, ou atualizar aplicativos corporativos com os atributos e informações mais recentes do cliente a partir da [!UICONTROL Real-time Customer Data Platform].
 
@@ -34,7 +34,7 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Etapas de implementação
 
-1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
+1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Configure as identidades corretas e os namespaces de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR) no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
 1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
