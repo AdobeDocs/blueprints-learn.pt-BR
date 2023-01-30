@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: af390011dc068c4289f98d7fc0108ce48a5375c7
+source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
          + [Visão geral](/help/blueprints/customer-journeys/decision_management/decision-management-overview.md)
          + [Gestão de decisões na borda](/help/blueprints/customer-journeys/decision_management/decision-management-edge.md)
          + [Gestão de decisões no hub](/help/blueprints/customer-journeys/decision_management/decision-management-hub.md)
-      + [Journey Optimizer com Adobe Campaign](/help/blueprints/customer-journeys/ajo-and-campaign.md)
+      + [Journey Optimizer com Adobe Campaign  ](/help/blueprints/customer-journeys/ajo-and-campaign.md)
       + [Mensagens de terceiros](/help/blueprints/customer-journeys/3rd-party-messaging.md)
    + Campaign Standard {#campaign-standard}
       + [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=pt-BR)
