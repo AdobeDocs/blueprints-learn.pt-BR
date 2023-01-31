@@ -1,13 +1,13 @@
 ---
 title: Ativação para o Facebook Custom Audiences
 description: Ativação para o Facebook Custom Audiences.
-solution: Real-time Customer Data Platform, Data Collection
+solution: Real-Time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 99%
+ht-degree: 94%
 
 ---
 
@@ -82,7 +82,7 @@ Assimile dados de clientes de várias fontes para criar uma única visualizaçã
    * Verifique se foram ignorados perfis referentes a identidades de perfil ou atributos obrigatórios que estejam faltando.
    * Verifique se há outros erros que precisem ser resolvidos.
 1. Verifique se o público foi ativado para o destino final com o número esperado de membros.
-   * Faça logon no portal Facebook Custom Audience para verificar se o público da Real-time Customer Data Platform foi entregue e se a taxa de correspondência dos perfis no público do Facebook se assemelha razoavelmente ao número de perfis no público da Real-time Customer Data Platform.
+   * Faça logon no portal de público-alvo personalizado do Facebook para verificar se o público-alvo do Real-time Customer Data Platform foi fornecido e se a taxa de correspondência dos perfis no público-alvo do Facebook corresponde razoavelmente ao número de perfis no público-alvo do Real-time Customer Data Platform.
 
 ## Medidas de proteção
 

@@ -1,31 +1,39 @@
 ---
-title: Blueprints de experiência digital
-description: Os Blueprints de experiência digital são implementações replicáveis que atendem a estratégias e resolvem problemas empresariais consagrados. Eles aceleram o tempo de retorno do investimento e fornecem um caminho mais rápido para o sucesso.
+title: Modelos de experiência digital
+description: Os Digital Experience Blueprints são implementações repetíveis para solucionar problemas de estratégia e de negócios estabelecidos. Eles aceleram o tempo de retorno do investimento e fornecem um caminho mais rápido para o sucesso.
+doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 96%
+ht-degree: 73%
 
 ---
 
-# Blueprints de experiência digital
+# Blueprints da experiência digital
 
-Os blueprints de experiência digital são implementações replicáveis que atendem a estratégias e resolvem com rapidez problemas empresariais consagrados. Cada blueprint fornece uma série de artefatos que explicam o problema empresarial de alta relevância, as arquiteturas, as etapas de implementação, as considerações técnicas e os links para a documentação relevante.
+Os Digital Experience Blueprints são implementações repetíveis que permitem abordar a estratégia e resolver rapidamente os problemas de negócios estabelecidos. Cada blueprint fornece uma série de artefatos que explicam o problema empresarial de alta relevância, as arquiteturas, as etapas de implementação, as considerações técnicas e os links para a documentação relevante.
+
+<div id="recs-overview-body-1"></div>
+<div id="recs-overview-body-2"></div>
+<div id="recs-overview-body-3"></div>
+<div id="recs-overview-body-4"></div>
+<div id="recs-overview-body-5"></div>
+<div id="recs-overview-body-6"></div>
 
 ## Novidades
 
-* **[Blueprint de ativação de público-alvo e perfil para destinos corporativos](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[Audience and Profile Ativation to Enterprise Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Mantenha os perfis de clientes atualizados em todos os sistemas para capacitar suas equipes de vendas e suporte&#x200B;.*
-* **[Blueprint do Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)**
+* **[blueprint do Activity Hub do cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Fornece contexto para suporte e vendas assistidas por agentes.*
-* **[Blueprint de análise de dados e inteligência](/help/blueprints/data-insights/analysis.md)**
+* **[Modelo de análise e inteligência de dados](/help/blueprints/data-insights/analysis.md)**
 
    *Realiza consulta e análise exploratória dos dados no data lake.*
 
-## Blueprints de destaque
+## Projetos em destaque
 
 <table style="table-layout:fixed">
 <tr>
@@ -47,9 +55,9 @@ Os blueprints de experiência digital são implementações replicáveis que ate
 </tr>
 </table>
 
-## Publicações do blog
+## Publicações no blog
 
-* [[!DNL Introducing Adobe Experience Platform’s New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
+* [[!DNL Introducing Adobe Experience Platform's New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)
 * [[!DNL Blueprint for Web/Mobile Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Blueprint for Cross-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)

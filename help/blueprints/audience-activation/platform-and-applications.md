@@ -1,13 +1,13 @@
 ---
 title: Ativação de público-alvo e perfil com o blueprint de aplicativos do Experience Cloud
 description: Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud.
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 93%
+ht-degree: 75%
 
 ---
 
@@ -54,7 +54,7 @@ Consulte as [medidas de proteção na página de Visão geral de ativação de p
 
 * Compartilhar dados de perfil com destinos exige a inclusão de valor específico de identidade, usado pelo destino na carga de destino. Qualquer identidade necessária para um destino de público-alvo deve ser assimilada na Platform e configurada como uma identidade para o [!UICONTROL Perfil de cliente em tempo real].
 
-### Compartilhamento de públicos do Real-time Customer Data Platform para o Audience Manager
+### Compartilhamento de público do Real-time Customer Data Platform para o Audience Manager
 
 * Consulte a documentação a seguir para obter mais detalhes. [Compartilhamento de segmentos da Experience Platform com o Audience Manager e outras soluções da Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=pt-BR).
 
@@ -65,31 +65,31 @@ Consulte as [medidas de proteção na página de Visão geral de ativação de p
 * Para cenários de ativação em que os públicos são compartilhados da Experience Platform para o Audience Manager, as seguintes identidades são compartilhadas automaticamente: ECID, IDFA, GAID, endereços de e-mail com hash (EMAIL_LC_SHA256), AdCloud ID. Atualmente, os namespaces personalizados não são compartilhados.
 * É possível compartilhar os públicos da Experience Platform por meio dos destinos do Audience Manager, quando as identidades de destino necessárias estiverem incluídas no [!UICONTROL Perfil de cliente em tempo real]. Ou também onde as identidades no [!UICONTROL Perfil de cliente em tempo real] possam ser relacionadas às identidades de destino vinculadas ao Audience Manager.
 
-### Compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Target
+### Compartilhamento de público do Real-time Customer Data Platform para o Target
 
-* Consulte o [Blueprint de Personalização conhecida do cliente – Target e RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=pt-BR) para obter mais detalhes sobre o compartilhamento de públicos-alvo e perfis da Real-time Customer Data Platform com o Target.
+* Consulte a [Personalização conhecida do cliente - Blueprint do Target e RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=pt-BR) para obter detalhes adicionais sobre o compartilhamento de perfis e públicos-alvo do Real-time Customer Data Platform para o Target.
 
-### Compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Campaign e o Journey Optimizer
+### Compartilhamento de público do Real-time Customer Data Platform para o Campaign e Journey Optimizer
 
-* Consulte os [Blueprints de jornadas do cliente](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=pt-BR) para obter mais detalhes sobre o compartilhamento de públicos-alvo e perfis da Real-time Customer Data Platform com o Campaign e o Journey Optimizer.
+* Consulte a [Jornada Blueprints do cliente](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=pt-BR) para obter detalhes adicionais sobre o compartilhamento de perfis e públicos-alvo do Real-time Customer Data Platform para o Campaign e Journey Optimizer.
 
-### Compartilhamento de públicos da Real-time Customer Data Platform para o Marketo Engage
+### Compartilhamento de público do Real-time Customer Data Platform para o Marketo Engage
 
-* Consulte os [Blueprints de ativação B2B](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=pt-BR) para obter mais informações sobre o compartilhamento de públicos e perfis da Real-time Customer Data Platform com o Marketo Engage.
+* Consulte a [Esquemas de ativação B2B](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/b2b-activation/b2bactivation.html?lang=pt-BR) para obter detalhes adicionais sobre o compartilhamento de perfis e públicos-alvo do Real-time Customer Data Platform para o Marketo Engage.
 
-### Compartilhamento de públicos da Real-time Customer Data Platform com o Customer Journey Analytics
+### Compartilhamento de público do Real-time Customer Data Platform para o Customer Journey Analytics
 
-* Consulte [Públicos da RTCDP compartilhados com o Customer Journey Analytics](Https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=pt-BR) para obter mais informações sobre o compartilhamento de públicos da Real-time Customer Data Platform com o Customer Journey Analytics.
+* Consulte a [Públicos-alvo RTCDP compartilhados com o Customer Journey Analytics](Https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=pt-BR) para obter detalhes adicionais sobre o compartilhamento de públicos da Real-time Customer Data Platform no Customer Journey Analytics.
 
 ## Documentação relacionada
 
-* Descrição do produto [[!UICONTROL Real-time Customer Data Platform]](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform.html)
+* [[!UICONTROL Real-time Customer Data Platform] Descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Guias de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 * [Documentação de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR)
 * [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR)
 
 ## Vídeos e tutoriais relacionados
 
-* Visão geral da [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
-* [Demonstração da [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
+* [[!UICONTROL Real-time Customer Data Platform] visão geral](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
+* [Demonstração do [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
 * [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR)

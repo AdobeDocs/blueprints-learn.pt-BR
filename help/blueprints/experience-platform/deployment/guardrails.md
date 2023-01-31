@@ -1,13 +1,13 @@
 ---
 title: Experience Platform e medidas de proteção de aplicativos
 description: As medidas de proteção definem o impacto e as expectativas de desempenho dos componentes e serviços na Adobe Experience Platform e em Aplicativos da Adobe
-solution: Customer Journey Analytics, Journey Orchestration, Real-time Customer Data Platform
+solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 As medidas de proteção são limites recomendados que oferecem orientação para o uso de dados e sistemas, otimizando o desempenho e evitando erros ou resultados inesperados na Adobe Experience Platform e nos Aplicativos da Adobe. As medidas de proteção destinam-se a refletir as restrições do sistema e as expectativas de desempenho para facilitar a otimização do desempenho de casos de uso e da arquitetura do cliente. As medidas de proteção não se destinam a ser contratos de nível de serviço. Para acessar informações sobre contratos de nível de serviço específicos do produto, consulte a documentação de Descrições do produto vinculada abaixo.
 
 
-## Grades de proteção para Adobe Experience Platform e aplicativos
+## Medidas de proteção para a Adobe Experience Platform e os Aplicativos da Adobe
 
 [Medidas de proteção para a ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=pt-BR)
 

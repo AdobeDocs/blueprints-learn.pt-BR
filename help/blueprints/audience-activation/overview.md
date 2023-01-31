@@ -1,14 +1,14 @@
 ---
 title: Planos de ativação de público-alvo e perfil
-description: Ofereça experiências de cliente ativadas pelo público-alvo e centradas em perfil com a Real-time Customer Data Platform.
-solution: Real-time Customer Data Platform
+description: Forneça experiências do cliente com o Real-time Customer Data Platform ativadas por público-alvo e centradas em perfis.
+solution: Real-Time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 93%
+ht-degree: 88%
 
 ---
 
@@ -50,7 +50,7 @@ A ilustração abaixo descreve os diferentes métodos de segmentação e os dife
 
 ### Ativação de atributos e identidades
 
-* A [!UICONTROL Real-time Customer Data Platform] pode ativar associações de público-alvo, bem como alterações de atributos e identidades que ocorrem em perfis que são membros dos segmentos selecionados para ativação. Se o objetivo for ativar atributos ou identidades, deve-se definir um segmento global que inclua todos os perfis para os quais as atualizações de atributos e identidades são enviadas. A essa altura, é possível selecionar o segmento e os atributos que deseja ativar como parte da configuração de destino.
+* [!UICONTROL A Real-time Customer Data Platform] O pode ativar associações de público-alvo, bem como alterações de atributo e identidade que ocorrem para perfis que são membros de segmentos selecionados para ativação. Se o objetivo for ativar atributos ou identidades, deve-se definir um segmento global que inclua todos os perfis para os quais as atualizações de atributos e identidades são enviadas. A essa altura, é possível selecionar o segmento e os atributos que deseja ativar como parte da configuração de destino.
 * Observe que os destinos em lote não são compatíveis com a ativação de eventos de alteração somente de atributos. As associações de público-alvo completas ou incrementais podem ser enviadas junto com os atributos selecionados para ativação.
 
 ### Ativação de segmentos em lote para destinos por streaming

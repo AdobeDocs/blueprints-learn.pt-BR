@@ -1,14 +1,14 @@
 ---
 title: Esquemas de personalização da Web e móvel
 description: Forneça conteúdo personalizado da Web e móvel com o [!UICONTROL Perfil de cliente em tempo real].
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 96%
+ht-degree: 89%
 
 ---
 
@@ -31,9 +31,9 @@ Personalização da Web e móvel aborda a capacidade de utilizar a segmentação
 
 <br>
 
-### Diagrama das medidas de proteção de personalização de cliente conhecido
+### Diagrama de proteção de personalização do cliente conhecido
 
-<img src="assets/personalization_guardrails.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/personalization_guardrails.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" />
 
 ## Publicações de blog relacionadas
 

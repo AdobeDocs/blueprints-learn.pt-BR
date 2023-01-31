@@ -1,13 +1,13 @@
 ---
 title: Ativação e análise B2B blueprints
-description: Ofereça experiências do cliente centradas em perfil e públicos-alvo baseados em contas com a Real-time Customer Data Platform.
-solution: Real-time Customer Data Platform
+description: Forneça públicos-alvo baseados em conta e experiências de clientes centradas em perfis com o Real-time Customer Data Platform.
+solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 97%
+ht-degree: 87%
 
 ---
 
@@ -20,6 +20,6 @@ Com uma abordagem que prioriza os canais, cada canal age como um silo, no qual o
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
 | **[Análise B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=pt-BR)** | <ul><li>Inclua informações da conta B2B na análise de jornada do cliente</li></ul> | <ul><li>Adobe Customer Journey Analytics</li></ul> |
-| **[Ativação de público-alvo B2B](b2bactivation.md)** | <ul><li>Direcione públicos-alvo B2B por meio de emails, Web e canais de anúncios</li></ul> | <ul><li>Edição B2B da Adobe Real-time Customer Data Platform</li></ul> |
+| **[Ativação de público-alvo B2B](b2bactivation.md)** | <ul><li>Direcione públicos-alvo B2B por meio de emails, Web e canais de anúncios</li></ul> | <ul><li>Adobe Real-time Customer Data Platform B2B Edition</li></ul> |
 | **[Cadeia de suprimento da campanha: visão geral](/help/blueprints/b2b/campaign-supply-chain/overview.md)** | <ul><li>Otimize o planejamento, o desenvolvimento e a execução de campanhas de marketing B2B</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |
 | **[Cadeia de suprimento da campanha: entrada e criação](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md)** | <ul><li>Automatize a entrada de solicitações de campanhas de marketing B2B para a execução do desenvolvimento da campanha</li></ul> | <ul><li>Adobe Marketo Engage</li></ul><ul><li>Adobe Workfront + Workfront Fusion</li></ul> |

@@ -3,10 +3,10 @@ title: Campaign v8 blueprint, Campaign & Platform
 description: O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para canais de marketing tradicionais, como email e correspondência direta, que oferece recursos sólidos de ETL e gerenciamento de dados para ajudar a arquitetar e organizar a campanha perfeita. Seu mecanismo de orquestração alimenta sofisticados programas de marketing multitoques com foco em jornadas orientadas por lote.  Ele também vem emparelhado com um servidor de mensagens em tempo real escalável que permite às equipes de marketing enviar mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para questões como redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para
 * Campanhas de publicidade por correspondência direta, folheto e revista
 * Mensagens transacionais simples (ou seja, redefinição de senha, recebimento de email, confirmação de pedidos, etc.)
 * Integração dos dados do Campaign com o Adobe Experience Platform para análise e criação de perfis
-* Compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Campaign.
+* Compartilhamento de públicos do Real-time Customer Data Platform para o Campaign.
 
 <br>
 
@@ -37,7 +37,7 @@ O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para
 
 | Cenário | Descrição | Recursos |
 | :-- | :--- | :--- |
-| [Real time Customer Data Platform com Adobe Campaign](rtcdp-and-campaign-v8.md) | Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign para proporcionar conversas personalizadas | <ul><li>Compartilhamento de públicos e perfis da Real-Time CDP com o Adobe Campaign por meio da utilização de fluxos de trabalho tanto de troca de arquivos de armazenamento na nuvem como de assimilação do Adobe Campaign </li><li>Compartilhe facilmente com o Real-Time CDP da Adobe Campaign os dados de entrega e interação das conversas dos clientes para aprimorar o Perfil do cliente em tempo real e gerar relatórios entre canais sobre campanhas de mensagens</li></ul> |
+| [Real time Customer Data Platform com Adobe Campaign](rtcdp-and-campaign-v8.md) | Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign para proporcionar conversas personalizadas | <ul><li>Compartilhamento de públicos e perfis da Real-Time CDP com o Adobe Campaign por meio da utilização de fluxos de trabalho tanto de troca de arquivos de armazenamento na nuvem como de assimilação do Adobe Campaign </li><li>Compartilhe facilmente os dados de entrega e interação das conversas com o cliente de volta à Real-Time CDP a partir da Adobe Campaign para aprimorar o Perfil do cliente em tempo real e fornecer relatórios entre canais sobre campanhas de mensagens</li></ul> |
 | [Journey Optimizer com Adobe Campaign](ajo-and-campaign.md) | Mostra como usar o Adobe Journey Optimizer para organizar experiências individualizadas utilizando o Perfil do cliente em tempo real e aproveitar o sistema nativo de mensagens transacionais do Adobe Campaign para enviar a mensagem | Aproveite o Perfil do cliente em tempo real e o poder do Journey Optimizer para organizar as experiências na hora, enquanto utiliza os recursos nativos de mensagens em tempo real do Adobe Campaign para fazer a comunicação de última milha<br><br>Considerações:<br><ul><li>Envia até 1 milhão de mensagens por hora por meio do servidor de mensagens em tempo real<li>Não se faz regulagem a partir do Journey Optimizer, então providencie a avaliação técnica de um arquiteto empresarial de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o Campaign v8</li></ul> |
 
 <br>

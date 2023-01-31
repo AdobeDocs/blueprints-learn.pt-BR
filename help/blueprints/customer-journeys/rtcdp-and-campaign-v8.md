@@ -1,12 +1,12 @@
 ---
 title: Real-Time CDP com padrão de integração do Adobe Campaign v8
 description: Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign v8 para proporcionar conversas personalizadas.
-solution: Real-time Customer Data Platform, Campaign
+solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
+source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 85%
+ht-degree: 76%
 
 ---
 
@@ -41,7 +41,7 @@ Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e s
 
 ## Etapas de implementação
 
-Consulte a documentação a seguir sobre como configurar o conector de origem do Campaign v8 para o Adobe Experience Platform e o conector de destino da Real-time Customer Data Platform para o Campaign v8.
+Consulte a documentação a seguir sobre como configurar o conector de origem do Campaign v8 para o Adobe Experience Platform e o conector de destino do Real-time Customer Data Platform para o Campaign v8.
 [Conectores do Campaign e do AEP](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=pt-BR)
 
 ## Medidas de proteção
@@ -53,7 +53,7 @@ Consulte a documentação a seguir sobre como configurar o conector de origem do
 * O Adobe Campaign é a fonte confiável para todos os perfis ativos. Isso significa que os perfis devem existir no Adobe Campaign e que novos perfis não devem ser criados com base em segmentos da Experience Platform.
 
 
-### Compartilhamento de segmentos do Real-time Customer Data Platform da Experience Platform
+### Compartilhamento de segmentos do Experience Platform Real-time Customer Data Platform
 
 * Consulte o conector de Destino do Campaign RTCDP – [Conexão do Campaign RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=pt-BR)
 * Recomendação de limite de 50 segmentos
