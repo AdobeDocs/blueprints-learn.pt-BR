@@ -1,16 +1,16 @@
 ---
-title: Gerenciamento de decisões no Edge blueprint
+title: Gestão de decisões no blueprint do Edge
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências da Web e móveis em tempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Gerenciamento de decisões no blueprint do Edge
+# Journey Optimizer – Blueprint da gestão de decisões no Edge
 
 Para saber mais sobre a gestão de decisões, consulte a documentação do produto [AQUI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR) e a Visão geral da gestão de decisões [AQUI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=pt-BR)
 
@@ -24,7 +24,7 @@ Esse blueprint abordará as especificidades da gestão de decisões na borda.
 
 Para obter mais informações sobre a gestão de decisões no hub, consulte o blueprint [Gestão de decisões no hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=pt-BR).
 
-## Casos de uso do Gerenciamento de decisões na borda
+## Casos de uso da gestão de decisões na borda
 
 * Personalização online por meio de experiências de entrada da Web ou móvel.
 * Execução de jornada entre canais – consistência de ofertas na Web, dispositivos móveis, email e outros canais de interação por meio do Adobe Journey Optimizer.
@@ -62,7 +62,7 @@ Adobe Experience Platform
 * Acesso ao perfil de borda em tempo real. Somente atributos de perfil e públicos projetados na borda ficam disponíveis no perfil.
 * Caso haja necessidade de personalização nas primeiras experiências, o hub é ideal, pois o perfil completo fica disponível. O perfil de borda deve ser sincronizado a partir do hub para a primeira experiência de borda. Portanto, a primeira experiência da borda não inclui dados de perfil cujo upload tenha sido feito anteriormente no hub.
 
-### Medidas de proteção para a ingestão de dados
+### Proteção da assimilação de dados
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Fluxo de dados da Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -92,7 +92,7 @@ Ou
 
 ### Adobe Experience Platform
 
-#### Esquema/conjuntos de dados
+#### Esquema/Conjuntos de dados
 
 1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) na Experience Platform com base nos dados fornecidos pelo cliente.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) na Experience Platform para que os dados sejam assimilados.
@@ -107,7 +107,7 @@ Ou
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Journey.
 
-#### Fontes/destinos
+#### Origens/destinos
 
 1. [Assimile dados na Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) usando APIs de transmissão e conectores de origem.
 
