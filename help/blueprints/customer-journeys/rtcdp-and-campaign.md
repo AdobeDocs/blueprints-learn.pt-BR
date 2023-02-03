@@ -1,16 +1,16 @@
 ---
-title: Real-Time CDP com padrão de integração Adobe Campaign v7 e Campaign Standard
+title: Padrão de integração do Real-Time CDP com Adobe Campaign v7 e Campaign Standard
 description: Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign para proporcionar conversas personalizadas.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Real-Time CDP com padrão de integração Adobe Campaign
+# Padrão de integração do Real-Time CDP com o Adobe Campaign
 
 Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign para proporcionar conversas personalizadas.
 
@@ -25,7 +25,7 @@ Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e s
 
 ## Arquitetura
 
-<img src="assets/rtcdp-campaign-architecture.svg" alt="Arquitetura de referência para o padrão de integração de Mensagens em lote e Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
+<img src="assets/rtcdp-campaign-architecture.svg" alt="Arquitetura de referência para o padrão de integração de mensagens em lote e Adobe Experience Platform" style="width:100%; border:1px solid #4a4a4a" />
 
 <br>
 
@@ -50,7 +50,7 @@ Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e s
 * A ativação é limitada a cada 24 horas
 * Somente atributos de esquema de união estão disponíveis para ativação (sem suporte para array/mapas/eventos de experiência)
 * Recomendação de não ultrapassar 20 atributos por segmento
-* Um arquivo por segmento de todos os perfis com associação de segmento &quot;realizada&quot; OU se a associação de segmento for adicionada como um atributo no arquivo tanto os perfis &quot;realizado&quot; quanto os &quot;concluídos&quot;
+* Um arquivo por segmento de todos os perfis com associação de segmentos “realizada”. OU, se a associação de segmentos estiver adicionada como um atributo no arquivo, nos perfis “realizada” e “encerrada”
 * Exportações incrementais e de segmentos completos são compatíveis
 * A criptografia de arquivos não é compatível
 
@@ -60,7 +60,7 @@ Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e s
 
 ### Adobe Experience Platform
 
-#### Esquema/conjuntos de dados
+#### Esquema/Conjuntos de dados
 
 1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) na Experience Platform com base nos dados fornecidos pelo cliente.
 1. Crie esquemas do Adobe Campaign para broadLog, trackingLog, endereços sem entrega e preferências de perfil (opcional).
@@ -76,7 +76,7 @@ Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e s
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Adobe Campaign.
 
-#### Fontes/destinos
+#### Origens/destinos
 
 1. [Fontes e destinos da Experience Platform e do Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=pt-BR)
 1. [Fontes e destinos da Experience Platform e do Campaign v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=pt-BR)
@@ -103,7 +103,7 @@ Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e s
 1. Devolva preferências de perfil à Experience Platform por meio de fluxos de trabalho criados por consultas a cada quatro horas (opcional).
 
 
-### Configuração de push móvel
+### Configuração de push para publicação de conteúdo para dispositivos móveis
 
 * Duas abordagens compatíveis de integração com dispositivos móveis para notificações por push:
    * SDK móvel da Experience Platform
