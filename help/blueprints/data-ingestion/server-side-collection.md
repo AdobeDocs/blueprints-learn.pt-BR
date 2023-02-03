@@ -1,17 +1,17 @@
 ---
-title: Blueprint do encaminhamento de eventos
+title: Blueprint de encaminhamento de eventos
 description: Dados coletados por streaming pelos SDKs da Experience Platform para os destinos
 solution: Data Collection
 kt: 7202
 exl-id: 8d6f0705-628b-44e4-a3fc-da6c5e308a5b
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Blueprint do encaminhamento de eventos
+# Blueprint de encaminhamento de eventos
 
 O Blueprint de encaminhamento de eventos apresenta como os dados coletados com os SDKs móveis e da Web da Adobe Experience Platform podem ser encaminhados da Edge Network da Experience Platform para o destino de sua escolha. É possível encaminhar todos os dados brutos coletados dos SDKs ou dados específicos com base em eventos e regras configurados nas propriedades de tag (antigo Launch).
 
@@ -34,7 +34,7 @@ O Blueprint de encaminhamento de eventos apresenta como os dados coletados com o
 * [Vídeos sobre encaminhamento de eventos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=pt-BR)
 * [Aula sobre encaminhamento de eventos](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=pt-BR) do tutorial do SDK da Web
 
-## Publicações de blog relacionadas
+## Publicações do blog relacionadas
 
 * [[!DNL Boosting Website Performance with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
 * [[!DNL Solving Implementation Pain Points with Adobe Experience Platform Web SDK and Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
