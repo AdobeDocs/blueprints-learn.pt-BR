@@ -1,19 +1,19 @@
 ---
-title: Web/Mobile SDK, diagrama da arquitetura de implantação de rede de borda
+title: SDK da Web/móvel, diagrama da arquitetura de implantação da Edge Network
 description: Esse blueprint mostra a arquitetura e a assimilação por meio do SDK da Web/móvel da Experience Platform e da Edge Network
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
-# Experience Platform Web SDK e diagrama de arquitetura de rede de borda
+# SDK da Web da Experience Platform e diagrama da arquitetura do Edge Network
 
 Para obter uma visão geral e detalhes sobre o SDK da Web e móvel, bem como da API de servidor da Edge Network, consulte:
 
@@ -21,7 +21,7 @@ Para obter uma visão geral e detalhes sobre o SDK da Web e móvel, bem como da 
 * [Visão geral do SDK móvel](https://developer.adobe.com/client-sdks/documentation/)
 * [API de servidor da Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
 
-Para obter um outline detalhado de qual funcionalidade de aplicativo é compatível no SDK da Web, consulte a seguinte documentação.
+Para obter uma descrição detalhada de qual funcionalidade de aplicativo é compatível com o SDK da Web, consulte a seguinte documentação:
 
 * [Suporte à funcionalidade do aplicativo SDK da Web](https://github.com/orgs/adobe/projects/18/views/1)
 
@@ -32,7 +32,7 @@ Para obter detalhes relacionados à migração de SDKs específicos do aplicativ
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=pt-BR)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=pt-BR)
 
-## Implantação do Experience Platform Web/Mobile SDK ou da API do Edge Network Server
+## Implantação utilizando o SDK da Web/móvel da Experience Platform ou a API de servidor da Edge Network
 
 O diagrama de arquitetura abaixo ilustra a implantação e a coleção de dados utilizando o SDK da Web da Experience Platform.
 
