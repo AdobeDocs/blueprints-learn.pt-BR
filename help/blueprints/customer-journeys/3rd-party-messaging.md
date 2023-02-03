@@ -1,16 +1,16 @@
 ---
-title: Journey Optimizer - Esquema de mensagens de terceiros
+title: Journey Optimizer - Blueprint de mensagens de terceiros
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagens de terceiros para orquestrar e enviar comunicações personalizadas.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '823'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Esquema de mensagens de terceiros
+# Blueprint de mensagens de terceiros
 
 Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagens de terceiros para orquestrar e enviar comunicações personalizadas.
 
@@ -38,7 +38,7 @@ Aplicativo de mensagens de terceiros
 
 ## Medidas de proteção
 
-[Link do produto medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=pt-BR)
+[Link do produto de medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=pt-BR)
 
 Medidas de proteção adicionais do Journey Optimizer:
 
@@ -69,8 +69,8 @@ Sistema de mensagens de terceiros
    * Tipo de autenticação: token | senha | OAuth2 são compatíveis com o Journey Optimizer
    * Duração do cache de autenticação: o token é válido por quanto tempo? 
 * Se a assimilação em lote for apenas compatível e, então, precisar ser transmitida para um mecanismo de armazenamento na nuvem, como o Amazon Kinesis ou o Azure Event Grid 1st
-   * Os dados podem ser agrupados em lotes desses mecanismos de armazenamento em nuvem e canalizados para terceiros
-   * Qualquer middleware necessário seria da responsabilidade do cliente ou de terceiros fornecer
+   * Os dados podem ser agrupados em lote nesses mecanismos de armazenamento na nuvem e canalizados para terceiros
+   * O fornecimento de middleware que porventura seja necessário fica sob responsabilidade do cliente ou de terceiros
 
 <br>
 
@@ -78,7 +78,7 @@ Sistema de mensagens de terceiros
 
 ### Adobe Experience Platform
 
-#### Esquema/conjuntos de dados
+#### Esquema/Conjuntos de dados
 
 1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) na Experience Platform com base nos dados fornecidos pelo cliente.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) na Experience Platform para que os dados sejam assimilados.
@@ -93,7 +93,7 @@ Sistema de mensagens de terceiros
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Journey.
 
-#### Fontes/destinos
+#### Origens/destinos
 
 1. [Assimile dados na Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) usando APIs de transmissão e conectores de origem.
 
@@ -103,13 +103,13 @@ Sistema de mensagens de terceiros
 1. Configure as origens de dados externos
 1. Configure ações personalizadas para aplicativos de terceiros
 
-### Configuração de push móvel (opcional, pois tokens de terceiros podem ser coletados)
+### Configuração de push para publicação de conteúdo para dispositivos móveis (opcional, já que terceiros podem coletar tokens)
 
 1. Implemente o SDK móvel da Experience Platform para coletar tokens de push e informações de logon a serem vinculadas a perfis de clientes conhecidos
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
    * Adobe Journey Optimizer
    * Rede de borda da Adobe Experience Platform
-   * Identidade    para Edge Network
+   * Identidade     para Edge Network
    * Mobile Core
 1. Certifique-se de ter um fluxo de dados dedicado para implantações de aplicativos móveis e implantações da Web
 1. Para mais informações, siga o [Manual do Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
