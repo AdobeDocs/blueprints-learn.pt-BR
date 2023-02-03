@@ -1,18 +1,18 @@
 ---
-title: Modelo de análise e inteligência de dados
+title: Blueprint de análise de dados e inteligência
 description: Este blueprint apresenta a capacidade da Adobe Experience Platform de realizar consultas e análises exploratórias dos dados existentes no data lake.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Modelo de análise e inteligência de dados
+# Blueprint de análise de dados e inteligência
 
 A Análise de dados e Inteligência consiste na capacidade da Adobe Experience Platform de realizar consultas e análises exploratórias dos dados existentes no data lake.
 
