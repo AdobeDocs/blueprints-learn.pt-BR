@@ -1,16 +1,16 @@
 ---
-title: Journey Optimizer com blueprint do Adobe Campaign
+title: Blueprint do Journey Optimizer com Adobe Campaign
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign para enviar mensagens utilizando o servidor de mensagens em tempo real no Campaign de forma nativa
 solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard
 exl-id: 076446a9-dfb9-464c-a04f-6864b8cb7b48
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer com Adobe Campaign   blueprint
+# Journey Optimizer com Adobe Campaign    blueprint
 
 Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign para enviar mensagens utilizando o servidor de mensagens em tempo real no Campaign de forma nativa.
 
