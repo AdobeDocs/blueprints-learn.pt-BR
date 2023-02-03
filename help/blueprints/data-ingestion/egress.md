@@ -7,7 +7,7 @@ exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -17,13 +17,13 @@ O Blueprint de acesso e exportação de dados descreve todos os métodos possív
 
 O Blueprint é dividido em duas categorias para acesso a dados da Experience Platform e dos aplicativos. Em primeiro lugar, abordagens para obtenção de dados da Experience Platform e dos aplicativos; este seria considerado um método de saída de dados do tipo push. Em segundo lugar, abordagens para acesso aos dados da Experience Platform e dos aplicativos; este seria considerado um método de acesso a dados do tipo pull.
 
-Acesso aos dados:
+Abordagens de acesso a dados:
 
 * [API de acesso ao perfil do cliente em tempo real](#rtcp-profile-access-api)
 * [API de acesso a dados](#data-access-api)
 * [Serviço de consulta](#query-service)
 
-Abordagens para exportação de dados:
+Abordagens da exportação de dados:
 
 * [Tags do lado do cliente](#client-side-tags-extensions)
 * [Encaminhamento de eventos](#event-forwarding)
@@ -105,7 +105,7 @@ Consulte a documentação de [Visão geral das tags](https://experienceleague.ad
 * Capacidade de configurar regras para solicitar dados somente quando determinados critérios forem atendidos.
 * Os dados são coletados diretamente do cliente, limitando os tipos de transformações e enriquecimentos que podem ser executados antes da coleta de dados.
 
-### Encaminhamento de evento {#event-forwarding}
+### Encaminhamento de eventos {#event-forwarding}
 
 As solicitações de coleta de dados são coletadas diretamente na Edge Network da Adobe. Na Edge Network, as solicitações para endpoints RESTful externos podem ser configuradas para serem encaminhadas para o destino externo.
 
@@ -117,7 +117,7 @@ Para obter mais informações, consulte a seguinte documentação: [Encaminhamen
 
 #### Considerações
 
-* Para usar o Encaminhamento de eventos, os dados devem ser enviados para a Rede de borda usando o SDK da Web ou o MobileSDK.
+* Para usar o Encaminhamento de eventos, os dados devem ser enviados para a Edge Network usando SDK da Web ou MobileSDK.
 * A abordagem de encaminhamento de eventos reduz o tempo e o peso do carregamento da página devido à adição de tags na página.
 * No momento, não há suporte ao enriquecimento do perfil de borda ou de outras fontes de dados.
 * Há suporte limitado à filtragem de dados e a transformações de mapeamento simples.

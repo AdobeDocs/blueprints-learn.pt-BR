@@ -8,11 +8,11 @@ exl-id: 5c3c94b6-c928-4d93-8b38-f8bd2aad2e68
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
-# Coleta e preparação de dados blueprints
+# Coleta e preparação de dados  blueprints
 
 Coleta e preparação de dados abrange todos os métodos pelos quais os dados podem ser preparados e assimilados na Adobe Experience Platform. Além disso, abrange a capacidade de coletar dados para o Edge Network da Adobe Experience Platform e depois encaminhá-los por meio do encaminhamento paralelo para destinos corporativos.
 

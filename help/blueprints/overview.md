@@ -6,7 +6,7 @@ exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 73%
+ht-degree: 79%
 
 ---
 
@@ -26,10 +26,10 @@ Os Digital Experience Blueprints são implementações repetíveis que permitem 
 * **[Audience and Profile Ativation to Enterprise Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Mantenha os perfis de clientes atualizados em todos os sistemas para capacitar suas equipes de vendas e suporte&#x200B;.*
-* **[blueprint do Activity Hub do cliente](/help/blueprints/audience-activation/customer-activity.md)**
+* **[Blueprint do Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)**
 
    *Fornece contexto para suporte e vendas assistidas por agentes.*
-* **[Modelo de análise e inteligência de dados](/help/blueprints/data-insights/analysis.md)**
+* **[Blueprint de análise de dados e inteligência](/help/blueprints/data-insights/analysis.md)**
 
    *Realiza consulta e análise exploratória dos dados no data lake.*
 
@@ -43,7 +43,7 @@ Os Digital Experience Blueprints são implementações repetíveis que permitem 
     <p><em>Envie mensagens e influencie as experiências do cliente em tempo real usando a [!UICONTROL Platform] como um hub central.</em></p>
   </td>
   <td>
-    <a href="/help/blueprints/audience-activation/known.md"><img alt="imagem em miniatura do blueprint de Ativação do cliente conhecido" src="audience-activation/assets/known_activation.svg" /></a>
+    <a href="/help/blueprints/audience-activation/known.md"><img alt="imagem em miniatura do blueprint de ativação de cliente conhecido" src="audience-activation/assets/known_activation.svg" /></a>
     <div><a href="/help/blueprints/audience-activation/known.md"><strong>Ativação de cliente conhecido</strong></a></div>
     <p><em>Forneça publicidade entre canais ativada pelo público.</em></p>
   </td>

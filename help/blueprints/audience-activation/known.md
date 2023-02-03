@@ -1,5 +1,5 @@
 ---
-title: Ativação de cliente conhecido blueprint
+title: Blueprint de ativação de cliente conhecido
 description: Ativação de público-alvo online/offline.
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection
 kt: 7086
@@ -7,17 +7,17 @@ exl-id: 011f4909-b208-46db-ac1c-55b3671ee48c
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 71%
+ht-degree: 83%
 
 ---
 
-# Blueprint de Ativação do Cliente Conhecido
+# Blueprint de ativação de cliente conhecido
 
 Use atributos e eventos offline, como pedidos, transações, CRM ou dados de fidelização offline, com comportamentos online para direcionamento e personalização online.
 
 Identificadores expandidos com controles de governança integrados fornecem mais oportunidades para se comunicar com clientes conhecidos. Ative públicos para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.
 
-Os detalhes adicionais são fornecidos no [Ativação de público-alvo e perfil com aplicativos Experience Cloud Blueprint](platform-and-applications.md) específico para integrações entre aplicativos Experience Platform e Experience Cloud.
+Detalhes adicionais são fornecidos no [Blueprint de ativação de público e perfil com aplicativos da Experience Cloud](platform-and-applications.md), específico para integrações entre a Experience Platform e os aplicativos da Experience Cloud.
 
 ## Casos de uso
 
@@ -34,12 +34,12 @@ Os detalhes adicionais são fornecidos no [Ativação de público-alvo e perfil 
 
 ### Ativação de cliente conhecida via Real-time Customer Data Platform
 
-<img src="assets/known_activation.svg" alt="Arquitetura de referência para o blueprint de Ativação do Cliente Conhecido" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/known_activation.svg" alt="Arquitetura de referência do blueprint de ativação de cliente conhecido" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
-### Ativação de cliente conhecida via Destinos baseados em pessoas do Audience Manager
+### Ativação de cliente conhecido via Destinos com base em pessoas do Audience Manager
 
-<img src="assets/AAM_PBD.svg" alt="Arquitetura de referência para o blueprint de Ativação do Cliente Conhecido" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/AAM_PBD.svg" alt="Arquitetura de referência do blueprint de ativação de cliente conhecido" style="width:90%; border:1px solid #4a4a4a" />
 <br>
 
 ## Medidas de proteção
@@ -63,7 +63,7 @@ Os detalhes adicionais são fornecidos no [Ativação de público-alvo e perfil 
 
 * Consulte a [Ativação de público-alvo e perfil com aplicativos Experience Cloud Blueprint](platform-and-applications.md) para obter detalhes adicionais sobre o compartilhamento de públicos-alvo do Real-time Customer Data Platform para o Audience Manager, Analytics, Target, Campaign e Journey Optimizer.
 
-## Etapas de implementação para destinos com base em pessoas do Audience Manager
+## Etapas para a implementação para destinos baseados em pessoas do Audience Manager
 
 * Para obter detalhes sobre a implementação do Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
 

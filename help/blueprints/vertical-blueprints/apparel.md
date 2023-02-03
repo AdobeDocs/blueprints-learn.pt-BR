@@ -7,11 +7,11 @@ exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
-# Desafio comercial da indústria de vestuário
+# Desafio das empresas do setor de vestuário
 
 Esta empresa de recursos específica é líder mundial em design, desenvolvimento, produção e marketing e vendas mundiais de calçado, vestuário, equipamentos, acessórios e serviços.
 
@@ -21,7 +21,7 @@ A equipe de tecnologia global está usando a Adobe Experience Platform e as solu
 * Marketing em tempo real baseado no acionador
 * Personalização e capacidade de medir a eficácia da campanha e a capacidade de executar a análise e a atribuição completas do cliente
 
-## abordagem Adobe
+## Abordagem da Adobe
 
 * Criar uma base sólida da Platform para fornecer valor aos negócios resulta em adoção em toda a empresa.
 * Colabore com equipes técnicas para garantir que o valor comercial seja fornecido com a implementação da tecnologia.
@@ -40,10 +40,10 @@ A equipe de tecnologia global está usando a Adobe Experience Platform e as solu
 
 <ul><li>Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li><li>Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li></ul>
 
-### Aplicativos Experience Cloud
+### Aplicativos da Experience Cloud
 
 <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicativos da Experience Cloud</li></ul>
 
 ### Arquitetura do Blueprint
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR"><img alt="imagem em miniatura de uma empresa de vestuário usando os blueprints de ativação de público-alvo, análise de jornada do cliente e jornadas do cliente" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR"><img alt="imagem em miniatura de uma empresa de vestuário usando os blueprints de ativação de público-alvo, customer journey analytics e jornadas do cliente" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>

@@ -1,5 +1,5 @@
 ---
-title: Ativação de público-alvo e perfil para destinos de transmissão de arquivos e empresas
+title: Ativação de público-alvo e perfil para o blueprint de destinos por streaming de arquivos e empresas
 description: Ativação de público-alvo e perfil para destinos corporativos
 solution: Real-Time Customer Data Platform
 kt: 7475
@@ -7,11 +7,11 @@ exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 66%
+ht-degree: 73%
 
 ---
 
-# Ativação de público-alvo e perfil para destinos de transmissão de arquivos e empresas
+# Ativação de público-alvo e perfil para o blueprint de destinos por streaming de arquivos e empresas
 
 Compartilhe alterações de perfil e público-alvo e eventos em streaming ou lote de [!UICONTROL Real-time Customer Data Platform] para armazenamentos e aplicativos de dados corporativos. Esses eventos de perfil e público-alvo podem ser usados para iniciar uma ação de vendas ou suporte ao cliente, como acompanhar um processo de aplicativo abandonado ou registro de webinar ou atualizar aplicativos corporativos com os atributos e informações mais recentes do cliente [!UICONTROL Real-time Customer Data Platform].
 
@@ -21,7 +21,7 @@ Compartilhe alterações de perfil e público-alvo e eventos em streaming ou lot
 
 ## Aplicativos
 
-* Adobe Experience Platform   Activation
+* Adobe Experience Platform    Activation
 
 ## Arquitetura
 

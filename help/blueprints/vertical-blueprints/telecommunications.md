@@ -7,20 +7,20 @@ exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
-# Desafio comercial das telecomunicações
+# Desafio das empresas do setor de telecomunicações
 
 Antes de implementar este blueprint, as campanhas de email “Adicione uma nova linha” da empresa de telecomunicações dependiam se o usuário tinha se convertido e somente verificado após um período de espera de 7 dias. Assim que estes critérios eram atendidos, quaisquer pontos de contato adicionais eram iniciados.
 
 Esta limitação teve de ser resolvida a fim de dar início a um acompanhamento mais pontual dos usuários que pretendiam adicionar uma linha antes do atual período de espera de 7 dias.
 
-## abordagem Adobe
+## Abordagem da Adobe
 
 * Os dados do Adobe Analytics para identificar usuários que não foram convertidos para adicionar uma nova linha são incluídos como uma fonte de dados para uso pelo Adobe Journey Optimizer.
-* O Adobe Journey Optimizer usa uma regra para o momento em que o cliente recebe uma mensagem personalizada de &quot;abandono&quot;, projetada para incentivar um cliente a converter, adicionando uma nova linha à conta.
+* O Adobe Journey Optimizer usa uma regra para o momento em que o cliente recebe uma mensagem personalizada de “abandono” projetada para incentivar a conversão de um cliente, adicionando uma nova linha à conta.
 
 
 ## Valor comercial fornecido
@@ -35,7 +35,7 @@ Esta limitação teve de ser resolvida a fim de dar início a um acompanhamento 
 
 <ul><li>Execute mensagens acionadas e por streaming usando a Adobe Experience Platform como hub central para transmissão de dados, perfis e segmentação de clientes, com o Journey Orchestration para transmitir a orquestração de jornadas e entrega de mensagens</li></ul>
 
-### Aplicativos Experience Cloud
+### Aplicativos da Experience Cloud
 
 <ul><li>Adobe Journey Optimizer</li></ul>
 

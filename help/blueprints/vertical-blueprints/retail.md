@@ -7,15 +7,15 @@ exl-id: a675bc81-e76c-491a-8718-359867d63351
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
-# Desafio comercial do setor de varejo
+# Desafio das empresas do setor de varejo
 
 Essa empresa baseada em experiências integrada buscou personalizar toda a jornada do cliente para aumentar a fidelidade e a venda adicional para clientes existentes e para melhorar os gastos com marketing em suas campanhas. A estratégia para atingir o objetivo é estender a capacidade digital para incluir dados offline de transações e dos clientes para impulsionar o crescimento.
 
-## abordagem Adobe
+## Abordagem da Adobe
 
 * Gere um perfil de cliente unificado que inclua todos os dados online/offline relevantes que podem ser ativados em tempo real
 * Orquestre as interações com o cliente na Web, em mídias e em canais de push para impulsionar o comportamento de compra pela primeira ou segunda vez.
@@ -32,7 +32,7 @@ Essa empresa baseada em experiências integrada buscou personalizar toda a jorna
 
 <ul><li>Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li><li>Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li></ul>
 
-### Aplicativos Experience Cloud
+### Aplicativos da Experience Cloud
 
 <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicativos da Experience Cloud</li></ul>
 

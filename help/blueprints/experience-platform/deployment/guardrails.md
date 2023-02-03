@@ -7,7 +7,7 @@ exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ As medidas de proteção são limites recomendados que oferecem orientação par
 
 ## Medidas de proteção para a Adobe Experience Platform e os Aplicativos da Adobe
 
-[Medidas de proteção para a ingestão de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=pt-BR)
+[Proteção da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=pt-BR)
 
 [Proteção à API de rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=pt-BR)
 
@@ -66,7 +66,7 @@ As medidas de proteção são limites recomendados que oferecem orientação par
 
 <br>
 
-## Descrições do produto
+## Descrições dos produtos
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 

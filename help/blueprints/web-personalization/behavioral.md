@@ -1,5 +1,5 @@
 ---
-title: Blueprint de personalização comportamental da Web
+title: Blueprint de personalização da Web com base comportamental
 description: Saiba como personalizar conteúdo com base no comportamento online e nos dados do público-alvo.
 landing-page-description: Aprenda a personalizar com base no comportamento online e nos dados do público-alvo.
 solution: Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
@@ -8,11 +8,11 @@ exl-id: b9882c2c-cb45-4efa-a85c-8fe48f641a12
 source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
-# Plano de personalização comportamental da Web/móvel
+# Blueprint de personalização da Web/móvel com base comportamental
 
 Personalize com base no comportamento online e nos dados do público-alvo.
 
@@ -45,7 +45,7 @@ O blueprint de personalização da Web/móvel pode ser implementado por meio das
 
 1. [Implemente o Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=pt-BR) em seus aplicativos da Web ou dispositivos móveis.
 
-### Etapas de implementação - Audience Manager ou Adobe Analytics
+### Etapas de implementação – Audience Manager ou Adobe Analytics
 
 1. [Implemente o Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR)
 1. [Implemente o Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=pt-BR)
@@ -82,7 +82,7 @@ O blueprint de personalização da Web/móvel pode ser implementado por meio das
 * [Documentação de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR)
 * [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR)
 
-## Publicações de blog relacionadas
+## Publicações do blog relacionadas
 
 * [[!DNL Blueprint for Web Personalization using Adobe Experience Platform Real-Time Customer Profile]](https://medium.com/adobetech/blueprint-for-web-personalization-using-adobe-experience-platform-real-time-customer-profile-fef2ce7a4b2f)
 * [[!DNL Integrating Adobe Experience Platform Decisioning Engine with AEM Websites]](https://jaeness.medium.com/integrating-adobe-experience-platform-decisioning-engine-with-aem-websites-9c222acd12e2)
