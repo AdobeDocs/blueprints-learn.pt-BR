@@ -1,18 +1,18 @@
 ---
-title: Projetos do Gerenciamento de decisões
+title: Projetos da Gestão de decisões
 description: Forneça ofertas personalizadas nas jornadas do cliente.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '757'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer - Planos de gerenciamento de decisões
+# Journey Optimizer – Visão geral da Gestão de decisões
 
-Para saber mais sobre o Gerenciamento de decisões, consulte [documentação do produto](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR)
+Para saber mais sobre a gestão de decisões, consulte a [documentação do produto](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR).
 
 A gestão de decisões da Adobe é um serviço fornecido como parte do Adobe Journey Optimizer. Esse blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece mais detalhes sobre os diferentes componentes da arquitetura e considerações que compõem a gestão de decisões.
 
@@ -25,7 +25,7 @@ O recurso gestão de decisões consiste em dois componentes principais:
 
 <img src="../assets/offers_overview.png" alt="Gestão de decisões" style="width:100%; border:1px solid #4a4a4a" />
 
-A gestão de decisões pode ser implantada de duas maneiras: na borda ou por meio do hub. Cada um desses métodos tem um conjunto específico de interfaces e protocolos para operação do serviço, conforme descrito nos respectivos blueprints referenciados abaixo. Podem também ser obtidas informações adicionais no [Documentação do Gerenciamento de decisões](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=pt-BR).
+A gestão de decisões pode ser implantada de duas maneiras: na borda ou por meio do hub. Cada um desses métodos tem um conjunto específico de interfaces e protocolos para operação do serviço, conforme descrito nos respectivos blueprints referenciados abaixo. Além disso, mais informações estão disponíveis na [documentação da Gestão de decisões](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/api-reference/offer-delivery-api/decisioning-vs-edge-apis.html?lang=pt-BR).
 
 ## Gestão de decisões no hub
 
@@ -33,7 +33,7 @@ A primeira é por meio do hub da Adobe Experience Platform, que é uma arquitetu
 
 * A qualificação da oferta pode se basear no perfil completo do cliente em tempo real, incluindo todos os atributos e eventos de experiência
 
-### Casos de uso do Gerenciamento de decisões no hub
+### Casos de uso da gestão de decisões no hub
 
 * Ofertas personalizadas em quiosques e experiências em loja.
 * Ofertas personalizadas por meio de experiências assistidas por agente, como centrais de atendimento ou interações de vendas.
@@ -50,12 +50,12 @@ A primeira é por meio do hub da Adobe Experience Platform, que é uma arquitetu
 
 A segunda abordagem é por meio da Experience Edge Network, que é uma infraestrutura distribuída globalmente para fornecer experiências rápidas de subsegundo e milissegundo. A experiência do consumidor final é executada pela infraestrutura de borda mais próxima da localização geográfica do consumidor para minimizar a latência. A gestão de decisões na borda foi projetada para fornecer experiências do consumidor em tempo real, como solicitações de personalização de entrada da Web ou móvel. Para obter mais informações sobre a gestão de decisões na borda, consulte o blueprint [Gestão de decisões na borda](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=pt-BR).
 
-### Casos de uso do Gerenciamento de decisões na borda
+### Casos de uso da gestão de decisões na borda
 
 * Personalização online por meio de experiências de entrada da Web ou móvel.
 * Execução de jornada entre canais – consistência de ofertas na Web, dispositivos móveis, email e outros canais de interação por meio do Adobe Journey Optimizer.
 
-### Gestão de decisões na borda  considerações técnicas
+### Gestão de decisões na borda   considerações técnicas
 
 * Solicitações por segundo = 5.000.
 * Latência de resposta &lt; 250 ms.
