@@ -4,13 +4,13 @@ description: Execute mensagens e experiências acionadas usando a Adobe Experien
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer blueprints
+# Journey Optimizer  blueprints
 
 O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reagirem em tempo real aos comportamentos dos clientes e atendê-los onde quer que eles estejam. Os recursos de gerenciamento de dados foram transferidos para a Adobe Experience Platform, permitindo que as equipes de marketing se concentrem no que fazem de melhor: criar jornadas de clientes de alto nível e conversas personalizadas.  Este blueprint descreve os recursos técnicos do aplicativo e fornece detalhes sobre os diferentes componentes de arquitetura que compõem o Adobe Journey Optimizer.
 
@@ -33,7 +33,7 @@ O Adobe Journey Optimizer é um sistema criado para as equipes de marketing reag
 
 <br>
 
-## Cenários de blueprint
+## Cenários do blueprint
 
 | Cenário | Descrição | Recursos |
 | :-- | :--- | :--- |
@@ -89,7 +89,7 @@ Fique ciente dos seguintes itens, os quais não estão listados no link acima:
    * Autenticação por usuário/senha ou token de autorização
 * Não é possível empacotar e mover componentes individuais da Adobe Experience Platform ou do Journey Optimizer entre várias sandboxes. Em ambientes novos, deve ser implementado outra vez
 
-### Medidas de proteção para a ingestão de dados
+### Proteção da assimilação de dados
 
 <img src="../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Fluxo de dados da Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -105,7 +105,7 @@ Fique ciente dos seguintes itens, os quais não estão listados no link acima:
 
 ### Adobe Experience Platform
 
-#### Esquema/conjuntos de dados
+#### Esquema/Conjuntos de dados
 
 1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) na Experience Platform com base nos dados fornecidos pelo cliente.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) na Experience Platform para que os dados sejam assimilados.
@@ -120,7 +120,7 @@ Fique ciente dos seguintes itens, os quais não estão listados no link acima:
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Journey.
 
-#### Fontes/destinos
+#### Origens/destinos
 
 1. [Assimile dados na Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) usando APIs de transmissão e conectores de origem.
 
@@ -130,13 +130,13 @@ Fique ciente dos seguintes itens, os quais não estão listados no link acima:
 1. Configure as origens de dados externos.
 1. Configure as ações personalizadas.
 
-### Configuração de push móvel
+### Configuração de push para publicação de conteúdo para dispositivos móveis
 
 1. Implemente o SDK móvel da Experience Platform para coletar tokens de push e informações de logon a serem vinculadas a perfis de clientes conhecidos
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
 1. Adobe Journey Optimizer
 1. Rede de borda da Adobe Experience Platform
-1. Identidade    para Edge Network
+1. Identidade     para Edge Network
 1. Mobile Core
 1. Certifique-se de ter um fluxo de dados dedicado para implantações de aplicativos móveis e implantações da Web
 1. Para mais informações, siga o [Manual do Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)
