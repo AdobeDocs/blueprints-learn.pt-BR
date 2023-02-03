@@ -1,19 +1,19 @@
 ---
-title: blueprint do Activity Hub do cliente
+title: Blueprint do Hub de atividades do cliente
 description: "Pesquisas de [!UICONTROL perfis de clientes em tempo real] para fornecer contexto ao suporte e às vendas atendidas por agentes."
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '382'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
-# blueprint do Activity Hub do cliente
+# Blueprint do Hub de atividades do cliente
 
-O blueprint do Activity Hub do cliente mostra como os aplicativos externos podem acessar o Adobe Experience Platform [!UICONTROL Perfil do cliente em tempo real].
+O blueprint do Hub de atividades do cliente apresenta como aplicativos externos podem acessar o [!UICONTROL Perfil de cliente em tempo real] da Adobe Experience Platform.
 
 Aplicativos externos podem acessar Perfis de clientes com uma solicitação GET da API. Atributos, eventos, associações de segmentos e funcionalidades orientadas por modelos armazenadas no perfil podem depois ser usados nesses aplicativos externos que não são da Adobe.
 
@@ -37,7 +37,7 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 
 ## Etapas de implementação
 
-1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm) para que os dados sejam assimilados.
+1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Configure as identidades corretas e os namespaces de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR) no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
 1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
@@ -47,7 +47,7 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 
 ## Documentação relacionada
 
-* [Descrição do produto Adobe Experience Platform Activation](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform0.html)
+* [Descrição do produto Ativação do Adobe Experience Platform](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform0.html)
 * Documentação do [[!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR)
 * [Medidas de proteção de perfis](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 * [API de pesquisa de perfil](https://www.adobe.io/apis/experienceplatform/home/api-reference.html)
