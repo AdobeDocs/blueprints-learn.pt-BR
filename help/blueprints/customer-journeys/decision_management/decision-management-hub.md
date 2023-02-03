@@ -1,16 +1,16 @@
 ---
-title: Gerenciamento de decisões no blueprint do Hub
+title: Gestão de decisões no blueprint do Hub
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em quiosques, em experiências assistidas por agentes e em emails e outras apresentações.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '906'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Gerenciamento de decisões no blueprint do Hub
+# Gestão de decisões no blueprint do Hub
 
 Para saber mais sobre a gestão de decisões, consulte a documentação do produto [AQUI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR) e a Visão geral da gestão de decisões [AQUI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=pt-BR)
 
@@ -26,7 +26,7 @@ Esse blueprint abordará as especificidades da gestão de decisões no hub.
 
 Para obter mais informações sobre a gestão de decisões na borda, consulte o blueprint [Gestão de decisões na borda](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=pt-BR).
 
-## Casos de uso do Gerenciamento de decisões no hub
+## Casos de uso da gestão de decisões no hub
 
 * Ofertas personalizadas em quiosques e experiências em loja.
 * Ofertas personalizadas por meio de experiências assistidas por agente, como centrais de atendimento ou interações de vendas.
@@ -61,7 +61,7 @@ Adobe Experience Platform
 * Acesso ao perfil completo do cliente em tempo real, incluindo atributos, eventos de experiência e associações de público.
 
 
-### Medidas de proteção para a ingestão de dados
+### Proteção da assimilação de dados
 
 <img src="../../experience-platform/assets/aep_data_flow_guardrails.svg" alt="Fluxo de dados da Experience Platform" style="border:1px solid #4a4a4a" width="85%" />
 
@@ -85,7 +85,7 @@ Adobe Experience Platform
 
 ### Adobe Experience Platform
 
-#### Esquema/conjuntos de dados
+#### Esquema/Conjuntos de dados
 
 1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) na Experience Platform com base nos dados fornecidos pelo cliente.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) na Experience Platform para que os dados sejam assimilados.
@@ -100,7 +100,7 @@ Adobe Experience Platform
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Journey.
 
-#### Fontes/destinos
+#### Origens/destinos
 
 1. [Assimile dados na Experience Platform](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) usando APIs de transmissão e conectores de origem.
 
