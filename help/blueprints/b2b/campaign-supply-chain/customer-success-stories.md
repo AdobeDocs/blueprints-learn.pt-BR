@@ -1,11 +1,11 @@
 ---
 title: Histórias de sucesso do cliente
-description: Histórias de sucesso do cliente - Otimizar a cadeia de suprimento do Campaign com a Marketo e a Workfront
+description: Histórias de sucesso do cliente  - Otimizar a cadeia de suprimento da campanha com o Marketo e o Workfront
 exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Os clientes do Adobe em vários setores estão percebendo o valor de alinhar o p
 
 * Nokia (webinário): [Como a Nokia turbina o planejamento e a execução de campanha com o Adobe](https://engage.adobe.com/MarWF22Q4WBR-Registration.html){target="_blank"}
 
-* Lumen (seção de conferência): [Como a Lumen aumenta a agilidade das experiências do cliente omnicanal - S710](https://business.adobe.com/summit/2022/sessions/how-lumen-drives-agility-for-omnichannel-customer-s710.html){target="_blank"}
+* Lumen (seção de conferência): [Como a Lumen aumenta a agilidade das experiências do cliente onicanal - S710](https://business.adobe.com/summit/2022/sessions/how-lumen-drives-agility-for-omnichannel-customer-s710.html){target="_blank"}
 
 * BNY Mellon (seção de conferência): [Como a BNY Mellon melhorou a execução da campanha com as pessoas, os processos e a tecnologia da Adobe - S127](https://business.adobe.com/events/experience-makers-live/2022/sessions/how-bny-mellon-improved-campaign-execution-with-pe-s127.html){target="_blank"}
 
