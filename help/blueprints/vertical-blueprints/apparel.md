@@ -4,10 +4,10 @@ description: Vários blueprints foram usados para permitir o marketing em tempo 
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 93%
+source-wordcount: '335'
+ht-degree: 88%
 
 ---
 
@@ -46,4 +46,4 @@ A equipe de tecnologia global está usando a Adobe Experience Platform e as solu
 
 ### Arquitetura do Blueprint
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR"><img alt="imagem em miniatura de uma empresa de vestuário usando os blueprints de ativação de público-alvo, customer journey analytics e jornadas do cliente" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR"><img alt="imagem para uma empresa da Apparel usando ativação de público-alvo, análise de jornada do cliente e jornada Blueprints do cliente" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image"/></a>
