@@ -1,20 +1,20 @@
 ---
 title: Ativação para o Google Customer Match
 description: Ativação para o Google Customer Match
-solution: Real-Time Customer Data Platform, Data Collection
+solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: 32bdc04d-b101-4b17-af27-329e5c71d888
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
 
 # Ativação para o Google Customer Match
 
-Assimile dados de clientes de várias fontes para criar uma única visualização de perfil do cliente, segmente esses perfis para criar públicos para iniciativas de marketing e personalização e compartilhe esses públicos com redes de anúncios sociais, como o Google Customer Match, para promover campanhas direcionadas e de personalização voltadas para eles. O Google Customer Match permite que você use dados online e offline para atingir e voltar a se engajar com clientes em todas as propriedades detidas ou operadas pelo Google, tais como Search, Shopping, Gmail e YouTube.
+Assimile dados de clientes de várias fontes para criar uma única visualização de perfil do cliente, segmente esses perfis para criar públicos para iniciativas de marketing e personalização e compartilhe esses públicos com redes de anúncios sociais, como o Google Customer Match, para promover campanhas direcionadas e de personalização voltadas para eles. A Correspondência de clientes do Google permite que você use seus dados online e offline para acessar e reengajar seus clientes em propriedades próprias e operadas da Google, como: Pesquisar, Comprar, Gmail e YouTube.
 
 ## Casos de uso
 
@@ -27,7 +27,7 @@ Assimile dados de clientes de várias fontes para criar uma única visualizaçã
 
 ## Arquitetura
 
-<img src="../assets/gcm.svg" alt="Arquitetura de referência para a ativação do Google Customer Match" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../assets/gcm.svg" alt="Arquitetura de referência para a ativação do Google Customer Match" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Etapas de implementação
 

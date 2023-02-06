@@ -1,21 +1,21 @@
 ---
-title: Ativação de público-alvo e perfil com o blueprint de aplicativos do Experience Cloud
+title: Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud
 description: Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud.
-solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 75%
+ht-degree: 81%
 
 ---
 
-# Ativação de público-alvo e perfil com o blueprint de aplicativos do Experience Cloud
+# Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud
 
 Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud. Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud.
 
-Ativation with Experience Cloud Applications (Ativação com aplicativos) está alinhada à [Blueprint de Ativação do Cliente Conhecido](known.md).
+A ativação com aplicativos da Experience Cloud está em sintonia com o [blueprint de ativação de cliente conhecido](known.md).
 
 ## Casos de uso
 
@@ -25,7 +25,7 @@ Ativation with Experience Cloud Applications (Ativação com aplicativos) está 
 
 ## Aplicativos
 
-* Adobe Experience Platform
+* Adobe Experience Platform   
 * [!UICONTROL Real-time Customer Data Platform]
 * Experience Platform Activation
 * Aplicativos da Experience Cloud
@@ -41,14 +41,14 @@ Ativation with Experience Cloud Applications (Ativação com aplicativos) está 
 
 Consulte a seção [Experience Platform e Arquitetura de aplicativos](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/platform-applications.html?lang=pt-BR) para obter diagramas de arquitetura adicionais relacionados a integrações da Experience Platform com aplicativos da Experience Cloud.
 
-### Ativação de público-alvo e perfil com aplicativos Experience Cloud
+### Ativação de público-alvo e perfil com aplicativos da Experience Cloud
 
-<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitetura de referência para Audience and Profile Ativation com aplicativos Experience Cloud" style="width:90%; border:1px solid #4a4a4a" />
+<img src="../experience-platform/assets/aep+apps_horizontal.svg" alt="Arquitetura de referência para a ativação de público-alvo e perfil com aplicativos da Experience Cloud" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 <br>
 
 ## Medidas de proteção
 
-Consulte as [medidas de proteção na página de Visão geral de ativação de público-alvo e perfil](overview.md)  E a página de [medidas de proteção da implantação](../experience-platform/deployment/guardrails.md).
+Consulte as [medidas de proteção na página de Visão geral de ativação de público-alvo e perfil](overview.md)   E a página de [medidas de proteção da implantação](../experience-platform/deployment/guardrails.md).
 
 ## Considerações de implementação
 

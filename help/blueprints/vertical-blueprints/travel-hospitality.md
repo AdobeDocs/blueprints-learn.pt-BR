@@ -1,23 +1,23 @@
 ---
 title: Setor de viagens e hospitalidade – Ativação com dados online e offline
 description: Decisões em tempo real com uma única visão consolidada do comportamento do cliente em vários canais.
-solution: Real-Time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
+solution: Real-time Customer Data Platform, Customer Journey Analytics, Analytics, Audience Manager, Experience Manager, Target
 kt: 9485
 exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
-# Desafio comercial do setor de viagem e hospitalidade
+# Desafio das empresas do setor de viagens e hospitalidade
 
 Uma empresa de cassino e entretenimento nos Estados Unidos queria revolucionar sua capacidade de aproveitar os dados para criar conexões personalizadas em tempo real.  Essa visão tornou-se ainda mais vital à medida que a pandemia da COVID-19 mudou a forma como os clientes interagem com empresas do setor de viagens e hospitalidade.
 
 Aproveitando as tecnologias e serviços de Adobe, essa organização está agora preparada para se destacar em suas metas e está pronta para enfrentar o futuro pós-pandemia.
 
-## abordagem Adobe
+## Abordagem da Adobe
 
 * Adobe Experience Platform integrada em sua pilha de tecnologia existente para oferecer interações com o cliente entre soluções.
 * Ativação do Real-time Customer Data Platform e Customer Journey Analytics para fornecer análise contínua e perfis personalizados de clientes.
@@ -36,7 +36,7 @@ Aproveitando as tecnologias e serviços de Adobe, essa organização está agora
 
 <ul><li>Ativação para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.</li><li>Use atributos e eventos offline, como pedidos, transações ou dados de CRM ou de fidelização offline, juntamente com comportamentos online para direcionamento e personalização online.</li></li></ul>
 
-### Aplicativos Experience Cloud
+### Aplicativos da Experience Cloud
 
 <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager</li><li>Customer Journey Analytics</li></ul>
 

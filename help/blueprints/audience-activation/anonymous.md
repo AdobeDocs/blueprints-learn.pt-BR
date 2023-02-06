@@ -6,7 +6,7 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 4b09d5e43dba53df2f066917f95eae0f74191de8
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 68%
@@ -35,7 +35,7 @@ O Microsoft Bing, Google DV360 e TradeDesk são os principais destinos de public
 
 ## Arquitetura
 
-<img src="assets/anonymous_activation.svg" alt="Arquitetura de referência para o blueprint de ativação de público-alvo anônima" style="width:90%; border:1px solid #4a4a4a" />
+<img src="assets/anonymous_activation.svg" alt="Arquitetura de referência para o blueprint de ativação de público-alvo anônima" style="width:90%; border:1px solid #4a4a4a" zoomable="yes" />
 
 <br>
 

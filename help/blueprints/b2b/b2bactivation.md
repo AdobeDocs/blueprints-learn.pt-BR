@@ -1,10 +1,10 @@
 ---
 title: Blueprint da ativação de público-alvo e perfil B2B
 description: Forneça públicos-alvo baseados em conta e experiências de clientes centradas em perfis com o Real-time Customer Data Platform ​.
-solution: Real-Time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 80%

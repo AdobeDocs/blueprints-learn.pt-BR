@@ -1,11 +1,11 @@
 ---
 title: Bluprints de ativação de público-alvo e perfil
 description: Forneça experiências do cliente com o Real-time Customer Data Platform ativadas por público-alvo e centradas em perfis.
-solution: Real-Time Customer Data Platform
+solution: Real-time Customer Data Platform
 kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 94%
@@ -30,7 +30,7 @@ Com uma abordagem que prioriza os canais, cada canal age como um silo, no qual o
 
 A ilustração abaixo descreve os componentes principais do Perfil do cliente em tempo real da Experience Platform.
 
-<img src="assets/profile_architecture.jpg" alt="Arquitetura de referência para o Perfil do cliente em tempo real" style="border:1px solid #4a4a4a" width="90%"/>
+<img src="assets/profile_architecture.jpg" alt="Arquitetura de referência para o Perfil do cliente em tempo real" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
 
 As primeiras fontes de dados são assimiladas na Experience Platform. Se a fonte de dados estiver configurada para processamento de perfil, ela será alimentada no Perfil do cliente em tempo real. Um único fragmento de perfil ou documento é criado para cada fonte de dados e cada registro de ID primária configurado para cada fonte de dados. Além disso, conforme os dados são assimilados ao perfil, eles também são processados pelo serviço de identidade. Qualquer registro oriundo de fontes de dados que tenham mais de uma identidade marcada no esquema e com valores correspondentes preenchidos no registro será processado como um relacionamento de identidade dentro do serviço de identidade.
 
@@ -42,7 +42,7 @@ A mesclagem de fragmentos de perfil ocorre quando o gráfico de identidade forne
 
 A ilustração abaixo descreve os diferentes métodos de segmentação e os diferentes padrões de ativação de perfil e público-alvo.
 
-<img src="assets/segmentation_destination_overview.png" alt="Arquitetura de referência para o Perfil do cliente em tempo real" style="border:1px solid #4a4a4a" width="90%"/>
+<img src="assets/segmentation_destination_overview.png" alt="Arquitetura de referência para o Perfil do cliente em tempo real" style="border:1px solid #4a4a4a" width="90%" zoomable="yes"/>
 
 ## Medidas de proteção para blueprints de ativação de público-alvo e perfil
 
