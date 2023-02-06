@@ -4,7 +4,7 @@ description: Oferecimento de experiências do cliente em tempo real em canais de
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 05666e35eebe81fa5a061250528b1c2f4a7376a6
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 96%
@@ -38,4 +38,4 @@ Essa empresa baseada em experiências integrada buscou personalizar toda a jorna
 
 ### Arquitetura do Blueprint
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR"><img alt="imagem em miniatura de uma empresa de varejo que oferece experiências do cliente em tempo real em canais de mídia digital, email, push e Web" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/platform-and-applications.html?lang=pt-BR"><img alt="imagem em miniatura de uma empresa de varejo que oferece experiências do cliente em tempo real em canais de mídia digital, email, push e Web" src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/aep+apps_vertical.svg?lang=en" class="modal-image" /></a>

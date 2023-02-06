@@ -2,10 +2,10 @@
 title: Blueprint de entrada e criação
 description: Entrada e criação - Otimizar a cadeia de suprimento de campanha com o Marketo e o Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '1307'
-ht-degree: 100%
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Para essa integração, você usará o Workfront Fusion, uma camada de automaç�
 
 O fluxo de trabalho abaixo mostra uma solicitação de webinário feita por um gerente de campanha usando um formulário de solicitação do Workfront. Os detalhes enviados na solicitação acionam um programa e email a serem criados no Marketo Engage para o webinário. Além disso, os dados são obtidos do formulário de solicitação para preencher o conteúdo do email.
 
-![](assets/intake-and-create-1.png)
+![Introdução e criação de blueprint](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >

@@ -5,10 +5,10 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 83%
+source-wordcount: '398'
+ht-degree: 88%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 83%
 
 Crie e publique públicos identificados no Customer Journey Analytics (CJA) para o Perfil do cliente em tempo real na Adobe Experience Platform para direcionamento e personalização do cliente. Ideal para criar públicos usando dados históricos ou públicos mais refinados por meio da filtragem granular e campos calculados no Customer Journey Analytics.
 
-## Guia de publicação do público-alvo do Customer Journey Analytics
+## Guia de publicação do público do Customer Journey Analytics
 
 Consulte a documentação a seguir para obter orientação sobre implementação e configuração na publicação de públicos-alvo do Customer Journey Analytics para a Real-time Customer Data Platform. [Documentação](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=pt-BR)
 
-## Arquitetura para blueprints de Customer Journey Analytics
+## Arquitetura de blueprints do Customer Journey Analytics
 
-![Diagrama da arquitetura](assets/CJA_RTCDP.svg)
+![Diagrama da arquitetura](assets/CJA_RTCDP.svg){zoomable=&quot;yes&quot;}
 
-## Diagrama de grade de proteção para blueprints de Customer Journey Analytics
+## Diagrama de medidas de proteção para blueprints do Customer Journey Analytics
 
 * Para obter informações detalhadas e medidas de proteção para latências de ponta a ponta, consulte o [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md)
 
-![Diagrama de medidas de proteção](../experience-platform/assets/CJA_guardrails.svg)
+![Diagrama de medidas de proteção](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Perguntas frequentes
 
@@ -42,7 +42,7 @@ Consulte a documentação a seguir para obter orientação sobre implementação
 
 * O serviço de identidade também processa as mensagens do CJA? Ou seja, o CJA pode adicionar identidades a um gráfico de identidade de perfil por meio do compartilhamento de público? Não, o serviço de identidade não processa as mensagens do CJA.
 
-## Publicações de blog relacionadas
+## Publicações do blog relacionadas
 
 * [[!DNL Blueprint for Multi-Channel Orchestration in Adobe Experience Platform]](https://medium.com/adobetech/blueprint-for-multi-channel-orchestration-in-adobe-experience-platform-c68317e94184)
 * [[!DNL Leveraging External Data Platforms in Adobe Experience Platform Journey Orchestration]](https://medium.com/adobetech/leveraging-external-data-platforms-in-adobe-experience-platform-journey-orchestration-54fc6134fe17)

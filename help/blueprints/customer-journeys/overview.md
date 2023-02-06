@@ -5,8 +5,8 @@ solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaig
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
+source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -22,6 +22,6 @@ Atualmente, os clientes que desejarem uma solução de Jornada do cliente podem 
 
 | Blueprint | Descrição | Arquitetura |
 |---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | Criado de forma nativa com base no Perfil do cliente em tempo real da Experience Platform, permite que as equipes de marketing reajam em tempo real a mudanças de comportamento dos clientes e os atendam onde quer que estejam, em qualquer canal e a qualquer momento | <img src="assets/ajo-architecture.svg" alt="Blueprint de arquitetura de referência para o Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" /> |
-| **[Adobe Campaign v8](campaign-v8.md)** | Ferramenta de última geração para o desenvolvimento de campanhas, otimizada para processos de campanha e de gerenciamento de dados de alta complexidade. Permite que os clientes combinem, descubram e criem comunicações sofisticadas para campanhas de marketing | <img src="assets/campaign-v8-architecture.svg" alt="Blueprint de arquitetura de referência para o Campaign v8" style="width:75%; border:1px solid #4a4a4a" /> |
-| **[Adobe Campaign v7](campaign-v7.md)** | Ferramenta tradicional para o desenvolvimento de campanhas, criada com foco em campanhas de marketing em lote para diversos canais, como email, SMS e correspondência direta. Permite que os clientes orquestrem e gerenciem as diversas comunicações de clientes em um único lugar | <img src="assets/campaign-v7-architecture.svg" alt="Blueprint de arquitetura de referência para o Campaign v7" style="width:75%; border:1px solid #4a4a4a" /> |
+| **[Journey Optimizer](journey-optimizer.md)** | Criado de forma nativa com base no Perfil do cliente em tempo real da Experience Platform, permite que as equipes de marketing reajam em tempo real a mudanças de comportamento dos clientes e os atendam onde quer que estejam, em qualquer canal e a qualquer momento | <img src="assets/ajo-architecture.svg" alt="Blueprint de arquitetura de referência para o Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe Campaign v8](campaign-v8.md)** | Ferramenta de última geração para o desenvolvimento de campanhas, otimizada para processos de campanha e de gerenciamento de dados de alta complexidade. Permite que os clientes combinem, descubram e criem comunicações sofisticadas para campanhas de marketing | <img src="assets/campaign-v8-architecture.svg" alt="Blueprint de arquitetura de referência para o Campaign v8" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe Campaign v7](campaign-v7.md)** | Ferramenta tradicional para o desenvolvimento de campanhas, criada com foco em campanhas de marketing em lote para diversos canais, como email, SMS e correspondência direta. Permite que os clientes orquestrem e gerenciem as diversas comunicações de clientes em um único lugar | <img src="assets/campaign-v7-architecture.svg" alt="Blueprint de arquitetura de referência para o Campaign v7" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
