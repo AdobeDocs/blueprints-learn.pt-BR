@@ -4,10 +4,10 @@ description: Oferecimento de experiências do cliente em tempo real em canais de
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ Essa empresa baseada em experiências integrada buscou personalizar toda a jorna
 
 | Metas | Táticas | Valor desbloqueado |
 |---|---|---|
-| **Orquestrar jornadas do cliente em tempo real **<br></br>** Impulsionar compras repetidas de novos clientes **<br></br>** Melhorar a eficiência do marketing e reduzir os custos de mídia**</ul> | <ul><li>Dados robustos e estratégia de identidade para alimentar um perfil abrangente em tempo real.</li><li>Fluxo de dados transacionais e do cliente em tempo real, incluindo uma carga histórica de 90 dias</li><li>Segmentação de transmissão para Google e Adobe Target com o intuito de potencializar os gastos com mídia e os esforços de personalização.</li><li>Jornadas do cliente em tempo real por meio da Adobe Campaign com uma estratégia para medir o desempenho</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> Oferecimento de experiências do cliente em tempo real em mídias, emails, push e Web</li><li><strong>Fontes de dados:</strong> Dados de transmissão que abrangem as lojas de perfil deste varejista, o sistema de pedidos, o catálogo de produtos e as lojas de varejo.</li><li><strong>Ativação de mídia em tempo real:</strong> Transmissão de segmentos para mídia do Google para atribuição e supressão de anúncios</li><li><strong>Personalização da Web em tempo real:</strong> Transmissão de segmentos para o Adobe Target com o intuito de realizar a ativação na experiência online do varejista.</li><li><strong>Journey Orchestration em escala:</strong> Mensagens acionadas em tempo real enriquecidas com todos os dados disponíveis do cliente e ativação em tempo real em email e canais de push</li></ul> |
+| **Orquestrar jornadas do cliente em tempo real **<br></br>** Impulsionar compras repetidas de novos clientes **<br></br>** Melhorar a eficiência do marketing e reduzir os custos de mídia**</ul> | <ul><li>Dados robustos e estratégia de identidade para alimentar um perfil abrangente em tempo real.</li><li>Fluxo de dados transacionais e do cliente em tempo real, incluindo uma carga histórica de 90 dias</li><li>Segmentação de transmissão para Google e Adobe Target com o intuito de potencializar os gastos com mídia e os esforços de personalização.</li><li>Jornadas do cliente em tempo real por meio da Adobe Campaign com uma estratégia para medir o desempenho</li></ul> | <ul><li><strong>Real-time Customer Data Platform:</strong> Fornecer experiências do cliente em tempo real em mídia, email, push e Web</li><li><strong>Fontes de dados:</strong> Dados de transmissão que abrangem as lojas de perfil deste varejista, o sistema de pedidos, o catálogo de produtos e as lojas de varejo.</li><li><strong>Ativação de mídia em tempo real:</strong> Transmissão de segmentos para mídia do Google para atribuição e supressão de anúncios</li><li><strong>Personalização da Web em tempo real:</strong> Transmissão de segmentos para o Adobe Target com o intuito de realizar a ativação na experiência online do varejista.</li><li><strong>Journey Orchestration em escala:</strong> Mensagens acionadas em tempo real enriquecidas com todos os dados disponíveis do cliente e ativação em tempo real em email e canais de push</li></ul> |
 
 ## blueprint principal: Público-alvo e ativação com aplicativos Experience Cloud
 

@@ -4,16 +4,16 @@ description: Ativação de público-alvo e perfil para destinos corporativos
 solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: 0d1bb41eb6b70be7c3c8a3196c9974a0d7807404
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 # Ativação de público-alvo e perfil para o blueprint de destinos por streaming de arquivos e empresas
 
-Compartilhe alterações de perfil e público-alvo e eventos em streaming ou lote de [!UICONTROL Real-time Customer Data Platform] para armazenamentos e aplicativos de dados corporativos. Esses eventos de perfil e público-alvo podem ser usados para iniciar uma ação de vendas ou suporte ao cliente, como acompanhar um processo de aplicativo abandonado ou registro de webinar ou atualizar aplicativos corporativos com os atributos e informações mais recentes do cliente [!UICONTROL Real-time Customer Data Platform].
+Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em lote da [!UICONTROL Real-time Customer Data Platform] para armazenamentos e aplicativos de dados corporativos. Esses eventos de perfil e público-alvo podem ser usados para iniciar uma ação de vendas ou suporte ao cliente. Exemplos incluem: acompanhar um processo de aplicativo abandonado ou de inscrição em webinário, ou atualizar aplicativos corporativos com os atributos e informações mais recentes do cliente a partir da [!UICONTROL Real-time Customer Data Platform].
 
 ## Casos de uso
 
@@ -25,7 +25,7 @@ Compartilhe alterações de perfil e público-alvo e eventos em streaming ou lot
 
 ## Arquitetura
 
-<img src="assets/enterprise_destination_activation.svg" alt="Arquitetura de referência para cenários de ativação empresarial" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
+<img src="assets/known_activation.svg" alt="Arquitetura de referência para cenários de ativação empresarial" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 
 ## Medidas de proteção
@@ -39,7 +39,7 @@ Compartilhe alterações de perfil e público-alvo e eventos em streaming ou lot
 1. [Configure as identidades corretas e os namespaces de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR) no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
 1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
 1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
-1. [Provisionamento [!UICONTROL Real-time Customer Data Platform] compartilhamento de segmentos](https://www.adobe.com/go/audiences) entre o Experience Platform e o Audience Manager para os públicos-alvo definidos no Experience Platform a serem compartilhados com o Audience Manager.
+1. [Forneça compartilhamento de segmentos da [!UICONTROL Real-time Customer Data Platform]](https://www.adobe.com/go/audiences) entre a Experience Platform e o Audience Manager. Assim, os públicos definidos na Experience Platform podem ser compartilhados com o Audience Manager.
 1. [Crie segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR) na Experience Platform. O sistema decide automaticamente se o segmento é avaliado em lote ou por transmissão.
 1. [Configure destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=pt-BR) para compartilhar atributos de perfil e associações de públicos com destinos desejados.
 
@@ -48,12 +48,12 @@ Compartilhe alterações de perfil e público-alvo e eventos em streaming ou lot
 * [Documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=pt-BR)
 * [Visão geral dos destinos de armazenamento na nuvem](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/overview.html?lang=pt-BR#catalog)
 * [Destino HTTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/http-destination.html?lang=pt-BR#overview)
-* [[!UICONTROL Real-time Customer Data Platform] Descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform.html)
+* Descrição do produto [[!UICONTROL Real-time Customer Data Platform]](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform.html)
 * [Guias de perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 * [Documentação de segmentação](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=pt-BR)
 
 ## Vídeos e tutoriais relacionados
 
-* [[!UICONTROL Real-time Customer Data Platform] visão geral](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
-* [Demonstração do [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
+* Visão geral da [[!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=pt-BR)
+* [Demonstração da [!UICONTROL Real-time Customer Data Platform]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/demo.html?lang=pt-BR)
 * [Criação de segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR)

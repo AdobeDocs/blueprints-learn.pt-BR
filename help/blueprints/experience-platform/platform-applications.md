@@ -5,10 +5,10 @@ solution: Experience Platform, Campaign, Analytics, Target, Customer Journey Ana
 kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '989'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 <td colspan="1">Ad Cloud</td>
 <td colspan="1">
 <ul>
-<li>Os públicos-alvo definidos no Real-time Customer Data Platform podem ser compartilhados com a Ad Cloud para direcionamento via Audience Manager.</li>
+<li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com a Ad Cloud para direcionamento por meio do Audience Manager.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -84,7 +84,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 <td>Audience Manager</td>
 <td>
 <ul>
-<li>Os públicos-alvo definidos no Real-time Customer Data Platform podem ser compartilhados com o Audience Manager para ativação para destinos de cookies de terceiros.</li>
+<li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com o Audience Manager para ativação para destinos de cookies de terceiros.</li>
 </ul>
 </td>
 <td>
@@ -104,12 +104,12 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 <td colspan="1">Campaign Classic</td>
 <td colspan="1">
 <ul>
-<li>Os públicos-alvo definidos no Real-time Customer Data Platform podem ser compartilhados com o Campaign Classic como o público-alvo para iniciar campanhas.</li>
+<li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com o Campaign Classic como público-alvo a iniciar campanhas.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Os dados de interação e campanha coletados pelo Campaign podem ser assimilados ao Experience Platform como fonte de dados para uso adicional na criação de público-alvo por meio do Real-time Customer Data Platform e da análise via Customer Journey Analytics e Experience Platform Query Service.</li>
+<li>Os dados de interação e de campanhas coletados pelo Campaign podem ser assimilados na Experience Platform como uma fonte de dados para uso adicional na criação de públicos-alvos e na análise. A criação de públicos-alvo se dá por meio da Real-time Customer Data Platform e a análise se dá por meio do Customer Journey Analytics e do Serviço de consulta da Experience Platform.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -122,12 +122,12 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 <td colspan="1">Campaign Standard</td>
 <td colspan="1">
 <ul>
-<li>Os públicos-alvo definidos no Real-time Customer Data Platform podem ser compartilhados com o Campaign Standard como o público-alvo para iniciar campanhas.</li>
+<li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com o Campaign Standard como público-alvo a iniciar campanhas.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Os dados de interação e campanha coletados pelo Campaign podem ser assimilados ao Experience Platform como fonte de dados para uso adicional na criação de público-alvo por meio do Real-time Customer Data Platform e da análise via Customer Journey Analytics e Experience Platform Query Service.</li>
+<li>Os dados de interação e de campanhas coletados pelo Campaign podem ser assimilados na Experience Platform como uma fonte de dados para uso adicional na criação de públicos-alvos e na análise. A criação de públicos-alvo se dá por meio da Real-time Customer Data Platform e a análise se dá por meio do Customer Journey Analytics e do Serviço de consulta da Experience Platform.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -141,14 +141,14 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 <td colspan="1">
 <ul>
 <li>Os dados coletados e assimilados no data lake da Experience Platform são disponibilizados para processamento no Customer Journey Analytics. </li>
-<li>Os dados de perfil e público-alvo da Real-time Customer Data Platform podem ser assimilados no CJA. <a href="Https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=pt-BR">Integração de RTCDP com CJA</a>.
+<li>Os dados de perfil e público da Real-time Customer Data Platform podem ser assimilados no CJA. <a href="Https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/ingest-aep-segments.html?lang=pt-BR">Integração de RTCDP com CJA</a>.
 </li>
 </ul>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Crie públicos no Customer Jornada Analytics e compartilhe os resultados do público-alvo no Real-time Customer Data Platform. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=pt-BR">Publicação de público-alvo do CJA</a></li>
+<li>Crie públicos-alvo no Customer Journey Analtyics e compartilhe os resultados do público-alvo na Real-time Customer Data Platform. <a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=pt-BR">Publicação de público-alvo do CJA</a></li>
 </ul>
 </td>
 <td colspan="1">
@@ -184,7 +184,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 </td>
 <td colspan="1">
 <ul>
-<li>Os dados de interação e campanha produzidos pelo Journey Optimizer são coletados no Experience Platform para uso adicional na criação de público-alvo via Real-time Customer Data Platform e análise via Customer Journey Analytics e Experience Platform Query Service.</li>
+<li>Os dados de interação e de campanhas produzidos pelo Journey Optimizer são coletados para a Experience Platform para uso adicional na criação de públicos-alvos e na análise. A criação de públicos-alvos se dá por meio da Real-time Customer Data Platform e a análise se dá por meio do Customer Journey Analytics e do Serviço de consulta da Experience Platform.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -197,7 +197,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 <td colspan="1">Adobe Commerce</td>
 <td colspan="1">
 <ul>
-<li>Perfis e públicos-alvo criados no Real-time Customer Data Platform podem ser disponibilizados para personalização no Adobe Commerce. </li>
+<li>Perfis e públicos criados na Real-time Customer Data Platform podem ser disponibilizados para personalização no Adobe Commerce. </li>
 </ul>
 </td>
 <td colspan="1">
@@ -211,7 +211,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 <td colspan="1">Marketo</td>
 <td colspan="1">
 <ul>
-<li>Os públicos-alvo definidos no Real-time Customer Data Platform podem ser compartilhados com o Marketo como o público-alvo para iniciar campanhas do Marketo e atualizar objetos Marketo.</li>
+<li>Os públicos-alvos definidos na Real-time Customer Data Platform podem ser compartilhados com o Marketo como público-alvo a iniciar campanhas do Marketo e atualizar objetos do Marketo.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -229,7 +229,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 <td colspan="1">Real-Time CDP</td>
 <td colspan="1">
 <ul>
-<li>Os dados assimilados e coletados no Experience Platform são a fonte de dados para a montagem de perfis de clientes em tempo real que alimentam a Real-time Customer Data Platform.</li>
+<li>Os dados assimilados e coletados para a Experience Platform são a fonte de dados para a montagem de perfis de clientes em tempo real que alimentam a Real-time Customer Data Platform.</li>
 </ul>
 </td>
 <td colspan="1">
@@ -249,12 +249,12 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 <td colspan="1">Target</td>
 <td colspan="1">
 <ul>
-<li>Os públicos-alvo e os atributos de perfil definidos no Real-time Customer Data Platform podem ser compartilhados com o Target e usados em experiências de personalização e direcionamento fornecidas pelo Target.</li>
+<li>Os atributos de públicos-alvos e perfil definidos na Real-time Customer Data Platform podem ser compartilhados com o Target e usados em experiências de personalização e direcionamento fornecidas pelo Target.</li>
 </ul>
 </td>
 <td colspan="1">
 <ul>
-<li>Os dados coletados para experiências e interações do Target podem ser coletados na Experience Platform por meio do SDK Mobile/Web da Experience Platform. Esses dados podem ser usados na criação de públicos-alvo por meio da Real-time Customer Data Platform e para análise via Customer Journey Analytics e Experience Platform Query Service.</li>
+<li>Os dados coletados para experiências e interações do Target podem ser coletados na Experience Platform por meio do SDK Mobile/Web da Experience Platform. É possível usar esses dados na criação de públicos-alvo por meio da Real-time Customer Data Platform e na análise por meio do Customer Journey Analytics e do Serviço de consulta da Experience Platform.</li>
 </ul>
 </td>
 <td colspan="1">

@@ -4,10 +4,10 @@ description: Vários blueprints foram usados para permitir o marketing em tempo 
 solution: Real-time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 88%
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ A equipe de tecnologia global está usando a Adobe Experience Platform e as solu
 
 | Metas | Táticas | Valor desbloqueado |
 |---|---|---|
-| **Experiências entre canais conectadas **<br></br>** Envolvimento e retenção da unidade **<br></br>** Democratização de dados e insights**</ul> | <ul><li>Vários conjuntos de dados corporativos integrados para criar dezenas de milhões de perfis e centenas de segmentos, vários destinos e painéis de relatórios</li><li>Ativação em vários destinos usando o Real-time Customer Data Platform</li><li>Recurso de análise no nível do cliente desbloqueado com a Análise de jornada do cliente</li><li>Acionadores de evento automatizados para interações com o cliente implementadas por meio do Adobe Journey Optimizer</li></ul> | <ul><li><strong> Perfil do cliente: </strong>Visão completa dos clientes para segmentação</li><li><strong>Ativações de destino: </strong>Ativação em mídia paga, email e plataformas sociais</li><li><strong>Análise e atribuição do cliente: </strong>Análise de atribuição entre canais disponível ad hoc e distribuída facilmente<li><strong>Journey Orchestration: </strong> Crie e operacionalize campanhas acionadas e campanhas programadas usando contexto em tempo real</li></ul> |
+| **Experiências entre canais conectadas **<br></br>** Envolvimento e retenção da unidade **<br></br>** Democratização de dados e insights**</ul> | <ul><li>Vários conjuntos de dados corporativos integrados para criar dezenas de milhões de perfis e centenas de segmentos, vários destinos e painéis de relatórios</li><li>Ativação em vários destinos usando a Real-time Customer Data Platform</li><li>Recurso de análise no nível do cliente desbloqueado com a Análise de jornada do cliente</li><li>Acionadores de evento automatizados para interações com o cliente implementadas por meio do Adobe Journey Optimizer</li></ul> | <ul><li><strong> Perfil do cliente: </strong>Visão completa dos clientes para segmentação</li><li><strong>Ativações de destino: </strong>Ativação em mídia paga, email e plataformas sociais</li><li><strong>Análise e atribuição do cliente: </strong>Análise de atribuição entre canais disponível ad hoc e distribuída facilmente<li><strong>Journey Orchestration: </strong> Crie e operacionalize campanhas acionadas e campanhas programadas usando contexto em tempo real</li></ul> |
 
 ## blueprint principal: Público-alvo e ativação com aplicativos Experience Cloud
 

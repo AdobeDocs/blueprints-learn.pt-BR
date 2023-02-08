@@ -3,10 +3,10 @@ title: Correspondência de Segmentos  blueprint
 description: Saiba mais sobre a [!UICONTROL Correspondência de Segmentos] para a Adobe Experience Platform (AEP). [!UICONTROL Correspondência de Segmentos] é um serviço de colaboração de dados que permite trocar dados de segmentos com base em identificadores comuns do setor de uma maneira segura, controlada e comprometida com a privacidade.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
+source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '1774'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ A correspondência de segmentos permite que marcas de parceiros compartilhem pú
 
 O serviço permite aos clientes identificarem com segurança as IDs correspondentes de uma maneira segura e neutra sem precisar revelar todo o banco de dados. Os parceiros recebem apenas atributos designados (nome do segmento) de IDs coincidentes, permitindo o compartilhamento mais rápido e fácil de uma maneira controlável e regida pelo consentimento.
 
-A [!UICONTROL Correspondência de Segmentos] usa como suporte principal a estrutura de consentimento e governança de dados da AEP. Ela está disponível para todos os clientes B2C e B2P da Real-time Customer Data Platform. Os recursos principais da [!UICONTROL [!UICONTROL Correspondência de Segmentos]] incluem:
+A [!UICONTROL Correspondência de Segmentos] usa como suporte principal a estrutura de consentimento e governança de dados da AEP. Ele está disponível para todos os clientes B2C e B2P da Real-time Customer Data Platform. Os recursos principais da [!UICONTROL [!UICONTROL Correspondência de Segmentos]] incluem:
 
 * Compartilhamento de segmentos de clientes coincidentes que deram consentimento
 * Relatórios de coincidência anterior ao compartilhamento para gerar insights sobre o volume estimado de correspondência
