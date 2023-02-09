@@ -5,9 +5,9 @@ user-guide-description: Blueprints de experiência digital são implementações
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 8355a36a235d847a6faf2398f3fadbed28ccac37
+source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -35,9 +35,7 @@ ht-degree: 100%
    + [Ativação de público-alvo anônima       (AAM)](/help/blueprints/audience-activation/anonymous.md)
    + Ativação de cliente conhecido (RTCDP) {#known-customer-audience-activation}
       + [Visão geral](/help/blueprints/audience-activation/known.md)
-      + Ativação para canais sociais e publicitários {#audience-activation}
-         + [Ativação para o Facebook Custom Audiences](/help/blueprints/audience-activation/destinations/facebook.md)
-         + [Ativação para o Google Customer Match](/help/blueprints/audience-activation/destinations/gcm.md)
+      + [Ativação para canais sociais e publicitários ](/help/blueprints/audience-activation/advertising-activation.md)
       + [Ativação para destinos por transmissão de arquivos e empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)
       + [Correspondência de Segmentos](/help/blueprints/audience-activation/segment-match.md)
