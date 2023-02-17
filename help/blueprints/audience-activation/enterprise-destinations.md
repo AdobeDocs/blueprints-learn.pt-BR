@@ -5,7 +5,7 @@ solution: Real-time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
 source-git-commit: 0d1bb41eb6b70be7c3c8a3196c9974a0d7807404
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Aplicativos
 
-* Adobe Experience Platform    Activation
+* Adobe Experience Platform  Activation
 
 ## Arquitetura
 
@@ -30,9 +30,9 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Medidas de proteção
 
-[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público e perfil.](overview.md)
+[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público-alvo e perfil.](overview.md)
 
-## Etapas de implementação
+## Etapas de implantação
 
 1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
@@ -41,7 +41,7 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
 1. [Forneça compartilhamento de segmentos da [!UICONTROL Real-time Customer Data Platform]](https://www.adobe.com/go/audiences) entre a Experience Platform e o Audience Manager. Assim, os públicos definidos na Experience Platform podem ser compartilhados com o Audience Manager.
 1. [Crie segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR) na Experience Platform. O sistema decide automaticamente se o segmento é avaliado em lote ou por transmissão.
-1. [Configure destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=pt-BR) para compartilhar atributos de perfil e associações de públicos com destinos desejados.
+1. [Configure destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=pt-BR) para compartilhar atributos de perfil e associações de públicos-alvo com destinos desejados.
 
 ## Documentação relacionada
 
