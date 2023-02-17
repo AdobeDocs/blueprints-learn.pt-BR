@@ -7,13 +7,13 @@ exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
 # Desafio das empresas do setor de telecomunicações
 
-Antes de implementar este blueprint, as campanhas de email “Adicione uma nova linha” da empresa de telecomunicações dependiam se o usuário tinha se convertido e somente verificado após um período de espera de 7 dias. Assim que estes critérios eram atendidos, quaisquer pontos de contato adicionais eram iniciados.
+Antes de implantar este blueprint, as campanhas de email “Adicione uma nova linha” da empresa de telecomunicações dependiam se o usuário tinha se convertido e somente verificado após um período de espera de 7 dias. Assim que estes critérios eram atendidos, quaisquer pontos de contato adicionais eram iniciados.
 
 Esta limitação teve de ser resolvida a fim de dar início a um acompanhamento mais pontual dos usuários que pretendiam adicionar uma linha antes do atual período de espera de 7 dias.
 
@@ -29,7 +29,7 @@ Esta limitação teve de ser resolvida a fim de dar início a um acompanhamento 
 |---|---|---|
 | **Aumente as taxas de conversão da campanha **<br></br>** Aumente as receitas de contas anuais**</ul> | <ul><li>Crie um novo segmento em tempo quase real para usuários que demonstraram interesse em adicionar uma linha, mas ainda não foram convertidos.</li><li>Impulsione o acompanhamento de clientes não convertidos com um segundo ponto de contato para clientes interessados que não foram convertidos. </li><li>Use uma estratégia de teste para medir o desempenho da jornada e otimizar a conversão por email.</li></ul> | <ul><li><strong>Experiências relevantes e de alta qualidade:</strong> Com a orquestração de jornadas em vigor, os clientes recebem mensagens mais relevantes, o que reduz o churn da lista de emails.</li><li><strong>Escala de Journey Orchestration:</strong> Uma jornada personalizada e mais oportuna pode ser criada para gerar um aumento nas conversões e na receita total.</li></ul> |
 
-## blueprint principal: Público-alvo e ativação com aplicativos Experience Cloud
+## Blueprint principal: público-alvo e ativação com aplicativos da Experience Cloud
 
 ### Descrição
 

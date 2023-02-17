@@ -27,9 +27,9 @@ O Blueprint de Ciência de dados personalizada para enriquecimento de perfis ilu
 
 ## Medidas de proteção
 
-* Para obter medidas de proteção detalhadas e latências de ponta a ponta ao assimilar resultados de ciência de dados na Experience Platform e no Perfil de cliente em tempo real, consulte as medidas de proteção de assimilação de dados e o diagrama de latências referenciados no [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md).
+* Para obter medidas de proteção detalhadas e latências de ponta a ponta ao assimilar resultados de ciência de dados na Experience Platform e no Perfil de cliente em tempo real, consulte as medidas de proteção de assimilação de dados e o diagrama de latências referenciados no [documento de medidas de proteção de implantação](../experience-platform/deployment/guardrails.md).
 
-## Etapas de implementação
+## Etapas de implantação
 
 1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
@@ -40,7 +40,7 @@ Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo
 1. [Configure as identidades corretas e os namespaces de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR) no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
 1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
 
-## Considerações de implementação
+## Considerações de implantação
 
 * Na maioria dos casos, o resultado do modelo deve ser assimilado como atributos de perfil, e não como eventos de experiência. Os resultados do modelo podem ser uma cadeia de caracteres de atributo simples. Se houver vários resultados de modelo a assimilar, é recomendável usar um campo de tipo matriz ou mapa.
 * O conjunto de dados de instantâneo de perfil diário, que é uma exportação diária dos dados de atributo de perfil unificado, pode ser aproveitado para treinar modelos em dados de atributo de perfil. A documentação do conjunto de dados de instantâneo de perfil pode ser acessada [aqui](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=pt-BR#profile-attribute-datasets).

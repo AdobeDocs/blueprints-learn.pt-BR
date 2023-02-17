@@ -7,7 +7,7 @@ exl-id: 8b96cc5f-bcdd-4bd3-81e4-084f697ac1d3
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Aproveitando as tecnologias e serviços de Adobe, essa organização está agora
 |---|---|---|
 | **Tornar cada experiência relevante para o convidado **<br></br>** Insights prontos para as empresas e democracia de dados por meio de painéis **<br></br>** Eficácia organizacional e operacional**</ul> | <ul><li>Criar perfis unificados de convidado do programa de recompensas usando dados online e offline para ativação e medição</li><li>Ativação em tempo real em canais de forma rápida e dimensionável</li><li>Recurso de análise no nível do cliente desbloqueado com a Análise de jornada do cliente</li><li>Desenvolver inteligência para melhorar a ativação aprendendo com os dados históricos de interação do fluxo de cliques.</li><li>Use dados online e offline para unificar uma visualização do cliente a fim de obter insights em jornadas e canais do cliente.</li></ul> | <ul><li><strong> Ativação entre canais: </strong>O triplo de envolvimento por email, crescimento das impressões e do público-alvo potenciais e experiências online altamente personalizadas </li><li><strong>Inteligência: </strong>O programa de recompensas de convidado opera uma campanha de ativação para reduzir as taxas de churn de membros</li><li><strong>Relatório: </strong>Mesclar dados online/offline com aprendizados de IA/ML em um painel de atribuição e jornada empresarial, além de reduzir a latência (por dias)</li><li><strong>Pilha de tecnologia com futuro: </strong>Dezenas de milhões de perfis em 7 canais prontos para serem executados em cenários de otimização de venda cruzada, venda adicional e gastos</li></ul> |
 
-## blueprint principal: Ativação com dados online e offline
+## Blueprint principal: ativação com dados online e offline
 
 ### Descrição
 

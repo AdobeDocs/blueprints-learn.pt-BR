@@ -39,7 +39,7 @@ O Microsoft Bing, o Google DV360 e o TradeDesk são os principais destinos de pu
 
 <br>
 
-## Etapas para a implementação do Audience Manager
+## Etapas para a implantação do Audience Manager
 
 * Para obter detalhes sobre a implementação do Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
 
@@ -50,7 +50,7 @@ O Microsoft Bing, o Google DV360 e o TradeDesk são os principais destinos de pu
 ## Documentação relacionada
 
 * [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=pt-BR)
-* [[!UICONTROL Públicos] da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
+* [[!UICONTROL Públicos-alvo] da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
 * [Integração do Audience Manager com o Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=pt-BR)
 * [Compartilhamento de segmentos do Adobe Analytics por meio do Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
 * [Blueprint de ativação de cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=pt-BR).

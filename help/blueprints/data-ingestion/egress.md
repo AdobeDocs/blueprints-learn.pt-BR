@@ -103,7 +103,7 @@ Consulte a documentação de [Visão geral das tags](https://experienceleague.ad
 * Não há acesso direto a informações do lado do servidor, como o Perfil do cliente em tempo real da Experience Platform e as associações de público.
 * A adição de tags de coleta de dados à página pode aumentar o tempo de carregamento da página.
 * Capacidade de configurar regras para solicitar dados somente quando determinados critérios forem atendidos.
-* Os dados são coletados diretamente do cliente, limitando os tipos de transformações e enriquecimentos que podem ser executados antes da coleta de dados.
+* Os dados são coletados diretamente do cliente, limitando os tipos de transformações e enriquecimento que podem ser executados antes da coleta de dados.
 
 ### Encaminhamento de eventos {#event-forwarding}
 
@@ -124,14 +124,14 @@ Para obter mais informações, consulte a seguinte documentação: [Encaminhamen
 
 ### Destinos da Real-time Customer Data Platform {#RTCDP-destinations}
 
-Os dados de atributo de perfil e de associação de público podem ser ativados para destinos empresariais e publicitários. Isso significa que os dados obtidos devem ser assimilados no Perfil do cliente em tempo real da Experience Platform.
+Os dados de atributo de perfil e de associação de público-alvo podem ser ativados para destinos empresariais e publicitários. Isso significa que os dados obtidos devem ser assimilados no Perfil do cliente em tempo real da Experience Platform.
 
 Consulte a documentação de [Destinos da Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=pt-BR) para obter mais informações.
 
 #### Casos de uso
 
-* Ative as informações do atributo de perfil, incluindo a associação de público a armazenamentos de dados corporativos internos, ferramentas de análise, sistemas de email ou sistemas de suporte.
-* Ative a associação de público de perfil a um fornecedor externo de publicidade para direcionar e personalizar o conteúdo ao perfil.
+* Ative as informações do atributo de perfil, incluindo a associação de público-alvo a armazenamentos de dados corporativos internos, ferramentas de análise, sistemas de email ou sistemas de suporte.
+* Ative a associação de público-alvo de perfil a um fornecedor externo de publicidade para direcionar e personalizar o conteúdo ao perfil.
 
 #### Considerações
 

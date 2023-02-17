@@ -1,18 +1,18 @@
 ---
-title: Modelos de experiência digital
-description: Os Digital Experience Blueprints são implementações repetíveis para solucionar problemas de estratégia e de negócios estabelecidos. Eles aceleram o tempo de retorno do investimento e fornecem um caminho mais rápido para o sucesso.
+title: Blueprints de experiência digital
+description: Os Blueprints de experiência digital são implantações replicáveis que atendem a estratégias e resolvem problemas empresariais consagrados. Eles aceleram o tempo de retorno do investimento e fornecem um caminho mais rápido para o sucesso.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Blueprints da experiência digital
+# Blueprints de experiência digital
 
-Os Digital Experience Blueprints são implementações repetíveis que permitem abordar a estratégia e resolver rapidamente os problemas de negócios estabelecidos. Cada blueprint fornece uma série de artefatos que explicam o problema empresarial de alta relevância, as arquiteturas, as etapas de implementação, as considerações técnicas e os links para a documentação relevante.
+Os blueprints de experiência digital são implantações replicáveis que atendem a estratégias e resolvem com rapidez problemas empresariais consagrados. Cada blueprint fornece uma série de artefatos que explicam o problema empresarial de alta relevância, as arquiteturas, as etapas de implantação, as considerações técnicas e os links para a documentação relevante.
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -23,7 +23,7 @@ Os Digital Experience Blueprints são implementações repetíveis que permitem 
 
 ## Novidades
 
-* **[Audience and Profile Ativation to Enterprise Destinations](/help/blueprints/audience-activation/enterprise-destinations.md)**
+* **[Blueprint de ativação de público-alvo e perfil para destinos corporativos](/help/blueprints/audience-activation/enterprise-destinations.md)**
 
    *Mantenha os perfis de clientes atualizados em todos os sistemas para capacitar suas equipes de vendas e suporte&#x200B;.*
 * **[Blueprint do Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)**
@@ -33,7 +33,7 @@ Os Digital Experience Blueprints são implementações repetíveis que permitem 
 
    *Realiza consulta e análise exploratória dos dados no data lake.*
 
-## Projetos em destaque
+## Blueprints de destaque
 
 <table style="table-layout:fixed">
 <tr>
@@ -55,7 +55,7 @@ Os Digital Experience Blueprints são implementações repetíveis que permitem 
 </tr>
 </table>
 
-## Publicações no blog
+## Publicações do blog
 
 * [[!DNL Introducing Adobe Experience Platform's New Digital Experience Blueprints]](https://medium.com/adobetech/introducing-adobe-experience-platforms-new-digital-experience-blueprints-93a6b5f5da7c)
 * [[!DNL Blueprint for Audience Activation in Adobe Experience Platform]](https://medium.com/adobetech/a-blueprint-for-audience-activation-in-adobe-experience-platform-b2b30fae90fd)

@@ -15,15 +15,15 @@ ht-degree: 100%
 
 Use atributos e eventos offline, como pedidos, transações, CRM ou dados de fidelização offline, com comportamentos online para direcionamento e personalização online.
 
-Identificadores expandidos com controles de governança integrados fornecem mais oportunidades para se comunicar com clientes conhecidos. Ative públicos para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.
+Identificadores expandidos com controles de governança integrados fornecem mais oportunidades para se comunicar com clientes conhecidos. Ative públicos-alvo para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade.
 
-Detalhes adicionais são fornecidos no [Blueprint de ativação de público e perfil com aplicativos da Experience Cloud](platform-and-applications.md), específico para integrações entre a Experience Platform e os aplicativos da Experience Cloud.
+Detalhes adicionais são fornecidos no [Blueprint de ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md), específico para integrações entre a Experience Platform e os aplicativos da Experience Cloud.
 
 ## Casos de uso
 
-* Direcionamento de públicos para públicos conhecidos em destinos sociais e de publicidade.
+* Direcionamento de públicos-alvo para públicos-alvo conhecidos em destinos sociais e de publicidade.
 * Personalização online com atributos online e offline.
-* Ative públicos para canais conhecidos, como email e SMS.
+* Ative públicos-alvo para canais conhecidos, como email e SMS.
 
 ## Aplicativos
 
@@ -44,7 +44,7 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 ## Medidas de proteção
 
-[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público e perfil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=pt-BR#guardrails-for-audience-and-profile-activation-blueprints).
+[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público-alvo e perfil](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html?lang=pt-BR#guardrails-for-audience-and-profile-activation-blueprints).
 
 ## Etapas de implementação para Real-time Customer Data Platform
 
@@ -55,9 +55,9 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
 1. [Forneça compartilhamento de segmentos da [!UICONTROL Real-time Customer Data Platform]](https://www.adobe.com/go/audiences) entre a Experience Platform e o Audience Manager. Assim, os públicos definidos na Experience Platform podem ser compartilhados com o Audience Manager.
 1. [Crie segmentos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/segments/create-segments.html?lang=pt-BR) na Experience Platform. O sistema decide automaticamente se o segmento é avaliado em lote ou por transmissão.
-1. [Configure destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=pt-BR) para compartilhar atributos de perfil e associações de públicos com destinos desejados.
+1. [Configure destinos](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/create-destinations-and-activate-data.html?lang=pt-BR) para compartilhar atributos de perfil e associações de públicos-alvo com destinos desejados.
 
-## Considerações de implementação
+## Considerações de implantação
 
 * Compartilhar dados de perfil com destinos exige a inclusão de valor específico de identidade, usado pelo destino na carga de destino. Qualquer identidade necessária para um destino de público-alvo deve ser assimilada na Platform e configurada como uma identidade para o [!UICONTROL Perfil de cliente em tempo real].
 
@@ -65,9 +65,9 @@ Detalhes adicionais são fornecidos no [Blueprint de ativação de público e pe
 
 ## Etapas para a implementação para destinos baseados em pessoas do Audience Manager
 
-* Para obter detalhes sobre a implementação do Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
+* Para obter detalhes sobre a implantação do Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
 
-* Para obter detalhes sobre a implementação de Destinos com base em pessoas no Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html?lang=pt-BR).
+* Para obter detalhes sobre a implantação de Destinos com base em pessoas no Audience Manager, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-people-based-destinations.html?lang=pt-BR).
 
 ## Documentação relacionada
 

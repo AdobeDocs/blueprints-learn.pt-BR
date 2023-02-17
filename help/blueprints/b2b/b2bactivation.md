@@ -36,9 +36,9 @@ Várias fontes de dados B2B podem ser usadas para mapear dados de contas, leads,
 
 ## Medidas de proteção
 
-* Observe que as medidas de proteção e de implementação relacionadas ao Marketo Engage só são relevantes quando o Marketo Engage é usado como fonte e/ou destino.
+* Observe que as medidas de proteção e de implantação relacionadas ao Marketo Engage só são relevantes quando o Marketo Engage é usado como fonte e/ou destino.
 
-* Para obter mais detalhes e medidas de proteção para latências de ponta a ponta, consulte o [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md)
+* Para obter mais detalhes e medidas de proteção para latências de ponta a ponta, consulte o [documento de medidas de proteção de implantação](../experience-platform/deployment/guardrails.md)
 
 
 ### Suporte a várias instâncias e organizações IMS:
@@ -87,12 +87,12 @@ Para obter orientações sobre como implementar e configurar a Edição B2B da R
 
 Existem dois padrões de implementação possíveis. A capacidade de assimilar perfis e dados B2B do Marketo Engage ou a capacidade de assimilar dados B2B de outras fontes de dados da CRM.
 
-## Considerações de implementação
+## Considerações de implantação
 
 Orientações sobre as principais considerações e configurações do blueprint.
 
 * Integração da CRM com e sem o Marketo:
-Se a implementação usar o Marketo Engage como fonte e o Marketo Engage estiver conectado à CRM, use o conector de origem do Marketo na Experience Platform para assimilar os dados da CRM na Experience Platform. Use o conector de origem da Experience Platform se as tabelas adicionais precisarem ser assimiladas. Se a implementação não estiver usando o Marketo Engage como uma fonte, conecte a fonte da CRM diretamente à AEP usando o conector de origem da Experience Platform da CRM.
+Se a implantação usar o Marketo Engage como fonte e o Marketo Engage estiver conectado à CRM, use o conector de origem do Marketo na Experience Platform para assimilar os dados da CRM na Experience Platform. Use o conector de origem da Experience Platform se as tabelas adicionais precisarem ser assimiladas. Se a implementação não estiver usando o Marketo Engage como uma fonte, conecte a fonte da CRM diretamente à AEP usando o conector de origem da Experience Platform da CRM.
 * Não é recomendável iniciar e nutrir o lead apenas por meio da Edição B2B da Real-time Customer Data Platform. Para este caso de uso, recomenda-se o uso de uma ferramenta de nutrição do lead (como o Marketo Engage).
 * O conector de destino do Marketo Engage para AEP, que envia públicos-alvo para o Marketo Engage para ativação, envia somente endereços de email e ECIDs. Ele não criará um novo lead se o contato ainda não existir, portanto, é necessário assimilar o perfil e os dados do lead no Marketo Engage.
 

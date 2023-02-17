@@ -8,19 +8,19 @@ exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Personalização da Web e móvel  blueprints
 
-Personalização da Web e móvel aborda a capacidade de utilizar a segmentação de perfil e público em vários aplicativos para personalizar e aprimorar as experiências do cliente. Os comportamentos do cliente, os dados demográficos, o nível de fidelização e as transações anteriores podem ser aproveitados para personalizar layouts, call-to-actions e conteúdo.
+Personalização da Web e móvel aborda a capacidade de utilizar a segmentação de perfil e público-alvo em vários aplicativos para personalizar e aprimorar as experiências do cliente. Os comportamentos do cliente, os dados demográficos, o nível de fidelização e as transações anteriores podem ser aproveitados para personalizar layouts, call-to-actions e conteúdo.
 
 <br>
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
-| **[Personalização da Web/móvel com base comportamental](behavioral.md)** | <ul><li>Personalize com base em comportamentos online e nos dados do público.</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(opcional)*</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
+| **[Personalização da Web/móvel com base comportamental](behavioral.md)** | <ul><li>Personalize com base em comportamentos online e nos dados do público</li></ul> | <ul><li>Adobe Target</li><li>Adobe Real-time Customer Data Platform *(opcional)*</li><li>Adobe Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 | **[Personalização da Web/Mobile com dados de clientes conhecidos](known-personalization.md)** | <ul><li>Os perfis completos do cliente e a segmentação aprimorada proporcionam experiências mais personalizadas.</li><li>Personalize com atributos e eventos offline (transações, reservas, CRM e dados de fidelização).</li><li>Sincronize a personalização na Web, nos emails e em outros canais conhecidos.</li></ul> | <ul><li>Adobe Target</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Analytics ou Customer Journey Analytics *(opcional)*</li><li>Adobe Audience Manager *(opcional)*</li></ul> |
 
 <br>
@@ -31,7 +31,7 @@ Personalização da Web e móvel aborda a capacidade de utilizar a segmentação
 
 <br>
 
-### Diagrama de proteção de personalização do cliente conhecido
+### Diagrama das medidas de proteção de personalização de cliente conhecido
 
 <img src="assets/personalization_guardrails.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
