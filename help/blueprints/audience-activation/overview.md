@@ -6,7 +6,7 @@ kt: null
 thumbnail: null
 exl-id: eeeb4325-d0e8-4fd8-86ab-0b8afdd0b69f
 source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '872'
 ht-degree: 100%
 
@@ -21,10 +21,10 @@ Com uma abordagem que prioriza os canais, cada canal age como um silo, no qual o
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
-| **[Ativação de público-alvo anônima](anonymous.md)** | <ul><li>Direcione públicos-alvos na Web e nos canais de publicidade para dados de clientes anônimos e comportamentais.</li><li>Integre a dados de público de terceiros para personalização aprimorada.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
-| **[Ativação de cliente conhecido](known.md)** | <ul><li>Ativação para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade. </li><li>Use atributos e eventos offline, como pedidos, transações, dados de CRM ou de fidelização, com comportamentos online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (opcional)</li></ul> |
+| **[Ativação de público-alvo anônima](anonymous.md)** | <ul><li>Direcione públicos-alvos na Web e nos canais de publicidade para dados de clientes anônimos e comportamentais.</li><li>Integre a dados de público-alvo de terceiros para personalização aprimorada.</li></ul> | <ul><li>Adobe Audience Manager</li></ul> |
+| **[Ativação de cliente conhecido](known.md)** | <ul><li>Ativação para destinos conhecidos com base no perfil, como provedores de email, redes sociais e destinos de publicidade. </li><li>Use atributos e eventos offline, como pedidos, transações ou dados de CRM ou de fidelização offline, juntamente com comportamentos online para direcionamento e personalização online.</li></ul> | <ul><li>Adobe Experience Platform</li><li> [!UICONTROL Real-time Customer Data Platform]</li><li>Adobe Audience Manager (opcional)</li></ul> |
 | **[Ativação de público-alvo e perfil com aplicativos da Experience Cloud](platform-and-applications.md)** | <ul><li>Gerencie perfis e públicos-alvos na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li><li>Crie e compartilhe segmentos e insights avançados de clientes na Experience Platform e compartilhe-os com aplicativos da Experience Cloud</li></ul> | <ul><li>Adobe Experience Platform</li><li>[!UICONTROL Real-time Customer Data Platform]</li><li>Experience Platform Activation</li><li>Aplicativos da Experience Cloud</li></ul> |
-| **[Correspondência de Segmentos](segment-match.md)** | <ul><li>Com sistemas de gerenciamento de governança, permissões e preferências melhores, os profissionais de marketing podem aprimorar ainda mais seus públicos autenticados primários com seus principais parceiros.</li></ul> | <ul><li>Adobe Experience Platform </li></ul> |
+| **[Correspondência de Segmentos](segment-match.md)** | <ul><li>Com sistemas de gerenciamento de governança, permissões e preferências melhores, os profissionais de marketing podem aprimorar ainda mais seus públicos-alvo autenticados primários com seus principais parceiros.</li></ul> | <ul><li>Adobe Experience Platform </li></ul> |
 
 ## Arquitetura do Perfil do cliente em tempo real
 
@@ -46,7 +46,7 @@ A ilustração abaixo descreve os diferentes métodos de segmentação e os dife
 
 ## Medidas de proteção para blueprints de ativação de público-alvo e perfil
 
-* Para obter informações detalhadas e medidas de proteção para latências de ponta a ponta, consulte o[ documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md) e as [Medidas de proteção para perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
+* Para obter informações detalhadas e medidas de proteção para latências de ponta a ponta, consulte o[ documento de medidas de proteção de implantação](../experience-platform/deployment/guardrails.md) e as [Medidas de proteção para perfil e segmentação](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 
 ### Ativação de atributos e identidades
 
