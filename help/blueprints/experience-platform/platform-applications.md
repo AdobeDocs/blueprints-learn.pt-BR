@@ -6,7 +6,7 @@ kt: 7199
 thumbnail: null
 exl-id: 9b12cd7a-5e5f-443a-91a1-44273cdabc2d
 source-git-commit: 16ca42fdb944e658bfc1fb3e960e81cd67be049c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 </td>
 <td>
 <ul>
-<li>Os dados coletados e avaliados em conjunto com a associação de público do Audience Manager podem ser compartilhados com o data lake e o armazenamento de perfis da Experience Platform. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR">Conector de origem do Audience Manager</a></li>
+<li>Os dados coletados e avaliados em conjunto com a associação de público-alvo do Audience Manager podem ser compartilhados com o data lake e o armazenamento de perfis da Experience Platform. <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=pt-BR">Conector de origem do Audience Manager</a></li>
 </ul>
 </td>
 <td>
