@@ -2,8 +2,8 @@
 title: Histórias de sucesso do setor com os Blueprints de experiência digital
 description: Os Blueprints de experiência digital têm histórias de sucesso que destacam como vários setores estão obtendo valor comercial usando os aplicativos da Adobe Experience Cloud, fornecidos pela Adobe Experience Platform.
 exl-id: 9e73bae3-ba34-4819-a54e-710965fe74d9
-source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: ht
+source-git-commit: 5bf1f0c01e1c7d2ebb2ae7228cc04c149a789664
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -18,10 +18,10 @@ Saiba como os clientes estão arquitetando excelentes experiências e tendo suce
 <table style="table-layout:fixed">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=pt-BR"><img alt="imagem em miniatura de um setor de vestuário usando os blueprints de ativação de público-alvo, customer journey analytics e jornadas do cliente" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/apparel.html?lang=pt-BR"><img alt="imagem em miniatura de um setor de vestuário usando os blueprints de ativação de público-alvo, customer journey analytics e jornadas do cliente" src="../experience-platform/assets/aep+apps.svg" /></a>
     </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=pt-BR"><img alt="imagem em miniatura de um setor de varejo usando os blueprints da Ativação com dados online/offline e do Journey Optimizer" src="../experience-platform/assets/aep+apps_vertical.svg" /></a>
+    <a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/vertical-blueprints/retail.html?lang=pt-BR"><img alt="imagem em miniatura de um setor de varejo usando os blueprints da Ativação com dados online/offline e do Journey Optimizer" src="../experience-platform/assets/aep+apps.svg" /></a>
 
 </td>
   <td>
