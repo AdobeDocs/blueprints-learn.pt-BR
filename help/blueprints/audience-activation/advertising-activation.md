@@ -1,23 +1,23 @@
 ---
-title: Ativação para destinos sociais e de publicidade na plataforma de dados do cliente em tempo real
-description: Ativação para destinos sociais e de publicidade na plataforma de dados do cliente em tempo real
+title: Ativação para destinos sociais e de publicidade na Real-time Customer Data Platform
+description: Ativação para destinos sociais e de publicidade na Real-time Customer Data Platform
 solution: Real-time Customer Data Platform, Data Collection
 kt: 7086
 exl-id: b75a7a01-04ba-4617-960d-f73f7a9cc6c7
 source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1184'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Ativação para destinos sociais e de publicidade na plataforma de dados do cliente em tempo real
+# Ativação para destinos sociais e de publicidade na Real-time Customer Data Platform
 
-Assimile dados de clientes de várias fontes para criar uma única visualização de perfil do cliente, segmente esses perfis para criar públicos-alvo para marketing e personalização, compartilhe-os em redes de anúncios como o Facebook e o Google para direcionar e personalizar campanhas em relação a esses públicos-alvo.
+Assimile dados de clientes de várias fontes para criar uma única visualização de perfil do cliente, segmente esses perfis para criar públicos-alvo para iniciativas de marketing e personalização e compartilhe esses públicos-alvo com redes de anúncios, como o Facebook e o Google, para promover campanhas direcionadas e de personalização voltadas para eles.
 
 ## Casos de uso
 
-* Direcionamento de públicos para públicos conhecidos em destinos sociais e de publicidade.
+* Direcionamento de públicos-alvo para públicos-alvo conhecidos em destinos sociais e de publicidade.
 * Personalização online com atributos online e offline.
 
 ## Aplicativos
@@ -32,7 +32,7 @@ Assimile dados de clientes de várias fontes para criar uma única visualizaçã
 
 1. Configure os Namespaces de identidade a serem usados nas fontes de dados do Perfil.
    * Use namespaces prontos, como os de Email ou hash de Email SHA256, quando disponíveis.
-   * O Facebook tem uma lista de identidades compatíveis. Para ativar públicos personalizados do Facebook, os perfis a serem ativados devem apresentar uma das identidades compatíveis.
+   * O Facebook tem uma lista de identidades compatíveis. Para ativar públicos-alvo personalizados do Facebook, os perfis a serem ativados devem apresentar uma das identidades compatíveis.
    * Atualmente, as seguintes identidades são compatíveis com o Facebook: GAID, IDFA, phone_sha256, email_lc_sha256 e extern_id.
    * Para mais detalhes, consulte o [Manual de destino do Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=pt-BR).
    * O Google Customer Match tem uma lista de identidades compatíveis. Para fazer a ativação para o Google Customer Match, os perfis a serem ativados devem apresentar uma das identidades compatíveis.
@@ -64,32 +64,32 @@ Assimile dados de clientes de várias fontes para criar uma única visualizaçã
 1. Após a execução dos fluxos de dados, verifique se a assimilação de dados do perfil foi concluída com sucesso e sem erros.
    * Examine o gráfico de identidade de vários perfis para garantir o processamento correto dos relacionamentos de identidade.
    * Examine os atributos e eventos de vários perfis para garantir a assimilação correta de atributos e eventos aos perfis.
-1. Desenvolva segmentos para criar públicos de perfil
+1. Desenvolva segmentos para criar públicos-alvo de perfil
    * Crie segmentos no construtor de segmentos usando regras para atributos e eventos.
    * Salve o segmento para avaliação. Os segmentos serão avaliados de acordo com o cronograma especificado uma vez por dia.
       * Se as regras de segmento estiverem qualificadas para a segmentação de transmissão, o segmento será avaliado conforme novos dados de transmissão sejam assimilados aos perfis. Os segmentos de transmissão também são avaliados uma vez por dia durante a segmentação em lote programada.
 1. Certifique-se de que os resultados do segmento sejam os esperados.
    * Analise a contagem de resultados do segmento para os segmentos em questão.
    * Apure o perfil que deve ser incluído no segmento para verificar se a associação de segmento está incluída na parte de associação de segmento do perfil.
-1. Configure a entrega do público ao destino na configuração de Destino.
+1. Configure a entrega do público-alvo ao destino na configuração de Destino.
    * Consulte o [Manual de destino do Facebook](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/social/facebook.html?lang=pt-BR) para obter mais detalhes sobre como configurar o Destino do Facebook.
-   * Consulte a [Guia de destino de correspondência do cliente do Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=pt-BR) para obter mais detalhes sobre como configurar o Destino do Google.
-   * Ao configurar um destino, selecione o público que deseja ativar para o destino.
-   * Defina a data inicial programada na qual deseja que o fluxo de dados do destino comece a entregar o público ao destino.
+   * Consulte o [Manual de destino do Google Customer Match](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/google-customer-match.html?lang=pt-BR) para obter mais detalhes sobre como configurar o Destino do Google.
+   * Ao configurar um destino, selecione o público-alvo que deseja ativar para o destino.
+   * Defina a data inicial programada na qual deseja que o fluxo de dados do destino comece a entregar o público-alvo ao destino.
    * Para cada destino são enviados atributos obrigatórios e opcionais.
-      * Para o Facebook, deve ser incluída uma das identidades obrigatórias, a qual é usada para combinar os perfis nos públicos da Experience Platform com um perfil que possa ser direcionado pelo Facebook.
-      * Para o Google Customer Match, deve ser incluída uma das identidades obrigatórias, a qual é usada para combinar os perfis nos públicos da Experience Platform com um perfil que possa ser direcionado pelo Google Customer Match.
+      * Para o Facebook, deve ser incluída uma das identidades obrigatórias, a qual é usada para combinar os perfis nos públicos-alvo da Experience Platform com um perfil que possa ser direcionado pelo Facebook.
+      * Para o Google Customer Match, deve ser incluída uma das identidades obrigatórias, a qual é usada para combinar os perfis nos públicos-alvo da Experience Platform com um perfil que possa ser direcionado pelo Google Customer Match.
    * Também é especificado para cada destino um tipo de entrega, que pode ser tanto de transmissão como em lote, baseado em arquivo ou de carga JSON.
-      * As associações de público para Facebook são fornecidas de forma contínua a um endpoint do Facebook no formato JSON.
-      * As associações de público para Google Customer Match são fornecidas de forma contínua a um endpoint do Google Customer Match no formato JSON.
-      * As associações de público são entregues de forma contínua após a avaliação por segmentação de transmissão ou em lote na Experience Platform.
-1. Verifique se o fluxo de destino entregou o público ao destino conforme esperado.
-   * Verifique a interface de monitoramento para confirmar se o público foi entregue com o número de perfis esperado. O tamanho do público-alvo deve refletir o número esperado de perfis ativados, observando que um destino específico, como o Facebook e o Google, exigirá determinados campos, como uma identidade de hash de email, e se não estiver presente no perfil que é membro do público-alvo, ele não será ativado no destino.
+      * As associações de público-alvo para Facebook são fornecidas de forma contínua a um endpoint do Facebook no formato JSON.
+      * As associações de público-alvo para Google Customer Match são fornecidas de forma contínua a um endpoint do Google Customer Match no formato JSON.
+      * As associações de público-alvo são entregues de forma contínua após a avaliação por segmentação de transmissão ou em lote na Experience Platform.
+1. Verifique se o fluxo de destino entregou o público-alvo ao destino conforme esperado.
+   * Verifique a interface de monitoramento para confirmar se o público-alvo foi entregue com o número de perfis esperado. O tamanho do público-alvo deve refletir o número esperado de perfis ativados. Observe que destinos específicos, como o Facebook e o Google, exigem determinados campos, tais como uma identidade de hash de email; e, se esses campos não estiverem presentes em um perfil que é membro do público, o perfil não é ativado no destino.
    * Verifique se foram ignorados perfis referentes a identidades de perfil ou atributos obrigatórios que estejam faltando.
    * Verifique se há outros erros que precisem ser resolvidos.
 1. Verifique se o público foi ativado para o destino final com o número esperado de membros.
    * Faça logon no portal Facebook Custom Audience para verificar se o público da Real-time Customer Data Platform foi entregue e se a taxa de correspondência dos perfis no público do Facebook se assemelha razoavelmente ao número de perfis no público da Real-time Customer Data Platform.
-   * Após concluir o fluxo de ativação, alterne para sua conta do Google Ads. Os segmentos ativados são mostrados em sua conta do Google como listas de clientes. Observe que, dependendo do tamanho do seu segmento, alguns públicos não são preenchidos a menos que haja mais de 100 usuários ativos a serem atendidos.
+   * Após concluir o fluxo de ativação, alterne para sua conta do Google Ads. Os segmentos ativados são mostrados em sua conta do Google como listas de clientes. Observe que, dependendo do tamanho do seu segmento, alguns públicos-alvo não são preenchidos a menos que haja mais de 100 usuários ativos a serem atendidos.
 
 ## Medidas de proteção
 
