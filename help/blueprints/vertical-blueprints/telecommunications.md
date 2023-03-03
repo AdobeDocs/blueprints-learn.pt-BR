@@ -5,9 +5,9 @@ solution: Journey Optimizer
 kt: 9486
 exl-id: fa4a6569-3972-4b97-91f1-7ca8ffd3c5b3
 source-git-commit: 1a0ce987fc615080bb78fb8ecf60c96e362a95c0
-workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -41,4 +41,4 @@ Esta limitação teve de ser resolvida a fim de dar início a um acompanhamento 
 
 ### Arquitetura do Blueprint
 
-<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=pt-BR"><img alt="imagem para uma empresa de telecomunicações oferece ofertas personalizadas em tempo real e, ao mesmo tempo, integração eficiente do cliente para fidelidade de longo prazo." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
+<a href="https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer.html?lang=pt-BR"><img alt="imagem de uma empresa de telecomunicações que oferece ofertas personalizadas em tempo real, além de integração eficiente do cliente para fidelidade de longo prazo." src="https://experienceleague.adobe.com/docs/blueprints-learn/assets/ajo-architecture.svg"/></a>
