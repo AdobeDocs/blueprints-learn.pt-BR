@@ -3,13 +3,13 @@ title: Blueprint de entrada e criação
 description: Entrada e criação - Otimizar a cadeia de suprimento de campanha com o Marketo e o Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1331'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Entrada e criação  blueprint {#intake-and-create}
+# Entrada e criação   blueprint {#intake-and-create}
 
 O número de solicitações de marketing que uma equipe de operações de marketing recebe para lançar novas campanhas pode transformar uma equipe de alto rendimento em uma porta giratória de tarefas repetitivas, causando estagnação e esgotamento da inovação.
 
@@ -21,7 +21,7 @@ Para essa integração, você usará o Workfront Fusion, uma camada de automaç�
 
 O fluxo de trabalho abaixo mostra uma solicitação de webinário feita por um gerente de campanha usando um formulário de solicitação do Workfront. Os detalhes enviados na solicitação acionam um programa e email a serem criados no Marketo Engage para o webinário. Além disso, os dados são obtidos do formulário de solicitação para preencher o conteúdo do email.
 
-![Introdução e criação de blueprint](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![Blueprint de entrada e criação](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ Para saber mais sobre como criar seu próprio centro de excelência, consulte a 
 
 Com o Marketo Engage, os tokens podem ser usados para preencher o conteúdo nos ativos da campanha. Por exemplo, após clonar um modelo de email do seu centro de excelência, o Workfront Fusion pode obter detalhes da solicitação de campanha no Workfront e transmiti-los para “Meus tokens” no programa do Marketo Engage. Os valores de token podem depois ser herdados diretamente no email para criar o email.
 
-![Usar tokens para preencher o diagrama de conteúdo](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
+![Use tokens para preencher o diagrama de conteúdo](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
 
 ### Preencha com imagens do AEM Assets {#populate-images-from-aem-assets}
 
@@ -149,7 +149,7 @@ Algumas informações básicas a serem incluídas na Biblioteca de pesquisa do m
 
 Veja aqui um exemplo de como a lógica do fluxo de trabalho pode ser criada no Fusion usando módulos pré-fabricados do [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=pt-BR){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=pt-BR){target="_blank"} que permitem acelerar a automação.
 
-![Fluxo de integração e criação de automação](assets/intake-and-create-3.png)Usar tokens para preencher conteúdo
+![Fluxo de automação de entrada e criação](assets/intake-and-create-3.png)Use tokens para preencher conteúdo
 
 ## Recursos {#resources}
 
