@@ -1,20 +1,20 @@
 ---
-title: Customer Journey Analytics com a Real-time Customer Data Platform  blueprint
+title: Customer Journey Analytics com a Real-time Customer Data Platform   blueprint
 description: Unifique e analise dados e comportamentos do cliente em toda a jornada dele no Customer Journey Analytics e publique o público do CJA para o RTCDP
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 9e1ba723-63f2-4622-ba67-f2a315c3ba0c
 source-git-commit: 2d7d2fff6c430b66e4a2935d4c68b5a8b9ecfae2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics com a Real-time Customer Data Platform  blueprint
+# Customer Journey Analytics com a Real-time Customer Data Platform   blueprint
 
-Crie e publique públicos identificados no Customer Journey Analytics (CJA) para o Perfil do cliente em tempo real na Adobe Experience Platform para direcionamento e personalização do cliente. Ideal para criar públicos usando dados históricos ou públicos mais refinados por meio da filtragem granular e campos calculados no Customer Journey Analytics.
+Crie e publique públicos-alvo identificados no Customer Journey Analytics (CJA) para o Perfil do cliente em tempo real na Adobe Experience Platform para direcionamento e personalização do cliente. Ideal para criar públicos-alvo usando dados históricos ou públicos-alvo mais refinados por meio da filtragem granular e campos calculados no Customer Journey Analytics.
 
 ## Guia de publicação do público do Customer Journey Analytics
 
@@ -26,15 +26,15 @@ Consulte a documentação a seguir para obter orientação sobre a implementaç�
 
 ## Diagrama de medidas de proteção para blueprints do Customer Journey Analytics
 
-* Para obter informações detalhadas e medidas de proteção para latências de ponta a ponta, consulte o [documento de medidas de proteção de implementação](../experience-platform/deployment/guardrails.md)
+* Para obter informações detalhadas e medidas de proteção para latências de ponta a ponta, consulte o [documento de medidas de proteção de implantação](../experience-platform/deployment/guardrails.md)
 
 ![Diagrama de medidas de proteção](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Perguntas frequentes
 
-* Se não existir um perfil correspondente no RTCDP que tenha sido enviado pelo CJA, um novo perfil será criado ou os públicos somente serão registrados no CJA para os perfis que já estiverem presentes? Sim, um novo perfil será criado. Como resultado, se a implementação da RTCDP for somente para clientes conhecidos, as regras de público do CJA devem ser gravadas para filtrar somente perfis com identidades conhecidas. Dessa forma, será possível garantir que a contagem de perfis RTCDP não aumente com base em perfis anônimos, se isso não for desejado.
+* Se não existir um perfil correspondente no RTCDP que tenha sido enviado pelo CJA, um novo perfil será criado ou os públicos-alvo somente serão registrados no CJA para os perfis que já estiverem presentes? Sim, um novo perfil será criado. Como resultado, se a implantação da RTCDP for somente para clientes conhecidos, as regras de público-alvo do CJA devem ser gravadas para filtrar somente perfis com identidades conhecidas. Dessa forma, será possível garantir que a contagem de perfis RTCDP não aumente com base em perfis anônimos, se isso não for desejado.
 
-* O CJA envia os dados do público como eventos de pipeline ou como um arquivo simples que também vai para o data lake? Os públicos do CJA são transmitidos por meio de pipelines para o Serviço de perfis do RTCDP; porém, os dados também são armazenados no data lake como um conjunto de dados.
+* O CJA envia os dados do público-alvo como eventos de pipeline ou como um arquivo simples que também vai para o data lake? Os públicos-alvo do CJA são transmitidos por meio de pipelines para o Serviço de perfis do RTCDP; porém, os dados também são armazenados no data lake como um conjunto de dados.
 
 * Quais identidades são enviadas pelo CJA? O CJA envia as identidades que foram definidas como &quot;ID de pessoa&quot; durante a configuração do CJA.
 
