@@ -5,7 +5,7 @@ exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
 workflow-type: tm+mt
 source-wordcount: '1778'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Com o Workfront Fusion, as equipes de operações de marketing podem eliminar em
 
 Você pode ver abaixo um diagrama de fluxo de trabalho do processo de desenvolvimento da campanha no caso de envio de email em massa. Além disso, você pode ver como o Workfront Fusion pode desempenhar uma função entre o Workfront e o Marketo Engage para impulsionar o fluxo de trabalho e a automação de processos em todo o ciclo de desenvolvimento da campanha.
 
-![Planejamento de campanha para execução - Casos de uso de automação](assets/overview-1.png){zoomable=&quot;yes&quot;}
+![Planejamento de campanha à execução – Casos de uso de automação](assets/overview-1.png){zoomable=&quot;yes&quot;}
 
 Anote as diferentes fases no processo de desenvolvimento da campanha.
 
@@ -60,7 +60,7 @@ O Adobe Workfront permite que as organizações gerenciem o trabalho para aument
 
 Entender como mapear o processo empresarial para esses objetos será importante para compreender a relação entre o Workfront e o Marketo Engage.
 
-![Como entender como as iniciativas de marketing são representadas no Workfront](assets/overview-2.png){zoomable=&quot;yes&quot;}
+![Noções básicas sobre a representação das iniciativas de marketing no Workfront](assets/overview-2.png){zoomable=&quot;yes&quot;}
 
 ### Hierarquia de portfólio definida {#portfolio-hierarchy-defined}
 
@@ -129,7 +129,7 @@ Ao usar o Workfront Fusion como camada de integração, você pode mapear seus p
 
 Veja abaixo um exemplo de como um programa pode incluir vários projetos e como esses projetos do Workfront podem ser mapeados para programas no Marketo Engage.
 
-![Mapeamento de projetos do Workfront a programas do Marketo Engage](assets/overview-4.png){zoomable=&quot;yes&quot;}
+![Mapeamento de projetos do Workfront para programas do Marketo Engage](assets/overview-4.png){zoomable=&quot;yes&quot;}
 
 Você pode querer iniciar uma grande iniciativa de marketing que precise que vários projetos do Workfront sejam hospedados em um programa do Workfront, ou pode ter uma solicitação única para um webinário ou email que precise apenas da criação de um único projeto. Seja qual for a sua necessidade, com o Workfront, Workfront Fusion e o Marketo Engage, sua equipe tem a flexibilidade de integrar todo o processo de desenvolvimento da campanha, desde o planejamento até a execução.
 

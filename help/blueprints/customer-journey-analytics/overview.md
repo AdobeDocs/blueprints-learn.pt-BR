@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics  blueprints
+title: Customer Journey Analytics   blueprints
 description: Unificação e análise de dados e comportamentos do cliente a partir da jornada do cliente
 solution: Customer Journey Analytics
 kt: null
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 ---
 
-# Customer Journey Analytics  blueprints
+# Customer Journey Analytics   blueprints
 
 O Customer Journey Analytics apresenta como as marcas podem unificar os dados e o comportamento do cliente oriundos de vários canais e fontes de interação. O objetivo é criar uma visualização com base na jornada de todas as interações com o cliente. É possível elaborar relatórios e análises no serviço de aplicativos do Customer Journey Analytics para avaliar e obter insights da interação com o cliente e de padrões de comportamento.
 
@@ -45,7 +45,7 @@ Os casos de uso principais de exemplo incluíram o seguinte.
 
 * Para obter informações detalhadas e medidas de proteção para latências de ponta a ponta, consulte o [documento de medidas de proteção de implantação](../experience-platform/deployment/guardrails.md)
 
-![Diagrama de medidas de proteção](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Diagrama de grade de proteção](../experience-platform/assets/CJA_guardrails.svg){zoom=&quot;yes&quot;}
 
 ## Publicações do blog relacionadas
 
