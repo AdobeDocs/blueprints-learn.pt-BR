@@ -6,7 +6,7 @@ solution: Experience Platform, Journey Optimizer, Real-time Customer Data Platfo
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
 source-git-commit: f22ff4ac15b21592226f6645ab28f30473996776
 workflow-type: ht
-source-wordcount: '2052'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
