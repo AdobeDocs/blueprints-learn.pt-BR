@@ -6,13 +6,13 @@ kt: 7198
 thumbnail: null
 exl-id: 5016f657-dd55-4ab7-859d-c97bc5edff76
 source-git-commit: 21b688109ee8c3d209f2cac5267eb95258851dae
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '118'
+ht-degree: 100%
 
 ---
 
-# Arquitetura de fluxo de dados da Adobe Experience Platform  diagramas
+# Arquitetura de fluxo de dados da Adobe Experience Platform   diagramas
 
 ## Diagrama de fluxo de dados
 
@@ -22,7 +22,7 @@ O diagrama abaixo ilustra os vários caminhos para a assimilação e saída de d
 
 ## Padrões de entrada e saída de dados
 
-Para obter uma lista detalhada de todos os padrões de assimilação, coleta e entrada de dados, consulte a seção [Projeto de preparação e assimilação de dados](../data-ingestion/ingestion.md).
+Para obter uma lista detalhada de todos os padrões de assimilação, coleta e entrada de dados, consulte a seção [Blueprint de preparação e assimilação de dados](../data-ingestion/ingestion.md).
 
 Para obter uma lista detalhada de todos os padrões de acesso e saída de dados, consulte o [Blueprint de acesso e exportação de dados](../data-ingestion/egress.md).
 
