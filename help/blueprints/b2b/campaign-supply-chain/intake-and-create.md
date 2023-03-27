@@ -9,7 +9,7 @@ ht-degree: 100%
 
 ---
 
-# Entrada e criação   blueprint {#intake-and-create}
+# Entrada e criação    blueprint {#intake-and-create}
 
 O número de solicitações de marketing que uma equipe de operações de marketing recebe para lançar novas campanhas pode transformar uma equipe de alto rendimento em uma porta giratória de tarefas repetitivas, causando estagnação e esgotamento da inovação.
 
