@@ -21,7 +21,7 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Aplicativos
 
-* Adobe Experience Platform  Activation
+* Adobe Experience Platform   Activation
 
 ## Arquitetura
 
