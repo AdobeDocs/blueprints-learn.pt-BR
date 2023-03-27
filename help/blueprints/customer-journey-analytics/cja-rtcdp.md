@@ -1,5 +1,5 @@
 ---
-title: Customer Journey Analytics com a Real-time Customer Data Platform   blueprint
+title: Customer Journey Analytics com a Real-time Customer Data Platform    blueprint
 description: Unifique e analise dados e comportamentos do cliente em toda a jornada dele no Customer Journey Analytics e publique o público do CJA para o RTCDP
 solution: Customer Journey Analytics
 kt: null
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# Customer Journey Analytics com a Real-time Customer Data Platform   blueprint
+# Customer Journey Analytics com a Real-time Customer Data Platform    blueprint
 
 Crie e publique públicos-alvo identificados no Customer Journey Analytics (CJA) para o Perfil do cliente em tempo real na Adobe Experience Platform para direcionamento e personalização do cliente. Ideal para criar públicos-alvo usando dados históricos ou públicos-alvo mais refinados por meio da filtragem granular e campos calculados no Customer Journey Analytics.
 
