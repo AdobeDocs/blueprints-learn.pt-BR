@@ -1,5 +1,5 @@
 ---
-title: Visão geral da personalização da Web/Mobile  - Adobe Target e RTCDP
+title: Visão geral da personalização da Web/Mobile   - Adobe Target e RTCDP
 description: Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
 landing-page-description: Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
 short-description: Synchronize web personalization with email and other known and anonymous channel personalization.
@@ -8,14 +8,14 @@ kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
 ht-degree: 100%
 
 ---
 
 
-# Personalização da Web/Mobile com dados de clientes conhecidos  blueprint
+# Personalização da Web/Mobile com dados de clientes conhecidos   blueprint
 
 ## Casos de uso
 
@@ -60,7 +60,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 ### Padrão de implantação 1 – Rede de borda com SDK da Web/móvel ou API da rede de borda (abordagem recomendada)
 
 * Usar a rede de borda com o SDK da Web/Mobile. A segmentação de borda em tempo real exige a abordagem de implantação do SDK da Web/Mobile ou da API de borda.
-* [Consulte o blueprint do SDK da Web e Mobile da Experience Platform](../experience-platform/deployment/websdk.md)  para uma implantação baseada em SDK.
+* [Consulte o blueprint do SDK da Web e Mobile da Experience Platform](../experience-platform/deployment/websdk.md)   para uma implantação baseada em SDK.
 * Para uso no SDK móvel, a [Adobe Journey Optimizer – Extensão de decisão](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) deve ser instalada no SDK móvel.
 * [Consulte a API de servidor da rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR) para uma implantação baseada em API do Adobe Target com o perfil de borda.
 
