@@ -55,7 +55,7 @@ A segunda abordagem é por meio da Experience Edge Network, que é uma infraestr
 * Personalização online por meio de experiências de entrada da Web ou móvel.
 * Execução de jornada entre canais – consistência de ofertas na Web, dispositivos móveis, email e outros canais de interação por meio do Adobe Journey Optimizer.
 
-### Gestão de decisões na borda   considerações técnicas
+### Gestão de decisões na borda    considerações técnicas
 
 * Solicitações por segundo = 5.000.
 * Latência de resposta &lt; 250 ms.
