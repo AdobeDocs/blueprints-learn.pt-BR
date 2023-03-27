@@ -1,6 +1,6 @@
 ---
 title: Histórias de sucesso do cliente
-description: Histórias de sucesso do cliente  - Otimizar a cadeia de suprimento da campanha com o Marketo e o Workfront
+description: Histórias de sucesso do cliente - Otimizar a cadeia de suprimento de campanha com o Marketo e o Workfront
 exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
 workflow-type: ht
