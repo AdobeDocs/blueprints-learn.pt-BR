@@ -5,9 +5,9 @@ user-guide-description: Blueprints de experiência digital são implantações r
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 374f3afa12611b21121e9bfe2fd906342ba1ea4f
-workflow-type: ht
-source-wordcount: '250'
+source-git-commit: 079c2e6deeeea0ede0f71a8bdda7e9b9f4d9084c
+workflow-type: tm+mt
+source-wordcount: '256'
 ht-degree: 100%
 
 ---
@@ -74,6 +74,7 @@ ht-degree: 100%
       + [Journey Optimizer com Adobe Campaign v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
 + Coleta, acesso e exportação de dados{#data-ingestion}
    + [Visão geral](/help/blueprints/data-ingestion/overview.md)
+   + [ de coleção de dados do Encaminhamento de eventos de várias sandboxes](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
    + [Assimilação e preparação de dados](/help/blueprints/data-ingestion/ingestion.md)
    + [Acesso e exportação de dados](/help/blueprints/data-ingestion/egress.md)
    + [Encaminhamento de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
