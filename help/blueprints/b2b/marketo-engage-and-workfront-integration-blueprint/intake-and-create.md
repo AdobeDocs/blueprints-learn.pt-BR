@@ -2,7 +2,7 @@
 title: Blueprint de entrada e criação
 description: Entrada e criação - blueprint de integração do Marketo Engage e Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 99%
@@ -25,7 +25,7 @@ O fluxo de trabalho abaixo mostra uma solicitação de webinário feita por um g
 
 >[!TIP]
 >
->Para saber mais sobre os diferentes tipos de objetos que o Workfront usa para organizar a campanha de marketing e como ela é mapeada para um programa do Marketo Engage, verifique a [Visão geral do Marketo e Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}.
+>Para saber mais sobre os diferentes tipos de objetos que o Workfront usa para organizar a campanha de marketing e como ela é mapeada para um programa do Marketo Engage, verifique a [Visão geral do Marketo e Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}.
 
 ## Prepare o processo de desenvolvimento da campanha para automação {#prepare-your-campaign-development-process-for-automation}
 
@@ -157,4 +157,4 @@ Veja aqui um exemplo de como a lógica do fluxo de trabalho pode ser criada no F
 
 * [Módulos do Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=pt-BR){target="_blank"}
 
-* [Visão geral do Marketo e do Workfront](/help/blueprints/b2b/campaign-supply-chain/overview.md){target="_blank"}
+* [Visão geral do Marketo e do Workfront](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/overview.md){target="_blank"}
