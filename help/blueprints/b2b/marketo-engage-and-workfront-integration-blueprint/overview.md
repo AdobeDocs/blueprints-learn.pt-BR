@@ -2,9 +2,9 @@
 title: Visão geral do blueprint de integração do Marketo Engage e do Workfront
 description: Visão geral - Visão geral do blueprint de integração do Marketo Engage e do Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
+source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1769'
 ht-degree: 96%
 
 ---
@@ -147,11 +147,9 @@ Agora que você tem um entendimento básico de como o Workfront e o Marketo Enga
 
 ### Introdução à integração com Workfront Fusion, Workfront e Marketo Engage {#getting-started-with-workfront-fusion}
 
-* [Entrada e criação](/help/blueprints/b2b/campaign-supply-chain/intake-and-create.md){target="_blank"} - Automação do desenvolvimento de campanha com o Marketo Engage e o Workfront
+* [Entrada e criação](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Automação do desenvolvimento de campanha com o Marketo Engage e o Workfront
 
 * Prova e aprovação (em breve)
-
-* Relatório e auditoria (em breve)
 
 ### Gerenciamento de nomes de campanha do Marketo Engage e URLs associados {#managing-marketo-engage-campaign-names}
 
