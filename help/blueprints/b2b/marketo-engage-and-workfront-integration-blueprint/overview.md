@@ -1,17 +1,17 @@
 ---
 title: Visão geral do blueprint de integração do Marketo Engage e do Workfront
-description: Visão geral - Visão geral do blueprint de integração do Marketo Engage e do Workfront
+description: Visão geral – Visão geral do blueprint de integração do Marketo Engage e do Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
 source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Visão geral do blueprint de integração do Marketo Engage e do Workfront {#overview}
 
-## Obtenha um tempo de entrada no mercado mais rápido com o Marketo Engage e o Workfront {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
+## Alcance um prazo para comercialização mais rápido com o Marketo Engage e o Workfront {#achieve-faster-time-to-market-with-marketo-engage-and-workfront}
 
 O trabalho de marketing não para de crescer, com novos canais e mais maneiras de personalizar comunicações todos os dias. As equipes de marketing precisam de maneiras de continuar a automatizar e evoluir para atender às mudanças de demanda de marketing no mundo.
 
@@ -153,7 +153,7 @@ Agora que você tem um entendimento básico de como o Workfront e o Marketo Enga
 
 ### Gerenciamento de nomes de campanha do Marketo Engage e URLs associados {#managing-marketo-engage-campaign-names}
 
-A padronização de suas convenções de nomenclatura para campanhas e URLs é uma base essencial para o gerenciamento preciso do programa no Marketo Engage e ajuda a impulsionar um processo mais consistente em todo o ciclo de vida do desenvolvimento da campanha. Se estiver procurando ferramentas, recomendamos verificar algumas gratuitas de código aberto dos [Serviços de Sucesso da Adobe](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} que permitem desenvolver uma abordagem consistente para criar e gerenciar campanhas do Marketo Engage e URLs associados.
+Padronizar suas convenções de nomenclatura para campanhas e URLs é fundamental para o gerenciamento preciso do programa no Marketo Engage e ajuda a ter um processo mais consistente em todo o ciclo de vida de desenvolvimento. Se estiver procurando ferramentas, recomendamos verificar algumas gratuitas de código aberto dos [Serviços de Sucesso da Adobe](https://main--marketo-campaign-tools--dr-adobe.hlx.live/){target="_blank"} que permitem desenvolver uma abordagem consistente para criar e gerenciar campanhas do Marketo Engage e URLs associados.
 
 ### Recursos {#resources}
 
