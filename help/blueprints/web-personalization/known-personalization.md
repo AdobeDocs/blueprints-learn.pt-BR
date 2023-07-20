@@ -3,14 +3,14 @@ title: Visão geral da personalização da Web/Mobile   - Adobe Target e RTCDP
 description: Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
 landing-page-description: Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
 short-description: Sincronize a personalização da Web com emails e outras personalizações de canais conhecidos e anônimos.
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services, Data Collection, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 3a6a98eded28baee2cbb44de2262bbd580fa0c94
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1642'
+ht-degree: 100%
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: Blueprints da ativação e análise B2B
 description: Ofereça experiências do cliente centradas em perfil e públicos-alvo baseados em contas com a Real-time Customer Data Platform.
-solution: Real-time Customer Data Platform
+solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: b89f77f7-96a4-4f3f-8123-c62989b64c2b
-source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 100%

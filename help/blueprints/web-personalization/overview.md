@@ -1,11 +1,11 @@
 ---
 title: Blueprints de personalização da Web e móvel
 description: Forneça conteúdo personalizado da Web e móvel com o [!UICONTROL Perfil de cliente em tempo real].
-solution: Real-time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
+solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: null
 thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
+source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
