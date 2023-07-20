@@ -5,8 +5,8 @@ solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
-source-git-commit: dabb5ae0bf2fc186f67d4aa93a2e9e8c5bb04498
-workflow-type: ht
+source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Os casos de uso principais de exemplo incluíram o seguinte.
 
 * Para obter informações detalhadas e medidas de proteção para latências de ponta a ponta, consulte o [documento de medidas de proteção de implantação](../experience-platform/deployment/guardrails.md)
 
-![Diagrama de medidas de proteção](../experience-platform/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Diagrama de medidas de proteção](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
 
 ## Publicações do blog relacionadas
 
