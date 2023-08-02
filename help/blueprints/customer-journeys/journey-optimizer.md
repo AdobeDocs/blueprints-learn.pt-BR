@@ -4,7 +4,7 @@ description: Execute mensagens e experiências acionadas usando a Adobe Experien
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
 source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
 ht-degree: 100%
 
