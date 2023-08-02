@@ -4,7 +4,7 @@ description: Forneça ofertas personalizadas aos consumidores em todos os canais
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
 source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
 ht-degree: 100%
 
