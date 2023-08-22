@@ -2,9 +2,9 @@
 title: Blueprint de entrada e criação
 description: Entrada e criação – Blueprint de integração do Marketo Engage e do Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: c4ab702cafa0dcacc4b3919bf70af0c50fa6bea8
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1324'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,7 @@ Algumas informações básicas a serem incluídas na Biblioteca de pesquisa do m
 
 Veja aqui um exemplo de como a lógica do fluxo de trabalho pode ser criada no Fusion usando módulos pré-fabricados do [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=pt-BR){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=pt-BR){target="_blank"} que permitem acelerar a automação.
 
-![Fluxo de automação de entrada e criação](assets/intake-and-create-3.png)Use tokens para preencher conteúdo
+![Fluxo de automação de entrada e criação](assets/intake-and-create-3.png)
 
 ## Recursos {#resources}
 

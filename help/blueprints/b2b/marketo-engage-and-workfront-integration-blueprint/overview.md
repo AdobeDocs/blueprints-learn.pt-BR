@@ -2,10 +2,10 @@
 title: Visão geral do blueprint de integração do Marketo Engage e do Workfront
 description: Visão geral – Visão geral do blueprint de integração do Marketo Engage e do Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: d5220e5550aa8c7e3b13996dd3d4279ba8403435
+source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 100%
+source-wordcount: '1767'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Anote as diferentes fases no processo de desenvolvimento da campanha.
 
 1. Entrada e criação: a campanha é solicitada e os ativos da campanha são montados de forma programática.
 
-1. Prova e aprovação: depois da montagem da campanha, é hora de as partes interessadas revisarem e aprovarem os ativos da campanha, como emails e landing pages.
+1. Revisar e aprovar: depois que a campanha é montada, é hora das partes interessadas revisarem e aprovarem os ativos da campanha, como emails e landing pages.
 
 1. Relatório e auditoria: compartilhe os resultados da campanha com o Workfront para oferecer maior visibilidade a partes interessadas multidisciplinares.
 
@@ -149,7 +149,7 @@ Agora que você tem um entendimento básico de como o Workfront e o Marketo Enga
 
 * [Entrada e criação](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md){target="_blank"} - Automação do desenvolvimento de campanha com o Marketo Engage e o Workfront
 
-* Prova e aprovação (em breve)
+* [Revisar e Aprovar](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md){target="_blank"}
 
 ### Gerenciamento de nomes de campanha do Marketo Engage e URLs associados {#managing-marketo-engage-campaign-names}
 
