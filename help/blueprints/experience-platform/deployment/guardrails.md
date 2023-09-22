@@ -4,19 +4,23 @@ description: As medidas de proteção definem o impacto e as expectativas de des
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: df10f49b618804982dd5b72ab4061de619beb72f
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 72%
 
 ---
 
 # Medidas de proteção
 
-As medidas de proteção são limites recomendados que oferecem orientação para o uso de dados e sistemas, otimizando o desempenho e evitando erros ou resultados inesperados na Adobe Experience Platform e nos Aplicativos da Adobe. As medidas de proteção destinam-se a refletir as restrições do sistema e as expectativas de desempenho para facilitar a otimização do desempenho de casos de uso e da arquitetura do cliente. As medidas de proteção não se destinam a ser contratos de nível de serviço. Para acessar informações sobre contratos de nível de serviço específicos do produto, consulte a documentação de Descrições do produto vinculada abaixo.
+As medidas de proteção são limites recomendados que fornecem orientação para o uso de dados e do sistema no Adobe Experience Platform e em aplicativos. As medidas de proteção refletem as restrições do sistema e as expectativas de desempenho para otimizar a arquitetura do cliente e o desempenho do caso de uso, além de ajudar a evitar erros ou resultados inesperados. As medidas de proteção não se destinam a ser contratos de nível de serviço.
+
+Para obter informações sobre contratos de nível de serviço específicos para aplicativos e recursos, consulte &quot;Descrições de aplicativos e recursos&quot; na parte inferior desta página.
 
 
 ## Documentação de referência sobre as medidas de proteção da Adobe Experience Platform e dos aplicativos da Adobe
+
+As seguintes páginas fornecem informações sobre medidas de proteção para recursos, serviços e aplicativos do Adobe Experience Platform:
 
 [Proteção da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=pt-BR)
 
@@ -70,7 +74,9 @@ As medidas de proteção são limites recomendados que oferecem orientação par
 
 <br>
 
-## Descrições dos produtos
+## Descrições de aplicativos e recursos
+
+Para obter informações sobre contratos de nível de serviço para recursos específicos, consulte as descrições abaixo:
 
 [Experience Platform Collection Enterprise](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
 
