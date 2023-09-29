@@ -4,7 +4,7 @@ description: Os Blueprints de experiência digital são implantações replicáv
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
 source-git-commit: bf99ef23bb07c845a396767a65114874f3a18180
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -24,14 +24,11 @@ Os blueprints de experiência digital são implantações replicáveis que atend
 ## Novidades
 
 * **[Blueprint de ativação de público-alvo e perfil para destinos corporativos](/help/blueprints/audience-activation/enterprise-destinations.md)**
-
-   *Mantenha os perfis de clientes atualizados em todos os sistemas para capacitar suas equipes de vendas e suporte&#x200B;.*
+  *Mantenha os perfis de clientes atualizados em todos os sistemas para capacitar suas equipes de vendas e suporte&#x200B;.*
 * **[Blueprint do Hub de atividades do cliente](/help/blueprints/audience-activation/customer-activity.md)**
-
-   *Fornece contexto para suporte e vendas assistidas por agentes.*
+  *Fornece contexto para suporte e vendas assistidas por agentes.*
 * **[Blueprint de análise de dados e inteligência](/help/blueprints/data-insights/analysis.md)**
-
-   *Realiza consulta e análise exploratória dos dados no data lake.*
+  *Realiza consulta e análise exploratória dos dados no data lake.*
 
 ## Blueprints de destaque
 
