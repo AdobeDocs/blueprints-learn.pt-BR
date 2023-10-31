@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 70e7bfb3a6d7bad858bd72b6329602bdfb822505
+source-git-commit: 886cae3895f3adc85f516ab8b4241bfe1fa9a541
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 100%
+source-wordcount: '1099'
+ht-degree: 99%
 
 ---
 
@@ -268,7 +268,7 @@ O diagrama abaixo ilustra as medidas de proteção de desempenho médio e a lat�
 
 | Métodos de assimilação | Descrição |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SDK da Web/móvel | Latência:<ul><li>Tempo real – coleção da mesma página para a Rede de borda</li><li>Assimilação por streaming para o Perfil ~1 minuto</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</ul>Documentação: <ul><li>[SDK da Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=pt-BR)</li><li>[Implementar a Adobe Experience Cloud com o tutorial do SDK da Web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR)</li><li>[SDK móvel](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)</li><li>[Tutorial sobre como Implementar a Adobe Experience Cloud em aplicativos móveis](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=pt-BR)</li></ul> |
+| SDK da Web/móvel | Latência:<ul><li>Tempo real – coleção da mesma página para a Rede de borda</li><li>Assimilação de streaming ao perfil &lt; 15 minutos no 95º percentil</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</ul>Documentação: <ul><li>[SDK da Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=pt-BR)</li><li>[Implementar a Adobe Experience Cloud com o tutorial do SDK da Web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR)</li><li>[SDK móvel](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)</li><li>[Tutorial sobre como Implementar a Adobe Experience Cloud em aplicativos móveis](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=pt-BR)</li></ul> |
 | Fontes de streaming | [Fontes de streaming](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#connectors)<br>Latência:<ul><li>Tempo real – coleção da mesma página para a Rede de borda</li><li>Assimilação por streaming para o Perfil ~1 minuto</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</li></ul> |
 | API de streaming | [API de servidor da Edge Network (preferencial)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR) - oferece suporte aos serviços de borda, incluindo segmentação de borda e <br>[API do serviço principal de coleta de dados](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=pt-BR) - não oferece suporte aos serviços de borda, roteia diretamente para o hub.<br>Latência:<ul><li>Tempo real – coleção da mesma página para a Rede de borda</li><li>Assimilação por streaming para o Perfil ~1 minuto</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</li><li>7 GB/hora</li></ul>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR#what-can-you-do-with-streaming-ingestion%3F) |
 | Ferramentas de ETL | Use ferramentas de ETL para modificar e transformar dados corporativos antes de assimilá-los na Experience Platform.<br><br>Latência:<ul><li>O tempo depende da programação da ferramenta externa de ETL. Em seguida, aplicam-se medidas de proteção padrão de assimilação, com base no método usado.</li></ul> |
