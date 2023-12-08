@@ -1,16 +1,16 @@
 ---
-title: Correspondência de Segmentos    blueprint
+title: Blueprint de Correspondência de segmentos
 description: Saiba mais sobre a [!UICONTROL Correspondência de Segmentos] para a Adobe Experience Platform (AEP). [!UICONTROL Correspondência de Segmentos] é um serviço de colaboração de dados que permite trocar dados de segmentos com base em identificadores comuns do setor de uma maneira segura, controlada e comprometida com a privacidade.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
 workflow-type: tm+mt
-source-wordcount: '2180'
-ht-degree: 81%
+source-wordcount: '2126'
+ht-degree: 79%
 
 ---
 
-# Correspondência de Segmentos    blueprint
+# Blueprint de Correspondência de segmentos
 
 A correspondência de segmentos permite que marcas de parceiros compartilhem públicos-alvo em seus respectivos ambientes da Experience Platform. É fundamental para as marcas se basear nos dados coletados de seus relacionamentos diretos com os consumidores para se conectar com os clientes. Com sistemas de gerenciamento de governança, permissões e preferências melhores, os profissionais de marketing podem aprimorar ainda mais seus públicos autenticados primários com seus principais parceiros.
 
@@ -44,7 +44,7 @@ A [!UICONTROL Correspondência de Segmentos] ajuda diferentes equipes de marketi
 
 ## Arquitetura
 
-![Arquitetura da Correspondência de Segmentos](assets/architecture-segment-match.png){zoomable=&quot;yes&quot;}
+![Arquitetura de correspondência de segmentos](assets/architecture-segment-match.png){zoom=&quot;yes&quot;}
 
 A [!UICONTROL Correspondência de Segmentos] não é um mercado onde dados podem ser comprados. Em vez disso, trata-se de um recurso da AEP que trabalha com dados primários com parceiros selecionados, usando controles de privacidade e consentimento para ajudar na colaboração. A [!UICONTROL Correspondência de Segmentos] ajuda a concentrar esforços na melhoria de relacionamentos com o cliente e no crescimento da marca. É útil quando há marcas ou relações de parceiros pré-existentes. A experiência da [!UICONTROL Correspondência de Segmentos] é fácil de gerenciar e dimensionar e permite aos administradores compartilhar segmentos de forma opcional e controlável.
 
@@ -77,7 +77,7 @@ Os pré-requisitos para a [!UICONTROL Correspondência de Segmentos] são:
 
 O fluxo da [!UICONTROL Correspondência de Segmentos] para gerenciar parceiros é garantido por RBAC (controle de acesso baseado em função). Somente pessoas físicas com a permissão adequada podem iniciar, aceitar ou gerenciar parcerias. Isso pode ser feito na seção Assimilação de dados do Perfil do produto. São necessárias as seguintes permissões:
 
-![Conexão de compartilhamento de público](assets/data-ingestion.png){zoomable=&quot;yes&quot;}
+![Conexão de compartilhamento de público](assets/data-ingestion.png){zoom=&quot;yes&quot;}
 
 | Permissão | Descrição |
 |---|---|
@@ -140,13 +140,13 @@ Como parte desse fluxo de trabalho de compartilhamento de segmentos, o parceiro 
 
 O fluxo geral do processo é:
 
-![Compartilhamento de segmentos](assets/segment-sharing.png){zoomable=&quot;yes&quot;}
+![Compartilhamento de segmentos](assets/segment-sharing.png){zoom=&quot;yes&quot;}
 
 Essas estimativas de coincidências oferecem insights importantes, a descoberta de parceiros e dados para alimentar os acordos de colaboração de dados. Nenhum dado de cliente ou segmento é movido entre as sandboxes para obter essas métricas de estimativa de coincidências. As identidades aplicáveis pré-criptografadas selecionadas pelo cliente em qualquer sandbox são adicionadas a uma estrutura de dados probabilística que permite à Adobe realizar operações de união e intersecção entre elas. Essas operações ajudam a [!UICONTROL Correspondência de Segmentos] a obter uma estimativa da intersecção de duas estruturas de dados composta por identidades de duas sandboxes diferentes sem a necessidade de comparar os valores reais
 
 O processo de coincidência de identidades depende do conjunto de dados de **exportação diária de perfil completo** das sandboxes tanto de remetente como de destinatário para identificar os perfis comuns que pertencem aos segmentos compartilhados. O fluxo detalhado do processo de coincidência é mostrado abaixo:
 
-![Processo de coincidência de identidade](assets/overlap-process.png){zoomable=&quot;yes&quot;}
+![Processo de sobreposição de identidade](assets/overlap-process.png){zoom=&quot;yes&quot;}
 
 Depois que o compartilhamento de segmentos é concluído a partir do parceiro de envio, o destinatário recebe uma notificação sobre o feed de segmento compartilhado. Este feed de segmento deve estar ativado para o perfil no receptor para iniciar o fluxo de dados de associação de segmento. Somente a associação de segmento é assimilada nos fragmentos de perfil coincidentes da Organização IMS do destinatário e nenhuma identidade adicional é transferida do remetente para o destinatário.
 
