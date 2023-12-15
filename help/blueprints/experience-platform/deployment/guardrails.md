@@ -1,17 +1,17 @@
 ---
-title: Proteções de Experience Platform e de aplicativos e latências de ponta a ponta
+title: Experience Platform e medidas de proteção de aplicativos
 description: As medidas de proteção definem o impacto e as expectativas de desempenho dos componentes e serviços na Adobe Experience Platform e em Aplicativos da Adobe
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: a16d7e925b7f5e9a379214d01280e4fef56344af
+source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 22%
+source-wordcount: '463'
+ht-degree: 24%
 
 ---
 
-# Medidas de proteção e latências completas
+# Medidas de proteção
 
 As medidas de proteção são limites recomendados que fornecem orientação para dados, latências observadas e uso do sistema no Adobe Experience Platform e nos aplicativos. As medidas de proteção refletem as restrições do sistema e as expectativas de desempenho para otimizar a arquitetura do cliente e o desempenho do caso de uso, além de ajudar a evitar erros ou resultados inesperados. As medidas de proteção não se destinam a ser contratos de nível de serviço.
 
