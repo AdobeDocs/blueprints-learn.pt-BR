@@ -4,18 +4,20 @@ description: As medidas de proteção definem o impacto e as expectativas de des
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 4cc0eafda6e2670ac5b72b0a0ca59b84e1c0dba1
+source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 24%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Medidas de proteção
 
-As medidas de proteção são limites recomendados que fornecem orientação para dados, latências observadas e uso do sistema no Adobe Experience Platform e nos aplicativos. As medidas de proteção refletem as restrições do sistema e as expectativas de desempenho para otimizar a arquitetura do cliente e o desempenho do caso de uso, além de ajudar a evitar erros ou resultados inesperados. As medidas de proteção não se destinam a ser contratos de nível de serviço.
+As medidas de proteção são limites recomendados que fornecem orientação para dados, latências observadas e uso do sistema no Adobe Experience Platform e nos aplicativos. As medidas de proteção refletem as restrições do sistema e as expectativas de desempenho para otimizar a arquitetura do cliente e o desempenho do caso de uso, além de ajudar a evitar erros ou resultados inesperados. As medidas de proteção não devem ser contratos de nível de serviço. Os contratos de nível de serviço estão documentados nas Descrições de produto vinculadas abaixo e nos contratos de licença do cliente. As medidas de proteção têm como objetivo fornecer orientação na arquitetura de soluções para casos de uso específicos do cliente, a fim de garantir a estabilidade e a execução.
 
 Para obter informações sobre contratos de nível de serviço específicos para aplicativos e recursos, consulte [Descrições de aplicativos e recursos](#application-feature-descriptions) na parte inferior desta página.
+
+Observe que para qualquer caso de uso de cliente que tenha requisitos rigorosos de latência ou volume, a Adobe recomenda analisar seu caso de uso detalhadamente com a Equipe de conta da Adobe e o parceiro de implementação. Em certos casos, é aconselhável testar e observar uma determinada implementação de caso de uso antes do lançamento da produção do caso de uso para observar e entender o comportamento esperado, já que cada implementação de cliente tem vários fatores em jogo, incluindo a natureza e a cadência da assimilação de dados, as especificidades das regras de segmento que estão sendo criadas e os vários desafios e cargas de ativação. Cada implementação de caso de uso terá um desempenho observado variável. Dessa forma, é melhor estabelecer e testar o desempenho esperado antecipadamente para garantir a arquitetura e a implementação adequadas de acordo com os requisitos de latência e desempenho do caso de uso.
 
 
 ## Documentação de referência sobre as medidas de proteção da Adobe Experience Platform e dos aplicativos da Adobe
