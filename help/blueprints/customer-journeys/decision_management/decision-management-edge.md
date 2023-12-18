@@ -3,10 +3,10 @@ title: Gestão de decisões no blueprint do Edge
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências da Web e móveis em tempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: d7901280f1bc23e6d37bcb285f20343c5ed8b46e
-workflow-type: ht
-source-wordcount: '856'
-ht-degree: 100%
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -56,23 +56,11 @@ Adobe Experience Platform
 ## Medidas de proteção
 
 * Para as medidas de proteção do Journey Optimizer, consulte [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/limitations.html?lang=pt-BR).
+
 * Para as medidas de proteção da gestão de decisões, consulte [Descrição do produto gestão de decisões](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html).
-* Solicitações por segundo = 5.000.
-* Latência de resposta &lt; 250 ms.
-* Acesso ao perfil de borda em tempo real. Somente atributos de perfil e públicos projetados na borda ficam disponíveis no perfil.
-* Caso haja necessidade de personalização nas primeiras experiências, o hub é ideal, pois o perfil completo fica disponível. O perfil de borda deve ser sincronizado a partir do hub para a primeira experiência de borda. Portanto, a primeira experiência da borda não inclui dados de perfil cujo upload tenha sido feito anteriormente no hub.
 
-### Proteção da assimilação de dados
+[Medidas de proteção e orientação de latência completa](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-<img src="../../experience-platform/deployment/assets/aep_data_flow_guardrails.svg" alt="Fluxo de dados da Experience Platform" style="border:1px solid #4a4a4a" width="85%" class="modal-image" />
-
-<br>
-
-### Medidas de proteção de ativação
-
-<img src="../../experience-platform/deployment/assets/AJO_guardrails.svg" alt="Blueprint do Journey Optimizer com arquitetura de referência" style="width:85%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## Padrões de implementação
 

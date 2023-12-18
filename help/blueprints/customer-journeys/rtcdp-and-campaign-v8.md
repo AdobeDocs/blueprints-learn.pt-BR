@@ -3,9 +3,9 @@ title: Padrão de integração do Real-Time CDP com o Adobe Campaign v8
 description: Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign v8 para proporcionar conversas personalizadas.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
@@ -54,12 +54,5 @@ Consulte a documentação a seguir sobre como configurar o conector de origem do
 ### Compartilhamento de segmentos do Real-time Customer Data Platform da Experience Platform
 
 * Consulte o conector de Destino do Campaign RTCDP – [Conexão do Campaign RTCDP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign-managed-services.html?lang=pt-BR)
-* Recomendação de limite de 50 segmentos
-* Observe que a realização da associação de segmento de AEP é latente para lote (1 por dia) e streaming (~5 min) e com base no agendamento de avaliação de segmento.
-* A latência de ativação tem um mínimo de 3 horas
-* Somente atributos de esquema de união estão disponíveis para ativação (sem suporte para array/mapas/eventos de experiência)
-* Recomendação de não ultrapassar 20 atributos por segmento
-* Um arquivo por segmento de todos os perfis com associação de segmentos “realizada”. OU, se a associação de segmentos estiver adicionada como um atributo no arquivo, nos perfis “realizada” e “encerrada”
-* Exportações incrementais e de segmentos completos são compatíveis
-* A criptografia de arquivos não é compatível
+
 * Consulte medidas de proteção de ingestão de perfil e dados para AEP – [Link](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)

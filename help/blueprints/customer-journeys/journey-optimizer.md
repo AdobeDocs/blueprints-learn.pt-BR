@@ -3,9 +3,9 @@ title: Journey Optimizer – Blueprint de mensagens acionadas e da Adobe Experie
 description: Execute mensagens e experiências acionadas usando a Adobe Experience Platform como um hub central para dados de transmissão, perfis de clientes e segmentação.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 3102ab35e48fe51010185ea5a0352c77f068d0d4
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '563'
 ht-degree: 97%
 
 ---
@@ -74,22 +74,7 @@ Push para publicação de conteúdo para dispositivos móveis
 
 [Link do produto de medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Orientação de latência de ponta a ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
-
-Esteja ciente das seguintes considerações adicionais:
-
-* Segmentos em lote – precisam assegurar que você entenda o volume diário de usuários qualificados e que o sistema de destino possa lidar com a taxa de transferência intermitente por jornada e em todas as jornadas
-* Segmentos de transmissão – precisam assegurar que a intermitência inicial de qualificações de perfis possam ser manipuladas com o volume de qualificações de transmissão diárias por jornada e em todas as jornadas
-* Oferece compatibilidade com a gestão de decisões de forma nativa somente em mensagens (sem ações personalizadas)
-* Tipos de mensagem compatíveis:
-   * Email
-   * Push (FCM/APNS)
-   * Ações personalizadas (por meio de API Rest)
-* Integrações de saída para sistemas de terceiros
-   * Não há suporte para um único IP estático, pois nossa infraestrutura é multilocatária (é necessário incluir todos os IPs do data center na lista de permissões)
-   * Somente os métodos POST e PUT são compatíveis com ações personalizadas
-   * Autenticação por usuário/senha ou token de autorização
-* Não é possível empacotar e mover componentes individuais da Adobe Experience Platform ou do Journey Optimizer entre várias sandboxes. Em ambientes novos, deve ser implementado outra vez
+[Medidas de proteção e orientação de latência completa](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Documentação relacionada
 

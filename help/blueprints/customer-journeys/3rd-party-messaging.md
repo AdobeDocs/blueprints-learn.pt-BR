@@ -3,10 +3,10 @@ title: Journey Optimizer - Blueprint de mensagens de terceiros
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagens de terceiros para orquestrar e enviar comunicações personalizadas.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: a1421a47da2c84635ef904096a6036cfe488d763
+source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -40,39 +40,8 @@ Aplicativo de mensagens de terceiros
 
 [Link do produto de medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=pt-BR)
 
-Medidas de proteção adicionais do Journey Optimizer:
+[Medidas de proteção e orientação de latência completa](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
-* O limite agora está disponível por meio de API para garantir que o sistema de destino não esteja saturado ao ponto de falha. Isso significa que as mensagens que excederem o limite serão completamente removidas sem ser enviadas. A regulagem não é compatível.
-   * Conexões máximas – número máximo de conexões http/s com que um destino pode lidar
-   * Contagem máxima de chamadas – número máximo de chamadas a serem realizadas no parâmetro periodInMs
-   * periodInMs – tempo em milissegundos
-* Jornadas iniciadas por associação de segmentos podem operar em dois modos:
-   * Segmentos em lote (atualizados a cada 24 horas)
-   * Segmentos de transmissão (qualificação de &lt; 5 minutos)
-* Segmentos em lote – precisam assegurar que você entenda o volume diário de usuários qualificados e que o sistema de destino possa lidar com a taxa de transferência intermitente por jornada e em todas as jornadas
-* Segmentos de transmissão – precisam assegurar que a intermitência inicial de qualificações de perfis possam ser manipuladas com o volume de qualificações de transmissão diárias por jornada e em todas as jornadas
-* A gestão de decisões não é compatível
-* Integrações de saída para sistemas de terceiros
-   * Não há suporte para um único IP estático, pois nossa infraestrutura é multilocatária (é necessário incluir todos os IPs do data center na lista de permissões)
-   * Somente os métodos POST e PUT são compatíveis com ações personalizadas
-   * Suporte de autenticação: token | senha | OAuth2
-* Não é possível empacotar e mover componentes individuais da Adobe Experience Platform ou do Journey Optimizer entre várias sandboxes. Em ambientes novos, deve ser implementado outra vez
-
-<br>
-
-Sistema de mensagens de terceiros
-
-* É necessário entender qual carga o sistema suporta em chamadas de API transacionais
-   * Número de chamadas permitidas por segundo
-   * Número de conexões
-* É preciso entender qual é a autenticação necessária para fazer chamadas de API
-   * Tipo de autenticação: token | senha | OAuth2 são compatíveis com o Journey Optimizer
-   * Duração do cache de autenticação: o token é válido por quanto tempo? 
-* Se a assimilação em lote for apenas compatível e, então, precisar ser transmitida para um mecanismo de armazenamento na nuvem, como o Amazon Kinesis ou o Azure Event Grid 1st
-   * Os dados podem ser agrupados em lote nesses mecanismos de armazenamento na nuvem e canalizados para terceiros
-   * O fornecimento de middleware que porventura seja necessário fica sob responsabilidade do cliente ou de terceiros
-
-<br>
 
 ## Etapas de implementação
 
@@ -109,7 +78,7 @@ Sistema de mensagens de terceiros
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
    * Adobe Journey Optimizer
    * Rede de borda da Adobe Experience Platform
-   * Identidade       para Edge Network
+   * Identidade da rede de borda
    * Mobile Core
 1. Certifique-se de ter um fluxo de dados dedicado para implantações de aplicativos móveis e implantações da Web
 1. Para mais informações, siga o [Manual do Adobe Journey Optimizer Mobile](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)
