@@ -3,10 +3,10 @@ title: Gestão de decisões no blueprint do Edge
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências da Web e móveis em tempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 98%
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,7 @@ Para obter mais informações sobre a gestão de decisões no hub, consulte o bl
 
 ## Casos de uso da gestão de decisões na borda
 
+* Casos de uso de transmissão em que a latência de contexto do perfil é estritamente inferior a 15 minutos e a execução da gestão de decisões é por subsegundos.
 * Personalização online por meio de experiências de entrada da Web ou móvel.
 * Execução de jornada entre canais – consistência de ofertas na Web, dispositivos móveis, email e outros canais de interação por meio do Adobe Journey Optimizer.
 

@@ -3,10 +3,10 @@ title: Gestão de decisões no blueprint do Hub
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em quiosques, em experiências assistidas por agentes e em emails e outras apresentações.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 98%
+source-wordcount: '832'
+ht-degree: 87%
 
 ---
 
@@ -28,11 +28,16 @@ Para obter mais informações sobre a gestão de decisões na borda, consulte o 
 
 ## Casos de uso da gestão de decisões no hub
 
+* Casos de uso de transmissão em que a latência de contexto do perfil não é estrita: 15 minutos ou mais.
 * Ofertas personalizadas em quiosques e experiências em loja.
 * Ofertas personalizadas por meio de experiências assistidas por agente, como centrais de atendimento ou interações de vendas.
 * Ofertas incluídas em emails, mensagens SMS, notificações por push ou outras interações de saída.
 * Forneça ofertas a sistemas externos de ESP e de envio de mensagens para delivery.
 * Execução de jornada entre canais – consistência de ofertas na Web, dispositivos móveis, email e outros canais de interação por meio do Adobe Journey Optimizer.
+
+>[!IMPORTANT]
+>
+>Para casos de uso de oferta e jornada que exigem o acesso ao perfil para obter informações e contexto adicionais. É importante considerar a latência associada da assimilação de dados no perfil no hub para garantir que ele esteja disponível no momento da decisão. Para cenários em que o contexto é de transmissão ou assimilação no perfil e a oferta ou jornada deve ter esse contexto disponível em segundos ou minutos após a decisão de oferta, esses cenários são mais adequados para o Gerenciamento de decisão no Edge.
 
 <br>
 
