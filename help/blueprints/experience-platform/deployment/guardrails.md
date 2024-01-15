@@ -4,10 +4,10 @@ description: As medidas de proteção definem o impacto e as expectativas de des
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 5a4827244b7d8414b1f1a0bf9b3cd8308bde8c60
+source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ As medidas de proteção são limites recomendados que fornecem orientação par
 
 Para obter informações sobre contratos de nível de serviço específicos para aplicativos e recursos, consulte [Descrições de aplicativos e recursos](#application-feature-descriptions) na parte inferior desta página.
 
-Observe que para qualquer caso de uso de cliente que tenha requisitos rigorosos de latência ou volume, a Adobe recomenda analisar seu caso de uso detalhadamente com a Equipe de conta da Adobe e o parceiro de implementação. Em certos casos, é aconselhável testar e observar uma determinada implementação de caso de uso antes do lançamento da produção do caso de uso para observar e entender o comportamento esperado, já que cada implementação de cliente tem vários fatores em jogo, incluindo a natureza e a cadência da assimilação de dados, as especificidades das regras de segmento que estão sendo criadas e os vários desafios e cargas de ativação. Cada implementação de caso de uso terá um desempenho observado variável. Dessa forma, é melhor estabelecer e testar o desempenho esperado antecipadamente para garantir a arquitetura e a implementação adequadas de acordo com os requisitos de latência e desempenho do caso de uso.
+Observe que para qualquer caso de uso de cliente que tenha requisitos rigorosos de latência ou volume, a Adobe recomenda analisar seu caso de uso detalhadamente com a Equipe de conta da Adobe e o parceiro de implementação. Em certos casos, é aconselhável testar e observar uma determinada implementação de caso de uso antes do lançamento da produção do caso de uso para observar e entender o comportamento esperado, já que cada implementação de cliente tem vários fatores em jogo, incluindo a natureza e a cadência da assimilação de dados, as especificidades das regras de segmento que estão sendo criadas e os vários canais e cargas de ativação. Cada implementação de caso de uso terá um desempenho observado variável. Dessa forma, é melhor estabelecer e testar o desempenho esperado antecipadamente para garantir a arquitetura e a implementação adequadas de acordo com os requisitos de latência e desempenho do caso de uso.
 
 
 ## Documentação de referência sobre as medidas de proteção da Adobe Experience Platform e dos aplicativos da Adobe
@@ -42,6 +42,12 @@ As seguintes páginas fornecem informações sobre medidas de proteção para re
 
 ## Diagramas de latência de ponta a ponta {#end-to-end-latency}
 
+### Latências Principais Observadas da Rede de Borda e do Hub Experience Platform {#edge-hub-latencies}
+
+O diagrama a seguir descreve as latências observadas na borda e no hub principais que devem ser observadas ao projetar o caso de uso no Experience Platform e nos aplicativos.
+
+![Latências observadas da rede de borda do Experience Platform e do hub principal.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Latências observadas da rede de borda do Experience Platform e do hub principal"){width="1000" zoomable="yes"}
+
 ### Assimilação de dados {#data-ingestion}
 
 O diagrama abaixo exibe os valores esperados de latência de assimilação de dados por meio do [assimilação por transmissão](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) e [assimilação em lote](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/getting-started.html?lang=pt-BR) ao trazer dados para o Real-Time CDP. Clique na imagem para ver uma versão de alta resolução.
@@ -54,11 +60,11 @@ O diagrama abaixo exibe os valores de latência esperados ao trabalhar com os p�
 
 ![Visão geral visual de alto nível da segmentação.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Visão geral visual de alto nível da segmentação e valores de latência"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform e Adobe Target {#adobe-target-latency}
+### Real-time Customer Data Platform e Edge Network {#adobe-edge-latency}
 
-O diagrama abaixo exibe os valores de latência esperados ao exportar os públicos do Real-Time CDP para o [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR). Clique na imagem para ver uma versão de alta resolução.
+O diagrama abaixo exibe os valores de latência esperados ao aproveitar a rede de borda, por exemplo, para aproveitar os públicos-alvo da RTCDP no [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR). Clique na imagem para ver uma versão de alta resolução.
 
-![Exportar para visão geral visual de alto nível do Adobe Target.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Target_guardrails.svg "Exportação de públicos-alvo para valores de latência e visão geral visual de alto nível do Adobe Target"){width="1000" zoomable="yes"}
+![Visão geral visual de alto nível do Adobe Edge Network and Experience Platform.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Exportação de públicos-alvo para visão geral e latência de alto nível do Adobe Target"){width="1000" zoomable="yes"}
 
 ### Customer Journey Analytics    {#customer-journey-analytics}
 
