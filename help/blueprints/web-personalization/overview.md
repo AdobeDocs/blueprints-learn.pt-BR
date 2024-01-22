@@ -7,12 +7,12 @@ thumbnail: null
 exl-id: 8ad028fd-3190-42da-9f46-7e927e8878f8
 source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 97%
 
 ---
 
-# Personalização da Web e móvel   blueprints
+# Blueprints de personalização da Web e móvel
 
 Personalização da Web e móvel aborda a capacidade de utilizar a segmentação de perfil e público-alvo em vários aplicativos para personalizar e aprimorar as experiências do cliente. Os comportamentos do cliente, os dados demográficos, o nível de fidelização e as transações anteriores podem ser aproveitados para personalizar layouts, call-to-actions e conteúdo.
 
