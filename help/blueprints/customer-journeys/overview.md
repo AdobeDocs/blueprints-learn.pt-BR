@@ -1,12 +1,12 @@
 ---
 title: Planos de jornada do cliente
 description: Proporcione experiências do cliente individuais e oportunas em todos os canais.
-solution: Journey Optimizer, Campaign, Campaign v8, Campaign Classic v7, Campaign Standard, Experience Platform
+solution: Journey Optimizer, Campaign, Campaign v8 Client Console, Campaign v8 Web User Interface, Campaign Classic v7, Campaign Standard, Experience Platform
 kt: null
 thumbnail: null
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
+source-git-commit: 5c0f5c5cfd7c3258c6b41fb579fe6c24d1e9a56e
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
