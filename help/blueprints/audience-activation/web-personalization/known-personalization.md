@@ -7,7 +7,7 @@ solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 404c0d42fd29cb13f933bf74ad375476868a59ad
+source-git-commit: 47ae9808a53fd59583bd26b70e58c34a15e47493
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 97%
@@ -60,7 +60,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 ### Padrão de implantação 1 – Rede de borda com SDK da Web/móvel ou API da rede de borda (abordagem recomendada)
 
 * Usar a rede de borda com o SDK da Web/Mobile. A segmentação de borda em tempo real exige a abordagem de implantação do SDK da Web/Mobile ou da API de borda.
-* [Consulte o Blueprint do SDK móvel e da Web do Experience Platform](../experience-platform/deployment/websdk.md) para a implementação baseada em SDK.
+* [Consulte o Blueprint do SDK móvel e da Web do Experience Platform](/experience-platform/deployment/websdk.md) para a implementação baseada em SDK.
 * Para uso no SDK móvel, a [Adobe Journey Optimizer – Extensão de decisão](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer-decisioning) deve ser instalada no SDK móvel.
 * [Consulte a API de servidor da rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR) para uma implantação baseada em API do Adobe Target com o perfil de borda.
 
@@ -68,7 +68,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 
 Usar SDKs tradicionais específicos para aplicativos (por exemplo, AT.js e AppMeasurement.js). A avaliação de segmento de borda em tempo real não é compatível com essa abordagem de implantação. No entanto, o compartilhamento de público-alvo de lote e streaming do hub da Experience Platform são compatíveis com essa abordagem de implantação.
 
-[Consulte o Blueprint do SDK específico do aplicativo](../experience-platform/deployment/appsdk.md)
+[Consulte o Blueprint do SDK específico do aplicativo](/experience-platform/deployment/appsdk.md)
 
 ### Etapas de implantação
 
