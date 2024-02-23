@@ -4,10 +4,10 @@ description: Gerencie perfis e públicos-alvos na Experience Platform e comparti
 solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics, Experience Cloud Services
 kt: 7722
 exl-id: f36014e8-170d-47e1-b4ec-10c0ea70612d
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 100%
+source-wordcount: '799'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Consulte a seção [Experience Platform e Arquitetura de aplicativos](https://ex
 
 ## Medidas de proteção
 
-Consulte as [medidas de proteção na página de Visão geral de ativação de público-alvo e perfil](overview.md)   e a página de [medidas de proteção da implantação](../experience-platform/deployment/guardrails.md).
+Consulte a [medidas de proteção na página Visão geral do público-alvo e da ativação de perfil](overview.md) e a variável [medidas de proteção de implantação](../experience-platform/deployment/guardrails.md) página.
 
 ## Considerações de implantação
 
@@ -67,7 +67,7 @@ Consulte as [medidas de proteção na página de Visão geral de ativação de p
 
 ### Compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Target
 
-* Consulte o [Blueprint de Personalização conhecida do cliente – Target e RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/known-personalization.html?lang=pt-BR) para obter mais detalhes sobre o compartilhamento de públicos-alvo e perfis da Real-time Customer Data Platform com o Target.
+* Consulte o [Blueprint de Personalização conhecida do cliente – Target e RTCDP](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/web-personalization/known-personalization.html) para obter mais detalhes sobre o compartilhamento de públicos-alvo e perfis da Real-time Customer Data Platform com o Target.
 
 ### Compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Campaign e o Journey Optimizer
 
