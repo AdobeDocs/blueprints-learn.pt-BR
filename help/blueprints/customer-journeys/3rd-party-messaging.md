@@ -3,9 +3,9 @@ title: Journey Optimizer - Blueprint de mensagens de terceiros
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagens de terceiros para orquestrar e enviar comunicações personalizadas.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 5f9384abe7f29ec764428af33c6dd1f0a43f5a89
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '419'
 ht-degree: 97%
 
 ---
@@ -78,7 +78,7 @@ Aplicativo de mensagens de terceiros
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
    * Adobe Journey Optimizer
    * Rede de borda da Adobe Experience Platform
-   * Identidade da rede de borda
+   * Identidade de [!DNL Edge Network]
    * Mobile Core
 1. Certifique-se de ter um fluxo de dados dedicado para implantações de aplicativos móveis e implantações da Web
 1. Para mais informações, siga o [Manual do Adobe Journey Optimizer Mobile](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)

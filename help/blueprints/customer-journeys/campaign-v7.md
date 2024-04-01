@@ -1,20 +1,20 @@
 ---
 title: Blueprint do Campaign v7
-description: O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketing tradicionais, como email e correspondência direta, que oferece recursos sólidos de ETL e gerenciamento de dados para ajudar a arquitetar e organizar a campanha perfeita. Seu mecanismo de orquestração alimenta sofisticados programas de marketing multitoques com foco em jornadas orientadas por lote.  Ele também vem emparelhado com um servidor de mensagens em tempo real que permite às equipes de marketing enviar mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para questões como redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
+description: Saiba mais sobre o blueprint do Campaign v7 para programas de mensagens em lote, campanhas de integração e re-marketing, publicidade de correspondência direta e mensagens transacionais simples.
 solution: Campaign,Campaign Classic v7
 exl-id: 71c808f5-59e6-4f49-a6ba-581ed508bc04
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
-workflow-type: ht
-source-wordcount: '1195'
-ht-degree: 100%
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+workflow-type: tm+mt
+source-wordcount: '1103'
+ht-degree: 94%
 
 ---
 
 # Blueprint do Campaign v7
 
-O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketing tradicionais, como email e correspondência direta, que oferece recursos sólidos de ETL e gerenciamento de dados para ajudar a arquitetar e organizar a campanha perfeita. Seu mecanismo de orquestração alimenta sofisticados programas de marketing multitoques com foco em jornadas orientadas por lote.  Ele também vem emparelhado com um servidor de mensagens em tempo real que permite às equipes de marketing enviar mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para questões como redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
+O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketing tradicionais, como email e correspondência direta, que oferece recursos sólidos de ETL e gerenciamento de dados para ajudar a arquitetar e organizar a campanha perfeita. Seu mecanismo de orquestração fornece programas de marketing multitoque avançados com foco principal em jornadas orientadas por lote.
 
-<br>
+Ele também vem emparelhado com um servidor de mensagens em tempo real que permite às equipes de marketing enviar mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para questões como redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
 
 ## Casos de uso
 
@@ -23,13 +23,9 @@ O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketin
 * Campanhas de publicidade por correspondência direta, folheto e revista
 * Mensagens transacionais simples de baixo volume (ou seja, redefinição de senhas, recebimento de emails, confirmação de pedidos etc.)
 
-<br>
-
 ## Arquitetura
 
 <img src="assets/campaign-v7-architecture.svg" alt="Blueprint de arquitetura de referência para o Campaign v7" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## Padrões de integração
 
@@ -38,9 +34,9 @@ O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketin
 | [Real-Time CDP com Adobe Campaign](rtcdp-and-campaign.md) | Mostra como o Real-Time CDP da Adobe Experience Platform e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign para proporcionar conversas personalizadas | <ul><li>Compartilhamento de públicos-alvo e perfis da Real-Time CDP com o Adobe Campaign por meio da utilização de fluxos de trabalho tanto de troca de arquivos de armazenamento na nuvem como de assimilação do Adobe Campaign </li><li>Compartilhe facilmente com o Real-Time CDP da Adobe Campaign os dados de entrega e interação das conversas dos clientes para aprimorar o Perfil do cliente em tempo real e gerar relatórios entre canais sobre campanhas de mensagens</li></ul> |
 | [Journey Optimizer com Adobe Campaign](ajo-and-campaign.md) | Mostra como usar o Adobe Journey Optimizer para organizar experiências individualizadas utilizando o Perfil do cliente em tempo real e aproveitar o sistema nativo de mensagens transacionais do Adobe Campaign para enviar a mensagem | Aproveite o Perfil do cliente em tempo real e o poder do Journey Optimizer para organizar as experiências na hora, enquanto utiliza os recursos nativos de mensagens em tempo real do Adobe Campaign para fazer a comunicação de última milha<br><br>Considerações:<br><ul><li>Envia até 50 mil mensagens por hora por meio do servidor de mensagens em tempo real<li>Não se faz regulagem a partir do Journey Optimizer, então providencie a avaliação técnica de um arquiteto empresarial de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o servidor de mensagens em tempo real do Campaign v7</li></ul> |
 
-<br>
-
 ## Pré-requisitos
+
+Revise os seguintes pré-requisitos abaixo.
 
 ### Servidor de aplicativo e servidor de mensagens em tempo real
 
@@ -72,6 +68,8 @@ O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketin
 <br>
 
 ## Medidas de proteção
+
+Revise as medidas de proteção a seguir.
 
 ### Dimensionamento do servidor de aplicativos
 
@@ -113,14 +111,12 @@ O Adobe Campaign v7 é uma ferramenta de campanha criada para canais de marketin
    * Para ter acesso, entre em contato com o Atendimento ao cliente da Adobe
    * Siga a [Documentação do SDK do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=pt-BR) para saber como instalar e configurar o SDK
 
-   >[!IMPORTANT]
-   >Se você implantar o SDK do Campaign e estiver trabalhando com outros aplicativos da Experience Cloud, eles exigirão o uso do SDK móvel da Experience Platform para a coleção de dados. Trata-se de um SDK diferente que precisará ser instalado junto com o SDK do Campaign
-
-<br>
+  >[!IMPORTANT]
+  >Se você implantar o SDK do Campaign e estiver trabalhando com outros aplicativos da Experience Cloud, eles exigirão o uso do SDK móvel da Experience Platform para a coleção de dados. Trata-se de um SDK diferente que precisará ser instalado junto com o SDK do Campaign
 
 ## Etapas de implantação
 
-Consulte o [Guia de Introdução](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=pt-BR) para implantar o Adobe Campaign v7
+Consulte a [Guia de introdução](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=pt-BR) para implementar o Adobe Campaign v7.
 
 
 ## Documentação relacionada

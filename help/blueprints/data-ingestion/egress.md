@@ -1,21 +1,25 @@
 ---
 title: Blueprint de acesso e exportação de dados
-description: Este blueprint fornece uma visão geral de todos os métodos pelos quais os dados podem ser acessados e exportados da Adobe Experience Platform e dos aplicativos.
+description: Saiba mais sobre os métodos pelos quais os dados podem ser acessados e exportados do Adobe Experience Platform e de aplicativos.
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 89dcbc4d71a9edff3095a6707cecc823281a9385
+source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
 workflow-type: tm+mt
-source-wordcount: '2052'
-ht-degree: 100%
+source-wordcount: '1838'
+ht-degree: 91%
 
 ---
 
 # Blueprint de acesso e exportação de dados
 
-O Blueprint de acesso e exportação de dados descreve todos os métodos possíveis pelos quais os dados podem ser acessados ou exportados da Adobe Experience Platform e dos aplicativos.
+O blueprint de acesso e exportação de dados descreve todos os métodos possíveis pelos quais os dados podem ser acessados ou exportados do [!DNL Experience Platform] e aplicativos.
 
-O Blueprint é dividido em duas categorias para acesso a dados da Experience Platform e dos aplicativos. Em primeiro lugar, abordagens para obtenção de dados da Experience Platform e dos aplicativos; este seria considerado um método de saída de dados do tipo push. Em segundo lugar, abordagens para acesso aos dados da Experience Platform e dos aplicativos; este seria considerado um método de acesso a dados do tipo pull.
+O blueprint é dividido em duas categorias para acesso de dados do [!DNL Experience Platform] e aplicativos.
+
+O primeiro inclui abordagens para a saída de dados de Experience Platform e aplicativos. Esta situação seria considerada uma _push_ tipo de método de saída de dados.
+
+O segundo inclui abordagens para acessar dados de Experience Platform e aplicativos. Esta situação seria considerada uma _obter_ tipo de método de acesso aos dados.
 
 Abordagens de acesso a dados:
 
@@ -30,7 +34,7 @@ Abordagens da exportação de dados:
 * [Destinos da Real-time Customer Data Platform](#RTCDP-destinations)
 * [Ações personalizadas do Journey Optimizer](#jo-custom-actions)
 
-## Arquitetura da visão geral de acesso e exportação de dados
+## Arquitetura de visão geral de acesso e exportação de dados
 
 <img src="../experience-platform/assets/aep_data_flow.svg" alt="Blueprint de arquitetura de referência para preparação e assimilação de dados" style="width:90%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
@@ -408,7 +412,7 @@ Consulte a documentação de [Visão geral das tags](https://experienceleague.ad
 
 ### Encaminhamento de eventos {#event-forwarding}
 
-As solicitações de coleta de dados são coletadas diretamente na Edge Network da Adobe. Na Edge Network, as solicitações para endpoints RESTful externos podem ser configuradas para serem encaminhadas para o destino externo.
+As solicitações de coleta de dados são coletadas diretamente no Adobe [!DNL Edge Network]. No [!DNL Edge Network] as solicitações para endpoints RESTful externos podem ser configuradas para encaminhar essas solicitações para o destino externo.
 
 Para obter mais informações, consulte a seguinte documentação: [Encaminhamento de eventos](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=pt-BR).
 
@@ -418,7 +422,7 @@ Para obter mais informações, consulte a seguinte documentação: [Encaminhamen
 
 #### Considerações
 
-* Para usar o Encaminhamento de eventos, os dados devem ser enviados para a Edge Network usando SDK da Web ou MobileSDK.
+* Para usar o encaminhamento de eventos, os dados devem ser enviados para o [!DNL Edge Network] usando o SDK da Web ou MobileSDK.
 * A abordagem de encaminhamento de eventos reduz o tempo e o peso do carregamento da página devido à adição de tags na página.
 * No momento, não há suporte ao enriquecimento do perfil de borda ou de outras fontes de dados.
 * Há suporte limitado à filtragem de dados e a transformações de mapeamento simples.

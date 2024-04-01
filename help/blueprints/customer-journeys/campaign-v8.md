@@ -1,95 +1,89 @@
 ---
 title: Blueprint do Campaign v8, Campaign e Platform
-description: O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para canais de marketing tradicionais, como email e correspondência direta, que oferece recursos sólidos de ETL e gerenciamento de dados para ajudar a arquitetar e organizar a campanha perfeita. Seu mecanismo de orquestração alimenta sofisticados programas de marketing multitoques com foco em jornadas orientadas por lote.  Ele também vem emparelhado com um servidor de mensagens em tempo real escalável que permite às equipes de marketing enviar mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para questões como redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
+description: Saiba mais sobre o blueprint do Campaign v8.
 solution: Campaign,Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: ac6e27e88854f5a05a7ff7428cd4375b3532f632
+source-git-commit: 16b233c7ea9077566ebf12238f0a87beec1c61ce
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 95%
+source-wordcount: '966'
+ht-degree: 41%
 
 ---
 
 # Blueprint do Campaign v8
 
-O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para canais de marketing tradicionais, como email e correspondência direta, que oferece recursos sólidos de ETL e gerenciamento de dados para ajudar a arquitetar e organizar a campanha perfeita. Seu mecanismo de orquestração alimenta sofisticados programas de marketing multitoques com foco em jornadas orientadas por lote.  Ele também vem emparelhado com um servidor de mensagens em tempo real escalável que permite às equipes de marketing enviar mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para questões como redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
+O Adobe Campaign v8 é a ferramenta de campanha de última geração criada para canais de marketing tradicionais, como email e correspondência direta, que oferece recursos sólidos de ETL e gerenciamento de dados para ajudar a arquitetar e organizar a campanha perfeita. Seu mecanismo de orquestração fornece programas de marketing multitoque avançados com foco principal em jornadas orientadas por lote.
 
-<br>
+Ele também vem emparelhado com um servidor de mensagens em tempo real escalável que permite às equipes de marketing enviar mensagens predefinidas com base em uma carga abrangente de qualquer sistema de TI para questões como redefinição de senha, confirmação de pedido, recibos eletrônicos e muito mais.
 
 ## Casos de uso
 
-* Programas de mensagens baseadas em lote altamente complexos
-* Campanhas de integração e de remarketing
+* Programas de mensagens em lote altamente complexos.
+* Campanhas de integração e de remarketing.
 * Campanhas de publicidade por correspondência direta, folheto e revista
-* Mensagens transacionais simples (ou seja, redefinição de senha, recebimento de email, confirmação de pedidos, etc.)
-* Integração dos dados do Campaign com o Adobe Experience Platform para análise e criação de perfis
+* Mensagens transacionais simples (como redefinição de senha, recibos de email, confirmações de pedidos e assim por diante).
+* Integração dos dados do Campaign ao Adobe Experience Platform para análise e criação de perfil.
 * Compartilhamento de públicos-alvo da Real-time Customer Data Platform com o Campaign.
-
-<br>
 
 ## Diagramas de arquitetura
 
-Saiba mais sobre os modelos de implantação do Campaign v8 no [esta página](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+Saiba mais sobre [Modelos de implantação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
 
 ### Implantação do Campaign Enterprise (FFDA)
 
 <img src="assets/P4-architecture.png" alt="Arquitetura de referência do Blueprint do Campaign v8 (P4)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
-
 ### Implantação do FDA no Campaign v8
 
 <img src="assets/P1-P3-architecture.png" alt="Arquitetura de referência do Blueprint do Campaign v8 (P1-P3)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
-
-<br>
 
 ## Padrões de integração
 
 | Cenário | Descrição | Recursos |
 | :-- | :--- | :--- |
-| [Real time Customer Data Platform com Adobe Campaign](rtcdp-and-campaign-v8.md) | Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign para proporcionar conversas personalizadas | <ul><li>Compartilhamento de públicos-alvo e perfis da Real-Time CDP com o Adobe Campaign por meio da utilização de fluxos de trabalho tanto de troca de arquivos de armazenamento na nuvem como de assimilação do Adobe Campaign </li><li>Compartilhe facilmente com o Real-Time CDP da Adobe Campaign os dados de entrega e interação das conversas dos clientes para aprimorar o Perfil do cliente em tempo real e gerar relatórios entre canais sobre campanhas de mensagens</li></ul> |
-| [Journey Optimizer com Adobe Campaign](ajo-and-campaign.md) | Mostra como usar o Adobe Journey Optimizer para organizar experiências individualizadas utilizando o Perfil do cliente em tempo real e aproveitar o sistema nativo de mensagens transacionais do Adobe Campaign para enviar a mensagem | Aproveite o Perfil do cliente em tempo real e o poder do Journey Optimizer para organizar as experiências na hora, enquanto utiliza os recursos nativos de mensagens em tempo real do Adobe Campaign para fazer a comunicação de última milha<br><br>Considerações:<br><ul><li>Envia até 1 milhão de mensagens por hora por meio do servidor de mensagens em tempo real<li>Não se faz regulagem a partir do Journey Optimizer, então providencie a avaliação técnica de um arquiteto empresarial de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o Campaign v8</li></ul> |
-
-<br>
+| [[!DNL Real-time Customer Data Platform] com Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Mostra como a Adobe Experience Platform e seu Perfil do cliente em tempo real e a ferramenta de segmentação centralizada podem ser utilizados com o Adobe [!DNL Campaign] para fornecer conversas personalizadas | <ul><li>O compartilhamento de perfis e públicos-alvo da [!DNL Real-Time CDP] para Adobe [!DNL Campaign] usando o intercâmbio de arquivos de armazenamento em nuvem e o Adobe [!DNL Campaign] workflows de assimilação </li><li>Compartilhe facilmente dados de entrega e interação das conversas com os clientes com a [!DNL Real-Time CDP] do Adobe [!DNL Campaign] para aprimorar o Perfil do cliente em tempo real e fornecer relatórios entre canais sobre campanhas de mensagens</li></ul> |
+| [[!DNL Journey Optimizer] com Adobe [!DNL Campaign]](ajo-and-campaign.md) | Mostra como você pode usar o Adobe Journey Optimizer para orquestrar experiências 1:1 utilizando o Perfil do cliente em tempo real e aproveitar o Adobe nativo [!DNL Campaign] sistema de mensagens transacionais para enviar a mensagem | Aproveite o Perfil do cliente em tempo real e o potencial do [!DNL Journey Optimizer] para orquestrar experiências de momento, utilizando os recursos nativos de mensagens em tempo real do Adobe [!DNL Campaign] para fazer a comunicação da última milha<br><br>Considerações:<br><ul><li>Envia até 1 milhão de mensagens por hora por meio do servidor de mensagens em tempo real<li>Nenhuma limitação é executada de [!DNL Journey Optimizer] portanto, garanta a verificação técnica por um arquiteto corporativo de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o Campaign v8</li></ul> |
 
 ## Pré-requisitos
 
+Existem os seguintes pré-requisitos para este blueprint.
 
 ### Servidor de aplicativo e servidor de mensagens em tempo real
 
-* O Adobe Campaign Client Console é necessário para a utilização do software Campaign v8 e interação. Trata-se de um cliente baseado em Windows que usa protocolos-padrão de Internet (SOAP, HTTP, etc.). Certifique-se de que as permissões necessárias para distribuir, instalar e executar o software estão ativas em sua organização
+* O ADOBE [!DNL Campaign] O Console do cliente é necessário para interagir e usar o [!DNL Campaign] software v8. Trata-se de um cliente baseado em Windows que usa protocolos-padrão de Internet (SOAP, HTTP, etc.). Certifique-se de que as permissões necessárias para distribuir, instalar e executar o software estão ativas em sua organização
 
-* Lista de permissões de endereço IP
-   * Identifique os intervalos de IP que serão usados por todos os usuários durante o acesso ao console do cliente
-   * Identifique os sistemas empresariais que serão autorizados a se comunicar com o servidor de mensagens em tempo real e garanta que eles tenham um IP ou intervalo atribuído estaticamente que possa ser incluído na lista de permissões
-   * A configuração e o controle podem ser feitos pelo Painel de controle do Campaign
-* Gerenciamento de chaves sFTP
+* Lista de permissões de endereço IP:
+   * Identifique os intervalos IP que todos os usuários utilizam durante o acesso ao console do cliente.
+   * Identifique quais sistemas corporativos têm permissão para se comunicar com o servidor de mensagens em tempo real e verifique se eles têm um IP atribuído estaticamente ou um intervalo que você possa incluir na lista de permissões.
+   * A configuração e o controle podem ser feitos pelo Painel de controle do Campaign.
+* Gerenciamento de chaves sFTP:
    * Tenha chaves públicas SSH disponíveis para serem usadas com o sFTP fornecido pelo Campaign. A configuração e o controle podem ser feitos pelo Painel de controle do Campaign.
 
 ### Email
 
-* Tenha um subdomínio pronto para ser usado no envio de mensagens
-* O subdomínio pode ser totalmente delegado à Adobe (recomendado) ou podem ser usados CNAMEs para indicar servidores DNS específicos da Adobe (personalizado)
-* É necessário registro TXT do Google para cada subdomínio, para garantir um boa capacidade de entrega
+* Ter um subdomínio pronto para ser usado para enviar mensagens.
+* O subdomínio pode ser totalmente delegado ao Adobe (recomendado) ou os CNAMEs podem ser usados para apontar para servidores DNS específicos do Adobe (personalizados).
+* O registro TXT do Google é necessário para cada subdomínio para garantir uma boa capacidade de entrega.
 
 ### Push para publicação de conteúdo para dispositivos móveis
 
-* Tenha um desenvolvedor para dispositivos móveis disponível para implantar, configurar e criar o aplicativo móvel
-* A Adobe oferece apenas um SDK para coletar as informações necessárias do FCM (Android) e do APNS (iOS) para enviar cargas de mensagem aos servidores deles. A forma como o aplicativo móvel precisa ser codificado, implantado, gerenciado e depurado é de responsabilidade do cliente
+* Tenha um desenvolvedor móvel disponível para implantar, configurar e criar o aplicativo móvel.
+* A Adobe oferece apenas um SDK para coletar as informações necessárias do FCM (Android) e do APNS (iOS) para enviar cargas de mensagem aos servidores deles. A forma como o aplicativo móvel precisa ser codificado, implantado, gerenciado e depurado é responsabilidade do cliente.
 
 ### Aplicativos web (opcional)
 
-* Podem delegar um subdomínio adicional para as páginas de aterrissagem e de cancelamento de inscrição hospedadas no Campaign
-* O certificado SSL é altamente recomendado
-
-<br>
+* Pode delegar um subdomínio adicional para páginas de destino e de cancelamento de inscrição hospedadas no Campaign.
+* O certificado SSL é altamente recomendado.
 
 ## Medidas de proteção
 
+As medidas de proteção são descritas abaixo.
+
 ### Dimensionamento do servidor de aplicativos
 
-* O armazenamento pode ser dimensionado para até 200 milhões de perfis com potencial para aumentar até alcançar um total de 1 bilhão de perfis
-* Configure e controle o acesso do usuário por meio do Adobe Admin Console
-* Espera-se que o carregamento de dados para o Campaign seja feito por meio de arquivos em lote
+* O armazenamento pode ser dimensionado para até 200 milhões de perfis com potencial para dimensionar até 1 bilhão de perfis.
+* Configurar e controlar o acesso do usuário via Adobe [!DNL Admin Console].
+* Carregamento de dados para [!DNL Campaign] O deve ser feito por meio de arquivos em lote:
    * O suporte ao carregamento de dados de API serve principalmente para o gerenciamento de perfis ou objetos simples no banco de dados (ou seja, criar e atualizar). Não foi projetado para o carregamento de grandes volumes de dados ou operações semelhantes a lotes.
    * A utilização de APIs para ler dados para aplicativos personalizados não é compatível
    * Os dados carregados por meio de API são preparados no banco de dados do aplicativo e, em seguida, replicados a cada hora para o banco de dados na nuvem
@@ -106,17 +100,16 @@ Saiba mais sobre os modelos de implantação do Campaign v8 no [esta página](ht
 
 ### Configuração de SMS
 
-* O Campaign oferece o recurso de se integrar a um provedor de SMS. O provedor é adquirido pelo cliente e integrado ao Campaign para enviar mensagens baseadas em SMS
-* O suporte é feito por meio do protocolo SMPP
+* O Campaign oferece o recurso de se integrar a um provedor de SMS. O provedor é adquirido pelo cliente e integrado ao Campaign para envio de mensagens baseadas em SMS.
+* O suporte é por meio do protocolo SMPP.
 * Há três (3) tipos diferentes de SMS, e a Adobe é compatível com todos eles:
-   * SMS MT (terminado no celular): SMSs emitidos pela Adobe Campaign para telefones celulares por meio do provedor SMPP.
-   * SMS MO (originado no celular): SMSs enviados de celulares para o Adobe Campaign por meio do provedor SMPP.
-   * SMS SR (relatório de status), DR ou DLR (recibo de entrega): um recibo de retorno enviado dos celulares para o Adobe Campaign por meio do provedor SMPP indicando que o SMS foi recebido. O Adobe Campaign também pode receber SRs indicando que a mensagem não pôde ser entregue, geralmente com uma descrição do erro.
+   * SMS MT (Terminado por dispositivo móvel): um SMS emitido pelo Adobe [!DNL Campaign] para telefones celulares através do fornecedor de SMPP.
+   * SMS MO (Originado por dispositivo móvel): um SMS enviado por um dispositivo móvel para o Adobe [!DNL Campaign] pelo provedor SMPP.
+   * SMS SR (Relatório de Status) ou DR ou DLR (Recibo de Delivery): um recibo de retorno enviado pelo dispositivo móvel ao Adobe [!DNL Campaign] pelo provedor SMPP, indicando que o SMS foi recebido com êxito. Adobe [!DNL Campaign] A também pode receber um SR indicando que a mensagem não pôde ser entregue, geralmente com uma descrição do erro.
 
 ## Etapas de implantação
 
 Consulte o guia de introdução para a [Implementação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=pt-BR)
-
 
 ## Documentação relacionada
 

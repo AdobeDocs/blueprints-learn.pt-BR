@@ -3,10 +3,10 @@ title: Blueprint do Journey Optimizer com Adobe Campaign v7
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign para enviar mensagens utilizando o servidor de mensagens em tempo real no Campaign de forma nativa
 solution: Journey Optimizer, Campaign, Campaign Classic v7, Campaign Standard
 exl-id: 6d9bc65c-cca0-453f-8106-d2895d005ada
-source-git-commit: 5c0f5c5cfd7c3258c6b41fb579fe6c24d1e9a56e
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 98%
+source-wordcount: '602'
+ht-degree: 97%
 
 ---
 
@@ -87,8 +87,8 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 1. Implemente o SDK móvel da Experience Platform para coletar tokens de push e informações de logon a serem vinculadas a perfis de clientes conhecidos
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
    * Adobe Journey Optimizer | Adobe Campaign Classic | Adobe Campaign Standard
-   * Rede de borda da Adobe Experience Platform
-   * Identidade da rede de borda
+   * Adobe Experience Platform [!DNL Edge Network]
+   * Identidade de [!DNL Edge Network]
    * Mobile Core
 1. Certifique-se de ter um fluxo de dados dedicado para implantações de aplicativos móveis e implantações da Web
 1. Para mais informações, siga o [Manual do Adobe Journey Optimizer Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer)

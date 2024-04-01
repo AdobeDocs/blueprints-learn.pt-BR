@@ -3,22 +3,24 @@ title: Gestão de decisões no blueprint do Edge
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências da Web e móveis em tempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 95%
+source-wordcount: '632'
+ht-degree: 80%
 
 ---
 
-# Journey Optimizer – Blueprint da gestão de decisões no Edge
+# JOURNEY OPTIMIZER - [!DNL Decision Management] no blueprint do Edge
 
-Para saber mais sobre a gestão de decisões, consulte a documentação do produto [AQUI](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR) e a Visão geral da gestão de decisões [AQUI](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=pt-BR)
+[!DNL Decision Management] é um serviço fornecido como parte de [!DNL Journey Optimizer]. Esse blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece mais detalhes sobre os diferentes componentes da arquitetura e considerações que compõem a gestão de decisões.
 
-A gestão de decisões da Adobe é um serviço fornecido como parte do Adobe Journey Optimizer. Esse blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece mais detalhes sobre os diferentes componentes da arquitetura e considerações que compõem a gestão de decisões.
+>[!MORELIKETHIS]
+>
+>Para saber mais sobre [!DNL Decision Management], consulte o [visão geral do blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=pt-BR) ou visite o [documentação do produto](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR).
 
-A gestão de decisões pode ser implantada de duas maneiras. A primeira é por meio do hub da Adobe Experience Platform, que é uma arquitetura de datacenter única. Na abordagem de “hub”, as ofertas são executadas, personalizadas e entregues na latência de segundos. Por isso, a arquitetura de hub é mais adequada para uma experiência do cliente que não exige latência de subsegundo. Exemplos incluem definições de ofertas que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais.
+[!DNL Decision Management] pode ser implantado de uma das duas formas. A primeira é por meio da [!DNL Experience Platform] Hub, que é uma arquitetura de data center única. Na abordagem de “hub”, as ofertas são executadas, personalizadas e entregues na latência de segundos. Por isso, a arquitetura de hub é mais adequada para uma experiência do cliente que não exige latência de subsegundo. Exemplos incluem definições de ofertas que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais.
 
-A segunda abordagem é por meio da Experience Edge Network, que é uma infraestrutura distribuída globalmente para fornecer experiências rápidas de subsegundo e milissegundo. A experiência do consumidor final é executada pela infraestrutura de borda mais próxima da localização geográfica do consumidor para minimizar a latência. A gestão de decisões na borda foi projetada para fornecer experiências do consumidor em tempo real. Isso inclui experiências como solicitações de personalização de entrada da Web ou móvel.
+A segunda abordagem é por meio do Experience Platform [!DNL Edge Network], que é uma infraestrutura distribuída globalmente e localizada geograficamente para fornecer experiências rápidas de subsegundos e milissegundos. A experiência do consumidor final sendo executada pela infraestrutura de borda mais próxima à localização geográfica do consumidor para minimizar a latência. [!DNL Decision Management] O no Edge foi projetado para oferecer experiências do consumidor em tempo real. Isso inclui experiências como solicitações de personalização de entrada da Web ou móvel.
 
 Esse blueprint abordará as especificidades da gestão de decisões na borda.
 

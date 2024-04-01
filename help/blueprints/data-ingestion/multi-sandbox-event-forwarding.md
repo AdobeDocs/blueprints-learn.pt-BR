@@ -4,10 +4,10 @@ description: Saiba como os dados coletados com os SDKs móveis e da Web da Exper
 solution: Data Collection
 kt: 7202
 exl-id: ecc94fc8-9fad-4b88-a153-3d0fc00d8d58
-source-git-commit: 3d6a2416cdb9956e59be4b2918ba19f88cd2150b
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '769'
+ht-degree: 83%
 
 ---
 
@@ -44,7 +44,7 @@ O [!UICONTROL Encaminhamento de eventos] não é considerado pronto para HIPAA e
 
 ### Diferentes sequências de dados e pontos de extremidade de transmissão
 
-À medida que os dados fluem pelas sequências de dados da [!UICONTROL Platform Edge Network], ao usar o [!UICONTROL Encaminhamento de eventos] para outra sandbox da AEP, um requisito é nunca usar a mesma sequência de dados ou ponto de extremidade de transmissão que a sequência de dados que faz a coleção original. Isso pode ser prejudicial para a instância da AEP e possivelmente acionar uma situação de DoS.
+À medida que os dados fluem pelos fluxos de dados da [!DNL Platform Edge Network], ao usar [!UICONTROL Encaminhamento de evento] Para outra sandbox da AEP, um requisito é nunca usar o mesmo fluxo de dados ou ponto de extremidade de transmissão que a sequência de dados que faz a coleção original. Isso pode ser prejudicial para a instância da AEP e possivelmente acionar uma situação de DoS.
 
 ### Volumes de tráfego estimados
 
@@ -54,11 +54,11 @@ Os volumes de tráfego são necessários para análise, conforme cada caso de us
 
 ![Encaminhamento de eventos [!UICONTROL de várias sandboxes]](assets/multi-sandbox-data-collection.png)
 
-1. A coleta e o envio de dados do evento para a [!UICONTROL Platform Edge Network] são necessários para usar o [!UICONTROL Encaminhamento de eventos]. Os clientes podem usar as tags da Adobe no lado do cliente ou na [!UICONTROL API de servidor da Platform Edge Network] para a coleção de dados entre servidores. A [!UICONTROL API da Platform Edge Network] pode fornecer um recurso de coleção entre servidores. Para isso, no entanto, é necessário implementar um modelo de programação diferente. Consulte [Visão geral da API de servidor da Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR).
+1. Coleta e envio de dados do evento para o [!DNL Platform Edge Network] é necessário para usar o [!UICONTROL Encaminhamento de evento]. Os clientes podem usar as tags Adobe para o lado do cliente ou [!DNL Platform Edge Network Server API] para coleta de dados de servidor para servidor. A variável [!DNL Platform Edge Network API] O pode fornecer um recurso de coleção de servidor para servidor. Para isso, no entanto, é necessário implementar um modelo de programação diferente. Consulte [Visão geral da API de servidor da Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR).
 
-1. O conteúdo coletado é enviado da implementação de tags na [!UICONTROL Platform Edge Network] para o serviço de [!UICONTROL Encaminhamento de eventos] e processado por seus próprios [!UICONTROL Elementos de dados], [!UICONTROL Regras] e [!UICONTROL Ações]. Saiba mais sobre as diferenças entre [[!UICONTROL Tags e Encaminhamento de eventos]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=pt-BR#differences-from-tags).
+1. As cargas coletadas são enviadas da implementação de tags para o [!DNL Platform Edge Network] para o [!UICONTROL Encaminhamento de evento] e processado pelo seu próprio [!UICONTROL Elementos de dados], [!UICONTROL Regras] e [!UICONTROL Ações]. Saiba mais sobre as diferenças entre [[!UICONTROL Tags e Encaminhamento de eventos]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=pt-BR#differences-from-tags).
 
-1. Uma propriedade de [!UICONTROL Encaminhamento de eventos] também é necessária para receber dados do evento coletados da [!UICONTROL Platform Edge Network]. Se esses dados do evento foram enviados para a Platform Edge Network por uma implementação de tags implantadas ou por uma coleção entre servidores. Os autores definem os elementos de dados, as regras e as ações usadas para enriquecer os dados do evento antes do encaminhamento para a segunda sandbox. Considere usar o elemento de dados [!DNL JavaScript] de código personalizado para ajudar a estruturar os dados para assimilação da sandbox. Combinado com os recursos de preparação de dados da Platform, você tem várias opções para gerenciar a estrutura de dados.
+1. Um [!UICONTROL Encaminhamento de evento] propriedade também é necessária para receber dados de Evento coletados do [!DNL Platform Edge Network]. Se esses dados do evento foram enviados para o [!DNL Platform Edge Network] por uma implementação de Tags implantadas ou uma coleção de servidor para servidor. Os autores definem os elementos de dados, as regras e as ações usadas para enriquecer os dados do evento antes do encaminhamento para a segunda sandbox. Considere usar o elemento de dados [!DNL JavaScript] de código personalizado para ajudar a estruturar os dados para assimilação da sandbox. Combinado com os recursos de preparação de dados da Platform, você tem várias opções para gerenciar a estrutura de dados.
 
 1. Atualmente, é necessário usar a [!UICONTROL extensão do Adobe Cloud Connector] na propriedade de [!UICONTROL Encaminhamento de eventos]. Depois que as regras processam ou enriquecem os dados do evento, o Cloud Connector é usado em uma chamada de busca configurada para enviar uma solicitação POST com o conteúdo para a segunda sandbox
 

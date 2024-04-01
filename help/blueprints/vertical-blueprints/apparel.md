@@ -1,13 +1,13 @@
 ---
-title: Setor de vestuário – Ativação com aplicativos da Experience Cloud
-description: Vários blueprints foram usados para permitir o marketing em tempo real, a ativação entre canais e a análise de vários canais.
+title: Indústria do vestuário - Ativação com aplicativos Experience Cloud
+description: Usado vários blueprints para habilitar o marketing em tempo real, a ativação entre canais e a análise entre canais.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration
 kt: 9487
 exl-id: f1a3e785-c804-43bd-90de-da4359bdd810
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '331'
+ht-degree: 94%
 
 ---
 

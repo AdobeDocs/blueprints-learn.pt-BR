@@ -3,10 +3,10 @@ title: Gestão de decisões no blueprint do Hub
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em quiosques, em experiências assistidas por agentes e em emails e outras apresentações.
 solution: Experience Platform, Journey Optimizer
 exl-id: 5a386e18-bbac-4216-a35f-0a5016785e4a
-source-git-commit: 2960cc95b9b83a3efea7fa247e1adabf310f3ee1
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 87%
+source-wordcount: '831'
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ O Journey Optimizer é usado para fornecer a melhor oferta e experiência aos cl
 
 A gestão de decisões pode ser implantada de duas maneiras. A primeira é por meio do hub da Adobe Experience Platform, que é uma arquitetura de datacenter centralizada. Na abordagem de “hub”, as ofertas são executadas, personalizadas e entregues na latência de >500 milissegundos. Por isso, a arquitetura de hub é mais adequada para experiências do cliente que não exigem latência de subsegundo. Exemplos incluem definições de ofertas que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais. As ofertas inseridas em emails e campanhas de saída também são possibilitadas pela abordagem de hub.
 
-A segunda abordagem é por meio da Experience Edge Network, que é uma infraestrutura distribuída globalmente para fornecer experiências rápidas de subsegundo e milissegundo. A experiência do consumidor final é executada pela infraestrutura de borda mais próxima da localização geográfica do consumidor para minimizar a latência. A gestão de decisões na borda foi projetada para fornecer experiências do consumidor em tempo real, como solicitações de personalização de entrada da Web ou móvel.
+A segunda abordagem é por meio da Experience [!DNL [!DNL Edge Network]], que é uma infraestrutura distribuída globalmente e localizada geograficamente para fornecer experiências rápidas em subsegundos e milissegundos. A experiência do consumidor final é executada pela infraestrutura de borda mais próxima da localização geográfica do consumidor para minimizar a latência. A gestão de decisões na borda foi projetada para fornecer experiências do consumidor em tempo real, como solicitações de personalização de entrada da Web ou móvel.
 
 Esse blueprint abordará as especificidades da gestão de decisões no hub.
 

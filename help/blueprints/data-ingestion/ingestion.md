@@ -5,10 +5,10 @@ solution: Data Collection
 kt: 7204
 thumbnail: null
 exl-id: 21f8a73e-6be7-448e-8cd3-ebee9fc848e1
-source-git-commit: 886cae3895f3adc85f516ab8b4241bfe1fa9a541
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 98%
+source-wordcount: '838'
+ht-degree: 91%
 
 ---
 
@@ -90,11 +90,11 @@ O diagrama abaixo ilustra as medidas de proteção de desempenho médio e a lat�
 </tr>
 <tr>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:1px solid white; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:222px">
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR" style="color:#0563c1; text-decoration:underline">API da Edge Network</a></span></span></span></p>
+<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black"><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR" style="color:#0563c1; text-decoration:underline">[!DNL Edge Network] API</a></span></span></span></p>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:401px">
 <ul style="list-style-type:square">
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Coleção de fontes de transmissão, transações, eventos e sinais relevantes do cliente da rede de Edge distribuída globalmente</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Coleta de fontes de transmissão, transações, eventos relevantes do cliente e sinais da distribuição global [!DNL Edge Network]</span></span></span></li>
 </ul>
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:218px">
@@ -102,7 +102,7 @@ O diagrama abaixo ilustra as medidas de proteção de desempenho médio e a lat�
 </td>
 <td style="background-color:#e8eeff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Os dados são transmitidos por meio da Edge Network. Suporte para segmentação em tempo real na Edge. </span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Os dados são transmitidos por meio do [!DNL Edge Network]. Suporte para segmentação em tempo real na Edge. </span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -156,7 +156,7 @@ O diagrama abaixo ilustra as medidas de proteção de desempenho médio e a lat�
 </td>
 <td style="background-color:#cddbff; border-bottom:1px solid white; border-left:none; border-right:1px solid white; border-top:none; height:39px; vertical-align:top; width:282px">
 <ul>
-<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">Edge Network</span></span></span></li>
+<li><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="color:black">[!DNL Edge Network]</span></span></span></li>
 </ul>
 </td>
 </tr>
@@ -268,9 +268,9 @@ O diagrama abaixo ilustra as medidas de proteção de desempenho médio e a lat�
 
 | Métodos de assimilação | Descrição |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SDK da Web/móvel | Latência:<ul><li>Tempo real – coleção da mesma página para a Rede de borda</li><li>Assimilação de streaming ao perfil &lt; 15 minutos no 95º percentil</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</ul>Documentação: <ul><li>[SDK da Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=pt-BR)</li><li>[Implementar a Adobe Experience Cloud com o tutorial do SDK da Web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR)</li><li>[SDK móvel](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)</li><li>[Tutorial sobre como Implementar a Adobe Experience Cloud em aplicativos móveis](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=pt-BR)</li></ul> |
-| Fontes de streaming | [Fontes de streaming](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#connectors)<br>Latência:<ul><li>Tempo real – coleção da mesma página para a Rede de borda</li><li>Assimilação por streaming para o Perfil ~1 minuto</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</li></ul> |
-| API de streaming | [API de servidor da Edge Network (preferencial)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR) - oferece suporte aos serviços de borda, incluindo segmentação de borda e <br>[API do serviço principal de coleta de dados](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=pt-BR) - não oferece suporte aos serviços de borda, roteia diretamente para o hub.<br>Latência:<ul><li>Tempo real – coleção da mesma página para a Rede de borda</li><li>Assimilação por streaming para o Perfil ~1 minuto</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</li><li>7 GB/hora</li></ul>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR#what-can-you-do-with-streaming-ingestion%3F) |
+| SDK da Web/móvel | Latência:<ul><li>Tempo real - mesma coleção de páginas para [!DNL Edge Network]</li><li>Assimilação de streaming ao perfil &lt; 15 minutos no 95º percentil</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</ul>Documentação: <ul><li>[SDK da Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=pt-BR)</li><li>[Implementar a Adobe Experience Cloud com o tutorial do SDK da Web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR)</li><li>[SDK móvel](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)</li><li>[Tutorial sobre como Implementar a Adobe Experience Cloud em aplicativos móveis](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=pt-BR)</li></ul> |
+| Fontes de streaming | [Fontes de streaming](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#connectors)<br>Latência:<ul><li>Tempo real - mesma coleção de páginas para [!DNL Edge Network]</li><li>Assimilação por streaming para o Perfil ~1 minuto</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</li></ul> |
+| API de streaming | [[!DNL Edge Network] API do servidor (preferencial)](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=pt-BR) - oferece suporte aos serviços de borda, incluindo Segmentação de borda e <br>[API do serviço principal de coleta de dados](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/streaming/http.html?lang=pt-BR) - não suporta Serviços de borda, roteia diretamente para o hub.<br>Latência:<ul><li>Tempo real - mesma coleção de páginas para [!DNL Edge Network]</li><li>Assimilação por streaming para o Perfil ~1 minuto</li><li>Assimilação por streaming para o data lake (microlote ~15 minutos)</li><li>7 GB/hora</li></ul>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=pt-BR#what-can-you-do-with-streaming-ingestion%3F) |
 | Ferramentas de ETL | Use ferramentas de ETL para modificar e transformar dados corporativos antes de assimilá-los na Experience Platform.<br><br>Latência:<ul><li>O tempo depende da programação da ferramenta externa de ETL. Em seguida, aplicam-se medidas de proteção padrão de assimilação, com base no método usado.</li></ul> |
 | Origens em lote | Busca programada na origem<br>Latência: ~ 200 GB/hora<br><br>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR#connectors)<br>[Tutoriais em vídeo](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=pt-BR) |
 | API em lote | Latência:<ul><li>A assimilação em lote para o Perfil depende do tamanho e das cargas de tráfego ~45 minutos</li><li>A assimilação em lote para o data lake depende do tamanho e das cargas de tráfego</li></ul>[Documentação](https://experienceleague.adobe.com/docs/experience-platform/ingestion/batch/overview.html?lang=pt-BR#batch) |

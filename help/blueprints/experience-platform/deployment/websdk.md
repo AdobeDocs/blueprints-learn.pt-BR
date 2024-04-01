@@ -1,25 +1,25 @@
 ---
-title: SDK da Web/móvel, diagrama da arquitetura de implantação da Edge Network
-description: Esse blueprint mostra a arquitetura e a assimilação por meio do SDK da Web/móvel da Experience Platform e da Edge Network
+title: SDK da Web/móvel, [!DNL Edge Network] Diagrama da arquitetura de implantação
+description: Este blueprint mostra a arquitetura e a assimilação pelo SDK móvel e da Web do Experience Platform e [!DNL Edge Network]
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 3bd7a73786fee42ec14d98fc4362e7a9609f12a3
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 69%
 
 ---
 
 
-# SDK da Web da Experience Platform e diagrama da arquitetura do Edge Network
+# SDK da Web do Experience Platform e [!DNL Edge Network] diagrama de arquitetura
 
-Para obter uma visão geral e detalhes sobre o SDK da Web e móvel, bem como da API de servidor da Edge Network, consulte:
+Para obter uma visão geral e detalhes sobre o SDK da Web e móvel e a [!DNL Edge Network] A API do servidor da consulte o seguinte.
 
 * [Visão geral do SDK da Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=pt-BR)
 * [Visão geral do SDK móvel](https://developer.adobe.com/client-sdks/documentation/)
-* [API de servidor da Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
+* [[!DNL Edge Network] API do servidor](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
 
 Para obter uma descrição detalhada de qual funcionalidade de aplicativo é compatível com o SDK da Web, consulte a seguinte documentação:
 
@@ -32,7 +32,7 @@ Para obter detalhes relacionados à migração de SDKs específicos do aplicativ
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=pt-BR)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=pt-BR)
 
-## Implantação utilizando o SDK da Web/móvel da Experience Platform ou a API de servidor da Edge Network
+## SDK da Web/móvel do Experience Platform ou [!DNL Edge Network] Implantação da API do servidor
 
 O diagrama de arquitetura abaixo ilustra a implantação e a coleção de dados utilizando o SDK da Web da Experience Platform.
 

@@ -1,13 +1,13 @@
 ---
-title: Setor de varejo – Ativação com aplicativos da Experience Cloud
-description: Oferecimento de experiências do cliente em tempo real em canais de mídia digital, email, push e Web.
+title: Setor de varejo - Ativação com aplicativos Experience Cloud
+description: Saiba mais sobre como fornecer experiências do cliente em tempo real em mídia digital, email, push e canais da Web.
 solution: Real-Time Customer Data Platform, Customer Journey Analytics, Journey Orchestration, Campaign, Analytics, Target
 kt: 9474
 exl-id: a675bc81-e76c-491a-8718-359867d63351
-source-git-commit: 2dab717d638bdbc0a903861ec743a81f2aed986d
+source-git-commit: cf7721ea01579182fdb200aad448be6fc94b34cf
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 99%
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,6 @@ Essa empresa baseada em experiências integrada buscou personalizar toda a jorna
 
 
 ## Blueprints relacionados
-
 
 | Caso de uso/integração  | Link |
 |:----|:----|

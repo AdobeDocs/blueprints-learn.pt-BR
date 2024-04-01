@@ -3,10 +3,10 @@ title: Projetos da Gestão de decisões
 description: Forneça ofertas personalizadas nas jornadas do cliente.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 95%
 
 ---
 
@@ -46,16 +46,16 @@ A primeira é por meio do hub da Adobe Experience Platform, que é uma arquitetu
 * Latência de resposta &lt; 500 ms.
 * Acesso ao perfil completo do cliente em tempo real, incluindo atributos, eventos de experiência e associações de público.
 
-## Gestão de decisões na borda
+## Gestão de decisões na borda   
 
-A segunda abordagem é por meio da Experience Edge Network, que é uma infraestrutura distribuída globalmente para fornecer experiências rápidas de subsegundo e milissegundo. A experiência do consumidor final é executada pela infraestrutura de borda mais próxima da localização geográfica do consumidor para minimizar a latência. A gestão de decisões na borda foi projetada para fornecer experiências do consumidor em tempo real, como solicitações de personalização de entrada da Web ou móvel. Para obter mais informações sobre a gestão de decisões na borda, consulte o blueprint [Gestão de decisões na borda](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=pt-BR).
+A segunda abordagem é através da experiência adquirida [!DNL Edge Network], que é uma infraestrutura distribuída globalmente e localizada geograficamente para fornecer experiências rápidas de subsegundos e milissegundos. A experiência do consumidor final é executada pela infraestrutura de borda mais próxima da localização geográfica do consumidor para minimizar a latência. A gestão de decisões na borda foi projetada para fornecer experiências do consumidor em tempo real, como solicitações de personalização de entrada da Web ou móvel. Para obter mais informações sobre a gestão de decisões na borda, consulte o blueprint [Gestão de decisões na borda](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-edge.html?lang=pt-BR).
 
 ### Casos de uso da gestão de decisões na borda
 
 * Personalização online por meio de experiências de entrada da Web ou móvel.
 * Execução de jornada entre canais – consistência de ofertas na Web, dispositivos móveis, email e outros canais de interação por meio do Adobe Journey Optimizer.
 
-### Gestão de decisões na borda    considerações técnicas
+### Considerações técnicas sobre o Gerenciamento de decisão de borda
 
 * Solicitações por segundo = 5.000.
 * Latência de resposta &lt; 250 ms.

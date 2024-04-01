@@ -4,9 +4,9 @@ description: As medidas de proteção definem o impacto e as expectativas de des
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 2ff576ccb4ac3f9e2bdb690b6e9242d674214c33
+source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '680'
 ht-degree: 15%
 
 ---
@@ -34,7 +34,7 @@ As seguintes páginas fornecem informações sobre medidas de proteção para re
 **serviços Experience Platform**
 
 * [Proteção da assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
-* [Proteção à API de rede de borda](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] Proteções de API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [Proteções de perfil e segmentação do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 * [Medidas de proteção de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=pt-BR)
 * [Medidas de proteção do serviço de Query](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=pt-BR)
@@ -46,7 +46,7 @@ As seguintes páginas fornecem informações sobre medidas de proteção para re
 
 O diagrama a seguir descreve as latências observadas na borda e no hub principais que devem ser observadas ao projetar o caso de uso no Experience Platform e nos aplicativos.
 
-![Latências observadas da rede de borda do Experience Platform e do hub principal.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Latências observadas da rede de borda do Experience Platform e do hub principal"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] e latências observadas principais do hub.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Latências observadas da rede de borda do Experience Platform e do hub principal"){width="1000" zoomable="yes"}
 
 ### Assimilação de dados {#data-ingestion}
 
@@ -60,9 +60,9 @@ O diagrama abaixo exibe os valores de latência esperados ao trabalhar com os p�
 
 ![Visão geral visual de alto nível da segmentação.](/help/blueprints/experience-platform/deployment/assets/segmentation_guardrails.svg "Visão geral visual de alto nível da segmentação e valores de latência"){width="1000" zoomable="yes"}
 
-### Real-time Customer Data Platform e Edge Network {#adobe-edge-latency}
+### REAL-TIME CUSTOMER DATA PLATFORM e [!DNL Edge Network] {#adobe-edge-latency}
 
-O diagrama abaixo exibe os valores de latência esperados ao aproveitar a rede de borda, por exemplo, para aproveitar os públicos-alvo da RTCDP no [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR). Clique na imagem para ver uma versão de alta resolução.
+O diagrama abaixo exibe os valores de latência esperados ao aproveitar o [!DNL Edge Network] - por exemplo, para aproveitar os públicos-alvo da RTCDP no [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR). Clique na imagem para ver uma versão de alta resolução.
 
 ![Visão geral visual de alto nível do Adobe Edge Network and Experience Platform.](/help/blueprints/experience-platform/deployment/assets/RTCDP_Edge_guardrails.svg "Exportação de públicos-alvo para visão geral e latência de alto nível do Adobe Target"){width="1000" zoomable="yes"}
 
