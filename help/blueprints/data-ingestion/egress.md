@@ -4,9 +4,9 @@ description: Saiba mais sobre os métodos pelos quais os dados podem ser acessad
 product: adobe experience platform
 solution: Experience Platform, Journey Optimizer, Real-Time Customer Data Platform, Data Collection
 exl-id: 2ca51a29-2db2-468f-8688-fc8bc061b47b
-source-git-commit: 2b555728ddf570e236c0c54a8c17f85a6942618f
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1834'
 ht-degree: 91%
 
 ---
@@ -17,9 +17,9 @@ O blueprint de acesso e exportação de dados descreve todos os métodos possív
 
 O blueprint é dividido em duas categorias para acesso de dados do [!DNL Experience Platform] e aplicativos.
 
-O primeiro inclui abordagens para a saída de dados de Experience Platform e aplicativos. Esta situação seria considerada uma _push_ tipo de método de saída de dados.
+O primeiro inclui abordagens para a saída de dados do [!DNL Experience Platform] e aplicativos. Esta situação seria considerada uma _push_ tipo de método de saída de dados.
 
-O segundo inclui abordagens para acessar dados de Experience Platform e aplicativos. Esta situação seria considerada uma _obter_ tipo de método de acesso aos dados.
+O segundo inclui abordagens para acessar dados do [!DNL Experience Platform] e aplicativos. Esta situação seria considerada uma _obter_ tipo de método de acesso aos dados.
 
 Abordagens de acesso a dados:
 

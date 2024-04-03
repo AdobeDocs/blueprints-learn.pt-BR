@@ -1,27 +1,25 @@
 ---
 title: Blueprint de coleção de dados do Encaminhamento de eventos de várias sandboxes
-description: Transmitir dados coletados pelos SDKs da Experience Platform para várias sandboxes por meio da utilização do Encaminhamento de eventos
+description: Transmitir dados coletados por [!DNL Experience Platform] (AEP) SDKs para várias sandboxes usando o encaminhamento de eventos
 solution: Data Collection
 kt: 7202
 exl-id: c24a47fe-b3da-4170-9416-74d2b6a18f32
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 72eb4e2ff276279a2fc88ead0b17d77cc8e99b97
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 88%
+source-wordcount: '579'
+ht-degree: 60%
 
 ---
 
-# Blueprint de coleção de dados do Encaminhamento de eventos de várias sandboxes
+# Blueprint da coleção de dados de encaminhamento de eventos de várias sandboxes
 
-O Blueprint de coleção de dados do Encaminhamento de eventos de várias sandboxes mostra como os dados coletados com os SDKs móveis e da Web da Adobe Experience Platform podem ser configurados para coletar um único evento e encaminhar para várias sandboxes da AEP. Esse Blueprint é um caso de uso específico que usa o recurso Encaminhamento de eventos das tags da Adobe.
+O blueprint da coleção de dados de encaminhamento de eventos de várias sandboxes mostra como os dados coletados com o Adobe [!DNL Experience Platform] Os SDKs da Web e móveis podem ser configurados para coletar um único evento e encaminhar para vários [!DNL Experience Platform] (AEP). Esse Blueprint é um caso de uso específico que usa o recurso Encaminhamento de eventos das tags da Adobe.
 
 Além de replicar o evento, por meio da utilização dos recursos de Encaminhamento de eventos, você pode adicionar, filtrar ou manipular os dados coletados originais que atendam aos requisitos de outras sandboxes. Por exemplo, a Sandbox A precisa receber todos os elementos de dados do evento e a Sandbox B deve receber apenas dados não PII.
 
-O Encaminhamento de eventos usa uma propriedade de tag independente que contém as Regras, extensões e elementos de dados necessários para os seus requisitos de dados. Com um Evento de entrada, a sua Propriedade de encaminhamento de eventos pode coletar e gerenciar os dados, conforme necessário, antes do encaminhamento.
+O encaminhamento de eventos usa uma propriedade de tag separada que contém os elementos de dados, as regras e as extensões necessárias para seus requisitos de dados. Com um Evento de entrada, a sua Propriedade de encaminhamento de eventos pode coletar e gerenciar os dados, conforme necessário, antes do encaminhamento.
 
-Sua sandbox de destino precisaria de um Ponto de extremidade de transmissão HTTP configurado que fosse usado pela Extensão HTTPS de encaminhamento de eventos.
-
-
+Sua sandbox de destino precisaria de um Ponto de extremidade de transmissão HTTP configurado que seria usado pela extensão HTTPS do encaminhamento de eventos.
 
 ## Casos de uso
 
@@ -30,15 +28,15 @@ Sua sandbox de destino precisaria de um Ponto de extremidade de transmissão HTT
 
 ## Aplicativos
 
-* Coleção de dados da Adobe Experience Platform
+* Adobe [!DNL Experience Platform] Coleta de dados
 
 ## Arquitetura
 
 <img src="assets/multi-Sandbox-Data-Collection.svg" alt="Arquitetura de referência para encaminhamento de eventos de várias sandboxes" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
-1. Os Autores de tag definem uma Propriedade de tag e uma Propriedade de encaminhamento de eventos. Aqui, os autores definem as Regras, ações e elementos de dados que gerenciam a coleção de dados. Lembre-se que o código de Propriedade de tag é executado no cliente e distribuído por um Host CDN. O código de Propriedade de encaminhamento de eventos é executado no servidor do Adobe Edge.
+1. Os Autores de tag definem uma Propriedade de tag e uma Propriedade de encaminhamento de eventos. Aqui, os autores definem os elementos de dados, as regras e as ações que gerenciam a coleta de dados. Lembre-se que o código de Propriedade de tag é executado no cliente e distribuído por um Host CDN. A variável [!UICONTROL Propriedade de encaminhamento de eventos] o código é executado no Adobe [!DNL Edge Server].
 
-1. Os dados coletados no cliente são enviados para o [!DNL Edge Network]. Os clientes também têm a opção de enviar os dados primeiro para o seu próprio servidor como uma forma de coleção do lado do servidor.  O SDK da Web pode fornecer um recurso de coleta de servidor para servidor. Para isso, no entanto, é necessário implementar um modelo de programação diferente. Consulte a documentação **[!DNL Edge Network]Visão geral da API do servidor** abaixo
+1. Os dados coletados no cliente são enviados para o [!DNL Edge Network]. Os clientes também têm a opção de enviar dados para seu próprio servidor primeiro como um método de coleção do lado do servidor. O SDK da Web pode fornecer um recurso de coleta de servidor para servidor. Para isso, no entanto, é necessário implementar um modelo de programação diferente. Consulte a documentação **[!DNL Edge Network]Visão geral da API do servidor** abaixo
 
 1. Platform [!DNL Edge Network] O recebe cargas de coleta de dados e orquestra o fluxo de dados para os sistemas necessários, como o Target e o Analytics.
 
@@ -53,16 +51,16 @@ Sua sandbox de destino precisaria de um Ponto de extremidade de transmissão HTT
 * [Documentação de encaminhamento do evento](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=pt-BR)
 * [Vídeos sobre encaminhamento de eventos](https://experienceleague.adobe.com/docs/launch-learn/tutorials/server-side/overview.html?lang=pt-BR)
 * [Aula sobre encaminhamento de eventos](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/event-forwarding/setup-event-forwarding.html?lang=pt-BR) do tutorial do SDK da Web
-* [Visão geral do SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
+* [[!DNL Experience Platform] Visão geral do SDK da Web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
 * [[!DNL Edge Network] Visão geral da API do servidor](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
 
 ## Publicações do blog relacionadas
 
-* [Aumentar o desempenho do site com o SDK da Web da Adobe Experience Platform e [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
-* [Resolução de pontos problemáticos da implementação com o SDK da Web da Adobe Experience Platform e [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
-* [SDK da Web da Adobe Experience Platform para gerenciamento de público-alvo](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
-* [Adobe Experience Platform Web SDK - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
-* [Cenários de migração do SDK da Web da Adobe Experience Platform para o Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
-* [Unificação de serviços da Adobe Experience Platform com o SDK da Web da Adobe Experience Platform](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
-* [Acelere o desenvolvimento do seu aplicativo para dispositivos móveis com o SDK da Web da Adobe Experience Platform e o Adobe Experience Platform Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
+* [Aumento do desempenho do site com o Adobe [!DNL Experience Platform] SDK da Web e [!DNL Edge Network]](https://medium.com/adobetech/boosting-website-performance-with-adobe-experience-platform-web-sdk-and-edge-network-329fcf70fdf9)
+* [Resolução de pontos problemáticos da implementação com o Adobe [!DNL Experience Platform] SDK da Web e [!DNL Edge Network]](https://medium.com/adobetech/solving-implementation-pain-points-with-adobe-experience-platform-web-sdk-and-edge-network-880b635e6819)
+* [Adobe [!DNL Experience Platform] SDK da Web para gerenciamento de público-alvo](https://medium.com/adobetech/adobe-experience-platform-web-sdk-for-audience-management-751fa6d063bc)
+* [Adobe [!DNL Experience Platform] SDK da Web - Adobe Target](https://medium.com/adobetech/adobe-experience-platform-web-sdk-adobe-target-9b9f621d271)
+* [Adobe [!DNL Experience Platform] Cenários de migração do SDK da Web para o Adobe Analytics](https://medium.com/adobetech/adobe-experience-platform-web-sdk-migration-scenarios-for-adobe-analytics-91c255ec82b0)
+* [Unificar o Adobe [!DNL Experience Platform] Serviços com Adobe [!DNL Experience Platform] SDK da Web](https://medium.com/adobetech/unify-your-adobe-experience-platform-services-with-adobe-experience-platform-web-sdk-75cf6851a9fc)
+* [Acelere o desenvolvimento de aplicativos móveis com o Adobe [!DNL Experience Platform] SDK móvel e Launch](https://medium.com/adobetech/accelerate-your-mobile-application-development-with-adobe-experience-platform-mobile-sdk-and-launch-ed023536d611)
 * [Simplifique fluxos de trabalhos de clientes com o SDK da Web da Adobe Experience Platform](https://medium.com/adobetech/simplifying-customer-workflows-with-adobe-experience-platform-web-sdk-4e54fe134f4a)

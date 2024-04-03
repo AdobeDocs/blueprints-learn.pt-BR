@@ -1,24 +1,24 @@
 ---
 title: Blueprint de análise de dados e inteligência
-description: Este blueprint apresenta a capacidade da Adobe Experience Platform de realizar consultas e análises exploratórias dos dados existentes no data lake.
+description: Usar Adobe [!DNL Experience Platform] (AEM) para realizar query exploratório e análise dos dados existentes no data lake.
 solution: Experience Platform
 kt: 7207
 thumbnail: null
 exl-id: a972ea56-d1c8-45da-9044-ed31222a2441
-source-git-commit: b18d491fdefc57762932d1570401b5437bf97c76
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 7f3bc307f74aa88a7a73f3e50cc48bd16f58b37f
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 59%
 
 ---
 
-# Blueprint de análise de dados e inteligência
+# Análise de dados e blueprint de inteligência
 
-A Análise de dados e Inteligência consiste na capacidade da Adobe Experience Platform de realizar consultas e análises exploratórias dos dados existentes no data lake.
+A análise e a inteligência de dados incluem a capacidade de [!DNL Experience Platform] para realizar query exploratória e análise dos dados existentes no data lake.
 
-Com o [!UICONTROL Serviço de consulta] da Experience Platform é possível realizar consultas SQL nos dados.
+[!DNL Experience Platform]do [!UICONTROL Serviço de consulta] permite que queries SQL sejam executadas nos dados.
 
-A Experience Platform permite conexões com clientes SQL de terceiros, interfaces e ferramentas de Business Intelligence (BI) para conectar, acessar e consultar os dados diretamente na Experience Platform, usando o protocolo [!DNL PostgreSQL].
+[!DNL Experience Platform] permite conexões com clientes SQL, interfaces e ferramentas Business Intelligence (BI) de terceiros para conectar-se, acessar e consultar diretamente os dados no [!DNL Experience Platform], utilizando o [!DNL PostgreSQL] protocolo.
 
 ## Casos de uso
 
@@ -30,7 +30,7 @@ Outros casos de uso comuns para o serviço de consulta estão descritos aqui [Ca
 
 ## Aplicativos
 
-* Adobe Experience Platform
+* Adobe [!DNL Experience Platform]
 
 ## Arquitetura
 
@@ -45,11 +45,11 @@ Consulte a documentação do produto Serviço de consulta para detalhes sobre pr
 
 1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
-1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
+1. [Assimilar dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) em [!DNL Experience Platform].
 1. Confirme se os dados estão disponíveis para [[!UICONTROL Serviço de consulta]](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html?lang=pt-BR).
 1. [Conecte as ferramentas de Business Intelligence e os clientes SQL ao [!UICONTROL Serviço de consulta]](https://experienceleague.adobe.com/docs/experience-platform/query/clients/overview.html?lang=pt-BR) para visualização, consulta de dados e exploração.
 
 ## Documentação relacionada
 
-* [Descrição do produto Inteligência do Adobe Experience Platform](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
+* [Adobe [!DNL Experience Platform] Descrição do produto de inteligência](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
 * Documentação do [[!UICONTROL Serviço de consulta]](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=pt-BR)
