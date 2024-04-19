@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implantações r
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 62dc3dff69bbf88b025373b4fdc893cc77b73594
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 55%
+source-wordcount: '240'
+ht-degree: 56%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 55%
       + [Medidas de proteção](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
-   + [Audience Activation anônimo (AAM)](/help/blueprints/audience-activation/anonymous.md)
+   + [Ativação de público-alvo anônima ](/help/blueprints/audience-activation/anonymous.md)
    + Ativação de cliente conhecido (RTCDP) {#known-customer-audience-activation}
       + [Visão geral](/help/blueprints/audience-activation/known.md)
       + [Ativação para canais sociais e de publicidade](/help/blueprints/audience-activation/advertising-activation.md)
@@ -53,7 +53,7 @@ ht-degree: 55%
       + [Entrada e criação](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/intake-and-create.md)
       + [Revisar e aprovar](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/review-and-approve-blueprint.md)
       + [Histórias de sucesso do cliente](/help/blueprints/b2b/marketo-engage-and-workfront-integration-blueprint/customer-success-stories.md)
-+ Conteúdo e Comércio{#content-commerce}
++ Conteúdo e Commerce{#content-commerce}
    + [ADOBE COMMERCE e RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Visão geral](/help/blueprints/customer-journey-analytics/overview.md)
