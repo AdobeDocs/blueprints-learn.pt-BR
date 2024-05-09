@@ -3,7 +3,7 @@ title: Adobe Commerce - Blueprint da RTCDP
 description: Integração do Adobe Experience Platform com o Adobe Commerce para criar uma única visualização de clientes e personalizar experiências de forma inteligente em uma vitrine digital e em vários canais.
 solution: Real-Time Customer Data Platform, Commerce
 exl-id: e2fc5e1c-c865-4c24-9b82-861a34aba487
-source-git-commit: 8a47b73065a5591673804301c61a73947346813c
+source-git-commit: 993836cda90ce169602cc6a4eec9a7477fc67172
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # ADOBE COMMERCE e RTCDP
 
-A variável [!DNL Data Connection] A extensão ajuda os clientes do Adobe Commerce a se integrarem perfeitamente ao Adobe Experience Platform para enriquecer o perfil do cliente e personalizar experiências em vitrines digitais e outros canais.
+A variável [!DNL Data Connection] Essa extensão ajuda os clientes da Adobe Commerce a se integrarem perfeitamente ao Adobe Experience Platform para enriquecer o perfil do cliente e personalizar experiências em vitrines digitais e outros canais.
 
 ## Recursos técnicos habilitados
 
@@ -39,10 +39,10 @@ Para usar o [!DNL Data Connection] extensão, você deve ter o seguinte:
 * [Criar ou atualizar](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/update-xdm.html) seu esquema XDM com grupos de campos específicos do Commerce.
 * [Criar um conjunto de dados](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/experience-cloud/platform.html#create-a-dataset) com base no esquema criado ou atualizado. Esse conjunto de dados conterá os dados do Commerce enviados.
 * [Criar um fluxo de dados](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) e selecione o esquema XDM que contém os grupos de campos específicos do Commerce.
-* [Conectar-se a Commerce Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
+* [Conectar-se aos serviços da Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html).
 * [Conectar-se ao Adobe Experience Platform](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/fundamentals/connect-data.html).
 
-### Conectar-se ao destino de comércio do Adobe Experience Platform para compartilhamento de público-alvo
+### Conectar-se ao destino do Commerce no Adobe Experience Platform para compartilhamento de público-alvo
 
 Para se conectar ao destino do Adobe Commerce:
 
@@ -57,7 +57,7 @@ Para se conectar ao destino do Adobe Commerce:
 * Eventos de back office
 * Dados históricos do pedido
 
-Para obter uma lista completa de eventos compatíveis, consulte [Eventos de comércio](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html)
+Para obter uma lista completa de eventos compatíveis, consulte [Eventos da Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/data-connection/event-forwarding/events.html)
 
 ## Arquitetura
 
