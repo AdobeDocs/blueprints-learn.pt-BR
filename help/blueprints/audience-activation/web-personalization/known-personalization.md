@@ -7,10 +7,10 @@ solution: Real-Time Customer Data Platform, Target, Audience Manager, Analytics,
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 845655a275cdb6d4a9cd397ec7c3515cbf02d321
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 89%
+source-wordcount: '891'
+ht-degree: 79%
 
 ---
 
@@ -30,6 +30,13 @@ ht-degree: 89%
 * Adobe Target
 * Adobe Audience Manager (opcional): adiciona dados de público-alvo de terceiros
 * Adobe Analytics ou Customer Journey Analytics (opcional): adiciona a capacidade de criar segmentos com base em dados históricos de clientes e dados comportamentais com segmentação detalhada
+
+### Documentação de referência
+
+* [Conexão do Adobe Target com a Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
+* [Configuração da sequência de dados de borda](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=pt-BR)
+* [Compartilhamento de segmentos da Experience Platform com o Audience Manager e outras soluções da Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=pt-BR)
+
 
 ## Padrões de integração
 
@@ -68,34 +75,14 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 
 Usar SDKs tradicionais específicos para aplicativos (por exemplo, AT.js e AppMeasurement.js). A avaliação de segmento de borda em tempo real não é compatível com essa abordagem de implantação. No entanto, o compartilhamento de público-alvo de lote e streaming do hub da Experience Platform são compatíveis com essa abordagem de implantação.
 
+[Consulte a Documentação do Adobe Target Connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [Consulte o Blueprint do SDK específico do aplicativo](../../experience-platform/deployment/appsdk.md)
-
-### Etapas de implantação
-
-1. [Implemente o Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=pt-BR) para seus aplicativos da Web ou seus aplicativos para dispositivos móveis
-1. [Implemente a Experience Platform e o [!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview.html?lang=pt-BR); certifique-se de que os públicos-alvo criados sejam ativados na borda, configurando a [política de mesclagem](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=pt-BR#create-a-merge-policy) como ativa na borda.
-1. Implemente o [SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR) ou o [SDK móvel da Experience Platform](https://aep-sdks.gitbook.io/docs/) com a extensão correta (Target ou Adobe Journey Optimizer – Decisão) instalada. O SDK da Web/móvel ou a API Edge da Experience Platform são necessários para a segmentação do Edge em tempo real, mas não são necessários para compartilhar públicos de transmissão e em lote da Real-time Customer Data Platform com o Target.
-1. [Configure o [!DNL Edge Network] com uma sequência de dados de borda](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=pt-BR)
-1. [Habilite o Adobe Target como um destino na Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR)
-1. (Opcional) [Implemente o Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/implement-audience-manager.html?lang=pt-BR).
-1. (Opcional) [Solicite o provisionamento do compartilhamento de público-alvo entre a Experience Platform e o Adobe Target (públicos-alvo compartilhados)](https://www.adobe.com/go/audiences) para compartilhar públicos-alvo da Experience Platform com o Target.
-
-## Medidas de proteção
-
-[Consulte as medidas de proteção na página de Visão geral dos Blueprints de personalização móvel e da Web.](overview.md)
-
-* Os perfis de borda somente são criados quando um usuário está ativo no Edge, o que significa que seu perfil inclui os eventos de streaming enviados ao Edge por meio do SDK da Web/Móvel ou da API do servidor Edge. Geralmente corresponde ao usuário que está ativo em um site ou aplicativo móvel.
-* Os perfis de borda têm um tempo de vida padrão de 14 dias. Se o usuário não tiver coletado eventos de borda ativos, o perfil expirará na borda após 14 dias de inatividade. O perfil permanecerá válido no hub e será sincronizado com a borda assim que o usuário voltar a ficar ativo na borda.
-* Quando um novo perfil é criado na borda, uma chamada de sincronização é feita de forma assíncrona no hub para buscar quaisquer públicos-alvo e atributos configurados para projeção de borda por meio de um destino. Como se trata de um processo assíncrono, pode levar de 1 segundo a vários minutos para que o perfil do hub seja sincronizado com a borda. Dessa forma, não é garantido que os novos perfis terão o contexto do perfil do hub para as primeiras experiências na página. O mesmo se aplica aos dados recém-coletados no hub. Esses dados são projetados para a borda de forma assíncrona e, portanto, os dados chegarão na borda apropriada em momentos diferentes da atividade da borda. Somente os perfis ativos na borda persistirão os atributos e os públicos-alvo projetados do hub.
 
 ## Considerações de implantação
 
 Pré-requisitos de identidade
 
-* Qualquer identidade principal pode ser utilizada ao utilizar o padrão de implementação 1 descrito acima com o [!DNL Edge Network] e o SDK da Web. A primeira personalização de logon requer que a identidade principal do conjunto de solicitações de personalização corresponda à identidade principal do perfil do Real-time Customer Data Platform. A associação de identidades de dispositivos anônimos a clientes conhecidos é processada no hub e, em uma etapa posterior, projetada para a borda.
-* Observe que os dados carregados no hub antes de um consumidor visitar ou fazer logon em um site não estarão disponíveis imediatamente para personalização. Primeiro, deve existir um perfil de borda ativo para que os dados do hub sejam sincronizados. Depois de criado, o perfil de borda será sincronizado com o perfil de hub de forma assíncrona, resultando na próxima personalização da página.
-* O compartilhamento de públicos-alvo da Adobe Experience Platform com o Adobe Target requer o uso da ECID como identidade quando se usa o serviço de compartilhamento de público-alvo conforme descrito no padrão de integração 2 e 3 acima.
-* Identidades alternativas também podem ser usadas para compartilhar públicos-alvo da Experience Platform com o Adobe Target por meio do Audience Manager. A Experience Platform ativa públicos-alvo para o Audience Manager por meio dos seguintes namespaces compatíveis: IDFA, GAID, AdCloud, Google, ECID, EMAIL_LC_SHA256. Observe que o Audience Manager e o Target resolvem associações de público-alvo por meio da identidade da ECID, portanto, a ECID ainda precisa estar no gráfico de identidade do consumidor para o compartilhamento de público-alvo final com o Adobe Target.
+* Qualquer identidade principal pode ser utilizada ao utilizar o padrão de implementação 1 descrito acima com o [!DNL Edge Network] e o SDK da Web. A personalização do primeiro logon exige que a identidade principal do conjunto de solicitações de personalização corresponda à identidade principal do perfil no Real-time Customer Data Platform.
 
 ## Documentação relacionada
 
@@ -104,12 +91,6 @@ Pré-requisitos de identidade
 * [Documentação do SDK da Web da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
 * [Documentação de tags da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR)
 * [Documentação do serviço da Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=pt-BR)
-
-### Documentação de conexão
-
-* [Conexão do Adobe Target com a Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR)
-* [Configuração da sequência de dados de borda](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=pt-BR)
-* [Compartilhamento de segmentos da Experience Platform com o Audience Manager e outras soluções da Experience Cloud](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-experience-platform/aam-aep-audience-sharing.html?lang=pt-BR)
 
 ### Documentação de segmentação
 
