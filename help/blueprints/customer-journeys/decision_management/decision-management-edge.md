@@ -10,17 +10,17 @@ ht-degree: 80%
 
 ---
 
-# JOURNEY OPTIMIZER - [!DNL Decision Management] no blueprint do Edge
+# Journey Optimizer - [!DNL Decision Management] no blueprint do Edge
 
 [!DNL Decision Management] é um serviço fornecido como parte de [!DNL Journey Optimizer]. Esse blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece mais detalhes sobre os diferentes componentes da arquitetura e considerações que compõem a gestão de decisões.
 
 >[!MORELIKETHIS]
 >
->Para saber mais sobre [!DNL Decision Management], consulte o [visão geral do blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=pt-BR) ou visite o [documentação do produto](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR).
+>Para saber mais sobre [!DNL Decision Management], consulte a [visão geral do blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-overview.html?lang=pt-BR) ou visite a [documentação do produto](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR).
 
-[!DNL Decision Management] pode ser implantado de uma das duas formas. A primeira é por meio da [!DNL Experience Platform] Hub, que é uma arquitetura de data center única. Na abordagem de “hub”, as ofertas são executadas, personalizadas e entregues na latência de segundos. Por isso, a arquitetura de hub é mais adequada para uma experiência do cliente que não exige latência de subsegundo. Exemplos incluem definições de ofertas que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais.
+[!DNL Decision Management] pode ser implantado de uma das duas formas. O primeiro é por meio do Hub [!DNL Experience Platform], que é uma arquitetura de data center única. Na abordagem de “hub”, as ofertas são executadas, personalizadas e entregues na latência de segundos. Por isso, a arquitetura de hub é mais adequada para uma experiência do cliente que não exige latência de subsegundo. Exemplos incluem definições de ofertas que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais.
 
-A segunda abordagem é por meio do Experience Platform [!DNL Edge Network], que é uma infraestrutura distribuída globalmente e localizada geograficamente para fornecer experiências rápidas de subsegundos e milissegundos. A experiência do consumidor final sendo executada pela infraestrutura de borda mais próxima à localização geográfica do consumidor para minimizar a latência. [!DNL Decision Management] O no Edge foi projetado para oferecer experiências do consumidor em tempo real. Isso inclui experiências como solicitações de personalização de entrada da Web ou móvel.
+A segunda abordagem é por meio do Experience Platform [!DNL Edge Network], que é uma infraestrutura distribuída globalmente e localizada geograficamente para atender às rápidas experiências de subsegundos e milissegundos. A experiência do consumidor final sendo executada pela infraestrutura do Edge mais próxima à localização geográfica dos consumidores para minimizar a latência. O [!DNL Decision Management] no Edge foi projetado para servir experiências do consumidor em tempo real. Isso inclui experiências como solicitações de personalização de entrada da Web ou móvel.
 
 Esse blueprint abordará as especificidades da gestão de decisões na borda.
 
@@ -62,7 +62,7 @@ Adobe Experience Platform
 
 * Para as medidas de proteção da gestão de decisões, consulte [Descrição do produto gestão de decisões](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[Medidas de proteção e orientação de latência completa](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 
 ## Padrões de implementação

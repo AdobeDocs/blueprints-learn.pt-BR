@@ -7,8 +7,8 @@ thumbnail: null
 exl-id: 3bb2dada-f4cd-43f7-a0d0-f276510ad224
 source-git-commit: b69e73349741b829f05d04cfac70aa0161ef7684
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 90%
+source-wordcount: '346'
+ht-degree: 91%
 
 ---
 
@@ -32,21 +32,21 @@ Uma lista completa de casos de uso do Customer Journey Analytics pode ser encont
 
 ## Arquitetura do Customer Journey Analytics
 
-![Diagrama de arquitetura](assets/CJA.svg){zoom=&quot;yes&quot;}
+![Diagrama da arquitetura](assets/CJA.svg){zoomable="yes"}
 
 O exemplo de casos de uso principais incluiu o seguinte.
 
 | Blueprint | Descrição | Aplicativos da Experience Cloud |
 |---|---|---|
 | **[Análise de Jornada entre canais](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=pt-BR)** | <ul><li>Tenha uma visualização consolidada única do comportamento do cliente em vários canais ao unificar dados de várias propriedades da web, móveis e offline.</li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li><li>Adobe Analytics (opcional)</li></ul> |
-| **[Publicar públicos-alvo no Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=pt-BR)** | <ul><li>Crie e publique públicos-alvo identificados no Customer Journey Analytics (CJA) para o Perfil do cliente em tempo real na Adobe Experience Platform para direcionamento e personalização do cliente. Ideal para criar públicos-alvo usando dados históricos ou públicos-alvo mais refinados por meio da filtragem granular e campos calculados no Customer Journey Analytics.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
+| **[Públicos-alvo da Publish para a Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=pt-BR)** | <ul><li>Crie e publique públicos-alvo identificados no Customer Journey Analytics (CJA) para o Perfil do cliente em tempo real na Adobe Experience Platform para direcionamento e personalização do cliente. Ideal para criar públicos-alvo usando dados históricos ou públicos-alvo mais refinados por meio da filtragem granular e campos calculados no Customer Journey Analytics.</li></ul> | <ul><li>Real-time Customer Data Platform</li><li>Customer Journey Analytics</li> |
 | **[Análise de Jornada de Deflexão de Chamada](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/call-center.html?lang=pt-BR)** | <ul><li>Determine quais comportamentos são mais indicativos nos resultados de chamadas atendidas por agentes ao reunir dados da central de atendimento com dados da web, dispositivos móveis e outros dados de interação.</li><li>É possível usar esses insights para aprimorar a experiência do cliente e encurtar o caminho para interações atendidas por agentes por meio de conteúdo e ferramentas de autoatendimento.  </li></ul> | <ul><li>Adobe Experience Platform</li><li>Customer Journey Analytics</li> |
 
 ## Diagrama de medidas de proteção para blueprints do Customer Journey Analytics
 
 * Para obter informações detalhadas e medidas de proteção para latências de ponta a ponta, consulte o [documento de medidas de proteção de implantação](../experience-platform/deployment/guardrails.md)
 
-![Diagrama de medidas de proteção](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable=&quot;yes&quot;}
+![Diagrama de medidas de proteção](../experience-platform/deployment/assets/CJA_guardrails.svg){zoomable="yes"}
 
 ## Publicações do blog relacionadas
 

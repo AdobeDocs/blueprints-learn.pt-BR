@@ -13,7 +13,7 @@ ht-degree: 55%
 
 # Coleção de dados do Encaminhamento de eventos de várias sandboxes
 
-Este blueprint mostra como os dados coletados com o [!DNL Experience Platform] Os SDKs da Web e móveis podem ser configurados para coletar um único evento e encaminhar para várias sandboxes da AEP. Este blueprint é específico para a coleção de dados de várias sandboxes que usa o [!UICONTROL Encaminhamento de eventos] para atingir esse objetivo.
+Este blueprint mostra como os dados coletados com os SDKs da Web e móvel do [!DNL Experience Platform] podem ser configurados para coletar um único evento e encaminhar para várias sandboxes da AEP. Este blueprint é específico para a coleção de dados de várias sandboxes que usa o [!UICONTROL Encaminhamento de eventos] para atingir esse objetivo.
 
 Além de replicar o evento utilizando os recursos de [!UICONTROL Encaminhamento de eventos], você pode adicionar, filtrar ou manipular os dados coletados originais que atendam aos requisitos de outras sandboxes.
 
@@ -40,13 +40,13 @@ Ao usar a abordagem de [!UICONTROL Encaminhamento de eventos] para enviar dados 
 
 ### Sem dados de HIPAA
 
-[!UICONTROL Encaminhamento de evento] O não é considerado HIPAA Ready e não deve ser usado em nenhum caso de uso de HIPAA em que os dados de HIPAA sejam coletados.
+[!UICONTROL Encaminhamento de Eventos] não é considerado HIPAA Pronto e não deve ser usado em nenhum caso de uso HIPAA em que os dados HIPAA sejam coletados.
 
-No entanto, a infraestrutura utilizada para [!UICONTROL Encaminhamento de evento] O está preparado para a HIPAA e fica a critério exclusivo do cliente. Enquanto a propriedade de Tag do [!UICONTROL Encaminhamento de eventos] estiver no sistema de [!UICONTROL Encaminhamento de eventos], todo o conteúdo de dados coletado será enviado para [!UICONTROL esse sistema] para processamento. Esse processo torna [!UICONTROL Encaminhamento de evento] referente aos casos de uso da HIPAA. Com toda a carga útil enviada para o [!UICONTROL Encaminhamento de evento] esse processo incluiria quaisquer valores de HIPAA. Embora a [!UICONTROL Encaminhamento de evento] As regras filtram esses dados antes de enviá-los ao destino; esses dados da HIPAA ainda são enviados para uma infraestrutura que não esteja pronta para a HIPAA. No entanto, os dados de payload nunca são armazenados e são simplesmente uma passagem.
+No entanto, a infraestrutura usada para o [!UICONTROL Encaminhamento de eventos] é considerada pronta para HIPAA e fica a critério exclusivo do cliente. Enquanto a propriedade de Tag do [!UICONTROL Encaminhamento de eventos] estiver no sistema de [!UICONTROL Encaminhamento de eventos], todo o conteúdo de dados coletado será enviado para [!UICONTROL esse sistema] para processamento. Este processo efetua o [!UICONTROL Encaminhamento de Eventos] referente aos casos de uso da HIPAA. Com toda a carga enviada para o sistema [!UICONTROL Encaminhamento de Eventos], esse processo incluiria quaisquer valores de HIPAA. Embora as regras de [!UICONTROL Encaminhamento de Eventos] filtrem esses dados antes de enviá-los para seu destino, esses dados HIPAA ainda são enviados para uma infraestrutura que não está pronta para HIPAA. No entanto, os dados de payload nunca são armazenados e são simplesmente uma passagem.
 
 ### Diferentes sequências de dados e pontos de extremidade de transmissão
 
-À medida que os dados fluem pelos fluxos de dados da [!DNL Platform Edge Network], ao usar [!UICONTROL Encaminhamento de evento] Para outra sandbox da AEP, um requisito é nunca usar o mesmo fluxo de dados ou ponto de extremidade de transmissão que a sequência de dados que faz a coleção original. Isso pode ser prejudicial para a instância da AEP e possivelmente acionar uma situação de DoS.
+Como os dados fluem pelas sequências de dados de [!DNL Platform Edge Network], ao usar o [!UICONTROL Encaminhamento de eventos] para outra sandbox da AEP, é necessário nunca usar a mesma sequência de dados ou ponto de extremidade de transmissão que a sequência de dados que faz a coleção original. Isso pode ser prejudicial para a instância da AEP e possivelmente acionar uma situação de DoS.
 
 ### Volumes de tráfego estimados
 
@@ -56,16 +56,16 @@ Os volumes de tráfego são necessários para análise, conforme cada caso de us
 
 ![Encaminhamento de eventos [!UICONTROL de várias sandboxes]](assets/multi-sandbox-data-collection.png)
 
-1. Coleta e envio de dados do evento para o [!DNL Platform Edge Network] é necessário usar [!UICONTROL Encaminhamento de evento]. Você pode usar tags Adobe para o lado do cliente ou para o [!DNL Platform Edge Network Server API] para coleta de dados de servidor para servidor.
+1. A coleta e o envio de dados de evento para [!DNL Platform Edge Network] são necessários para usar o [!UICONTROL Encaminhamento de Eventos]. Você pode usar as tags Adobe para o lado do cliente ou o [!DNL Platform Edge Network Server API] para a coleta de dados de servidor para servidor.
 
-   A variável [!DNL Platform Edge Network API] O pode fornecer um recurso de coleção de servidor para servidor. Isso, no entanto, requer um modelo de programação diferente para ser implementado. Consulte [Visão geral da API de servidor da Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR).
+   O [!DNL Platform Edge Network API] pode fornecer um recurso de coleção de servidor para servidor. Isso, no entanto, requer um modelo de programação diferente para ser implementado. Consulte [Visão geral da API de servidor da Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR).
 
-1. As cargas coletadas são enviadas da implementação de tags para o [!DNL Platform Edge Network] para o [!UICONTROL Encaminhamento de evento] e processado pelo seu próprio [!UICONTROL Elementos de dados], [!UICONTROL Regras], e [!UICONTROL Ações]. Para ler mais sobre as diferenças, consulte [Tags e [!UICONTROL Encaminhamento de evento]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=pt-BR#differences-from-tags).
+1. As cargas coletadas são enviadas da implementação de tags para o [!DNL Platform Edge Network] para o serviço [!UICONTROL Encaminhamento de Eventos] e processadas por seus próprios [!UICONTROL Elementos de Dados], [!UICONTROL Regras] e [!UICONTROL Ações]. Para ler mais sobre as diferenças, consulte [Marcas e [!UICONTROL Encaminhamento de Eventos]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=pt-BR#differences-from-tags).
 
-1. Um [!UICONTROL Encaminhamento de evento] propriedade também é necessária para receber dados de eventos coletados do [!DNL Platform Edge Network], se esses dados do evento foram enviados para o [!DNL Platform Edge Network] por uma implementação de Tags implantadas ou uma coleção de servidor para servidor.
+1. Uma propriedade [!UICONTROL Encaminhamento de Eventos] também é necessária para receber dados de eventos coletados de [!DNL Platform Edge Network], independentemente de esses dados terem sido enviados para [!DNL Platform Edge Network] por uma implementação de Marcas implantadas ou por uma coleção de servidor para servidor.
 
    Os autores definem os elementos de dados, as regras e as ações usadas para enriquecer os dados do evento antes do encaminhamento para a segunda sandbox. Considere usar o elemento de dados [!DNL JavaScript] de código personalizado para ajudar a estruturar os dados para assimilação da sandbox. Combinado com os recursos de preparação de dados da Platform, você tem várias opções para gerenciar a estrutura de dados.
 
-1. Atualmente, é necessário usar a [!UICONTROL extensão do Adobe Cloud Connector] na propriedade de [!UICONTROL Encaminhamento de eventos]. Depois que as regras processam ou enriquecem os dados do evento, a variável [!UICONTROL Cloud Connector] é usado em uma chamada de busca configurada para um POST, enviando o conteúdo para a segunda sandbox.
+1. Atualmente, é necessário usar a [!UICONTROL extensão do Adobe Cloud Connector] na propriedade de [!UICONTROL Encaminhamento de eventos]. Depois que as regras processam ou enriquecem os dados do evento, o [!UICONTROL Conector de nuvem] é usado em uma chamada de busca configurada para um POST, enviando a carga para a segunda sandbox.
 
-1. Um terminal de transmissão para assimilação de dados é necessário para a segunda sandbox. Você também pode considerar [!UICONTROL Preparação de dados] recursos na AEP para ajudar na assimilação e no mapeamento de [!UICONTROL Encaminhamento de evento] cargas para o XDM. Consulte a documentação da AEP: criar uma [Conexão de transmissão da API HTTP usando a interface do usuário](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=pt-BR)
+1. Um terminal de transmissão para assimilação de dados é necessário para a segunda sandbox. Você também pode considerar os recursos do [!UICONTROL Preparo de dados] na AEP para ajudar na assimilação e no mapeamento das cargas do [!UICONTROL Encaminhamento de eventos] para o XDM. Consulte a documentação da AEP: criar uma [Conexão de transmissão da API HTTP usando a interface do usuário](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=pt-BR)

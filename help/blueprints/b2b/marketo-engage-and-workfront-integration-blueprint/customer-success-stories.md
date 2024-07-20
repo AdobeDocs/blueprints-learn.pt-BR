@@ -1,11 +1,11 @@
 ---
 title: Histórias de sucesso do cliente
-description: Histórias de sucesso do cliente – Blueprint de integração do Marketo Engage e do Workfront
+description: Histórias de sucesso do cliente - blueprint de integração do Marketo Engage e da Workfront
 exl-id: fabe67b4-8ad6-49fc-a38f-cd4b5319d09a
 source-git-commit: 85e3c9060ebbffcab73ee9621f610df1c8ff5bcb
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 93%
 
 ---
 

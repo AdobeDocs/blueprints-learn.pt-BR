@@ -116,7 +116,7 @@ Revise as medidas de proteção a seguir.
 
 ## Etapas de implantação
 
-Consulte a [Guia de introdução](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=pt-BR) para implementar o Adobe Campaign v7.
+Consulte o [Guia de Introdução](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/about-adobe-campaign-classic.html?lang=pt-BR) para implementar o Adobe Campaign v7.
 
 
 ## Documentação relacionada

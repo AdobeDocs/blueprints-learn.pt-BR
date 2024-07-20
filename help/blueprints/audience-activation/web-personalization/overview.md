@@ -12,7 +12,7 @@ ht-degree: 97%
 
 ---
 
-# Blueprints de personalização da Web e móvel
+# Blueprints da Web e do Mobile Personalization
 
 Personalização da Web e móvel aborda a capacidade de utilizar a segmentação de perfil e público-alvo em vários aplicativos para personalizar e aprimorar as experiências do cliente. Os comportamentos do cliente, os dados demográficos, o nível de fidelização e as transações anteriores podem ser aproveitados para personalizar layouts, call-to-actions e conteúdo.
 

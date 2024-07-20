@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # Blueprints de coleta e preparação de dados
 
-A coleta e a preparação de dados englobam todos os métodos pelos quais os dados podem ser preparados e assimilados no Adobe [!DNL Experience Platform]. Além da capacidade de coletar dados no Adobe [!DNL Experience Platform Edge Network] e o encaminhamento subsequente de dados por meio do encaminhamento lateral para destinos corporativos.
+A coleta e preparação de dados engloba todos os métodos pelos quais os dados podem ser preparados e assimilados no Adobe [!DNL Experience Platform]. Além da capacidade de coletar dados para o Adobe [!DNL Experience Platform Edge Network] e o encaminhamento subsequente de dados por meio do encaminhamento lateral para destinos corporativos.
 
 A preparação de dados inclui o mapeamento dos dados de origem para o esquema do Experience Data Model (XDM). Inclui também transformações nos dados, como formatação de dados, separação/concatenação/conversões de campos e junção/mesclagem/rechaveamento de registros. A preparação de dados ajuda na unificação dos dados do cliente para fornecer análise agregada/filtrada, incluindo relatórios ou preparação dos dados para agrupamento/ciência de dados/ativação do perfil do cliente.
 

@@ -27,7 +27,7 @@ Ele também vem emparelhado com um servidor de mensagens em tempo real escaláve
 
 ## Diagramas de arquitetura
 
-Saiba mais sobre [Modelos de implantação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+Saiba mais sobre [modelos de implantação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
 
 ### Implantação do Campaign Enterprise (FFDA)
 
@@ -41,8 +41,8 @@ Saiba mais sobre [Modelos de implantação do Campaign v8](https://experiencelea
 
 | Cenário | Descrição | Recursos |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] com Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Mostra como a Adobe Experience Platform e seu Perfil do cliente em tempo real e a ferramenta de segmentação centralizada podem ser utilizados com o Adobe [!DNL Campaign] para fornecer conversas personalizadas | <ul><li>O compartilhamento de perfis e públicos-alvo da [!DNL Real-Time CDP] para Adobe [!DNL Campaign] usando o intercâmbio de arquivos de armazenamento em nuvem e o Adobe [!DNL Campaign] workflows de assimilação </li><li>Compartilhe facilmente dados de entrega e interação das conversas com os clientes com a [!DNL Real-Time CDP] do Adobe [!DNL Campaign] para aprimorar o Perfil do cliente em tempo real e fornecer relatórios entre canais sobre campanhas de mensagens</li></ul> |
-| [[!DNL Journey Optimizer] com Adobe [!DNL Campaign]](ajo-and-campaign.md) | Mostra como você pode usar o Adobe Journey Optimizer para orquestrar experiências 1:1 utilizando o Perfil do cliente em tempo real e aproveitar o Adobe nativo [!DNL Campaign] sistema de mensagens transacionais para enviar a mensagem | Aproveite o Perfil do cliente em tempo real e o potencial do [!DNL Journey Optimizer] para orquestrar experiências de momento, utilizando os recursos nativos de mensagens em tempo real do Adobe [!DNL Campaign] para fazer a comunicação da última milha<br><br>Considerações:<br><ul><li>Envia até 1 milhão de mensagens por hora por meio do servidor de mensagens em tempo real<li>Nenhuma limitação é executada de [!DNL Journey Optimizer] portanto, garanta a verificação técnica por um arquiteto corporativo de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o Campaign v8</li></ul> |
+| [[!DNL Real-time Customer Data Platform] com Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Mostra como a Adobe Experience Platform e seu Perfil do Cliente em Tempo Real e a ferramenta de segmentação centralizada podem ser utilizados com o Adobe [!DNL Campaign] para fornecer conversas personalizadas | <ul><li>Compartilhamento de perfis e públicos do [!DNL Real-Time CDP] para o Adobe [!DNL Campaign] através do uso de troca de arquivos de armazenamento na nuvem e fluxos de trabalho de assimilação do Adobe [!DNL Campaign] </li><li>Compartilhe facilmente dados de entrega e interação de conversas com clientes no [!DNL Real-Time CDP] a partir do Adobe [!DNL Campaign] para aprimorar o Perfil do cliente em tempo real e fornecer relatórios entre canais sobre campanhas de mensagens</li></ul> |
+| [[!DNL Journey Optimizer] com Adobe [!DNL Campaign]](ajo-and-campaign.md) | Mostra como você pode usar o Adobe Journey Optimizer para orquestrar experiências 1:1 utilizando o Perfil de Cliente em Tempo Real e aproveitar o sistema de mensagens transacionais nativo do Adobe [!DNL Campaign] para enviar a mensagem | Aproveite o Perfil do Cliente em Tempo Real e o poder do [!DNL Journey Optimizer] para orquestrar experiências de momento, utilizando os recursos nativos de mensagens em tempo real do Adobe [!DNL Campaign] para fazer a comunicação da última milha<br><br>Considerações:<br><ul><li>Envia até 1 milhão de mensagens por hora por meio do servidor de mensagens em tempo real<li>Nenhuma limitação é executada a partir de [!DNL Journey Optimizer], portanto, garanta a verificação técnica por um arquiteto corporativo de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o Campaign v8</li></ul> |
 
 ## Pré-requisitos
 
@@ -50,7 +50,7 @@ Existem os seguintes pré-requisitos para este blueprint.
 
 ### Servidor de aplicativo e servidor de mensagens em tempo real
 
-* O ADOBE [!DNL Campaign] O Console do cliente é necessário para interagir e usar o [!DNL Campaign] software v8. Trata-se de um cliente baseado em Windows que usa protocolos-padrão de Internet (SOAP, HTTP, etc.). Certifique-se de que as permissões necessárias para distribuir, instalar e executar o software estão ativas em sua organização
+* O Console do Cliente do Adobe [!DNL Campaign] é necessário para interagir e usar o software [!DNL Campaign] v8. Trata-se de um cliente baseado em Windows que usa protocolos-padrão de Internet (SOAP, HTTP, etc.). Certifique-se de que as permissões necessárias para distribuir, instalar e executar o software estão ativas em sua organização
 
 * Lista de permissões de endereço IP:
    * Identifique os intervalos IP que todos os usuários utilizam durante o acesso ao console do cliente.
@@ -82,8 +82,8 @@ As medidas de proteção são descritas abaixo.
 ### Dimensionamento do servidor de aplicativos
 
 * O armazenamento pode ser dimensionado para até 200 milhões de perfis com potencial para dimensionar até 1 bilhão de perfis.
-* Configurar e controlar o acesso do usuário via Adobe [!DNL Admin Console].
-* Carregamento de dados para [!DNL Campaign] O deve ser feito por meio de arquivos em lote:
+* Configure e controle o acesso do usuário via Adobe [!DNL Admin Console].
+* Espera-se que o carregamento de dados para [!DNL Campaign] seja feito por meio de arquivos em lotes:
    * O suporte ao carregamento de dados de API serve principalmente para o gerenciamento de perfis ou objetos simples no banco de dados (ou seja, criar e atualizar). Não foi projetado para o carregamento de grandes volumes de dados ou operações semelhantes a lotes.
    * A utilização de APIs para ler dados para aplicativos personalizados não é compatível
    * Os dados carregados por meio de API são preparados no banco de dados do aplicativo e, em seguida, replicados a cada hora para o banco de dados na nuvem
@@ -103,9 +103,9 @@ As medidas de proteção são descritas abaixo.
 * O Campaign oferece o recurso de se integrar a um provedor de SMS. O provedor é adquirido pelo cliente e integrado ao Campaign para envio de mensagens baseadas em SMS.
 * O suporte é por meio do protocolo SMPP.
 * Há três (3) tipos diferentes de SMS, e a Adobe é compatível com todos eles:
-   * SMS MT (Terminado por dispositivo móvel): um SMS emitido pelo Adobe [!DNL Campaign] para telefones celulares através do fornecedor de SMPP.
-   * SMS MO (Originado por dispositivo móvel): um SMS enviado por um dispositivo móvel para o Adobe [!DNL Campaign] pelo provedor SMPP.
-   * SMS SR (Relatório de Status) ou DR ou DLR (Recibo de Delivery): um recibo de retorno enviado pelo dispositivo móvel ao Adobe [!DNL Campaign] pelo provedor SMPP, indicando que o SMS foi recebido com êxito. Adobe [!DNL Campaign] A também pode receber um SR indicando que a mensagem não pôde ser entregue, geralmente com uma descrição do erro.
+   * SMS MT (Terminado por Dispositivo Móvel): um SMS emitido pelo Adobe [!DNL Campaign] para telefones celulares por meio do provedor SMPP.
+   * SMS MO (Originado por dispositivo móvel): um SMS enviado por um dispositivo móvel para o Adobe [!DNL Campaign] por meio do provedor SMPP.
+   * SMS SR (Relatório de Status) ou DR ou DLR (Recibo de Entrega): um recibo de retorno enviado pelo dispositivo móvel ao Adobe [!DNL Campaign] por meio do provedor SMPP, indicando que o SMS foi recebido com êxito. O Adobe [!DNL Campaign] também pode receber um SR indicando que a mensagem não pôde ser entregue, geralmente com uma descrição do erro.
 
 ## Etapas de implantação
 

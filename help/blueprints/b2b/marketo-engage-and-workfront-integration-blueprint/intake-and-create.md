@@ -4,8 +4,8 @@ description: Entrada e criação – Blueprint de integração do Marketo Engage
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
 source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Para essa integração, você usará o Workfront Fusion, uma camada de automaç�
 
 O fluxo de trabalho abaixo mostra uma solicitação de webinário feita por um gerente de campanha usando um formulário de solicitação do Workfront. Os detalhes enviados na solicitação acionam um programa e email a serem criados no Marketo Engage para o webinário. Além disso, os dados são obtidos do formulário de solicitação para preencher o conteúdo do email.
 
-![Blueprint de entrada e criação](assets/intake-and-create-1.png){zoomable=&quot;yes&quot;}
+![Entrada e criação de blueprint](assets/intake-and-create-1.png){zoomable="yes"}
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ Para saber mais sobre como criar seu próprio centro de excelência, consulte a 
 
 Com o Marketo Engage, os tokens podem ser usados para preencher o conteúdo nos ativos da campanha. Por exemplo, após clonar um modelo de email do seu centro de excelência, o Workfront Fusion pode obter detalhes da solicitação de campanha no Workfront e transmiti-los para “Meus tokens” no programa do Marketo Engage. Os valores de token podem depois ser herdados diretamente no email para criar o email.
 
-![Use tokens para preencher o diagrama de conteúdo](assets/intake-and-create-2.png){zoomable=&quot;yes&quot;}
+![Usar tokens para popular o diagrama de conteúdo](assets/intake-and-create-2.png){zoomable="yes"}
 
 ### Preencha com imagens do AEM Assets {#populate-images-from-aem-assets}
 
@@ -147,7 +147,7 @@ Algumas informações básicas a serem incluídas na Biblioteca de pesquisa do m
 
 ## Fluxo de automação de entrada e criação {#intake-and-create-automation-flow}
 
-Veja aqui um exemplo de como a lógica do fluxo de trabalho pode ser criada no Fusion usando módulos pré-fabricados do [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=pt-BR){target="_blank"} and [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=pt-BR){target="_blank"} que permitem acelerar a automação.
+Este é um exemplo de como a lógica do fluxo de trabalho pode ser montada no Fusion usando os módulos [Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-modules.html?lang=pt-BR){target="_blank"} e [Marketo Engage](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/marketo-modules.html?lang=pt-BR){target="_blank"} pré-criados que permitem fornecer automação mais rapidamente.
 
 ![Fluxo de automação de entrada e criação](assets/intake-and-create-3.png)
 

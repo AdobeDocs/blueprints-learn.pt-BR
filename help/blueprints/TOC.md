@@ -27,7 +27,7 @@ ht-degree: 56%
    + [Experience Platform e aplicativos](/help/blueprints/experience-platform/platform-applications.md)
    + [Fluxo de dados Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
    + Implantação {#deployment}
-      + [SDK da Web do Experience Platform e [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [SDK da Web do Experience Platform &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [SDKs do aplicativo](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Medidas de proteção](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Ativação de público-alvo e perfil {#audience-activation}

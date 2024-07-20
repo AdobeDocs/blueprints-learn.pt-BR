@@ -35,7 +35,7 @@ Blueprints no Audience e na Ativação de perfil
 
 A ilustração abaixo descreve os componentes principais do Perfil do cliente em tempo real da Experience Platform.
 
-Para obter a documentação adicional relacionada ao perfil, segmentação e ativação, consulte [Documentação de visão geral da RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) e a variável [Visão geral do Perfil do cliente em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) páginas.
+Para obter a documentação adicional relacionada ao perfil, segmentação e ativação, consulte a [Documentação de visão geral da RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home) e as [páginas de visão geral do Perfil do cliente em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home).
 
 <img src="assets/profile_architecture.jpg" alt="Arquitetura de referência para o Perfil do cliente em tempo real" style="border:1px solid #4a4a4a" width="90%"  class="modal-image"/>
 

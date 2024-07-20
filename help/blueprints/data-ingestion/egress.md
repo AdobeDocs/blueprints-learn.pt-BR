@@ -13,13 +13,13 @@ ht-degree: 91%
 
 # Blueprint de acesso e exportação de dados
 
-O blueprint de acesso e exportação de dados descreve todos os métodos possíveis pelos quais os dados podem ser acessados ou exportados do [!DNL Experience Platform] e aplicativos.
+O blueprint de acesso e exportação de dados descreve todos os métodos possíveis pelos quais os dados podem ser acessados ou exportados de [!DNL Experience Platform] e aplicativos.
 
-O blueprint é dividido em duas categorias para acesso de dados do [!DNL Experience Platform] e aplicativos.
+O blueprint está dividido em duas categorias para acesso de dados de [!DNL Experience Platform] e aplicativos.
 
-O primeiro inclui abordagens para a saída de dados do [!DNL Experience Platform] e aplicativos. Esta situação seria considerada uma _push_ tipo de método de saída de dados.
+A primeira inclui abordagens para saída de dados de [!DNL Experience Platform] e aplicativos. Isso seria considerado um método de saída de dados do tipo _push_.
 
-O segundo inclui abordagens para acessar dados do [!DNL Experience Platform] e aplicativos. Esta situação seria considerada uma _obter_ tipo de método de acesso aos dados.
+O segundo inclui abordagens para acessar dados do [!DNL Experience Platform] e aplicativos. Isso seria considerado um método de acesso a dados do tipo _pull_.
 
 Abordagens de acesso a dados:
 
@@ -412,7 +412,7 @@ Consulte a documentação de [Visão geral das tags](https://experienceleague.ad
 
 ### Encaminhamento de eventos {#event-forwarding}
 
-As solicitações de coleta de dados são coletadas diretamente no Adobe [!DNL Edge Network]. No [!DNL Edge Network] as solicitações para endpoints RESTful externos podem ser configuradas para encaminhar essas solicitações para o destino externo.
+As solicitações de coleta de dados são coletadas diretamente no Adobe [!DNL Edge Network]. Das solicitações [!DNL Edge Network] para os pontos de extremidade RESTful externos podem ser configurados para encaminhar essas solicitações para o destino externo.
 
 Para obter mais informações, consulte a seguinte documentação: [Encaminhamento de eventos](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html?lang=pt-BR).
 
@@ -422,7 +422,7 @@ Para obter mais informações, consulte a seguinte documentação: [Encaminhamen
 
 #### Considerações
 
-* Para usar o encaminhamento de eventos, os dados devem ser enviados para o [!DNL Edge Network] usando o SDK da Web ou MobileSDK.
+* Para usar o Encaminhamento de eventos, os dados devem ser enviados para o [!DNL Edge Network] usando o SDK da Web ou MobileSDK.
 * A abordagem de encaminhamento de eventos reduz o tempo e o peso do carregamento da página devido à adição de tags na página.
 * No momento, não há suporte ao enriquecimento do perfil de borda ou de outras fontes de dados.
 * Há suporte limitado à filtragem de dados e a transformações de mapeamento simples.

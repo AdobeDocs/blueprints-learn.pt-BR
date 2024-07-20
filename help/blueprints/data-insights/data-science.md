@@ -1,6 +1,6 @@
 ---
 title: Blueprint de Ciência de dados personalizada para enriquecimento de perfis
-description: Saiba como os insights baseados em ciência de dados podem ser assimilados na [!DNL Experience Platform] para enriquecer o Perfil do cliente em tempo real.
+description: Saiba como os insights baseados em ciência de dados podem ser assimilados no [!DNL Experience Platform] para enriquecer o Perfil do cliente em tempo real.
 solution: Data Collection
 kt: 7203
 exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669,f0efaf3c-6c4f-47c3-ab8a-e8e146dd071c
@@ -13,7 +13,7 @@ ht-degree: 69%
 
 # Ciência de dados personalizada para blueprint de enriquecimento de perfil
 
-O blueprint de ciência de dados personalizada para enriquecimento de perfil ilustra como os dados podem ser usados para treinar, implantar e pontuar modelos a fim de fornecer insights de aprendizado de máquina no [!DNL Experience Platform] e a variável [!DNL Real-Time Customer Data Platform] da ciência de dados e das ferramentas de aprendizado de máquina.
+O blueprint de ciência de dados personalizada para enriquecimento de perfil ilustra como os dados podem ser usados para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina sobre o [!DNL Experience Platform] e o [!DNL Real-Time Customer Data Platform] a partir de ciência de dados e ferramentas de aprendizado de máquina.
 
 Os insights modelados podem ser assimilados em [!DNL Experience Platform] para enriquecer o perfil do cliente em tempo real. Exemplos de insights de aprendizado de máquina incluem pontuação de valor vitalício, afinidade de categorias e produtos, propensão à conversão ou ao churn.
 
@@ -29,7 +29,7 @@ Os insights modelados podem ser assimilados em [!DNL Experience Platform] para e
 
 ## Medidas de proteção
 
-* Para obter medidas de proteção detalhadas e latências completas na assimilação de resultados de ciência de dados em [!DNL Experience Platform] e o Perfil do cliente em tempo real referem-se às medidas de proteção de assimilação de dados e ao diagrama de latência referenciado no [documento de medidas de proteção para implantação](../experience-platform/deployment/guardrails.md).
+* Para obter medidas de proteção detalhadas e latências de ponta a ponta ao assimilar resultados de ciência de dados no [!DNL Experience Platform] e o Perfil do Cliente em Tempo Real, consulte as medidas de proteção de assimilação de dados e o diagrama de latência referenciado no [documento de medidas de proteção de implantação](../experience-platform/deployment/guardrails.md).
 
 ## Etapas de implantação
 
@@ -46,7 +46,7 @@ Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo
 
 * Na maioria dos casos, o resultado do modelo deve ser assimilado como atributos de perfil, e não como eventos de experiência. Os resultados do modelo podem ser uma cadeia de caracteres de atributo simples. Se houver vários resultados de modelo a assimilar, é recomendável usar um campo de tipo matriz ou mapa.
 * O conjunto de dados de instantâneo de perfil diário, que é uma exportação diária dos dados de atributo de perfil unificado, pode ser aproveitado para treinar modelos em dados de atributo de perfil. A documentação do conjunto de dados de instantâneo de perfil pode ser acessada [aqui](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=pt-BR#profile-attribute-datasets).
-* Para extrair dados de [!DNL Experience Platform] os métodos a seguir podem ser usados
+* Para extrair dados de [!DNL Experience Platform], os seguintes métodos podem ser usados
    * SDK de acesso a dados
       * Os dados estão na forma de arquivo bruto
       * Os dados do evento de experiência de perfil permanecem em seu estado bruto e não unificado.
@@ -61,6 +61,6 @@ Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo
 ## Publicações do blog relacionadas
 
 * [IA de conteúdo e comércio: A personalização de suas interações com clientes por meio da inteligência de conteúdo](https://medium.com/adobetech/content-and-commerce-ai-personalizing-your-interactions-with-customers-through-content-intelligence-dc182601deab)
-* [Introdução à análise exploratória de dados no Adobe [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
+* [Uma Introdução à Análise de Dados Exploratórios no Adobe [!DNL Experience Platform]](https://medium.com/adobetech/an-introductory-look-at-exploratory-data-analysis-on-adobe-experience-platform-1bfce7501d9a)
 * [Caminho direto para os produtos da Adobe Experience: aprendizado de máquina para experiência do usuário elevada](https://medium.com/adobetech/cutting-across-adobe-experience-products-with-machine-learning-to-elevated-user-experience-7c85000510d1)
-* [Segmentação.AI: Geração de cluster de público-alvo automatizado-como-um-serviço no Adobe [!DNL Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)
+* [Segmentation.AI: Automated Audience-Clustering-as-a-Service no Adobe [!DNL Experience Platform]](https://medium.com/adobetech/segmentation-ai-automated-audience-clustering-as-a-service-in-adobe-experience-platform-261f4099462c)

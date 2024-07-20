@@ -40,7 +40,7 @@ Aplicativo de mensagens de terceiros
 
 [Link do produto de medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=pt-BR)
 
-[Medidas de proteção e orientação de latência completa](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 
 ## Etapas de implementação
@@ -78,7 +78,7 @@ Aplicativo de mensagens de terceiros
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
    * Adobe Journey Optimizer
    * Rede de borda da Adobe Experience Platform
-   * Identidade de [!DNL Edge Network]
+   * Identidade para [!DNL Edge Network]
    * Mobile Core
 1. Certifique-se de ter um fluxo de dados dedicado para implantações de aplicativos móveis e implantações da Web
 1. Para mais informações, siga o [Manual do Adobe Journey Optimizer Mobile](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/)

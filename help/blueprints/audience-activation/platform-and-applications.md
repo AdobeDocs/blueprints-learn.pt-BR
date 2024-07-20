@@ -48,7 +48,7 @@ Consulte a seção [Experience Platform e Arquitetura de aplicativos](https://ex
 
 ## Medidas de proteção
 
-Consulte a [medidas de proteção na página Visão geral do público-alvo e da ativação de perfil](overview.md) e a variável [medidas de proteção de implantação](../experience-platform/deployment/guardrails.md) página.
+Consulte as [medidas de proteção na página Visão geral de Público-alvo e Ativação de Perfil](overview.md) e a [página de medidas de proteção de implantação](../experience-platform/deployment/guardrails.md).
 
 ## Considerações de implantação
 
