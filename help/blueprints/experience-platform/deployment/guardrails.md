@@ -4,7 +4,7 @@ description: As medidas de proteção definem o impacto e as expectativas de des
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 15%
@@ -46,7 +46,7 @@ As seguintes páginas fornecem informações sobre medidas de proteção para re
 
 O diagrama a seguir descreve as latências observadas na borda e no hub principais que devem ser observadas ao projetar o caso de uso no Experience Platform e nos aplicativos.
 
-![Experience Platform [!DNL Edge Network] e latências observadas primárias do hub.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency.svg "Edge Network de Experience Platform e latências observadas primárias de hub"){width="1000" zoomable="yes"}
+![Experience Platform [!DNL Edge Network] e latências observadas primárias do hub.](/help/blueprints/experience-platform/deployment/assets/aep_edge_hub_latency_v1.svg "Edge Network de Experience Platform e latências observadas primárias de hub"){width="1000" zoomable="yes"}
 
 ### Assimilação de dados {#data-ingestion}
 
