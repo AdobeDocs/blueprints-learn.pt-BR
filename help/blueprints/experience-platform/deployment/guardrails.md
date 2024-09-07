@@ -4,21 +4,30 @@ description: As medidas de proteção definem o impacto e as expectativas de des
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 164793e15315d64cf38cb14928eac10cf6ae5c35
+source-git-commit: 7ccabe2d11467b02d7fb5a2f920ebc5af8a17983
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 15%
+source-wordcount: '603'
+ht-degree: 10%
 
 ---
 
 # Medidas de proteção
+As medidas de proteção refletem as restrições do sistema, as latências esperadas e as expectativas de desempenho para otimizar a arquitetura do cliente e o desempenho do caso de uso e ajudar a garantir a estabilidade, evitar erros ou resultados inesperados.
 
-As medidas de proteção são limites recomendados que fornecem orientação para dados, latências observadas e uso do sistema no Adobe Experience Platform e nos aplicativos. As medidas de proteção refletem as restrições do sistema e as expectativas de desempenho para otimizar a arquitetura do cliente e o desempenho do caso de uso, além de ajudar a evitar erros ou resultados inesperados. As medidas de proteção não devem ser contratos de nível de serviço. Os contratos de nível de serviço estão documentados nas Descrições de produto vinculadas abaixo e nos contratos de licença do cliente. As medidas de proteção têm como objetivo fornecer orientação na arquitetura de soluções para casos de uso específicos do cliente, a fim de garantir a estabilidade e a execução.
+## Tipos de medidas de proteção
 
-Para obter informações sobre contratos de nível de serviço específicos para aplicativos e recursos, consulte a seção [Descrições de aplicativos e recursos](#application-feature-descriptions) na parte inferior desta página.
+| Tipo de grade de proteção | Descrição |
+|---|---|
+| Proteção de desempenho (limite flexível) | As medidas de proteção de desempenho são limites de uso que estão relacionados ao escopo dos seus casos de uso e descrevem o desempenho esperado em condições normais. Quando excedido, pode ocorrer degradação do desempenho e latência. As medidas de proteção de desempenho estão documentadas nos documentos de Experience League, nas seções de medidas de proteção para cada Solução, conforme descrito abaixo. |
+| Limite estático (limite permanente) | São limites impostos pelo sistema que não podem ser excedidos. Normalmente, os limites estáticos são vinculados por contrato e descritos no contrato do cliente e nas [Descrições do produto](https://helpx.adobe.com/legal/product-descriptions.html). |
 
-Observe que para qualquer caso de uso de cliente que tenha requisitos rigorosos de latência ou volume, a Adobe recomenda analisar seu caso de uso detalhadamente com a Equipe de conta da Adobe e o parceiro de implementação. Em certos casos, é aconselhável testar e observar uma determinada implementação de caso de uso antes do lançamento da produção do caso de uso para observar e entender o comportamento esperado, já que cada implementação de cliente tem vários fatores em jogo, incluindo a natureza e a cadência da assimilação de dados, as especificidades das regras de segmento que estão sendo criadas e os vários canais e cargas de ativação. Cada implementação de caso de uso terá um desempenho observado variável. Dessa forma, é melhor estabelecer e testar o desempenho esperado antecipadamente para garantir a arquitetura e a implementação adequadas de acordo com os requisitos de latência e desempenho do caso de uso.
+>[!NOTE]
+>
+> As grades de proteção não devem ser contratos de nível de serviço, mas orientação para configurações ideais e comportamento esperado do sistema. Quaisquer medidas de proteção que sejam limites de sistema ou contratuais ou Contratos de nível de serviço serão documentadas especificamente nos contratos do cliente e nas descrições do produto. Se você estiver interessado em saber mais sobre limites personalizados, entre em contato com o representante do Atendimento ao cliente.
 
+>[!NOTE]
+>
+> Para casos de uso com necessidades rígidas de latência ou desempenho, a Adobe sugere discutir os detalhes com a Equipe de conta da Adobe e o Parceiro de implementação. Cada configuração do cliente pode variar entre padrões de assimilação de dados, regras de segmento e canais de ativação. É importante testar e analisar seu caso de uso antes de iniciar o para entender como ele se comportará.
 
 ## Documentação de referência sobre as medidas de proteção da Adobe Experience Platform e dos aplicativos da Adobe
 
@@ -77,19 +86,3 @@ O diagrama abaixo exibe os valores de latência esperados ao trabalhar com [Cust
 O diagrama abaixo exibe os valores de latência esperados ao trabalhar com o [Adobe Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=en). Clique na imagem para ver uma versão de alta resolução.
 
 ![Trabalhando com a visão geral visual de alto nível do Adobe Journey Optimizer.](/help/blueprints/experience-platform/deployment/assets/AJO_guardrails.svg "Trabalhando com valores de latência e visão geral visual de alto nível do Adobe Journey Optimizer"){width="1000" zoomable="yes"}
-
-## Descrições de aplicativos e recursos {#application-feature-descriptions}
-
-Para obter informações sobre contratos de nível de serviço específicos de recursos, consulte as descrições de produto abaixo:
-
-* [Experience Platform Collection Enterprise](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-collection-enterprise.html)
-* [Real-time Customer Data Platform](https://helpx.adobe.com/br/legal/product-descriptions/real-time-customer-data-platform.html)
-* [B2B Customer Data Platform](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-b2b.html)
-* [Experience Platform Activation](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform0.html)
-* [Experience Platform Intelligence](https://helpx.adobe.com/br/legal/product-descriptions/adobe-experience-platform-intelligence---product-description.html)
-* [Serviços inteligentes](https://helpx.adobe.com/br/legal/product-descriptions/intelligent-services.html)
-* [Data Distiller](https://helpx.adobe.com/br/legal/product-descriptions/data-distiller.html)
-* [Customer Journey Analytics](https://helpx.adobe.com/br/legal/product-descriptions/customer-journey-analytics.html)
-* [Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)
-* [Journey Orchestration](https://helpx.adobe.com/br/legal/product-descriptions/journey-orchestration.html)
-* [Offer Decisioning](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html)
