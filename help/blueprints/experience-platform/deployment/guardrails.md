@@ -4,9 +4,9 @@ description: As medidas de proteção definem o impacto e as expectativas de des
 solution: Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 thumbnail: null
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-source-git-commit: 7e37677280c27302e650a96786035169573d9709
+source-git-commit: 8ab82995ad7762f8ed6f706aa4c4fe59d47abb20
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '612'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ As medidas de proteção refletem as restrições do sistema, as latências espe
 
 >[!NOTE]
 >
-> Para casos de uso com necessidades rígidas de latência ou desempenho, a Adobe sugere discutir os detalhes com a Equipe de conta da Adobe e o Parceiro de implementação. Cada configuração do cliente pode variar entre padrões de assimilação de dados, regras de segmento e canais de ativação. É importante testar e analisar seu caso de uso antes de iniciar o para entender como ele se comportará.
+> Para casos de uso com necessidades rígidas de latência ou desempenho, a Adobe sugere discutir os detalhes com a Equipe de conta da Adobe e o Parceiro de implementação. Cada configuração do cliente pode variar entre padrões de assimilação de dados, contagens e riqueza de perfis, regras de segmentos e canais de ativação. Dessa forma, é importante projetar e testar seu caso de uso para otimizar o desempenho e entender totalmente as características de desempenho esperadas.
 
 ## Documentação de referência sobre as medidas de proteção da Adobe Experience Platform e dos aplicativos da Adobe
 
