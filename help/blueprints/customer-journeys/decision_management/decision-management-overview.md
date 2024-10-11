@@ -3,16 +3,18 @@ title: Projetos da Gestão de decisões
 description: Forneça ofertas personalizadas nas jornadas do cliente.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 95%
+source-wordcount: '651'
+ht-degree: 93%
 
 ---
 
 # Journey Optimizer – Visão geral da Gestão de decisões
 
 Para saber mais sobre a gestão de decisões, consulte a [documentação do produto](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR).
+
+Consulte a documentação a seguir para obter as medidas de proteção relacionadas à Gestão de decisões. [Medidas de proteção do Gerenciamento de decisão](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management)
 
 A gestão de decisões da Adobe é um serviço fornecido como parte do Adobe Journey Optimizer. Esse blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece mais detalhes sobre os diferentes componentes da arquitetura e considerações que compõem a gestão de decisões.
 
@@ -42,8 +44,6 @@ A primeira é por meio do hub da Adobe Experience Platform, que é uma arquitetu
 
 ### Considerações técnicas sobre a gestão de decisões no hub
 
-* Solicitações por segundo = 2.000.
-* Latência de resposta &lt; 500 ms.
 * Acesso ao perfil completo do cliente em tempo real, incluindo atributos, eventos de experiência e associações de público.
 
 ## Gestão de decisões na borda   
@@ -57,10 +57,7 @@ A segunda abordagem é por meio da Experiência [!DNL Edge Network], que é uma 
 
 ### Considerações técnicas sobre o Gerenciamento de decisão de borda
 
-* Solicitações por segundo = 5.000.
-* Latência de resposta &lt; 250 ms.
 * Acesso ao perfil de borda em tempo real. Somente atributos de perfil e públicos projetados na borda ficam disponíveis no perfil.
-* Caso haja necessidade de personalização nas primeiras experiências, o hub é ideal, pois o perfil completo fica disponível. O perfil de borda deve ser sincronizado a partir do hub para a primeira experiência de borda. Portanto, a primeira experiência da borda não inclui dados de perfil cujo upload tenha sido feito anteriormente no hub.
 
 ## Documentação relacionada
 
