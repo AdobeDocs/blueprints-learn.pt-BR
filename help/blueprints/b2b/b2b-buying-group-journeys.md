@@ -2,7 +2,8 @@
 title: Blueprint de marketing baseado em grupo e de gerenciamento de Jornadas
 description: Saiba como idealizar, projetar e criar uma jornada que qualifique clientes potenciais para um grupo de compra no Adobe Journey Optimizer B2B edition.
 solution: Journey Optimizer B2B Edition
-source-git-commit: b514d7a639d4d624875552c892ae266fdfe089f3
+exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
+source-git-commit: b777ea5c301fb1fac39bc243b09a02a2f411f40e
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
