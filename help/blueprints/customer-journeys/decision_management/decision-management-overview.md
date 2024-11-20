@@ -3,10 +3,10 @@ title: Projetos da Gestão de decisões
 description: Forneça ofertas personalizadas nas jornadas do cliente.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
+source-git-commit: e6ac3607ea3909acf921125cc5f8fd44c0b3e0f6
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 93%
+source-wordcount: '650'
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ A gestão de decisões pode ser implantada de duas maneiras: na borda ou por mei
 
 ## Gestão de decisões no hub
 
-A primeira é por meio do hub da Adobe Experience Platform, que é uma arquitetura de datacenter centralizada. Na abordagem de “hub”, as ofertas são executadas, personalizadas e entregues na latência de >500 milissegundos. Por isso, a arquitetura de hub é mais adequada para experiências do cliente que não exigem latência de subsegundo. Exemplos incluem definições de ofertas que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais. As ofertas inseridas em emails, mensagens SMS ou notificações por push e outras campanhas de saída também são possibilitadas pela abordagem de hub. Para obter mais informações sobre a gestão de decisões no hub, consulte o blueprint [Gestão de decisões no hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=pt-BR).
+A primeira é por meio do hub da Adobe Experience Platform, que é uma arquitetura de datacenter centralizada. A arquitetura de hub é mais adequada para experiências do cliente que não exigem baixa latência e alta taxa de transferência, mas exigem uma visualização mais completa do perfil do cliente. Exemplos incluem decisões de oferta fornecidas para quiosques ou experiências assistidas por agente, como em call centers ou interações presenciais. As ofertas inseridas em emails, mensagens SMS ou notificações por push e outras campanhas de saída também são possibilitadas pela abordagem de hub. Para obter mais informações sobre a gestão de decisões no hub, consulte o blueprint [Gestão de decisões no hub](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/decision-management/decision-management-hub.html?lang=pt-BR).
 
 * A qualificação da oferta pode se basear no perfil completo do cliente em tempo real, incluindo todos os atributos e eventos de experiência
 
