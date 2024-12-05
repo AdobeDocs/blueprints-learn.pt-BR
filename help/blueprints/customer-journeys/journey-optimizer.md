@@ -1,9 +1,9 @@
 ---
-title: "[!DNL Journey Optimizer] - Mensagens Acionadas e Blueprint do Adobe Experience Platform"
+title: '[!DNL Journey Optimizer] - Mensagens acionadas e Blueprint do Adobe Experience Platform'
 description: Execute mensagens e experiências acionadas usando a Adobe Experience Platform como um hub central para dados de transmissão, perfis de clientes e segmentação.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: a1f3aef5b508575019bd651b9706efc7d6db5306
+source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 53%
@@ -66,7 +66,7 @@ Push para dispositivo móvel:
 
 ## Medidas de proteção
 
-[[!DNL Journey Optimizer] Link de Produto de Medidas de Proteção](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
+[[!DNL Journey Optimizer] Link de Produto de Medidas de Proteção](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 [Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
