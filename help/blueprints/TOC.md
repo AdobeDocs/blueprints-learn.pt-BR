@@ -5,7 +5,7 @@ user-guide-description: Blueprints de experiência digital são implantações r
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
+source-git-commit: ec6778d0b3cd37442be2731cafba26388e4355ea
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 53%
@@ -30,8 +30,8 @@ ht-degree: 53%
       + [Ativação para canais sociais e de publicidade](/help/blueprints/audience-activation/advertising-activation.md)
       + [Ativação para destinos de transmissão de arquivos e empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Hub de atividade do cliente](/help/blueprints/audience-activation/customer-activity.md)
-      + [Correspondência de segmentos](/help/blueprints/audience-activation/segment-match.md)
       + [Target e RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
+      + [Correspondência de segmentos](/help/blueprints/audience-activation/segment-match.md)
 + Ativação e marketing B2B {#b2b-activation}
    + [Visão geral](/help/blueprints/b2b/overview.md)
    + [Ativação B2B](/help/blueprints/b2b/b2bactivation.md)
