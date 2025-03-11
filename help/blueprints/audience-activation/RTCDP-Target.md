@@ -7,7 +7,7 @@ solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 613c22fd6882144515bd91da64bb305be98dccf3
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 32%
@@ -63,7 +63,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 ### Padrão de implementação 1 - [!DNL Edge Network] com Web/Mobile SDK ou API [!DNL Edge Network] (Abordagem recomendada)
 
 * Usando o [!DNL Edge Network] com a Web/Mobile SDK. A segmentação de borda em tempo real exige a abordagem de implantação do SDK da Web/Mobile ou da API de borda.
-* [Consulte o Blueprint da Web e do SDK Móvel da Experience Platform](../../experience-platform/deployment/websdk.md) para a implementação baseada no SDK.
+* [Consulte o Blueprint da Web e do SDK Móvel da Experience Platform](../experience-platform/deployment/websdk.md) para a implementação baseada no SDK.
 * Para uso no Mobile SDK, a [Adobe Journey Optimizer - Extensão de decisão](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer-decisioning/) deve estar instalada.
 * [Consulte a [!DNL Edge Network] API do Servidor](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR) para obter uma implementação baseada em API do Adobe Target com o Perfil do Edge.
 
@@ -72,7 +72,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 Usar SDKs tradicionais específicos para aplicativos (por exemplo, AT.js e AppMeasurement.js). A avaliação de segmento de borda em tempo real não é compatível com essa abordagem de implantação. No entanto, o compartilhamento de público-alvo de lote e streaming do hub da Experience Platform são compatíveis com essa abordagem de implantação.
 
 [Consulte a Documentação do Adobe Target Connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
-[Consulte o SDK Blueprint específico do aplicativo](../../experience-platform/deployment/appsdk.md)
+[Consulte o SDK Blueprint específico do aplicativo](../experience-platform/deployment/appsdk.md)
 
 ## Considerações de implantação
 

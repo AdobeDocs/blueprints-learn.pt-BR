@@ -4,10 +4,10 @@ description: Ativação de público-alvo e perfil para destinos corporativos
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: ae7347be5095ca4a7f99f9371dd94d87097112b0
+source-git-commit: de447727048098ecc0bf8598fe3bca386779f543
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 98%
+source-wordcount: '308'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Medidas de proteção
 
-[Consulte as medidas de proteção descritas na página de Visão geral de ativação de público-alvo e perfil.](overview.md)
+[Consulte as medidas de proteção conforme descrito na página de medidas de proteção.](../experience-platform/deployment/guardrails.md)
 
 ## Etapas de implantação
 
