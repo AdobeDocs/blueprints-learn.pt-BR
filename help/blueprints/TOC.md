@@ -5,9 +5,9 @@ user-guide-description: Blueprints de experiência digital são implantações r
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 616f2ba96d18b682d92e58dc06ae1b61a6c46ab4
+source-git-commit: 67c3debf5224cecf88d69ae1e2ba09765b8a575a
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '203'
 ht-degree: 53%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 53%
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
    + Plataforma de dados do cliente em tempo real (RTCDP) {#known-customer-audience-activation}
-      + [Visão geral](/help/blueprints/audience-activation/known.md)
       + [Ativação para canais sociais e de publicidade](/help/blueprints/audience-activation/advertising-activation.md)
       + [Ativação para destinos de transmissão de arquivos e empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Hub de atividade do cliente](/help/blueprints/audience-activation/customer-activity.md)
