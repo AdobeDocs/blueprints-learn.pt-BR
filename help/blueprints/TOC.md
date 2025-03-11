@@ -5,9 +5,9 @@ user-guide-description: Blueprints de experiência digital são implantações r
 product: adobe experience platform
 mini-toc-levels: 3
 role: Architect, Developer, User
-source-git-commit: 6a13de73d7f61295092faccfc21172f5e188331d
+source-git-commit: 613c22fd6882144515bd91da64bb305be98dccf3
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '205'
 ht-degree: 54%
 
 ---
@@ -16,35 +16,24 @@ ht-degree: 54%
 # Blueprints de experiência digital {#architecture}
 
 + [Blueprints de experiências digitais](/help/blueprints/overview.md)
-+ Blueprints verticais do setor{#vertical-blueprints}
-   + [Visão geral](/help/blueprints/vertical-blueprints/overview.md)
-   + [Vestuário](/help/blueprints/vertical-blueprints/apparel.md)
-   + [Varejo](/help/blueprints/vertical-blueprints/retail.md)
-   + [Telecomunicações](/help/blueprints/vertical-blueprints/telecommunications.md)
-   + [Viagens e hospitalidade](/help/blueprints/vertical-blueprints/travel-hospitality.md)
 + Visões gerais da arquitetura {#architecture-overview}
    + [Experience Cloud](/help/blueprints/experience-platform/experience-cloud.md)
    + [Experience Platform e aplicativos](/help/blueprints/experience-platform/platform-applications.md)
-   + [Fluxo de dados Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
+   + [Fluxo de dados do Experience Platform](/help/blueprints/experience-platform/platform-data-flow.md)
    + Implantação {#deployment}
-      + [SDK da Web do Experience Platform &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
+      + [Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [SDKs do aplicativo](/help/blueprints/experience-platform/deployment/appsdk.md)
       + [Medidas de proteção](/help/blueprints/experience-platform/deployment/guardrails.md)
 + Ativação de público-alvo e perfil {#audience-activation}
    + [Visão geral](/help/blueprints/audience-activation/overview.md)
-   + [Ativação de público-alvo anônima ](/help/blueprints/audience-activation/anonymous.md)
-   + Ativação de cliente conhecido (RTCDP) {#known-customer-audience-activation}
+   + [Audience Manager](/help/blueprints/audience-activation/AAM.md)
+   + Plataforma de dados do cliente em tempo real (RTCDP) {#known-customer-audience-activation}
       + [Visão geral](/help/blueprints/audience-activation/known.md)
       + [Ativação para canais sociais e de publicidade](/help/blueprints/audience-activation/advertising-activation.md)
       + [Ativação para destinos de transmissão de arquivos e empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Hub de atividade do cliente](/help/blueprints/audience-activation/customer-activity.md)
       + [Correspondência de segmentos](/help/blueprints/audience-activation/segment-match.md)
-   + [Ativação com aplicativos Experience Cloud](/help/blueprints/audience-activation/platform-and-applications.md)
-   + Personalização da Web e móvel {#web-personalization}
-      + [Visão geral](/help/blueprints/audience-activation/web-personalization/overview.md)
-      + [Personalização comportamental - Target](/help/blueprints//audience-activation/web-personalization/behavioral.md)
-      + [Personalização de cliente conhecida - Target e RTCDP](/help/blueprints/audience-activation/web-personalization/known-personalization.md)
-      + [Gerenciamento de decisão](/help/blueprints/audience-activation/web-personalization/decision-management-edge.md)
+      + [Target e RTCDP](/help/blueprints/audience-activation/RTCDP-Target.md)
 + Ativação e marketing B2B {#b2b-activation}
    + [Visão geral](/help/blueprints/b2b/overview.md)
    + [Ativação B2B](/help/blueprints/b2b/b2bactivation.md)
@@ -59,7 +48,7 @@ ht-degree: 54%
    + [ADOBE COMMERCE e RTCDP](/help/blueprints/content-commerce/commerce/commerce-rtcdp.md)
 + Customer Journey Analytics {#customer-journey-analytics}
    + [Visão geral](/help/blueprints/customer-journey-analytics/overview.md)
-   + [Compartilhamento de públicos-alvo do CJA com a RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
+   + [Compartilhamento de públicos da CJA com a RTCDP](/help/blueprints/customer-journey-analytics/cja-rtcdp.md)
    + [CJA e Journey Optimizer](/help/blueprints/customer-journey-analytics/cja-ajo.md)
 + Jornadas do cliente {#customer-journeys}
    + [Visão geral](/help/blueprints/customer-journeys/overview.md)
@@ -82,13 +71,6 @@ ht-degree: 54%
       + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7.md)
       + [Real-Time CDP com Adobe [!DNL Campaign] v7](/help/blueprints/customer-journeys/rtcdp-and-campaign.md)
       + [Journey Optimizer com Adobe [!DNL Campaign] v7](/help/blueprints/customer-journeys/ajo-and-campaign-v7.md)
-+ Coleta, acesso e exportação de dados {#data-ingestion}
-   + [Visão geral](/help/blueprints/data-ingestion/overview.md)
-   + [Coleção de dados do Encaminhamento de eventos de várias sandboxes](/help/blueprints/data-ingestion/multi-sandbox-event-forwarding.md)
-   + [Preparação e assimilação de dados](/help/blueprints/data-ingestion/ingestion.md)
-   + [Acesso e exportação de dados](/help/blueprints/data-ingestion/egress.md)
-   + [Encaminhamento de eventos](/help/blueprints/data-ingestion/server-side-collection.md)
 + Análise de dados, Inteligência e IA/Aprendizado de máquina {#data-exploration}
-   + [Visão geral](/help/blueprints/data-insights/overview.md)
    + [Análise e inteligência de dados](/help/blueprints/data-insights/analysis.md)
    + [Ciência de dados personalizada para enriquecimento de perfil](/help/blueprints/data-insights/data-science.md)
