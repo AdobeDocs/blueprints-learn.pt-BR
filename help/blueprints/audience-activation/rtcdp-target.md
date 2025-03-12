@@ -7,10 +7,10 @@ solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
 exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
-source-git-commit: 32065a63e1febe0fe4fb76185c955cf124b81ca6
+source-git-commit: b634e14af3ea60e0f4cc9e84a0ef896df293a8c7
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 32%
+ht-degree: 29%
 
 ---
 
@@ -46,15 +46,15 @@ ht-degree: 32%
 
 Arquitetura
 
-<img src="assets/RTCDP+Target.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](assets/RTCDP+Target.svg)
 
 Detalhes da sequência
 
-<img src="assets/RTCDP+Target_flow.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](assets/RTCDP+Target_flow.svg)
 
 Visão geral da arquitetura
 
-<img src="assets/personalization_with_apps.svg" alt="Arquitetura de referência para o Blueprint de personalização online/offline da Web" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](assets/personalization_with_apps.svg)
 
 ## Padrões de implantação
 
