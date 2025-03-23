@@ -2,8 +2,9 @@
 title: Blueprint do Campaign v8, Campaign e Platform
 description: Saiba mais sobre o blueprint do Campaign v8.
 solution: Campaign,Campaign v8
+version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 16b233c7ea9077566ebf12238f0a87beec1c61ce
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 41%
@@ -41,8 +42,8 @@ Saiba mais sobre [modelos de implantação do Campaign v8](https://experiencelea
 
 | Cenário | Descrição | Recursos |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] com Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Mostra como a Adobe Experience Platform e seu Perfil do Cliente em Tempo Real e a ferramenta de segmentação centralizada podem ser utilizados com o Adobe [!DNL Campaign] para fornecer conversas personalizadas | <ul><li>Compartilhamento de perfis e públicos do [!DNL Real-Time CDP] para o Adobe [!DNL Campaign] através do uso de troca de arquivos de armazenamento na nuvem e fluxos de trabalho de assimilação do Adobe [!DNL Campaign] </li><li>Compartilhe facilmente dados de entrega e interação de conversas com clientes no [!DNL Real-Time CDP] a partir do Adobe [!DNL Campaign] para aprimorar o Perfil do cliente em tempo real e fornecer relatórios entre canais sobre campanhas de mensagens</li></ul> |
-| [[!DNL Journey Optimizer] com Adobe [!DNL Campaign]](ajo-and-campaign.md) | Mostra como você pode usar o Adobe Journey Optimizer para orquestrar experiências 1:1 utilizando o Perfil de Cliente em Tempo Real e aproveitar o sistema de mensagens transacionais nativo do Adobe [!DNL Campaign] para enviar a mensagem | Aproveite o Perfil do Cliente em Tempo Real e o poder do [!DNL Journey Optimizer] para orquestrar experiências de momento, utilizando os recursos nativos de mensagens em tempo real do Adobe [!DNL Campaign] para fazer a comunicação da última milha<br><br>Considerações:<br><ul><li>Envia até 1 milhão de mensagens por hora por meio do servidor de mensagens em tempo real<li>Nenhuma limitação é executada a partir de [!DNL Journey Optimizer], portanto, garanta a verificação técnica por um arquiteto corporativo de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o Campaign v8</li></ul> |
+| [[!DNL Real-time Customer Data Platform] com Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Mostra como a Adobe Experience Platform e seu Perfil do Cliente em Tempo Real e a ferramenta de segmentação centralizada podem ser utilizados com o Adobe [!DNL Campaign] para fornecer conversas personalizadas | <ul><li>Compartilhamento de perfis e públicos do [!DNL Real-Time CDP] para o Adobe [!DNL Campaign] por meio do uso da troca de arquivos de armazenamento em nuvem e dos fluxos de trabalho de assimilação do Adobe [!DNL Campaign] </li><li>Compartilhe facilmente dados de entrega e interação de conversas com clientes no [!DNL Real-Time CDP] a partir do Adobe [!DNL Campaign] para aprimorar o Perfil do cliente em tempo real e fornecer relatórios entre canais sobre campanhas de mensagens</li></ul> |
+| [[!DNL Journey Optimizer] com Adobe [!DNL Campaign]](ajo-and-campaign.md) | Mostra como você pode usar o Adobe Journey Optimizer para orquestrar experiências individuais utilizando o Perfil de Cliente em Tempo Real e aproveitar o sistema de mensagens transacionais [!DNL Campaign] nativo do Adobe para enviar a mensagem | Aproveite o Perfil do Cliente em Tempo Real e o poder do [!DNL Journey Optimizer] para orquestrar experiências de momento, utilizando os recursos nativos de mensagens em tempo real do Adobe [!DNL Campaign] para fazer a comunicação da última milha<br><br>Considerações:<br><ul><li>Envia até 1 milhão de mensagens por hora por meio do servidor de mensagens em tempo real<li>Nenhuma limitação é executada a partir de [!DNL Journey Optimizer], portanto, garanta a verificação técnica por um arquiteto corporativo de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o Campaign v8</li></ul> |
 
 ## Pré-requisitos
 
@@ -62,7 +63,7 @@ Existem os seguintes pré-requisitos para este blueprint.
 ### Email
 
 * Ter um subdomínio pronto para ser usado para enviar mensagens.
-* O subdomínio pode ser totalmente delegado ao Adobe (recomendado) ou os CNAMEs podem ser usados para apontar para servidores DNS específicos do Adobe (personalizados).
+* O subdomínio pode ser totalmente delegado à Adobe (recomendado) ou os CNAMEs podem ser usados para apontar para servidores DNS específicos da Adobe (personalizados).
 * O registro TXT do Google é necessário para cada subdomínio para garantir uma boa capacidade de entrega.
 
 ### Push para publicação de conteúdo para dispositivos móveis

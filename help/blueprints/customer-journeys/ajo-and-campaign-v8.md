@@ -1,9 +1,10 @@
 ---
 title: Blueprint do Journey Optimizer com Adobe Campaign v8
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign para enviar mensagens utilizando o servidor de mensagens em tempo real no Campaign de forma nativa
-solution: Journey Optimizer, Campaign, Campaign v8 Client Console
+solution: Journey Optimizer, Campaign, Campaign v8, Campaign v8 Client Console
+version: Campaign v8, Campaign v8 Client Console
 exl-id: 447a1b60-f217-4295-a0df-32292c4742b0
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 64%
@@ -78,12 +79,12 @@ Siga as implementações de cada aplicativo descrito abaixo.
 ### Campaign v8
 
 * Os templates de mensagens precisam ser configurados com o contexto de personalização apropriado.
-* Para o padrão [!DNL Campaign]: Exportar workflows precisa ser configurado para exportar os logs de mensagens transacionais de volta para o Experience Platform. A recomendação é executar no máximo a cada quatro horas.
-* Para o [!DNL Campaign] v8.4, é possível aproveitar o Adobe [!DNL Campaign] Managed Services Source Connector no Experience Platform para sincronizar a entrega e rastrear eventos do Campaign para o Experience Platform. Consulte a documentação do [Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR) para obter detalhes.
+* Para o padrão [!DNL Campaign]: Exportar fluxos de trabalho precisa ser configurado para exportar os logs de mensagens transacionais de volta para a Experience Platform. A recomendação é executar no máximo a cada quatro horas.
+* Para o [!DNL Campaign] v8.4, é possível aproveitar o Adobe [!DNL Campaign] Managed Services Source Connector no Experience Platform para sincronizar a entrega e o rastreamento de eventos do Campaign com o Experience Platform. Consulte a documentação do [Source Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR) para obter detalhes.
 
 ### Configuração de push para publicação de conteúdo para dispositivos móveis (opcional)
 
-1. Implemente o SDK móvel do [!DNL Experience Platform] para coletar tokens de push e informações de logon para vincular a perfis de clientes conhecidos.
+1. Implemente o [!DNL Experience Platform] Mobile SDK para coletar tokens de push e informações de logon para vincular-se a perfis de clientes conhecidos.
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
    * Adobe [!DNL Journey Optimizer] | Adobe [!DNL Campaign Classic] | Adobe [!DNL Campaign Standard]
    * Adobe [!DNL Experience Platform] [!DNL Edge Network]
