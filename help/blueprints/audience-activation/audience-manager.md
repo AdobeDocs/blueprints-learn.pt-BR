@@ -7,10 +7,10 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 7cdafaa39e5f46a2d777219be519efca31d3830b
+source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '236'
+ht-degree: 93%
 
 ---
 
@@ -32,8 +32,6 @@ A ativação de público-alvo anônimo é a capacidade de direcionar e personali
 
 O Audience Manager e a Real-time Customer Data Platform podem ser usados para potencializar a Ativação de público anônimo para destinos no site e de publicidade. Observe que a Real-time Customer Data Platform é compatível apenas com um subconjunto de destinos de publicidade com identificadores de dispositivos anônimos, conforme catalogado na variável [documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=pt-BR).
 
-O Microsoft Bing, o Google DV360 e o TradeDesk são os principais destinos de publicidade da Real-time Customer Data Platform compatíveis com o direcionamento com base em dispositivos anônimos. Além disso, a Real-time Customer Data Platform é compatível com vários destinos conhecidos com base no cliente, conforme catalogado na [documentação de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/overview.html?lang=pt-BR) e descrito no [blueprint de ativação de cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=pt-BR).
-
 ## Arquitetura
 
 ![Arquitetura de referência para o Blueprint do Audience Activation Anônimo](assets/anonymous_activation.svg)
@@ -46,13 +44,4 @@ O Microsoft Bing, o Google DV360 e o TradeDesk são os principais destinos de pu
 
 ## Etapas de implementação para Real-time Customer Data Platform
 
-* Para conhecer as etapas para a implementação da Real-time Customer Data Platform, consulte a seguinte [documentação](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=pt-BR).
-
-## Documentação relacionada
-
-* [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager.html?lang=pt-BR)
-* [[!UICONTROL Públicos-alvo] da Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=pt-BR)
-* [Integração do Audience Manager com o Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=pt-BR)
-* [Compartilhamento de segmentos do Adobe Analytics por meio do Audience Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=pt-BR)
-* [Blueprint de ativação de cliente conhecido](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/known-customer-audience-activation/known.html?lang=pt-BR).
-* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=pt-BR)
+* Para conhecer as etapas para a implementação da Real-time Customer Data Platform, consulte a seguinte [documentação](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home).
