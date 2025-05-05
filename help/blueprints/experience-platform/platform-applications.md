@@ -35,7 +35,7 @@ Este diagrama de arquitetura apresenta como a Adobe Experience Platform se relac
 
 <img src="assets/aep+apps_detailed.svg" alt="Experience Platform e aplicativos" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
 
->[!VIDEO](https://video.tv.adobe.com/v/32456/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422785/?quality=12&learn=on&captions=por_br)
 
 ## Integrações de aplicativos AEP e Experience Cloud
 
