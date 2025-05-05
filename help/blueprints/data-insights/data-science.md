@@ -33,9 +33,9 @@ Os insights modelados podem ser assimilados em [!DNL Experience Platform] para e
 
 ## Etapas de implantação
 
-1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
+1. [Crie esquemas](https://experienceleague.adobe.com/?lang=pt-br&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
-1. [Assimilar dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) em [!DNL Experience Platform].
+1. [Assimilar dados](https://experienceleague.adobe.com/?lang=pt-br&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) em [!DNL Experience Platform].
 
 Para que os resultados do modelo sejam assimilados no Perfil do cliente em tempo real, faça o seguinte antes da assimilar dados:
 

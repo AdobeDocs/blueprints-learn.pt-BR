@@ -40,9 +40,9 @@ Revise os seguintes pré-requisitos para cada aplicativo.
 
 ## Medidas de proteção
 
-* [Limitações do produto Journey Optimizer Guardrails](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Limitações do produto Journey Optimizer Guardrails](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/guardrails)
 
-* [Medidas de proteção e orientação de latência de ponta a ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
+* [Medidas de proteção e orientação de latência de ponta a ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=pt-BR)
 
 ## Etapas de implementação
 
@@ -52,7 +52,7 @@ Siga as implementações de cada aplicativo descrito abaixo.
 
 #### Esquema/Conjuntos de dados
 
-1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) na Experience Platform com base nos dados fornecidos pelo cliente.
+1. [Configure perfil individual, evento de experiência e esquemas de várias entidades](https://experienceleague.adobe.com/?lang=pt-br&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) na Experience Platform com base nos dados fornecidos pelo cliente.
 1. (Opcional) Crie esquemas baseados em classe de Evento de experiência para as tabelas broadLog, trackingLog e endereços não entregues do Adobe Campaign.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) na Experience Platform para que os dados sejam assimilados.
 1. [Adicione rótulos de uso de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-governance/classify-data-using-governance-labels.html?lang=pt-BR) na Experience Platform para o conjunto de dados para governança.
@@ -68,7 +68,7 @@ Siga as implementações de cada aplicativo descrito abaixo.
 
 #### Origens/destinos
 
-1. [Assimilar dados em [!DNL Experience Platform]](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) usando APIs de streaming e conectores de origem.
+1. [Assimilar dados em [!DNL Experience Platform]](https://experienceleague.adobe.com/?lang=pt-br&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) usando APIs de streaming e conectores de origem.
 
 ### Journey Optimizer  
 

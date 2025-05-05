@@ -78,7 +78,7 @@ Quando a tarefa “Pronta para revisão” passa para o status “Revisar email 
 
 ### Use provas do Workfront para colaborar por meio de comentários e anotações {#use-workfront-proofing-to-collaborate}
 
-Os recursos de [prova](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} do Workfront permitem que sua equipe de marketing pegue um novo ativo, como uma imagem ou um email, e colabore por meio de comentários e anotações. Quando uma prova estiver pronta para ser ativada, os tomadores de decisão poderão aprovar o ativo a partir da ferramenta de prova.
+Os recursos de [prova](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=pt-BR){target="_blank"} do Workfront permitem que sua equipe de marketing pegue um novo ativo, como uma imagem ou um email, e colabore por meio de comentários e anotações. Quando uma prova estiver pronta para ser ativada, os tomadores de decisão poderão aprovar o ativo a partir da ferramenta de prova.
 
 ![converter tela de email](assets/review-and-approve-blueprint-3.png){zoomable="yes"}
 
