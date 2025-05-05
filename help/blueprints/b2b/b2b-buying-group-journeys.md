@@ -68,11 +68,11 @@ A solução focada em conta requer os seguintes aplicativos e serviços:
 >
 >O licenciamento do Journey Optimizer B2B edition deve incluir os seguintes itens:
 ><ul><li>Instância do Journey Optimizer B2B edition conectada ao Experience Platform B2B</li><li>Instância de Marketo Engage que está sincronizada com RTCDP</li></ul>
-&gt;<br/>
-&gt;Para clientes de Marketo Engage existentes, a conexão com a instância existente é a abordagem recomendada.
-&gt;<br/><br/>
-&gt;Há extensões adicionais disponíveis para a solução melhorar a riqueza do perfil:
-&gt;<ul><li>Fontes adicionais para RTCDP para enriquecer o perfil</li><li>Destino RTCDP para Marketo Engage</li></ul>
+>&gt;<br/>
+>&gt;Para clientes de Marketo Engage existentes, a conexão com a instância existente é a abordagem recomendada.
+>&gt;<br/><br/>
+>&gt;Há extensões adicionais disponíveis para a solução melhorar a riqueza do perfil:
+>&gt;<ul><li>Fontes adicionais para RTCDP para enriquecer o perfil</li><li>Destino RTCDP para Marketo Engage</li></ul>
 
 A implementação desta solução também requer uma compreensão clara do conceito de _Conta_ e _Grupo de compras_, e como eles amplificam e aceleram sua qualificação de vendas potenciais. Com essa compreensão, você também deve identificar a pontuação desejada da integridade do grupo de compras.
 
