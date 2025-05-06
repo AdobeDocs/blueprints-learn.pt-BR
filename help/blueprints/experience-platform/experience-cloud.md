@@ -1,11 +1,11 @@
 ---
 title: Diagramas de arquitetura da Adobe Experience Cloud
-description: Saiba como os aplicativos Experience Cloud, os serviços de aplicativos e o Experience Platform se encaixam em uma arquitetura de marketing corporativa.
+description: Saiba como os aplicativos da Experience Cloud, os serviços de aplicativos e o Experience Platform se encaixam em uma arquitetura de marketing corporativa.
 solution: Experience Cloud, Campaign, Analytics, Target, Audience Manager, Commerce, Marketo Engage, Advertising, Experience Manager, Data Collection, Customer Journey Analytics, Journey Orchestration, Real-Time Customer Data Platform
 kt: 7200
 thumbnail: null
 exl-id: 67f7e236-4fa2-434d-af22-953e94a079c1
-source-git-commit: 48b34b05b83f693395b71bcabb16dffa548a1b00
+source-git-commit: c967d4945774ca4580b60656bc051c479ce56389
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 73%
@@ -14,13 +14,13 @@ ht-degree: 73%
 
 # Diagramas de arquitetura da Adobe Experience Cloud
 
-Esses diagramas mostram como os aplicativos Experience Cloud, os serviços de aplicativos e o Experience Platform se encaixam em uma arquitetura de marketing empresarial.
+Esses diagramas mostram como os aplicativos da Experience Cloud, os serviços de aplicativos e o Experience Platform se encaixam em uma arquitetura de marketing corporativa.
 
 ## Arquitetura de marketing da Adobe Experience Cloud
 
 O diagrama a seguir ilustra os vários componentes da Adobe Experience Cloud em Públicos e insights de dados; Conteúdo e comércio, Jornadas do cliente; e Fluxo de trabalho de marketing, criados e integrados na base da Adobe Experience Platform.
 
-<img src="assets/AEC.jpg" alt="Visão geral da Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
+<img src="assets/AEC.png" alt="Visão geral da Experience Cloud" style="width:95%; border:1px solid #4a4a4a; margin-bottom: 15px;" class="modal-image" />
 
 
 ## Arquitetura de integração de dados e insights, conteúdo e comércio e entrega de experiência
