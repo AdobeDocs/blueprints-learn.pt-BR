@@ -1,23 +1,23 @@
 ---
-title: SDK da Web/Móvel [!DNL Edge Network] Diagrama da arquitetura de implantação
-description: Este blueprint mostra a arquitetura e a assimilação pelo SDK móvel e da Web do Experience Platform e  [!DNL Edge Network]
+title: Web/Mobile SDK, [!DNL Edge Network] Diagrama de arquitetura de implantação
+description: Este blueprint mostra a arquitetura e a assimilação pela Web e pelo Mobile SDK da Experience Platform e [!DNL Edge Network]
 solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 3cc9e849-a75d-40ad-a604-6acf4c2c9f89
-source-git-commit: 60a7785ea0ec4ee83fd9a1e843f0b84fc4cb1150
+source-git-commit: adddd4105afc68379116d8d7208160689ee52c1d
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
 
-# SDK da Web do Experience Platform e diagrama de arquitetura do [!DNL Edge Network]
+# Experience Platform Web SDK e diagrama de arquitetura [!DNL Edge Network]
 
-Para obter uma visão geral e detalhes sobre o SDK da Web e móvel e a API do servidor [!DNL Edge Network], consulte o seguinte.
+Para obter uma visão geral e detalhes sobre a Web e o Mobile SDK, e a API do Servidor [!DNL Edge Network], consulte o seguinte.
 
-* [Visão geral do SDK da Web](https://experienceleague.adobe.com/docs/web-sdk.html?lang=pt-BR)
+* [Visão geral do SDK da Web](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/deployment/websdk)
 * [Visão geral do SDK móvel](https://developer.adobe.com/client-sdks/documentation/)
 * [[!DNL Edge Network] API de servidor](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
 
@@ -32,7 +32,7 @@ Para obter detalhes relacionados à migração de SDKs específicos do aplicativ
 * [Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=pt-BR)
 * [Analytics for Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/a4t/overview.html?lang=pt-BR)
 
-## SDK Web/Móvel do Experience Platform ou implantação da API do Servidor [!DNL Edge Network]
+## Implantação do Experience Platform Web/Mobile SDK ou da API do [!DNL Edge Network] Server
 
 O diagrama de arquitetura abaixo ilustra a implantação e a coleção de dados utilizando o SDK da Web da Experience Platform.
 
