@@ -121,7 +121,7 @@ Esta consulta retorna o número de registros de pessoas que serão mesclados com
 >[!NOTE]
 >
 >A tabela do conjunto de dados marketo_person_ajo_b2b é usada para fornecer um exemplo completo de como trabalhar com o conjunto de dados Pessoa da Marketo.
->>Você pode encontrar o conjunto de dados da sua sandbox no espaço de trabalho [Conjuntos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide).
+>&#x200B;>Você pode encontrar o conjunto de dados da sua sandbox no espaço de trabalho [Conjuntos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide).
 
 ```sql
 select
