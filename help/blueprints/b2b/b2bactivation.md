@@ -4,7 +4,7 @@ description: Ofereça experiências do cliente centradas em perfil e públicos-a
 solution: Real-Time Customer Data Platform
 kt: 9311
 exl-id: 5215d077-b0a9-4417-ae9b-f4961d4a73fa
-source-git-commit: 70816df06ec2dff5c3a4a94a8be701cb25e6f783
+source-git-commit: 0509c5a8ce92c25040262130a5f583cdd7f08e59
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 52%
@@ -38,7 +38,7 @@ Use as informações de conta, oportunidade e lead vinculadas a um cliente indiv
 
 * Observe que as medidas de proteção e de implantação relacionadas ao Marketo Engage só são relevantes quando o Marketo Engage é usado como fonte e/ou destino.
 
-* Para obter detalhes adicionais e medidas de proteção para modelo de dados, tamanho e segmentação, consulte o [documento de medidas de proteção de implantação](../experience-platform/deployment/guardrails.md)
+* Para obter detalhes adicionais e medidas de proteção para modelo de dados, tamanho e segmentação, consulte o [documento de medidas de proteção de implantação](../experience-platform/guardrails.md)
 
 
 ### Suporte a várias instâncias e organizações IMS:
@@ -99,8 +99,8 @@ Se a implementação usar o Marketo Engage como uma origem e o Marketo Engage es
 ## Documentação relacionada
 
 * [Edição B2B da Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=pt-BR)
-* [Introdução ao Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [Medidas de proteção do Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [Introdução ao Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [Medidas de proteção do Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=pt-BR)
 * [Adobe Experience Platform – Conector de origem do Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=pt-BR)

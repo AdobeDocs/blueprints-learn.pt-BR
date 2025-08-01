@@ -3,7 +3,7 @@ title: Gestão de decisões no blueprint do Edge
 description: Forneça ofertas personalizadas aos consumidores em todos os canais, incluindo em experiências da Web e móveis em tempo real.
 solution: Experience Platform, Journey Optimizer
 exl-id: 31e5f624-5578-49e1-ab92-5cabd596a632
-source-git-commit: f6c4a0f39acdc177ac23c4314d2f50f793cbf270
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 68%
@@ -20,7 +20,7 @@ ht-degree: 68%
 
 [!DNL Decision Management] pode ser implantado de uma das duas formas. O primeiro é por meio do Hub [!DNL Experience Platform], que é uma arquitetura de data center única. Na abordagem de “hub”, as ofertas são executadas, personalizadas e entregues na latência de segundos. Por isso, a arquitetura de hub é mais adequada para uma experiência do cliente que não exige latência de subsegundo. Exemplos incluem definições de ofertas que são fornecidas para quiosques ou experiências assistidas por agentes, como em centrais de atendimento ou em interações pessoais.
 
-A segunda abordagem é por meio do Experience Platform [!DNL Edge Network], que é uma infraestrutura distribuída globalmente e localizada geograficamente para atender às rápidas experiências de subsegundos e milissegundos. A experiência do consumidor final sendo executada pela infraestrutura do Edge mais próxima à localização geográfica dos consumidores para minimizar a latência. O [!DNL Decision Management] no Edge foi projetado para servir experiências do consumidor em tempo real. Isso inclui experiências como solicitações de personalização de entrada da Web ou móvel.
+A segunda abordagem é por meio da Experience Platform [!DNL Edge Network], que é uma infraestrutura distribuída globalmente e localizada geograficamente para atender às rápidas experiências de subsegundos e milissegundos. A experiência do consumidor final sendo executada pela infraestrutura do Edge mais próxima à localização geográfica dos consumidores para minimizar a latência. O [!DNL Decision Management] no Edge foi projetado para servir experiências do consumidor em tempo real. Isso inclui experiências como solicitações de personalização de entrada da Web ou móvel.
 
 Esse blueprint abordará as especificidades da gestão de decisões na borda.
 
@@ -48,7 +48,7 @@ Para obter mais informações sobre a gestão de decisões no hub, consulte o bl
 
 * Para as medidas de proteção da gestão de decisões, consulte [Descrição do produto gestão de decisões](https://helpx.adobe.com/br/legal/product-descriptions/offer-decisioning-app-service.html).
 
-[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=pt-BR)
+[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Documentação relacionada
 

@@ -3,16 +3,16 @@ title: '[!DNL Journey Optimizer] - Mensagens acionadas e Blueprint do Adobe Expe
 description: Execute mensagens e experiências acionadas usando a Adobe Experience Platform como um hub central para dados de transmissão, perfis de clientes e segmentação.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: f8b9cc115739b53bba71d06b228dcce57df9dd7b
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 53%
+source-wordcount: '521'
+ht-degree: 50%
 
 ---
 
 # [!DNL Journey Optimizer] blueprints
 
-O Adobe [!DNL Journey Optimizer] é um sistema criado para que as equipes de marketing reajam em tempo real aos comportamentos dos clientes e os encontrem onde estiverem. Os recursos de gerenciamento de dados foram movidos para o Adobe [!DNL Experience Platform], permitindo que as equipes de marketing se concentrem no que fazem de melhor: criar jornadas de clientes de classe mundial e conversas personalizadas.
+O Adobe [!DNL Journey Optimizer] é um sistema criado especificamente para que as equipes de marketing reajam em tempo real aos comportamentos dos clientes e os encontrem onde estiverem. Os recursos de gerenciamento de dados foram movidos para o Adobe [!DNL Experience Platform], permitindo que as equipes de marketing se concentrem no que fazem de melhor: criar jornadas de clientes de classe mundial e conversas personalizadas.
 
 Este blueprint descreve os recursos técnicos do aplicativo e fornece um aprofundamento sobre os vários componentes de arquitetura que compõem o [!DNL Journey Optimizer].
 
@@ -33,7 +33,7 @@ Este blueprint descreve os recursos técnicos do aplicativo e fornece um aprofun
 
 | Cenário | Descrição | Recursos |
 | :-- | :--- | :--- |
-| [Mensagens de terceiros](3rd-party-messaging.md) | Demonstra como o Adobe [!DNL Journey Optimizer] pode ser utilizado com sistemas de mensagens de terceiros para orquestrar e enviar comunicações personalizadas | Entrega imediata de comunicações individualizadas e personalizadas para os clientes enquanto eles interagem com sua marca ou empresa<br><br>Considerações:<br><ul><li>O sistema de terceiros deve suportar tokens de portador para autenticação</li><li>Devido à arquitetura de vários locatários, não é compatível com IPs estáticos</li><li>Esteja ciente das restrições de arquitetura ao sistema de terceiros em matéria de chamadas de API por segundo.  Pode ser necessário que o cliente compre volume adicional do fornecedor terceirizado para dar suporte ao volume proveniente de [!DNL Journey Optimizer]</li><li>Não é compatível com a gestão de decisões em mensagens ou cargas</li></ul> |
+| [Mensagens de terceiros](3rd-party-messaging.md) | Demonstra como o Adobe [!DNL Journey Optimizer] pode ser utilizado com sistemas de mensagens de terceiros para orquestrar e enviar comunicações personalizadas | Forneça 1:1 comunicações personalizadas no momento para os clientes à medida que eles interagem com sua marca ou empresa<br><br>Considerações:<br><ul><li>O sistema de terceiros deve suportar tokens de portador para autenticação</li><li>Devido à arquitetura de vários locatários, não é compatível com IPs estáticos</li><li>Esteja ciente das restrições de arquitetura ao sistema de terceiros em matéria de chamadas de API por segundo.  Pode ser necessário que o cliente compre volume adicional do fornecedor terceirizado para dar suporte ao volume proveniente de [!DNL Journey Optimizer]</li><li>Não é compatível com a gestão de decisões em mensagens ou cargas</li></ul> |
 
 <br>
 
@@ -41,7 +41,7 @@ Este blueprint descreve os recursos técnicos do aplicativo e fornece um aprofun
 
 | Integração | Descrição | Recursos |
 | :-- | :--- | :--- |
-| [[!DNL Journey Optimizer] com Adobe Campaign](ajo-and-campaign.md) | Mostra como você pode usar o Adobe [!DNL Journey Optimizer] para orquestrar experiências 1:1 utilizando o Perfil de Cliente em Tempo Real e o sistema de mensagens transacionais nativo do Adobe Campaign para enviar a mensagem | Aproveite o Perfil do Cliente em Tempo Real e o poder do [!DNL Journey Optimizer] para orquestrar experiências de momento, utilizando os recursos nativos de mensagens em tempo real do Adobe Campaign para fazer a comunicação da última milha<br><br>Considerações:<br><ul><li>O aplicativo do Campaign deve ser build v7 superior a 21.1 ou v8</li><li>Taxa de transferência de mensagens</li><ul><li>Campaign v7 - até 50 mil por hora</li><li>Campaign v8 - até 1 milhão por hora</li><li>Campaign Standard - até 50 mil por hora</li></ul><li>Como não é feita nenhuma regulagem, os casos de uso precisam da avaliação técnica de um arquiteto empresarial</li><li>Não há suporte para a utilização da gestão de decisões em mensagem enviada pelo Campaign</li></ul> |
+| [[!DNL Journey Optimizer] com Adobe Campaign](ajo-and-campaign.md) | Mostra como você pode usar o Adobe [!DNL Journey Optimizer] para orquestrar 1:1 experiências utilizando o Perfil de Cliente em Tempo Real e aproveitar o sistema de mensagens transacionais nativo do Adobe Campaign para enviar a mensagem | Aproveite o Perfil do Cliente em Tempo Real e o poder do [!DNL Journey Optimizer] para orquestrar experiências de momento, utilizando os recursos nativos de mensagens em tempo real do Adobe Campaign para fazer a comunicação da última milha<br><br>Considerações:<br><ul><li>O aplicativo do Campaign deve ser build v7 superior a 21.1 ou v8</li><li>Taxa de transferência de mensagens</li><ul><li>Campaign v7 - até 50 mil por hora</li><li>Campaign v8 - até 1 milhão por hora</li><li>Campaign Standard - até 50 mil por hora</li></ul><li>Como não é feita nenhuma regulagem, os casos de uso precisam da avaliação técnica de um arquiteto empresarial</li><li>Não há suporte para a utilização da gestão de decisões em mensagem enviada pelo Campaign</li></ul> |
 
 <br>
 
@@ -66,9 +66,9 @@ Push para dispositivo móvel:
 
 ## Medidas de proteção
 
-[[!DNL Journey Optimizer] Link de Produto de Medidas de Proteção](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/guardrails)
+[[!DNL Journey Optimizer] Link de Produto de Medidas de Proteção](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
-[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=pt-BR)
+[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 ## Documentação relacionada
 

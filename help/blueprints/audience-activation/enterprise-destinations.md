@@ -4,7 +4,7 @@ description: Ativação de público-alvo e perfil para destinos corporativos
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 80%
@@ -29,8 +29,8 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Documentação relacionada
 
-Detalhes adicionais sobre a configuração do armazenamento na nuvem e destinos corporativos podem ser encontrados na [Documentação de Destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Detalhes adicionais sobre a configuração do armazenamento na nuvem e destinos corporativos podem ser encontrados na [Documentação de Destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Medidas de proteção
 
-[Consulte as medidas de proteção conforme descrito na página de medidas de proteção.](../experience-platform/deployment/guardrails.md)
+[Consulte as medidas de proteção conforme descrito na página de medidas de proteção.](../experience-platform/guardrails.md)

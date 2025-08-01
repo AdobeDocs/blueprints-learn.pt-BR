@@ -3,7 +3,7 @@ title: Blueprint de marketing baseado em grupo e de gerenciamento de Jornadas
 description: Saiba como idealizar, projetar e criar uma jornada que qualifique clientes potenciais para um grupo de compra no Adobe Journey Optimizer B2B edition.
 solution: Journey Optimizer B2B Edition
 exl-id: 0a9da49c-f13a-4f2a-8407-277def2db591
-source-git-commit: b777ea5c301fb1fac39bc243b09a02a2f411f40e
+source-git-commit: 75a0f2a77f39a4320dc4c4b0db918879be099dd3
 workflow-type: tm+mt
 source-wordcount: '2118'
 ht-degree: 0%
@@ -42,11 +42,11 @@ Os seguintes KPIs estão bem alinhados à medição do sucesso de casos de uso:
 
 Um caso de uso comum, e o foco neste blueprint, é uma iniciativa de marketing baseada em conta. Este caso de uso explora o ponto em que seu grupo de compras criado é preenchido com um cliente potencial quando ele está associado a uma função e interesse de solução.
 
-Ao conduzir um indivíduo por meio da jornada, você coleta mais informações sobre o cliente potencial (Fluxo de trabalho do grupo de compra), por meio de formulários, Sincronização de CRM e ativação do LinkedIn.
+Ao conduzir um indivíduo por meio da jornada, você coleta mais informações sobre o lead (Fluxo de trabalho do grupo de compra), por meio de formulários, Sincronização de CRM e ativação do LinkedIn.
 
 Quando um cliente potencial demonstra claramente o interesse pela solução, isso indica um evento comercial definido por uma perspectiva comercial. Neste ponto, a empresa está confiante de que este cliente potencial está realmente interessado em um produto. No Journey Optimizer B2B edition, o cliente potencial está associado a um grupo de compras para essa solução em um modelo de funções (como influenciadores, tomadores de decisão, campeões e patrocinadores).
 
-Como o diagrama a seguir ilustra, você pode coletar detalhes em formulários ou por meio da ativação do LinkedIn e qualificar um propósito de solução quando ocorrer a interação com um bot de chat.
+Como o diagrama a seguir ilustra, você pode coletar detalhes em formulários ou por meio da ativação do LinkedIn e qualificar uma intenção de solução quando ocorrer a interação com um bot de chat.
 
 ![jornada do grupo de compras](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
 
@@ -67,12 +67,12 @@ A solução focada em conta requer os seguintes aplicativos e serviços:
 >[!NOTE]
 >
 >O licenciamento do Journey Optimizer B2B edition deve incluir os seguintes itens:
-><ul><li>Instância do Journey Optimizer B2B edition conectada ao Experience Platform B2B</li><li>Instância de Marketo Engage que está sincronizada com RTCDP</li></ul>
->&gt;<br/>
->&gt;Para clientes de Marketo Engage existentes, a conexão com a instância existente é a abordagem recomendada.
->&gt;<br/><br/>
->&gt;Há extensões adicionais disponíveis para a solução melhorar a riqueza do perfil:
->&gt;<ul><li>Fontes adicionais para RTCDP para enriquecer o perfil</li><li>Destino RTCDP para Marketo Engage</li></ul>
+><ul><li>Instância do Journey Optimizer B2B edition conectada ao Experience Platform B2B</li><li>Instância do Marketo Engage sincronizada com o RTCDP</li></ul>
+&gt;<br/>
+&gt;Para clientes atuais do Marketo Engage, a conexão com a instância existente é a abordagem recomendada.
+&gt;<br/><br/>
+&gt;Há extensões adicionais disponíveis para a solução melhorar a riqueza do perfil:
+&gt;<ul><li>Fontes adicionais para o RTCDP enriquecer o perfil</li><li>Destino do RTCDP para o Marketo Engage</li></ul>
 
 A implementação desta solução também requer uma compreensão clara do conceito de _Conta_ e _Grupo de compras_, e como eles amplificam e aceleram sua qualificação de vendas potenciais. Com essa compreensão, você também deve identificar a pontuação desejada da integridade do grupo de compras.
 
@@ -82,11 +82,11 @@ A implementação desta solução também requer uma compreensão clara do conce
 
 ### Esquema de dados
 
-Com qualquer implementação da automação de marketing orientada por dados, o design de esquemas é crucial para o sucesso da implementação. Antes de projetar seu esquema, revise os [namespaces B2B e esquemas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) e compreenda o utilitário de geração automática que está disponível para gerar um novo esquema em um novo cenário de implementação.
+Com qualquer implementação da automação de marketing orientada por dados, o design de esquemas é crucial para o sucesso da implementação. Antes de projetar seu esquema, revise os [namespaces B2B e esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces) e compreenda o utilitário de geração automática que está disponível para gerar um novo esquema em um novo cenário de implementação.
 
 Os esquemas são enriquecidos especificamente com elementos de dados B2B para oferecer suporte à relação avançada em perfis e incluir a perspectiva da conta por meio do `sourceKey` para vincular eventos e perfis ao esquema da conta. Os esquemas são uma representação dos requisitos organizacionais e dos dados coletados e analisados. Para atender a essas necessidades, os esquemas B2B são flexíveis e são uma extensão dos elementos B2B necessários.
 
-Ao projetar o schema de dados para sua organização, é uma prática recomendada representar e rotular as principais entidades em seu ERD com as entidades de alto nível. (Consulte o primeiro diagrama na [documentação do esquema B2B da RTCDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b)). Esse processo é muito útil para entender os elementos de dados necessários que você precisa definir em cada esquema.
+Ao projetar o schema de dados para sua organização, é uma prática recomendada representar e rotular as principais entidades em seu ERD com as entidades de alto nível. (Consulte o primeiro diagrama na [documentação do esquema B2B do RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b)). Esse processo é muito útil para entender os elementos de dados necessários que você precisa definir em cada esquema.
 
 Nesse estágio, os Eventos de experiência ainda não podem influenciar jornadas. Além dos esquemas de Evento de experiência, é recomendável adicionar propriedades à conta que representam decisões importantes com base nas atividades do usuário. Essas propriedades são usadas para elementos de caminho dividido no designer de jornadas.
 
@@ -94,28 +94,28 @@ Nesse estágio, os Eventos de experiência ainda não podem influenciar jornadas
 >
 >Atualmente, a única relação com suporte pelo Journey Optimizer B2B edition é a relação direta através do atributo `personComponents[0].sourceAccountKey.sourceKey` na entidade `Person`. A expansão futura está planejada para acomodar o objeto de relação conta-pessoa no esquema B2b.
 
-### conector de origem do Marketo Engage
+### Conector de origem do Marketo Engage
 
-Para enriquecer os elementos de dados da conta, você pode usar o Marketo Engage e seus dados B2B para enriquecer a visualização de conta do RTCDP e do Journey Optimizer B2B edition. A configuração do Conector Marketo Engage Source e o mapeamento de dados de Marketo Engage para atributos de esquema RTCDP permitem que os dados fluam do Marketo Engage para o RTCDP e, se designados, para o perfil.
+Para enriquecer os elementos de dados da conta, você pode usar o Marketo Engage e seus dados B2B para enriquecer a visualização de conta do RTCDP e do Journey Optimizer B2B edition. Configurar o Marketo Engage Source Connector e mapear dados do Marketo Engage para atributos de esquema do RTCDP permite que os dados fluam do Marketo Engage para o RTCDP e, se designados, para o perfil.
 
-Para obter informações detalhadas sobre a configuração do conector e o mapeamento de campo necessário para o esquema, consulte a [documentação do conector Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
+Para obter informações detalhadas sobre a configuração do conector e o mapeamento de campo necessário para o esquema, consulte a [documentação do conector do Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
 
 ### Medidas de proteção
 
-As medidas de proteção do Journey Optimizer B2B edition estão detalhadas na [página Descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html).
+As medidas de proteção do Journey Optimizer B2B edition estão detalhadas na [página Descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html).
 
 Medidas de proteção relacionadas à implementação
 
-* Todas as medidas de proteção do Público-alvo B2B estão descritas no [blueprint do Público-alvo B2B e da Ativação de perfil](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails) e foram transpostas diretamente para o sucesso do Journey Optimizer B2B edition.
-* Se a ativação for necessária por meio de canais Marketo Engage na jornada da conta ou quando a Sincronização do CRM for usada para enriquecer a conta, as [medidas de proteção relacionadas a Marketo Engage](https://helpx.adobe.com/br/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails) serão relevantes.
+* Todas as medidas de proteção do Público-alvo B2B estão descritas no [blueprint do Público-alvo B2B e da Ativação de perfil](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2bactivation) e foram transpostas diretamente para o sucesso do Journey Optimizer B2B edition.
+* Se a ativação for necessária por meio dos canais da Marketo Engage na jornada da conta ou se a Sincronização do CRM for usada para enriquecer a conta, as [medidas de proteção relacionadas ao Marketo Engage](https://helpx.adobe.com/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails) serão relevantes.
 
-Revise a [documentação das Medidas de Proteção da Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/guardrails/overview) para obter detalhes adicionais sobre as Medidas de Proteção da RTCDP.
+Revise a [documentação das Medidas de Proteção do Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) para obter detalhes adicionais sobre as Medidas de Proteção do RTCDP.
 
 ### Provisão
 
 * Todas as instâncias devem estar na mesma organização IMS.
-* Somente uma instância do Journey Optimizer B2B edition pode ser vinculada a uma sandbox Experience Platform.
-* É altamente recomendável implementar o [Marketo Source Connector para Real-time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
+* Somente uma instância do Journey Optimizer B2B edition pode ser vinculada a uma sandbox da Experience Platform.
+* É altamente recomendável implementar o [Marketo Source Connector para a Plataforma de Dados do Cliente em Tempo Real](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo).
 
 ## Implementação
 
@@ -125,58 +125,58 @@ As etapas a seguir fornecem orientação para habilitar grupos de compra em sua 
 
 1. Defina o esquema XDM que representará sua visualização de negócios de Contas e Clientes potenciais.
 
-   Como primeira etapa, você define e cria um esquema de experiência projetado para atender às necessidades do caso de uso B2B e abranger as fontes de dados, tanto em lote quanto em tempo real. Esse design deve representar a maneira como a empresa está pensando nas entidades de conta e pessoa e nos casos de uso que você deseja suportar. Para que o esquema seja um esquema B2B, o esquema deve seguir as estruturas disponíveis na [documentação do Esquema B2B RTCDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b).
+   Como primeira etapa, você define e cria um esquema de experiência projetado para atender às necessidades do caso de uso B2B e abranger as fontes de dados, tanto em lote quanto em tempo real. Esse design deve representar a maneira como a empresa está pensando nas entidades de conta e pessoa e nos casos de uso que você deseja suportar. Para que o esquema seja um esquema B2B, o esquema deve seguir as estruturas disponíveis na [documentação do Esquema B2B do RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
-   Uma prática útil é pegar os nomes das entidades do diagrama e identificá-las no esquema rotulando-as da mesma maneira. Observe que alguns esquemas exigem chaves específicas, como `sourceKey`, para funcionar no B2B da RTCDP. A curto prazo, a relação _Muitos para Muitos_ entre conta e pessoa por meio do Relacionamento Conta-Pessoa não é compatível com o Journey Optimizer B2B. Use os scripts do acelerador para o melhor ponto de partida:
+   Uma prática útil é pegar os nomes das entidades do diagrama e identificá-las no esquema rotulando-as da mesma maneira. Observe que alguns esquemas exigem chaves específicas, como `sourceKey`, para funcionar no RTCDP B2B. A curto prazo, a relação _Muitos para Muitos_ entre conta e pessoa por meio do Relacionamento Conta-Pessoa não é compatível com o Journey Optimizer B2B. Use os scripts do acelerador para o melhor ponto de partida:
 
-   * Use o [script de criação de esquema B2B RTCDP](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) para gerar o esquema inicial
+   * Use o [script de criação de esquema B2B do RTCDP](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) para gerar o esquema inicial
    * Adicione campos específicos do caso de uso aos esquemas gerados para concluir o esquema de acordo com a necessidade da organização.
 
-   Nesse estágio, você tem a conexão entre o Marketo Engage e a RTCDP, e a estrutura do esquema para aceitar os dados da conta e da pessoa para preencher os conjuntos de dados dos Segmentos da conta está definida. A próxima etapa é conectar a RTCDP com o Marketo Engage e o Journey Optimizer B2B edition.
+   Nesse estágio, você tem a conexão entre o Marketo Engage e o RTCDP e a estrutura do esquema para aceitar que os dados da conta e da pessoa preencham os conjuntos de dados para os Segmentos da conta está definida. A próxima etapa é conectar o RTCDP com o Marketo Engage e o Journey Optimizer B2B edition.
 
-1. Configure o conector Marketo Engage, incluindo o mapeamento de Marketo Engage para a estrutura XDM.
+1. Configure o conector do Marketo Engage, incluindo o mapeamento do Marketo Engage para a estrutura XDM.
 
-   Com a estrutura XDM e os campos em vigor, prossiga para conectar o Marketo Engage à RTCDP usando o conector, que alimenta os conjuntos de dados com dados do Marketo Engage e do Journey Optimizer B2B. Comece organizando o mapeamento dos campos das classes Marketo Engage para RTCDP. Use as informações na [documentação do conector](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo#field-mapping-from-marketo-engage-to-xdm) para identificar os campos que você deseja incluir da implementação do Marketo Engage.
+   Com a estrutura XDM e os campos em vigor, prossiga para conectar o Marketo Engage ao RTCDP usando o conector, que alimenta os conjuntos de dados com dados do Marketo Engage e do Journey Optimizer B2B. Comece organizando o mapeamento dos campos das classes Marketo Engage para RTCDP. Use as informações na [documentação do conector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo#field-mapping-from-marketo-engage-to-xdm) para identificar os campos que você deseja incluir na implementação do Marketo Engage.
 
 ### Configuração do grupo de compra
 
-1. Crie públicos-alvo de conta no Journey Optimizer B2B edition ou RTCDP.
+1. Crie públicos-alvo de conta no Journey Optimizer B2B edition ou no RTCDP.
 
    Ative a opção Scheduling all audiences na página Customer → Audiences → Browse para ativar os públicos-alvo da conta. (Nos casos em que isso não funciona, é necessário criar um segmento de Perfil do cliente para permitir a criação de Públicos-alvo de conta.)
 
-   Para criar um segmento, siga as etapas da [documentação de públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). O uso do Construtor de segmentos com os campos de dados que você identificou como chave para o Público-alvo da conta seria a atividade principal na definição do Público-alvo.
+   Para criar um segmento, siga as etapas da [documentação de públicos-alvo da conta](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/account-audience-overview). O uso do Construtor de segmentos com os campos de dados que você identificou como chave para o Público-alvo da conta seria a atividade principal na definição do Público-alvo.
 
-   Nesse estágio, você sabe que os leads da conta para o foco por meio da RTCDP e para o uso dos blocos de construção do grupo de compras.
+   Nesse estágio, você sabe que os leads da conta para o foco por meio do RTCDP e para o uso nos blocos de construção do grupo de compras.
 
 1. Defina o modelo de funções.
 
    Em cada grupo de compras, identifique as funções que representam a função que os indivíduos desempenham no grupo que você deseja endereçar. Por exemplo, você pode usar o _tomador de decisão_, _influenciador_ e _campeão_. Defina também o peso e as condições dessa função no grupo de compras.
 
-   A [documentação dos modelos de funções](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates) descreve esse processo e como definir condições especiais.
+   A [documentação dos modelos de funções](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates) descreve esse processo e como definir condições especiais.
 
 1. Defina o interesse da solução.
 
    Um interesse de solução é uma maneira de indicar o foco dos grupos de compra para suas atividades e estratégia de marketing.
 
-   Para definir um interesse de solução, siga as etapas da [documentação sobre interesses de solução](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/solution-interests). Lembre-se de que você o usa para corresponder o grupo de compras a uma iniciativa de vendas na organização.
+   Para definir um interesse de solução, siga as etapas da [documentação sobre interesses de solução](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests). Lembre-se de que você o usa para corresponder o grupo de compras a uma iniciativa de vendas na organização.
 
 1. Configurar o grupo de compras.
 
    Com os blocos de construção do grupo de compras prontos, configure o grupo de compras para o interesse da solução e o público-alvo da conta com um público-alvo para concluir o modelo de funções com os membros certos da conta. Com essa configuração, atribua um interesse de solução ao modelo de funções identificado e atribua a cada função um peso no sucesso de vendas desse produto específico.
 
-   Para criar o grupo de compras, siga as etapas da [documentação sobre grupos de compras](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create).
+   Para criar o grupo de compras, siga as etapas da [documentação sobre grupos de compras](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create).
 
-   Neste estágio, você está pronto para [criar uma jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/account-journeys/journey-overview#get-started-with-a-journey) e começar a trabalhar com o Público da Conta para criar o grupo de compras e qualificá-lo para os interesses da solução.
+   Neste estágio, você está pronto para [criar uma jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview#get-started-with-a-journey) e começar a trabalhar com o Público da Conta para criar o grupo de compras e qualificá-lo para os interesses da solução.
 
-### Ativação de público
+### Ativação de público-alvo
 
 Aumente a integridade do grupo de compras por meio da ativação de público-alvo.
 
-1. Defina um Público-alvo da conta correspondente do anúncio do LinkedIn.
+1. Defina um público-alvo de conta correspondente do anúncio no LinkedIn.
 
-   Além das atividades de preenchimento de email e formulário, o Journey Optimizer B2B edition oferece um recurso de anúncio do LinkedIn para aumentar a abrangência de sua conta e apoiar o esforço para concluir um grupo de compras por meio da expansão da extensão de leads de conta e do aumento do alcance de suas atividades de marketing.
+   Além das atividades de preenchimento de email e formulário, o Journey Optimizer B2B edition oferece um recurso de anúncio no LinkedIn para aumentar a amplitude da sua conta e apoiar o esforço para concluir um grupo de compras através da expansão dos leads de conta e do aumento do alcance das suas atividades de marketing.
 
-   Para usar a mídia paga da LinkedIn para se comunicar com contas em que os grupos de compra não estão suficientemente concluídos ou envolvidos, expanda ou interaja com o Público-alvo da conta, use o [recurso Públicos-alvo correspondentes da conta da LinkedIn](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences) para gerar públicos-alvo de anúncio da LinkedIn por meio de Públicos-alvo correspondentes da conta.
+   Para usar a mídia paga do LinkedIn para se comunicar com as contas em que os grupos de compras não estão suficientemente concluídos ou envolvidos, expanda ou envolva-se com o Público-alvo da conta, use o [recurso Públicos-alvo correspondentes da conta do LinkedIn](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences) para gerar públicos-alvo de anúncios do LinkedIn por meio de Públicos-alvo correspondentes da conta.
 
 1. Ativar o público-alvo para grupos de compra.
 
@@ -185,4 +185,4 @@ Aumente a integridade do grupo de compras por meio da ativação de público-alv
 >Algumas dicas para campanhas bem-sucedidas:
 >
 >* Uma campanha deve ter filtros de função para ajustar grupos de compra com funções ausentes para aumentar o ROI.
->* Para capturar clientes potenciais, direcione clientes potenciais para preencher formulários (formulários LinkedIn ou Marketo Engage) e redirecione os erros de formulário.
+>* Para capturar leads, leads diretos para preencher formulários (formulários do LinkedIn ou do Marketo Engage) e redirecionar os erros do formulário.
