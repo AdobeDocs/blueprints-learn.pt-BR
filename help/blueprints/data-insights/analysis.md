@@ -16,7 +16,7 @@ ht-degree: 50%
 
 A análise e a inteligência de dados incluem a capacidade em [!DNL Experience Platform] de realizar uma consulta exploratória e uma análise dos dados existentes no data lake.
 
-O [!DNL Experience Platform]Serviço de consulta[!UICONTROL  de ] permite que consultas SQL sejam executadas nos dados.
+O [!DNL Experience Platform]Serviço de consulta[!UICONTROL &#x200B; de &#x200B;] permite que consultas SQL sejam executadas nos dados.
 
 O [!DNL Experience Platform] permite conexões com clientes SQL, interfaces e ferramentas Business Intelligence (BI) de terceiros para se conectar diretamente, acessar e consultar os dados em [!DNL Experience Platform], usando o protocolo [!DNL PostgreSQL].
 
