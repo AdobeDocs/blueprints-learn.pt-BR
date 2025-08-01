@@ -43,7 +43,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com o Adobe Campaign par
 
 ## Medidas de proteção
 
-[Link do produto de medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+[Link do produto de medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/guardrails)
 
 [Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 

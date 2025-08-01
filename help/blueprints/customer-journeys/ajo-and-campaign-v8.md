@@ -40,7 +40,7 @@ Revise os seguintes pré-requisitos para cada aplicativo.
 
 ## Medidas de proteção
 
-* [Limitações do produto Journey Optimizer Guardrails](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+* [Limitações do produto Journey Optimizer Guardrails](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/guardrails)
 
 * [Medidas de proteção e orientação de latência de ponta a ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
