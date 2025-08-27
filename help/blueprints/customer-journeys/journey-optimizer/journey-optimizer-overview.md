@@ -3,9 +3,9 @@ title: '[!DNL Journey Optimizer] - Blueprint do Jornada'
 description: Execute mensagens e experiências acionadas usando a Adobe Experience Platform como um hub central para dados de transmissão, perfis de clientes e segmentação.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: e96b48e55c0fe2f48dc83f48ad41f5b686ec8dc1
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '640'
 ht-degree: 15%
 
 ---
@@ -21,7 +21,7 @@ Este blueprint descreve os recursos técnicos do aplicativo e fornece um aprofun
 ## Casos de uso
 
 >[!BEGINTABS]
->[!TAB Jornada Casos De Uso (Controlado Por Eventos, Em Tempo Real)]
+>[!TAB Jornada (Controlado por Eventos, Em Tempo Real)]
 
 - **Recuperação de abandono:** acione mensagens personalizadas quando um usuário abandonar um carrinho, formulário ou sessão, por email, push ou no aplicativo.
 - **Inscrição de novo usuário:** envolva novos usuários imediatamente após eles se registrarem com novas preferências de conta, promoções relevantes ou benefícios
@@ -29,7 +29,7 @@ Este blueprint descreve os recursos técnicos do aplicativo e fornece um aprofun
 - **Direcionamento contextual:** comunique-se com os usuários no momento com base em seus sinais e localização para ajudar a orientar e direcionar sua experiência
 - **Venda adicional/venda cruzada contextual:** forneça ofertas personalizadas com base em atributos de perfil em tempo real e interações recentes.
 
->[!TAB Casos De Uso Da Orquestração De Campanha (Agendados, Iniciados Por Marca)]
+>[!TAB Orquestração De Campanha (Agendada, Iniciada Por Marca)]
 
 - **Campanhas promocionais**: inicie campanhas multicanais em várias etapas para lançamentos de produtos, ofertas sazonais ou eventos de vendas.
 - **Lifecycle Marketing**: automatize campanhas recorrentes, como mensagens de aniversário, lembretes de renovação ou marcos de fidelidade.
@@ -94,12 +94,12 @@ Push para dispositivo móvel:
 
 [[!DNL Journey Optimizer] Link de Produto de Medidas de Proteção](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=pt-BR)
+[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Documentação relacionada
 
 - [[!DNL Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 - [[!DNL Experience Platform] Documentação de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR)
-- [[!DNL Experience Platform Mobile SDK] documentação](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)
-- [[!DNL Journey Optimizer] documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=pt-BR)
+- [[!DNL Experience Platform Mobile SDK] documentação](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)
