@@ -1,27 +1,39 @@
 ---
 title: Planos de jornada do cliente
-description: Proporcione experiências do cliente individuais e oportunas em todos os canais.
+description: Ofereça experiências individuais, just-in-time e orquestradas ao cliente em todas as telas.
 solution: Journey Optimizer, Campaign, Experience Platform
 exl-id: 273d024f-a220-4336-89f2-e3bffafcdc37
-source-git-commit: 1d10727899aaae6b8cd339ce10d2a520c73bdaa2
+source-git-commit: 8ee7fe8d38343a669f5ad57e69367fbe6a3e1024
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 67%
+source-wordcount: '221'
+ht-degree: 13%
 
 ---
 
-# Planos de jornada do cliente
+# Blueprints de Jornada do cliente
 
-As Jornadas do cliente abordam a capacidade das marcas de se engajarem e se comunicarem de forma proativa com seus clientes por meio de canais como email, SMS e alertas em dispositivos móveis.
+As equipes de marketing modernas exigem plataformas que possam oferecer suporte ao engajamento reativo — respondendo aos comportamentos individuais dos clientes — e alcance pró-ativo — iniciando campanhas que orientam os públicos-alvo para funis de conversão. Esses casos de uso abrangem canais como email, SMS, push e, cada vez mais, experiências na Web e no aplicativo.
 
-As ferramentas de orquestração também podem ser integradas a outros canais de interação, como canais de entrada para personalização da Web e móvel. Isso é feito ao compartilhar o estado do público-alvo com os mecanismos de decisão específicos dos outros canais. Vários fatores determinam quais aplicativos e opções de implantação devem ser usados para as Jornadas do cliente, mas podem ser resumidos em duas abordagens diferentes: reagir a um cliente durante o engajamento (acionado) OU reagir a um grupo de clientes durante o engajamento (programado).
+A Adobe Journey Optimizer e o Adobe Campaign v8 oferecem suporte a dois modelos fundamentais de engajamento do cliente:
 
-Atualmente, existem duas opções para os clientes escolherem no Adobe quando desejam uma solução de Jornada do cliente:
+- Jornadas acionadas pelo cliente: orquestração em tempo real, orientada por eventos, com base em comportamentos e sinais individuais.
+- Campanhas iniciadas pela marca: envios programados estrategicamente que introduzem públicos em funis de envolvimento com base na segmentação ou lógica de negócios.
 
-<ul><li>Adobe [!DNL Campaign] Managed Cloud Services</li><li>Adobe Journey Optimizer</li></ul>
+Ambas as soluções permitem a comunicação de saída em canais tradicionais e digitais. Além disso, o AJO oferece suporte à integração com canais de entrada (por exemplo, aplicativos da web e móveis) por meio de serviços de compartilhamento de estado de público-alvo e de decisão, permitindo a personalização unificada entre canais.
+
+A seleção dessas ferramentas depende de considerações de arquitetura, como tolerância à latência, requisitos de canal, estratégia de integração de dados e escalabilidade.
+
+<br>
 
 | Blueprint | Descrição | Arquitetura |
-|---|---|---|
-| **[Journey Optimizer](journey-optimizer.md)** | Criada nativamente sobre o Perfil de cliente em tempo real do [!DNL Experience Platforms], permitindo que as equipes de marketing reajam em tempo real às mudanças de comportamento do cliente e as encontrem onde estão em qualquer canal a qualquer momento | <img src="assets/ajo-architecture.svg" alt="Blueprint de arquitetura de referência para o Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v8](campaign-v8.md)** | Ferramenta de última geração para o desenvolvimento de campanhas, otimizada para processos de campanha e de gerenciamento de dados de alta complexidade. Permite que os clientes combinem, descubram e criem comunicações sofisticadas para campanhas de marketing | <img src="assets/campaign-v8-architecture.svg" alt="Blueprint de arquitetura de referência para o Campaign v8" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
-| **[Adobe [!DNL Campaign] v7](campaign-v7.md)** | Ferramenta tradicional para o desenvolvimento de campanhas, criada com foco em campanhas de marketing em lote para diversos canais, como email, SMS e correspondência direta. Permite que os clientes orquestrem e gerenciem as diversas comunicações de clientes em um único lugar | <img src="assets/campaign-v7-architecture.svg" alt="Blueprint de arquitetura de referência para o Campaign v7" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+|---|---|:---:|
+| **[Adobe Journey Optimizer](journey-optimizer/journey-optimizer-overview.md)** | Combina orquestração de perfis 1:1 orientada por eventos, com comunicações de marca baseadas em público-alvo em vários canais, como email, sms, Web, push, mensagens no aplicativo, desktop etc. | <img src="journey-optimizer/images/ajo-architecture.svg" alt="Blueprint de arquitetura de referência para o Journey Optimizer" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+| **[Adobe [!DNL Campaign] v8](campaign-v8/campaign-v8-overview.md)** | Foco no gerenciamento de campanhas multicanal em lote, ideal para canais de marketing tradicionais como email, SMS e correspondência direta. | <img src="campaign-v8/images/campaign-v8-architecture.svg" alt="Blueprint de arquitetura de referência para o Campaign v8" style="width:75%; border:1px solid #4a4a4a" class="modal-image" /> |
+
+<br>
+
+## Blueprints obsoletos
+
+| Blueprint | Arquitetura |
+|---|:---:|
+| **[Adobe [!DNL Campaign] v7](campaign-v7/campaign-v7-overview.md)** | <img src="campaign-v7/images/campaign-v7-architecture.svg" alt="Blueprint de arquitetura de referência para o Campaign v7" style="width:50%; border:1px solid #4a4a4a" class="modal-image" /> |

@@ -3,7 +3,7 @@ title: Blueprints de experiência digital
 description: Os Blueprints de experiência digital são implantações replicáveis que atendem a estratégias e resolvem problemas empresariais consagrados. Eles aceleram o tempo de retorno do investimento e fornecem um caminho mais rápido para o sucesso.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 5b1df5d6fb0da7de2054366cead10e549e650633
+source-git-commit: 003e8ebf32150cf6527ed588ff05f22ea8cfb209
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 24%
@@ -39,11 +39,11 @@ Os blueprints de experiência digital fornecem diagramas de arquitetura de fluxo
     </div>
   </td>
   <td>
-    <a href="customer-journeys/journey-optimizer.md">
-      <img alt="Diagrama de visão geral do Journey Optimizer" src="customer-journeys/assets/ajo-architecture.svg" />
+    <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
+      <img alt="Diagrama de visão geral do Journey Optimizer" src="customer-journeys/journey-optimizer/images/ajo-architecture.svg" />
     </a>
     <div>
-      <a href="customer-journeys/journey-optimizer.md">
+      <a href="customer-journeys/journey-optimizer/journey-optimizer-overview.md">
     <strong>Diagrama de Visão Geral do Adobe Journey Optimizer</strong>
     </a>
     </div>
