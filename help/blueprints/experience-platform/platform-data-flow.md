@@ -22,4 +22,4 @@ O diagrama abaixo ilustra os vários caminhos para a assimilação e saída de d
 
 ## Padrões de entrada e saída de dados
 
-Para obter uma lista detalhada de todos os padrões de assimilação, coleção, ingresso e saída, consulte a [Documentação de assimilação de dados](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home).
+Para obter uma lista detalhada de todos os padrões de assimilação, coleção, ingresso e saída, consulte a [Documentação de assimilação de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/collection/home).
