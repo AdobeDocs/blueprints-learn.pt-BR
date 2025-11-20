@@ -10,7 +10,7 @@ exl-id: 29667c0e-bb79-432e-af3a-45bd0b3b43bb
 source-git-commit: b634e14af3ea60e0f4cc9e84a0ef896df293a8c7
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 29%
 
 ### Documentação de referência
 
-* [Conexão do Adobe Target com a Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR)
+* [Conexão do Adobe Target com a Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Configuração da sequência de dados de borda](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=pt-BR)
 
 ## Padrões de integração
@@ -71,7 +71,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 
 Usar SDKs tradicionais específicos para aplicativos (por exemplo, AT.js e AppMeasurement.js). A avaliação de segmento de borda em tempo real não é compatível com essa abordagem de implantação. No entanto, o compartilhamento de público-alvo de lote e streaming do hub da Experience Platform são compatíveis com essa abordagem de implantação.
 
-[Consulte a Documentação do Adobe Target Connector](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Consulte a Documentação do Adobe Target Connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [Consulte o SDK Blueprint específico do aplicativo](../experience-platform/deployment/appsdk.md)
 
 ## Considerações de implantação
