@@ -1,9 +1,9 @@
 ---
 title: Real-Time CDP com  [!DNL Campaign] v7 e padrão de integração do Campaign Standard
 description: Mostra como a Adobe Experience Platform e seu Perfil do Cliente em Tempo Real e a ferramenta de segmentação centralizada podem ser utilizados com o Adobe [!DNL Campaign]  para fornecer conversas personalizadas.
-solution: Real-Time Customer Data Platform, [!DNL Campaign]
+solution: Real-Time Customer Data Platform, Campaign
 exl-id: a15e8304-2763-42fc-9978-11f2482ea8b8
-source-git-commit: 10d49e3b712fc9d4ecdf41defe6e62dde2a86b72
+source-git-commit: fa1f8799e774713a48fdd437a9325731aef1b6ab
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 42%
@@ -110,7 +110,7 @@ As seções a seguir descrevem as etapas de implementação para cada aplicativo
 
 ## Documentação relacionada
 
-* [Documentação do Adobe [!DNL Experience Platform] 2&rbrace;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
+* [Documentação do Adobe [!DNL Experience Platform] 2}](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [[!DNL Campaign Classic] documentação](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=pt-BR)
 * [[!DNL Campaign Standard] documentação](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=pt-BR)
 * [[!DNL Experience Platform] Documentação de inicialização](https://experienceleague.adobe.com/docs/launch.html?lang=pt-BR)
