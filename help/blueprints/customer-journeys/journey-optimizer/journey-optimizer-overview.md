@@ -3,7 +3,7 @@ title: '[!DNL Journey Optimizer] - Blueprint do Jornada'
 description: Execute mensagens e experiências acionadas usando a Adobe Experience Platform como um hub central para dados de transmissão, perfis de clientes e segmentação.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: e96b48e55c0fe2f48dc83f48ad41f5b686ec8dc1
+source-git-commit: 3a3988e93dd9e92f4f564bfedfa314e8e2b5d9ba
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 15%
@@ -52,7 +52,7 @@ Este blueprint descreve os recursos técnicos do aplicativo e fornece um aprofun
 | Cenário | Descrição |
 | :-- | :-- |
 | [Jornadas](journey-optimizer-journeys.md) | As Jornadas do AJO no Adobe Journey Optimizer são experiências do cliente automatizadas e personalizadas acionadas por eventos em tempo real ou segmentos de público-alvo, permitindo que os profissionais de marketing entreguem mensagens relevantes em canais como email, SMS e notificações por push. |
-| [Orquestração de Campanha](journey-optimizer-campaigns.md) | O AJO Campaign Orchestration permite que os profissionais de marketing projetem e executem campanhas personalizadas entre canais usando dados em tempo real e insights do público-alvo. Ele é compatível com direcionamento dinâmico, entrega de mensagens e lógica de jornada para otimizar a participação do cliente em canais de email, SMS, push e personalizados. | |
+| [Orquestração de Campanha](journey-optimizer-campaigns.md) | O AJO Campaign Orchestration permite que os profissionais de marketing projetem e executem campanhas personalizadas entre canais usando dados em tempo real e insights do público-alvo. Ele é compatível com direcionamento dinâmico, entrega de mensagens e lógica de jornada para otimizar a participação do cliente em canais de email, SMS, push e personalizados. |
 
 <br>
 
@@ -94,12 +94,12 @@ Push para dispositivo móvel:
 
 [[!DNL Journey Optimizer] Link de Produto de Medidas de Proteção](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails.html)
 
-[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html?lang=pt-BR)
+[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails.html)
 
 ## Documentação relacionada
 
 - [[!DNL Experience Platform] documentação](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 - [[!DNL Experience Platform] Documentação de tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR)
-- [[!DNL Experience Platform Mobile SDK] documentação](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)
-- [[!DNL Journey Optimizer] documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=pt-BR)
+- [[!DNL Experience Platform Mobile SDK] documentação](https://experienceleague.adobe.com/docs/mobile.html)
+- [[!DNL Journey Optimizer] documentação](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 - [[!DNL Journey Optimizer] descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)
