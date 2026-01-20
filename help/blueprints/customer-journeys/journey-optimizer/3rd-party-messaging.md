@@ -3,10 +3,10 @@ title: Journey Optimizer - Blueprint de mensagens de terceiros
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagens de terceiros para enviar comunicações personalizadas.
 solution: Journey Optimizer
 exl-id: 3a14fc06-6d9c-4cd8-bc5c-f38e253d53ce
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: 8fcc71abcc29f5dc7d2e2b3a5afcc60d9e844fcc
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -38,9 +38,9 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagen
 
 ## Medidas de proteção
 
-[Link do produto de medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=pt-BR)
+[Link do produto de medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=pt-BR)
+[Medidas de Proteção e Orientação de Latência de Ponta a Ponta](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 
@@ -59,7 +59,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagen
 
 1. [Crie qualquer namespace específico para clientes](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
 1. [Adicione identidades a esquemas](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR).
-1. [Habilite os esquemas e conjuntos de dados para o Perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile).
+1. [Habilite os esquemas e conjuntos de dados para o Perfil](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile).
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR) para visualizações diferentes do [!UICONTROL Perfil de cliente em tempo real] (opcional).
 1. Crie segmentos para o uso do Journey.
 
@@ -91,6 +91,6 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagen
 
 * [Documentação da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [Documentação de tags da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR)
-* [Documentação do SDK móvel da Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)
-* [Documentação do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=pt-BR)
+* [Documentação do SDK móvel da Experience Platform](https://experienceleague.adobe.com/docs/mobile.html)
+* [Documentação do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 * [Descrição do produto do Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)
