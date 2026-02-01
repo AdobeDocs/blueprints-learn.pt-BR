@@ -1,5 +1,5 @@
 ---
-title: blueprint do Audience Manager
+title: Baseado em dispositivo - Direcionamento de público anônimo com o Audience Manager
 description: Saiba como segmentar públicos-alvos na Web e em todos os canais de anúncios com base em dados comportamentais e anônimos de clientes. Essa funcionalidade possibilita experiências do cliente consistentes e personalizadas em tempo real em todos os dispositivos.
 landing-page-description: Saiba como segmentar públicos-alvos na Web e em todos os canais de anúncios com base em dados comportamentais e anônimos de clientes.
 short-description: Saiba como segmentar públicos-alvos na Web e em todos os canais de anúncios com base em dados comportamentais e anônimos de clientes.
@@ -7,14 +7,14 @@ solution: Audience Manager
 kt: 7211
 thumbnail: null
 exl-id: f17599f1-2e75-4cbe-841a-9fd1dae71ada
-source-git-commit: 495a2480828e2c6b4caa41226f4fe67437b081c1
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 93%
+source-wordcount: '246'
+ht-degree: 89%
 
 ---
 
-# blueprint do Audience Manager
+# Baseado em dispositivo - Direcionamento de público anônimo com o Audience Manager
 
 A ativação de público-alvo anônimo é a capacidade de direcionar e personalizar públicos-alvo em canais da Web, mobile e de publicidade com base em dados comportamentais e de dispositivos anônimos.
 
@@ -44,4 +44,4 @@ O Audience Manager e a Real-time Customer Data Platform podem ser usados para po
 
 ## Etapas de implementação para Real-time Customer Data Platform
 
-* Para conhecer as etapas para a implementação da Real-time Customer Data Platform, consulte a seguinte [documentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/home).
+* Para conhecer as etapas para a implementação da Real-time Customer Data Platform, consulte a seguinte [documentação](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home).

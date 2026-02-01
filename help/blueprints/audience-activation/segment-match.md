@@ -1,16 +1,16 @@
 ---
-title: Blueprint de Correspondência de segmentos
+title: Audience Collaboration com correspondência de segmentos
 description: Saiba mais sobre a [!UICONTROL Correspondência de Segmentos] para a Adobe Experience Platform (AEP). [!UICONTROL Correspondência de Segmentos] é um serviço de colaboração de dados que permite trocar dados de segmentos com base em identificadores comuns do setor de uma maneira segura, controlada e comprometida com a privacidade.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
-source-git-commit: 9648235f5b626a8cbf2d8c9a619cf0f3ef1641ca
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2123'
 ht-degree: 80%
 
 ---
 
-# Blueprint de Correspondência de segmentos
+# Audience Collaboration com blueprint de correspondência de segmentos
 
 A correspondência de segmentos permite que marcas de parceiros compartilhem públicos-alvo em seus respectivos ambientes da Experience Platform. É fundamental para as marcas se basear nos dados coletados de seus relacionamentos diretos com os consumidores para se conectar com os clientes. Com sistemas de gerenciamento de governança, permissões e preferências melhores, os profissionais de marketing podem aprimorar ainda mais seus públicos autenticados primários com seus principais parceiros.
 
@@ -185,10 +185,10 @@ Você pode usar a Correspondência de segmentos do Adobe Experience Platform em 
 
 1. Uma marca (Luma) realiza uma correspondência de público-alvo com uma rede de mídia (ACME) por meio da Correspondência de segmentos.
 2. O ACME envia o(s) público(s) para o servidor de anúncios ou SSP programático por meio dos Destinos do Adobe Real-Time CDP.
-3. A ACME configura uma oferta de inventário privado (ID) com os critérios de direcionamento aplicáveis, incluindo o público-alvo estabelecido na etapa anterior. A ID de oferta do inventário privado é então enviada para o DSP da Luma.
+3. A ACME configura uma oferta de inventário privado (ID) com os critérios de direcionamento aplicáveis, incluindo o público-alvo estabelecido na etapa anterior. A ID de oferta do Inventário privado é então enviada para o DSP da Luma.
 4. A Luma configura uma oferta de inventário privado e um criativo de campanha/anúncios de tráfego.
 5. A campanha é entregue por meio de um contrato programático de Inventário privado.
-6. Em seguida, o servidor de publicidade ou o SSP fornece impressões de publicidade que atendem aos critérios de direcionamento estabelecidos. (Critérios de direcionamento adicionais, como limite de frequência, estão disponíveis por meio de servidor de publicidade e/ou DSP, dependendo se um contrato Garantido ou Preferencial foi estabelecido no contrato).
+6. Em seguida, o servidor de publicidade ou o SSP fornece impressões de publicidade que atendem aos critérios de direcionamento estabelecidos. (Critérios de direcionamento adicionais, como limite de frequência, estão disponíveis por meio do servidor de publicidade e/ou DSP, dependendo se um contrato Garantido ou Preferencial foi estabelecido no contrato).
 7. O tráfego é direcionado para as propriedades da marca Luma.
 8. O ACME compartilha os insights ou públicos pós-campanha por meio da Correspondência de segmentos para redirecionamento.
 

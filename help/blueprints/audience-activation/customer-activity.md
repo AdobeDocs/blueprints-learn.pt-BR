@@ -1,19 +1,19 @@
 ---
-title: Blueprint do Hub de atividades do cliente
-description: "Pesquisas de [!UICONTROL perfis de clientes em tempo real] para fornecer contexto ao suporte e às vendas atendidas por agentes."
+title: Acesso ao perfil em tempo real para cenários de suporte e vendas
+description: Pesquisas de [!UICONTROL perfis de clientes em tempo real] para fornecer contexto ao suporte e às vendas atendidas por agentes.
 solution: Data Collection
 kt: 7195
 exl-id: 3616cbf1-2e59-4e68-a1ff-1d2e3b344a1c
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '366'
+ht-degree: 65%
 
 ---
 
-# Blueprint do Hub de atividades do cliente
+# Acesso ao perfil em tempo real para cenários de suporte e vendas
 
-O blueprint do Hub de atividades do cliente apresenta como aplicativos externos podem acessar o [!UICONTROL Perfil de cliente em tempo real] da Adobe Experience Platform.
+O blueprint Real-time Profile Access for Support and Sales Scenarios (Acesso a perfil em tempo real para suporte e cenários de vendas) mostra como os aplicativos externos podem acessar o [!UICONTROL Perfil do cliente em tempo real] da Adobe Experience Platform.
 
 Aplicativos externos podem acessar Perfis de clientes com uma solicitação GET da API. Atributos, eventos, associações de segmentos e funcionalidades orientadas por modelos armazenadas no perfil podem depois ser usados nesses aplicativos externos que não são da Adobe.
 
@@ -21,7 +21,7 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 
 >[!NOTE]
 >
->A latência atual suportada pela API de pesquisa de perfil é de aproximadamente 500 milissegundos. Isso torna essa abordagem inadequada para a integração do perfil com mecanismos de decisão em tempo real, como Web de mesma página ou personalização de publicação de conteúdo para dispositivos móveis.
+>A pesquisa de perfil no hub não se destina a casos de uso de alta taxa de transferência e baixa latência, como personalização de entrada da web/dispositivos móveis. A pesquisa de perfil no hub destina-se a cenários de latência mais baixa, como suporte assistido por agente ou interações de vendas. Para cenários de baixa latência e alta taxa de transferência, como personalização da Web/móvel ou o Offer Decisioning em tempo real, o perfil do Edge deve ser aproveitado. O perfil do Edge habilita o acesso em tempo real por meio da [Conexão personalizada do Personalization](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) da Real-time Customer Data Platform.
 
 ## Casos de uso
 
@@ -37,13 +37,13 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 
 ## Etapas de implementação
 
-1. [Crie esquemas](https://experienceleague.adobe.com/?lang=pt-br&recommended=ExperiencePlatform-D-1-2021.1.xdm&amp;lang=pt-BR) para que os dados sejam assimilados.
+1. [Crie esquemas](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2021.1.xdm&lang=pt-BR) para que os dados sejam assimilados.
 1. [Crie conjuntos de dados](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/create-datasets-and-ingest-data.html?lang=pt-BR) para que os dados sejam assimilados.
 1. [Configure as identidades corretas e os namespaces de identidade](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/label-ingest-and-verify-identity-data.html?lang=pt-BR) no esquema para assegurar que os dados assimilados possam aderir a um perfil unificado.
 1. [Habilite os esquemas e conjuntos de dados para o perfil](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/bring-data-into-the-real-time-customer-profile.html?lang=pt-BR).
-1. [Assimile dados](https://experienceleague.adobe.com/?lang=pt-br&recommended=ExperiencePlatform-D-1-2020.1.dataingestion&amp;lang=pt-BR) na Experience Platform.
+1. [Assimile dados](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion&lang=pt-BR) na Experience Platform.
 1. [Configure políticas de mesclagem](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=pt-BR).
-1. Use a [API de entidades para pesquisar um atributo de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=pt-BR), seja da entidade de registro ou da entidade do evento da experiência.
+1. Use a API de [Entidades para pesquisar um atributo de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/api/entities.html?lang=pt-BR).
 
 ## Documentação relacionada
 

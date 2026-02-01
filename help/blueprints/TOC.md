@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implantações r
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 3a3988e93dd9e92f4f564bfedfa314e8e2b5d9ba
+source-git-commit: 0add2a504e6ab8b6bafac78a72fc47a805440869
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 41%
+source-wordcount: '231'
+ht-degree: 35%
 
 ---
 
@@ -25,13 +25,14 @@ ht-degree: 41%
       + [Experience Platform Web SDK &amp; [!DNL Edge Network]](/help/blueprints/experience-platform/deployment/websdk.md)
       + [SDKs do aplicativo](/help/blueprints/experience-platform/deployment/appsdk.md)
 + Ativação de público-alvo e perfil{#audience-activation}
-   + [Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
+   + [Baseado em dispositivo - Direcionamento de público anônimo com o Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
    + Plataforma de dados do cliente em tempo real (RTCDP) {#known-customer-audience-activation}
-      + [Ativação para canais sociais e de publicidade](/help/blueprints/audience-activation/advertising-activation.md)
-      + [Ativação para destinos de transmissão de arquivos e empresas](/help/blueprints/audience-activation/enterprise-destinations.md)
-      + [Hub de atividade do cliente](/help/blueprints/audience-activation/customer-activity.md)
-      + [Correspondência de segmentos](/help/blueprints/audience-activation/segment-match.md)
-      + [Target e RTCDP](/help/blueprints/audience-activation/rtcdp-target.md)
+      + [Audience Activation para destinos sociais e Advertising](/help/blueprints/audience-activation/advertising-activation.md)
+      + [Blueprint de Ativação de público-alvo e perfil para destinos corporativos](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Acesso ao perfil em tempo real para cenários de suporte e vendas](/help/blueprints/audience-activation/customer-activity.md)
+      + [Acesso ao perfil do Real-time Edge para Personalization da Web e móvel](/help/blueprints/audience-activation/real-time-lookup.md)
+      + [Audience Collaboration com correspondência de segmentos](/help/blueprints/audience-activation/segment-match.md)
+      + [Personalization do cliente conhecido com Target](/help/blueprints/audience-activation/rtcdp-target.md)
 + Ativação e marketing B2B{#b2b-activation}
    + [Visão geral](/help/blueprints/b2b/overview.md)
    + [Ativação B2B](/help/blueprints/b2b/b2bactivation.md)
@@ -52,7 +53,7 @@ ht-degree: 41%
 + Jornadas do cliente{#customer-journeys}
    + [Visão geral](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer  {#journey-optimizer}
-      + [Journey Optimizer  &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer  ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [AJO Jornada](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [Campanhas do AJO](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [Mensagens de terceiros](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
@@ -66,8 +67,8 @@ ht-degree: 41%
       + [Journey Optimizer com Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Blueprints obsoletos{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/pt-br/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP com Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/pt-br/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP com Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Análise de dados, Inteligência e IA/Aprendizado de máquina {#data-exploration}
