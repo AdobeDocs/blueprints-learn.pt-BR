@@ -21,7 +21,7 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 
 >[!NOTE]
 >
->A pesquisa de perfil no hub não se destina a casos de uso de alta taxa de transferência e baixa latência, como personalização de entrada da web/dispositivos móveis. A pesquisa de perfil no hub destina-se a cenários de latência mais baixa, como suporte assistido por agente ou interações de vendas. Para cenários de baixa latência e alta taxa de transferência, como personalização da Web/móvel ou o Offer Decisioning em tempo real, o perfil do Edge deve ser aproveitado. O perfil do Edge habilita o acesso em tempo real por meio da [Conexão personalizada do Personalization](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) da Real-time Customer Data Platform.
+>A pesquisa de perfil no hub não se destina a casos de uso de alta taxa de transferência e baixa latência, como personalização de entrada da web/dispositivos móveis. A pesquisa de perfil no hub destina-se a cenários de latência mais baixa, como suporte assistido por agente ou interações de vendas. Para cenários de baixa latência e alta taxa de transferência, como personalização da Web/móvel ou o Offer Decisioning em tempo real, o perfil do Edge deve ser aproveitado. O perfil do Edge habilita o acesso em tempo real por meio da [Conexão personalizada do Personalization](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/custom-personalization) da Real-time Customer Data Platform.
 
 ## Casos de uso
 
