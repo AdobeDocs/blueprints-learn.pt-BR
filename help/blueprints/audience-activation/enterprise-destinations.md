@@ -1,17 +1,17 @@
 ---
-title: Blueprint de Ativação de público-alvo e perfil para destinos corporativos
+title: Ativação de público-alvo e perfil para destinos corporativos
 description: Ativação de público-alvo e perfil para destinos corporativos
 solution: Real-Time Customer Data Platform
 kt: 7475
 exl-id: 32133174-eb28-44ce-ab2a-63fcb5b51cb5
-source-git-commit: 88a15765c0a998d49c19d9853ad0c44d6e3bfaa1
+source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 72%
+source-wordcount: '159'
+ht-degree: 82%
 
 ---
 
-# Blueprint de Ativação de público-alvo e perfil para destinos corporativos
+# Ativação de público-alvo e perfil para destinos corporativos
 
 Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em lote da [!UICONTROL Real-time Customer Data Platform] para armazenamentos e aplicativos de dados corporativos. Esses eventos de perfil e público-alvo podem ser usados para iniciar uma ação de vendas ou suporte ao cliente. Exemplos incluem: acompanhar um processo de aplicativo abandonado ou de inscrição em webinário, ou atualizar aplicativos corporativos com os atributos e informações mais recentes do cliente a partir da [!UICONTROL Real-time Customer Data Platform].
 
@@ -29,7 +29,7 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Documentação relacionada
 
-Detalhes adicionais sobre a configuração do armazenamento na nuvem e destinos corporativos podem ser encontrados na [Documentação de Destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Detalhes adicionais sobre a configuração do armazenamento na nuvem e destinos corporativos podem ser encontrados na [Documentação de Destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Medidas de proteção
 

@@ -5,10 +5,10 @@ user-guide-description: Blueprints de experiência digital são implantações r
 product: adobe experience platform
 mini-toc-levels: 3
 role: Developer, User
-source-git-commit: 0add2a504e6ab8b6bafac78a72fc47a805440869
+source-git-commit: d5f3618fd811131e9d9c1fae16d7aab16aecc9e9
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 35%
+source-wordcount: '230'
+ht-degree: 38%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 35%
    + [Baseado em dispositivo - Direcionamento de público anônimo com o Audience Manager](/help/blueprints/audience-activation/audience-manager.md)
    + Plataforma de dados do cliente em tempo real (RTCDP) {#known-customer-audience-activation}
       + [Audience Activation para destinos sociais e Advertising](/help/blueprints/audience-activation/advertising-activation.md)
-      + [Blueprint de Ativação de público-alvo e perfil para destinos corporativos](/help/blueprints/audience-activation/enterprise-destinations.md)
+      + [Ativação de público-alvo e perfil para destinos corporativos](/help/blueprints/audience-activation/enterprise-destinations.md)
       + [Acesso ao perfil em tempo real para cenários de suporte e vendas](/help/blueprints/audience-activation/customer-activity.md)
       + [Acesso ao perfil do Real-time Edge para Personalization da Web e móvel](/help/blueprints/audience-activation/real-time-lookup.md)
       + [Audience Collaboration com correspondência de segmentos](/help/blueprints/audience-activation/segment-match.md)
@@ -53,7 +53,7 @@ ht-degree: 35%
 + Jornadas do cliente{#customer-journeys}
    + [Visão geral](/help/blueprints/customer-journeys/overview.md)
    + Journey Optimizer  {#journey-optimizer}
-      + [Journey Optimizer  &#x200B;](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
+      + [Journey Optimizer  ](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md)
       + [AJO Jornada](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-journeys.md)
       + [Campanhas do AJO](/help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-campaigns.md)
       + [Mensagens de terceiros](/help/blueprints/customer-journeys/journey-optimizer/3rd-party-messaging.md)
@@ -67,8 +67,8 @@ ht-degree: 35%
       + [Journey Optimizer com Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
    + Blueprints obsoletos{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/pt-br/docs/campaign-standard){target="_blank"}
-         + [Real-Time CDP com Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/pt-br/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+         + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+         + [Real-Time CDP com Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
          + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 + Análise de dados, Inteligência e IA/Aprendizado de máquina {#data-exploration}
