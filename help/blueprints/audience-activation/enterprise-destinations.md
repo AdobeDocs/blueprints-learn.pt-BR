@@ -29,7 +29,7 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Documentação relacionada
 
-Detalhes adicionais sobre a configuração do armazenamento na nuvem e destinos corporativos podem ser encontrados na [Documentação de Destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/overview).
+Detalhes adicionais sobre a configuração do armazenamento na nuvem e destinos corporativos podem ser encontrados na [Documentação de Destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/overview).
 
 ## Medidas de proteção
 
