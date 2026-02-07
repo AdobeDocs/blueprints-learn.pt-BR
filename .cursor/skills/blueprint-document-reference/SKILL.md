@@ -98,7 +98,7 @@ Para obter uma visão geral ou páginas de hub, use uma estrutura mais curta: in
 ## Referência à Adobe Experience League
 
 - **Quando vincular**: vincular à Experience League para obter a documentação do produto, referências de API, medidas de proteção, tutoriais e etapas de configuração. Não duplique procedimentos longos; resuma e vincule.
-- **Formato de URL**: usar URLs completas. Prefira `https://experienceleague.adobe.com/docs/...` ou `https://experienceleague.adobe.com/en/docs/...`. Para documentos do desenvolvedor, `https://developer.adobe.com/...` também é válido.
+- **Formato de URL**: usar URLs completas. Prefira `https://experienceleague.adobe.com/docs/?lang=pt-BR...` ou `https://experienceleague.adobe.com/pt-br/docs/...`. Para documentos do desenvolvedor, `https://developer.adobe.com/...` também é válido.
 - **Texto do link**: use texto descritivo (por exemplo, &quot;[Criar esquemas] (url)&quot; e não &quot;Clique aqui&quot;). Para nomes de produtos no texto do link, use `[!DNL Product Name]` quando apropriado.
 - **Seção de documentação relacionada**: encerre blueprints com uma seção de &quot;Documentação relacionada&quot; agrupando links por categoria (por exemplo, configurações de destino, documentação do SDK, Perfil e segmentação, Tutoriais).
 
