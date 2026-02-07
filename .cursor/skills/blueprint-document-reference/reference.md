@@ -15,7 +15,7 @@ ht-degree: 2%
 | **Blueprint do cenário** | Caso de uso único: arquitetura, etapas, medidas de proteção | ex.: `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **SUMÁRIO** | Navegação; não usar como modelo de conteúdo | `help/blueprints/TOC.md` |
 
----
+&#x200B;---
 
 ## Referência de seção completa
 
@@ -46,7 +46,7 @@ ht-degree: 2%
 - **Cenários de blueprint** ou **Padrões de integração**: tabela com nome de cenário, descrição curta e link para o blueprint do cenário.
 - **Pré-requisitos**, **Medidas de Proteção**, **Documentação relacionada**: os mesmos mencionados acima; mantenha-se conciso.
 
----
+&#x200B;---
 
 ## Adobe Experience League — Direções do agente
 
@@ -110,7 +110,7 @@ Exemplo:
 * [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
----
+&#x200B;---
 
 ## Acordo de recompra e índice
 
@@ -118,7 +118,7 @@ Exemplo:
 - **Assets**: colocalize com o blueprint (por exemplo, `assets/`, `images/`) ou em uma pasta compartilhada (por exemplo, `experience-platform/assets/`).
 - **TOC**: editar `help/blueprints/TOC.md` ao adicionar, renomear ou mover páginas de blueprint. Preservar o frontmatter (`user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role`) e a hierarquia `+`.
 
----
+&#x200B;---
 
 ## Exemplo de referências neste repositório
 
