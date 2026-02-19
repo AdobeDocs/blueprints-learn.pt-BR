@@ -71,8 +71,8 @@ Com qualquer orquestração orientada por dados, o design do esquema é importan
 
 ### Medidas de proteção
 
-- **Journey Optimizer B2B edition** — Consulte a [descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) para obter limites de jornada, limites de nó e suporte de destino.
-- **Real-Time CDP** — Consulte [medidas de proteção da RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) para obter limites de segmentação e ativação.
+- **Journey Optimizer B2B edition** — Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html) para obter limites de jornada, limites de nó e suporte de destino.
+- **Real-Time CDP** — Consulte [medidas de proteção da RTCDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/guardrails/overview) para obter limites de segmentação e ativação.
 
 ## Implementação
 
@@ -125,6 +125,6 @@ O blueprint do **Controlador de mídia paga** mostra como o **AJO B2B e o AEP** 
 
 ## Documentação relacionada
 
-- [Blueprint de Marketing baseado em grupo e de Gerenciamento de Jornadas](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — jornadas de conta e grupo de compras no AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — Documentação do produto.
+- [Blueprint de Marketing baseado em grupo e de Gerenciamento de Jornadas](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — jornadas de conta e grupo de compras no AJO B2B.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b) — Documentação do produto.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — Públicos-alvo e ativação de conta.
