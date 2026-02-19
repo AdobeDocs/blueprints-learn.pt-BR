@@ -1,10 +1,14 @@
 ---
-source-git-commit: 9d0eebd5d84671db1c86d73e7e0de50cb926235d
+title: Controlador de mídia paga B2B do AJO
+description: Prioridade de campanhas e ativação de contas para destinos de Mídia paga
+solution: Journey Optimizer B2B Edition
+source-git-commit: dff5608af92fa1140419d6834d8374df75de98d3
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
+
 # Visão geral
 
 As equipes de marketing que executam mídia paga B2B em escala enfrentam um problema recorrente: **as contas acabam em várias campanhas de uma só vez** (persona, reconhecimento de categoria, liderança em soluções, busca), que dilui as mensagens, causa fadiga do público-alvo e força o trabalho manual de listagem — carregamentos, exclusões e supressão — na Correspondência de Conta do LinkedIn (Destino da Conta). Sem a **priorização em cascata** e a **atribuição automatizada de campanha**, não há um único local para decidir qual conta recebe qual mensagem e as operações não são dimensionadas.
@@ -67,8 +71,8 @@ Com qualquer orquestração orientada por dados, o design do esquema é importan
 
 ### Medidas de proteção
 
-- **Journey Optimizer B2B edition** — Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html) para obter limites de jornada, limites de nó e suporte de destino.
-- **Real-Time CDP** — Consulte [medidas de proteção da RTCDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/guardrails/overview) para obter limites de segmentação e ativação.
+- **Journey Optimizer B2B edition** — Consulte a [descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) para obter limites de jornada, limites de nó e suporte de destino.
+- **Real-Time CDP** — Consulte [medidas de proteção da RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) para obter limites de segmentação e ativação.
 
 ## Implementação
 
@@ -121,6 +125,6 @@ O blueprint do **Controlador de mídia paga** mostra como o **AJO B2B e o AEP** 
 
 ## Documentação relacionada
 
-- [Blueprint de Marketing baseado em grupo e de Gerenciamento de Jornadas](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — jornadas de conta e grupo de compras no AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b) — Documentação do produto.
+- [Blueprint de Marketing baseado em grupo e de Gerenciamento de Jornadas](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — jornadas de conta e grupo de compras no AJO B2B.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — Documentação do produto.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — Públicos-alvo e ativação de conta.
