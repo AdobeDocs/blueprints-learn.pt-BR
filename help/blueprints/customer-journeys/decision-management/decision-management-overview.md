@@ -3,18 +3,18 @@ title: 'Projetos da Gestão de decisões '
 description: Forneça ofertas personalizadas nas jornadas do cliente.
 solution: Experience Platform, Journey Optimizer
 exl-id: 1bc9335c-5321-4d0c-939e-4f402e2e8f51
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: 49251caac58cd8f62dff977f94ea6a716aa94250
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
-# Journey Optimizer - Blueprints de gestão de decisão
+# Journey Optimizer – Visão geral da Gestão de decisões
 
 Consulte a seguinte documentação para [Gerenciamento de decisão](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started-decision/starting-offer-decisioning.html?lang=pt-BR)
 
-Consulte a documentação a seguir para obter as medidas de proteção relacionadas à Gestão de decisões. [Medidas de proteção do Gerenciamento de decisão](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
+Consulte a documentação a seguir para obter as medidas de proteção relacionadas à Gestão de decisões. [Medidas de proteção do Gerenciamento de decisão](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails#decision-management.html)
 
 A gestão de decisões da Adobe é um serviço fornecido como parte do Adobe Journey Optimizer. Esse blueprint descreve os casos de uso e os recursos técnicos do aplicativo e fornece mais detalhes sobre os diferentes componentes da arquitetura e considerações que compõem a gestão de decisões.
 

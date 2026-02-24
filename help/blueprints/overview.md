@@ -1,18 +1,18 @@
 ---
-title: Blueprints de experiência digital
-description: Os Blueprints de experiência digital são implantações replicáveis que atendem a estratégias e resolvem problemas empresariais consagrados. Eles aceleram o tempo de retorno do investimento e fornecem um caminho mais rápido para o sucesso.
+title: Blueprints do Customer Experience Orchestration
+description: Os blueprints de orquestração da experiência do cliente são implementações repetíveis para solucionar problemas de estratégia e de negócios estabelecidos. Eles aceleram o tempo de retorno do investimento e fornecem um caminho mais rápido para o sucesso.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 003e8ebf32150cf6527ed588ff05f22ea8cfb209
+source-git-commit: 478f2a44974ba36d87300486337b669fa38989f3
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 24%
+source-wordcount: '130'
+ht-degree: 7%
 
 ---
 
-# Blueprints de experiência digital
+# Blueprints de orquestração de experiência do cliente
 
-Os blueprints de experiência digital fornecem diagramas de arquitetura de fluxo de dados e sistema para ajudar a entender melhor como a Adobe Experience Platform e os aplicativos são integrados e implementados. Os blueprints fornecem uma representação visual dos dados e fluxos de conteúdo do intersistema e dos componentes, sequência de operações e dependências para ajudar a informar o design e a arquitetura do caso de uso do Adobe Experience Platform e dos aplicativos.
+Os blueprints da orquestração de experiência do cliente (anteriormente, _experiência digital_) fornecem diagramas de arquitetura de fluxo de dados e sistema para ajudar a entender melhor como a Adobe Experience Platform e os Aplicativos são integrados e implementados. Os blueprints fornecem uma representação visual dos dados e fluxos de conteúdo do intersistema e dos componentes, sequência de operações e dependências para ajudar a informar o design e a arquitetura do caso de uso do Adobe Experience Platform e dos aplicativos.
 
 ## Blueprints populares
 
