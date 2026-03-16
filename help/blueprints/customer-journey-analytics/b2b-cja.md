@@ -2,17 +2,14 @@
 title: Blueprint do Customer Journey Analytics B2B
 description: Inclua dados de conta B2B, oportunidade e grupo de compras na Customer Journey Analytics para relatórios baseados em conta e análise de jornada.
 solution: Customer Journey Analytics
-kt: null
-thumbnail: null
-exl-id: null
-source-git-commit: 755b3fa26a060e3860d18d5615dae18eeaf72e05
+exl-id: d55ed43d-aabf-4722-9ae9-a2aef99f19e0
+source-git-commit: 3d551302dcb883ce8a9373afdbbd45d3eccbb18a
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 7%
 
 ---
 
-<!-- markdownlint-disable-next-line MD025 -->
 # Blueprint do Customer Journey Analytics B2B
 
 O Customer Journey Analytics B2B edition permite a emissão de relatórios e a análise com base em contas para organizações B2B. Ao contrário da análise B2C centrada em pessoas, esse blueprint coloca a **conta** no centro do modelo de dados para que você possa analisar jornadas de compra B2B complexas em várias partes interessadas, grupos de compra e ciclos de vendas. Use o [!DNL Customer Journey Analytics] para unificar dados comportamentais com dimensões B2B — contas, oportunidades, campanhas e listas de marketing — para insights baseados em jornada e criação de público-alvo.
@@ -32,7 +29,7 @@ O Customer Journey Analytics B2B edition permite a emissão de relatórios e a a
 ## Pré-requisitos
 
 * [!DNL Customer Journey Analytics] Direito ao B2B edition.
-* Dados B2B e comportamentais no Adobe Experience Platform: conjuntos de dados B2B (contas, oportunidades, pessoas, campanhas, listas de marketing, atividades B2B) e dados de evento (Web, celular ou outros canais) disponíveis em uma [conexão com o CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=pt-BR).
+* Dados B2B e comportamentais no Adobe Experience Platform: conjuntos de dados B2B (contas, oportunidades, pessoas, campanhas, listas de marketing, atividades B2B) e dados de evento (Web, celular ou outros canais) disponíveis em uma [conexão com o CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html).
 * [Nomeação B2B para CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html): configurações de exibição de dados específicas de B2B (ID da conta, ID da oportunidade e dimensões relacionadas) configuradas para a conexão.
 
 ## Arquitetura
@@ -43,16 +40,16 @@ Os dados fluem do Experience Platform (B2B e conjuntos de dados de evento) para 
 
 ## Medidas de proteção
 
-* Para obter limites e direitos de produto do B2B edition, consulte a [descrição do produto B2B do Customer Journey Analytics](https://helpx.adobe.com/br/legal/product-descriptions/customer-journey-analytics-b2b.html).
-* Para conhecer os limites técnicos da Analytics Platform e do CJA, consulte [medidas de proteção da Analytics Platform](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/technotes/guardrails).
-* Para obter os limites de assimilação e conexão de dados do CJA, consulte [medidas de proteção de assimilação de dados do Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR#what-is-the-expected-latency-for-analytics-data-on-platform%3F).
-* Se estiver publicando públicos-alvo da CJA na Real-time Customer Data Platform, consulte [medidas de proteção de compartilhamento de público-alvo da Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=pt-BR#latency).
+* Para obter limites e direitos de produto do B2B edition, consulte a [descrição do produto B2B do Customer Journey Analytics](https://helpx.adobe.com/legal/product-descriptions/customer-journey-analytics-b2b.html).
+* Para conhecer os limites técnicos da Analytics Platform e do CJA, consulte [medidas de proteção da Analytics Platform](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/guardrails).
+* Para obter os limites de assimilação e conexão de dados do CJA, consulte [medidas de proteção de assimilação de dados do Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F).
+* Se estiver publicando públicos-alvo da CJA na Real-time Customer Data Platform, consulte [medidas de proteção de compartilhamento de público-alvo da Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency).
 * Para obter latências de ponta a ponta e medidas de proteção da plataforma, consulte o [documento medidas de proteção da implantação](../experience-platform/guardrails.md).
 
 ## Etapas de implantação
 
 1. **Assimilar dados B2B e de eventos na Experience Platform** — Leve dados de conta, oportunidade, pessoa, campanha e atividade, além de eventos comportamentais, usando [fontes](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=pt-BR) (por exemplo, [!DNL Marketo Engage], CRM ou outros conectores B2B).
-2. **Criar uma conexão do CJA** — [Adicione os conjuntos de dados relevantes do Experience Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=pt-BR) (B2B e evento) a uma conexão do Customer Journey Analytics.
+2. **Criar uma conexão do CJA** — [Adicione os conjuntos de dados relevantes do Experience Platform](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) (B2B e evento) a uma conexão do Customer Journey Analytics.
 3. **Configurar B2B na visualização de dados** — Habilitar [Nomeação B2B e dimensões de chave](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html) (ID de conta, ID de oportunidade etc.) nas visualizações de dados da conexão.
 4. **Criar análise e públicos-alvo com base em conta** — Use os [casos de uso e relatórios B2B do CJA](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=pt-BR) para criar relatórios, detalhamentos e públicos-alvo no nível de conta e oportunidade; opcionalmente, [publicar públicos-alvo na Real-time CDP](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=pt-BR) para ativação.
 
@@ -60,14 +57,14 @@ Os dados fluem do Experience Platform (B2B e conjuntos de dados de evento) para 
 
 ### Customer Journey Analytics B2B edition
 
-* [Customer Journey Analytics B2B edition](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition.html?lang=pt-BR)
+* [Customer Journey Analytics B2B edition](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-b2b/cja-b2b-edition.html)
 * [Casos de uso B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b.html?lang=pt-BR)
-* [Visão geral dos casos de uso do B2B edition](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/b2b-edition/use-cases-overview.html?lang=pt-BR)
-* [Um exemplo de projeto B2B com base em pessoas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/example.html?lang=pt-BR)
+* [Visão geral dos casos de uso do B2B edition](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/b2b-edition/use-cases-overview.html)
+* [Um exemplo de projeto B2B com base em pessoas](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/b2b/example.html)
 
 ### Conexões e visualizações de dados
 
-* [Criar uma conexão](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=pt-BR)
+* [Criar uma conexão](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html)
 * [Configurações de visualização de dados B2B](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/b2b.html)
 
 ### Públicos-alvo e medidas de proteção
