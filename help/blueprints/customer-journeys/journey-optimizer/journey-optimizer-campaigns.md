@@ -47,7 +47,7 @@ O AJO Campaign Orchestration permite que os profissionais de marketing criem e e
 
 ## Medidas de proteção
 
-[Link de produto de campanhas orquestradas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
+[Link de produto de campanhas orquestradas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/guardrails)
 
 [Medidas de proteção e orientação de latência completa](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/deployment/guardrails)
 
@@ -58,6 +58,6 @@ O AJO Campaign Orchestration permite que os profissionais de marketing criem e e
 - [[!DNL Journey Optimizer] Campanhas Orquestradas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/orchestrated-campaigns-landing-page.html)
 - [Documentação do [!DNL Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 - [Documentação de [!DNL Experience Platform] tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR)
-- [Documentação do [!DNL Experience Platform Mobile SDK]](https://experienceleague.adobe.com/docs/mobile.html)
-- [Documentação do [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
+- [Documentação do [!DNL Experience Platform Mobile SDK]](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)
+- [Documentação do [!DNL Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=pt-BR)
 - [Descrição do produto [!DNL Journey Optimizer]](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)

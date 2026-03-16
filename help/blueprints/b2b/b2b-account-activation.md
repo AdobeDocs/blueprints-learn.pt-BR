@@ -56,14 +56,14 @@ Usando o engajamento baseado em conta, os profissionais de marketing podem desbl
    * Até 30 dias de retrospectiva de evento, sem ordem de predicados de evento.
    * AND / OR são compatíveis (portanto, você pode dizer &quot;A e B precisam acontecer&quot;,  mas você não pode dizer &quot;A deve acontecer 3 dias antes de B&quot;).
 * Para destinos de armazenamento na nuvem, o agendamento de exportação oferece suporte à opção &quot;Após avaliação de segmento&quot;.
-* [Proteções de perfil B2B e segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
+* [Proteções de perfil B2B e segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails).
 
 ## Etapas de implementação para a Real-time Customer Data Platform B2B edition, criação de público-alvo da conta e ativação
 
-* Para obter as etapas de implementação do Real-time Customer Data Platform B2B edition, consulte a [Introdução ao Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial).
-* Para conhecer as etapas de criação de público-alvo da conta, consulte a documentação de [Públicos-alvo da conta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences).
-* Para conhecer as etapas do Account Audience Activation, consulte a documentação [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences).
-   * Mapeamento necessário para [(Empresas) LinkedIn Matched Audiences destination](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
+* Para obter as etapas de implementação do Real-time Customer Data Platform B2B edition, consulte a [Introdução ao Real-Time Customer Data Platform B2B Edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial).
+* Para conhecer as etapas de criação de público-alvo da conta, consulte a documentação de [Públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/account-audiences).
+* Para conhecer as etapas do Account Audience Activation, consulte a documentação [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences).
+   * Mapeamento necessário para [(Empresas) LinkedIn Matched Audiences destination](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences#required-mappings).
 
 ## Considerações de implantação
 
@@ -71,8 +71,8 @@ Os públicos-alvo correspondentes do LinkedIn têm alguns requisitos, incluindo 
 
 ## Documentação relacionada
 
-* [B2B edition da Plataforma de dados do cliente em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
+* [B2B edition da Plataforma de dados do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 * [Vídeo tutorial sobre criar e ativar público-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data)
-* [Criar públicos-alvo da conta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences)
-* [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
-* [Adobe Experience Platform - Conector de destino do LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
+* [Criar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/account-audiences)
+* [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences)
+* [Adobe Experience Platform - Conector de destino do LinkedIn](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin)
