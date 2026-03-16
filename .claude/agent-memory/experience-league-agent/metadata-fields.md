@@ -9,7 +9,7 @@ ht-degree: 1%
 
 *Originado no Guia de Criação do Adobe ExL (rastreado em fevereiro de 2026) + análise de repositório de blueprints-learn.en*
 
----
+&#x200B;---
 
 ## Hierarquia de metadados
 
@@ -18,7 +18,7 @@ Os metadados ficam em cascata nessa ordem (o artigo substitui o índice, o índi
 2. TOC.md no guia do usuário
 3. metadata.md na raiz do repositório (prioridade mais baixa)
 
----
+&#x200B;---
 
 ## Campos de nível de artigo
 
@@ -69,7 +69,7 @@ Os metadados ficam em cascata nessa ordem (o artigo substitui o índice, o índi
 | `source-git-url` | URL do repositório do Source. | URL completo do GitHub |
 | `cloud` | Substituição de categoria na nuvem no nível do artigo. | Caixa do título; deve corresponder a cloud.yml |
 
----
+&#x200B;---
 
 ## Campos TOC.md
 
@@ -83,7 +83,7 @@ Os metadados ficam em cascata nessa ordem (o artigo substitui o índice, o índi
 | `role` | Função de público-alvo padrão do guia. | Mesmos valores que o artigo `role`; separados por vírgulas |
 | `index` | Se o guia é indexado. | `yes`/`no` |
 
----
+&#x200B;---
 
 ## Campos metadata.md no nível do repositório
 
@@ -98,7 +98,7 @@ Os metadados ficam em cascata nessa ordem (o artigo substitui o índice, o índi
 | `git-repo` | URL do repositório GitHub; ativa os botões &quot;Editar esta página&quot; e &quot;Registrar problema&quot; |
 | `index` | Configuração de índice padrão |
 
----
+&#x200B;---
 
 ## Valores de Solução Válidos (Diferencia Maiúsculas de Minúsculas)
 
@@ -123,7 +123,7 @@ Valores comuns usados neste repositório:
 
 Valores múltiplos: separados por vírgulas, ex.: `Real-Time Customer Data Platform, Campaign`
 
----
+&#x200B;---
 
 ## Valores de Produto Válidos (para o campo `product` — rastreamento de análise)
 
@@ -137,7 +137,7 @@ Consulte o prompt do sistema para obter a lista completa. Valores de chave:
 - `adobe campaign` / `campaign` / `ac`
 - `adobe target` / `target` / `at`
 
----
+&#x200B;---
 
 ## Valores de Função Válidos
 
@@ -149,7 +149,7 @@ Consulte o prompt do sistema para obter a lista completa. Valores de chave:
 - `Leader`
 - `User`
 
----
+&#x200B;---
 
 ## Regras de validação de chave
 

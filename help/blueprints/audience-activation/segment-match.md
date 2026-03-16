@@ -1,6 +1,6 @@
 ---
 title: Audience Collaboration com correspondência de segmentos
-description: Saiba mais sobre a [!UICONTROL Correspondência de segmentos] para o Adobe Experience Platform (AEP). [!UICONTROL A Correspondência de Segmentos ] é um serviço de colaboração de dados que permite a troca de dados de segmento com base em identificadores comuns do setor de maneira segura, controlada e compatível com a privacidade.
+description: Saiba mais sobre a [!UICONTROL Correspondência de segmentos] para o Adobe Experience Platform (AEP). [!UICONTROL A Correspondência de Segmentos &#x200B;] é um serviço de colaboração de dados que permite a troca de dados de segmento com base em identificadores comuns do setor de maneira segura, controlada e compatível com a privacidade.
 solution: Experience Platform
 exl-id: d7e6d555-56aa-4818-8218-b87f6286a75e
 source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
@@ -30,7 +30,7 @@ A [!UICONTROL Correspondência de Segmentos] usa como suporte principal a estrut
 
 Marca para editor:
 
-O “caso de uso de editor” é o mais impactado pela rejeição de dados de identificação de publicidade para dispositivos móveis e cookies de terceiros. Esse caso de uso tem um grande impacto na indústria de mídia e entretenimento, que se concentra na venda de anúncios como um modelo de negócios. [!UICONTROL A Correspondência de Segmentos ] é um caminho para editores com públicos originais grandes que procuram colaborar diretamente com seus anunciantes. Os anunciantes podem trabalhar diretamente com editores para anunciar para públicos coincidentes nas propriedades do editor para campanhas de prospecção ou direcionamento granulares.
+O “caso de uso de editor” é o mais impactado pela rejeição de dados de identificação de publicidade para dispositivos móveis e cookies de terceiros. Esse caso de uso tem um grande impacto na indústria de mídia e entretenimento, que se concentra na venda de anúncios como um modelo de negócios. [!UICONTROL A Correspondência de Segmentos &#x200B;] é um caminho para editores com públicos originais grandes que procuram colaborar diretamente com seus anunciantes. Os anunciantes podem trabalhar diretamente com editores para anunciar para públicos coincidentes nas propriedades do editor para campanhas de prospecção ou direcionamento granulares.
 
 ### Marca para marca
 
@@ -46,7 +46,7 @@ A [!UICONTROL Correspondência de Segmentos] ajuda diferentes equipes de marketi
 
 ![Arquitetura da Correspondência de Segmentos](assets/architecture-segment-match.png){zoomable="yes"}
 
-A [!UICONTROL Correspondência de Segmentos] não é um mercado onde dados podem ser comprados. Em vez disso, é um recurso do AEP que funciona com dados primários com parceiros selecionados, usando controles de privacidade e consentimento para ajudar a colaborar. [!UICONTROL A Correspondência de segmentos ] ajuda a concentrar os esforços na melhoria das relações com o cliente e no crescimento da marca. É benéfico quando existem marcas ou relações de parceria pré-existentes. [!UICONTROL A experiência de Correspondência de segmentos ] é fácil de gerenciar, escalável e permite que os administradores compartilhem segmentos de maneira controlável e com aceitação.
+A [!UICONTROL Correspondência de Segmentos] não é um mercado onde dados podem ser comprados. Em vez disso, é um recurso do AEP que funciona com dados primários com parceiros selecionados, usando controles de privacidade e consentimento para ajudar a colaborar. [!UICONTROL A Correspondência de segmentos &#x200B;] ajuda a concentrar os esforços na melhoria das relações com o cliente e no crescimento da marca. É benéfico quando existem marcas ou relações de parceria pré-existentes. [!UICONTROL A experiência de Correspondência de segmentos &#x200B;] é fácil de gerenciar, escalável e permite que os administradores compartilhem segmentos de maneira controlável e com aceitação.
 
 A [!UICONTROL Correspondência de segmentos] possibilita:
 
@@ -104,7 +104,7 @@ As configurações de consentimento da [!UICONTROL Correspondência de Segmentos
 
 * Definir o atributo de compartilhamento específico às identidades (idSpecific) usando o [Grupo de campos de consentimentos e preferências](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=pt-BR).
 
-  Este grupo de campos fornece um único campo tipo objeto, consentimentos, para capturar informações de consentimento e preferência. [!UICONTROL Por padrão, a Correspondência de segmentos ] incluirá todas as identidades que não tenham sido explicitamente rejeitadas, por exemplo:
+  Este grupo de campos fornece um único campo tipo objeto, consentimentos, para capturar informações de consentimento e preferência. [!UICONTROL Por padrão, a Correspondência de segmentos &#x200B;] incluirá todas as identidades que não tenham sido explicitamente rejeitadas, por exemplo:
 
   ```
   "share": {

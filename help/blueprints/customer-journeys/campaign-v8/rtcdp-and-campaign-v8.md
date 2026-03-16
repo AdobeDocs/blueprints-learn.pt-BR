@@ -38,7 +38,7 @@ Mostra como o Adobe [!DNL Experience Platform] e seu Perfil do Cliente em Tempo 
 ## Etapas de implantação
 
 Consulte a documentação a seguir sobre como configurar o conector de origem do Campaign v8 para o Adobe Experience Platform e o conector de destino do Real-time Customer Data Platform para o Campaign v8.
-[Conectores do Campaign e do AEP ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=pt-BR)
+[Conectores do Campaign e do AEP &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=pt-BR)
 
 ## Medidas de proteção
 

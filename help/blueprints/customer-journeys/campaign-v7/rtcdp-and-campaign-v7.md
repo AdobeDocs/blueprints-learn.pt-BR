@@ -110,7 +110,7 @@ As seções a seguir descrevem as etapas de implementação para cada aplicativo
 
 ## Documentação relacionada
 
-* [Documentação do Adobe [!DNL Experience Platform] ](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
+* [Documentação do Adobe [!DNL Experience Platform] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [Documentação do [!DNL Campaign Classic]](https://experienceleague.adobe.com/docs/campaign-classic.html?lang=pt-BR)
 * [Documentação do [!DNL Campaign Standard]](https://experienceleague.adobe.com/docs/campaign-standard.html?lang=pt-BR)
 * [[!DNL Experience Platform] Documentação do Launch](https://experienceleague.adobe.com/docs/launch.html?lang=pt-BR)
