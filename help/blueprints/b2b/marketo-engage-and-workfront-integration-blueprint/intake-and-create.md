@@ -2,10 +2,10 @@
 title: Blueprint de entrada e criação
 description: Entrada e criação – Blueprint de integração do Marketo Engage e do Workfront
 exl-id: 09679521-727c-4676-8e91-23d0b7fd54a2
-source-git-commit: 8b077428fb8bb183545bd1d63fc300ff2c28f9da
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 97%
+source-wordcount: '1372'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,7 @@ O número de solicitações de marketing que uma equipe de operações de market
 
 Ao estabelecer um processo para enviar solicitações de campanha e automatizar a criação de campanhas de marketing normalmente solicitadas, você pode: aumentar a velocidade das campanhas, reduzir erros, encaminhar solicitações para o membro certo das operações de marketing, equilibrar e aprimorar a utilização de recursos e concentrar as operações de marketing em tarefas mais estratégicas.
 
-Com o Workfront e o Marketo Engage, uma conexão entre sistemas permite detalhes de um [Formulário de solicitação do Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=pt-BR){target="_blank"} para criar um programa do Marketo Engage. Depois, preencha as variáveis principais, como: linhas de assunto, texto de email, imagens, datas, horas, informações do evento e muito mais.
+Com o Workfront e o Marketo Engage, uma conexão sistema a sistema permite que detalhes de um [formulário de solicitação do Workfront](https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/create-or-edit-a-custom-form.html?lang=pt-BR){target="_blank"} criem um programa do Marketo Engage e preencham variáveis-chave como: linhas de assunto, cópia de email, imagens, datas, horas, informações de evento e muito mais.
 
 Para essa integração, você usará o Workfront Fusion, uma camada de automação de trabalho que permite automatizar fluxos de trabalho entre o Workfront e outros sistemas.
 
@@ -95,7 +95,7 @@ Criar seu centro de excelência com modelos de programa no Marketo Engage é um 
 
 Depois de ter um conjunto de modelos de programa reutilizáveis, você poderá dimensionar seus esforços usando a automação descrita neste blueprint para aumentar a velocidade de desenvolvimento da sua campanha.
 
-Para saber mais sobre como criar seu próprio centro de excelência, consulte a [Comunidade Marketo](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} para ver as práticas recomendadas.
+Para saber mais sobre como criar seu próprio centro de excelência, consulte a [Comunidade Marketo](https://nation.marketo.com/t5/product-blogs/marketo-master-class-center-of-excellence-with-chelsea-kiko/ba-p/243221){target="_blank"} para práticas recomendadas.
 
 ### Use tokens para preencher conteúdo {#use-tokens-to-populate-content}
 
