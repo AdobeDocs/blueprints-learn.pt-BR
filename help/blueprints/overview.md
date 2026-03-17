@@ -3,14 +3,14 @@ title: Casos de uso da orquestração de experiência do cliente, diagramas de a
 description: Explore os principais objetivos de negócios, padrões de casos de uso e casos de uso do setor para Adobe Experience Platform e aplicativos. Os diagramas e blueprints da arquitetura visual fornecem referências técnicas para integração do sistema, fluxos de dados e design da solução, conectando o valor comercial à implementação.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: cb112d3fe3c6a95437de69815efb50492c9bf13b
+source-git-commit: 62c69ab5ba773172b5b3b55a6c3766c58331135c
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '328'
 ht-degree: 2%
 
 ---
 
-# Blueprints de orquestração de experiência do cliente
+# Objetivos de negócios, casos de uso e diagramas de arquitetura da orquestração da experiência do cliente
 
 Este site contém **Objetivos Comerciais Principais**, que descrevem o exemplo de valor comercial principal e os objetivos que podem ser alcançados com o Adobe Experience Platform e os Aplicativos. **Os padrões de caso de uso** descrevem recursos comuns de plataforma e aplicativo com abordagens de implementação repetíveis. **Casos de uso do setor** aplicam padrões a cenários de negócios específicos por vertical. **Diagramas e blueprints de arquitetura** são diagramas de referência de fluxo de dados e arquitetura visual que ilustram pontos de integração do sistema, fluxos de dados e conteúdo e sequência de operações, fornecendo uma referência técnica para o design da solução. Juntas, essas camadas conectam o valor comercial à arquitetura e às dependências da implementação.
 
