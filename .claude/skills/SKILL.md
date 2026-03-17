@@ -1,7 +1,7 @@
 ---
 name: blueprint-document-reference
 description: Referência para criar e editar documentos do Blueprint de experiência digital do Adobe. Use ao criar novos blueprints, adicionar páginas de blueprint ou quando o usuário perguntar sobre a estrutura do blueprint, seções, modelos ou fazer referência à Adobe Experience League.
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Cada página do blueprint deve seguir essa estrutura. Inclua somente as seções
 title: [Short descriptive title]
 description: "[One sentence: what this blueprint shows and why it matters.]"
 solution: [Product name, e.g. Real-Time Customer Data Platform, Journey Optimizer]
-exl-id: [UUID - leave blank if new, this will be auto-generated as part of the Experience League publishing flow]
+exl-id: [UUID - if this is already popultated keep it as is. Disregard and remove this field if it is a new blueprint as blank values will be rejected by the publishing flow. If the field and value are not present, it will be auto-generated as part of the Experience League publishing flow]
 ---
 # [H1 - same as title or expanded]
 
@@ -98,8 +98,8 @@ Para obter uma visão geral ou páginas de hub, use uma estrutura mais curta: in
 ## Referência à Adobe Experience League
 
 - **Quando vincular**: vincular à Experience League para obter a documentação do produto, referências de API, medidas de proteção, tutoriais e etapas de configuração. Não duplique procedimentos longos; resuma e vincule.
-- **Formato de URL**: usar URLs completas. Prefira `https://experienceleague.adobe.com/docs/?lang=pt-BR...` ou `https://experienceleague.adobe.com/pt-br/docs/...`. Para documentos do desenvolvedor, `https://developer.adobe.com/...` também é válido.
-- **Texto do link**: use texto descritivo (por exemplo, &quot;[Criar esquemas] (url)&quot; e não &quot;Clique aqui&quot;). Para nomes de produtos no texto do link, use `[!DNL Product Name]` quando apropriado.
+- **Formato de URL**: usar URLs completas. Prefira `https://experienceleague.adobe.com/docs/...` ou `https://experienceleague.adobe.com/en/docs/...`. Para documentos do desenvolvedor, `https://developer.adobe.com/...` também é válido.
+- **Texto do link**: use texto descritivo (por exemplo, &quot;[Criar esquemas](url)&quot; e não &quot;Clique aqui&quot;). Para nomes de produtos no texto do link, use `[!DNL Product Name]` quando apropriado.
 - **Seção de documentação relacionada**: encerre blueprints com uma seção de &quot;Documentação relacionada&quot; agrupando links por categoria (por exemplo, configurações de destino, documentação do SDK, Perfil e segmentação, Tutoriais).
 
 Para obter padrões detalhados de URL, agrupamento de links e exemplos, consulte [reference.md](reference.md).

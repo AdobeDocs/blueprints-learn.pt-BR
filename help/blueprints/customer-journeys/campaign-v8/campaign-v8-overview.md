@@ -4,10 +4,10 @@ description: Saiba mais sobre o blueprint do Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
 exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
-source-git-commit: 0a3ebcbc6029df46bd988cb8f15ecf838f80c3c9
+source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 31%
+source-wordcount: '1045'
+ht-degree: 29%
 
 ---
 
@@ -47,7 +47,7 @@ Ele também inclui um servidor de mensagens escalável em tempo real que permite
 
 ## Diagramas de arquitetura
 
-Saiba mais sobre os [modelos de implantação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=pt-BR#ac-deployment){target="_blank"}.
+Saiba mais sobre os [modelos de implantação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
 
 ### Implantação do Campaign Enterprise (FFDA)
 
@@ -135,13 +135,13 @@ Existem os seguintes pré-requisitos para este blueprint.
 
 <br>
 
-## Etapas de implantação
+## Etapas de implementação
 
-Consulte o guia de introdução para a [Implementação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=pt-BR)
+Consulte o guia de introdução para a [Implementação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
 
 ## Documentação relacionada
 
-- [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=pt-BR)
-- [Descrição do produto Campaign v8](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Documentação de tags da Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=pt-BR)
-- [Documentação do SDK móvel da Experience Platform](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)
+- [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
+- [Descrição de produto do Campaign v8](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
+- [Documentação de tags do Experience Platform](https://experienceleague.adobe.com/docs/launch.html)
+- [Documentação do Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
