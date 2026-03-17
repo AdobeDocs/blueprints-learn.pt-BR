@@ -100,7 +100,7 @@ Ative públicos-alvo B2B baseados em conta nos canais da Web, de email e de publ
 Os aplicativos a seguir são usados para implementar esse padrão de caso de uso.
 
 - **[!DNL Real-Time CDP]B2B edition** — Plataforma principal para unificação de perfil de conta, resolução de identidade B2B, avaliação de público-alvo de conta, configuração de destino específica para B2B e ativação de público-alvo de conta
-- **[!DNL Adobe Experience Platform](AEP)** — Infraestrutura básica para modelagem de dados XDM B2B, assimilação de dados do CRM e fontes de automação de marketing, serviço de identidade e governança
+- **[!DNL Adobe Experience Platform] (AEP)** — Infraestrutura básica para modelagem de dados XDM B2B, assimilação de dados do CRM e fontes de automação de marketing, serviço de identidade e governança
 - **[!DNL Marketo Engage]** — Destino principal de automação de marketing B2B para programas de criação de clientes potenciais, pontuação e execução de campanha alimentados por públicos-alvo de contas ativadas
 
 ## Funções básicas

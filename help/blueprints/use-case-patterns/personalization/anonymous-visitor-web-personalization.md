@@ -100,9 +100,9 @@ Forneça conteúdo personalizado com base em sinais comportamentais na sessão p
 
 Os aplicativos a seguir são usados neste padrão de caso de uso.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — Configuração da superfície de canal da Web, criação de conteúdo (experiências da Web e baseadas em código), execução de campanha, experimentação de conteúdo (teste A/B), decisão (seleção de conteúdo dinâmico) e relatórios
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Segmentação Edge para avaliação de público-alvo em tempo real com base em sinais comportamentais na sessão; gerenciamento de perfil de borda anônimo
-- **[!DNL Adobe Experience Platform](AEP)** — [!DNL Web SDK] para coleta de sinal comportamental, [!DNL Edge Network] para entrega de roteamento e personalização de dados em tempo real e configuração de sequência de dados
+- **[!DNL Adobe Journey Optimizer] (AJO)** — Configuração da superfície de canal da Web, criação de conteúdo (experiências da Web e baseadas em código), execução de campanha, experimentação de conteúdo (teste A/B), decisão (seleção de conteúdo dinâmico) e relatórios
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Segmentação Edge para avaliação de público-alvo em tempo real com base em sinais comportamentais na sessão; gerenciamento de perfil de borda anônimo
+- **[!DNL Adobe Experience Platform] (AEP)** — [!DNL Web SDK] para coleta de sinal comportamental, [!DNL Edge Network] para entrega de roteamento e personalização de dados em tempo real e configuração de sequência de dados
 
 ## Funções básicas
 

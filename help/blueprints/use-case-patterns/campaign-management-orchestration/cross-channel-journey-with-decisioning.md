@@ -91,10 +91,10 @@ Orquestrar uma jornada multicanal de várias etapas que incorpora a decisão em 
 
 Os aplicativos a seguir são usados para implementar esse padrão de caso de uso.
 
-- **[!DNL Adobe Journey Optimizer]([!DNL AJO])** — orquestração de Jornadas (design de tela de várias etapas, condições de entrada, esperas, condições, critérios de saída), criação de mensagens entre canais, configuração da superfície de canal, gerenciamento de conflitos e prioridades
+- **[!DNL Adobe Journey Optimizer] ([!DNL AJO])** — orquestração de Jornadas (design de tela de várias etapas, condições de entrada, esperas, condições, critérios de saída), criação de mensagens entre canais, configuração da superfície de canal, gerenciamento de conflitos e prioridades
 - **[!DNL Adobe Journey Optimizer]Decisão** — Gerenciamento de oferta e item de conteúdo, regras de elegibilidade, estratégias de classificação (prioridade, fórmula, IA), políticas de decisão, posicionamentos, ofertas de fallback
-- **[!DNL Adobe Real-Time Customer Data Platform]([!DNL RT-CDP])** — Avaliação de público para entrada de jornada e segmentos de qualificação de oferta, enriquecimento de perfil com atributos computados e pontuações de propensão, consentimento e imposição de governança
-- **[!DNL Adobe Experience Platform]([!DNL AEP])** — armazenamento de Perfil do Cliente em Tempo Real, Serviço de Identidade para resolução entre canais, modelagem de dados e infraestrutura de assimilação
+- **[!DNL Adobe Real-Time Customer Data Platform] ([!DNL RT-CDP])** — Avaliação de público para entrada de jornada e segmentos de qualificação de oferta, enriquecimento de perfil com atributos computados e pontuações de propensão, consentimento e imposição de governança
+- **[!DNL Adobe Experience Platform] ([!DNL AEP])** — armazenamento de Perfil do Cliente em Tempo Real, Serviço de Identidade para resolução entre canais, modelagem de dados e infraestrutura de assimilação
 
 ## Funções básicas
 

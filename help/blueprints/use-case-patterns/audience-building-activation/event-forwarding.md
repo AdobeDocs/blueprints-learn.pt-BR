@@ -80,9 +80,9 @@ Esta seção descreve o padrão e a cadeia de função usados para implementar o
 
 Os aplicativos a seguir são usados neste padrão de caso de uso.
 
-- **[!DNL Adobe Experience Platform](Edge Network)** — Recebe e roteia dados de eventos em tempo real do Web SDK, Mobile SDK ou API de servidor por meio de sequências de dados configuradas
-- **[!DNL Adobe Experience Platform](Encaminhamento de Eventos)** — Fornece o mecanismo de regras do lado do servidor para avaliação, filtragem, transformação e encaminhamento de dados de eventos para destinos externos
-- **[!DNL Adobe Experience Platform](Marcas/Coleção de Dados)** — Gerencia o ciclo de vida, as extensões, as regras e o fluxo de trabalho de publicação da propriedade de encaminhamento de eventos
+- **[!DNL Adobe Experience Platform] (Edge Network)** — Recebe e roteia dados de eventos em tempo real do Web SDK, Mobile SDK ou API de servidor por meio de sequências de dados configuradas
+- **[!DNL Adobe Experience Platform] (Encaminhamento de Eventos)** — Fornece o mecanismo de regras do lado do servidor para avaliação, filtragem, transformação e encaminhamento de dados de eventos para destinos externos
+- **[!DNL Adobe Experience Platform] (Marcas/Coleção de Dados)** — Gerencia o ciclo de vida, as extensões, as regras e o fluxo de trabalho de publicação da propriedade de encaminhamento de eventos
 
 ## Funções básicas
 

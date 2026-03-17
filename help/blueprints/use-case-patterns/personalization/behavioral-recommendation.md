@@ -99,9 +99,9 @@ Consulte a seção Composição do padrão em Considerações sobre implementaç
 
 Os aplicativos a seguir são usados neste padrão de caso de uso.
 
-- **[!DNL Adobe Journey Optimizer](AJO) Decisão** — Estratégias de seleção, modelos de classificação, catálogos de itens e políticas de decisão que avaliam sinais comportamentais e retornam os itens mais relevantes para cada visitante
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Acúmulo de dados de perfil comportamental, avaliação de público-alvo para escopo de recomendação e atributos computados para pontuação de afinidade comportamental
-- **[!DNL Adobe Experience Platform](AEP)** — Assimilação comportamental de evento via [!DNL Web SDK] e [!DNL Mobile SDK], processamento de [!DNL Edge Network], gerenciamento de esquema XDM para dados de evento e catálogo
+- **[!DNL Adobe Journey Optimizer] (AJO) Decisão** — Estratégias de seleção, modelos de classificação, catálogos de itens e políticas de decisão que avaliam sinais comportamentais e retornam os itens mais relevantes para cada visitante
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Acúmulo de dados de perfil comportamental, avaliação de público-alvo para escopo de recomendação e atributos computados para pontuação de afinidade comportamental
+- **[!DNL Adobe Experience Platform] (AEP)** — Assimilação comportamental de evento via [!DNL Web SDK] e [!DNL Mobile SDK], processamento de [!DNL Edge Network], gerenciamento de esquema XDM para dados de evento e catálogo
 
 ## Funções básicas
 

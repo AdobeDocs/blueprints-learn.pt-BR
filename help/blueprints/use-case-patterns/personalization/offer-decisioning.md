@@ -84,9 +84,9 @@ Consulte a seção [Opções de implementação](#implementation-options) para s
 
 Os seguintes aplicativos da Adobe são usados neste padrão de caso de uso.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — Mecanismo do Gerenciamento de Decisões para criação de ofertas, regras de qualificação, estratégias de classificação, posicionamentos e políticas de decisão; configuração de canais e criação de mensagens para entrega de ofertas; execução de campanhas e jornadas
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Avaliação de público-alvo para segmentos de qualificação de oferta; dados de perfil e atributos computados usados na qualificação e classificação
-- **[!DNL Adobe Experience Platform](AEP)** — Repositório de perfil unificado, resolução de identidade e base de dados com suporte para AJO e RT-CDP
+- **[!DNL Adobe Journey Optimizer] (AJO)** — Mecanismo do Gerenciamento de Decisões para criação de ofertas, regras de qualificação, estratégias de classificação, posicionamentos e políticas de decisão; configuração de canais e criação de mensagens para entrega de ofertas; execução de campanhas e jornadas
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Avaliação de público-alvo para segmentos de qualificação de oferta; dados de perfil e atributos computados usados na qualificação e classificação
+- **[!DNL Adobe Experience Platform] (AEP)** — Repositório de perfil unificado, resolução de identidade e base de dados com suporte para AJO e RT-CDP
 
 ## Funções básicas
 
