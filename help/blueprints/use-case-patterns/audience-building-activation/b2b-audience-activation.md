@@ -124,7 +124,7 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 | Criação de atributo calculado/derivado | Recomendado | Pontuações de engajamento agregadas, valor vitalício e métricas de atividade no nível da conta melhoram a precisão do público-alvo. Os atributos computados podem acumular eventos de nível de pessoa (aberturas de email, visitas da Web, downloads de conteúdo) no nível de conta para uso na segmentação. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | As políticas de retenção de dados B2B garantem que os dados obsoletos da conta e da oportunidade sejam apagados. O gerenciamento de consentimento para contatos B2B garante a conformidade com as regulamentações de marketing por email. As políticas de expiração do conjunto de dados impedem o acúmulo de dados desatualizados de sincronização de CRM. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
 | Rotulagem e aplicação de uso de dados | Incluído | Os dados da conta B2B geralmente contêm restrições contratuais (valores de receita, contagens de funcionários de provedores de terceiros). Os rótulos de uso de dados impedem que atributos de conta restritos sejam ativados para destinos não autorizados. As políticas de governança garantem que os campos de PII dos registros de contato sejam manipulados adequadamente durante a ativação. | [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Monitoramento e capacidade de observação | Incluído | O monitoramento do CRM e dos fluxos de dados do conector de origem [!DNL Marketo Engage] garante que os dados da conta permaneçam atualizados. O monitoramento de ativação de destino confirma que os públicos-alvo foram entregues com êxito para [!DNL LinkedIn], [!DNL Marketo] e destinos de CRM. As regras de alerta capturam falhas de assimilação que causariam dados de conta obsoletos. | [Visão geral dos alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Monitorar fluxos de dados de destino](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations) |
+| Monitoramento e capacidade de observação | Incluído | O monitoramento do CRM e dos fluxos de dados do conector de origem [!DNL Marketo Engage] garante que os dados da conta permaneçam atualizados. O monitoramento de ativação de destino confirma que os públicos-alvo foram entregues com êxito para [!DNL LinkedIn], [!DNL Marketo] e destinos de CRM. As regras de alerta capturam falhas de assimilação que causariam dados de conta obsoletos. | [Visão geral dos alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Monitorar fluxos de dados de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor-destinations) |
 | Relatórios e análise | Recomendado | O B2B edition [!DNL CJA] fornece análises a nível de conta, incluindo alcance de público, envolvimento e influência do pipeline. A atribuição baseada em conta ajuda a medir o impacto das campanhas de ativação na progressão da oportunidade e na receita. | [visão geral do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Funções do aplicativo
@@ -279,7 +279,7 @@ A ativação baseada em arquivo oferece mais controle sobre o formato de exporta
 
 **Experience League:**
 
-- [Destino do Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
+- [Destino do Amazon S3](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
 - [Destino do Azure Blob Storage](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob)
 - [Ativar públicos para destinos em lote](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/connect-activate-batch-destinations)
 
@@ -317,7 +317,7 @@ O conector de transmissão envia atualizações incrementais conforme ocorrem al
 **Experience League:**
 
 - [Destino do Salesforce CRM](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/salesforce)
-- [Destino do Microsoft Dynamics 365](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
+- [Destino do Microsoft Dynamics 365](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
 
 ### Comparação de opções
 
@@ -532,7 +532,7 @@ Navegue até Destinos > Catálogo > CRM > selecione [!DNL Salesforce] ou [!DNL D
 - [Destino do Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
 - [Destino de públicos correspondentes do LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
 - [Destino do Salesforce CRM](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/salesforce)
-- [Destino do Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
+- [Destino do Amazon S3](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
 
 ### Fase 4: Ativação do público-alvo
 
@@ -597,7 +597,7 @@ Selecione os públicos da conta a serem ativados. A ativação começa a transmi
 
 - [Ativar públicos para destinos de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
 - [Ativar públicos para destinos em lote](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Medidas de proteção de ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Medidas de proteção de ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/guardrails)
 - [Visão geral dos destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
 
 ### Fase 5: governança e monitoramento
@@ -645,9 +645,9 @@ Essa fase garante que a ativação do público-alvo da conta esteja em conformid
 
 - [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [Consentimento e preferências](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [Monitorar fluxos de dados de destino](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Monitorar fluxos de dados de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor-destinations)
 - [Visão geral de alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Medidas de proteção de ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Medidas de proteção de ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/guardrails)
 
 ## Considerações de implantação
 
@@ -659,7 +659,7 @@ Revise as medidas de proteção e os limites de plataforma a seguir que se aplic
 
 - Máximo de 4.000 definições de segmento por sandbox, incluindo públicos-alvo da conta — [Medidas de proteção de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - Os públicos-alvo da conta são avaliados principalmente usando a avaliação em lote; a qualificação da transmissão é limitada às condições simples do atributo da conta
-- Máximo de 100 fluxos de dados por conexão de destino — [Medidas de proteção de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- Máximo de 100 fluxos de dados por conexão de destino — [Medidas de proteção de destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/guardrails)
 - Os destinos em lote exportam até 5 milhões de perfis por segmento de arquivo
 - Os destinos de transmissão têm limites de taxa de transferência por segundo definidos pelo parceiro de destino (por exemplo, limites de taxa de API [!DNL Marketo])
 - Os públicos-alvo compostos (da Composição de público-alvo) estão limitados à avaliação em lote e não podem usar a transmissão
@@ -754,11 +754,11 @@ Os recursos a seguir fornecem contexto adicional e orientação detalhada para o
 - [Destino do Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/adobe/marketo-engage)
 - [Destino de públicos correspondentes do LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
 - [Destino do Salesforce CRM](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/salesforce)
-- [Destino do Microsoft Dynamics 365](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
-- [Destino do Amazon S3](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
+- [Destino do Microsoft Dynamics 365](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/crm/microsoft-dynamics-365)
+- [Destino do Amazon S3](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3)
 - [Ativar públicos para destinos de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
 - [Ativar públicos para destinos em lote](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Medidas de proteção de ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- [Medidas de proteção de ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/guardrails)
 
 **Fontes de dados e conectores**
 
@@ -782,7 +782,7 @@ Os recursos a seguir fornecem contexto adicional e orientação detalhada para o
 **Monitoramento e observabilidade**
 
 - [Visão geral de alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Monitorar fluxos de dados de destino](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Monitorar fluxos de dados de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor-destinations)
 - [Monitorar fluxos de dados de origem](https://experienceleague.adobe.com/en/docs/experience-platform/sources/api-tutorials/monitor)
 - [Painel de uso da licença](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 

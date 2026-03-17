@@ -93,11 +93,11 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 
 | Função de base | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
-| Administração e governança | Presumido em vigor | Sandbox RT-CDP provisionada e ativa. Permissões de ativação e gerenciamento de destino atribuídas a funções de implementação. Credenciais de conta de destino disponíveis para as plataformas de destino. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home), [Visão geral do controle de acesso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Preparação e modelagem de dados | Obrigatório | O esquema de perfil deve incluir atributos que serão mapeados para campos de destino (por exemplo, email, telefone, identificadores com hash, atributos demográficos). O esquema deve ser habilitado para perfis com conjuntos de dados recebendo dados ativamente. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [noções básicas de composição de esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
-| Fontes de dados e coleção | Presumido em vigor | Os dados do perfil que possibilitam a avaliação do público-alvo devem ser assimilados e atuais. Os pipelines de assimilação em lote e/ou fluxo estão operacionais. Web SDK, conectores de origem ou assimilação em lote que fornecem dados em conjuntos de dados habilitados para perfil. | [Visão geral das fontes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [Visão geral do Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) |
-| Configuração de identidade e perfil | Obrigatório | Os namespaces de identidade para correspondência de destino devem ser configurados (por exemplo, email com hash para Públicos-alvo personalizados do Facebook, Correspondência de cliente do Google Ads). As políticas de mesclagem devem produzir perfis unificados com todos os atributos necessários para ativação. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
-| Definição e segmentação do público-alvo | Obrigatório | Público-alvo definido usando o Construtor de segmentos, a Composição de público-alvo ou a Composição de público-alvo federado. Método de avaliação (lote, streaming ou borda) selecionado com base nas necessidades de latência de ativação. Esta função é exercida na Fase 1 deste plano. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
+| Administração e governança | Presumido em vigor | Sandbox RT-CDP provisionada e ativa. Permissões de ativação e gerenciamento de destino atribuídas a funções de implementação. Credenciais de conta de destino disponíveis para as plataformas de destino. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home), [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
+| Preparação e modelagem de dados | Obrigatório | O esquema de perfil deve incluir atributos que serão mapeados para campos de destino (por exemplo, email, telefone, identificadores com hash, atributos demográficos). O esquema deve ser habilitado para perfis com conjuntos de dados recebendo dados ativamente. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), [noções básicas de composição de esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition) |
+| Fontes de dados e coleção | Presumido em vigor | Os dados do perfil que possibilitam a avaliação do público-alvo devem ser assimilados e atuais. Os pipelines de assimilação em lote e/ou fluxo estão operacionais. Web SDK, conectores de origem ou assimilação em lote que fornecem dados em conjuntos de dados habilitados para perfil. | [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home), [Visão geral do Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home) |
+| Configuração de identidade e perfil | Obrigatório | Os namespaces de identidade para correspondência de destino devem ser configurados (por exemplo, email com hash para Públicos-alvo personalizados do Facebook, Correspondência de cliente do Google Ads). As políticas de mesclagem devem produzir perfis unificados com todos os atributos necessários para ativação. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home), [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview) |
+| Definição e segmentação do público-alvo | Obrigatório | Público-alvo definido usando o Construtor de segmentos, a Composição de público-alvo ou a Composição de público-alvo federado. Método de avaliação (lote, streaming ou borda) selecionado com base nas necessidades de latência de ativação. Esta função é exercida na Fase 1 deste plano. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home), [guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## Funções de suporte
 
@@ -105,11 +105,11 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 
 | Função de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
-| Criação de atributo calculado/derivado | Recomendado | Os atributos computados, como valor vitalício, pontuação de engajamento ou pontuação de propensão, melhoram a precisão do público-alvo e fornecem atributos de enriquecimento para mapear a destinos. Particularmente valioso quando os destinos se beneficiam da segmentação de público com base em valor ou em pontuação. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
-| Gerenciamento do ciclo de vida dos dados | Recomendado | As políticas de expiração de conjuntos de dados e perfis garantem a atualização e a conformidade dos dados. A configuração do esquema de consentimento garante que apenas perfis consentidos sejam ativados. Essencial para a conformidade normativa ao exportar dados para sistemas externos. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Rotulagem e aplicação de uso de dados | Recomendado | Os rótulos e políticas de governança impedem a ativação de dados restritos para destinos não autorizados (por exemplo, plataformas PII para anúncio, segmentos confidenciais para parceiros de dados). Especialmente importante para a ativação de públicos-alvo para sistemas externos de terceiros. | [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview) |
-| Monitoramento e capacidade de observação | Incluído | O monitoramento de ativação faz parte da cadeia de funções (Fase 5). Abrange monitoramento de execução de fluxo de dados, alertas de status do delivery, rastreamento do público-alvo e visibilidade do uso de licença. | [Monitorar fluxos de dados de destino](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations), [Visão geral dos alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview) |
-| Relatórios e análise | Recomendado | A análise do CJA da eficácia de ativação de público permite medir o desempenho de públicos ativados (por exemplo, aumento de conversão da supressão, ROAS de públicos semelhantes). | [visão geral do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Criação de atributo calculado/derivado | Recomendado | Os atributos computados, como valor vitalício, pontuação de engajamento ou pontuação de propensão, melhoram a precisão do público-alvo e fornecem atributos de enriquecimento para mapear a destinos. Particularmente valioso quando os destinos se beneficiam da segmentação de público com base em valor ou em pontuação. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview) |
+| Gerenciamento do ciclo de vida dos dados | Recomendado | As políticas de expiração de conjuntos de dados e perfis garantem a atualização e a conformidade dos dados. A configuração do esquema de consentimento garante que apenas perfis consentidos sejam ativados. Essencial para a conformidade normativa ao exportar dados para sistemas externos. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
+| Rotulagem e aplicação de uso de dados | Recomendado | Os rótulos e políticas de governança impedem a ativação de dados restritos para destinos não autorizados (por exemplo, plataformas PII para anúncio, segmentos confidenciais para parceiros de dados). Especialmente importante para a ativação de públicos-alvo para sistemas externos de terceiros. | [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home), [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview) |
+| Monitoramento e capacidade de observação | Incluído | O monitoramento de ativação faz parte da cadeia de funções (Fase 5). Abrange monitoramento de execução de fluxo de dados, alertas de status do delivery, rastreamento do público-alvo e visibilidade do uso de licença. | [Monitorar fluxos de dados de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor-destinations), [Visão geral dos alertas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview) |
+| Relatórios e análise | Recomendado | A análise do CJA da eficácia de ativação de público permite medir o desempenho de públicos ativados (por exemplo, aumento de conversão da supressão, ROAS de públicos semelhantes). | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Funções do aplicativo
 
@@ -176,8 +176,8 @@ A ativação de transmissão é o padrão para a maioria dos destinos de platafo
 
 **Experience League:**
 
-- [Ativar públicos para destinos de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Catálogo de destinos de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Ativar públicos para destinos de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Catálogo de destinos de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/overview)
 
 ### Opção B: Ativação de destino em lote (exportação de arquivo)
 
@@ -215,7 +215,7 @@ Essa abordagem oferece suporte à mais ampla variedade de consumidores downstrea
 
 **Experience League:**
 
-- [Ativar públicos para destinos de exportação de perfil em lote](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Ativar públicos para destinos de exportação de perfil em lote](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
 - [Catálogo de destinos baseado em arquivo](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage)
 
 ### Opção C: Ativação de vários destinos
@@ -253,8 +253,8 @@ Esse é um padrão de produção comum para organizações que operam em várias
 
 **Experience League:**
 
-- [Visão geral dos destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Catálogo de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Visão geral dos destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home)
+- [Catálogo de destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/overview)
 
 ### Comparação de opções
 
@@ -349,13 +349,13 @@ O método de avaliação deve acomodar o destino mais exigente. Se qualquer dest
 
 **Documentação do Experience League:**
 
-- [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Referência do Profile Query Language](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Segmentação de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Segmentação de borda](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Visão geral da composição de público-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Métodos de avaliação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home#evaluation-methods)
+- [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home)
+- [Guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder)
+- [Referência do Profile Query Language](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/pql/overview)
+- [Segmentação de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Segmentação de borda](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Visão geral da composição de público-alvo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-composition)
+- [Métodos de avaliação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home#evaluation-methods)
 
 
 ### Fase 2: configuração de destino
@@ -427,12 +427,12 @@ Repita essa fase para cada destino. Cada conexão é independente — você pode
 
 **Documentação do Experience League:**
 
-- [Catálogo de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Visão geral dos destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Ativar públicos para destinos de exportação de perfil em lote](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Ativar públicos para destinos de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Visão geral do Destination SDK](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
-- [Opções de configuração do Destination SDK](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
+- [Catálogo de destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/overview)
+- [Visão geral dos destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home)
+- [Ativar públicos para destinos de exportação de perfil em lote](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Ativar públicos para destinos de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Visão geral do Destination SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/destination-sdk/overview)
+- [Opções de configuração do Destination SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/destination-sdk/functionality/configuration-options)
 
 
 ### Fase 3: Ativação do público-alvo
@@ -490,10 +490,10 @@ Repita o fluxo de trabalho de ativação para cada destino. O mesmo público pod
 
 **Documentação do Experience League:**
 
-- [Ativar públicos para destinos de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Ativar públicos para destinos de exportação de perfil em lote](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Ativar públicos-alvo sob demanda para destinos em lote](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [Monitorar fluxos de dados para destinos](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Ativar públicos para destinos de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Ativar públicos para destinos de exportação de perfil em lote](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Ativar públicos-alvo sob demanda para destinos em lote](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [Monitorar fluxos de dados para destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor-destinations)
 
 
 ### Fase 4: validação de governança
@@ -537,11 +537,11 @@ Repita o fluxo de trabalho de ativação para cada destino. O mesmo público pod
 
 **Documentação do Experience League:**
 
-- [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Aplicação de política](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home)
+- [Aplicação de política](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/enforcement/overview)
 - [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview)
 - [Consentimento e preferências](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
-- [Aplicação da política de consentimento](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide)
+- [Aplicação da política de consentimento](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/policies/user-guide)
 
 
 ### Fase 5: Monitoramento e validação
@@ -562,9 +562,9 @@ Repita o fluxo de trabalho de ativação para cada destino. O mesmo público pod
 
 **Documentação do Experience League:**
 
-- [Monitorar fluxos de dados para destinos](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [Visão geral de alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Visão geral dos Insights de observação](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Monitorar fluxos de dados para destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Visão geral de alertas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview)
+- [Visão geral dos Insights de observação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home)
 - [Painel de uso da licença](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 ## Considerações de implantação
@@ -573,15 +573,15 @@ Analise as seguintes considerações antes e durante a implementação.
 
 ### Medidas de proteção e limites
 
-- **Limite de definição de segmento:** Máximo de 4.000 definições de segmento por sandbox — [Medidas de proteção de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- **Fluxos de dados por destino:** Máximo de 100 fluxos de dados por conexão de destino — [Medidas de proteção de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **Limite de definição de segmento:** Máximo de 4.000 definições de segmento por sandbox — [Medidas de proteção de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails)
+- **Fluxos de dados por destino:** Máximo de 100 fluxos de dados por conexão de destino — [Medidas de proteção de destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/guardrails)
 - **Tamanho do arquivo de exportação em lote:** os destinos baseados em arquivo têm limites máximos de tamanho de arquivo de exportação; públicos-alvo grandes são automaticamente divididos em vários arquivos
 - **Taxa de transferência de destino de streaming:** limites de taxa de transferência por segundo são definidos por cada parceiro de destino; alterações de alto volume de público podem ser limitadas
 - **Capacidade de avaliação em lote:** Até 24 milhões de perfis por trabalho de avaliação de segmento por padrão
 - **Composição de público-alvo:** Máximo de 10 blocos de composição por tela; públicos-alvo compostos são avaliados somente em lote
-- **Gráfico de identidade:** Máximo de 50 identidades por gráfico — [Medidas de proteção do Serviço de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
-- **Atributos computados:** Máximo de 25 atributos computados por sandbox — [Medidas de proteção de atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview#guardrails)
-- **Visão geral das medidas de proteção de ativação:** [Medidas de proteção de ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
+- **Gráfico de identidade:** Máximo de 50 identidades por gráfico — [Medidas de proteção do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/guardrails)
+- **Atributos computados:** Máximo de 25 atributos computados por sandbox — [Medidas de proteção de atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview#guardrails)
+- **Visão geral das medidas de proteção de ativação:** [Medidas de proteção de ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/guardrails)
 
 ### Armadilhas comuns
 
@@ -651,72 +651,72 @@ Analise as seguintes considerações antes e durante a implementação.
 
 **Destinos**
 
-- [Visão geral dos destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Catálogo de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
-- [Ativar públicos para destinos de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
-- [Ativar públicos para destinos de exportação de perfil em lote](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Ativar públicos-alvo sob demanda para destinos em lote](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/api/ad-hoc-activation-api)
-- [Medidas de proteção de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [Visão geral do Destination SDK](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-sdk/overview)
+- [Visão geral dos destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home)
+- [Catálogo de destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/overview)
+- [Ativar públicos para destinos de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations)
+- [Ativar públicos para destinos de exportação de perfil em lote](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Ativar públicos-alvo sob demanda para destinos em lote](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/api/ad-hoc-activation-api)
+- [Medidas de proteção de destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/guardrails)
+- [Visão geral do Destination SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/destination-sdk/overview)
 
 **Públicos-alvo e segmentação**
 
-- [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
-- [Guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
-- [Referência do Profile Query Language](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Segmentação de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Segmentação de borda](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Visão geral da composição de público-alvo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
-- [Proteções de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home)
+- [Guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder)
+- [Referência do Profile Query Language](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/pql/overview)
+- [Segmentação de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Segmentação de borda](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Visão geral da composição de público-alvo](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-composition)
+- [Proteções de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails)
 
 **Identidade e perfil**
 
-- [Visão geral do serviço de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [Visão geral do serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home)
 - [Visão geral dos namespaces de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/namespaces)
-- [Regras de vinculação do gráfico de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/identity-linking-logic)
-- [Visão geral do perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+- [Regras de vinculação do gráfico de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/features/identity-linking-logic)
+- [Visão geral do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/home)
+- [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview)
 
 **Modelagem de dados e esquemas**
 
-- [Visão geral do sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Noções básicas de composição de esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home)
+- [Noções básicas de composição de esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition)
 
 **Governança de dados**
 
-- [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home)
 - [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview)
-- [Políticas de governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
-- [Aplicação de política](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview)
+- [Políticas de governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/policies/overview)
+- [Aplicação de política](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/enforcement/overview)
 - [Consentimento e preferências](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/consent/adobe/overview)
 
 **Monitoramento e observabilidade**
 
-- [Monitorar fluxos de dados para destinos](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-destinations)
-- [Visão geral de alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Visão geral dos Insights de observação](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home)
+- [Monitorar fluxos de dados para destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor-destinations)
+- [Visão geral de alertas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview)
+- [Visão geral dos Insights de observação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home)
 - [Painel de uso da licença](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license-usage-and-guardrails/license-usage-dashboard)
 
 **Atributos computados**
 
-- [Visão geral de atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
-- [Guia da interface de atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/ui)
+- [Visão geral de atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview)
+- [Guia da interface de atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/ui)
 
 **Fontes e coleção de dados**
 
-- [Visão geral das fontes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
-- [Visão geral do Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Configurar sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
+- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+- [Visão geral do Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home)
+- [Configurar sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure)
 
 **Administração**
 
 - [Visão geral de sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home)
-- [Visão geral do controle de acesso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
-- [Controle de acesso baseado em atributos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)
+- [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home)
+- [Controle de acesso baseado em atributos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/abac/overview)
 
 **Medidas de proteção**
 
-- [Medidas de proteção do Perfil do cliente em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
-- [Medidas de proteção do serviço de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/guardrails)
-- [Medidas de proteção de ativação](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)
-- [Medidas de proteção de assimilação](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
+- [Medidas de proteção do Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails)
+- [Medidas de proteção do serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/guardrails)
+- [Medidas de proteção de ativação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/guardrails)
+- [Medidas de proteção de assimilação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/guardrails)
