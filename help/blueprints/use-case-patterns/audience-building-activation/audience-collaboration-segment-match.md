@@ -687,4 +687,4 @@ Os recursos a seguir fornecem detalhes adicionais sobre os recursos usados neste
 ### Tutoriais
 
 - [Crie um esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/union-schema)
-- [Ativar um conjunto de dados para o Perfil](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-for-profile)
+- [Ativar um conjunto de dados para o Perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/enable-for-profile)
