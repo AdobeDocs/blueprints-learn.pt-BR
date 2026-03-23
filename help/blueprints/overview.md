@@ -3,10 +3,10 @@ title: Casos de uso da orquestração de experiência do cliente, diagramas de a
 description: Explore os principais objetivos de negócios, padrões de casos de uso e casos de uso do setor para Adobe Experience Platform e aplicativos. Os diagramas e blueprints da arquitetura visual fornecem referências técnicas para integração do sistema, fluxos de dados e design da solução, conectando o valor comercial à implementação.
 doc-type: overview-page
 exl-id: 52898310-9723-4ec2-ba10-f45fefe29e93
-source-git-commit: 62c69ab5ba773172b5b3b55a6c3766c58331135c
+source-git-commit: 63154ca158b773287f0d1a7f88a81ac3181c43a0
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -74,7 +74,7 @@ Casos de uso personalizados para setores específicos, cada um mapeado para padr
 </tr>
 </table>
 
-[Ver todos os casos de uso do setor](industry-use-cases/overview.md)
+[Ver todos os casos de uso do setor](industry-use-cases/use-case-catalog.md)
 
 ## Diagramas e blueprints de arquitetura
 
