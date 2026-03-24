@@ -625,6 +625,6 @@ Os recursos a seguir fornecem detalhes adicionais sobre os tópicos abordados ne
 
 - [Configurar sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
 - [Visão geral dos fluxos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Visão geral do Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [Visão geral do Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home)
 - [Visão geral da API do Edge Network Server](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
 - [Visão geral das tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)

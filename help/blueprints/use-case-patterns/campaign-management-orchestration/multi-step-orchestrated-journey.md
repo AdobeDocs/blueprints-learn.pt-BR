@@ -112,9 +112,9 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 | Função de base | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
 | Administração e governança | Presumido em vigor | sandbox da AJO com permissões de criação e publicação de jornadas. As superfícies de canal de todos os canais usados na jornada devem ser configuradas. Os usuários devem ter as funções apropriadas (profissional de marketing, gerente de Jornadas) com permissões de jornada e campanha. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home), [Visão geral do controle de acesso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Preparação e modelagem de dados | Obrigatório | Esquema de perfil XDM com atributos usados para ramificação de condição e personalização em várias mensagens (por exemplo, nível de fidelidade, interesse do produto, pontuação de envolvimento). Esquemas de evento de experiência para eventos de conversão que determinam os critérios de saída e a avaliação da condição (por exemplo, eventos de compra, envios de formulário). | [Visão geral do sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [noções básicas de composição de esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| Preparação e modelagem de dados | Obrigatório | Esquema de perfil XDM com atributos usados para ramificação de condição e personalização em várias mensagens (por exemplo, nível de fidelidade, interesse do produto, pontuação de envolvimento). Esquemas de evento de experiência para eventos de conversão que determinam os critérios de saída e a avaliação da condição (por exemplo, eventos de compra, envios de formulário). | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), [noções básicas de composição de esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
 | Fontes de dados e coleção | Presumido em vigor | A transmissão do evento deve estar ativa se os critérios ou condições de saída dependerem de eventos em tempo real (por exemplo, comprar evento para sair da jornada). Assimilação em lote para atributos de perfil usados na ramificação. Web SDK ou API do lado do servidor para coleção de eventos comportamentais. | [Visão geral da assimilação de streaming](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview), [Visão geral das fontes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
-| Configuração de identidade e perfil | Presumido em vigor | Os perfis devem ser resolvidos em todos os canais usados na jornada (email, SMS, push). A identidade entre dispositivos deve ser configurada se a jornada abranger os pontos de contato da Web e móveis. A política de mesclagem deve ser configurada para a sandbox. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
+| Configuração de identidade e perfil | Presumido em vigor | Os perfis devem ser resolvidos em todos os canais usados na jornada (email, SMS, push). A identidade entre dispositivos deve ser configurada se a jornada abranger os pontos de contato da Web e móveis. A política de mesclagem deve ser configurada para a sandbox. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home), [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) |
 | Definição e segmentação do público-alvo | Obrigatório | O público-alvo de entrada deve ser definido para jornadas lidas por público-alvo. Os segmentos também podem ser usados em nós de condição para ramificação. O método de avaliação (lote ou streaming) deve corresponder aos requisitos de entrada de jornada. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder) |
 
 ## Funções de suporte
@@ -123,11 +123,11 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 
 | Função de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
-| Criação de atributo calculado/derivado | Recomendado | Atributos computados, como pontuações de engajamento, dias desde a última atividade ou valor de compra vitalício, melhoram a lógica de ramificação de condição, permitindo decisões mais inteligentes de caminho de jornada. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| Criação de atributo calculado/derivado | Recomendado | Atributos computados, como pontuações de engajamento, dias desde a última atividade ou valor de compra vitalício, melhoram a lógica de ramificação de condição, permitindo decisões mais inteligentes de caminho de jornada. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview) |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | A retenção de dados do evento de jornada deve ser configurada com políticas de expiração do conjunto de dados para gerenciar o armazenamento e estar em conformidade com as normas de retenção de dados. A aplicação do consentimento garante que somente perfis de Opt-in recebam mensagens em cada ponto de contato do canal. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home), [Expirações do conjunto de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
-| Rotulagem e aplicação de uso de dados | Recomendado | Os rótulos de governança garantem a personalização em conformidade em vários pontos de contato de mensagem, especialmente importante quando as jornadas usam PII ou dados confidenciais para personalização em vários canais. | [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home), [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview) |
+| Rotulagem e aplicação de uso de dados | Recomendado | Os rótulos de governança garantem a personalização em conformidade em vários pontos de contato de mensagem, especialmente importante quando as jornadas usam PII ou dados confidenciais para personalização em vários canais. | [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home), [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview) |
 | Monitoramento e capacidade de observação | Incluído | O monitoramento da execução de jornadas monitora alertas sobre falhas de processamento, gargalos na entrada de perfis e problemas de entrega. Essencial para jornadas de produção em que atrasos ou falhas afetam a experiência do cliente. | [Visão geral dos alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview), [Visão geral dos Insights de observação](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
-| Relatórios e análise | Incluído | O CJA funnel e a análise de fallout na jornada completa fornecem insight mais profundo do que apenas os relatórios nativos do AJO. Permite a análise de conversão passo a passo, a comparação de coorte e a otimização de jornadas. | [visão geral do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [visão geral do Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home) |
+| Relatórios e análise | Incluído | O CJA funnel e a análise de fallout na jornada completa fornecem insight mais profundo do que apenas os relatórios nativos do AJO. Permite a análise de conversão passo a passo, a comparação de coorte e a otimização de jornadas. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [visão geral do Analysis Workspace](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home) |
 
 ## Funções do aplicativo
 
@@ -686,8 +686,8 @@ Quais falhas de jornada devem acionar alertas?
 - [Jornada relatório global](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Trabalhar com o Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
 - [Visão geral de alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
-- [Visão geral do Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [Guia de integração do AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [Visão geral do Analysis Workspace](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home)
+- [Guia de integração do AJO + CJA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ## Considerações de implantação
 
@@ -839,7 +839,7 @@ Os recursos a seguir fornecem detalhes adicionais sobre os recursos usados nesta
 - [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
 - [Guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
 - [Referência do Profile Query Language](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
-- [Segmentação de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/streaming-segmentation)
+- [Segmentação de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/api/streaming-segmentation)
 - [Segmentação de borda](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/edge-segmentation)
 
 ### Relatórios e análises
@@ -847,19 +847,19 @@ Os recursos a seguir fornecem detalhes adicionais sobre os recursos usados nesta
 - [Relatório em tempo real da jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [Jornada relatório global](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Trabalhar com o Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Guia de integração do AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
-- [Visão geral do Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
-- [Visão geral do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Guia de integração do AJO + CJA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [Visão geral do Analysis Workspace](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home)
+- [Visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview)
 
 ### Consentimento e governança
 
 - [Consentimento no Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
-- [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
-- [Gerenciar lista de supressão](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
+- [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home)
+- [Gerenciar lista de supressão](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### Base de dados
 
-- [Visão geral do sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
-- [Visão geral do serviço de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
-- [Visão geral do perfil](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home)
-- [Visão geral de atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview)
+- [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home)
+- [Visão geral do serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home)
+- [Visão geral do perfil](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/home)
+- [Visão geral de atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview)
