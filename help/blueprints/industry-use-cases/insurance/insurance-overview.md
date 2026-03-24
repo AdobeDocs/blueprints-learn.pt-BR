@@ -2,13 +2,13 @@
 title: Casos de uso de seguro
 description: Descubra como as organizações de seguros usam o Adobe Experience Platform para personalizar o gerenciamento de políticas, melhorar as experiências com solicitações e impulsionar a retenção do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: a082598f-555b-49a4-b201-a55bee793959
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '3272'
 ht-degree: 0%
 
 ---
-
 
 # Casos de uso de seguro
 
@@ -20,11 +20,11 @@ Envie lembretes e ofertas personalizados de renovação de política com base no
 
 ### Impacto no negócio
 
-As organizações que implementam campanhas personalizadas de renovação de políticas geralmente observam uma melhoria de 25% a 35% nas taxas de renovação, reduzindo diretamente a rotatividade do cliente e protegendo a receita de prêmios recorrentes.
+As organizações que implementam campanhas personalizadas de renovação de políticas observam melhores taxas de renovação, reduzindo diretamente a rotatividade do cliente e protegendo a receita de prêmios recorrentes.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). As datas de renovação das apólices são acionadores de eventos naturais que iniciam um alcance personalizado e em tempo hábil no momento em que os tomadores de seguros tomam a sua decisão de renovação.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Esta abordagem constrói uma sequência de renovação cronometrada que avança desde o aviso inicial até lembretes escalonados e, se necessário, uma mensagem de urgência final, adaptando a cadência e a oferta com base no fato de o tomador de seguro ter tido contatos anteriores. Este é o padrão correto quando o tempo é determinado por uma data de contrato, em vez de um evento discreto do cliente, e a intenção de negócios exige um fluxo sequenciado de várias mensagens durante 30 ou mais dias com ramificação condicional baseada em engajamento — as mensagens acionadas por evento lidam com respostas reativas para eventos discretos, mas não podem acomodar a lógica de programação baseada em calendário ou as dependências de escalonamento necessárias para uma campanha de renovação.
 
 ### Considerações técnicas
 
@@ -40,17 +40,17 @@ Recomendar produtos de seguro adicionais, como seguro de vida, residencial ou co
 
 ### Impacto no negócio
 
-As recomendações personalizadas de venda cruzada normalmente promovem uma melhoria de 20 a 30% nas taxas de conversão de venda cruzada, aumentando as políticas por residência e o valor total do cliente.
+As recomendações personalizadas de venda cruzada impulsionam taxas de conversão de venda cruzada aprimoradas, aumentando as políticas por residência e o valor geral do tempo de vida do cliente.
 
 ### Como implementar o
 
-Use o padrão [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). A Decisão em tempo real avalia a cobertura, o estágio de vida e os sinais comportamentais existentes de cada cliente para selecionar a recomendação de produto mais relevante no catálogo disponível.
+Use o padrão [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). A Decisão em tempo real avalia a cobertura, o estágio de vida e os sinais comportamentais existentes de cada cliente para selecionar a recomendação de produto mais relevante no catálogo disponível. Esse é o padrão correto quando a seleção de produtos deve levar em conta regras de qualificação, diretrizes de subscrição e requisitos de adequação regulatórios — restrições que exigem lógica de decisão controlada em vez de classificação de afinidade comportamental sozinha.
 
 ### Considerações técnicas
 
 - Integre dados de políticas de todas as linhas de produtos em um perfil de cliente unificado para que o mecanismo de decisão tenha uma visão completa da cobertura existente ao selecionar recomendações.
 - Configure regras de elegibilidade no modelo de decisão para excluir produtos que um cliente já detém ou que entrem em conflito com diretrizes de subscrição para seu perfil de risco.
-- Aplique regras de conformidade normativa para garantir que as recomendações de produtos estejam em conformidade com os requisitos de adequação e marketing de seguros específicos do estado.
+- Envolva suas equipes jurídicas e de conformidade para validar se as regras de elegibilidade da recomendação do produto estão alinhadas aos requisitos de marketing e adequação aplicáveis do seguro estadual antes da ativação.
 - Coordene o resultado da decisão com o portal do agente para que os produtos recomendados fiquem visíveis para os agentes atribuídos que podem estar conversando diretamente com o cliente.
 
 
@@ -60,11 +60,11 @@ Personalize as comunicações dos processos de reclamações, as atualizações 
 
 ### Impacto no negócio
 
-As comunicações personalizadas de reivindicações normalmente atingem uma melhoria de 40 a 50% nas pontuações de satisfação das reivindicações, reduzindo as reclamações e fortalecendo a probabilidade de renovação da política após uma reivindicação.
+As comunicações personalizadas de reivindicações atingem pontuações de satisfação de reivindicações aprimoradas, reduzindo as reclamações e fortalecendo a probabilidade de renovação da política após uma reivindicação.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). O processo de solicitações é uma experiência em vários estágios com fases distintas — arquivamento, investigação, ajuste e liquidação — em que cada uma requer comunicações personalizadas e tempo adaptável.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). O processo de solicitações é uma experiência em vários estágios com fases distintas — arquivamento, investigação, ajuste e liquidação — em que cada uma requer comunicações personalizadas e tempo adaptável. Este é o padrão correto quando o caso de uso requer um fluxo sequenciado de várias mensagens ao longo de dias com ramificação condicional baseada em eventos de status de solicitações: uma única mensagem acionada não pode acomodar a lógica de dependência entre fases sequenciais de solicitações.
 
 ### Considerações técnicas
 
@@ -80,11 +80,11 @@ Fornecer informações personalizadas sobre avaliação de riscos e dicas de pre
 
 ### Impacto no negócio
 
-O alcance personalizado da prevenção de riscos geralmente leva a uma melhoria de 30 a 40% no envolvimento de prevenção, contribuindo para a redução da frequência das solicitações e o aumento da satisfação do cliente.
+O alcance externo personalizado de prevenção de riscos promove um melhor envolvimento na prevenção, contribuindo para reduzir a frequência das solicitações e aumentar a satisfação do cliente.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). O treinamento em prevenção de riscos é mais eficaz como uma jornada multitoque contínua que fornece orientação relevante ao longo do tempo e se adapta com base no engajamento do cliente e nos fatores de risco sazonais.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). O treinamento em prevenção de riscos é mais eficaz como uma jornada multitoque contínua que fornece orientação relevante ao longo do tempo e se adapta com base no engajamento do cliente e nos fatores de risco sazonais. Esse é o padrão correto quando a jornada precisa fornecer conteúdo por longos períodos com ajustes sazonais de tempo e ramificação baseada em envolvimento — as mensagens acionadas por eventos não podem lidar com a programação preditiva ou com a cadência em várias etapas necessária para uma educação contínua.
 
 ### Considerações técnicas
 
@@ -100,16 +100,16 @@ Envie notificações personalizadas sobre alterações de política, atualizaç�
 
 ### Impacto no negócio
 
-As notificações personalizadas de alteração de política normalmente atingem uma melhoria de 50 a 60% nas taxas de confirmação de notificação, reduzindo as consultas de atendimento ao cliente e melhorando a compreensão geral do segurado.
+As notificações personalizadas de alteração de política alcançam taxas de confirmação de notificação aprimoradas, reduzindo as consultas de atendimento ao cliente e melhorando a compreensão geral sobre os titulares de políticas.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de alteração de políticas do sistema de administração servem como acionadores naturais para notificações imediatas e relevantes por meio do canal preferido de cada cliente.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de alteração de políticas do sistema de administração servem como acionadores naturais para notificações imediatas e relevantes por meio do canal preferido de cada cliente. Este é o padrão correto quando o acionador é um evento do sistema (alteração de política) em vez do comportamento do cliente, e a comunicação necessária é imediata e reativa em vez de uma sequência sustentada de criação.
 
 ### Considerações técnicas
 
 - Integrar ao sistema de administração de políticas para capturar eventos de endosso, alteração e renovação em tempo real, garantindo que as notificações reflitam o estado mais atual das políticas.
-- Aplique regras de conformidade normativa para garantir que as notificações atendam aos requisitos de comunicação exigidos pelo estado para alterações de políticas, incluindo idioma e prazos de entrega necessários.
+- Trabalhe com sua equipe jurídica para confirmar se as notificações de alteração de política atendem aos requisitos aplicáveis de tempo, idioma e canal de entrega exigidos pelo estado antes de ativar as comunicações automatizadas.
 - Configure a lógica de prioridade de canal com base na urgência e no tipo de alteração — por exemplo, reduções de cobertura podem garantir canais mais imediatos do que atualizações informativas.
 - Manter uma trilha de auditoria de entrega para todas as notificações de alteração de política para oferecer suporte à documentação de conformidade normativa e à resolução de conflitos.
 
@@ -120,11 +120,11 @@ Reenvolva os clientes que começaram, mas não concluíram uma cotação de segu
 
 ### Impacto no negócio
 
-As campanhas de recuperação de abandono de cotações geralmente geram uma melhora de 20 a 30% nas taxas de conclusão de cotações, convertendo mais prospetos em segurados e reduzindo os custos de aquisição de clientes.
+As campanhas de recuperação de abandono de cotações geram melhores taxas de conclusão de cotações, convertendo mais prospetos em tomadores de seguros e reduzindo os custos de aquisição de clientes.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). O abandono da cotação é um evento comportamental que aciona um acompanhamento oportuno enquanto o interesse e a intenção do cliente potencial ainda estão novos.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). O abandono da cotação é um evento comportamental que aciona um acompanhamento oportuno enquanto o interesse e a intenção do cliente potencial ainda estão novos. Esse é o padrão correto quando um comportamento distinto do cliente (abandono) é o acionador e a resposta necessária é um reengajamento com reconhecimento de tempo, em vez de uma sequência de criação de várias etapas ou um offer decisioning complexo.
 
 ### Considerações técnicas
 
@@ -140,11 +140,11 @@ Identifique os clientes que entram em novos estágios da vida — como casamento
 
 ### Impacto no negócio
 
-As ofertas de produtos baseados em estágios da vida normalmente atingem uma melhoria de 35 a 45% nas taxas de adoção de produtos em estágios da vida, aprofundando o relacionamento com o cliente durante momentos importantes de tomada de decisão.
+As ofertas de produtos baseados em estágios da vida atingem taxas aprimoradas de adoção de produtos em estágios da vida, aprofundando o relacionamento com o cliente durante momentos importantes de tomada de decisão.
 
 ### Como implementar o
 
-Use a [Jornada entre canais com o padrão de decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). As transições de estágio de vida se beneficiam da orquestração entre canais combinada com decisões em tempo real para selecionar o produto mais relevante e entregá-lo pelo canal preferido do cliente no momento ideal.
+Use a [Jornada entre canais com o padrão de decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). As transições de estágio de vida se beneficiam da orquestração entre canais combinada com decisões em tempo real para selecionar o produto mais relevante e entregá-lo pelo canal preferido do cliente no momento ideal. Esse é o padrão correto quando a jornada deve coordenar a entrega em vários canais para garantir ofertas consistentes e, ao mesmo tempo, aproveitar a decisão para selecionar o produto mais apropriado para o estágio de vida detectado. A orquestração em várias etapas sozinha não pode fornecer a qualificação e a avaliação de adequação em tempo real necessárias para recomendações de produtos de seguro.
 
 ### Considerações técnicas
 
@@ -160,11 +160,11 @@ Identifique e comunique oportunidades de desconto personalizadas — como pacote
 
 ### Impacto no negócio
 
-As comunicações personalizadas de desconto e economia normalmente promovem uma melhoria de 25 a 35% nas taxas de utilização de desconto, melhorando a satisfação do cliente e reduzindo a variação impulsionada pelo preço.
+As comunicações personalizadas de desconto e economia geram melhores taxas de utilização de desconto, melhorando a satisfação do cliente e reduzindo o churn orientado por preços.
 
 ### Como implementar o
 
-Use o padrão [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). O Real-time Decisioning avalia a qualificação de cada cliente para descontos disponíveis e seleciona a oportunidade de economia mais impactante para apresentar no momento certo.
+Use o padrão [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). O Real-time Decisioning avalia a qualificação de cada cliente para descontos disponíveis e seleciona a oportunidade de economia mais impactante para apresentar no momento certo. Este é o padrão correto quando a seleção de descontos deve levar em conta as limitações de empilhamento, as restrições normativas e os cálculos atuariais precisos — restrições que exigem uma lógica de decisão controlada em vez de verificações de elegibilidade simples sozinhas.
 
 ### Considerações técnicas
 
@@ -180,11 +180,11 @@ Use a detecção inteligente de fraudes para identificar padrões de reclamaçõ
 
 ### Impacto no negócio
 
-Os programas inteligentes de prevenção contra fraudes de avisos de sinistro geralmente alcançam uma melhoria de 15 a 25% nas taxas de detecção de fraudes, reduzindo os pagamentos fraudulentos e diminuindo os custos gerais com avisos de sinistro.
+Os programas inteligentes de prevenção contra fraudes de avisos de sinistro melhoram as taxas de detecção de fraudes, reduzindo os pagamentos fraudulentos e os custos gerais com avisos de sinistro.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de pontuação de risco de fraude acionam comunicações de investigação apropriadas e ajustes de processos em tempo real, garantindo que as solicitações sinalizadas recebam atenção imediata.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de pontuação de risco de fraude acionam comunicações de investigação apropriadas e ajustes de processos em tempo real, garantindo que as solicitações sinalizadas recebam atenção imediata. Esse é o padrão correto quando um evento derivado do sistema (pontuação de risco de fraude) é o acionador e a ação necessária é o ajuste imediato do processo interno com comunicação cuidadosa com o cliente, em vez de um cenário de jornada ou decisão em várias etapas.
 
 ### Considerações técnicas
 
@@ -200,18 +200,18 @@ Personalize as comunicações do programa de bem-estar, os lembretes de particip
 
 ### Impacto no negócio
 
-As comunicações personalizadas do programa de bem-estar e prevenção normalmente promovem uma melhoria de 30 a 40% nas taxas de participação no programa, contribuindo para melhores resultados de saúde e frequência reduzida de solicitações.
+As comunicações personalizadas do programa de bem-estar e prevenção impulsionam taxas de participação do programa aprimoradas, contribuindo para melhores resultados de saúde e frequência reduzida de solicitações.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Programas de bem-estar são experiências de engajamento sustentado com marcos, desafios e recompensas que exigem orquestração adaptativa com base na atividade e progresso de cada participante.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Programas de bem-estar são experiências de engajamento sustentado com marcos, desafios e recompensas que exigem orquestração adaptativa com base na atividade e progresso de cada participante. Este é o padrão correto quando o caso de uso requer um fluxo de várias mensagens de longo prazo com ramificação baseada em envolvimento e ajustes de tempo adaptáveis — as mensagens acionadas por eventos não podem lidar com a lógica complexa de marcos ou com a necessidade de ajustar a cadência de comunicação com base no rastreamento sustentado de atividades.
 
 ### Considerações técnicas
 
 - Integre com dispositivos vestíveis e feeds de dados de aplicativos de integridade usando a assimilação por streaming do [!DNL Adobe Experience Platform], aplicando rótulos de governança de dados claros para distinguir dados de integridade de dados de substituição ou de declaração.
 - Implemente mecanismos de consentimento separados para a coleta de dados de bem-estar a fim de garantir que os participantes entendam como seus dados de atividade de saúde são usados e podem recusar sem afetar suas políticas.
 - Projete uma lógica de jornada que ajuste a intensidade do programa e a frequência de comunicação com base no nível de engajamento de cada participante para evitar fadiga e incentivar a participação sustentada.
-- Garantir que o incentivo ao bem-estar e o rastreamento de recompensas estejam em conformidade com as regulamentações de seguro aplicáveis em relação aos incentivos aos segurados e aos programas de desconto de prêmio.
+- Entre em contato com suas equipes jurídicas e de conformidade para analisar as estruturas de incentivo de bem-estar e os programas de desconto premium visando a conformidade com as regulamentações estaduais de seguro aplicáveis antes do lançamento.
 
 
 ## Coordenação de Agente e Agente
@@ -220,11 +220,11 @@ Permita a comunicação e a coordenação personalizadas entre os clientes e seu
 
 ### Impacto no negócio
 
-As comunicações eficazes de coordenação de agentes e corretores normalmente resultam em uma melhora de 35 a 45% no envolvimento do agente, resultando em relacionamentos mais sólidos com o cliente e maior retenção impulsionada por interações de consultoria confiáveis.
+Comunicações eficazes de coordenação de agentes e corretores resultam em melhor envolvimento do agente, resultando em relacionamentos mais sólidos com o cliente e maior retenção impulsionada por interações de consultoria confiáveis.
 
 ### Como implementar o
 
-Use o padrão [Ativação de Mensagem de Saída em Lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). A coordenação do agente é melhor fornecida por meio de ativações em lote programadas que fornecem aos agentes listas de alcance priorizadas do cliente, pontos de contato e ações recomendadas regularmente.
+Use o padrão [Ativação de Mensagem de Saída em Lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). A coordenação do agente é melhor fornecida por meio de ativações em lote programadas que fornecem aos agentes listas de alcance priorizadas do cliente, pontos de contato e ações recomendadas regularmente. Esse é o padrão correto quando o público-alvo é grande e predefinido, o tempo de entrega é agendado de forma recorrente em vez de ser orientado por eventos, e nenhuma ramificação ou decisão em tempo real é necessária.
 
 ### Considerações técnicas
 
@@ -240,11 +240,11 @@ Comunique-se proativamente com os clientes nas áreas afetadas durante desastres
 
 ### Impacto no negócio
 
-As comunicações proativas de resposta a eventos catastróficos geralmente atingem uma melhora de 60 a 70% nas taxas de comunicação do cliente durante os eventos, acelerando significativamente o arquivamento de solicitações e fortalecendo a confiança e a fidelidade do cliente a longo prazo.
+As comunicações proativas de resposta a eventos catastróficos alcançam melhores taxas de comunicação do cliente durante eventos, acelerando o arquivamento de solicitações e fortalecendo a confiança e a fidelidade do cliente a longo prazo.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). As declarações de acontecimentos catastróficos servem como fatores desencadeantes de alta prioridade para uma ação imediata e personalizada de sensibilização de todos os tomadores de seguros na área geográfica afetada.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). As declarações de acontecimentos catastróficos servem como fatores desencadeantes de alta prioridade para uma ação imediata e personalizada de sensibilização de todos os tomadores de seguros na área geográfica afetada. Esse é o padrão correto quando um evento externo de alta prioridade é o acionador e a resposta necessária é imediata e abrangente alcance geográfico com informações críticas em termos de tempo, em vez de padrões individuais de comportamento do cliente ou sequenciamento complexo.
 
 ### Considerações técnicas
 
@@ -252,3 +252,23 @@ Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-pattern
 - Crie segmentos geográficos de público-alvo usando dados de endereço do segurado e informações de localização da propriedade para identificar com precisão os clientes na área afetada sem comunicação excessiva com os clientes não afetados.
 - Configure o roteamento de mensagens de alta prioridade, substituindo as regras padrão de limitação e supressão de frequência, para garantir que as informações críticas de segurança e de avisos de sinistro cheguem aos clientes imediatamente.
 - Pré-crie modelos de mensagem e configurações de jornada para tipos de evento catastróficos comuns, para que as comunicações possam ser ativadas horas após uma declaração de evento, em vez de exigir a criação de conteúdo durante a crise.
+
+
+## Personalization de conteúdo do portal do segurado
+
+Personalize o portal de autoatendimento autenticado e a experiência de aplicativo móvel para segurados ao encontrar as informações de cobertura, as ferramentas e os recursos mais relevantes com base no comportamento de navegação, no portfólio de políticas e nas interações de serviço recentes. Um portal que se adapta ao contexto atual de cada segurado reduz o atrito e facilita para os clientes encontrar o que precisam, quando precisam.
+
+### Impacto no negócio
+
+A personalização da experiência do portal do segurado impulsiona melhorias mensuráveis na conclusão de tarefas de autoatendimento e envolvimento digital, reduzindo o volume de entrada do centro de contato e fortalecendo a satisfação do cliente com o canal digital.
+
+### Como implementar o
+
+Use o padrão [Recomendação Comportamental](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Sinais comportamentais de sessões autenticadas de portal — uso da calculadora de cobertura, visualizações de documentos de política, verificações de status de solicitações e envolvimento de tópicos de perguntas frequentes — treinam um modelo de recomendação que exibe dinamicamente o conteúdo e as ferramentas mais relevantes para o contexto atual de cada segurado. Esse é o padrão correto quando a personalização é orientada por sinais comportamentais implícitos em uma sessão autenticada e o objetivo é a classificação de relevância de um conteúdo ou catálogo de recursos, em vez do Offer Decisioning, que requer qualificação controlada e aprovação atuarial antes de apresentar uma oferta de produto, ou Cross-Channel com Decisão, que é mais apropriado ao coordenar uma oferta de produto em vários canais.
+
+### Considerações técnicas
+
+- Aplique rótulos de governança de dados a sinais comportamentais coletados no portal de segurados para distinguir a análise de engajamento dos dados de seguros regulamentados e restringir que quaisquer sinais derivados do histórico de solicitações fluam para modelos de personalização sem revisão atuarial e de conformidade explícita.
+- Integrar o modelo comportamental ao sistema de gerenciamento de políticas para garantir que as recomendações de conteúdo e ferramentas reflitam o portfólio ativo de políticas de cada segurado — voltando ferramentas de cobertura automática para segurados automáticos e recursos de propriedade para proprietários de imóveis — sem expor dados brutos de políticas ao modelo de recomendação além da classificação da linha de produtos.
+- Implemente controles de conformidade específicos do estado para garantir que a personalização comportamental não constitua uma recomendação de seguro ou solicitação de marketing de acordo com as regulamentações estaduais aplicáveis, especialmente quando os sinais comportamentais puderem implicar a detecção de lacunas de cobertura.
+- Coordene os sinais de personalização do portal com o portal do agente para que os agentes que atendem aos segurados que mostraram um forte comportamento de pesquisa de autoatendimento recebam uma visualização consolidada do envolvimento digital do cliente junto com seu histórico de serviço.

@@ -2,13 +2,13 @@
 title: Análise do cliente e geração de Insight
 description: Saiba como criar espaços de trabalho de análise entre canais, métricas calculadas e painéis para análise de comportamento e desempenho.
 solution: Customer Journey Analytics, Experience Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 235a4eb0-91ae-4030-b90e-7eda08c67ae1
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '8947'
 ht-degree: 1%
 
 ---
-
 
 # Análise do cliente e geração de insight
 
@@ -101,8 +101,8 @@ Consulte a seção [Opções de implementação](#implementation-options) para o
 
 Os aplicativos a seguir são usados neste padrão de caso de uso.
 
-- **[!DNL Customer Journey Analytics] (CJA)** — Conexões, visualizações de dados, análise de espaço de trabalho, análise guiada, métricas computadas, painéis, publicação de público e análise de conteúdo
-- **[!DNL Adobe Experience Platform] (AEP)** — Data lake, conjuntos de dados, esquemas XDM, dados de perfil e evento que alimentam conexões do CJA
+- **[!DNL Customer Journey Analytics](CJA)** — Conexões, visualizações de dados, análise de espaço de trabalho, análise guiada, métricas computadas, painéis, publicação de público e análise de conteúdo
+- **[!DNL Adobe Experience Platform](AEP)** — Data lake, conjuntos de dados, esquemas XDM, dados de perfil e evento que alimentam conexões do CJA
 
 ## Funções básicas
 
@@ -110,11 +110,11 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 
 | Função de base | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
-| Administração e governança | Presumido em vigor | Perfil de produto do CJA provisionado com criação de espaço de trabalho e permissões de acesso de visualização de dados. Conjuntos de dados do AEP acessíveis à conexão do CJA. Usuários atribuídos às funções apropriadas do CJA. | [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
-| Preparação e modelagem de dados | Obrigatório | Os esquemas XDM e conjuntos de dados que serão conectados à CJA devem existir no AEP. O design do esquema afeta diretamente quais dimensões e métricas estão disponíveis nas visualizações de dados do CJA. Esquemas de evento precisam de campos de carimbo de data e hora; esquemas de pesquisa precisam de campos-chave. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) |
-| Fontes de dados e coleção | Obrigatório | Os dados devem estar fluindo para conjuntos de dados do AEP — eventos da Web por meio da Web SDK, eventos de aplicativo por meio do Mobile SDK, eventos de campanha do AJO e dados de CRM por meio de conectores de origem. A riqueza da análise depende da amplitude dos dados coletados. | [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home) |
-| Configuração de identidade e perfil | Obrigatório | A configuração da ID de pessoa na conexão do CJA determina como os eventos são compilados nos conjuntos de dados. A compilação de identidade entre dispositivos no AEP melhora a capacidade da CJA de criar jornadas completas para o cliente. O namespace de identidade deve ser configurado para o campo ID de pessoa. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home) |
-| Definição e segmentação do público-alvo | Não se aplica | O CJA cria seus próprios filtros e públicos-alvo no contexto da análise. Os públicos-alvo da RT-CDP não são um pré-requisito, embora o CJA possa publicá-los de volta no AEP por meio da publicação de públicos-alvo (opção C). | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home) |
+| Administração e governança | Presumido em vigor | Perfil de produto do CJA provisionado com criação de espaço de trabalho e permissões de acesso de visualização de dados. Conjuntos de dados do AEP acessíveis à conexão do CJA. Usuários atribuídos às funções apropriadas do CJA. | [Visão geral do controle de acesso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Preparação e modelagem de dados | Obrigatório | Os esquemas XDM e conjuntos de dados que serão conectados à CJA devem existir no AEP. O design do esquema afeta diretamente quais dimensões e métricas estão disponíveis nas visualizações de dados do CJA. Esquemas de evento precisam de campos de carimbo de data e hora; esquemas de pesquisa precisam de campos-chave. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
+| Fontes de dados e coleção | Obrigatório | Os dados devem estar fluindo para conjuntos de dados do AEP — eventos da Web por meio da Web SDK, eventos de aplicativo por meio do Mobile SDK, eventos de campanha do AJO e dados de CRM por meio de conectores de origem. A riqueza da análise depende da amplitude dos dados coletados. | [Visão geral das fontes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home) |
+| Configuração de identidade e perfil | Obrigatório | A configuração da ID de pessoa na conexão do CJA determina como os eventos são compilados nos conjuntos de dados. A compilação de identidade entre dispositivos no AEP melhora a capacidade da CJA de criar jornadas completas para o cliente. O namespace de identidade deve ser configurado para o campo ID de pessoa. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home) |
+| Definição e segmentação do público-alvo | Não se aplica | O CJA cria seus próprios filtros e públicos-alvo no contexto da análise. Os públicos-alvo da RT-CDP não são um pré-requisito, embora o CJA possa publicá-los de volta no AEP por meio da publicação de públicos-alvo (opção C). | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home) |
 
 ## Funções de suporte
 
@@ -122,11 +122,11 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 
 | Função de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
-| Criação de atributo calculado/derivado | Recomendado | Os atributos calculados do AEP podem enriquecer os conjuntos de dados conectados ao CJA, fornecendo dimensões e métricas adicionais para análise (por exemplo, contagem de compras vitalícias, dias desde a última atividade). Essas agregações no nível do perfil ficam disponíveis como dimensões nas visualizações de dados do CJA. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview) |
-| Gerenciamento do ciclo de vida dos dados | Recomendado | As políticas de retenção de conjuntos de dados afetam quais dados históricos estão disponíveis no CJA. Normalmente, a retenção longa é desejada para que o Analytics permita comparações ano a ano e análises de tendências de longo prazo. Configure os TTLs do conjunto de dados para garantir uma profundidade histórica adequada. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
-| Rotulagem e aplicação de uso de dados | Recomendado | Os rótulos de governança em campos confidenciais podem restringir o que aparece nas visualizações de dados do CJA. Se as PII ou os dados confidenciais forem incluídos na conexão do CJA, os rótulos de governança de dados garantirão o acesso compatível e evitarão a exposição não autorizada nos painéis compartilhados. | [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home) |
-| Monitoramento e capacidade de observação | Recomendado | A integridade da conexão do CJA e a atualização de dados devem ser monitoradas. Configure alertas para falhas de fluxo de dados de origem e problemas de assimilação para garantir que a alimentação de dados do CJA seja confiável e atualizada. | [Visão geral dos Insights de Capacidade de Observação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home) |
-| Relatórios e análise | Incluído | Essa é a implementação do relatórios e da análise. Quando um plano de referência para outro padrão incluir S5, use este plano de geração de análise do cliente e insight para a implementação de análise. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Criação de atributo calculado/derivado | Recomendado | Os atributos calculados do AEP podem enriquecer os conjuntos de dados conectados ao CJA, fornecendo dimensões e métricas adicionais para análise (por exemplo, contagem de compras vitalícias, dias desde a última atividade). Essas agregações no nível do perfil ficam disponíveis como dimensões nas visualizações de dados do CJA. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| Gerenciamento do ciclo de vida dos dados | Recomendado | As políticas de retenção de conjuntos de dados afetam quais dados históricos estão disponíveis no CJA. Normalmente, a retenção longa é desejada para que o Analytics permita comparações ano a ano e análises de tendências de longo prazo. Configure os TTLs do conjunto de dados para garantir uma profundidade histórica adequada. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| Rotulagem e aplicação de uso de dados | Recomendado | Os rótulos de governança em campos confidenciais podem restringir o que aparece nas visualizações de dados do CJA. Se as PII ou os dados confidenciais forem incluídos na conexão do CJA, os rótulos de governança de dados garantirão o acesso compatível e evitarão a exposição não autorizada nos painéis compartilhados. | [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| Monitoramento e capacidade de observação | Recomendado | A integridade da conexão do CJA e a atualização de dados devem ser monitoradas. Configure alertas para falhas de fluxo de dados de origem e problemas de assimilação para garantir que a alimentação de dados do CJA seja confiável e atualizada. | [Visão geral dos Insights de Capacidade de Observação](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| Relatórios e análise | Incluído | Essa é a implementação do relatórios e da análise. Quando um plano de referência para outro padrão incluir S5, use este plano de geração de análise do cliente e insight para a implementação de análise. | [visão geral do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Funções do aplicativo
 
@@ -160,16 +160,16 @@ A tabela a seguir lista as funções de aplicativo do AEP usadas nesse padrão.
 
 Os seguintes pré-requisitos devem ser atendidos antes de implementar esse padrão de caso de uso.
 
-- O direito ao produto CJA é provisionado para a organização
-- Os perfis de produto do CJA são configurados com acesso de usuário apropriado (criação de espaço de trabalho, acesso à visualização de dados)
-- A sandbox da AEP contém os conjuntos de dados de destino com fluxo de dados (eventos da Web, eventos de aplicativo, dados de campanha, registros de CRM)
-- Os esquemas XDM são definidos para todos os conjuntos de dados de origem com grupos de campos apropriados
-- O campo ID de pessoa é identificado e está consistentemente disponível em todos os conjuntos de dados que serão conectados
-- Os namespaces de identidade são configurados no AEP para a ID de pessoa usada na compilação de conexão do CJA
-- Os requisitos das partes interessadas estão documentados: quais KPIs, quais públicos-alvo consumirão painéis e qual nível de detalhes
-- Para cartões de pontuação móveis: as partes interessadas têm o aplicativo móvel de [!DNL Adobe Analytics] painéis instalado
-- Para opção C (Publicação de público-alvo): o Perfil do cliente em tempo real do AEP está ativado na sandbox de destino
-- Para a Opção D (Análise guiada): o SKU do CJA inclui recursos de análise guiada
+- [ O direito ao produto CJA ] foi provisionado para a organização
+- [ ] perfis de produto do CJA são configurados com acesso de usuário apropriado (criação de espaço de trabalho, acesso de visualização de dados)
+- [ ] A sandbox da AEP contém os conjuntos de dados de destino com fluxo de dados (eventos da Web, eventos de aplicativo, dados de campanha, registros de CRM)
+- [ ] esquemas XDM são definidos para todos os conjuntos de dados de origem com grupos de campos apropriados
+- [ O campo ID de pessoa ] é identificado e está consistentemente disponível em todos os conjuntos de dados que serão conectados
+- [ ] namespaces de identidade são configurados no AEP para a ID de pessoa usada na compilação de conexão do CJA
+- [ ] Os requisitos das partes interessadas estão documentados: quais KPIs, quais públicos-alvo consumirão painéis e qual nível de detalhes
+- [ ] Para cartões de pontuação móveis: as partes interessadas têm o aplicativo móvel de [!DNL Adobe Analytics] painéis instalado
+- [ ] Para Opção C (Publicação de público-alvo): o Perfil do cliente em tempo real do AEP está habilitado na sandbox de destino
+- [ ] Para a Opção D (Análise Guiada): a SKU do CJA inclui recursos de análise guiada
 
 ## Opções de implementação
 
@@ -206,8 +206,8 @@ A visualização de dados é configurada com dimensões específicas da campanha
 
 **Experience League:**
 
-- [Guia de integração do AJO + CJA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
-- [Visão geral do Workspace](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home)
+- [Guia de integração do AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [Visão geral do Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
 
 ### Opção B: análise de jornada do cliente
 
@@ -242,11 +242,11 @@ Essa é a opção analítica mais abrangente, fornecendo um insight profundo na 
 
 **Experience League:**
 
-- [Visão geral das conexões](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/overview)
-- [Visualização de fluxo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [Visualização Fallout](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [Tabela de coorte](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Painel de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Visão geral das conexões](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [Visualização de fluxo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Visualização Fallout](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [Tabela de coorte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [Painel de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
 
 ### Opção C: Analytics com publicação de público-alvo
 
@@ -281,8 +281,8 @@ Os públicos publicados aparecem no AEP Audience Portal com a origem &quot;CJA&q
 
 **Experience League:**
 
-- [Visão geral dos públicos](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [Criar e publicar públicos-alvo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Visão geral dos públicos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [Criar e publicar públicos-alvo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
 
 ### Opção D: análise guiada para equipes de produtos
 
@@ -317,9 +317,9 @@ A implementação conecta conjuntos de dados do AEP ao CJA, configura uma visual
 
 **Experience League:**
 
-- [Visão geral da análise guiada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/overview)
+- [Visão geral da análise guiada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
 - [Visualização do funnel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [Exibição de retenção](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [Exibição de retenção](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
 
 ### Comparação de opções
 
@@ -432,10 +432,10 @@ Principais detalhes de configuração:
 
 **Documentação do Experience League:**
 
-- [Visão geral das conexões](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/overview)
-- [Criar ou editar uma conexão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/create-connection)
-- [Gerenciar conexões](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/manage-connections)
-- [Medidas de proteção do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-admin/guardrails)
+- [Visão geral das conexões](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [Criar ou editar uma conexão](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
+- [Gerenciar conexões](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
+- [Medidas de proteção do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 
 ### Fase 2: configuração da visualização de dados
 
@@ -528,16 +528,16 @@ Mapeie dimensões e métricas de nível de evento relevantes para a análise de 
 
 **Documentação do Experience League:**
 
-- [Visão geral das visualizações de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Criar ou editar uma visualização de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Visão geral das configurações de componente](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [Configurações de persistência](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [Configurações de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [Configurações de formato](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/format)
-- [Desduplicação de métrica](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
-- [Incluir/excluir valores](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
-- [Configurações da sessão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/session-settings)
-- [Campos derivados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [Visão geral das visualizações de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Criar ou editar uma visualização de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Visão geral das configurações de componente](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [Configurações de persistência](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [Configurações de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [Configurações de formato](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [Desduplicação de métrica](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
+- [Incluir/excluir valores](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
+- [Configurações da sessão](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [Campos derivados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
 
 ### Fase 3: Análise e criação de métricas
 
@@ -627,27 +627,27 @@ Selecione o tipo de análise guiada apropriado com base na pergunta comercial. C
 
 **Documentação do Experience League:**
 
-- [Visão geral do Workspace](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home)
-- [Criar um projeto](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [Tabela de forma livre](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [Visualização de fluxo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [Visualização Fallout](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [Tabela de coorte](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Painel de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Visão geral do Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [Criar um projeto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [Tabela de forma livre](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [Visualização de fluxo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Visualização Fallout](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [Tabela de coorte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [Painel de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
 - [Detalhamento de dimensões](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
-- [Visão geral dos filtros](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [Criar filtros](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
-- [Visão geral de anotações](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/annotations/overview)
-- [Visão geral das métricas calculadas](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [Criar métricas calculadas](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [Funções de métrica calculada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
-- [Visão geral da análise guiada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/overview)
+- [Visão geral dos filtros](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [Criar filtros](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [Visão geral de anotações](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
+- [Visão geral das métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [Criar métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [Funções de métrica calculada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
+- [Visão geral da análise guiada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
 - [Visualização do funnel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [Exibição de tendências](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [Exibição de retenção](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
-- [Visualização de crescimento ativa](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/user-growth/active)
-- [Exibição da frequência de engajamento](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/trends/frequency)
-- [Visualização do impacto da versão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/impact/release)
+- [Exibição de tendências](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [Exibição de retenção](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [Visualização de crescimento ativa](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/user-growth/active)
+- [Exibição da frequência de engajamento](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/frequency)
+- [Visualização do impacto da versão](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/impact/release)
 - [Content Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/content-analytics/content-analytics)
 
 ### Fase 4: publicação do painel
@@ -712,12 +712,12 @@ Principais detalhes de configuração:
 
 **Documentação do Experience League:**
 
-- [Criar um cartão de pontuação para dispositivos móveis](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [Criar um cartão de pontuação para dispositivos móveis](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [Configurar e preparar cartões de pontuação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Painéis do Adobe Analytics — guia executivo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dashboards/set-up-execs)
-- [Compartilhar projetos](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [Agendar projetos](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
-- [Visualização do número do resumo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
+- [Painéis do Adobe Analytics — guia executivo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Compartilhar projetos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [Agendar projetos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [Visualização do número do resumo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
 - [Intervalos de datas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/date-ranges/overview)
 
 ### Fase 5: Publicação de público-alvo (somente opção C)
@@ -771,10 +771,10 @@ Principais detalhes de configuração:
 
 **Documentação do Experience League:**
 
-- [Visão geral dos públicos](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [Criar e publicar públicos-alvo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/audiences/publish)
-- [Gerenciar públicos](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/audiences/manage)
-- [Visão geral do portal de público](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal)
+- [Visão geral dos públicos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [Criar e publicar públicos-alvo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Gerenciar públicos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
+- [Visão geral do portal de público](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
 
 ## Considerações de implantação
 
@@ -784,7 +784,7 @@ Esta seção aborda medidas de proteção, armadilhas comuns, práticas recomend
 
 As medidas de proteção e os limites a seguir se aplicam a esta implementação.
 
-- **Limites de conexão:** o número máximo de conexões por organização é limitado pelo direito de SKU do CJA. Uma única conexão pode incluir conjuntos de dados de apenas uma sandbox da AEP. — [medidas de proteção do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-admin/guardrails)
+- **Limites de conexão:** o número máximo de conexões por organização é limitado pelo direito de SKU do CJA. Uma única conexão pode incluir conjuntos de dados de apenas uma sandbox da AEP. — [medidas de proteção do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 - **Limites de exibição de dados:** Máximo de 5.000 dimensões e 5.000 métricas por exibição de dados. Máximo de 100 campos derivados por visualização de dados com até 5 níveis de funções aninhadas.
 - **Limites do Workspace:** Máximo de 40 painéis por projeto. As tabelas de forma livre aceitam até 10 detalhamentos de dimensão. Máximo de 50.000 linhas por solicitação de relatório.
 - **Limites do scorecard:** Máximo de 16 blocos por scorecard móvel.
@@ -876,70 +876,70 @@ Os recursos a seguir fornecem informações adicionais para esse padrão de caso
 
 ### [!DNL Customer Journey Analytics] — Introdução
 
-- [Visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Medidas de proteção do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-admin/guardrails)
+- [Visão geral do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Medidas de proteção do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-admin/guardrails)
 
 ### Conexões
 
-- [Visão geral das conexões](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/overview)
-- [Criar ou editar uma conexão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/create-connection)
-- [Gerenciar conexões](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-connections/manage-connections)
+- [Visão geral das conexões](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview)
+- [Criar ou editar uma conexão](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection)
+- [Gerenciar conexões](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections)
 
 ### Visualizações de dados
 
-- [Visão geral das visualizações de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/data-views)
-- [Criar ou editar uma visualização de dados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/create-dataview)
-- [Visão geral das configurações de componente](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
-- [Configurações de persistência](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
-- [Configurações de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
-- [Configurações de formato](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/format)
-- [Desduplicação de métrica](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
-- [Incluir/excluir valores](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
-- [Configurações da sessão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/session-settings)
-- [Campos derivados](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dataviews/derived-fields)
+- [Visão geral das visualizações de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views)
+- [Criar ou editar uma visualização de dados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+- [Visão geral das configurações de componente](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+- [Configurações de persistência](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence)
+- [Configurações de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution)
+- [Configurações de formato](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/format)
+- [Desduplicação de métrica](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication)
+- [Incluir/excluir valores](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/include-exclude-values)
+- [Configurações da sessão](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/session-settings)
+- [Campos derivados](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields)
 
 ### Workspace e análise
 
-- [Visão geral do Workspace](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home)
-- [Criar um projeto](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
-- [Tabela de forma livre](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
-- [Visualização de fluxo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
-- [Visualização Fallout](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
-- [Tabela de coorte](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
-- [Painel de atribuição](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/panels/attribution)
+- [Visão geral do Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home)
+- [Criar um projeto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects)
+- [Tabela de forma livre](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)
+- [Visualização de fluxo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)
+- [Visualização Fallout](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)
+- [Tabela de coorte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)
+- [Painel de atribuição](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)
 - [Detalhamento de dimensões](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/components/dimensions/t-breakdown-fa)
-- [Compartilhar projetos](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
-- [Agendar projetos](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
-- [Visão geral da exportação](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/export/export-cloud)
+- [Compartilhar projetos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/share-projects)
+- [Agendar projetos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/curate-share/send-schedule-files)
+- [Visão geral da exportação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/export/export-cloud)
 
 ### Análise guiada
 
-- [Visão geral da análise guiada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/overview)
+- [Visão geral da análise guiada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/overview)
 - [Visualização do funnel](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/funnel/funnel)
-- [Exibição de tendências](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/trends/usage)
-- [Exibição da frequência de engajamento](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/trends/frequency)
-- [Exibição de retenção](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
-- [Visualização de crescimento ativa](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/user-growth/active)
-- [Visualização do impacto da versão](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/impact/release)
-- [Visualização de impacto de primeiro uso](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/impact/first-use)
-- [Exibição da linha do tempo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/guided-analysis/streams/timeline)
+- [Exibição de tendências](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/usage)
+- [Exibição da frequência de engajamento](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/trends/frequency)
+- [Exibição de retenção](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/retention/retention-rates)
+- [Visualização de crescimento ativa](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/user-growth/active)
+- [Visualização do impacto da versão](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/impact/release)
+- [Visualização de impacto de primeiro uso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/impact/first-use)
+- [Exibição da linha do tempo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/guided-analysis/streams/timeline)
 
 ### Componentes
 
-- [Visão geral dos filtros](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
-- [Criar filtros](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
-- [Visão geral das métricas calculadas](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
-- [Criar métricas calculadas](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
-- [Funções de métrica calculada](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
-- [Visão geral de anotações](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/annotations/overview)
+- [Visão geral dos filtros](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/filters-overview)
+- [Criar filtros](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-filters/create-filters)
+- [Visão geral das métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/calc-metr-overview)
+- [Criar métricas calculadas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics)
+- [Funções de métrica calculada](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-functions)
+- [Visão geral de anotações](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/annotations/overview)
 - [Intervalos de datas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/date-ranges/overview)
-- [Componente de métricas](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/apply-create-metrics)
+- [Componente de métricas](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/apply-create-metrics)
 
 ### Publicação de público
 
-- [Visão geral dos públicos](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
-- [Criar e publicar públicos-alvo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/audiences/publish)
-- [Gerenciar públicos](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/audiences/manage)
+- [Visão geral dos públicos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/audiences-overview)
+- [Criar e publicar públicos-alvo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Gerenciar públicos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/manage)
 
 ### Análise de conteúdo
 
@@ -948,27 +948,27 @@ Os recursos a seguir fornecem informações adicionais para esse padrão de caso
 
 ### Painéis e cartões de pontuação
 
-- [Criar um cartão de pontuação para dispositivos móveis](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dashboards/create-scorecard)
+- [Criar um cartão de pontuação para dispositivos móveis](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/create-scorecard)
 - [Configurar e preparar cartões de pontuação](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/curate)
-- [Painéis do Adobe Analytics — guia executivo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-dashboards/set-up-execs)
-- [Visualização do número do resumo](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
+- [Painéis do Adobe Analytics — guia executivo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dashboards/set-up-execs)
+- [Visualização do número do resumo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)
 
 ### AEP foundation
 
-- [Visão geral dos conjuntos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview)
-- [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home)
-- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
-- [Visão geral do serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home)
-- [Visão geral do portal de público](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal)
+- [Visão geral dos conjuntos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)
+- [Visão geral do sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [Visão geral das fontes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [Visão geral do serviço de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [Visão geral do portal de público](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
 
 ### Integração de relatórios do AJO
 
-- [Guia de integração do AJO + CJA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [Guia de integração do AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 - [Relatório de email da campanha](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting/campaign-global-report-cja-email)
 - [Jornada relatório de email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/reporting/journey-global-report-cja-email)
 
 ### Tutoriais e guias
 
-- [Noções básicas de composição de esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition)
-- [Visão geral do Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home)
-- [Configurar sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure)
+- [Noções básicas de composição de esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [Visão geral do Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
+- [Configurar sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)

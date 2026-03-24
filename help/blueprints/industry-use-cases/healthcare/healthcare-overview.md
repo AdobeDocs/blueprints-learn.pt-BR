@@ -3,10 +3,10 @@ title: Casos de uso da área de saúde
 description: Descubra como as organizações de saúde usam o Adobe Experience Platform para melhorar o envolvimento dos pacientes, simplificar a coordenação do atendimento e gerar melhores resultados de saúde.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 1%
+source-wordcount: '3818'
+ht-degree: 0%
 
 ---
 
@@ -14,17 +14,20 @@ ht-degree: 1%
 
 As organizações de saúde usam o Adobe Experience Platform para criar perfis unificados de pacientes e fornecer comunicações personalizadas e oportunas em todos os pontos de contato. Conectando dados clínicos, comportamentais e de preferência em um único local, as equipes de atendimento podem envolver os pacientes de maneira mais eficaz e, ao mesmo tempo, manter os mais altos padrões de privacidade e conformidade.
 
+>[!IMPORTANT]
+>Os casos de uso da área de saúde envolvem PHI (Protected Health Information, informações protegidas de saúde) sujeitas à HIPAA e a outras regulamentações aplicáveis. Antes de implementar qualquer um desses padrões, verifique se [!DNL Adobe Experience Platform] está provisionado como um serviço qualificado para HIPAA e se um BAA (Business Associate Agreement, contrato de parceiro comercial) está em vigor com a Adobe. As considerações técnicas em cada seção destacam os principais requisitos de conformidade, mas não são exaustivas. Trabalhe com suas equipes jurídicas, de conformidade e de segurança para validar sua implementação em relação a todos os requisitos normativos aplicáveis.
+
 ## Automação de Lembrete de Compromisso
 
 Envie lembretes de compromisso personalizados por email, mensagem de texto e notificações por push com base nas preferências de comunicação e no tipo de compromisso de cada paciente. Os lembretes automatizados reduzem as consultas perdidas e mantêm os cronogramas em execução sem problemas, liberando a equipe para se concentrar no atendimento ao paciente.
 
 ### Impacto no negócio
 
-As organizações que implementam lembretes de compromisso automatizado normalmente veem uma melhoria de 30 a 40% nas taxas de visitas e uma redução significativa nas caras não comparências.
+As organizações que implementam lembretes de compromissos automatizados veem melhorias mensuráveis nas taxas de compromissos e uma redução significativa nos custos de não comparência.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). A criação de compromissos e os eventos de atualização do sistema de agendamento servem como acionadores naturais para mensagens de lembrete oportunas e relevantes.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). A criação de compromissos e os eventos de atualização do sistema de agendamento servem como acionadores naturais para mensagens de lembrete oportunas e relevantes. Esse é o padrão correto quando um evento de compromisso discreto é o acionador e a resposta necessária é uma única notificação com detecção de tempo, em vez de uma sequência de engajamento contínuo, já que os pacientes precisam de confirmação imediata sem etapas de acompanhamento.
 
 ### Considerações técnicas
 
@@ -40,11 +43,11 @@ Envie lembretes personalizados e conteúdo educacional para ajudar os pacientes 
 
 ### Impacto no negócio
 
-As campanhas personalizadas de adesão à medicação normalmente promovem uma melhora de 20 a 30% nas taxas de adesão, resultando em resultados de saúde mensuravelmente melhores e menos reinternações hospitalares.
+Campanhas personalizadas de adesão à medicação ajudam a impulsionar melhorias nas taxas de adesão, levando a melhores resultados de saúde e menos reinternações hospitalares.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). A adesão à medicação requer uma abordagem contínua e multitoque com lembretes cada vez maiores, pontos de contato educacionais e check-ins de acompanhamento durante o curso de um plano de tratamento.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). A adesão à medicação requer uma abordagem contínua e multitoque com lembretes cada vez maiores, pontos de contato educacionais e check-ins de acompanhamento durante o curso de um plano de tratamento. Esse é o padrão correto porque o gerenciamento de medicamentos requer um fluxo sequenciado de várias mensagens em dias ou semanas com ramificação condicional baseada em eventos de reabastecimento e sinais de engajamento — uma única mensagem acionada não pode acomodar a lógica de dependência entre etapas educacionais e caminhos de encaminhamento.
 
 ### Considerações técnicas
 
@@ -60,11 +63,11 @@ Lembrar proativamente os pacientes sobre os cuidados preventivos recomendados, c
 
 ### Impacto no negócio
 
-O alcance pró-ativo dos cuidados preventivos geralmente resulta em um aumento de 25 a 35% nas taxas de conclusão dos cuidados preventivos, contribuindo para a melhoria da saúde da população e redução dos custos dos tratamentos de longo prazo.
+O alcance pró-ativo dos cuidados preventivos resulta em melhores taxas de conclusão dos cuidados preventivos, contribuindo para melhorar a saúde da população e reduzir os custos de tratamento a longo prazo.
 
 ### Como implementar o
 
-Use o padrão [Ativação de Mensagem de Saída em Lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). Os lembretes de cuidados preventivos são melhor entregues por meio de campanhas em lote programadas que avaliam a elegibilidade do paciente em relação às diretrizes clínicas regularmente.
+Use o padrão [Ativação de Mensagem de Saída em Lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md). Os lembretes de cuidados preventivos são melhor entregues por meio de campanhas em lote programadas que avaliam a elegibilidade do paciente em relação às diretrizes clínicas regularmente. Esse é o padrão correto quando o público-alvo é predefinido por critérios de diretrizes clínicas, o tempo de entrega é agendado em uma cadência regular em vez de ser orientado por eventos, e nenhuma ramificação ou decisão em tempo real é necessária.
 
 ### Considerações técnicas
 
@@ -80,11 +83,11 @@ Envie automaticamente pesquisas pós-visita, instruções de atendimento e lembr
 
 ### Impacto no negócio
 
-As campanhas de acompanhamento pós-visita automatizadas normalmente atingem uma melhora de 40 a 50% nas taxas de resposta da pesquisa e pontuações mensuravelmente mais altas de satisfação do paciente.
+As campanhas de acompanhamento automatizadas pós-visita alcançam melhores taxas de resposta de pesquisa e pontuações mais altas de satisfação do paciente.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de conclusão de visitas do sistema de registros eletrônicos de saúde fornecem um acionador natural e oportuno para comunicações de acompanhamento personalizadas de acordo com o tipo de encontro.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de conclusão de visitas do sistema de registros eletrônicos de saúde fornecem um acionador natural e oportuno para comunicações de acompanhamento personalizadas de acordo com o tipo de encontro. Esse é o padrão correto quando um evento de conclusão de visita discreta é o acionador e a resposta necessária é um acompanhamento imediato adaptado ao tipo de encontro, em vez de uma sequência de várias etapas, já que cada visita gera sua própria necessidade de acompanhamento independente.
 
 ### Considerações técnicas
 
@@ -100,11 +103,11 @@ Personalize as comunicações de gerenciamento de doenças crônicas, o conteúd
 
 ### Impacto no negócio
 
-Os programas personalizados de gerenciamento de doenças crônicas geralmente observam um aumento de 30 a 40% nas taxas de engajamento no programa, resultando em melhores resultados no gerenciamento de doenças e na redução da utilização dos cuidados de emergência.
+Programas personalizados de gerenciamento de doenças crônicas observam maiores taxas de engajamento no programa, resultando em melhores resultados no gerenciamento de doenças e menor utilização de cuidados de emergência.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). O gerenciamento de doenças crônicas é inerentemente uma experiência de longa duração com vários pontos de contato que requer mensagens adaptáveis com base no envolvimento do paciente e nos marcos de saúde.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). O gerenciamento de doenças crônicas é inerentemente uma experiência de longa duração com vários pontos de contato que requer mensagens adaptáveis com base no envolvimento do paciente e nos marcos de saúde. Este é o padrão correto porque o gerenciamento de doenças crônicas requer mensagens adaptáveis por um período estendido com ramificação condicional baseada em métricas clínicas e padrões de engajamento — as mensagens acionadas por eventos não podem lidar com a reavaliação contínua e dinâmica necessária para ajustar intervenções com base em dados de saúde em evolução.
 
 ### Considerações técnicas
 
@@ -120,11 +123,11 @@ Automatize uma jornada de integração em várias etapas para novos pacientes, q
 
 ### Impacto no negócio
 
-As novas jornadas automatizadas de integração de pacientes geralmente geram uma melhora de 50 a 60% nas taxas de ativação do portal e um engajamento antecipado do paciente significativamente maior.
+As jornadas automatizadas de integração de novos pacientes ajudam a impulsionar melhorias nas taxas de ativação do portal e um engajamento antecipado mais forte dos pacientes.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). A integração do paciente é um processo naturalmente sequencial, em várias etapas, em que cada comunicação se baseia na anterior e se adapta caso o paciente tenha completado as ações principais.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). A integração do paciente é um processo naturalmente sequencial, em várias etapas, em que cada comunicação se baseia na anterior e se adapta caso o paciente tenha completado as ações principais. Esse é o padrão correto, pois a integração exige um fluxo sequenciado e dependente ao longo de vários dias com ramificação baseada nas ações do paciente (ativação do portal, conclusão do formulário) — uma única mensagem ou abordagem em lote não pode acomodar as interdependências entre as etapas ou se adaptar à conclusão progressiva.
 
 ### Considerações técnicas
 
@@ -140,11 +143,11 @@ Forneça conteúdo personalizado de educação em saúde, dicas de bem-estar e r
 
 ### Impacto no negócio
 
-A entrega personalizada de conteúdo de saúde normalmente atinge um aumento de 35 a 45% nas taxas de engajamento de conteúdo, levando a uma melhoria mensurável na educação do paciente e na alfabetização em saúde.
+A entrega personalizada de conteúdo de saúde atinge taxas mais altas de engajamento de conteúdo, levando a uma melhor educação do paciente e alfabetização em saúde.
 
 ### Como implementar o
 
-Use a [Jornada entre canais com o padrão de decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). A entrega de conteúdo de saúde se beneficia da decisão em tempo real, que seleciona o conteúdo mais relevante para cada paciente com base em suas condições, preferências e envolvimento anterior, fornecido por meio de seu canal preferido.
+Use a [Jornada entre canais com o padrão de decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). A entrega de conteúdo de saúde se beneficia da decisão em tempo real, que seleciona o conteúdo mais relevante para cada paciente com base em suas condições, preferências e envolvimento anterior, fornecido por meio de seu canal preferido. Esse é o padrão correto quando a seleção de conteúdo precisa levar em conta as condições do paciente, as preferências de consentimento e as preferências de canal, evitando a entrega duplicada ou fatigante — a orquestração de várias etapas sozinha não fornece a camada de decisão em tempo real necessária para corresponder o inventário de conteúdo dinâmico às necessidades individuais do paciente.
 
 ### Considerações técnicas
 
@@ -160,11 +163,11 @@ Notifique os pacientes quando os resultados do laboratório estiverem disponíve
 
 ### Impacto no negócio
 
-As notificações automatizadas de resultados laboratoriais geralmente geram um aumento de 60 a 70% nas taxas de visualização de resultados, melhorando a comunicação com os pacientes e permitindo um acompanhamento clínico mais rápido quando os resultados exigirem alguma ação.
+As notificações automatizadas de resultados de laboratório ajudam a aumentar as taxas de visualização de resultados, melhorando a comunicação com o paciente e permitindo um acompanhamento clínico mais rápido quando os resultados exigem ação.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). A disponibilidade dos resultados do laboratório é um evento distinto que requer uma notificação imediata e única através do canal preferido do paciente.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). A disponibilidade dos resultados do laboratório é um evento distinto que requer uma notificação imediata e única através do canal preferido do paciente. Esse é o padrão correto quando um evento de resultado discreto de laboratório é o acionador e a resposta necessária é uma única notificação imediata — em vez de uma sequência de várias mensagens, já que os pacientes precisam de um alerta imediato para verificar seu portal sem comunicações adicionais de acompanhamento.
 
 ### Considerações técnicas
 
@@ -180,11 +183,11 @@ Verificar e comunicar proativamente informações de cobertura de seguro aos pac
 
 ### Impacto no negócio
 
-A verificação proativa da cobertura do seguro geralmente resulta em uma melhora de 25 a 35% nas taxas de confirmação da cobertura pré-visita e em uma redução significativa nas disputas de cobrança e nas reclamações dos pacientes.
+A verificação proativa da cobertura do seguro resulta em melhores taxas de confirmação da cobertura pré-visita e uma redução significativa nas disputas de cobrança e reclamações de pacientes.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de agendamento de consultas servem como acionadores para iniciar a verificação de cobertura e comunicar os resultados ao paciente antes da visita.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de agendamento de consultas servem como acionadores para iniciar a verificação de cobertura e comunicar os resultados ao paciente antes da visita. Esse é o padrão correto quando um evento de agendamento de compromisso discreto é o acionador e a resposta necessária é uma única notificação sobre cobertura sensível ao tempo, em vez de uma sequência de engajamento de várias etapas, já que o paciente precisa de uma mensagem clara antes da visita.
 
 ### Considerações técnicas
 
@@ -200,11 +203,11 @@ Envie lembretes personalizados para compromissos de telessaúde que incluam inst
 
 ### Impacto no negócio
 
-Os lembretes personalizados de consulta em telessaúde normalmente promovem uma melhora de 40 a 50% nas taxas de exibição de visitas virtuais e aceleram a adoção geral da telessaúde na população de pacientes.
+Lembretes personalizados de consulta em telessaúde ajudam a impulsionar melhorias nas taxas de exibição de visitas virtuais e acelerar a adoção geral de telessaúde na população de pacientes.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de agendamento de compromisso de telessaúde fornecem um acionador natural para lembretes oportunos que incluem detalhes de conexão e orientação de preparação.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de agendamento de compromisso de telessaúde fornecem um acionador natural para lembretes oportunos que incluem detalhes de conexão e orientação de preparação. Este é o padrão correto quando um evento discreto de consulta de telessaúde é o acionador e a resposta necessária é um lembrete único e imediato com orientação técnica — em vez de uma sequência de várias etapas, uma vez que os pacientes precisam de instruções claras antes da consulta sem mensagens de acompanhamento subsequentes.
 
 ### Considerações técnicas
 
@@ -220,11 +223,11 @@ Personalize as comunicações, os desafios e as recompensas do programa de bem-e
 
 ### Impacto no negócio
 
-As campanhas de engajamento personalizadas do programa de bem-estar normalmente atingem um aumento de 30 a 40% nas taxas de participação no programa, contribuindo para melhores resultados de saúde e maior fidelidade do paciente.
+As campanhas personalizadas de engajamento no programa de bem-estar atingem taxas maiores de participação no programa, contribuindo para melhores resultados de saúde e maior fidelidade do paciente.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Os programas de bem-estar são experiências de engajamento sustentado com vários marcos, desafios e pontos de contato de recompensa que exigem orquestração adaptativa com base na participação e no progresso do paciente.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Os programas de bem-estar são experiências de engajamento sustentado com vários marcos, desafios e pontos de contato de recompensa que exigem orquestração adaptativa com base na participação e no progresso do paciente. Este é o padrão correto porque os programas de bem-estar exigem um fluxo sequenciado de várias mensagens durante um longo período com ramificação condicional baseada em marcos de participação e padrões de engajamento — as mensagens acionadas por eventos não podem lidar com a orquestração adaptativa contínua necessária para ajustar desafios e recompensas com base no rastreamento contínuo do progresso.
 
 ### Considerações técnicas
 
@@ -240,11 +243,11 @@ Permitir a comunicação e a coordenação personalizadas entre os pacientes e o
 
 ### Impacto no negócio
 
-Comunicações eficazes de coordenação da equipe de cuidados normalmente resultam em uma melhora de 35 a 45% no envolvimento da equipe de cuidados e resultados mensuráveis de melhor coordenação dos cuidados em planos de cuidados de vários provedores.
+Comunicações eficazes de coordenação da equipe de atendimento resultam em melhor envolvimento da equipe de atendimento e melhores resultados de coordenação de atendimento em planos de atendimento de vários provedores.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). A coordenação da equipe de atendimento envolve várias partes interessadas e fluxos de comunicação contínuos que devem se adaptar com base nos marcos do plano de atendimento, nas alterações do status do paciente e nas ações do provedor.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). A coordenação da equipe de atendimento envolve várias partes interessadas e fluxos de comunicação contínuos que devem se adaptar com base nos marcos do plano de atendimento, nas alterações do status do paciente e nas ações do provedor. Esse é o padrão correto porque a coordenação de cuidados requer fluxos de mensagens adaptáveis e em várias etapas que se ramificam com base nos marcos do plano de cuidados e nas ações do provedor em várias partes interessadas — uma única mensagem ou padrão mais simples não pode acomodar as interdependências complexas e o roteamento de mensagens baseado em funções necessários em equipes clínicas.
 
 ### Considerações técnicas
 
@@ -252,3 +255,62 @@ Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-
 - Integre-se à gestão de cuidados e aos sistemas de registros eletrônicos de saúde para receber atualizações de planos de cuidados, conclusões de encaminhamento e eventos de transição de cuidados que acionam mensagens de coordenação.
 - Projete caminhos de comunicação separados para mensagens direcionadas ao paciente e ao provedor, garantindo que a terminologia clínica seja usada adequadamente para os provedores, enquanto as mensagens do paciente permanecem claras e acessíveis.
 - Manter uma trilha de auditoria completa de todas as comunicações de coordenação de cuidados para conformidade com as regulamentações de continuidade de cuidados e os requisitos de capacitação.
+
+
+## Funnel de Jornada de pacientes e Análise de lacunas de atendimento
+
+Mapeie a jornada completa do paciente desde a pesquisa inicial na Web até a programação de consulta, prestação de cuidados e acompanhamento para identificar onde os pacientes se desenvolvem e quais populações têm lacunas nos cuidados preventivos ou crônicos recomendados. Os sistemas de saúde que não têm visibilidade de jornadas entre canais não conseguem distinguir entre o atrito programado e o desengajamento do paciente — limitando sua capacidade de melhorar o acesso e fechar as lacunas de atendimento em escala.
+
+### Impacto no negócio
+
+Entender onde os pacientes abandonam as vias de atendimento e quais segmentos de membros têm a maior concentração de lacunas de atendimento permite que as equipes de gerenciamento de atendimento e marketing concentrem recursos de alcance nas populações e pontos de atrito que produzirão a maior melhoria na adesão ao atendimento.
+
+### Como implementar o
+
+Use o padrão [Customer Analytics &amp; Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md). Essa abordagem conecta dados comportamentais da Web e do portal, registros do sistema de compromissos e dados de solicitações de atendimento ao Customer Journey Analytics, onde a análise de fallout mede a queda em cada etapa de agendamento ou atendimento e a análise de coorte identifica quais segmentos de membro têm as taxas de adesão ao atendimento mais baixas. Esse é o padrão correto quando a meta é a geração de insight e a análise no nível da população — compreender onde as jornadas são detalhadas e quem está mais em risco — em vez de acionar o alcance externo ou ativar uma lista de supressão.
+
+### Considerações técnicas
+
+- Os dados de compromissos e declarações de sistemas clínicos devem ser mapeados para esquemas XDM compatíveis com a HIPAA antes da assimilação no AEP, e os rótulos de uso de dados devem ser aplicados para restringir o acesso a informações de saúde protegidas nas visualizações de dados da CJA.
+- Os identificadores de pacientes ou membros no portal da Web, no sistema de agendamento e no EHR devem ser resolvidos como uma ID de pessoa consistente na conexão do CJA para produzir uma visualização de jornada coerente entre sistemas, sem duplicar indivíduos.
+- A análise de lacuna de atendimento exige conjuntos de dados de pesquisa que codifiquem definições de diretrizes clínicas — como intervalos de triagem recomendados por idade e condição — para que campos derivados do CJA possam sinalizar membros que não concluíram o atendimento recomendado na janela de diretrizes.
+- A análise de agendamento do funnel deve capturar sessões de agendamento concluídas e abandonadas, incluindo pontos de saída em fluxos de agendamento de várias etapas, para que os pontos de atrito estejam visíveis no nível da etapa, em vez de taxas de devolução agregadas.
+
+
+## Personalization de conteúdo do portal do paciente
+
+Personalize a experiência autenticada no portal do paciente, detectando o conteúdo de saúde, as ferramentas e os recursos mais relevantes com base no comportamento de navegação e no histórico de engajamento de cada paciente na sessão. Um portal que se adapte ao que um paciente está pesquisando ativamente — em vez de apresentar a mesma experiência estática para cada visitante — facilita aos pacientes encontrar o que precisam e incentiva um engajamento mais profundo com os recursos de saúde disponíveis.
+
+### Impacto no negócio
+
+Personalizar a experiência do portal do paciente com base no comportamento de engajamento melhora a descoberta de conteúdo e as taxas de conclusão de autoatendimento, ajudando os pacientes a navegar com mais confiança sem a necessidade de intervenção da equipe de atendimento.
+
+### Como implementar o
+
+Use o padrão [Recomendação Comportamental](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Os sinais comportamentais na sessão provenientes do portal autenticado — incluindo exibições de página de conteúdo, uso de ferramentas de saúde, participação em tópicos de perguntas frequentes e atividade de agendamento de compromissos — treinam um modelo de recomendação que exibe os recursos mais relevantes para cada paciente com base no que está explorando ativamente, sem a necessidade de dados clínicos como entrada. Esse é o padrão correto quando a personalização é orientada por sinais comportamentais implícitos em uma sessão autenticada e o objetivo é a classificação de relevância de um catálogo de conteúdo e recursos, em vez de decisões de elegibilidade controladas, que é mais apropriado quando os critérios clínicos precisam observar o que um paciente vê.
+
+### Considerações técnicas
+
+- Limite os sinais comportamentais usados para recomendações aos dados de interação do portal — exibições de conteúdo, uso de ferramentas e padrões de navegação — e implemente rótulos de uso de dados que impeçam que quaisquer interesses de integridade inferidos fluam fora da sessão do portal autenticada ou para canais de marketing.
+- Implemente uma biblioteca de conteúdo com análise clínica como o pool de recomendações para que o modelo possa exibir apenas materiais de educação médica pré-aprovados, garantindo que cada recurso recomendado tenha sido validado quanto à precisão antes da implantação.
+- Garantir que o sistema de recomendações atenda aos requisitos técnicos de proteção da HIPAA para o ambiente de portal autenticado, incluindo controles de tempo limite de sessão e registro de auditoria de qual conteúdo foi apresentado a cada paciente e quando.
+- Fornecer aos pacientes controles visíveis para limpar o histórico de navegação no portal e recusar a personalização comportamental, mantendo a transparência e a confiança em como os dados de engajamento são usados na experiência do portal.
+
+## Lembretes de Envolvimento e Compromisso do Paciente
+
+Envie lembretes de compromisso personalizados, dicas de saúde e comunicações de acompanhamento do atendimento por meio de jornadas multicanais compatíveis com reconhecimento de consentimento. Os lembretes de compromisso personalizados e automatizados reduzem as taxas de não comparência, garantindo ao mesmo tempo que as comunicações estejam em conformidade com as regulamentações de privacidade da área de saúde e as preferências de consentimento do paciente.
+
+### Impacto no negócio
+
+As organizações de saúde com programas automatizados de lembrete de compromissos percebem reduções significativas nas taxas de não comparência e cancelamento tardio, melhorando a utilização da programação do provedor e os resultados de saúde do paciente por meio de uma melhor adesão aos compromissos.
+
+### Como implementar o
+
+Use o padrão [Mensagens Acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para responder a eventos de agendamento de compromisso com lembretes oportunos e personalizados cronometrados em intervalos ideais antes da data do compromisso. Esse é o padrão correto quando a comunicação é acionada por um evento específico de interação do paciente e a resposta é uma mensagem individualizada e sensível ao tempo, em vez de uma sequência de criação de várias semanas ou uma seleção complexa de ofertas.
+
+### Considerações técnicas
+
+- Todas as comunicações dos pacientes devem estar em conformidade com as normas de privacidade aplicáveis; o conteúdo das mensagens deve evitar incluir informações de saúde protegidas além do estritamente necessário para a comunicação.
+- O gerenciamento do consentimento deve ser aplicado no nível do canal — os pacientes que não optaram por lembretes de SMS não devem receber textos, mesmo quando o SMS seria o canal de lembrete mais eficaz para sua demografia.
+- A integração com o sistema de agendamento deve fornecer eventos de compromisso em tempo quase real para habilitar o tempo de lembrete preciso para o agendamento de compromisso real, incluindo reagendamentos e cancelamentos no mesmo dia.
+- As sequências de lembrete multicanal devem incluir lógica de supressão para que os pacientes que confirmam sua consulta não continuem a receber mensagens de lembrete para essa consulta.

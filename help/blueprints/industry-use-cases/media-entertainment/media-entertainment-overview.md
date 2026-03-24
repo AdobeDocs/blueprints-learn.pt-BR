@@ -2,13 +2,13 @@
 title: Casos de uso de mídia e entretenimento
 description: Descubra como as organizações de mídia e entretenimento usam o Adobe Experience Platform para personalizar a descoberta de conteúdo, reduzir a rotatividade do assinante e aumentar a participação do público.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
-source-wordcount: '2644'
+source-wordcount: '3363'
 ht-degree: 0%
 
 ---
-
 
 # Casos de uso de mídia e entretenimento
 
@@ -20,11 +20,11 @@ Fornecer recomendações de conteúdo personalizado, incluindo filmes, programas
 
 ### Impacto no negócio
 
-As empresas que implantam mecanismos de recomendação de conteúdo personalizado normalmente veem um aumento de 30 a 40% no envolvimento de conteúdo e um aumento significativo no tempo total de observação ou escuta por usuário.
+As organizações que implantam mecanismos de recomendação de conteúdo personalizado percebem um envolvimento aprimorado com o conteúdo e um aumento significativo no tempo total de observação ou escuta por usuário.
 
 ### Como implementar o
 
-Use o padrão [Recomendação Comportamental](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Essa abordagem usa modelos de recomendação orientados por IA que aprendem continuamente com as interações do público-alvo para exibir o conteúdo mais relevante para cada indivíduo.
+Use o padrão [Recomendação Comportamental](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Essa abordagem usa modelos de recomendação orientados por IA que aprendem continuamente com as interações do público-alvo para exibir o conteúdo mais relevante para cada indivíduo. Esse é o padrão correto quando o conjunto de itens é grande e muda continuamente (catálogos de conteúdo) e a seleção é orientada por afinidade comportamental aprendida ao visualizar o histórico, em vez de um conjunto limitado de ofertas regido por regras de elegibilidade.
 
 ### Considerações técnicas
 
@@ -40,11 +40,11 @@ Identifique os assinantes que correm o risco de cancelar e envolva-os com recome
 
 ### Impacto no negócio
 
-Os programas eficazes de prevenção de churn oferecem uma redução de 20 a 30% no churn do assinante, protegendo a receita recorrente e melhorando o valor do público-alvo durante a vida útil a longo prazo.
+Programas eficazes de prevenção de churn oferecem reduções significativas no churn do assinante, protegendo a receita recorrente e melhorando o valor do público-alvo de longo prazo.
 
 ### Como implementar o
 
-Use a [Jornada entre canais com o padrão de decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Essa abordagem combina a orquestração de jornadas com a decisão em tempo real para selecionar a melhor oferta de retenção ou recomendação de conteúdo para cada assinante em risco em cada canal.
+Use a [Jornada entre canais com o padrão de decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). Essa abordagem combina a orquestração de jornadas com a decisão em tempo real para selecionar a melhor oferta de retenção ou recomendação de conteúdo para cada assinante em risco em cada canal. Esse é o padrão correto quando a jornada deve coordenar a entrega entre canais para evitar ofertas de retenção duplicadas e quando a seleção de ofertas exige regras de elegibilidade com base no valor do assinante e no nível de risco — a orquestração de várias etapas sozinha não fornece a camada de decisão em tempo real necessária.
 
 ### Considerações técnicas
 
@@ -60,11 +60,11 @@ Notifique os assinantes sobre novas versões de conteúdo que correspondem a sua
 
 ### Impacto no negócio
 
-As notificações de lançamento personalizadas normalmente promovem um aumento de 40 a 50% no envolvimento de novos conteúdos na primeira semana de lançamento, acelerando a visualização e impulsionando as métricas de desempenho do conteúdo.
+As notificações de versão personalizadas impulsionam o envolvimento aprimorado de novos conteúdos na primeira semana de lançamento, acelerando as visualizações e impulsionando as métricas de desempenho do conteúdo.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Essa abordagem responde aos eventos de lançamento de conteúdo, comparando novos títulos com perfis de preferência do assinante para fornecer notificações oportunas e relevantes.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Essa abordagem responde aos eventos de lançamento de conteúdo, comparando novos títulos com perfis de preferência do assinante para fornecer notificações oportunas e relevantes. Esse é o padrão correto quando o acionador é um evento do sistema (versão de conteúdo) em vez do comportamento do cliente, e a comunicação necessária é imediata e reativa em vez de uma sequência de criação contínua.
 
 ### Considerações técnicas
 
@@ -80,11 +80,11 @@ Personalize dinamicamente as páginas inicial e de descoberta de conteúdo para 
 
 ### Impacto no negócio
 
-Experiências personalizadas de páginas iniciais geram um aumento de 25% a 35% no engajamento das páginas iniciais e melhoram significativamente a descoberta de conteúdo, especialmente em plataformas com bibliotecas de conteúdo grandes e em crescimento.
+Experiências personalizadas de página inicial promovem um melhor engajamento da página inicial e melhoram significativamente a descoberta de conteúdo, especialmente em plataformas com bibliotecas de conteúdo grandes e crescentes.
 
 ### Como implementar o
 
-Use o padrão [Recomendação Comportamental](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Essa abordagem usa estratégias de seleção e modelos de classificação para reordenar linhas de conteúdo e títulos em destaque na página inicial com base no perfil de cada visitante e no comportamento em tempo real.
+Use o padrão [Recomendação Comportamental](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Essa abordagem usa estratégias de seleção e modelos de classificação para reordenar linhas de conteúdo e títulos em destaque na página inicial com base no perfil de cada visitante e no comportamento em tempo real. Esse é o padrão correto quando o conjunto de itens é grande e muda continuamente, e a seleção é orientada por afinidade comportamental para classificar linhas de conteúdo dinamicamente, em vez de um conjunto estático preparado ou personalização baseada em atributos simples.
 
 ### Considerações técnicas
 
@@ -100,11 +100,11 @@ Envie lembretes aos usuários sobre o conteúdo em sua lista de observação que
 
 ### Impacto no negócio
 
-Os programas de lembrete da lista de observação geralmente atingem um aumento de 30 a 40% na taxa de conclusão da lista de observação, transformando o propósito salvo em engajamento ativo e aumentando o uso geral da plataforma.
+Os programas de lembrete da lista de observação geram taxas de conclusão da lista de observação aprimoradas, transformando o propósito salvo em envolvimento ativo e aumentando o uso geral da plataforma.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Essa abordagem aciona lembretes com base na atividade da lista de observação e em sinais de inatividade, enviando toques oportunos quando o conteúdo foi salvo, mas ainda não foi iniciado.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Essa abordagem aciona lembretes com base na atividade da lista de observação e em sinais de inatividade, enviando toques oportunos quando o conteúdo foi salvo, mas ainda não foi iniciado. Este é o padrão correto quando um sinal comportamental discreto (inatividade da lista de observação) é o acionador e a resposta necessária é uma única mensagem sensível ao tempo, em vez de uma sequência de várias etapas ou um fluxo de recomendação contínuo.
 
 ### Considerações técnicas
 
@@ -120,11 +120,11 @@ Envolva usuários de avaliação gratuita com recomendações e ofertas de conte
 
 ### Impacto no negócio
 
-Campanhas de conversão de avaliação bem projetadas proporcionam uma melhoria de 25 a 35% nas taxas de conversão de avaliação para pagamento, aumentando diretamente a eficiência da aquisição do assinante e reduzindo o custo por aquisição.
+Campanhas de conversão de avaliação bem projetadas oferecem melhorias significativas nas taxas de conversão de avaliação para pagamento, aumentando diretamente a eficiência da aquisição do assinante e reduzindo o custo por aquisição.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Essa jornada de nutrição multitoque orienta os usuários de avaliação por meio de uma sequência de descoberta de conteúdo, demonstração de valor e mensagens de conversão, adaptando-se com base em seu envolvimento durante a avaliação.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Essa jornada de nutrição multitoque orienta os usuários de avaliação por meio de uma sequência de descoberta de conteúdo, demonstração de valor e mensagens de conversão, adaptando-se com base em seu envolvimento durante a avaliação. Esse é o padrão correto quando o caso de uso exige um fluxo sequenciado de várias mensagens ao longo de dias com ramificação condicional com base em eventos de engajamento e tempo de avaliação restante — uma única mensagem acionada não pode acomodar a lógica de dependência entre as etapas ou a necessidade de ajustes de cadência.
 
 ### Considerações técnicas
 
@@ -140,11 +140,11 @@ Notifique os usuários sobre eventos futuros ao vivo, jogos esportivos ou estrei
 
 ### Impacto no negócio
 
-Os lembretes de eventos ao vivo personalizados geralmente geram um aumento de 50 a 60% na audiência de eventos ao vivo, maximizando o público-alvo para programação em tempo real de alto valor.
+Lembretes de eventos ao vivo personalizados promovem uma melhor visualização do evento ao vivo, maximizando o público-alvo para uma programação em tempo real de alto valor.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Essa abordagem aciona notificações com base nos dados do cronograma do evento, comparando eventos futuros com perfis de interesse do assinante para fornecer lembretes oportunos.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Essa abordagem aciona notificações com base nos dados do cronograma do evento, comparando eventos futuros com perfis de interesse do assinante para fornecer lembretes oportunos. Esse é o padrão correto quando o acionador é um evento do sistema (programação de eventos) em vez do comportamento do cliente, e a comunicação necessária é imediata e vinculada ao tempo, em vez de uma sequência de criação contínua.
 
 ### Considerações técnicas
 
@@ -160,11 +160,11 @@ Gera e atualiza automaticamente listas de reprodução personalizadas com base n
 
 ### Impacto no negócio
 
-A geração de listas de reprodução personalizadas gera um aumento de 40 a 50% no engajamento das listas de reprodução e estende significativamente a duração média da sessão de escuta, fortalecendo os hábitos diários de uso da plataforma.
+A geração de listas de reprodução personalizadas aumenta o engajamento das listas de reprodução e estende significativamente a duração média da sessão de escuta, fortalecendo os hábitos diários de uso da plataforma.
 
 ### Como implementar o
 
-Use o padrão [Recomendação Comportamental](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Essa abordagem usa modelos orientados por IA que analisam os padrões de escuta, ignoram o comportamento e sinais contextuais para gerar e atualizar listas de reprodução personalizadas para cada usuário.
+Use o padrão [Recomendação Comportamental](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md). Essa abordagem usa modelos orientados por IA que analisam os padrões de escuta, ignoram o comportamento e sinais contextuais para gerar e atualizar listas de reprodução personalizadas para cada usuário. Este é o padrão correto quando o conjunto de itens é grande e muda continuamente e a seleção é impulsionada pela afinidade comportamental da história de escuta e sinais de humor — em vez de um conjunto limitado de listas de reprodução regidas por regras editoriais.
 
 ### Considerações técnicas
 
@@ -180,11 +180,11 @@ Ofereça uma experiência perfeita de conteúdo em todos os dispositivos sincron
 
 ### Impacto no negócio
 
-A sincronização de conteúdo entre plataformas gera um aumento de 30 a 40% no engajamento entre dispositivos e reduz significativamente o atrito que pode levar ao abandono da sessão quando os usuários alternam entre dispositivos.
+A sincronização de conteúdo entre plataformas aumenta o engajamento entre dispositivos e reduz significativamente o atrito que pode levar ao abandono da sessão quando os usuários alternam entre dispositivos.
 
 ### Como implementar o
 
-Use o padrão [Personalization de Aplicativo/Web de Visitante Conhecido](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md). Essa abordagem personaliza a experiência dos usuários identificados nas plataformas da Web e do aplicativo, garantindo um estado de conteúdo e recomendações consistentes, independentemente do dispositivo.
+Use o padrão [Personalization de Aplicativo/Web de Visitante Conhecido](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md). Essa abordagem personaliza a experiência dos usuários identificados nas plataformas da Web e do aplicativo, garantindo um estado de conteúdo e recomendações consistentes, independentemente do dispositivo. Esse é o padrão correto quando a personalização é orientada por atributos de perfil (identidade entre dispositivos, estado de progresso da observação) e associação de segmento, em vez de um modelo de afinidade comportamental ou uma sequência de orquestração de jornada.
 
 ### Considerações técnicas
 
@@ -200,11 +200,11 @@ Personalize os prompts de compartilhamento social e as recomendações com base 
 
 ### Impacto no negócio
 
-Os prompts personalizados de compartilhamento social geralmente alcançam um aumento de 20-30% na taxa de compartilhamento social, amplificando o alcance orgânico e reduzindo os custos de aquisição paga.
+O compartilhamento social personalizado incentiva a alcançar melhores taxas de compartilhamento social, amplificando o alcance orgânico e reduzindo os custos de aquisição pagos.
 
 ### Como implementar o
 
-Use o padrão [Personalization de Aplicativo/Web de Visitante Conhecido](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md). Essa abordagem personaliza experiências de compartilhamento no aplicativo para usuários identificados, encontrando prompts de compartilhamento contextualmente relevantes com base nas preferências do usuário e nos padrões de engajamento.
+Use o padrão [Personalization de Aplicativo/Web de Visitante Conhecido](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md). Essa abordagem personaliza experiências de compartilhamento no aplicativo para usuários identificados, encontrando prompts de compartilhamento contextualmente relevantes com base nas preferências do usuário e nos padrões de engajamento. Esse é o padrão correto quando a personalização é orientada por atributos de perfil e contexto de envolvimento conhecido, em vez de um modelo de afinidade comportamental, e o objetivo é aprimorar a experiência no momento sem orquestrar uma sequência de jornadas.
 
 ### Considerações técnicas
 
@@ -220,11 +220,11 @@ Identifique usuários que se beneficiariam de recursos premium e apresente ofert
 
 ### Impacto no negócio
 
-As campanhas de venda adicional premium personalizadas promovem um aumento de 15 a 25% na adoção de recursos premium, aumentando a receita média por usuário e, ao mesmo tempo, fornecendo recursos que realmente correspondem às necessidades do assinante.
+As campanhas de venda adicional premium personalizadas promovem uma melhor adoção de recursos premium, aumentando a receita média por usuário e fornecendo recursos que realmente atendem às necessidades do assinante.
 
 ### Como implementar o
 
-Use o padrão [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Essa abordagem usa uma lógica de decisão centralizada para avaliar os padrões de uso de cada assinante e selecionar a oferta premium mais relevante no momento certo.
+Use o padrão [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md). Essa abordagem usa uma lógica de decisão centralizada para avaliar os padrões de uso de cada assinante e selecionar a oferta premium mais relevante no momento certo. Esse é o padrão correto quando a seleção da oferta deve levar em conta as restrições do padrão de uso e as regras de elegibilidade da camada premium — restrições que exigem lógica de decisão controlada em vez de classificação de afinidade comportamental sozinha.
 
 ### Considerações técnicas
 
@@ -240,11 +240,11 @@ Lembre os usuários de terminarem de assistir ou ouvir o conteúdo que começara
 
 ### Impacto no negócio
 
-As campanhas de conclusão de conteúdo normalmente alcançam uma melhoria de 35 a 45% na taxa de conclusão do conteúdo, aumentando o tempo total de engajamento e fortalecendo a percepção do assinante sobre o valor da plataforma.
+As campanhas de conclusão de conteúdo promovem taxas de conclusão de conteúdo aprimoradas, aumentando o tempo total de engajamento e fortalecendo a percepção do assinante sobre o valor da plataforma.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Essa abordagem aciona lembretes com base em eventos de abandono de conteúdo, enviando mensagens oportunas quando um usuário pausa parcialmente em um título e não retorna em uma janela definida.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Essa abordagem aciona lembretes com base em eventos de abandono de conteúdo, enviando mensagens oportunas quando um usuário pausa parcialmente em um título e não retorna em uma janela definida. Esse é o padrão correto quando um sinal comportamental discreto (abandono de conteúdo) é o acionador e a resposta necessária é uma única mensagem com reconhecimento de tempo com contexto, em vez de uma jornada de várias etapas ou seleção de oferta dinâmica.
 
 ### Considerações técnicas
 
@@ -252,3 +252,23 @@ Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-pattern
 - As mensagens de lembrete devem incluir o título do conteúdo específico, uma miniatura visual e um deep link direto que retoma a reprodução no ponto exato em que o usuário parou.
 - O limite de frequência deve evitar lembretes excessivos para os usuários que rotineiramente coletam amostras de conteúdo sem finalizar; empurrões repetidos para o conteúdo que um usuário optou por abandonar podem parecer intrusivos.
 - A disponibilidade do conteúdo deve ser verificada no momento do envio, já que os títulos podem deixar a plataforma ou alterar regiões de disponibilidade entre o evento de abandono e o delivery de lembrete.
+
+
+## Análise do driver de churn do assinante e do engajamento no conteúdo
+
+Identifique quais padrões de consumo de conteúdo, alterações de frequência de engajamento e comportamentos de interação de catálogo precedem o cancelamento do assinante e meça como a afinidade de conteúdo varia entre os segmentos do assinante e os coortes de aquisição. Empresas de transmissão e publicação que não podem conectar o comportamento do conteúdo aos resultados de churn fazem com que as decisões de investimento em conteúdo baseadas em exibições agregadas sejam contadas em vez do impacto sobre a retenção.
+
+### Impacto no negócio
+
+Correlacionar os padrões de engajamento de conteúdo com os resultados de retenção do assinante fornece às equipes de produto, estratégia de conteúdo e marketing uma base fatual para priorizar investimentos em catálogos e projetar campanhas de reengajamento em torno dos comportamentos que realmente sustentam as assinaturas.
+
+### Como implementar o
+
+Use o padrão [Customer Analytics &amp; Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md). Essa abordagem conecta os dados do evento de transmissão, os metadados do conteúdo, os registros do ciclo de vida da assinatura e o histórico de interação da campanha ao Customer Journey Analytics, onde a análise de retenção de coorte mede como a afinidade do conteúdo se correlaciona com a estabilidade do assinante e a análise de fallout identifica os padrões de devolução de engajamento que precedem o cancelamento. Esse é o padrão correto quando o objetivo é entender os fatores comportamentais de churn e desempenho do conteúdo — em vez de acionar uma mensagem de retorno ou ativar um público-alvo de risco de churn para supressão.
+
+### Considerações técnicas
+
+- Os eventos de consumo de conteúdo devem incluir identificadores de conteúdo e metadados em nível de sessão — eventos de início, pausa, conclusão e ignorar — para que a profundidade do engajamento possa ser medida além das contagens brutas de reprodução no CJA.
+- Os eventos do ciclo de vida da assinatura, incluindo início da avaliação, conversão, falha de pagamento, downgrade e cancelamento, devem ser assimilados como eventos discretos com carimbos de data e hora precisos para que as janelas comportamentais de pré-cancelamento possam ser definidas com precisão nos filtros do CJA.
+- Os atributos do catálogo de conteúdo, como gênero, formato, associação de séries e recenticidade de versão, devem estar disponíveis como um conjunto de dados de pesquisa na conexão do CJA, para que a análise de envolvimento de conteúdo possa ser dividida pela dimensão do catálogo, em vez de exigir análise no nível de título individual.
+- A análise de coorte que compara as curvas de retenção por canal de aquisição e conteúdo original visualizado exige que a origem de aquisição e o conteúdo visualizado pela primeira vez sejam capturados como dimensões de perfil ou de primeiro evento, disponíveis para definição de coorte no CJA.

@@ -2,13 +2,13 @@
 title: Compra de marketing baseado em grupo e gerenciamento de Jornadas
 description: Saiba como desenvolver jornadas a nível de conta que qualifiquem leads em grupos de compra para melhorar a eficácia do marketing B2B.
 solution: Journey Optimizer, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
+source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '7932'
 ht-degree: 0%
 
 ---
-
 
 # Compra de marketing baseado em grupo e gerenciamento de jornadas
 
@@ -94,8 +94,8 @@ Desenvolva jornadas a nível de conta que qualifiquem leads em grupos de compra 
 
 Os seguintes aplicativos da Adobe são usados neste padrão de caso de uso.
 
-- **[!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])** — Orquestra jornadas no nível da conta, gerencia grupos de compras com modelos de função e interesses de solução, classifica o envolvimento no nível da pessoa e do grupo de compras, cria conteúdo de email B2B, envia mensagens SMS, configura alertas de vendas e fornece painéis de análise B2B.
-- **[!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])** — Unifica perfis de conta de dados B2B entre origens, resolve relações de pessoa para conta, avalia públicos em nível de conta, configura destinos específicos B2B ([!DNL Marketo Engage], [!DNL LinkedIn], CRM) e impõe a governança de dados em dados B2B.
+- **[!DNL Journey Optimizer B2B Edition]([!DNL AJO B2B])** — Orquestra jornadas no nível da conta, gerencia grupos de compras com modelos de função e interesses de solução, classifica o envolvimento no nível da pessoa e do grupo de compras, cria conteúdo de email B2B, envia mensagens SMS, configura alertas de vendas e fornece painéis de análise B2B.
+- **[!DNL Real-Time CDP B2B Edition]([!DNL RT-CDP B2B])** — Unifica perfis de conta de dados B2B entre origens, resolve relações de pessoa para conta, avalia públicos em nível de conta, configura destinos específicos B2B ([!DNL Marketo Engage], [!DNL LinkedIn], CRM) e impõe a governança de dados em dados B2B.
 
 ## Funções básicas
 
@@ -103,11 +103,11 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 
 | Função de base | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
-| Administração e governança | Obrigatório | Sandbox provisionada com [!DNL AJO B2B Edition] e [!DNL RT-CDP B2B Edition] direitos habilitados. Funções configuradas para profissionais de marketing B2B, operações de vendas e administradores com permissões apropriadas para gerenciamento de grupos de compras, jornadas de conta e configurações de integração de CRM. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home), [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
-| Preparação e modelagem de dados | Obrigatório | Esquemas XDM B2B configurados usando classes específicas B2B: conta de negócios XDM, oportunidade de negócios XDM, pessoa de negócios XDM (lead/contato), campanha de negócios XDM e lista de marketing de negócios XDM. Os grupos de campos para atributos de conta, atributos de pessoa e dados de atividade/envolvimento devem estar em vigor. Conjuntos de dados criados e habilitados para perfil para cada esquema. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), [classes de esquema B2B](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition) |
-| Fontes de dados e coleção | Obrigatório | Pipelines de assimilação de dados B2B estabelecidos, normalmente por meio do conector de origem [!DNL Marketo Engage] ou dos conectores de origem de CRM [!DNL Salesforce]/[!DNL Dynamics]. Dados de conta, pessoa, oportunidade, campanha e membro da campanha devem fluir para os conjuntos de dados da AEP. Os dados de engajamento comportamental (visitas da Web, interações por email, downloads de conteúdo) também devem ser assimilados para pontuação de engajamento. | [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home), [Conector do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
-| Configuração de identidade e perfil | Obrigatório | Resolução de identidade B2B configurada para resolver relacionamentos entre pessoas e contas. Os namespaces de identidade para identificadores B2B ([!DNL Marketo] ID de Pessoa, [!DNL Salesforce] ID de Cliente Potencial/Contato, ID de Conta) devem existir. Políticas de mesclagem configuradas para unificação de perfil B2B. Os perfis de conta devem ser unificados a partir dos dados entre fontes. | [Visão geral do Serviço de Identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home), [Resolução de Identidade B2B](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) |
-| Definição e segmentação do público-alvo | Obrigatório | Definições de público-alvo no nível da conta criadas usando atributos de conta, atributos de pessoa e dados de atividade. Os públicos-alvo da conta identificam quais contas entram nas jornadas do grupo de compra. Normalmente, a avaliação em lote é suficiente para jornadas de conta B2B, embora a avaliação por transmissão possa ser usada para acionadores de qualificação de conta em tempo real. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home), [Públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/types/account-audiences) |
+| Administração e governança | Obrigatório | Sandbox provisionada com [!DNL AJO B2B Edition] e [!DNL RT-CDP B2B Edition] direitos habilitados. Funções configuradas para profissionais de marketing B2B, operações de vendas e administradores com permissões apropriadas para gerenciamento de grupos de compras, jornadas de conta e configurações de integração de CRM. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home), [Visão geral do controle de acesso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
+| Preparação e modelagem de dados | Obrigatório | Esquemas XDM B2B configurados usando classes específicas B2B: conta de negócios XDM, oportunidade de negócios XDM, pessoa de negócios XDM (lead/contato), campanha de negócios XDM e lista de marketing de negócios XDM. Os grupos de campos para atributos de conta, atributos de pessoa e dados de atividade/envolvimento devem estar em vigor. Conjuntos de dados criados e habilitados para perfil para cada esquema. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home), [classes de esquema B2B](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition) |
+| Fontes de dados e coleção | Obrigatório | Pipelines de assimilação de dados B2B estabelecidos, normalmente por meio do conector de origem [!DNL Marketo Engage] ou dos conectores de origem de CRM [!DNL Salesforce]/[!DNL Dynamics]. Dados de conta, pessoa, oportunidade, campanha e membro da campanha devem fluir para os conjuntos de dados da AEP. Os dados de engajamento comportamental (visitas da Web, interações por email, downloads de conteúdo) também devem ser assimilados para pontuação de engajamento. | [Visão geral das fontes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home), [Conector do Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| Configuração de identidade e perfil | Obrigatório | Resolução de identidade B2B configurada para resolver relacionamentos entre pessoas e contas. Os namespaces de identidade para identificadores B2B ([!DNL Marketo] ID de Pessoa, [!DNL Salesforce] ID de Cliente Potencial/Contato, ID de Conta) devem existir. Políticas de mesclagem configuradas para unificação de perfil B2B. Os perfis de conta devem ser unificados a partir dos dados entre fontes. | [Visão geral do Serviço de Identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home), [Resolução de Identidade B2B](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) |
+| Definição e segmentação do público-alvo | Obrigatório | Definições de público-alvo no nível da conta criadas usando atributos de conta, atributos de pessoa e dados de atividade. Os públicos-alvo da conta identificam quais contas entram nas jornadas do grupo de compra. Normalmente, a avaliação em lote é suficiente para jornadas de conta B2B, embora a avaliação por transmissão possa ser usada para acionadores de qualificação de conta em tempo real. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home), [Públicos-alvo da conta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences) |
 
 ## Funções de suporte
 
@@ -115,11 +115,11 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 
 | Função de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
-| Criação de atributo calculado/derivado | Recomendado | Os atributos computados podem agregar eventos de engajamento no nível da pessoa (aberturas de email, downloads de conteúdo, participação em webinários) em métricas de engajamento no nível da conta que alimentam a pontuação do grupo de compra e a lógica de qualificação da conta. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview) |
-| Gerenciamento do ciclo de vida dos dados | Recomendado | O gerenciamento de consentimento é essencial para comunicações por email e SMS B2B. As políticas de expiração do conjunto de dados ajudam a gerenciar o ciclo de vida dos dados de envolvimento temporário e garantem a conformidade com os requisitos de retenção de dados. | [Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
-| Rotulagem e aplicação de uso de dados | Recomendado | Os dados B2B geralmente contêm informações confidenciais da empresa e dados pessoais de contatos comerciais. As políticas de governança de dados garantem o uso compatível dos dados B2B entre destinos, especialmente ao ativar plataformas de publicidade ou sistemas de terceiros. | [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home) |
-| Monitoramento e capacidade de observação | Recomendado | O monitoramento garante que os pipelines de dados B2B (sincronizações de CRM/[!DNL Marketo]) estejam íntegros, que os perfis de conta estejam sendo atualizados e que as execuções de jornada de conta prossigam sem falhas. Alertas sobre falhas no fluxo de dados de origem são essenciais para manter a moeda dos dados. | [Visão geral dos Insights de Capacidade de Observação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home) |
-| Relatórios e análise | Incluído | Os painéis de análise B2B no [!DNL AJO B2B Edition] fornecem envolvimento de grupo de compra, desempenho de jornada de conta e métricas de pipeline. [!DNL CJA B2B Edition] estende a análise com análise de espaço de trabalho no nível da conta, análise de grupo de compra e correlação de oportunidades. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Criação de atributo calculado/derivado | Recomendado | Os atributos computados podem agregar eventos de engajamento no nível da pessoa (aberturas de email, downloads de conteúdo, participação em webinários) em métricas de engajamento no nível da conta que alimentam a pontuação do grupo de compra e a lógica de qualificação da conta. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview) |
+| Gerenciamento do ciclo de vida dos dados | Recomendado | O gerenciamento de consentimento é essencial para comunicações por email e SMS B2B. As políticas de expiração do conjunto de dados ajudam a gerenciar o ciclo de vida dos dados de envolvimento temporário e garantem a conformidade com os requisitos de retenção de dados. | [Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
+| Rotulagem e aplicação de uso de dados | Recomendado | Os dados B2B geralmente contêm informações confidenciais da empresa e dados pessoais de contatos comerciais. As políticas de governança de dados garantem o uso compatível dos dados B2B entre destinos, especialmente ao ativar plataformas de publicidade ou sistemas de terceiros. | [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
+| Monitoramento e capacidade de observação | Recomendado | O monitoramento garante que os pipelines de dados B2B (sincronizações de CRM/[!DNL Marketo]) estejam íntegros, que os perfis de conta estejam sendo atualizados e que as execuções de jornada de conta prossigam sem falhas. Alertas sobre falhas no fluxo de dados de origem são essenciais para manter a moeda dos dados. | [Visão geral dos Insights de Capacidade de Observação](https://experienceleague.adobe.com/en/docs/experience-platform/observability/home) |
+| Relatórios e análise | Incluído | Os painéis de análise B2B no [!DNL AJO B2B Edition] fornecem envolvimento de grupo de compra, desempenho de jornada de conta e métricas de pipeline. [!DNL CJA B2B Edition] estende a análise com análise de espaço de trabalho no nível da conta, análise de grupo de compra e correlação de oportunidades. | [visão geral do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Funções do aplicativo
 
@@ -156,18 +156,18 @@ Este plano utiliza as seguintes funções do catálogo de funções do aplicativ
 
 Conclua o seguinte antes de iniciar a implementação.
 
-- [!DNL AJO B2B Edition] licença provisionada e habilitada na sandbox de destino
-- [!DNL RT-CDP B2B Edition] licença provisionada e habilitada na sandbox de destino
-- Sistema CRM ([!DNL Salesforce] ou [!DNL Microsoft Dynamics 365]) acessível com credenciais de API apropriadas para sincronização de dados bidirecional
-- Instância [!DNL Marketo Engage] conectada (se estiver usando [!DNL Marketo] como plataforma de automação de marketing) com conector de origem configurado
-- Esquemas XDM B2B implantados: classes de Conta, Pessoa, Oportunidade, Campanha e Membro da campanha com grupos de campos obrigatórios
-- Dados de conta e de pessoa assimilados na AEP com relacionamentos entre pessoas e contas resolvidos
-- Canal de email configurado: subdomínio delegado, pool de IP aquecido e superfície de canal criada para envio de email B2B
-- Provedor de SMS configurado (se o canal SMS for usado nas jornadas da conta): credenciais [!DNL Sinch], [!DNL Twilio] ou [!DNL Infobip] provisionadas
-- Equipe de vendas integrada ao componente de Insights de Vendas do CRM ([!DNL Salesforce] pacote do AppExchange ou [!DNL Dynamics] solução instalada)
-- Ativos de conteúdo preparados: modelos de email B2B, temas de marca e fragmentos visuais para emails de alertas de nutrição e vendas
-- Taxonomia de interesse da solução definida: lista de produtos/serviços que terão grupos de compras associados
-- Modelos de função do grupo de compras criados: personas e funções necessárias para cada interesse de solução (por exemplo, Comprador econômico, Avaliador técnico, Especialista)
+- [ ] [!DNL AJO B2B Edition] licença provisionada e habilitada na sandbox de destino
+- [ ] [!DNL RT-CDP B2B Edition] licença provisionada e habilitada na sandbox de destino
+- [ ] sistema do CRM ([!DNL Salesforce] ou [!DNL Microsoft Dynamics 365]) acessível com credenciais de API apropriadas para sincronização de dados bidirecional
+- [ ] [!DNL Marketo Engage] instância conectada (se estiver usando [!DNL Marketo] como plataforma de automação de marketing) com o conector de origem configurado
+- [ ] esquemas XDM B2B implantados: classes de Membro de Conta, Pessoa, Oportunidade, Campanha e Campanha com grupos de campos obrigatórios
+- [ ] Dados de conta e de pessoa assimilados na AEP com relacionamentos de pessoa para conta resolvidos
+- [ ] Canal de email configurado: subdomínio delegado, pool de IP aquecido e superfície de canal criada para envio de email B2B
+- [ Provedor de SMS ] configurado (se o canal SMS for usado nas jornadas da conta): credenciais [!DNL Sinch], [!DNL Twilio] ou [!DNL Infobip] provisionadas
+- [ ] Equipe de vendas integrada ao componente do CRM Sales Insights ([!DNL Salesforce] pacote do AppExchange ou [!DNL Dynamics] solução instalada)
+- [ ] ativos de conteúdo preparados: modelos de email B2B, temas de marca e fragmentos visuais para emails de alertas de promoção e vendas
+- [ ] Taxonomia de interesse da solução definida: lista de produtos/serviços que terão grupos de compras associados
+- [ ] Modelos de função do grupo de compras criados: personas e funções necessárias para cada interesse de solução (por exemplo, Comprador econômico, Avaliador técnico, Especialista)
 
 ## Opções de implementação
 
@@ -204,8 +204,8 @@ Os clientes potenciais são qualificados em funções de grupo de compra conform
 
 **Experience League:**
 
-- [Visão geral do AJO B2B edition](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/guide-overview)
-- [Criar grupos de compra](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
+- [Visão geral do AJO B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+- [Criar grupos de compra](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
 
 ### Opção B: vários interesses de solução com jornadas de conta de ramificação
 
@@ -239,8 +239,8 @@ A pontuação de engajamento opera independentemente por grupo de compra, permit
 
 **Experience League:**
 
-- [Interesses da solução](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
-- [Jornadas da conta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [Interesses da solução](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
+- [Jornadas da conta](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
 
 ### Opção C: qualificação de conta assistida por IA com progressão automatizada da jornada
 
@@ -274,8 +274,8 @@ As jornadas de conta usam o resultado das qualificações de IA para determinar 
 
 **Experience League:**
 
-- [Qualificação da conta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [Assistente de IA no AJO B2B](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/guide-overview)
+- [Qualificação da conta](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [Assistente de IA no AJO B2B](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
 
 ### Comparação de opções
 
@@ -346,9 +346,9 @@ Navegação da **IU:** Plataforma > Fontes > Catálogo > Selecionar origem ([!DN
 **Documentação do Experience League:**
 
 - [Visão geral da B2B edition da RT-CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
-- [Esquemas B2B no Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/schemas/b2b)
-- [Conector de origem do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
-- [Públicos da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/types/account-audiences)
+- [Esquemas B2B no Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [Conector de origem do Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Públicos da conta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
 - [Resolução de identidade B2B](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
 
 ### Fase 1: Interesse na solução e configuração do grupo de compras
@@ -402,10 +402,10 @@ Configure os interesses da solução e os modelos de função como na Opção B,
 
 **Documentação do Experience League:**
 
-- [Visão geral dos grupos de compras](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
-- [Interesses da solução](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
-- [Modelos de função](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
-- [Criar grupos de compra](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
+- [Visão geral dos grupos de compras](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
+- [Interesses da solução](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
+- [Modelos de função](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
+- [Criar grupos de compra](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
 
 ### Fase 2: qualificação principal e pontuação de engajamento
 
@@ -445,9 +445,9 @@ Navegação da **UI:** [!DNL AJO B2B Edition] > Grupos de Compras > Pontuação 
 
 **Documentação do Experience League:**
 
-- [Pontuação de engajamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [Estágios do grupo de compra](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [Qualificação da conta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [Pontuação de engajamento](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [Estágios do grupo de compra](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [Qualificação da conta](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
 
 ### Fase 3: Design e execução da jornada de conta
 
@@ -511,8 +511,8 @@ Crie uma jornada em que os nós de condição avaliem a pontuação de qualifica
 
 **Documentação do Experience League:**
 
-- [Visão geral das jornadas da conta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [Nós de jornada de conta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [Visão geral das jornadas da conta](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [Nós de jornada de conta](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
 - [Criação de email B2B](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/email-authoring)
 - [Canal SMS no AJO B2B](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sms-authoring)
 - [Assistente de IA para criação de email](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/ai-assistant-emails)
@@ -559,8 +559,8 @@ Navegação da **UI:** [!DNL AJO B2B Edition] > Administração > Configuração
 
 - [Emails de alerta de vendas](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
 - [Insights de vendas do CRM](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
-- [Visão geral dos destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home)
-- [Destino de públicos correspondentes do LinkedIn](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin)
+- [Visão geral dos destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [Destino de públicos correspondentes do LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
 
 ### Fase 5: Relatórios e otimização
 
@@ -591,8 +591,8 @@ Quais ferramentas de análise devem ser configuradas para o monitoramento contí
 **Documentação do Experience League:**
 
 - [Painéis de análise B2B](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [Painel de engajamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
-- [Painel inteligente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
+- [Painel de engajamento](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [Painel inteligente](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [Visão geral do CJA B2B edition](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
 ## Considerações de implantação
@@ -601,11 +601,11 @@ As seções a seguir abordam medidas de proteção, armadilhas comuns, práticas
 
 ### Medidas de proteção e limites
 
-- Limites de jornada de conta do [!DNL AJO B2B Edition], incluindo máximo de jornadas simultâneas e máximo de contas por jornada. Siga as [!DNL AJO B2B Edition] medidas de proteção do produto — [Medidas de proteção B2B do AJO](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/guide-overview)
-- O [!DNL RT-CDP B2B Edition] dá suporte a até 50 classes de esquema B2B e segue as medidas de proteção de perfil e segmentação padrão — [Medidas de proteção de perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails)
+- Limites de jornada de conta do [!DNL AJO B2B Edition], incluindo máximo de jornadas simultâneas e máximo de contas por jornada. Siga as [!DNL AJO B2B Edition] medidas de proteção do produto — [Medidas de proteção B2B do AJO](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+- O [!DNL RT-CDP B2B Edition] dá suporte a até 50 classes de esquema B2B e segue as medidas de proteção de perfil e segmentação padrão — [Medidas de proteção de perfil do cliente em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - A avaliação do público-alvo da conta opera em agendamentos em lote; as atualizações do público-alvo da conta em tempo real não são suportadas para todos os tipos de segmentos — [Medidas de proteção de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails)
 - A assimilação do conector de origem B2B tem intervalos mínimos de agendamento (normalmente 15 minutos para [!DNL Marketo], variando para fontes CRM) — [Medidas de proteção de assimilação](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
-- As superfícies dos canais de email são limitadas a 10 por tipo de canal por sandbox — [medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/guardrails)
+- As superfícies dos canais de email são limitadas a 10 por tipo de canal por sandbox — [medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 ### Armadilhas comuns
 
@@ -660,14 +660,14 @@ Os recursos a seguir fornecem detalhes adicionais sobre os aplicativos e recurso
 
 ### [!DNL AJO B2B Edition]
 
-- [Página inicial da documentação do AJO B2B edition](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/guide-overview)
-- [Visão geral dos grupos de compras](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
-- [Interesses da solução](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
-- [Modelos de função](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
-- [Criar grupos de compra](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
-- [Estágios do grupo de compra](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
-- [Visão geral das jornadas da conta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
-- [Nós de jornada de conta](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
+- [Página inicial da documentação do AJO B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
+- [Visão geral dos grupos de compras](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
+- [Interesses da solução](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
+- [Modelos de função](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
+- [Criar grupos de compra](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-create)
+- [Estágios do grupo de compra](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-group-stages)
+- [Visão geral das jornadas da conta](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview)
+- [Nós de jornada de conta](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes)
 - [Emails de alerta de vendas](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content/sales-alert-email)
 - [Insights de vendas do CRM](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/crm-sales-insights)
 
@@ -680,48 +680,48 @@ Os recursos a seguir fornecem detalhes adicionais sobre os aplicativos e recurso
 ### Análises e painéis B2B
 
 - [Painel de grupos de compra](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/buying-groups-dashboard)
-- [Painel de engajamento](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
-- [Painel inteligente](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
+- [Painel de engajamento](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/engagement-dashboard)
+- [Painel inteligente](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/dashboards/intelligent-dashboard)
 - [Visão geral do CJA B2B edition](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2b)
 
 ### [!DNL RT-CDP B2B Edition]
 
 - [Visão geral da B2B edition da RT-CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview)
-- [Esquemas B2B no Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/schemas/b2b)
-- [Públicos da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/types/account-audiences)
-- [Conector de origem do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
+- [Esquemas B2B no Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [Públicos da conta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences)
+- [Conector de origem do Marketo Engage](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 
 ### Base de dados
 
-- [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home)
-- [Visão geral do serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home)
-- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
-- [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home)
+- [Visão geral do sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [Visão geral do serviço de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [Visão geral das fontes](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+- [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
 
 ### Configuração de canais
 
 - [Introdução à configuração de email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
-- [Configurar canal de SMS](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [Configurar canal de SMS](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 
 ### Governança e privacidade de dados
 
-- [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home)
-- [Gerenciamento avançado do ciclo de vida dos dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home)
+- [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
+- [Gerenciamento avançado do ciclo de vida dos dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home)
 
 ### Destinos
 
-- [Visão geral dos destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home)
-- [Catálogo de destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/overview)
-- [Destino de públicos correspondentes do LinkedIn](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin)
+- [Visão geral dos destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+- [Catálogo de destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview)
+- [Destino de públicos correspondentes do LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin)
 
 ### Medidas de proteção
 
-- [Medidas de proteção do Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails)
+- [Medidas de proteção do Perfil do cliente em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
 - [Proteções de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/guardrails)
 - [Medidas de proteção de assimilação](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
-- [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/guardrails)
+- [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
 
 ### Tutoriais e introdução
 
-- [Introdução ao AJO B2B edition](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/guide-overview)
+- [Introdução ao AJO B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview)
 - [Tutorial do RT-CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-tutorial)

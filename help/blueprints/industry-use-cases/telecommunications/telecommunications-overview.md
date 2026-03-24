@@ -2,13 +2,13 @@
 title: Casos de uso de telecomunicações
 description: Descubra como as organizações de telecomunicações usam o Adobe Experience Platform para reduzir churn, impulsionar atualizações de dispositivos e melhorar o engajamento do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: 653632f0-81be-435c-a703-56c5bc132794
+source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
 workflow-type: tm+mt
-source-wordcount: '2295'
-ht-degree: 1%
+source-wordcount: '3822'
+ht-degree: 0%
 
 ---
-
 
 # Casos de uso de telecomunicações
 
@@ -20,11 +20,11 @@ Identifique os clientes qualificados para atualizações de dispositivos e apres
 
 ### Impacto no negócio
 
-As organizações que implementam recomendações de atualização de dispositivos geralmente observam um aumento de 30 a 40% nas taxas de conversão de atualização, fornecendo a oferta certa no momento certo pelo canal preferido do cliente.
+As organizações que implementam recomendações de atualização de dispositivos veem taxas de conversão de atualização aprimoradas, fornecendo a oferta certa no momento certo pelo canal preferido do cliente.
 
 ### Como implementar o
 
-Use o padrão [Cross-Channel Jornada com Decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para orquestrar jornadas de atualização que avaliam a elegibilidade, as preferências de dispositivo e a afinidade de canal de cada assinante, a fim de fornecer ofertas de atualização personalizadas por email, notificações de aplicativos e experiências na loja.
+Use o padrão [Cross-Channel Jornada com Decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para orquestrar jornadas de atualização que avaliam a elegibilidade, as preferências de dispositivo e a afinidade de canal de cada assinante, a fim de fornecer ofertas de atualização personalizadas por email, notificações de aplicativos e experiências na loja. Esse é o padrão correto quando a seleção da oferta deve levar em conta as janelas de qualificação de dispositivo, as preferências de canal e as restrições do inventário — restrições que exigem lógica de decisão controlada em vez de recomendações comportamentais simples sozinhas.
 
 ### Considerações técnicas
 
@@ -40,11 +40,11 @@ Analise os padrões de uso do cliente e recomende alterações de plano ideais p
 
 ### Impacto no negócio
 
-As campanhas de otimização de plano normalmente geram um aumento de 25 a 35% nas taxas de alteração do plano, melhorando a satisfação do cliente e, ao mesmo tempo, aumentando a receita média por usuário quando os assinantes mudam para planos que melhor correspondem ao seu consumo.
+As campanhas de otimização de plano geram taxas de alteração de plano aprimoradas, melhorando a satisfação do cliente e, ao mesmo tempo, aumentando a receita média por usuário quando os assinantes mudam para planos que melhor correspondem ao seu consumo.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para criar uma campanha multitoque que identifique incompatibilidades de uso para planejar, instrua os assinantes sobre as melhores opções e os oriente pelo processo de alteração do plano com acompanhamento em tempo hábil.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para criar uma campanha multitoque que identifique incompatibilidades de uso para planejar, instrua os assinantes sobre as melhores opções e os oriente pelo processo de alteração do plano com acompanhamento em tempo hábil. Esse é o padrão correto quando o caso de uso exige um fluxo sequenciado de várias mensagens ao longo de dias com ramificação condicional baseada no engajamento do assinante e na adoção do plano — uma única mensagem acionada não pode acomodar a jornada educacional e a lógica de dependência entre as etapas de educação e conversão.
 
 ### Considerações técnicas
 
@@ -60,11 +60,11 @@ Identifique clientes de alto valor em risco de churn e envolva-os com ofertas de
 
 ### Impacto no negócio
 
-Os programas de prevenção de churn direcionados a assinantes de alto valor normalmente alcançam uma redução de 20 a 30% no churn, protegendo uma receita recorrente significativa e reduzindo o custo de aquisição de clientes substitutos.
+Os programas de prevenção de churn direcionados a assinantes de alto valor alcançam reduções significativas no churn, protegendo a receita recorrente significativa e reduzindo o custo de aquisição de clientes de substituição.
 
 ### Como implementar o
 
-Use o padrão [Cross-Channel Jornada with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para monitorar sinais de risco de churn em tempo real, determinar a melhor oferta de retenção para cada assinante e orquestrar alcance personalizado em canais digitais e na central de atendimento.
+Use o padrão [Cross-Channel Jornada with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para monitorar sinais de risco de churn em tempo real, determinar a melhor oferta de retenção para cada assinante e orquestrar alcance personalizado em canais digitais e na central de atendimento. Esse é o padrão correto quando a jornada deve coordenar a entrega em canais digitais e assistidos por agente para evitar ofertas de retenção duplicadas e quando a seleção de ofertas requer pontuação de riscos e restrições de negócios — a orquestração de várias etapas sozinha não fornece a camada de decisão em tempo real ou a coordenação de agente necessária.
 
 ### Considerações técnicas
 
@@ -80,11 +80,11 @@ Automatize uma jornada de integração personalizada para novos clientes com inf
 
 ### Impacto no negócio
 
-As jornadas de integração bem projetadas normalmente aumentam as taxas de ativação de recursos em 50 a 60%, resultando em pontuações de satisfação mais altas e menor churn antecipado entre os novos assinantes.
+As jornadas de integração bem projetadas impulsionam taxas de ativação de recursos aprimoradas, resultando em pontuações de satisfação mais altas e menor rotatividade no início da vida útil entre os novos assinantes.
 
 ### Como implementar o
 
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para criar uma experiência de integração sequenciada que se adapte com base no tipo de plano, no dispositivo e no envolvimento de cada assinante com as etapas de integração anteriores.
+Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) para criar uma experiência de integração sequenciada que se adapte com base no tipo de plano, no dispositivo e no envolvimento de cada assinante com as etapas de integração anteriores. Esse é o padrão correto quando o caso de uso requer um fluxo sequenciado de várias mensagens ao longo de dias com ramificação condicional baseada na descoberta e no engajamento de recursos — uma única mensagem acionada não pode acomodar a lógica de dependência adaptável entre as etapas de integração com base no plano do assinante e no tipo de dispositivo.
 
 ### Considerações técnicas
 
@@ -100,11 +100,11 @@ Envie alertas personalizados quando os clientes se aproximarem dos limites de da
 
 ### Impacto no negócio
 
-Os alertas proativos de uso de dados geralmente geram um aumento de 40 a 50% nas compras de complementos de dados, além de reduzir as reclamações de impacto nas contas e melhorar a satisfação geral do cliente.
+Os alertas proativos de uso de dados impulsionam compras aprimoradas de complementos de dados, além de reduzir as reclamações de choque na fatura e melhorar a satisfação geral do cliente.
 
 ### Como implementar o
 
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar alertas em tempo real quando os limites de uso forem ultrapassados, com recomendações personalizadas com base nos padrões de consumo histórico e detalhes do plano do assinante.
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar alertas em tempo real quando os limites de uso forem ultrapassados, com recomendações personalizadas com base nos padrões de consumo histórico e detalhes do plano do assinante. Esse é o padrão correto quando o acionador é um evento do sistema (ultrapassagem de limite de uso) em vez do comportamento do cliente, e a comunicação necessária é imediata e reativa em vez de uma sequência de criação contínua.
 
 ### Considerações técnicas
 
@@ -120,11 +120,11 @@ Notifique proativamente os clientes sobre interrupções do serviço, manutenç�
 
 ### Impacto no negócio
 
-As notificações de interrupção proativa geralmente atingem uma taxa de confirmação de notificação de 60 a 70% e reduzem substancialmente o volume da central de atendimento durante interrupções do serviço, reduzindo os custos de suporte e, ao mesmo tempo, melhorando a percepção do cliente.
+As notificações de interrupção proativa atingem altas taxas de reconhecimento de notificação e reduzem substancialmente o volume da central de atendimento durante interrupções do serviço, reduzindo os custos de suporte e, ao mesmo tempo, melhorando a percepção do cliente.
 
 ### Como implementar o
 
-Use o padrão [Mensagens Acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para detectar eventos de rede e notificar imediatamente os assinantes afetados por meio de seus canais preferidos com detalhes relevantes, tempos de resolução estimados e remuneração apropriada, quando garantido.
+Use o padrão [Mensagens Acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para detectar eventos de rede e notificar imediatamente os assinantes afetados por meio de seus canais preferidos com detalhes relevantes, tempos de resolução estimados e remuneração apropriada, quando garantido. Esse é o padrão correto quando o acionador é um evento do sistema (interrupção da rede) em vez do comportamento do cliente, e a comunicação necessária é imediata e reativa, em vez de uma sequência sustentada de criação.
 
 ### Considerações técnicas
 
@@ -140,11 +140,11 @@ Personalize comunicações e ofertas para administradores de planos de família 
 
 ### Impacto no negócio
 
-As comunicações personalizadas de gerenciamento de planos familiares geralmente aumentam o envolvimento com planos familiares em 30 a 40%, resultando em maior retenção de linha e maior valor vitalício por conta.
+As comunicações personalizadas de gerenciamento de planos familiares geram um envolvimento aprimorado de planos familiares, resultando em maior retenção de linha e maior valor vitalício por conta.
 
 ### Como implementar o
 
-Use o padrão [Cross-Channel Jornada with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para analisar o uso em todos os membros da família, identificar oportunidades como a adição de linhas ou o ajuste de limites individuais e fornecer recomendações personalizadas ao administrador do plano.
+Use o padrão [Cross-Channel Jornada with Decisioning](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para analisar o uso em todos os membros da família, identificar oportunidades como a adição de linhas ou o ajuste de limites individuais e fornecer recomendações personalizadas ao administrador do plano. Esse é o padrão correto quando a seleção de ofertas deve levar em conta as permissões de hierarquia da família, a agregação de uso de vários membros e as restrições de privacidade, restrições que exigem lógica de decisão controlada em vez de recomendações de assinantes individuais.
 
 ### Considerações técnicas
 
@@ -160,11 +160,11 @@ Clientes-alvo qualificados para atualizações de rede 5G com ofertas e benefíc
 
 ### Impacto no negócio
 
-As campanhas de atualização 5G direcionadas geralmente geram um aumento de 25 a 35% nas taxas de adoção 5G entre os assinantes elegíveis, apoiando o retorno do investimento em rede e a diferenciação competitiva.
+As campanhas de atualização 5G direcionadas impulsionam melhores taxas de adoção 5G entre os assinantes elegíveis, apoiando o retorno do investimento em rede e a diferenciação competitiva.
 
 ### Como implementar o
 
-Use o padrão [Ativação de Mensagem de Saída em Lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para segmentar os assinantes com base na disponibilidade de cobertura 5G, na compatibilidade de dispositivos e na qualificação de planos. Em seguida, forneça campanhas de atualização personalizadas destacando os benefícios mais relevantes para o perfil de uso de cada assinante.
+Use o padrão [Ativação de Mensagem de Saída em Lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para segmentar os assinantes com base na disponibilidade de cobertura 5G, na compatibilidade de dispositivos e na qualificação de planos. Em seguida, forneça campanhas de atualização personalizadas destacando os benefícios mais relevantes para o perfil de uso de cada assinante. Esse é o padrão correto quando o público-alvo é predefinido e grande, o tempo de entrega é agendado em vez de ser orientado por eventos, e nenhuma ramificação ou decisão em tempo real é necessária — a campanha pode ser totalmente planejada com antecedência, com base nos cronogramas de implementação da cobertura.
 
 ### Considerações técnicas
 
@@ -180,11 +180,11 @@ Envie lembretes personalizados sobre pagamento de contas por meio de canais pref
 
 ### Impacto no negócio
 
-Os lembretes de pagamento de contas personalizados geralmente melhoram as taxas de pagamento no prazo em 20-30%, reduzindo as despesas de cobrança e minimizando as suspensões de serviço que geram insatisfação do cliente.
+Os lembretes de pagamento de contas personalizados melhoram as taxas de pagamento no prazo, reduzindo as despesas de cobrança e minimizando as suspensões de serviço que geram insatisfação do cliente.
 
 ### Como implementar o
 
-Use o padrão [Mensagens Acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar lembretes em momentos ideais antes da data de vencimento, personalizados com o saldo do assinante, o método de pagamento preferido e um link direto para concluir o pagamento.
+Use o padrão [Mensagens Acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar lembretes em momentos ideais antes da data de vencimento, personalizados com o saldo do assinante, o método de pagamento preferido e um link direto para concluir o pagamento. Esse é o padrão correto quando o acionador é um evento do sistema com base no tempo (data de vencimento da cobrança) em vez do comportamento do cliente, e a comunicação necessária é imediata e transacional em vez de uma sequência de envolvimento de várias etapas.
 
 ### Considerações técnicas
 
@@ -200,11 +200,11 @@ Recomendar serviços complementares relevantes, como seguro de dispositivo, arma
 
 ### Impacto no negócio
 
-As recomendações personalizadas de serviços complementares geralmente geram um aumento de 15 a 25% nas taxas de adoção de complementos, expandindo a receita da base de assinantes existente sem o custo da aquisição de novos clientes.
+As recomendações personalizadas de serviços complementares impulsionam taxas aprimoradas de adoção de complementos, expandindo a receita da base de assinantes existente sem o custo da aquisição de novos clientes.
 
 ### Como implementar o
 
-Use o padrão [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) para avaliar o perfil, os serviços atuais e os sinais comportamentais de cada assinante para determinar a oferta complementar mais relevante e apresentá-la pelo canal e momento ideais.
+Use o padrão [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) para avaliar o perfil, os serviços atuais e os sinais comportamentais de cada assinante para determinar a oferta complementar mais relevante e apresentá-la pelo canal e momento ideais. Esse é o padrão correto quando a seleção da oferta deve levar em conta a propriedade do serviço atual e as regras de negócios que regem a elegibilidade do serviço complementar, regras que exigem uma lógica de decisão controlada em vez de somente a classificação de afinidade comportamental.
 
 ### Considerações técnicas
 
@@ -220,11 +220,11 @@ Personalize as informações e recomendações de desempenho da rede com base no
 
 ### Impacto no negócio
 
-As experiências personalizadas de desempenho da rede normalmente aumentam o envolvimento do aplicativo em 35% a 45%, à medida que os assinantes retornam para verificar a cobertura, solucionar problemas e descobrir dicas de otimização adaptadas à sua situação.
+Experiências personalizadas de desempenho da rede impulsionam um engajamento aprimorado do aplicativo, à medida que os assinantes retornam para verificar a cobertura, solucionar problemas e descobrir dicas de otimização adaptadas à sua situação.
 
 ### Como implementar o
 
-Use o padrão [Personalization de Aplicativo/Web de Visitante Conhecido](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) para fornecer painéis personalizados de desempenho de rede, informações de cobertura e recomendações de otimização no aplicativo do assinante e na experiência da conta da Web.
+Use o padrão [Personalization de Aplicativo/Web de Visitante Conhecido](/help/blueprints/use-case-patterns/personalization/known-visitor-web-app-personalization.md) para fornecer painéis personalizados de desempenho de rede, informações de cobertura e recomendações de otimização no aplicativo do assinante e na experiência da conta da Web. Esse é o padrão correto quando a personalização é orientada por atributos de perfil e dados de localização, em vez de um modelo de afinidade comportamental.
 
 ### Considerações técnicas
 
@@ -236,15 +236,15 @@ Use o padrão [Personalization de Aplicativo/Web de Visitante Conhecido](/help/b
 
 ## Envolvimento do programa de fidelidade
 
-Personalize comunicações, recompensas e ofertas do programa de fidelidade com base no nível do cliente, no saldo de pontos e no histórico de resgate. Uma experiência de fidelidade bem personalizada fortalece a conexão emocional com a marca e cria custos de mudança significativos além dos termos do contrato.
+Personalize comunicações, recompensas e ofertas do programa de fidelidade com base no nível do cliente, no saldo de pontos e no histórico de resgate, arbitrando em tempo real em canais de aplicativo, Web, SMS e loja de varejo para evitar que ofertas duplicadas ou conflitantes cheguem ao mesmo assinante. Restrições de elegibilidade baseadas em camada regulam quais recompensas, resgates de parceiros e promoções cada assinante pode acessar, e essas regras devem ser aplicadas na camada de decisão em vez de serem incorporadas à lógica de campanha individual. O programa de fidelidade também deve coordenar com campanhas ativas de retenção e atualização, para que as ofertas de prevenção de churn e as recompensas de fidelidade complementem em vez de entregar duas vezes aos assinantes que estão simultaneamente em várias jornadas.
 
 ### Impacto no negócio
 
-O engajamento personalizado no programa de fidelidade normalmente aumenta a participação no programa e o resgate de prêmios em 30% a 40%, gerando taxas de retenção mais altas entre os assinantes inscritos.
+O engajamento personalizado no programa de fidelidade impulsiona uma melhor participação no programa e o resgate de prêmios, aumentando as taxas de retenção entre os assinantes inscritos.
 
 ### Como implementar o
 
-Use o padrão [Jornada entre canais com decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para orquestrar comunicações de fidelidade personalizadas que destaquem recompensas relevantes, notifiquem os assinantes sobre o progresso do nível e apresentem oportunidades de resgate alinhadas com suas preferências e comportamentos.
+Use o padrão [Jornada entre canais com decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para orquestrar comunicações de fidelidade personalizadas que destaquem recompensas relevantes, notifiquem os assinantes sobre o progresso do nível e apresentem oportunidades de resgate alinhadas com suas preferências e comportamentos. Esse é o padrão correto quando a jornada deve coordenar a entrega entre canais para evitar ofertas de fidelidade duplicadas e quando a seleção de ofertas requer status de nível e histórico de resgate — a orquestração em várias etapas sozinha não fornece a camada de decisão em tempo real necessária.
 
 ### Considerações técnicas
 
@@ -252,3 +252,62 @@ Use o padrão [Jornada entre canais com decisão](/help/blueprints/use-case-patt
 - Conecte os catálogos de premiação do parceiro para apresentar uma ampla variedade de opções de resgate personalizadas para os interesses demonstrados de cada assinante e resgates anteriores.
 - Coordene as mensagens de fidelidade com outras jornadas do Campaign para garantir que as ofertas de retenção e as recompensas de fidelidade se complementem em vez de entrar em conflito entre si.
 - Ofereça suporte aos empurrões de progressão de nível calculando a proximidade de um assinante com o próximo nível e apresentando etapas acionáveis para atingi-lo.
+
+
+## Consultor de plano de IA
+
+Os assinantes de telecomunicações enfrentam um desafio persistente: compreender como seu plano atual se compara às opções disponíveis e se um plano diferente se encaixaria melhor em seu uso real. As páginas de comparação de plano estático exigem que os assinantes interpretem automaticamente os dados que talvez não entendam totalmente, resultando em seleções de plano aquém do ideal, choque na conta e churn evitável. Um consultor de planos de IA envolve os assinantes em conversas naturais, analisa seus padrões de uso a partir de seu perfil em tempo real, faz perguntas de qualificação sobre as necessidades do dispositivo e os requisitos da residência e os orienta para o plano — ou combinação de planos e complementos — que melhor se adapta à sua situação.
+
+### Impacto no negócio
+
+A orientação do plano de conversa reduz o churn orientado pelo plano, aumenta o anexo da atualização para assinantes que não estão satisfeitos com seu plano atual e diminui o volume do centro de contato para consultas de cobrança e alteração de plano.
+
+### Como implementar o
+
+Use o padrão [Brand Concierge Conversational Experience](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md). Essa abordagem implanta o Product Advisor Agent em relação ao plano e ao catálogo complementar, usando os dados de perfil do cliente em tempo real e da AEP Agent Orchestrator, incluindo o histórico de uso e os detalhes do plano atual, para orientar os assinantes pela seleção do plano personalizado por meio da caixa de diálogo natural. Esse é o padrão correto quando a meta é uma descoberta interativa conversacional em várias voltas, que ajuda os assinantes a avaliar e selecionar ativamente o plano correto, diferentemente das mensagens acionadas por eventos, que notificam os assinantes reativamente sobre limites de uso ou alterações no plano, e das experiências personalizadas na Web, que exibem comparações de planos passivamente, sem envolver os assinantes em diálogos de qualificação. Ela requer a configuração do AEP Agent Orchestrator e do controle de marca.
+
+### Considerações técnicas
+
+- A pesquisa de perfil do cliente em tempo real deve mostrar os detalhes do plano atual, os padrões de uso de dados e voz, a compatibilidade do dispositivo e o status do contrato para que o consultor possa fornecer orientação precisa e específica da conta, em vez de descrições do plano genéricas que exigem que o assinante se aplique à sua situação.
+- O plano e o catálogo complementar devem ser mantidos atualizados por meio da integração com o sistema de gerenciamento de produtos, pois recomendar um plano ou preço promocional que não esteja mais disponível — ou omitir uma opção recém-lançada — mina diretamente a confiança do assinante e pode criar problemas de expectativa de serviço.
+- As medidas de proteção de controle de marca devem definir como o agente lida com comparações de operadoras competitivas, solicitações de preços promocionais e discussões de compromisso de contrato, garantindo que as respostas do agente estejam alinhadas aos padrões regulatórios e de marca sem criar compromissos enganosos que o assinante possa contestar posteriormente.
+- Os sinais de conversa — incluindo tamanho doméstico declarado, contagem de dispositivos, interesse de uso internacional e intenção de alteração do plano expressa durante o diálogo — devem ser capturados como XDM ExperienceEvents e transmitidos de volta para o AEP, enriquecendo os perfis do assinante para informar sobre prevenção de churn, atualização e campanhas de venda cruzada downstream.
+
+
+## Propensão de churn e Análise de experiência de rede
+
+Correlacione as métricas de experiência de rede — quedas de chamadas, degradação da taxa de transferência de dados, exposição a paralisações — com as taxas de contato do atendimento ao cliente e os resultados de churn do assinante para identificar onde os problemas de qualidade da rede se traduzem em riscos mensuráveis de atrito. Os provedores de telecomunicações que analisam o desempenho da rede e o comportamento do cliente em sistemas separados não podem determinar quais falhas de qualidade de serviço realmente geram churn versus quais são absorvidas sem consequências.
+
+### Impacto no negócio
+
+Conectar os dados de experiência da rede aos resultados comportamentais e de churn do cliente permite que as equipes de operações, produtos e retenção da rede priorizem investimentos de remediação com base no impacto do atrito demonstrado, em vez de somente na gravidade técnica.
+
+### Como implementar o
+
+Use o padrão [Customer Analytics &amp; Insight Generation](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md). Essa abordagem conecta dados de eventos da rede, registros de interação do atendimento ao cliente, sinais de comportamento digital e eventos de ciclo de vida do assinante ao Customer Journey Analytics, onde a análise correlacionada identifica os limites de experiência da rede e os padrões de contato que são estatisticamente associados à não renovação de churn e contrato. Esse é o padrão correto quando a meta é a geração de insight e a análise de causas básicas — compreender quais eventos de qualidade de serviço geram desgaste — em vez de acionar uma oferta de retenção ou ativar um público-alvo com risco de churn em uma CDP.
+
+### Considerações técnicas
+
+- Os eventos de experiência de rede devem ser associados a registros de assinantes usando identificadores de dispositivo ou de conta consistentes com a ID de pessoa configurada na conexão do CJA, já que os sistemas de telemetria de rede normalmente usam identificadores de equipamento em vez de identificadores de clientes nativamente.
+- Os dados de contato do atendimento ao cliente — incluindo códigos de motivo de contato, canal usado e status de resolução — devem ser assimilados como eventos com carimbos de data e hora que permitem que os analistas criem caminhos sequenciais a partir de incidentes de rede por meio do contato com o serviço por meio de churn em visualizações de fallout ou fluxo do CJA.
+- Os dados do plano e do contrato do assinante, incluindo datas de término do contrato, nível do plano e estabilidade, devem estar disponíveis como dimensões de pesquisa na visualização de dados do CJA, para que a análise de churn possa ser segmentada pela proximidade do contrato e camada de valor, em vez de tratar a base do assinante como homogênea.
+- Os volumes de dados de telemetria da rede podem ser extremamente grandes; as estratégias de amostragem do conjunto de dados ou a pré-agregação no AEP devem ser consideradas para manter o desempenho da consulta de conexão do CJA dentro de intervalos aceitáveis para uso de autoatendimento do analista.
+
+## Prevenção de churn e reversão
+
+Use modelos preditivos e sinais comportamentais para identificar clientes em risco e acionar campanhas de retenção personalizadas com ofertas personalizadas antes do churn. Os provedores de telecomunicações enfrentam uma pressão de churn persistente, e alcançar assinantes em risco com a oferta certa antes que eles entrem em contato com a fila de cancelamento é significativamente mais econômico do que as campanhas de retorno após o fato.
+
+### Impacto no negócio
+
+Os provedores de telecomunicações com programas proativos de prevenção de churn observam reduções significativas no churn voluntário para segmentos direcionados, com o maior impacto entre os clientes de médio porte, onde as ofertas de retenção direcionadas são mais econômicas do que os descontos gerais.
+
+### Como implementar o
+
+Use o padrão [Jornada entre canais com decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para criar uma jornada de retenção que identifique assinantes em risco com base nas pontuações de propensão de churn, selecione a oferta de retenção apropriada usando a lógica de decisão e a entregue nos canais preferenciais do assinante com etapas de acompanhamento se o primeiro alcance externo for ignorado. Esse é o padrão correto quando a seleção de ofertas e a orquestração de jornadas são necessárias — uma única mensagem acionada não pode acomodar a lógica de classificação de ofertas e o acompanhamento por multitoque necessários para uma retenção eficaz.
+
+### Considerações técnicas
+
+- Os modelos de propensão de churn devem ser treinados em dados históricos de churn que incluam experiência em rede, eventos de faturamento, chamadas de serviço e idade do dispositivo — os modelos treinados somente em dados de engajamento geralmente têm baixo desempenho em relação aos drivers de churn específicos de telecomunicação.
+- As ofertas de retenção devem ser restritas pelos limites de custo a reter por segmento de valor do cliente; o mecanismo de decisão deve impedir que ofertas de retenção de alto custo sejam aplicadas a assinantes de baixo valor.
+- O processamento do sinal de churn em tempo real deve detectar eventos de consulta de contrato e visitas de página de cancelamento de serviço para acionar respostas urgentes de retenção antes que o assinante seja escalonado.
+- A integração do atendimento ao cliente é essencial: os assinantes que chamam a fila de retenção devem ser reconhecidos como participantes do jornada para que os agentes tenham o contexto de oferta de retenção pronto antes do início da chamada.
