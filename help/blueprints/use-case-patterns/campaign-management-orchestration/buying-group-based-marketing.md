@@ -94,8 +94,8 @@ Desenvolva jornadas a nível de conta que qualifiquem leads em grupos de compra 
 
 Os seguintes aplicativos da Adobe são usados neste padrão de caso de uso.
 
-- **[!DNL Journey Optimizer B2B Edition]([!DNL AJO B2B])** — Orquestra jornadas no nível da conta, gerencia grupos de compras com modelos de função e interesses de solução, classifica o envolvimento no nível da pessoa e do grupo de compras, cria conteúdo de email B2B, envia mensagens SMS, configura alertas de vendas e fornece painéis de análise B2B.
-- **[!DNL Real-Time CDP B2B Edition]([!DNL RT-CDP B2B])** — Unifica perfis de conta de dados B2B entre origens, resolve relações de pessoa para conta, avalia públicos em nível de conta, configura destinos específicos B2B ([!DNL Marketo Engage], [!DNL LinkedIn], CRM) e impõe a governança de dados em dados B2B.
+- **[!DNL Journey Optimizer B2B Edition] ([!DNL AJO B2B])** — Orquestra jornadas no nível da conta, gerencia grupos de compras com modelos de função e interesses de solução, classifica o envolvimento no nível da pessoa e do grupo de compras, cria conteúdo de email B2B, envia mensagens SMS, configura alertas de vendas e fornece painéis de análise B2B.
+- **[!DNL Real-Time CDP B2B Edition] ([!DNL RT-CDP B2B])** — Unifica perfis de conta de dados B2B entre origens, resolve relações de pessoa para conta, avalia públicos em nível de conta, configura destinos específicos B2B ([!DNL Marketo Engage], [!DNL LinkedIn], CRM) e impõe a governança de dados em dados B2B.
 
 ## Funções básicas
 

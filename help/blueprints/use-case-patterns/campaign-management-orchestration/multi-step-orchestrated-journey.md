@@ -101,9 +101,9 @@ Guie um perfil por meio de uma jornada multitoque com esperas, condições e vá
 
 Os aplicativos a seguir são usados para implementar esse padrão de caso de uso.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — mecanismo de orquestração de Jornadas, criação de mensagens, configuração de canais, experimentação de conteúdo, gerenciamento de frequência e conflitos e relatórios
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Avaliação e definição de público-alvo para públicos-alvo de entrada de jornada, dados de perfil para personalização e ramificação de condição
-- **[!DNL Adobe Experience Platform](AEP)** — Armazenamento de perfil, serviço de identidade, assimilação de dados de evento e infraestrutura de dados de base
+- **[!DNL Adobe Journey Optimizer] (AJO)** — mecanismo de orquestração de Jornadas, criação de mensagens, configuração de canais, experimentação de conteúdo, gerenciamento de frequência e conflitos e relatórios
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Avaliação e definição de público-alvo para públicos-alvo de entrada de jornada, dados de perfil para personalização e ramificação de condição
+- **[!DNL Adobe Experience Platform] (AEP)** — Armazenamento de perfil, serviço de identidade, assimilação de dados de evento e infraestrutura de dados de base
 
 ## Funções básicas
 
