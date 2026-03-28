@@ -3,9 +3,9 @@ title: Casos de uso de viagem e hospitalidade
 description: Descubra como as organizações de viagem e hospitalidade usam o Adobe Experience Platform para personalizar experiências de reserva, recuperar reservas abandonadas e criar fidelidade do visitante.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '3648'
+source-wordcount: '4015'
 ht-degree: 0%
 
 ---
@@ -272,3 +272,40 @@ Use o padrão [Brand Concierge Conversational Experience](/help/blueprints/use-c
 - A pesquisa de perfil do cliente em tempo real deve mostrar o nível de fidelidade, o histórico de permanência e as preferências declaradas para que o agente possa reconhecer proativamente o status do convidado e adaptar as recomendações sem exigir que o convidado explique novamente suas preferências em cada visita.
 - A governança da marca deve definir como o agente processa as consultas de correspondência de classificação, referências de concorrentes e situações em que as datas preferidas dos hóspedes ou o tipo de quarto não estão disponíveis, garantindo que o agente responda normalmente com a voz da marca em vez de apresentar um beco sem saída.
 - Os sinais de intenção de conversa — incluindo o interesse de destino, a composição do grupo de viagem e as preferências auxiliares expressas durante o diálogo — devem fluir de volta para o AEP como dados do ExperienceEvent, enriquecendo os perfis de convidados para informar emails downstream, campanhas de fidelidade e reengajamento.
+
+## Campanhas de aniversário para convidados
+
+Direcione os convidados em seu aniversário com uma mensagem de aniversário personalizada e uma oferta exclusiva. As campanhas de aniversário fortalecem as relações com os hóspedes, reconhecendo um marco pessoal e incentivando uma reserva ou visita de celebração.
+
+### Impacto no negócio
+
+As mensagens de aniversário criam um ponto de contato emocional que diferencia a marca e impulsiona reservas incrementais, já que os hóspedes têm mais probabilidade de planejar uma experiência de escapada ou jantar em torno de seu aniversário quando são apresentados com uma oferta atraente e personalizada.
+
+### Como implementar o
+
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar uma mensagem de aniversário personalizada e uma oferta quando a data de aniversário do convidado chegar. Esse é o padrão correto quando uma única mensagem orientada por eventos é enviada com base em um acionador de data de atributo de perfil.
+
+### Considerações técnicas
+
+- A data de aniversário deve ser capturada no perfil do convidado e validada para evitar o envio de mensagens em datas incorretas.
+- As ofertas devem ter uma janela de validade definida (como o mês de aniversário) para dar aos hóspedes tempo razoável para planejar e reservar uma estadia ou experiência.
+- Os convidados sem um aniversário arquivado devem ser excluídos da campanha em vez de enviar uma mensagem genérica.
+- A personalização da oferta deve considerar as preferências de reserva anteriores (destino, tipo de propriedade, categoria de quarto) para apresentar sugestões relevantes.
+
+## Campanhas de promoção de destino
+
+Convidados do Target para fazer uma reserva durante uma promoção de destino de viagem em andamento. As promoções de destino impulsionam as reservas conectando os viajantes a ofertas oportunas para destinos promovidos alinhados aos seus interesses.
+
+### Impacto no negócio
+
+As promoções de destino direcionadas melhoram a conversão de reservas, atingindo os viajantes com maior probabilidade de se interessarem com base no histórico de viagens passado e nas preferências declaradas, reduzindo o desperdício promocional e melhorando o ROI da campanha.
+
+### Como implementar o
+
+Use o padrão [Ativação de Mensagem de Saída em Lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para enviar mensagens promocionais a segmentos de público-alvo qualificados durante as janelas ativas da campanha de destino. Esse é o padrão correto quando um lote agendado de mensagens promocionais personalizadas precisa alcançar um público-alvo definido durante uma campanha com limite de tempo.
+
+### Considerações técnicas
+
+- As datas de início e término da promoção devem ser gerenciadas para garantir que as mensagens só sejam enviadas durante a janela de promoção ativa.
+- A segmentação de público-alvo deve aproveitar o histórico de reservas anteriores, o comportamento de navegação e a afinidade de destino para direcionar os visitantes que têm maior probabilidade de se envolver com o destino promovido.
+- Os visitantes que já reservaram para o destino promovido e datas de viagem devem ser suprimidos das mensagens de aquisição.

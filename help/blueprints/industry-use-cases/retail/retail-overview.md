@@ -3,9 +3,9 @@ title: Casos de uso de varejo
 description: Descubra como as organizações de varejo usam o Adobe Experience Platform para personalizar experiências de compra, recuperar carrinhos abandonados e impulsionar a fidelidade do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 89a5b6b5-bb71-4154-bb3b-f6dbbbef13eb
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '6166'
+source-wordcount: '7216'
 ht-degree: 0%
 
 ---
@@ -491,3 +491,111 @@ Use o padrão [Brand Concierge Conversational Experience](/help/blueprints/use-c
 - As medidas de proteção de segurança da marca devem ser configuradas para impedir que o agente discuta sobre produtos de concorrentes, assuma compromissos de preços que entrem em conflito com as promoções ou responda a consultas fora do tópico.
 - A lógica de transferência para agentes ativos requer integração com a plataforma de serviço e deve ser acionada quando o agente de IA não puder resolver a consulta do cliente após um número definido de rodadas.
 - A integração de dados de perfil permite que o agente personalize as respostas com base no histórico de compras e no status de fidelidade, mas isso requer a resolução de identidade antes do início da sessão de conversação.
+
+## Lembrete de check-in com o CTA de download do aplicativo
+
+Lembre os convidados de fazer o check-in e incentive-os a baixar o aplicativo para acessar as informações facilmente. Lembretes de check-in em tempo hábil, juntamente com prompts de download de aplicativos, impulsionam o engajamento móvel e permitem experiências mais avançadas no local.
+
+### Impacto no negócio
+
+Os varejistas que combinam lembretes de check-in com planos de ação para download de aplicativos veem maiores taxas de adoção de aplicativos e maior engajamento na loja, já que os clientes que usam o aplicativo móvel tendem a interagir com mais frequência com promoções e conteúdo do local.
+
+### Como implementar o
+
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para acionar um lembrete de check-in com o CTA de download de aplicativo com base na participação no evento ou nos dados de reserva. Este é o padrão correto quando uma única mensagem oportuna precisa ser enviada em resposta a um evento ou acionador de agendamento conhecido.
+
+### Considerações técnicas
+
+- Os lembretes de check-in devem ser cronometrados adequadamente em relação à data do evento ou da visita para maximizar o engajamento sem serem vistos como muito cedo ou muito tarde.
+- Os deep links de download de aplicativos devem ser roteados para a loja de aplicativos correta com base na plataforma do dispositivo do cliente (iOS ou Android).
+- Os clientes que já têm o aplicativo instalado devem receber uma variante de mensagem diferente que ignora o CTA de download e se concentra na funcionalidade de check-in.
+
+## Campanhas de aniversário para fãs
+
+Direcione os fãs em seu aniversário com uma mensagem de aniversário personalizada e uma oferta exclusiva. As campanhas de aniversário criam conexões emocionais com os fãs e impulsionam compras incrementais por meio de alcance imediato e personalizado.
+
+### Impacto no negócio
+
+As campanhas de aniversário oferecem consistentemente taxas de abertura e conversão acima da média, pois chegam a um momento de significado pessoal, criando boa vontade e incentivando os fãs a se tratarem com uma compra especial.
+
+### Como implementar o
+
+Use o padrão [Mensagens acionadas por evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para enviar uma mensagem de aniversário personalizada quando a data de aniversário do cliente chegar. Esse é o padrão correto quando uma única mensagem orientada por eventos é enviada com base em um acionador de data de atributo de perfil.
+
+### Considerações técnicas
+
+- A data de aniversário deve ser capturada no perfil do cliente e validada para evitar o envio de mensagens em datas incorretas.
+- As ofertas devem ter uma janela de validade definida (como a semana de aniversário) para criar urgência, proporcionando aos clientes tempo razoável para resgatar.
+- Os fãs sem um aniversário no arquivo devem ser excluídos da campanha em vez de enviar uma mensagem genérica.
+
+## Campanhas de aniversário para compradores
+
+Direcione os compradores em seu aniversário com uma mensagem de aniversário personalizada e uma oferta exclusiva. As campanhas de aniversário geram fidelidade à marca, reconhecendo pessoalmente os clientes e incentivando uma compra comemorativa.
+
+### Impacto no negócio
+
+As ofertas de aniversário personalizadas impulsionam taxas de resgate mais altas do que as promoções genéricas, pois se alinham a um momento em que os compradores já estão inclinados a fazer compras discricionárias para si mesmos.
+
+### Como implementar o
+
+Use o padrão [Mensagens acionadas por evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para acionar uma mensagem de aniversário e uma oferta com base no atributo de perfil da data de nascimento do comprador. Esse é o padrão correto quando uma única mensagem personalizada precisa ser entregue em uma data de calendário específica vinculada ao perfil do cliente.
+
+### Considerações técnicas
+
+- A data de aniversário deve ser armazenada como um atributo de perfil e deve ser coletada durante o registro ou a inscrição para fidelidade.
+- A personalização da oferta deve considerar o histórico de compras e as preferências do comprador para apresentar sugestões de produto relevantes juntamente com o desconto de aniversário.
+- A lógica de supressão duplicada é necessária para clientes que aparecem em vários sistemas para evitar o envio de várias mensagens de aniversário.
+
+## Campanhas de promoção de dia do jogo
+
+Direcione os fãs para comprar ingressos para um próximo jogo com promoções e ofertas personalizadas. As promoções de dias de jogos impulsionam as vendas de ingressos atingindo o público certo com mensagens oportunas e específicas do evento.
+
+### Impacto no negócio
+
+Promoções direcionadas de dias de jogos melhoram as taxas de venda de ingressos, alcançando os fãs com ofertas relevantes com base nas preferências da equipe, na presença anterior e na proximidade do local.
+
+### Como implementar o
+
+Use o padrão [Ativação de mensagem de saída em lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para enviar mensagens promocionais para públicos-alvo segmentados de fãs antes dos próximos jogos. Esse é o padrão correto quando um lote de mensagens personalizadas precisa ser enviado para um segmento de público-alvo pré-criado de forma programada.
+
+### Considerações técnicas
+
+- Os dados do cronograma de jogos devem ser integrados para acionar promoções no prazo certo antes de cada evento.
+- A segmentação de público deve levar em conta a afinidade da equipe, a proximidade geográfica e os padrões de presença anteriores para maximizar a relevância.
+- Os clientes que já compraram ingressos para o jogo promovido devem ser suprimidos das mensagens de aquisição e podem receber ofertas de venda adicional para atualizações ou complementos.
+
+## Campanhas de promoção de produtos
+
+Direcione os compradores para comprar produtos durante uma campanha de promoção contínua de produtos. As campanhas promocionais geram receita ao conectar os clientes certos com ofertas oportunas alinhadas a promoções ativas.
+
+### Impacto no negócio
+
+As campanhas de promoção de produtos direcionadas superam as promoções de amplo alcance, concentrando-se nos compradores com maior probabilidade de conversão, reduzindo o desperdício promocional e melhorando o retorno sobre os gastos com marketing.
+
+### Como implementar o
+
+Use o padrão [Ativação de Mensagem de Saída em Lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para enviar mensagens promocionais a segmentos de público qualificados durante as janelas ativas da campanha. Esse é o padrão correto quando um lote agendado de mensagens promocionais personalizadas precisa alcançar um público-alvo definido durante uma campanha com limite de tempo.
+
+### Considerações técnicas
+
+- As datas de início e término da promoção devem ser gerenciadas para garantir que as mensagens só sejam enviadas durante a janela de promoção ativa.
+- A segmentação de público-alvo deve aproveitar o histórico de compras, o comportamento de navegação e a afinidade de produtos para direcionar os compradores mais propensos a se engajar com os produtos promovidos.
+- O limite de frequência deve ser aplicado para evitar fadiga promocional, especialmente quando várias campanhas são executadas simultaneamente.
+
+## Abandono de carrinho de compras
+
+Reenvolva os clientes que abandonam o carrinho de compras com lembretes e incentivos personalizados para concluir a compra. A recuperação de abandono do carrinho é um dos casos de uso com ROI mais alto no marketing de varejo.
+
+### Impacto no negócio
+
+As campanhas de recuperação de abandono do carrinho recuperam uma porcentagem significativa da receita perdida de outra forma, envolvendo novamente os compradores no momento da maior intenção de compra com lembretes e incentivos personalizados.
+
+### Como implementar o
+
+Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) para acionar uma mensagem de recuperação quando um evento de abandono de carrinho for detectado. Esse é o padrão correto quando uma única mensagem em tempo real precisa ser enviada em resposta a um evento comportamental, como deixar itens no carrinho sem concluir o check-out.
+
+### Considerações técnicas
+
+- A detecção de abandono do carrinho requer um limite de inatividade definido (normalmente de 30 a 60 minutos) para distinguir o abandono verdadeiro dos clientes que ainda estão navegando.
+- O conteúdo do carrinho deve ser transmitido na carga do evento para habilitar lembretes de produto personalizados na mensagem de recuperação.
+- Os clientes que concluírem sua compra entre o evento de abandono e o envio da mensagem devem ser suprimidos para evitar mensagens irrelevantes.

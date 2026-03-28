@@ -3,9 +3,9 @@ title: Casos de uso de telecomunicações
 description: Descubra como as organizações de telecomunicações usam o Adobe Experience Platform para reduzir churn, impulsionar atualizações de dispositivos e melhorar o engajamento do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3533'
 ht-degree: 0%
 
 ---
@@ -232,26 +232,6 @@ Use o padrão [Personalization de Aplicativo/Web de Visitante Conhecido](/help/b
 - Conecte dados de diagnóstico do dispositivo para oferecer recomendações de solução de problemas personalizadas com base no modelo do dispositivo específico do assinante e na versão do software.
 - Use os serviços de borda do [!DNL Adobe Experience Platform] para fornecer personalização de baixa latência dentro da experiência do aplicativo sem afetar o desempenho.
 - Implemente loops de feedback para que os assinantes possam relatar problemas de cobertura, enriquecendo os dados da rede e demonstrando a capacidade de resposta à sua experiência.
-
-
-## Envolvimento do programa de fidelidade
-
-Personalize comunicações, recompensas e ofertas do programa de fidelidade com base no nível do cliente, no saldo de pontos e no histórico de resgate, arbitrando em tempo real em canais de aplicativo, Web, SMS e loja de varejo para evitar que ofertas duplicadas ou conflitantes cheguem ao mesmo assinante. Restrições de elegibilidade baseadas em camada regulam quais recompensas, resgates de parceiros e promoções cada assinante pode acessar, e essas regras devem ser aplicadas na camada de decisão em vez de serem incorporadas à lógica de campanha individual. O programa de fidelidade também deve coordenar com campanhas ativas de retenção e atualização, para que as ofertas de prevenção de churn e as recompensas de fidelidade complementem em vez de entregar duas vezes aos assinantes que estão simultaneamente em várias jornadas.
-
-### Impacto no negócio
-
-O engajamento personalizado no programa de fidelidade impulsiona uma melhor participação no programa e o resgate de prêmios, aumentando as taxas de retenção entre os assinantes inscritos.
-
-### Como implementar o
-
-Use o padrão [Jornada entre canais com decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) para orquestrar comunicações de fidelidade personalizadas que destaquem recompensas relevantes, notifiquem os assinantes sobre o progresso do nível e apresentem oportunidades de resgate alinhadas com suas preferências e comportamentos. Esse é o padrão correto quando a jornada deve coordenar a entrega entre canais para evitar ofertas de fidelidade duplicadas e quando a seleção de ofertas requer status de nível e histórico de resgate — a orquestração em várias etapas sozinha não fornece a camada de decisão em tempo real necessária.
-
-### Considerações técnicas
-
-- Integre a plataforma de fidelidade para acessar saldos de pontos em tempo real, status da camada e histórico de resgate para uma personalização precisa.
-- Conecte os catálogos de premiação do parceiro para apresentar uma ampla variedade de opções de resgate personalizadas para os interesses demonstrados de cada assinante e resgates anteriores.
-- Coordene as mensagens de fidelidade com outras jornadas do Campaign para garantir que as ofertas de retenção e as recompensas de fidelidade se complementem em vez de entrar em conflito entre si.
-- Ofereça suporte aos empurrões de progressão de nível calculando a proximidade de um assinante com o próximo nível e apresentando etapas acionáveis para atingi-lo.
 
 
 ## Consultor de plano de IA

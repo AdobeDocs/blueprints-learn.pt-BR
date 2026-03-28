@@ -3,9 +3,9 @@ title: Casos de uso de seguro
 description: Descubra como as organizações de seguros usam o Adobe Experience Platform para personalizar o gerenciamento de políticas, melhorar as experiências com solicitações e impulsionar a retenção do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3016'
 ht-degree: 0%
 
 ---
@@ -132,26 +132,6 @@ Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-pattern
 - Configure regras de tempo que equilibram a urgência com respeito — acompanhamento inicial em horas, com um número limitado de lembretes subsequentes nos dias seguintes.
 - Aplique regras de consentimento e privacidade para garantir que o acompanhamento só seja enviado a clientes potenciais que optaram por comunicações de marketing, especialmente para clientes que ainda não estabeleceram uma relação de política.
 - Inclua deep links que retornam o cliente potencial diretamente para a cotação salva, em vez de exigir que ele reinicie o processo desde o início.
-
-
-## Ofertas de produtos baseadas em estágios
-
-Identifique os clientes que entram em novos estágios da vida — como casamento, compra de casa, família em crescimento ou aposentadoria — e ofereça produtos de seguro relevantes que correspondam às suas necessidades de proteção em evolução. O direcionamento para o estágio de vida ajuda os segurados a construírem a cobertura certa na hora certa.
-
-### Impacto no negócio
-
-As ofertas de produtos baseados em estágios da vida atingem taxas aprimoradas de adoção de produtos em estágios da vida, aprofundando o relacionamento com o cliente durante momentos importantes de tomada de decisão.
-
-### Como implementar o
-
-Use a [Jornada entre canais com o padrão de decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md). As transições de estágio de vida se beneficiam da orquestração entre canais combinada com decisões em tempo real para selecionar o produto mais relevante e entregá-lo pelo canal preferido do cliente no momento ideal. Esse é o padrão correto quando a jornada deve coordenar a entrega em vários canais para garantir ofertas consistentes e, ao mesmo tempo, aproveitar a decisão para selecionar o produto mais apropriado para o estágio de vida detectado. A orquestração em várias etapas sozinha não pode fornecer a qualificação e a avaliação de adequação em tempo real necessárias para recomendações de produtos de seguro.
-
-### Considerações técnicas
-
-- Crie modelos de detecção de estágios da vida usando sinais comportamentais, como alterações de endereço, atualizações de beneficiários e padrões de pesquisa online, combinados com eventos de alteração de política.
-- Configure o mecanismo de decisão com regras de elegibilidade e adequação do produto que correspondam cada estágio da vida útil às recomendações de cobertura apropriadas.
-- Coordene as ofertas do estágio de vida com o agente ou corretor atribuído para que eles estejam preparados para oferecer suporte ao cliente com uma conversa consultiva quando a oferta for entregue.
-- Aplique rótulos de governança de dados a qualquer fonte de dados de terceiros usada para inferência do estágio da vida útil para garantir a conformidade com as regulamentações de privacidade de dados e práticas de marketing justas.
 
 
 ## Oportunidades de Desconto e Economia
