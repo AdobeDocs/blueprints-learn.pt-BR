@@ -3,7 +3,7 @@ title: '[!DNL Journey Optimizer] - Blueprint do Jornada'
 description: Execute mensagens e experiências acionadas usando a Adobe Experience Platform como um hub central para dados de transmissão, perfis de clientes e segmentação.
 solution: Journey Optimizer
 exl-id: 97831309-f235-4418-bd52-28af815e1878
-source-git-commit: 1e1c30954a7f4b3eac0e63736ad804329d58f76b
+source-git-commit: 8ad1be5524ffd98f3728e4e65bc1b9d69efab2c2
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 16%
