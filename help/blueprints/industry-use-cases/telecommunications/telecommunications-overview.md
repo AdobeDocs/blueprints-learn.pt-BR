@@ -1,11 +1,11 @@
 ---
 title: Casos de uso de telecomunicações
-description: Descubra como as organizações de telecomunicações usam o Adobe Experience Platform para reduzir churn, impulsionar atualizações de dispositivos e melhorar o engajamento do cliente.
+description: Descubra como as organizações de telecomunicações usam o Adobe Experience Platform para reduzir churn, impulsionar atualizações de dispositivos e planos e melhorar o engajamento do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 4b4d85f80abaa6219e7ea210864a07a141564921
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3527'
 ht-degree: 0%
 
 ---
@@ -154,22 +154,22 @@ Use o padrão [Cross-Channel Jornada with Decisioning](/help/blueprints/use-case
 - Verifique se os controles de privacidade estão em vigor para que os detalhes de uso de membros individuais sejam compartilhados adequadamente com o administrador do plano com base nas permissões da conta.
 
 
-## Campanhas de atualização 5G
+## Campanhas de atualização
 
-Clientes-alvo qualificados para atualizações de rede 5G com ofertas e benefícios personalizados com base em sua localização e padrões de uso. À medida que a cobertura 5G se expande, chegar aos assinantes em áreas recém-cobertas com mensagens relevantes acelera a adoção e aumenta a utilização da rede.
+Clientes-alvo qualificados para atualizações com ofertas e benefícios personalizados com base em sua localização e padrões de uso. À medida que a nova cobertura se expande, alcançar os assinantes em áreas recém-cobertas com mensagens relevantes acelera a adoção e aumenta a utilização da rede.
 
 ### Impacto no negócio
 
-As campanhas de atualização 5G direcionadas impulsionam melhores taxas de adoção 5G entre os assinantes elegíveis, apoiando o retorno do investimento em rede e a diferenciação competitiva.
+Campanhas de atualização direcionadas promovem melhores taxas de adoção entre os assinantes qualificados, apoiam o retorno do investimento em rede e o diferencial competitivo.
 
 ### Como implementar o
 
-Use o padrão [Ativação de Mensagem de Saída em Lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para segmentar os assinantes com base na disponibilidade de cobertura 5G, na compatibilidade de dispositivos e na qualificação de planos. Em seguida, forneça campanhas de atualização personalizadas destacando os benefícios mais relevantes para o perfil de uso de cada assinante. Esse é o padrão correto quando o público-alvo é predefinido e grande, o tempo de entrega é agendado em vez de ser orientado por eventos, e nenhuma ramificação ou decisão em tempo real é necessária — a campanha pode ser totalmente planejada com antecedência, com base nos cronogramas de implementação da cobertura.
+Use o padrão [Ativação de Mensagem de Saída em Lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) para segmentar os assinantes com base na disponibilidade de cobertura, compatibilidade de dispositivo e qualificação de plano. Em seguida, forneça campanhas de atualização personalizadas destacando os benefícios mais relevantes para cada perfil de uso do assinante. Esse é o padrão correto quando o público-alvo é predefinido e grande, o tempo de entrega é agendado em vez de ser orientado por eventos, e nenhuma ramificação ou decisão em tempo real é necessária — a campanha pode ser totalmente planejada com antecedência, com base nos cronogramas de implementação da cobertura.
 
 ### Considerações técnicas
 
-- Integrar mapas de cobertura de rede para identificar com precisão os assinantes em áreas com serviço 5G ativo e evitar a promoção de atualizações em que a cobertura ainda não está disponível.
-- Conecte dados de compatibilidade de dispositivo para determinar quais assinantes precisam de um novo dispositivo em comparação com aqueles que já têm hardware compatível com 5G.
+- Integre mapas de cobertura de rede para identificar com precisão os assinantes em áreas com serviço ativo e evitar a promoção de atualizações em que a cobertura ainda não está disponível.
+- Conecte os dados de compatibilidade do dispositivo para determinar quais assinantes precisam de um novo dispositivo em comparação com aqueles que já têm hardware compatível.
 - Coordene com os sistemas de inventário de varejo para garantir que os dispositivos e planos promovidos estejam disponíveis na loja preferencial do assinante ou online.
 - Segmente as mensagens por perfil de uso para que os usuários de dados pesados recebam benefícios focados no desempenho, enquanto os usuários casuais recebem mensagens de cobertura e confiabilidade.
 
