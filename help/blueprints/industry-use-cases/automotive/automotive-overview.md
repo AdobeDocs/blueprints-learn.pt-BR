@@ -3,9 +3,9 @@ title: Casos de uso automotivo
 description: Descubra como as organizações automotivas usam o Adobe Experience Platform para personalizar a jornada de compra do veículo, melhorar a retenção de serviços e criar a fidelidade do proprietário.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e5c88f240fe86bbc494402842a3d974f803aab03
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1802'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,6 @@ As organizações automotivas usam o Adobe Experience Platform para unificar os 
 | [Recomendações sobre peças e acessórios](#parts-and-accessories-recommendations) | Recomendar peças, acessórios e atualizações relevantes com base no modelo do veículo, duração da propriedade e preferências do cliente. As recomendações personalizadas de serviços pós-venda geram receita incremental e, ao mesmo tempo, ajudam os proprietários a obter mais de seus veículos. | Melhores taxas de compra de peças e acessórios e maior receita pós-venda | [Recomendação comportamental](/help/blueprints/use-case-patterns/personalization/behavioral-recommendation.md) |
 | [Notificações de Cancelamento de Veículo](#vehicle-recall-notifications) | Envie notificações personalizadas de recuperação com opções de agendamento de serviço e informações de segurança. Comunicações de recuperação claras e oportunas protegem a segurança do cliente e demonstram o compromisso da marca com o suporte responsável de propriedade. | Melhores taxas de resposta de recuperação e conformidade de segurança reforçada | [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
 | [Novas Campanhas de Inicialização de Modelo](#new-model-launch-campaigns) | Direcione clientes que podem estar interessados em novos lançamentos de modelo com base em seu veículo atual, preferências e histórico de compras. O direcionamento focado do público-alvo maximiza o impacto do lançamento e cria um impulso inicial para o pedido. | Melhor envolvimento na campanha de lançamento e maior interesse no novo modelo | [Ativação de mensagem de saída em lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) |
-| [Ofertas de Financiamento e Seguro](#financing-and-insurance-offers) | Apresentar ofertas personalizadas de financiamento e seguro com base no perfil de crédito, seleção de veículo e cronograma de compra. Os produtos financeiros personalizados removem as barreiras de compra e ajudam os clientes a se sentirem confiantes em seus termos. | Melhores taxas de aceitação de financiamento e maior receita por venda | [Offer Decisioning](/help/blueprints/use-case-patterns/personalization/offer-decisioning.md) |
 | [Agendamento da Unidade de Teste](#test-drive-scheduling) | Habilite a programação personalizada do teste com recomendações do revendedor e disponibilidade do veículo. Fazer com que seja fácil para os compradores interessados para chegar ao volante acelera o caminho para a compra. | Taxas de conclusão de test drive aprimoradas e maior conversão de vendas | [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) |
 | [Programas de Fidelidade do Proprietário](#owner-loyalty-programs) | Coordene comunicações de fidelidade entre canais de carro conectados, digitais de OEM e revendedores, aplicando regras de elegibilidade baseadas em nível para determinar quais proprietários recebem ofertas exclusivas, acesso antecipado ao veículo e recompensas do parceiro. A arbitragem de oferta impede que promoções conflitantes de revendedores e canais OEM cheguem ao mesmo proprietário simultaneamente. | Maior engajamento no programa de fidelidade e mais compras repetidas | [Jornada entre canais com decisão](/help/blueprints/use-case-patterns/campaign-management-orchestration/cross-channel-journey-with-decisioning.md) |
 | [Garantia e planos de serviços estendidos](#warranty-and-extended-service-plans) | Recomendar planos de garantia e serviço estendido em épocas ideais com base na idade do veículo, quilometragem e padrões de compra. O alcance bem cronometrado captura a receita antes que as garantias da fábrica expirem. | Melhores taxas de adoção de garantia estendida e maior receita de serviços | [Jornada Orquestrada Em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md) |
@@ -75,13 +74,6 @@ As organizações automotivas usam o Adobe Experience Platform para unificar os 
 - O cronograma da campanha deve ser coordenado com as datas de embargo e os cronogramas de lançamento regionais para garantir que os clientes recebam informações no momento adequado para seus mercados.
 - A ativação do público-alvo do [!DNL Real-Time Customer Data Platform] deve sincronizar os segmentos de lançamento com as plataformas de publicidade para obter suporte coordenado a mídia paga e alcançar o alcance de seus próprios canais.
 
-### Ofertas de financiamento e seguro
-
-- As regras de elegibilidade da oferta financeira devem ser cuidadosamente configuradas para cumprir as regulamentações de empréstimo, garantindo que as ofertas apresentadas aos clientes sejam aquelas para as quais eles realmente podem se qualificar.
-- A integração de dados de perfis de crédito exige controle de acesso rigoroso e controle seguro, já que as informações financeiras estão sujeitas a requisitos normativos e de privacidade ampliados.
-- A apresentação da oferta deve divulgar claramente os termos, as taxas e as condições em conformidade com as regulamentações financeiras do consumidor em cada mercado aplicável.
-- As regras de decisão do [!DNL Journey Optimizer] devem considerar o preço do veículo, o pagamento antecipado e as preferências de termos de empréstimo para classificar as ofertas por relevância em vez de simplesmente por taxa.
-
 ### Agendamento do drive de teste
 
 - Os sistemas de inventário do revendedor devem ser integrados para confirmar que o modelo e o acabamento do veículo específico em que o cliente está interessado estão disponíveis para o teste de direção na concessionária recomendada.
@@ -119,3 +111,4 @@ As organizações automotivas usam o Adobe Experience Platform para unificar os 
 - A lógica de atribuição de cliente para revendedor deve considerar a proximidade, a especialização do revendedor, as preferências de idioma e qualquer relacionamento de revendedor existente para fornecer a melhor correspondência.
 - As regras de roteamento de clientes potenciais devem garantir que, quando um cliente manifestar interesse de compra online, a consulta chegue rapidamente ao negociante apropriado com contexto completo sobre a atividade de pesquisa do cliente.
 - A resolução de identidade do [!DNL Experience Platform] deve lidar com cenários em que um cliente interage com várias concessionárias, mantendo um perfil unificado e respeitando a visão de cada revendedor sobre seus próprios relacionamentos com os clientes.
+
