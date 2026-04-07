@@ -3,9 +3,9 @@ title: Casos de uso da área de saúde
 description: Descubra como as organizações de saúde usam o Adobe Experience Platform para melhorar o envolvimento dos pacientes, simplificar a coordenação do atendimento e gerar melhores resultados de saúde.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 8da82711-a783-488d-a0ed-070b33ecbbc4
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '3818'
+source-wordcount: '3589'
 ht-degree: 0%
 
 ---
@@ -95,26 +95,6 @@ Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-pattern
 - Aplique rótulos de uso de dados a qualquer conteúdo de instrução sobre o tratamento para garantir que as informações protegidas de saúde sejam compartilhadas somente por canais seguros e autorizados pelo paciente.
 - Configure regras de tempo que levem em conta o tipo de visita — por exemplo, acompanhamentos pós-cirúrgicos podem exigir um tempo diferente das pesquisas de check-up de rotina.
 - Inclua links seguros no portal do paciente para a conclusão da pesquisa e agendamento de consultas, em vez de coletar informações de saúde por canais não seguros.
-
-
-## Programas de gerenciamento de doenças crônicas
-
-Personalize as comunicações de gerenciamento de doenças crônicas, o conteúdo educacional e os lembretes de monitoramento com base na condição e no plano de tratamento específicos de cada paciente. O engajamento sustentado e relevante ajuda os pacientes a ter um papel ativo no gerenciamento de sua saúde ao longo do tempo.
-
-### Impacto no negócio
-
-Programas personalizados de gerenciamento de doenças crônicas observam maiores taxas de engajamento no programa, resultando em melhores resultados no gerenciamento de doenças e menor utilização de cuidados de emergência.
-
-### Como implementar o
-
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). O gerenciamento de doenças crônicas é inerentemente uma experiência de longa duração com vários pontos de contato que requer mensagens adaptáveis com base no envolvimento do paciente e nos marcos de saúde. Este é o padrão correto porque o gerenciamento de doenças crônicas requer mensagens adaptáveis por um período estendido com ramificação condicional baseada em métricas clínicas e padrões de engajamento — as mensagens acionadas por eventos não podem lidar com a reavaliação contínua e dinâmica necessária para ajustar intervenções com base em dados de saúde em evolução.
-
-### Considerações técnicas
-
-- Projetar uma lógica de ramificação da jornada que se adapta com base em métricas específicas da condição (por exemplo, tendências de glicose no sangue para o tratamento do diabetes ou leituras da pressão arterial para programas de hipertensão).
-- Implemente uma governança de dados rigorosa com rótulos de uso de dados [!DNL Adobe Experience Platform] para classificar e proteger dados de integridade específicos da condição em toda a jornada.
-- Integre com dispositivos de monitoramento remoto de pacientes e sistemas de resultados relatados pelo paciente para alimentar dados de saúde em tempo real nos pontos de decisão da jornada.
-- Crie caminhos de escalonamento da equipe de atendimento na jornada para que o não engajamento ou as tendências de saúde acionem alertas para a equipe clínica apropriada.
 
 
 ## Jornada de integração de novos pacientes

@@ -3,9 +3,9 @@ title: Casos de uso de seguro
 description: Descubra como as organizações de seguros usam o Adobe Experience Platform para personalizar o gerenciamento de políticas, melhorar as experiências com solicitações e impulsionar a retenção do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '3016'
+source-wordcount: '2543'
 ht-degree: 0%
 
 ---
@@ -152,46 +152,6 @@ Use o padrão [Offer Decisioning](/help/blueprints/use-case-patterns/personaliza
 - Configure regras de decisão que levam em conta as limitações de empilhamento de descontos e garantem que os valores de economia comunicados sejam precisos na atualidade e aprovados pela equipe de preços.
 - Aplique regras regulatórias específicas do estado para comunicações de descontos, já que alguns estados têm restrições sobre como os descontos de seguro podem ser comercializados e aplicados.
 - Acompanhe os resultados da adoção de descontos para refinar continuamente o modelo de decisão e priorizar as mensagens de economia que mais refletem nos diferentes segmentos de clientes.
-
-
-## Prevenção de Fraude de Reclamações
-
-Use a detecção inteligente de fraudes para identificar padrões de reclamações suspeitas e personalizar as comunicações de investigação, mantendo a confiança do cliente. Uma prevenção eficaz da fraude protege os tomadores de seguros honestos, mantendo os prêmios justos e garantindo que as reclamações legítimas sejam processadas rapidamente.
-
-### Impacto no negócio
-
-Os programas inteligentes de prevenção contra fraudes de avisos de sinistro melhoram as taxas de detecção de fraudes, reduzindo os pagamentos fraudulentos e os custos gerais com avisos de sinistro.
-
-### Como implementar o
-
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Os eventos de pontuação de risco de fraude acionam comunicações de investigação apropriadas e ajustes de processos em tempo real, garantindo que as solicitações sinalizadas recebam atenção imediata. Esse é o padrão correto quando um evento derivado do sistema (pontuação de risco de fraude) é o acionador e a ação necessária é o ajuste imediato do processo interno com comunicação cuidadosa com o cliente, em vez de um cenário de jornada ou decisão em várias etapas.
-
-### Considerações técnicas
-
-- Integre pontuações de risco de fraude do sistema de análise de reclamações ao perfil do cliente, aplicando rótulos rigorosos de governança de dados para evitar que os dados de investigação de fraude apareçam em comunicações voltadas para o cliente.
-- Crie caminhos de comunicação que mantenham um tom profissional e respeitoso para os clientes cujas solicitações estão sendo analisadas, preservando o relacionamento independentemente do resultado da investigação.
-- Implemente controles de acesso com base em funções para garantir que os indicadores de fraude sejam visíveis apenas para equipes de investigação autorizadas e nunca sejam exibidos em visualizações padrão de agente ou atendimento ao cliente.
-- Coordene com o serviço de resolução de identidade do [!DNL Adobe Experience Platform] para detectar padrões em perfis relacionados, como endereços compartilhados ou números de telefone vinculados a várias declarações suspeitas.
-
-
-## Programas de prevenção e bem-estar
-
-Personalize as comunicações do programa de bem-estar, os lembretes de participação e as notificações de recompensa para clientes de seguro de saúde e vida com base em suas metas e nível de engajamento. Programas de bem-estar ativos melhoram os resultados de saúde dos tomadores de seguros e criam uma base de clientes mais forte e engajada.
-
-### Impacto no negócio
-
-As comunicações personalizadas do programa de bem-estar e prevenção impulsionam taxas de participação do programa aprimoradas, contribuindo para melhores resultados de saúde e frequência reduzida de solicitações.
-
-### Como implementar o
-
-Use o padrão [Jornada Orquestrada em Várias Etapas](/help/blueprints/use-case-patterns/campaign-management-orchestration/multi-step-orchestrated-journey.md). Programas de bem-estar são experiências de engajamento sustentado com marcos, desafios e recompensas que exigem orquestração adaptativa com base na atividade e progresso de cada participante. Este é o padrão correto quando o caso de uso requer um fluxo de várias mensagens de longo prazo com ramificação baseada em envolvimento e ajustes de tempo adaptáveis — as mensagens acionadas por eventos não podem lidar com a lógica complexa de marcos ou com a necessidade de ajustar a cadência de comunicação com base no rastreamento sustentado de atividades.
-
-### Considerações técnicas
-
-- Integre com dispositivos vestíveis e feeds de dados de aplicativos de integridade usando a assimilação por streaming do [!DNL Adobe Experience Platform], aplicando rótulos de governança de dados claros para distinguir dados de integridade de dados de substituição ou de declaração.
-- Implemente mecanismos de consentimento separados para a coleta de dados de bem-estar a fim de garantir que os participantes entendam como seus dados de atividade de saúde são usados e podem recusar sem afetar suas políticas.
-- Projete uma lógica de jornada que ajuste a intensidade do programa e a frequência de comunicação com base no nível de engajamento de cada participante para evitar fadiga e incentivar a participação sustentada.
-- Entre em contato com suas equipes jurídicas e de conformidade para analisar as estruturas de incentivo de bem-estar e os programas de desconto premium visando a conformidade com as regulamentações estaduais de seguro aplicáveis antes do lançamento.
 
 
 ## Coordenação de Agente e Agente
