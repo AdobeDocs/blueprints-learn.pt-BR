@@ -3,9 +3,9 @@ title: Casos de uso de viagem e hospitalidade
 description: Descubra como as organizações de viagem e hospitalidade usam o Adobe Experience Platform para personalizar experiências de reserva, recuperar reservas abandonadas e criar fidelidade do visitante.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: fbdcc015-96a4-4015-93e2-3fc7db375c13
-source-git-commit: 3542d76106fada9019b70a8cc9fd4c74872d4995
+source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
 workflow-type: tm+mt
-source-wordcount: '4015'
+source-wordcount: '3744'
 ht-degree: 0%
 
 ---
@@ -32,26 +32,6 @@ Use o padrão [Web Personalization de Visitante Anônimo](/help/blueprints/use-c
 - As regras do Personalization devem levar em conta as tendências de viagens sazonais por região, enfrentando destinos de clima quente para visitantes em climas frios durante os meses de inverno, por exemplo.
 - As estratégias de conteúdo de fallback são essenciais para visitantes cuja localização não pode ser determinada ou que chegam por meio de serviços de anonimato.
 - A integração com o feed de disponibilidade do sistema de reservas garante que as propriedades e os itinerários em destaque sejam realmente reserváveis, evitando a frustração de promover opções esgotadas.
-
-
-## Jornada de recuperação de abandono do carrinho
-
-Detecte automaticamente quando um cliente abandona o carrinho de reserva e acione uma jornada de email de várias etapas com ofertas personalizadas para incentivar a conclusão. Reservas abandonadas representam um dos maiores vazamentos de receita em viagens e hospitalidade, e acompanhamento oportuno, enquanto a intenção de viagem ainda é recente e recupera uma parcela significativa dessas reservas.
-
-### Impacto no negócio
-
-Os programas eficazes de recuperação de reservas atingem taxas significativas de recuperação do carrinho e podem gerar receita incremental significativa, dependendo do volume de reservas e do valor médio do percurso.
-
-### Como implementar o
-
-Use o padrão [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md). Essa abordagem responde a um evento de abandono de carrinho em tempo real, enviando um lembrete em tempo hábil enquanto a intenção de viagem do cliente ainda é alta. Esse é o padrão correto quando o acionador é um evento de comportamento do cliente em tempo real e a resposta necessária é uma mensagem única e sensível ao tempo, em vez de uma sequência de criação de várias etapas ou seleção de oferta dinâmica que muda com base na resposta do cliente.
-
-### Considerações técnicas
-
-- Os limites de detecção de abandono do carrinho devem levar em conta os ciclos de consideração mais longos típicos em compras de viagem; um atraso de 2 a 4 horas antes do primeiro lembrete geralmente é mais apropriado do que os 30 a 60 minutos usados no varejo.
-- O conteúdo do email deve obter dinamicamente os preços atuais, a disponibilidade de quartos ou cabines e imagens do sistema de reservas no momento do envio, já que o inventário e as taxas de viagem mudam com frequência.
-- Incentivos personalizados, como atualizações complementares ou créditos de resort, devem ser gerenciados por meio de regras de negócios que contabilizam margem, sazonalidade e o nível de fidelidade do cliente.
-- A lógica de supressão deve excluir clientes que concluíram sua reserva por meio de outro canal, como uma central de atendimento ou agente de viagens, para evitar mensagens de acompanhamento irrelevantes.
 
 
 ## Direcionamento de visitantes de alta intenção
