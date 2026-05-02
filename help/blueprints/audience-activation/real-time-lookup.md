@@ -72,25 +72,25 @@ Com esse recurso, você pode fornecer experiências altamente personalizadas em 
 
 ### Configurações de destino
 
-* [Conexão personalizada com o Personalization](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - Guia de implementação principal
-* [Visão geral dos destinos do Personalization](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/overview)
-* [Ativar públicos para destinos de personalização de borda](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
-* [Pesquisar atributos de perfil na borda em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
+* [Conexão personalizada com o Personalization](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/custom-personalization) - Guia de implementação principal
+* [Visão geral dos destinos do Personalization](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/overview)
+* [Ativar públicos para destinos de personalização de borda](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Pesquisar atributos de perfil na borda em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-edge-profile-lookup)
 
 ### Documentação do SDK
 
-* [Documentação do Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Documentação do Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=pt-BR)
 * [Documentação do Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/)
 * [Documentação da API do Edge Network Server](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
 * [Documentação de tags do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR)
-* [Respostas de comando no Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html)
+* [Respostas de comando no Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/command-responses.html?lang=pt-BR)
 
 ### Documentação de perfil e segmentação
 
-* [Documentação de [!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Documentação de [!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR)
 * [Proteções de perfil](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 
 ### Tutoriais
 
-* [Personalização de próxima ocorrência com Real-Time CDP e Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html)
+* [Personalização de próxima ocorrência com Real-Time CDP e Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html?lang=pt-BR)
 * [Configuração da sequência de dados](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=pt-BR)
