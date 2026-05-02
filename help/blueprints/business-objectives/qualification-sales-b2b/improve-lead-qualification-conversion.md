@@ -2,13 +2,13 @@
 title: Melhorar a qualificação e a conversão de clientes potenciais
 description: Saiba como aumentar a qualidade do lead e acelerar a progressão do pipeline por meio de pontuação, promoção e acompanhamento personalizado.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 4454b148-79f9-49f9-97ca-f305df00fe0b
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 4%
 
 ---
-
 
 # Melhorar a qualificação e a conversão de clientes potenciais
 
@@ -30,5 +30,5 @@ Os seguintes padrões de caso de uso oferecem suporte a esse objetivo comercial.
 
 | Padrão | Categoria | Como sustenta esse objetivo |
 | --- | --- | --- |
-| [Ativação de público-alvo B2B](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | Criação e ativação de público | Ativa públicos baseados em conta para campanhas de qualificação de clientes potenciais direcionadas |
-| [Comprando o Gerenciamento de Jornada e Marketing Baseado em Grupo](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Orquestração e gerenciamento de campanhas | Qualifica oportunidades para grupos de compra e coordena a criação de vários participantes para acelerar o pipeline |
+| [Ativação de público-alvo B2B](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | Criação e ativação de público | Ativa públicos baseados em conta para campanhas de qualificação de clientes potenciais direcionadas |
+| [Comprando o Gerenciamento de Jornada e Marketing Baseado em Grupo](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | Orquestração e gerenciamento de campanhas | Qualifica oportunidades para grupos de compra e coordena a criação de vários participantes para acelerar o pipeline |

@@ -2,13 +2,13 @@
 title: Aumentar a geração de leads
 description: Saiba como gerar leads mais qualificados para o pipeline de vendas por meio de formulários, eventos, conteúdo e envolvimento de vários canais.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 3f1226b6-b6dc-4276-9843-c0657a1b7b4d
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
-
 
 # Aumentar a geração de leads
 
@@ -30,6 +30,6 @@ Os seguintes padrões de caso de uso oferecem suporte a esse objetivo comercial.
 
 | Padrão | Categoria | Como sustenta esse objetivo |
 | --- | --- | --- |
-| [Ativação de público-alvo B2B](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | Criação e ativação de público | Ativa públicos baseados em conta para gerar leads a partir de contas de destino |
-| [Comprando o Gerenciamento de Jornada e Marketing Baseado em Grupo](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Orquestração e gerenciamento de campanhas | Orquestra campanhas com várias partes interessadas voltadas para grupos de compra para gerar leads B2B qualificados |
+| [Ativação de público-alvo B2B](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | Criação e ativação de público | Ativa públicos baseados em conta para gerar leads a partir de contas de destino |
+| [Comprando o Gerenciamento de Jornada e Marketing Baseado em Grupo](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | Orquestração e gerenciamento de campanhas | Orquestra campanhas com várias partes interessadas voltadas para grupos de compra para gerar leads B2B qualificados |
 | [Ativação de mensagem de saída em lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | Orquestração e gerenciamento de campanhas | Oferece campanhas em lote direcionadas a segmentos potenciais para impulsionar a captura de clientes potenciais |

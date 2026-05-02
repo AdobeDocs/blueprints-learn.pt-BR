@@ -2,18 +2,14 @@
 title: Controlador de mídia paga B2B do AJO
 description: Prioridade de campanhas e ativação de contas para destinos de Mídia paga
 solution: Journey Optimizer B2B Edition
-exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
 source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
 
 # AJO B2B - Account Journey Orchestration - Controlador de mídia paga
-
->[!TIP]
->Este blueprint também está disponível como um [padrão de caso de uso](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md) em Ativação e marketing B2B.
 
 ## Visão geral
 
@@ -67,7 +63,7 @@ Fluxo de alto nível:
 
 ## Diagrama da arquitetura
 
-<img src="assets/ajo-b2b-paid-media-activation-architecture.svg" alt="Arquitetura do AJO B2B Paid Media Controller" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-activation-architecture.svg" alt="Arquitetura do AJO B2B Paid Media Controller" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Modelagem de dados no AEP B2B
 
@@ -113,7 +109,7 @@ As etapas a seguir fornecem orientação para implementar o Controlador de mídi
 
 ## Diagrama de implementação
 
-<img src="assets/ajo-b2b-paid-media-controller-canvas.svg" alt="Tela do controlador de mídia paga B2B do AJO" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/b2b/assets/ajo-b2b-paid-media-controller-canvas.svg" alt="Tela do controlador de mídia paga B2B do AJO" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ### Ativação de público-alvo
 

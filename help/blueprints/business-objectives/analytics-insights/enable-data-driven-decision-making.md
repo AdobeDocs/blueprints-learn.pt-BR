@@ -2,13 +2,13 @@
 title: Permita a tomada de decisões orientadas por dados
 description: Saiba como capacitar equipes com análises de autoatendimento, insights do cliente em tempo real e previsões alimentadas por IA para orientar a estratégia.
 solution: Experience Platform, Customer Journey Analytics
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 0ff0e873-a95c-4286-9378-56db02d209a1
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
-
 
 # Permita a tomada de decisões orientadas por dados
 
@@ -30,4 +30,4 @@ Os seguintes padrões de caso de uso oferecem suporte a esse objetivo comercial.
 | Padrão | Categoria | Como sustenta esse objetivo |
 | --- | --- | --- |
 | [Análise de clientes e geração de Insight](/help/blueprints/use-case-patterns/analysis/customer-analytics-insight-generation.md) | Análise | Fornece espaços de trabalho de análise de autoatendimento e fluxos de trabalho de análise guiada para insights orientados por dados |
-| [Análises B2B](/help/blueprints/use-case-patterns/analysis/b2b-analytics.md) | Análise | Permite a tomada de decisões B2B orientadas por dados por meio de análises em nível de conta e insights do grupo de compras |
+| [Análises B2B](/help/blueprints/use-case-patterns/b2b/account-analytics.md) | Análise | Permite a tomada de decisões B2B orientadas por dados por meio de análises em nível de conta e insights do grupo de compras |
