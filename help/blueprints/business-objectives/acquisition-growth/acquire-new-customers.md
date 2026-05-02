@@ -2,13 +2,13 @@
 title: Adquirir novos clientes
 description: Saiba como expandir a base de clientes por meio de campanhas de aquisição direcionadas, públicos semelhantes e otimização de mídia paga.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 57b2da92-f099-4c82-899b-9023f1ac81dc
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
-
 
 # Adquirir novos clientes
 
@@ -32,6 +32,6 @@ Os seguintes padrões de caso de uso oferecem suporte a esse objetivo comercial.
 | --- | --- | --- |
 | [Audience Activation para Destinos](/help/blueprints/use-case-patterns/audience-building-activation/audience-activation-to-destinations.md) | Criação e ativação de público | Publica públicos-alvo iniciais de alto valor em plataformas de publicidade para campanhas de expansão por semelhança e de aquisição direcionada |
 | [Audience Collaboration com correspondência de segmentos](/help/blueprints/use-case-patterns/audience-building-activation/audience-collaboration-segment-match.md) | Criação e ativação de público | Permite que o compartilhamento de público-alvo entre organizações expanda o alcance dos programas de aquisição |
-| [Ativação de público-alvo B2B](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) | Criação e ativação de público | Ativa públicos com base em conta para canais de publicidade e divulgação para aquisição de clientes B2B |
+| [Ativação de público-alvo B2B](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) | Criação e ativação de público | Ativa públicos com base em conta para canais de publicidade e divulgação para aquisição de clientes B2B |
 | [Web Personalization de Visitante Anônimo](/help/blueprints/use-case-patterns/personalization/anonymous-visitor-web-personalization.md) | Personalização | Personaliza experiências da Web para visitantes desconhecidos para aumentar a conversão de novos prospetos |
 | [Experiência de conversa do Brand Concierge](/help/blueprints/use-case-patterns/conversational-experience/brand-concierge-conversational-experience.md) | Experiência de conversa | Orienta novos visitantes por meio da descoberta de conversas alimentadas por IA para acelerar a primeira compra |

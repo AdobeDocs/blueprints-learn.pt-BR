@@ -3,7 +3,7 @@ title: Compra de marketing baseado em grupo e gerenciamento de Jornadas
 description: Saiba como desenvolver jornadas a nível de conta que qualifiquem leads em grupos de compra para melhorar a eficácia do marketing B2B.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7932'
 ht-degree: 0%
@@ -119,7 +119,7 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 | Gerenciamento do ciclo de vida dos dados | Recomendado | O gerenciamento de consentimento é essencial para comunicações por email e SMS B2B. As políticas de expiração do conjunto de dados ajudam a gerenciar o ciclo de vida dos dados de envolvimento temporário e garantem a conformidade com os requisitos de retenção de dados. | [Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
 | Rotulagem e aplicação de uso de dados | Recomendado | Os dados B2B geralmente contêm informações confidenciais da empresa e dados pessoais de contatos comerciais. As políticas de governança de dados garantem o uso compatível dos dados B2B entre destinos, especialmente ao ativar plataformas de publicidade ou sistemas de terceiros. | [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home) |
 | Monitoramento e capacidade de observação | Recomendado | O monitoramento garante que os pipelines de dados B2B (sincronizações de CRM/[!DNL Marketo]) estejam íntegros, que os perfis de conta estejam sendo atualizados e que as execuções de jornada de conta prossigam sem falhas. Alertas sobre falhas no fluxo de dados de origem são essenciais para manter a moeda dos dados. | [Visão geral dos Insights de Capacidade de Observação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home) |
-| Relatórios e análise | Incluído | Os painéis de análise B2B no [!DNL AJO B2B Edition] fornecem envolvimento de grupo de compra, desempenho de jornada de conta e métricas de pipeline. [!DNL CJA B2B Edition] estende a análise com análise de espaço de trabalho no nível da conta, análise de grupo de compra e correlação de oportunidades. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Relatórios e análise | Incluído | Os painéis de análise B2B no [!DNL AJO B2B Edition] fornecem envolvimento de grupo de compra, desempenho de jornada de conta e métricas de pipeline. O [!DNL CJA B2B Edition] estende a análise com análise de espaço de trabalho no nível da conta, análise de grupo de compra e correlação de oportunidades. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Funções do aplicativo
 
@@ -391,7 +391,7 @@ Como as funções devem ser definidas em cada grupo de compra?
 
 **Onde as opções divergem:**
 
-**Para A Opção A (Interesse Único Na Solução):**
+**Para A Opção A (Interesse Em Uma Única Solução):**
 Crie um interesse de solução e um modelo de função. Concentre-se em um movimento de compra claro e bem compreendido para o produto ou serviço principal da organização.
 
 **Para A Opção B (Vários Interesses Da Solução):**
@@ -500,7 +500,7 @@ Como a ramificação de jornada deve se basear no status da conta e do grupo de 
 
 **Onde as opções divergem:**
 
-**Para A Opção A (Interesse Único Na Solução):**
+**Para A Opção A (Interesse Em Uma Única Solução):**
 Projetar uma jornada linear com estágios sequenciais. A entrada é baseada em um único público-alvo de conta ou evento de criação de grupo de compra. Uma trilha de criação de email com urgência e profundidade crescentes de conteúdo.
 
 **Para A Opção B (Vários Interesses Da Solução):**
@@ -566,7 +566,7 @@ Navegação da **UI:** [!DNL AJO B2B Edition] > Administração > Configuração
 
 **Funções de aplicativo:** [!DNL AJO B2B]: painéis B2B do Analytics
 
-Essa fase estabelece a estrutura de relatórios e análises para medir o desempenho do grupo de compras, a eficácia da jornada da conta e o impacto do pipeline. [!DNL AJO B2B Edition] O fornece painéis de análise incorporados; o [!DNL CJA B2B Edition] (se licenciado) estende a análise com insights mais profundos em nível de conta entre canais.
+Essa fase estabelece a estrutura de relatórios e análises para medir o desempenho do grupo de compras, a eficácia da jornada da conta e o impacto do pipeline. O [!DNL AJO B2B Edition] fornece painéis de análise incorporados; o [!DNL CJA B2B Edition] (se licenciado) estende a análise com insights mais profundos em nível de conta entre canais.
 
 #### Decisão: abordagem de relatórios
 
@@ -695,7 +695,7 @@ Os recursos a seguir fornecem detalhes adicionais sobre os aplicativos e recurso
 
 - [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home)
 - [Visão geral do serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home)
-- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+- [Visão geral das origens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
 - [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home)
 
 ### Configuração de canais

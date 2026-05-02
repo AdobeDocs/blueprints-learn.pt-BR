@@ -3,7 +3,7 @@ title: Análise B2B
 description: Saiba como incluir informações a nível de conta B2B na análise de jornada de clientes entre canais.
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7528'
 ht-degree: 1%
@@ -107,7 +107,7 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 | --- | --- | --- | --- |
 | Administração e governança | Obrigatório | Sandbox configurada com [!DNL CJA] direitos de B2B edition e [!DNL RT-CDP] B2B edition. Funções provisionadas para engenheiros de dados, analistas e usuários de operações de marketing com acesso ao [!DNL CJA] e ao modelo de dados B2B. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home) |
 | Preparação e modelagem de dados | Obrigatório | Esquemas XDM B2B configurados usando classes B2B: conta de negócios XDM, oportunidade de negócios XDM, relação pessoal da conta de negócios XDM, relação pessoal da oportunidade de negócios XDM e membros da lista de marketing de negócios XDM. Os grupos de campos para atributos de conta, estágios de oportunidade e funções de grupo de compra devem ser definidos. Conjuntos de dados criados e ativados para Perfil. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), [esquemas do B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/schemas/b2b) |
-| Fontes de dados e coleção | Obrigatório | Fontes de dados B2B conectadas, normalmente por meio do conector de origem [!DNL Marketo Engage] ou do conector de origem do CRM [!DNL Salesforce]. Registros de conta, registros de oportunidade, relacionamentos entre pessoas e contas e eventos de envolvimento comportamental devem fluir para os conjuntos de dados da AEP. [!DNL Web SDK] ou a integração do [!DNL Marketo] deve capturar eventos comportamentais com a associação da conta. | [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home), [Conector do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
+| Fontes de dados e coleção | Obrigatório | Fontes de dados B2B conectadas, normalmente por meio do conector de origem [!DNL Marketo Engage] ou do conector de origem do CRM [!DNL Salesforce]. Registros de conta, registros de oportunidade, relacionamentos entre pessoas e contas e eventos de envolvimento comportamental devem fluir para os conjuntos de dados da AEP. A integração [!DNL Web SDK] ou [!DNL Marketo] deve capturar eventos comportamentais com associação de conta. | [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home), [Conector do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo) |
 | Configuração de identidade e perfil | Obrigatório | Resolução de identidade B2B configurada para resolver relacionamentos entre pessoas e contas. A ID da conta, a ID da pessoa ([!DNL Marketo] ID de cliente potencial ou ID de contato do CRM) e as identidades entre dispositivos (ECID, email) devem ser vinculadas. O gráfico de identidade deve suportar o mapeamento de muitas para muitas pessoas para conta inerente aos modelos de dados B2B. | [Visão geral do Serviço de Identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home), [Resolução de identidade B2B](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/schemas/b2b) |
 | Definição e segmentação do público-alvo | Presumido em vigor | As definições de público-alvo no nível da conta devem estar disponíveis se os segmentos B2B forem publicados de [!DNL CJA] de volta para o AEP para ativação. Para casos de uso exclusivos do Analytics, esse não é um pré-requisito estrito, mas é recomendado para a análise baseada em segmentos. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home) |
 
@@ -354,13 +354,13 @@ Principais detalhes de configuração:
 
 **Onde as opções divergem:**
 
-**Para Opção A (Centrada Em Conta):**
+**Para A Opção A (Centrada Em Conta):**
 Defina o identificador principal como Account ID. Adicionar conjunto de dados de registro de conta, oportunidade, grupo de compras e relação pessoa-conta. Configure conjuntos de dados de evento de nível de pessoa com o campo ID da conta para associação entre conjuntos de dados.
 
-**Para Opção B (Centrada Em Conta Global):**
+**Para A Opção B (Centrada Em Conta Global):**
 Defina o identificador principal como Global Account ID. Verifique se os dados da hierarquia da conta incluem o campo ID da conta global. Todos os conjuntos de dados devem incluir ou poder ser associados à ID de conta global para o acúmulo adequado.
 
-**Para Opção C (Híbrida):**
+**Para a Opção C (Híbrido):**
 Crie uma única conexão com todos os conjuntos de dados B2B. Use a ID da conta como o identificador principal. A visualização centrada em pessoas será criada na Fase 2 usando uma configuração de visualização de dados diferente na mesma conexão.
 
 **Documentação do Experience League:**
@@ -425,13 +425,13 @@ Principais detalhes de configuração:
 
 **Onde as opções divergem:**
 
-**Para Opção A (Centrada Em Conta):**
+**Para A Opção A (Centrada Em Conta):**
 Configure uma única visualização de dados com Conta como o contêiner de nível superior. Inclua contêineres de Oportunidade e Grupo de compra se a análise de pipeline e grupo de compra for necessária.
 
-**Para Opção B (Centrada Em Conta Global):**
+**Para A Opção B (Centrada Em Conta Global):**
 Configure a Conta global como o contêiner de nível superior. Inclua Conta como um subcontêiner para ativar a análise global e subsidiária.
 
-**Para Opção C (Híbrida):**
+**Para a Opção C (Híbrido):**
 Crie duas visualizações de dados da mesma conexão. A Visualização de dados 1 usa Pessoa como o contêiner principal (comportamento padrão [!DNL CJA]). A Visualização de dados 2 usa Conta como o contêiner principal com contêineres B2B. Mapeie métricas idênticas para ambas as exibições, quando aplicável.
 
 **Documentação do Experience League:**
@@ -708,7 +708,7 @@ Os recursos a seguir fornecem informações adicionais para implementar esse pad
 **AEP data foundation**
 
 - [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home)
-- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+- [Visão geral das origens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
 - [Conector do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 - [Visão geral do serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home)
 - [Visão geral de sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home)

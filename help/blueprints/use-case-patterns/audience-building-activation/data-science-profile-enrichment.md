@@ -3,18 +3,14 @@ title: Blueprint de Ciência de dados personalizada para enriquecimento de perfi
 description: Saiba como os insights baseados em ciência de dados podem ser assimilados no [!DNL Experience Platform] para enriquecer o Perfil do cliente em tempo real.
 solution: Data Collection
 kt: 7203
-exl-id: e5ec6886-4fa4-4c9b-a2d8-e843d7758669
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 52%
+source-wordcount: '432'
+ht-degree: 64%
 
 ---
 
 # Ciência de dados personalizada para blueprint de enriquecimento de perfil
-
->[!TIP]
->Este blueprint também está disponível como um [padrão de caso de uso](/help/blueprints/use-case-patterns/audience-building-activation/data-science-profile-enrichment.md) em Criação e ativação de público-alvo.
 
 O blueprint de ciência de dados personalizada para enriquecimento de perfil ilustra como os dados podem ser usados para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina sobre o [!DNL Experience Platform] e o [!DNL Real-Time Customer Data Platform] a partir de ciência de dados e ferramentas de aprendizado de máquina.
 
@@ -28,11 +24,16 @@ Os insights modelados podem ser assimilados em [!DNL Experience Platform] para e
 
 ## Arquitetura
 
-<img src="assets/data_science.svg" alt="Blueprint de arquitetura de referência para Ciência de dados personalizada para enriquecimento de perfis" style="width:90%; border:1px solid #4a4a4a" />
+<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="Blueprint de arquitetura de referência para Ciência de dados personalizada para enriquecimento de perfis" style="width:90%; border:1px solid #4a4a4a" />
 
 ## Medidas de proteção
 
-* Para obter medidas de proteção detalhadas e latências de ponta a ponta ao assimilar resultados de ciência de dados no [!DNL Experience Platform] e o Perfil do Cliente em Tempo Real, consulte as medidas de proteção de assimilação de dados e o diagrama de latência referenciado no [documento de medidas de proteção de implantação](../experience-platform/guardrails.md).
+* Para obter medidas de proteção detalhadas e latências de ponta a ponta ao assimilar resultados de ciência de dados no [!DNL Experience Platform] e o Perfil do Cliente em Tempo Real, consulte as medidas de proteção de assimilação de dados e o diagrama de latência referenciado no [documento de medidas de proteção de implantação](/help/blueprints/experience-platform/guardrails.md).
+
+## Considerações de implantação
+
+* Na maioria dos casos, o resultado do modelo deve ser assimilado como atributos de perfil, e não como eventos de experiência. Os resultados do modelo podem ser uma cadeia de caracteres de atributo simples. Se houver vários resultados de modelo a assimilar, é recomendável usar um campo de tipo matriz ou mapa.
+* O conjunto de dados de instantâneo de perfil diário, que é uma exportação diária dos dados de atributo de perfil unificado, pode ser aproveitado para treinar modelos em dados de atributo de perfil. A documentação do conjunto de dados de instantâneo de perfil pode ser acessada [aqui](https://experienceleague.adobe.com/docs/experience-platform/dashboards/query.html?lang=pt-BR#profile-attribute-datasets).
 
 ## Documentação relacionada
 

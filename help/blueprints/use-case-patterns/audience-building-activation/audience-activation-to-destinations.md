@@ -3,9 +3,9 @@ title: Ativação de público-alvo para destinos
 description: Saiba como avaliar e publicar segmentos de público-alvo em destinos externos para direcionamento ou supressão usando o Adobe Real-Time CDP.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '7043'
+source-wordcount: '7080'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Esse padrão se aplica sempre que o objetivo é obter dados de público-alvo par
 As partes interessadas típicas incluem equipes de marketing digital que gerenciam mídia paga, equipes de dados que enriquecem depósitos, equipes de CRM que preparam listas de contato para campanhas e equipes de privacidade que garantem a conformidade da governança em fluxos de dados de saída.
 
 >[!NOTE]
->Se sua organização usar o B2B edition [!DNL Real-Time CDP] e ativar para destinos baseados em conta, consulte [Ativação de público B2B](b2b-audience-activation.md). Esse padrão compartilha a mesma mecânica de ativação, mas usa um modelo de dados de conta e pessoa B2B e requer a licença do B2B edition.
+>Se sua organização usar o B2B edition [!DNL Real-Time CDP] e ativar para destinos baseados em conta, consulte [Ativação de público B2B](../b2b/account-audience-activation.md). Esse padrão compartilha a mesma mecânica de ativação, mas usa um modelo de dados de conta e pessoa B2B e requer a licença do B2B edition.
 
 ## Principais objetivos de negócios
 
@@ -89,6 +89,12 @@ Melhore o retorno sobre o investimento em marketing através de melhor direciona
 
 - **Adobe [!DNL Real-Time Customer Data Platform] (RT-CDP)** — Avaliação de público-alvo, gerenciamento de destino, ativação de público-alvo, consentimento e imposição de governança
 - **Adobe [!DNL Experience Platform] (AEP)** — Armazenamento de perfis, serviço de identidade, mecanismo de segmentação, governança de dados
+
+## Arquitetura
+
+A arquitetura de referência a seguir ilustra como o público-alvo e os dados de perfil fluem do Real-Time CDP para destinos corporativos, incluindo armazenamento em nuvem, endpoints de transmissão e aplicativos SaaS.
+
+![Arquitetura de referência para ativação de públicos e perfis para destinos corporativos](/help/blueprints/audience-activation/assets/known_activation.svg)
 
 ## Funções básicas
 
@@ -341,13 +347,13 @@ Navegação da **interface:** Cliente > Públicos-alvo > Criar público-alvo > C
 
 **Onde as opções divergem:**
 
-**Para Opção A (Ativação de Destino de Streaming):**
+**Para a Opção A (Ativação de Destino de Streaming):**
 O público-alvo deve usar transmissão ou avaliação de borda para fornecer atualizações de associação em tempo real. Verifique se a expressão de regra de segmento se qualifica para avaliação de fluxo — evite funções de agregação com base em tempo, consultas de várias entidades e `inSegment()` referências a segmentos somente em lote.
 
-**Para Opção B (Ativação de Destino de Lote):**
+**Para a Opção B (Ativação de Destino de Lote):**
 Qualquer método de avaliação funciona. A avaliação em lote é a opção mais comum, pois a própria exportação é executada de acordo com um agendamento. Confirme se existe um agendamento de avaliação em lote na sandbox ou crie um.
 
-**Para Opção C (Ativação de Vários Destinos):**
+**Para A Opção C (Ativação De Vários Destinos):**
 O método de avaliação deve acomodar o destino mais exigente. Se qualquer destino exigir a transmissão, o público-alvo deverá usar a avaliação de transmissão. Se todos os destinos forem em lote, a avaliação em lote é suficiente.
 
 **Documentação do Experience League:**
@@ -419,13 +425,13 @@ O método de avaliação deve acomodar o destino mais exigente. Se qualquer dest
 
 **Onde as opções divergem:**
 
-**Para Opção A (Ativação de Destino de Streaming):**
+**Para a Opção A (Ativação de Destino de Streaming):**
 Selecione um destino de transmissão no catálogo (categorias Advertising ou Social). Conclua o fluxo de autorização OAuth. A conexão estará pronta para ativação assim que a autorização for confirmada.
 
-**Para Opção B (Ativação de Destino de Lote):**
+**Para a Opção B (Ativação de Destino de Lote):**
 Selecione um destino baseado em arquivo no catálogo (categoria Armazenamento em nuvem). Configure o caminho de armazenamento, o formato de arquivo, a compactação, a convenção de nomenclatura e o agendamento de exportação. Teste a conexão verificando o acesso de gravação ao local de armazenamento.
 
-**Para Opção C (Ativação de Vários Destinos):**
+**Para A Opção C (Ativação De Vários Destinos):**
 Repita essa fase para cada destino. Cada conexão é independente — você pode ter uma combinação de destinos de streaming e lote. Documente a autenticação e a configuração de cada conexão para referência operacional.
 
 **Documentação do Experience League:**
@@ -482,13 +488,13 @@ Repita essa fase para cada destino. Cada conexão é independente — você pode
 
 **Onde as opções divergem:**
 
-**Para Opção A (Ativação de Destino de Streaming):**
+**Para a Opção A (Ativação de Destino de Streaming):**
 Selecione os públicos-alvo e mapeie os namespaces de identidade para os campos de identidade de destino. A ativação começa imediatamente após a publicação — a associação do público-alvo altera o fluxo para o destino em tempo quase real. Nenhuma programação de exportação é necessária; a ativação é contínua.
 
-**Para Opção B (Ativação de Destino de Lote):**
+**Para a Opção B (Ativação de Destino de Lote):**
 Selecione os públicos, mapeie os atributos de perfil e configure o cronograma de exportação. Escolha entre os modos de exportação incremental e completo. Opcionalmente, acione uma exportação ad-hoc para entrega imediata fora do cronograma regular.
 
-**Para Opção C (Ativação de Vários Destinos):**
+**Para A Opção C (Ativação De Vários Destinos):**
 Repita o fluxo de trabalho de ativação para cada destino. O mesmo público pode ser ativado para vários destinos com mapeamentos de atributos diferentes por destino. Por exemplo, envie somente emails com hash para plataformas de anúncio, mas inclua atributos demográficos ao CRM.
 
 **Documentação do Experience League:**
@@ -707,7 +713,7 @@ Analise as seguintes considerações antes e durante a implementação.
 
 **Fontes e coleção de dados**
 
-- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+- [Visão geral das origens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
 - [Visão geral do Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home)
 - [Configurar sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure)
 

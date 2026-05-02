@@ -3,7 +3,7 @@ title: Casos de uso B2B
 description: Descubra como as organizações B2B usam o Adobe Experience Platform para acelerar o pipeline, melhorar a qualidade dos leads e impulsionar a expansão do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%
@@ -28,7 +28,7 @@ As organizações que implementam personalização de marketing baseada em conta
 
 ### Como implementar o
 
-Use o padrão [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) para criar públicos-alvo no nível da conta e ativar conteúdo personalizado em todos os canais. Esse padrão é criado especificamente para estratégias baseadas em conta, oferecendo suporte para direcionamento no nível da conta e da pessoa. Esse é o padrão correto quando o direcionamento deve operar no nível da conta em vez de no nível individual — a ativação padrão do público-alvo da RT-CDP não é compatível com o modelo de dados baseado em conta exigido para as estratégias ABM.
+Use o padrão [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) para criar públicos-alvo no nível da conta e ativar conteúdo personalizado em todos os canais. Esse padrão é criado especificamente para estratégias baseadas em conta, oferecendo suporte para direcionamento no nível da conta e da pessoa. Esse é o padrão correto quando o direcionamento deve operar no nível da conta em vez de no nível individual — a ativação padrão do público-alvo da RT-CDP não é compatível com o modelo de dados baseado em conta exigido para as estratégias ABM.
 
 ### Considerações técnicas
 
@@ -267,7 +267,7 @@ Organizações B2B com ativação de público-alvo com base em conta veem maior 
 
 ### Como implementar o
 
-Use o padrão [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) para criar segmentos a nível de conta usando relações conta-pessoa e ativá-los para destinos de mídia paga compatíveis com B2B. Esse é o padrão correto quando a criação de público-alvo deve operar no nível da conta — combinando sinais de vários contatos em uma organização compradora — em vez de no nível individual da pessoa.
+Use o padrão [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) para criar segmentos a nível de conta usando relações conta-pessoa e ativá-los para destinos de mídia paga compatíveis com B2B. Esse é o padrão correto quando a criação de público-alvo deve operar no nível da conta — combinando sinais de vários contatos em uma organização compradora — em vez de no nível individual da pessoa.
 
 ### Considerações técnicas
 
@@ -287,7 +287,7 @@ As organizações B2B que usam a orquestração de jornadas de grupo de compras 
 
 ### Como implementar o
 
-Use o padrão [Marketing baseado em grupo de compras](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) para criar jornadas qualificadas por conta que segmentem membros de grupos de compras por função, avaliem sinais de engajamento no nível do grupo e orquestrem campanhas multipessoas e multitoque coordenadas com ramificação condicional baseada no status da conta. Este é o padrão correto quando a lógica de jornada deve operar no nível de grupo de contas em vez do nível de pessoa individual — a orquestração de jornadas padrão de nível de pessoa não pode lidar com os requisitos de qualificação de grupo e coordenação entre pessoas do gerenciamento de grupos de compras B2B.
+Use o padrão [Marketing baseado em grupo de compras](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) para criar jornadas qualificadas por conta que segmentem membros de grupos de compras por função, avaliem sinais de engajamento no nível do grupo e orquestrem campanhas multipessoas e multitoque coordenadas com ramificação condicional baseada no status da conta. Este é o padrão correto quando a lógica de jornada deve operar no nível de grupo de contas em vez do nível de pessoa individual — a orquestração de jornadas padrão de nível de pessoa não pode lidar com os requisitos de qualificação de grupo e coordenação entre pessoas do gerenciamento de grupos de compras B2B.
 
 ### Considerações técnicas
 
@@ -307,7 +307,7 @@ As organizações B2B com relatório de personalização no nível da conta melh
 
 ### Como implementar o
 
-Use o padrão [B2B Audience Activation](/help/blueprints/use-case-patterns/audience-building-activation/b2b-audience-activation.md) para ativar perfis de nível de conta para personalização entre canais da Web e de saída. Esse é o padrão correto quando o requisito principal é o direcionamento no nível da conta para personalização, em vez da orquestração de jornadas no nível do contato. Os dados do perfil da conta impulsionam as decisões de personalização em vez de sinais comportamentais individuais.
+Use o padrão [B2B Audience Activation](/help/blueprints/use-case-patterns/b2b/account-audience-activation.md) para ativar perfis de nível de conta para personalização entre canais da Web e de saída. Esse é o padrão correto quando o requisito principal é o direcionamento no nível da conta para personalização, em vez da orquestração de jornadas no nível do contato. Os dados do perfil da conta impulsionam as decisões de personalização em vez de sinais comportamentais individuais.
 
 ### Considerações técnicas
 

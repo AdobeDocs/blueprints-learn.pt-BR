@@ -2,45 +2,14 @@
 title: Jornadas B2B usando o blueprint de dados do Marketo
 description: Blueprint para implantação rápida do Journey Optimizer B2B edition usando dados do Marketo Engage.
 solution: Journey Optimizer B2B Edition
-exl-id: d7bd0bd3-0f61-4e59-855f-27afc147c9aa
-TQID: https://experienceleague.adobe.com/C1YHOokFyO9UCtTyu0ynDUYg133kP2mHMLfPZHHffpU
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: e935834c-48b7-43d8-b754-a815196a1b05
-subfeature_v2:
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-  - id: d5e018de-9479-48a8-96a8-176c73166631
-  - id: f09c7f30-c554-44cf-884c-7557ed69d0c6
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: 2093
+source-wordcount: '2079'
 ht-degree: 2%
 
 ---
 
 # Jornadas B2B usando o blueprint de dados do Marketo
-
->[!TIP]
->Este blueprint também está disponível como um [padrão de caso de uso](/help/blueprints/use-case-patterns/b2b/marketo-data-journeys.md) em Ativação e marketing B2B.
 
 Este guia abrangente descreve o processo de integração do Marketo Engage com o Adobe Journey Optimizer B2B edition. Ele aborda a configuração de esquema personalizado, a assimilação de perfis e contas e a orquestração de jornadas personalizadas para grupos de compra. Usando dados do Marketo Engage, esse blueprint garante direcionamento e engajamento precisos em vários canais, gerando demanda mais qualificada e aprimorando as experiências do cliente.
 
@@ -70,7 +39,7 @@ Este guia abrangente descreve o processo de integração do Marketo Engage com o
 
 ## Arquitetura
 
-![Arquitetura de solução para Journey Optimizer B2B edition com dados da Marketo](./assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
+![Arquitetura de solução para Journey Optimizer B2B edition com dados da Marketo](/help/blueprints/b2b/assets/ajo-b2b-architecture-simplified.png){zoomable="yes"}
 
 ## Etapas de implementação
 

@@ -2,13 +2,13 @@
 title: Visitante anônimo - Web Personalization
 description: Saiba como fornecer conteúdo personalizado da Web para visitantes não identificados com base em sinais comportamentais na sessão.
 solution: Journey Optimizer, Real-Time Customer Data Platform
-source-git-commit: 126dd712603494513b71a8a6e1c4b99bdb7ff212
+exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
-source-wordcount: '8076'
+source-wordcount: '8109'
 ht-degree: 1%
 
 ---
-
 
 # Personalização anônima da Web para visitantes
 
@@ -103,6 +103,12 @@ Os aplicativos a seguir são usados neste padrão de caso de uso.
 - **[!DNL Adobe Journey Optimizer] (AJO)** — Configuração da superfície de canal da Web, criação de conteúdo (experiências da Web e baseadas em código), execução de campanha, experimentação de conteúdo (teste A/B), decisão (seleção de conteúdo dinâmico) e relatórios
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Segmentação Edge para avaliação de público-alvo em tempo real com base em sinais comportamentais na sessão; gerenciamento de perfil de borda anônimo
 - **[!DNL Adobe Experience Platform] (AEP)** — [!DNL Web SDK] para coleta de sinal comportamental, [!DNL Edge Network] para entrega de roteamento e personalização de dados em tempo real e configuração de sequência de dados
+
+## Arquitetura
+
+A arquitetura de referência a seguir ilustra como os sinais anônimos de visitantes são coletados na borda, avaliados em relação às regras de público-alvo e usados para fornecer conteúdo personalizado.
+
+![Arquitetura de referência para ativação e personalização de público anônimo](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
 
 ## Funções básicas
 
@@ -409,13 +415,13 @@ Defina segmentos de público-alvo avaliados por borda com base em sinais comport
 
 **Onde as opções divergem:**
 
-**Para a Opção A (Baseada em Regras):**
+**Para A Opção A (Com Base Em Regras):**
 Crie segmentos distintos de público-alvo para cada variante de conteúdo. Cada segmento representa uma condição comportamental específica (por exemplo, &quot;Referência = Google E Geo = US&quot; é mapeado para a variante de conteúdo A). O número de públicos é igual ao número de regras de personalização.
 
 **Para Opção B (Experimentação):**
 A definição de público-alvo é opcional. Se o experimento segmentar todos os visitantes, nenhum público será necessário — a divisão de tráfego lida com a atribuição de variantes. Se o experimento segmentar um subconjunto específico (por exemplo, somente visitantes móveis), defina um único público-alvo de direcionamento para a qualificação do experimento.
 
-**Para Opção C (Decisão):**
+**Para A Opção C (Decisão):**
 Defina os públicos-alvo para serem usados como regras de qualificação em itens de conteúdo. Esses públicos-alvo determinam quais visitantes se qualificam para quais itens de conteúdo na política de decisão. O mecanismo de decisão lida com a seleção de conteúdo entre os itens elegíveis.
 
 **Documentação do Experience League:**
@@ -462,7 +468,7 @@ Crie as variantes de conteúdo personalizadas que serão entregues aos visitante
 
 **Onde as opções divergem:**
 
-**Para a Opção A (Baseada em Regras):**
+**Para A Opção A (Com Base Em Regras):**
 Crie uma variante de conteúdo distinta para cada segmento de público definido na Fase 2. Vincule cada variante ao público-alvo usando regras de conteúdo condicional na configuração da campanha. Verifique se existe uma variante de conteúdo padrão para visitantes que não correspondem a nenhuma regra de público-alvo.
 
 **Para Opção B (Experimentação):**
@@ -475,7 +481,7 @@ Variantes de tratamento do autor (A, B, C etc.) para a experiência. Ative a exp
 - Defina o limite de confiança: 95% para testes padrão, 99% para decisões de alta complexidade, 90% para aprendizado direcional
 - **Navegação da interface do usuário:** Campanha > Experimento de conteúdo > Adicionar tratamento > Alocação de tráfego > Métrica de sucesso
 
-**Para Opção C (Decisão):**
+**Para A Opção C (Decisão):**
 Configure a pilha de componentes do Decisioning e integre-a à campanha.
 
 1. **Criar inserções** — Defina onde os itens de conteúdo da página aparecerão (Web HTML, JSON da Web, imagem da Web)
@@ -531,13 +537,13 @@ Crie e ative a campanha da Web do AJO que vincula a superfície da Web (Fase 1),
 
 **Onde as opções divergem:**
 
-**Para a Opção A (Baseada em Regras):**
+**Para A Opção A (Com Base Em Regras):**
 Crie uma campanha por regra de personalização, cada uma direcionada a um público de borda diferente com sua variante de conteúdo correspondente. Como alternativa, use uma única campanha com regras de conteúdo condicionais que mapeiam a associação do público-alvo às variantes de conteúdo em uma campanha.
 
 **Para Opção B (Experimentação):**
 Crie uma única campanha com a experimentação de conteúdo ativada. A configuração do experimento (variantes, alocação de tráfego, métrica de sucesso) foi definida na Fase 3. Ative a campanha para iniciar o experimento.
 
-**Para Opção C (Decisão):**
+**Para A Opção C (Decisão):**
 Crie uma campanha que incorpore a política de decisão configurada na Fase 3. A ação de conteúdo da campanha faz referência ao escopo de decisão, que aciona o mecanismo de decisão na borda. Ative a campanha para iniciar a entrega de conteúdo com base em decisão.
 
 **Documentação do Experience League:**
@@ -573,7 +579,7 @@ Monitore o desempenho da personalização usando relatórios integrados do AJO e
 
 **Onde as opções divergem:**
 
-**Para a Opção A (Baseada em Regras):**
+**Para A Opção A (Com Base Em Regras):**
 Analise os relatórios de campanha de cada segmento de público-alvo para comparar as métricas de entrega e envolvimento entre variantes de conteúdo personalizadas. Use o CJA para criar um espaço de trabalho de comparação que mede o impacto da conversão de conteúdo personalizado em relação ao padrão.
 
 **Para Opção B (Experimentação):**
@@ -582,7 +588,7 @@ Revise o relatório do experimento para obter confiança estatística, aumento d
 - **Navegação da interface do usuário:** Campanha > Experimento de conteúdo > Exibir relatório
 - **Experience League:** [Relatório de experimento de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 
-**Para Opção C (Decisão):**
+**Para A Opção C (Decisão):**
 Revise as métricas de desempenho de decisão, incluindo taxas de impressão da oferta, frequência de seleção e atribuição de conversão por item de conteúdo. Analise o desempenho das estratégias de classificação e se o conteúdo de fallback está sendo distribuído com muita frequência (indicando que as regras de elegibilidade são muito restritivas).
 
 **Documentação do Experience League:**

@@ -3,7 +3,7 @@ title: Audience Activation B2B
 description: Saiba como ativar públicos-alvo B2B baseados em conta nos canais da Web, de email e de anúncios.
 solution: Real-Time Customer Data Platform
 exl-id: 2b979159-37aa-41d4-a6b4-1105538f6546
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '7611'
 ht-degree: 0%
@@ -25,7 +25,7 @@ O B2B edition [!DNL RT-CDP] estende o padrão [!DNL Real-Time Customer Data Plat
 Os públicos ativados da conta potencializam os casos de uso na funnel de geração de demanda: campanhas de conscientização sobre o topo da funnel em [!DNL LinkedIn] e anúncios de exibição, programas de nutrição mid-funnel em [!DNL Marketo Engage] e capacitação de vendas bottom-of-funnel por meio da integração de CRM. Os públicos-alvo de supressão de conta evitam o desperdício, excluindo clientes existentes, contas fechadas/perdidas ou contas que já estão nos ciclos de vendas ativos.
 
 >[!NOTE]
->Se o seu caso de uso envolver a ativação de públicos-alvo no nível da pessoa (B2C) em vez do nível da conta, consulte [Ativação de público-alvo para destinos](audience-activation-to-destinations.md). Esse padrão usa o modelo de dados padrão RT-CDP e não requer o B2B edition.
+>Se o seu caso de uso envolver a ativação de públicos-alvo no nível da pessoa (B2C) em vez do nível da conta, consulte [Ativação de público-alvo para destinos](../audience-building-activation/audience-activation-to-destinations.md). Esse padrão usa o modelo de dados padrão RT-CDP e não requer o B2B edition.
 
 ## Principais objetivos de negócios
 
@@ -181,7 +181,7 @@ As opções a seguir descrevem diferentes abordagens para implementar esse padr�
 
 **Como funciona:**
 
-Esta opção usa o conector de destino [!DNL Marketo Engage] nativo em [!DNL RT-CDP] para transmitir as alterações de associação de público da conta diretamente para [!DNL Marketo Engage]. Quando uma conta é qualificada ou sai de um segmento de público-alvo, os clientes em potencial e contatos associados em [!DNL Marketo] são atualizados com atributos de associação de segmento. [!DNL Marketo] as campanhas inteligentes podem ser acionadas com base nessas alterações de associação.
+Esta opção usa o conector de destino [!DNL Marketo Engage] nativo em [!DNL RT-CDP] para transmitir as alterações de associação de público da conta diretamente para [!DNL Marketo Engage]. Quando uma conta é qualificada ou sai de um segmento de público-alvo, os clientes em potencial e contatos associados em [!DNL Marketo] são atualizados com atributos de associação de segmento. [!DNL Marketo] campanhas inteligentes podem ser acionadas com base nessas alterações de associação.
 
 O destino [!DNL Marketo Engage] é um destino de streaming, o que significa que as alterações na associação de público serão enviadas de forma incremental à medida que ocorrerem, em vez de em lotes agendados. Isso proporciona um tempo de ação mais rápido para campanhas que precisam responder a alterações de qualificação de conta. Os mapeamentos de campos conectam atributos de perfil [!DNL RT-CDP] a [!DNL Marketo] campos de cliente potencial/contato, permitindo o enriquecimento de [!DNL Marketo] registros com dados de nível de conta de [!DNL RT-CDP].
 
@@ -767,7 +767,7 @@ Os recursos a seguir fornecem contexto adicional e orientação detalhada para o
 
 **Fontes de dados e conectores**
 
-- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+- [Visão geral das origens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
 - [Conector do Marketo Engage](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo)
 - [Conector do Salesforce](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/connectors/crm/salesforce)
 

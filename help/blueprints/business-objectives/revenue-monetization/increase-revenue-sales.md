@@ -2,13 +2,13 @@
 title: Aumentar receita e vendas
 description: Saiba como impulsionar o crescimento de receita de ponta por meio de canais digitais otimizados, campanhas e jornadas do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 080e49a7-f4fb-4ffd-96d5-cce6d018c4f7
+source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
-
 
 # Aumentar receita e vendas
 
@@ -32,4 +32,4 @@ Os seguintes padrões de caso de uso oferecem suporte a esse objetivo comercial.
 | --- | --- | --- |
 | [Ativação de mensagem de saída em lote](/help/blueprints/use-case-patterns/campaign-management-orchestration/batch-outbound-message-activation.md) | Orquestração e gerenciamento de campanhas | Oferece campanhas em lote direcionadas para impulsionar vendas por email, SMS e canais por push |
 | [Mensagens acionadas por Evento](/help/blueprints/use-case-patterns/campaign-management-orchestration/event-triggered-messaging.md) | Orquestração e gerenciamento de campanhas | Captura oportunidades de receita por meio de mensagens de resposta comportamental em tempo real |
-| [Comprando o Gerenciamento de Jornada e Marketing Baseado em Grupo](/help/blueprints/use-case-patterns/campaign-management-orchestration/buying-group-based-marketing.md) | Orquestração e gerenciamento de campanhas | Orquestra jornadas de grupo de compras B2B para acelerar a progressão do pipeline de vendas |
+| [Comprando o Gerenciamento de Jornada e Marketing Baseado em Grupo](/help/blueprints/use-case-patterns/b2b/buying-group-marketing.md) | Orquestração e gerenciamento de campanhas | Orquestra jornadas de grupo de compras B2B para acelerar a progressão do pipeline de vendas |
