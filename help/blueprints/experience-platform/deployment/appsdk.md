@@ -5,10 +5,22 @@ solution: Experience Platform,Data Collection
 kt: null
 thumbnail: null
 exl-id: 05bf0a34-e5c7-498c-8d5d-1d549c00e070
-source-git-commit: 00892a190ea2d214ddcbd083f2266d883ffe5861
+TQID: https://experienceleague.adobe.com/LzRF1Hg39l3Ub9Zcss-o0qxXzPJQlRXiTcV3uWn8G6E
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 100%
+source-wordcount: 100
+ht-degree: 86%
 
 ---
 
@@ -20,6 +32,6 @@ O diagrama de arquitetura abaixo ilustra os caminhos de integração e coleção
 
 ## Documentação de referência
 
-* [Visão geral do SDK da Web/Móvel da Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
-* [Implementar a Adobe Experience Cloud com o tutorial do SDK da Web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR)
-* [Tutorial sobre como Implementar a Adobe Experience Cloud em aplicativos móveis](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=pt-BR)
+* [Visão geral do Experience Platform Web/Mobile SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=pt-BR)
+* [Implementar a Adobe Experience Cloud com o tutorial do SDK da web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=pt-BR)
+* [Tutorial Implementar o Adobe Experience Cloud em aplicativos para dispositivos móveis](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=pt-BR)
