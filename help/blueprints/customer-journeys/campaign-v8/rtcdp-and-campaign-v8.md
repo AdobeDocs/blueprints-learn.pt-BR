@@ -3,10 +3,14 @@ title: Padrão de integração do Real-Time CDP com o Adobe Campaign v8
 description: Mostra como a Adobe Experience Platform, seu Perfil do cliente em tempo real e sua ferramenta de segmentação centralizada podem ser usados com o Adobe Campaign v8 para proporcionar conversas personalizadas.
 solution: Real-Time Customer Data Platform, Campaign
 exl-id: d0291088-02ed-4e7e-b538-018ea40e38c6
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/LANKBKui1B5RfyNI8ufsgjrC98TXpAf74IB-alwDTnk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 64%
+source-wordcount: 264
+ht-degree: 76%
 
 ---
 
@@ -35,10 +39,10 @@ Mostra como o Adobe [!DNL Experience Platform] e seu Perfil do Cliente em Tempo 
 
 <br>
 
-## Etapas de implantação
+## Etapas de implementação
 
-Consulte a documentação a seguir sobre como configurar o conector de origem do Campaign v8 para o Adobe Experience Platform e o conector de destino do Real-time Customer Data Platform para o Campaign v8.
-[Conectores do Campaign e do AEP &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=pt-BR)
+Consulte a documentação a seguir sobre como configurar o conector de origem do Campaign v8 para o Adobe Experience Platform e o conector de destino da Real-time Customer Data Platform para o Campaign v8.
+[Conectores do Campaign e do AEP](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=pt-BR)
 
 ## Medidas de proteção
 

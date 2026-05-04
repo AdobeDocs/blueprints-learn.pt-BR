@@ -1,18 +1,22 @@
 ---
-title: Customer Journey Analytics com blueprint do Journey Optimizer
+title: Blueprint do Customer Journey Analytics com Journey Optimizer
 description: Unifique e analise dados e comportamentos do cliente em toda a jornada do cliente no Customer Journey Analytics, incluindo dados de entrega e interação do Journey Optimizer.
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
 exl-id: 5ae084bf-a98d-418a-8038-e6f849ff7c1d
-source-git-commit: 5110ee2a7a079945475055cbcfdabf7cdcaa0ab5
+TQID: https://experienceleague.adobe.com/LfXHMTiwVFoS95g64Ma00Y9s6qq5h7ppNPCDbVS1JbE
+product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 89%
+source-wordcount: 145
+ht-degree: 90%
 
 ---
 
-# Customer Journey Analytics com blueprint do Journey Optimizer
+# Blueprint do Customer Journey Analytics com Journey Optimizer
 
 Os dados do Journey Optimizer são compartilhados com o data lake da Experience Platform e estão disponíveis para assimilação, análise e relatórios no Customer Journey Analytics. A entrega, a interação e a eficácia da jornada podem ser analisadas e reportadas no Customer Journey Analytics.
 

@@ -2,10 +2,16 @@
 title: Visão geral do blueprint de integração do Marketo Engage e do Workfront
 description: Visão geral – Visão geral do blueprint de integração do Marketo Engage e do Workfront
 exl-id: c1da95d0-0649-4e69-aade-3ddcb89d2d31
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+TQID: https://experienceleague.adobe.com/EbAEhF-UwPQKQA16T6GtZoP0YlqsgQWHby-MLP-bYuc
+product_v2: id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: daec7ead-f475-492a-a3b3-02ae08565d6f
+subfeature_v2: id: cdd3e38b-fec2-4f39-8b10-83ddaab1ac16
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 81%
+source-wordcount: 1797
+ht-degree: 89%
 
 ---
 
@@ -71,37 +77,37 @@ Entender como mapear o processo empresarial para esses objetos será importante 
   </tr>
   <tr> 
    <td>Portfólio</td>
-   <td>Você pode usar o portfólio e os programas no Workfront para organizar projetos. Através da organização de Projetos, você pode comparar Projetos semelhantes e determinar onde os recursos serão mais bem gastos.<br /><br />
+   <td>Você pode usar o portfólio e os programas no Workfront para organizar projetos. Ao organizar projetos, você pode comparar projetos semelhantes e determinar onde é melhor gastar os recursos.<br /><br />
    (por exemplo, uma Portfolio é criada para uma unidade de negócios em uma empresa focada na venda de serviços e/ou produtos.)</td>
   </tr>
   <tr>
    <td>Programa</td>
-   <td>Você pode usar os programas do Workfront para organizar os projetos. Através da organização de Projetos, você pode comparar Projetos semelhantes e determinar onde os recursos serão mais bem gastos.<br /><br />
+   <td>Você pode usar os programas do Workfront para organizar os projetos. Ao organizar projetos, você pode comparar projetos semelhantes e determinar onde é melhor gastar os recursos.<br /><br />
    (por exemplo, uma estratégia de marketing com um objetivo de alto nível, como aumentar a conscientização e impulsionar a demanda para o lançamento de um novo produto).</td>
   </tr>
   <tr>
    <td>Projeto</td>
-   <td>Os Projetos Workfront são uma coleção de itens de trabalho que precisam ser concluídos para atingir uma meta específica, um produto, uma entrega etc.<br /><br />
-   (por exemplo, uma tática de marketing, como uma explosão de email, uma campanha de promoção, um webinário ou um evento presencial. Um projeto que abrange várias táticas, como email, anúncio de exibição, landing page e whitepaper para download para conduzir ao mesmo resultado, pode ser mais complexo.</td>
+   <td>Os projetos do Workfront são uma coleção de itens de trabalho que precisam ser concluídos para, por exemplo, cumprir uma meta ou produzir um entregável ou um produto específico.<br /><br />
+   (Por exemplo, uma tática de marketing, como um envio de email em massa, uma campanha de nutrição, um webinário ou um evento presencial. Um projeto que abrange várias táticas, como email, anúncio de exibição, landing page e whitepaper para download para conduzir ao mesmo resultado, pode ser mais complexo.</td>
   </tr>
   <tr>
    <td>Tarefa</td>
-   <td>Tarefas do Workfront são itens de trabalho planejados que podem fazer parte de um projeto ou uma iniciativa. Tarefas são atribuídas a usuários ou equipes a serem concluídas.<br /><br />
+   <td>Tarefas do Workfront são itens de trabalho planejados que podem fazer parte de um projeto ou uma iniciativa. As tarefas são atribuídas a usuários ou equipes para serem concluídas.<br /><br />
    (por exemplo, uma tarefa para criar um segmento de público-alvo ou criar um rascunho de email pode ser uma tarefa associada a um Projeto para desenvolver um Programa de email do Marketo Engage.)</td>
   </tr>
   <tr>
    <td>Problema</td>
-   <td>Problemas são itens de trabalho não planejados no Workfront. Podem ser problemas que ocorrem durante um Projeto, ou podem ser solicitações enviadas por meio de uma fila de solicitações.<br /><br />
+   <td>Problemas são itens de trabalho não planejados no Workfront. Podem ser problemas que ocorrem durante um projeto ou solicitações enviadas por meio de uma fila de solicitações.<br /><br />
    (Por exemplo, um problema é arquivado porque a imagem do banner de email tem as dimensões erradas.)</td>
   </tr>
   <tr>
    <td>Documento</td>
-   <td>Documentos podem ser tradicionais, como documentos do Word ou apresentações. Eles também podem ser arquivos de imagem. O Workfront permite a prova de ativos por meio de comentários e anotações em documentos e imagens, para habilitar a colaboração entre equipes.<br /><br />
+   <td>Documentos podem ser tradicionais, como documentos do Word ou apresentações. Eles também podem ser arquivos de imagem. O Workfront permite a revisão de ativos por meio de comentários e anotações em documentos e imagens, para permitir a colaboração entre equipes.<br /><br />
    (por exemplo, uma imagem de cabeçalho de email que precisa ser revisada.)</td>
   </tr>
   <tr>
    <td>Atualização</td>
-   <td>Inclui comentários e logs de auditoria para rastrear o trabalho e facilitar a colaboração no Workfront.<br /><br />
+   <td>Inclui comentários e logs de auditoria para acompanhar o trabalho e facilitar a colaboração no Workfront.<br /><br />
    (por exemplo, log de auditoria da nova versão da imagem.)</td>
   </tr>
   </tbody>
