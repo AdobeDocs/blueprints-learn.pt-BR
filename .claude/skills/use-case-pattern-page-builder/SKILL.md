@@ -157,7 +157,7 @@ Depois que todos os arquivos forem criados e atualizados, verifique o seguinte:
 
 5. **Integridade do Frontmatter** — O arquivo padrão inclui título, descrição, solução e exl-id no frontmatter do YAML.
 
-6. **Links do Experience League** — Verifique se todas as URLs do Experience League são plausíveis (comece com `https://experienceleague.adobe.com/`).
+6. **Links do Experience League** — Verifique se todas as URLs do Experience League são plausíveis (comece com `https://experienceleague.adobe.com/pt-br`).
 
 Relate quaisquer falhas de validação ao usuário e corrija-as antes de considerar a tarefa como concluída.
 

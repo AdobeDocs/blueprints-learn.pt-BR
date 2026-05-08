@@ -71,7 +71,7 @@ Entrevistar o usuário para coletar todas as informações necessárias antes de
 
 8. **Fluxos de dados primários/pontos de integração** — 3 a 7 marcadores que descrevem os fluxos principais e os limites de integração exibidos nos diagramas (por exemplo, `Real-time event ingestion from Web SDK to Edge Network`, `Profile synchronization between Experience Platform Hub and Edge`).
 
-9. **Links do Experience League** — links 3-6 para a documentação relevante do Experience League para outras leituras. Cada um deve começar com `https://experienceleague.adobe.com/`.
+9. **Links do Experience League** — links 3-6 para a documentação relevante do Experience League para outras leituras. Cada um deve começar com `https://experienceleague.adobe.com/pt-br`.
 
    **Recomendar candidatos primeiro.** Com base nas soluções da Adobe e na finalidade da página, proponha de 4 a 8 artigos plausíveis do Experience League (por exemplo, as páginas de aterrissagem ou de visão geral canônicas de cada solução nomeada, os principais guias de integração e as referências de implantação). Para cada sugestão, apresente:
    - Título do artigo
@@ -176,7 +176,7 @@ Depois que todos os arquivos forem criados e atualizados, verifique o seguinte e
 
 2. **Links padrão de caso de uso** — Cada link padrão no arquivo aponta para um arquivo de Markdown existente em `/help/blueprints/use-case-patterns/`. Use `Read` ou glob para confirmar se cada destino existe.
 
-3. **Links do Experience League** — Verifique se cada URL na seção `## Further reading` começa com `https://experienceleague.adobe.com/`.
+3. **Links do Experience League** — Verifique se cada URL na seção `## Further reading` começa com `https://experienceleague.adobe.com/pt-br`.
 
 4. **Posicionamento da entrada do índice** — A nova entrada está dentro da subseção correta, usa recuo de quatro espaços e o caminho corresponde exatamente ao local do arquivo gerado.
 
