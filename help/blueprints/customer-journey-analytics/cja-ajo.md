@@ -4,6 +4,7 @@ description: Unifique e analise dados e comportamentos do cliente em toda a jorn
 solution: Customer Journey Analytics
 kt: null
 thumbnail: null
+tester: Bob
 exl-id: 5ae084bf-a98d-418a-8038-e6f849ff7c1d
 TQID: https://experienceleague.adobe.com/LfXHMTiwVFoS95g64Ma00Y9s6qq5h7ppNPCDbVS1JbE
 product_v2:
@@ -14,7 +15,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: 762f6273fa3099f15eec529ceaeb2cc609c11b48
 workflow-type: tm+mt
 source-wordcount: 145
 ht-degree: 90%
@@ -34,3 +35,4 @@ Consulte a documentação a seguir para obter orientação sobre a implementaç�
 ## Arquitetura do Customer Journey Analytics com Journey Optimizer
 
 ![Diagrama da arquitetura](assets/CJA_AJO.svg){zoomable="yes"}
+
