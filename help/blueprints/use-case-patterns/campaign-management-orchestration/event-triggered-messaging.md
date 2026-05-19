@@ -6,7 +6,7 @@ exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
 source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
 workflow-type: tm+mt
 source-wordcount: '9040'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -245,7 +245,7 @@ Essa abordagem reduz as mensagens desnecessárias, pois dá aos clientes tempo p
 **Experience League:**
 
 - [Atividade aguardar](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Atividade de condição](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Atividade de condição](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Critérios de saída](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 
 ### Opção C: acionado por eventos com governança de frequência
@@ -582,13 +582,13 @@ Navegação da **interface do usuário:** Jornadas > Criar Jornada (para criaç�
 
 **Onde as opções divergem:**
 
-**Para Opção A (Acionado Por Evento Simples):**
+**Para A Opção A (Acionada Por Evento Simples):**
 A tela de jornada é mínima: entrada do evento > condição opcional de consentimento/elegibilidade > ação de mensagem > fim. Nenhuma etapa de espera ou verificação de conversão. Defina regras de reentrada com base no fato de o evento dever gerar uma mensagem sempre que ocorrer.
 
 **Para a Opção B (Condicional com Espera):**
 Adicione um nó de espera após a entrada do evento. Após a espera, adicione um nó de condição para verificar a conversão (por exemplo, verifique se o evento `commerce.purchases` ocorreu após a entrada da jornada) ou use os critérios de saída para remover automaticamente os perfis convertidos. Ramifique para a ação de mensagem no caminho &quot;não convertido&quot; e para um nó final no caminho &quot;convertido&quot;.
 
-**Para a Opção C (Governança de Frequência):**
+**Para A Opção C (Controle De Frequência):**
 Configure limites de frequência no nível da organização por meio de Administração > Regras de negócios antes da publicação. Defina o controle de reentrada no nível da jornada nas propriedades da jornada. Como opção, atribua uma pontuação de prioridade por meio das propriedades do jornada para controlar qual comunicação vence quando as maiúsculas são atingidas. Isso pode ser aplicado sobre a Opção A ou a Opção B.
 
 **Documentação do Experience League:**
@@ -596,9 +596,9 @@ Configure limites de frequência no nível da organização por meio de Administ
 - [Criar uma jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Propriedades da jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Eventos gerais](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
-- [Atividade de condição](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Atividade de condição](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Atividade aguardar](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Adicionar uma mensagem em uma jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Adicionar uma mensagem em uma jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Critérios de saída](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [Gerenciamento de entradas de jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Regras de frequência](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
@@ -759,14 +759,14 @@ Os recursos a seguir fornecem detalhes adicionais sobre os recursos usados nesta
 
 ### Jornada orquestração
 
-- [Introdução ao jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Introdução às jornadas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Criar uma jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs)
 - [Propriedades da jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties)
 - [Eventos gerais](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/general-events)
 - [Eventos de qualificação de público-alvo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/audience-qualification-events)
-- [Atividade de condição](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
+- [Atividade de condição](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/condition-activity)
 - [Atividade aguardar](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity)
-- [Adicionar uma mensagem em uma jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
+- [Adicionar uma mensagem em uma jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journeys-message)
 - [Critérios de saída](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/exit-criteria)
 - [Gerenciamento de entradas de jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/entry-management)
 - [Testar a jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/testing-the-journey)
