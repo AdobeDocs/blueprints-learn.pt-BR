@@ -90,9 +90,9 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 
 | Capacidade básica | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
-| Administração e governança | Obrigatório | Uma sandbox deve estar ativa com funções e permissões de usuário apropriadas configuradas. Os usuários que gerenciam o encaminhamento de eventos precisam de permissões de Coleta de Dados no [!DNL Adobe Admin Console], incluindo direitos para gerenciar propriedades, extensões e regras de encaminhamento de eventos. | [Visão geral do controle de acesso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) |
-| Preparação e modelagem de dados | Obrigatório | Os esquemas XDM devem ser definidos para os dados do evento que fluem pela Edge Network. O fluxo de dados deve fazer referência a um esquema XDM ExperienceEvent válido para que as regras de encaminhamento de eventos possam acessar campos estruturados para filtragem, transformação e mapeamento. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) |
-| Fontes de dados e coleção | Obrigatório | Um mecanismo de coleta de dados deve estar ativo — Web SDK, Mobile SDK ou API do Edge Network Server — enviando eventos por meio de um fluxo de dados configurado. A sequência de dados é a camada de roteamento fundamental que conecta a coleção do lado do cliente ao encaminhamento de eventos do lado do servidor. | [Configurar sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) |
+| Administração e governança | Obrigatório | Uma sandbox deve estar ativa com funções e permissões de usuário apropriadas configuradas. Os usuários que gerenciam o encaminhamento de eventos precisam de permissões de Coleta de Dados no [!DNL Adobe Admin Console], incluindo direitos para gerenciar propriedades, extensões e regras de encaminhamento de eventos. | [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
+| Preparação e modelagem de dados | Obrigatório | Os esquemas XDM devem ser definidos para os dados do evento que fluem pela Edge Network. O fluxo de dados deve fazer referência a um esquema XDM ExperienceEvent válido para que as regras de encaminhamento de eventos possam acessar campos estruturados para filtragem, transformação e mapeamento. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) |
+| Fontes de dados e coleção | Obrigatório | Um mecanismo de coleta de dados deve estar ativo — Web SDK, Mobile SDK ou API do Edge Network Server — enviando eventos por meio de um fluxo de dados configurado. A sequência de dados é a camada de roteamento fundamental que conecta a coleção do lado do cliente ao encaminhamento de eventos do lado do servidor. | [Configurar sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure) |
 | Configuração de identidade e perfil | Não se aplica | O encaminhamento de eventos opera em dados de evento brutos na camada do Edge Network, antes da resolução de identidade ou unificação de perfil ocorrer. Os namespaces de identidade e as políticas de mesclagem não são necessários, a menos que os eventos encaminhados também precisem contribuir para o Perfil do cliente em tempo real (que é uma configuração de serviço de sequência de dados separada, não uma preocupação de encaminhamento de eventos). | |
 | Definição e segmentação do público-alvo | Não se aplica | O encaminhamento de eventos processa eventos individuais em tempo real e não avalia a associação de público-alvo. A filtragem com base no público-alvo não faz parte do plano de execução do encaminhamento de eventos. Se a ativação baseada no público-alvo for necessária, consulte o plano de referência Audience Activation para destinos. | |
 
@@ -103,10 +103,10 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 | Recurso de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
 | Criação de atributo calculado/derivado | Não se aplica | O encaminhamento de eventos opera em dados brutos de eventos, não em atributos computados no nível do perfil. Os atributos computados não estão disponíveis no contexto de encaminhamento de eventos. | |
-| Gerenciamento do ciclo de vida dos dados | Recomendado | Se os dados do evento também estiverem sendo assimilados nos conjuntos de dados da AEP (por meio do mesmo fluxo de dados), as políticas de retenção de dados (expiração) deverão ser configuradas para esses conjuntos de dados para gerenciar os custos de armazenamento e a conformidade normativa. O encaminhamento de eventos em si não armazena dados, mas o caminho de assimilação paralelo do AEP armazena. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home) |
-| Rotulagem e aplicação de uso de dados | Recomendado | Embora as regras de encaminhamento de eventos forneçam filtragem em nível de campo (permitindo excluir dados confidenciais de cargas úteis encaminhadas), a aplicação de rótulos de uso de dados aos esquemas e conjuntos de dados subjacentes garante que as políticas de governança sejam aplicadas se os mesmos dados forem usados para ativação ou personalização de público-alvo. | [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home) |
-| Monitoramento e capacidade de observação | Incluído | O monitoramento é essencial para o encaminhamento de eventos. O painel de Monitoramento de encaminhamento de eventos oferece visibilidade sobre taxas de sucesso de encaminhamento, taxas de erro e códigos de resposta de destino. Os alertas devem ser configurados para falhas de destino. | [Monitoramento do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring) |
-| Relatórios e análise | Recomendado | Se os eventos encaminhados alimentarem uma plataforma de análise de terceiros, considere conectar os mesmos conjuntos de dados de eventos do AEP à CJA para obter uma visualização unificada entre canais. Isso permite a comparação entre as análises do Adobe e de terceiros. | [visão geral do CJA](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Gerenciamento do ciclo de vida dos dados | Recomendado | Se os dados do evento também estiverem sendo assimilados nos conjuntos de dados da AEP (por meio do mesmo fluxo de dados), as políticas de retenção de dados (expiração) deverão ser configuradas para esses conjuntos de dados para gerenciar os custos de armazenamento e a conformidade normativa. O encaminhamento de eventos em si não armazena dados, mas o caminho de assimilação paralelo do AEP armazena. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
+| Rotulagem e aplicação de uso de dados | Recomendado | Embora as regras de encaminhamento de eventos forneçam filtragem em nível de campo (permitindo excluir dados confidenciais de cargas úteis encaminhadas), a aplicação de rótulos de uso de dados aos esquemas e conjuntos de dados subjacentes garante que as políticas de governança sejam aplicadas se os mesmos dados forem usados para ativação ou personalização de público-alvo. | [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home) |
+| Monitoramento e capacidade de observação | Incluído | O monitoramento é essencial para o encaminhamento de eventos. O painel de Monitoramento de encaminhamento de eventos oferece visibilidade sobre taxas de sucesso de encaminhamento, taxas de erro e códigos de resposta de destino. Os alertas devem ser configurados para falhas de destino. | [Monitoramento do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/monitoring) |
+| Relatórios e análise | Recomendado | Se os eventos encaminhados alimentarem uma plataforma de análise de terceiros, considere conectar os mesmos conjuntos de dados de eventos do AEP à CJA para obter uma visualização unificada entre canais. Isso permite a comparação entre as análises do Adobe e de terceiros. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
 
 ## Recursos do aplicativo
 
@@ -153,7 +153,7 @@ A compensação é que a disponibilidade da extensão determina quais destinos s
 
 **Principais considerações:**
 
-- A disponibilidade da extensão varia — verifique o [catálogo de extensões da Coleção de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview) antes do planejamento
+- A disponibilidade da extensão varia — verifique o [catálogo de extensões da Coleção de Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/overview) antes do planejamento
 - As extensões são mantidas pela Adobe ou por parceiros; as atualizações podem introduzir alterações importantes que exigem ajustes de regras
 - Algumas extensões oferecem suporte somente a tipos de evento específicos ou exigem mapeamentos de campo XDM específicos
 - As extensões tratam da autenticação e do gerenciamento de credenciais em sua interface do usuário de configuração
@@ -175,11 +175,11 @@ A compensação é que a disponibilidade da extensão determina quais destinos s
 
 **Experience League:**
 
-- [Catálogo de extensões do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Extensão da API de conversões do Meta](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Extensão da Google Cloud Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [Extensão do AWS](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Extensão do Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Catálogo de extensões do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/overview)
+- [Extensão da API de conversões do Meta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Extensão da Google Cloud Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [Extensão do AWS](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Extensão do Snowflake](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/snowflake/overview)
 
 ### Opção B: encaminhamento de eventos de webhook personalizado (Buscar API)
 
@@ -218,8 +218,8 @@ A solução de compromisso é um maior esforço de implementação e manutençã
 
 **Experience League:**
 
-- [Extensão do Adobe Cloud Connector](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Segredos do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [Extensão do Adobe Cloud Connector](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Segredos do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/secrets)
 
 ### Opção C: Híbrido (extensões + webhooks personalizados)
 
@@ -253,8 +253,8 @@ Essa abordagem maximiza a cobertura, minimizando o desenvolvimento personalizado
 
 **Experience League:**
 
-- [Visão geral do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [Introdução ao encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Visão geral do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/overview)
+- [Introdução ao encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/getting-started)
 
 ### Comparação de opções
 
@@ -325,9 +325,9 @@ Navegação da **UI:** [!DNL Experience Platform] > Coleção de dados > Fluxos 
 
 **Documentação do Experience League:**
 
-- [Configurar sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Visão geral dos fluxos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Visão geral do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
+- [Configurar sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure)
+- [Visão geral dos fluxos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/overview)
+- [Visão geral do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/overview)
 
 ### Fase 2: propriedade e extensões do encaminhamento de eventos
 
@@ -372,10 +372,10 @@ Navegação da **UI:** [!DNL Experience Platform] > Coleção de dados > Encamin
 
 **Documentação do Experience League:**
 
-- [Introdução ao encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [Catálogo de extensões do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Segredos do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
-- [Extensão do Adobe Cloud Connector](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Introdução ao encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Catálogo de extensões do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/overview)
+- [Segredos do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/secrets)
+- [Extensão do Adobe Cloud Connector](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### Fase 3: definição da regra de evento
 
@@ -448,10 +448,10 @@ Crie regras separadas para cada destino. As regras baseadas em extensão usam os
 
 **Documentação do Experience League:**
 
-- [Regras de encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [Elementos de dados no encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements)
-- [Regras na coleção de dados](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)
-- [Extensão do Adobe Cloud Connector](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Regras de encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/overview)
+- [Elementos de dados no encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/data-elements)
+- [Regras na coleção de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/ui/rules)
+- [Extensão do Adobe Cloud Connector](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
 
 ### Fase 4: publicação e ativação
 
@@ -484,10 +484,10 @@ Navegação da **UI:** [!DNL Experience Platform] > Coleta de Dados > Encaminham
 
 **Documentação do Experience League:**
 
-- [Visão geral da publicação](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview)
-- [Bibliotecas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries)
+- [Visão geral da publicação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/overview)
+- [Bibliotecas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/libraries)
 - [Ambientes](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/environments)
-- [Builds](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/builds)
+- [Builds](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/publish/builds)
 
 ### Fase 5: Monitoramento e validação
 
@@ -521,9 +521,9 @@ Navegação da **UI:** [!DNL Experience Platform] > Coleta de Dados > Encaminham
 
 **Documentação do Experience League:**
 
-- [Monitoramento do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)
-- [Visão geral de alertas](https://experienceleague.adobe.com/en/docs/experience-platform/observability/alerts/overview)
+- [Monitoramento do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/monitoring)
+- [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/pt-br/docs/experience-platform/debugger/home)
+- [Visão geral de alertas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview)
 
 ## Considerações de implantação
 
@@ -605,26 +605,26 @@ Os recursos a seguir fornecem detalhes adicionais sobre os tópicos abordados ne
 
 **Encaminhamento de eventos**
 
-- [Visão geral do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/overview)
-- [Introdução ao encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/getting-started)
-- [Monitoramento do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/monitoring)
-- [Segredos do encaminhamento de eventos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/event-forwarding/secrets)
+- [Visão geral do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/overview)
+- [Introdução ao encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/getting-started)
+- [Monitoramento do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/monitoring)
+- [Segredos do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/secrets)
 
 **Extensões de encaminhamento de eventos**
 
-- [Catálogo de extensões do lado do servidor](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/overview)
-- [Extensão do Adobe Cloud Connector](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
-- [Extensão da API de conversões do Meta](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/meta/overview)
-- [Extensão da Google Cloud Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
-- [Extensão do AWS](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/aws/overview)
-- [Extensão do Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/snowflake/overview)
-- [Extensão de conversões aprimoradas do Google Ads](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
-- [Extensão do Mailchimp](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/server/mailchimp/overview)
+- [Catálogo de extensões do lado do servidor](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/overview)
+- [Extensão do Adobe Cloud Connector](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/cloud-connector/overview)
+- [Extensão da API de conversões do Meta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/meta/overview)
+- [Extensão da Google Cloud Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/google-cloud-platform/overview)
+- [Extensão do AWS](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/aws/overview)
+- [Extensão do Snowflake](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/snowflake/overview)
+- [Extensão de conversões aprimoradas do Google Ads](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/google-ads-enhanced-conversions/overview)
+- [Extensão do Mailchimp](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/extensions/server/mailchimp/overview)
 
 **Coleta de dados e Edge Network**
 
-- [Configurar sequências de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure)
-- [Visão geral dos fluxos de dados](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview)
-- [Visão geral do Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home)
-- [Visão geral da API do Edge Network Server](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview)
-- [Visão geral das tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)
+- [Configurar sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure)
+- [Visão geral dos fluxos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/overview)
+- [Visão geral do Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home)
+- [Visão geral da API do Edge Network Server](https://experienceleague.adobe.com/pt-br/docs/experience-platform/edge-network-server-api/overview)
+- [Visão geral das tags](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home)
