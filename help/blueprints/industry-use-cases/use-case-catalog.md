@@ -3,10 +3,10 @@ title: Catálogo de casos de uso
 description: Navegue por casos de uso do setor verticalmente para encontrar o ponto de partida certo para sua jornada de Adobe Experience Platform e aplicativos, com links para padrões de implementação e objetivos de negócios.
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '4157'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 Casos de uso do setor mostram como as organizações em mercados verticais específicos aplicam o Adobe Experience Platform e os aplicativos para alcançar resultados mensuráveis nos negócios. Cada caso de uso descreve um cenário comercial concreto, seu impacto esperado e links para o [padrão de caso de uso](/help/blueprints/use-case-patterns/overview.md) que fornece orientação detalhada de implementação.
 
-Navegue por setor para encontrar casos de uso relevantes para sua organização e, em seguida, siga os links padrão para referências de implementação, incluindo orientação de decisão, cadeias de função e documentação do Experience League.
+Navegue por setor para encontrar casos de uso relevantes para sua organização e, em seguida, siga os links padrão para referências de implementação, incluindo orientação de decisão, planos de execução e documentação do Experience League.
 
 | Setor | Temas principais |
 | --- | --- |
@@ -31,7 +31,7 @@ Navegue por setor para encontrar casos de uso relevantes para sua organização 
 
 ## Como os casos de uso se conectam às orientações de implementação
 
-Cada caso de uso está vinculado a um **padrão de caso de uso** — uma abordagem de implementação repetível que descreve a cadeia de função, os pontos de decisão e as etapas de configuração necessárias para dar vida ao caso de uso. Por sua vez, os padrões de casos de uso conectam-se a [objetivos comerciais importantes](/help/blueprints/business-objectives/overview.md), ajudando você a alinhar o trabalho de implementação aos resultados estratégicos.
+Cada caso de uso está vinculado a um **padrão de caso de uso** — uma abordagem de implementação repetível que descreve o plano de execução, os pontos de decisão e as etapas de configuração necessárias para dar vida ao caso de uso. Por sua vez, os padrões de casos de uso conectam-se a [objetivos comerciais importantes](/help/blueprints/business-objectives/overview.md), ajudando você a alinhar o trabalho de implementação aos resultados estratégicos.
 
 ```
 Industry Use Case → Use Case Pattern → Key Business Objective

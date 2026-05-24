@@ -4,7 +4,7 @@ description: Saiba mais sobre os padrões de casos de uso para implementar o Ado
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Padrões de caso de uso
 
-Os padrões de caso de uso definem abordagens de implementação repetíveis para o Adobe Experience Platform e os aplicativos. Cada padrão descreve um recurso específico, a cadeia de funções que o fornece, os aplicativos envolvidos e os [principais objetivos de negócios](/help/blueprints/business-objectives/overview.md) aos quais ele dá suporte.
+Os padrões de caso de uso definem abordagens de implementação repetíveis para o Adobe Experience Platform e os aplicativos. Cada padrão descreve um recurso específico, o plano de execução que o fornece, os aplicativos envolvidos e os [principais objetivos de negócios](/help/blueprints/business-objectives/overview.md) aos quais ele dá suporte.
 
 Use as tabelas abaixo para encontrar o padrão que corresponda às suas necessidades de implementação e, em seguida, siga o link para a referência de implementação completa, incluindo opções, fases, orientação de decisão e documentação do Experience League.
 
