@@ -3,7 +3,7 @@ title: Encaminhamento de eventos
 description: Saiba como encaminhar dados de eventos em tempo real coletados por meio do Edge Network para destinos que não sejam da Adobe para análise, armazenamento ou publicidade.
 solution: Experience Platform
 exl-id: 24964d27-db56-4fa4-a79f-1b6750564b34
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '6342'
 ht-degree: 0%
@@ -70,11 +70,11 @@ Os KPIs a seguir ajudam a medir o sucesso desse padrão de caso de uso.
 
 ## Padrão do caso de uso
 
-Esta seção descreve o padrão e a cadeia de função usados para implementar o encaminhamento de eventos.
+Esta seção descreve o padrão e o plano de execução usados para implementar o encaminhamento de eventos.
 
 **Encaminhamento de Eventos** — Encaminhe dados de eventos em tempo real coletados via Edge Network para destinos que não sejam da Adobe para fins de análise, armazenamento ou publicidade.
 
-**Cadeia De Funções:** Configuração De Sequência De Dados > Definição De Regra De Evento > Mapeamento De Destino > Execução De Encaminhamento > Monitoramento
+**Plano de Execução:** Configuração de Sequência de Dados > Definição de Regra de Evento > Mapeamento de Destino > Execução de Encaminhamento > Monitoramento
 
 ## Aplicativos
 
@@ -84,23 +84,23 @@ Os aplicativos a seguir são usados neste padrão de caso de uso.
 - **[!DNL Adobe Experience Platform] (Encaminhamento de Eventos)** — Fornece o mecanismo de regras do lado do servidor para avaliação, filtragem, transformação e encaminhamento de dados de eventos para destinos externos
 - **[!DNL Adobe Experience Platform] (Marcas/Coleção de Dados)** — Gerencia o ciclo de vida, as extensões, as regras e o fluxo de trabalho de publicação da propriedade de encaminhamento de eventos
 
-## Funções básicas
+## Recursos básicos
 
-Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada função, o status indica se ele é tipicamente necessário, se presume ser pré-configurado ou se não é aplicável.
+Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada recurso, o status indica se ele é normalmente necessário, se presume ser pré-configurado ou se não é aplicável.
 
-| Função de base | Status | O que deve estar em vigor | Referência do Experience League |
+| Capacidade básica | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
 | Administração e governança | Obrigatório | Uma sandbox deve estar ativa com funções e permissões de usuário apropriadas configuradas. Os usuários que gerenciam o encaminhamento de eventos precisam de permissões de Coleta de Dados no [!DNL Adobe Admin Console], incluindo direitos para gerenciar propriedades, extensões e regras de encaminhamento de eventos. | [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
 | Preparação e modelagem de dados | Obrigatório | Os esquemas XDM devem ser definidos para os dados do evento que fluem pela Edge Network. O fluxo de dados deve fazer referência a um esquema XDM ExperienceEvent válido para que as regras de encaminhamento de eventos possam acessar campos estruturados para filtragem, transformação e mapeamento. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) |
 | Fontes de dados e coleção | Obrigatório | Um mecanismo de coleta de dados deve estar ativo — Web SDK, Mobile SDK ou API do Edge Network Server — enviando eventos por meio de um fluxo de dados configurado. A sequência de dados é a camada de roteamento fundamental que conecta a coleção do lado do cliente ao encaminhamento de eventos do lado do servidor. | [Configurar sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure) |
 | Configuração de identidade e perfil | Não se aplica | O encaminhamento de eventos opera em dados de evento brutos na camada do Edge Network, antes da resolução de identidade ou unificação de perfil ocorrer. Os namespaces de identidade e as políticas de mesclagem não são necessários, a menos que os eventos encaminhados também precisem contribuir para o Perfil do cliente em tempo real (que é uma configuração de serviço de sequência de dados separada, não uma preocupação de encaminhamento de eventos). | |
-| Definição e segmentação do público-alvo | Não se aplica | O encaminhamento de eventos processa eventos individuais em tempo real e não avalia a associação de público-alvo. A filtragem com base no público-alvo não faz parte da cadeia de funções de encaminhamento de eventos. Se a ativação baseada no público-alvo for necessária, consulte o plano de referência Audience Activation para destinos. | |
+| Definição e segmentação do público-alvo | Não se aplica | O encaminhamento de eventos processa eventos individuais em tempo real e não avalia a associação de público-alvo. A filtragem com base no público-alvo não faz parte do plano de execução do encaminhamento de eventos. Se a ativação baseada no público-alvo for necessária, consulte o plano de referência Audience Activation para destinos. | |
 
-## Funções de suporte
+## Recursos de suporte
 
 Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necessários para a execução principal.
 
-| Função de suporte | Status | Por que é importante | Referência do Experience League |
+| Recurso de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
 | Criação de atributo calculado/derivado | Não se aplica | O encaminhamento de eventos opera em dados brutos de eventos, não em atributos computados no nível do perfil. Os atributos computados não estão disponíveis no contexto de encaminhamento de eventos. | |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | Se os dados do evento também estiverem sendo assimilados nos conjuntos de dados da AEP (por meio do mesmo fluxo de dados), as políticas de retenção de dados (expiração) deverão ser configuradas para esses conjuntos de dados para gerenciar os custos de armazenamento e a conformidade normativa. O encaminhamento de eventos em si não armazena dados, mas o caminho de assimilação paralelo do AEP armazena. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
@@ -108,13 +108,13 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 | Monitoramento e capacidade de observação | Incluído | O monitoramento é essencial para o encaminhamento de eventos. O painel de Monitoramento de encaminhamento de eventos oferece visibilidade sobre taxas de sucesso de encaminhamento, taxas de erro e códigos de resposta de destino. Os alertas devem ser configurados para falhas de destino. | [Monitoramento do encaminhamento de eventos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/event-forwarding/monitoring) |
 | Relatórios e análise | Recomendado | Se os eventos encaminhados alimentarem uma plataforma de análise de terceiros, considere conectar os mesmos conjuntos de dados de eventos do AEP à CJA para obter uma visualização unificada entre canais. Isso permite a comparação entre as análises do Adobe e de terceiros. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funções do aplicativo
+## Recursos do aplicativo
 
-Este plano exerce as seguintes funções do Catálogo de Funções da Aplicação. As funções são mapeadas para fases de implementação em vez de etapas numeradas.
+Este plano utiliza os seguintes recursos do Catálogo de Recursos do Aplicativo. Os recursos são mapeados para fases de implementação em vez de etapas numeradas.
 
 ### [!DNL Adobe Experience Platform] (AEP)
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Configuração da sequência de dados | Fase 1: configuração da sequência de dados | Configure um fluxo de dados para receber eventos do Edge Network e habilitar o serviço de encaminhamento de eventos |
 | Configuração da propriedade de encaminhamento de eventos | Fase 2: propriedade e extensões do encaminhamento de eventos | Criar uma propriedade de encaminhamento de eventos e instalar extensões específicas de destino |
@@ -286,7 +286,7 @@ As fases a seguir descrevem o processo completo de implementação do encaminham
 
 ### Fase 1: configuração da sequência de dados
 
-**Função do Aplicativo:** AEP: Configuração de Sequência de Dados
+**Recurso do aplicativo:** AEP: configuração de sequência de dados
 
 **O que você configurará:** uma sequência de dados que recebe eventos da sua implementação do Web SDK, Mobile SDK ou API de servidor e os encaminha para a Edge Network, onde as regras de encaminhamento de eventos podem processá-los. Se o encaminhamento de eventos estiver sendo adicionado a uma implantação de coleção de dados existente, você ativará o encaminhamento de eventos no fluxo de dados existente.
 
@@ -331,7 +331,7 @@ Navegação da **UI:** [!DNL Experience Platform] > Coleção de dados > Fluxos 
 
 ### Fase 2: propriedade e extensões do encaminhamento de eventos
 
-**Função do Aplicativo:** AEP: Instalação da Propriedade de Encaminhamento de Eventos
+**Recurso do aplicativo:** AEP: Instalação da Propriedade de Encaminhamento de Eventos
 
 **O que você configurará:** uma propriedade de encaminhamento de eventos na interface da Coleção de Dados, juntamente com as extensões necessárias para os destinos de destino. A propriedade de encaminhamento de eventos é o container de todas as regras, elementos de dados e extensões que definem a lógica de encaminhamento do lado do servidor.
 
@@ -379,7 +379,7 @@ Navegação da **UI:** [!DNL Experience Platform] > Coleção de dados > Encamin
 
 ### Fase 3: definição da regra de evento
 
-**Função do Aplicativo:** AEP: Definição de Regra de Evento, AEP: Mapeamento de Destino
+**Recurso do aplicativo:** AEP: Definição de Regra de Evento, AEP: Mapeamento de Destino
 
 **O que você configurará:** Regras que avaliam os dados de entrada do evento, aplicam condições para filtrar quais eventos devem ser encaminhados e definem ações que enviam os dados para pontos de extremidade de destino. Cada regra consiste em condições (quando acionar) e ações (o que fazer). Os elementos de dados extraem e transformam valores da carga do evento XDM para usar em condições de regra e configurações de ação.
 
@@ -455,7 +455,7 @@ Crie regras separadas para cada destino. As regras baseadas em extensão usam os
 
 ### Fase 4: publicação e ativação
 
-**Função do Aplicativo:** AEP: Execução de Encaminhamento
+**Recurso do aplicativo:** AEP: execução de encaminhamento
 
 **O que você configurará:** o fluxo de trabalho de publicação que promove suas regras de encaminhamento de eventos do Desenvolvimento ao Preparo para Produção. O encaminhamento de eventos usa o mesmo modelo de publicação baseado em biblioteca que as tags, com ambientes e artefatos de build que controlam qual configuração está ativa no Edge Network.
 
@@ -491,7 +491,7 @@ Navegação da **UI:** [!DNL Experience Platform] > Coleta de Dados > Encaminham
 
 ### Fase 5: Monitoramento e validação
 
-**Função do aplicativo:** AEP: monitoramento
+**Recurso do aplicativo:** AEP: monitoramento
 
 **O que você configurará:** Os painéis de monitoramento e os processos de validação para confirmar eventos estão sendo encaminhados com êxito, diagnosticam falhas e mantêm a integridade operacional da implantação do encaminhamento de eventos.
 

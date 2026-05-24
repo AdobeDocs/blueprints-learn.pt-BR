@@ -1,8 +1,8 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 # Páginas para atualizar ao adicionar um padrão de caso de uso
@@ -64,5 +64,5 @@ Quando um novo padrão de caso de uso é criado, as seguintes páginas devem ser
 - [ ] O arquivo usa a convenção de nomenclatura kebab-case
 - [ ] Todos os links do Experience League são URLs válidas
 - [ Os nomes de produtos do Adobe ] usam a sintaxe `[!DNL ...]`
-- [ A cadeia de funções ] usa o formato de separador ` > `
+- [ O plano de execução ] usa o formato separador ` > `
 - [ O arquivo de padrão ] inclui todas as seções necessárias (consulte pattern-template.md)

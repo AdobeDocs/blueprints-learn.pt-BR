@@ -3,7 +3,7 @@ title: Ativação de público-alvo para destinos
 description: Saiba como avaliar e publicar segmentos de público-alvo em destinos externos para direcionamento ou supressão usando o Adobe Real-Time CDP.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7080'
 ht-degree: 1%
@@ -83,7 +83,7 @@ Melhore o retorno sobre o investimento em marketing através de melhor direciona
 
 **Audience Activation para Destinos** — Avalie e publique um segmento de público-alvo para destinos externos para direcionamento ou supressão.
 
-**Cadeia De Funções:** Avaliação De Público-Alvo > Configuração De Destino > Audience Activation > Monitoramento
+**Plano de Execução:** Avaliação de Público-Alvo > Configuração de Destino > Audience Activation > Monitoramento
 
 ## Aplicativos
 
@@ -96,37 +96,37 @@ A arquitetura de referência a seguir ilustra como o público-alvo e os dados de
 
 ![Arquitetura de referência para ativação de públicos e perfis para destinos corporativos](/help/blueprints/audience-activation/assets/known_activation.svg)
 
-## Funções básicas
+## Recursos básicos
 
-Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada função, o status indica se ele é tipicamente necessário, se presume ser pré-configurado ou se não é aplicável.
+Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada recurso, o status indica se ele é normalmente necessário, se presume ser pré-configurado ou se não é aplicável.
 
-| Função de base | Status | O que deve estar em vigor | Referência do Experience League |
+| Capacidade básica | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
 | Administração e governança | Presumido em vigor | Sandbox RT-CDP provisionada e ativa. Permissões de ativação e gerenciamento de destino atribuídas a funções de implementação. Credenciais de conta de destino disponíveis para as plataformas de destino. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home), [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
 | Preparação e modelagem de dados | Obrigatório | O esquema de perfil deve incluir atributos que serão mapeados para campos de destino (por exemplo, email, telefone, identificadores com hash, atributos demográficos). O esquema deve ser habilitado para perfis com conjuntos de dados recebendo dados ativamente. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), [noções básicas de composição de esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition) |
 | Fontes de dados e coleção | Presumido em vigor | Os dados do perfil que possibilitam a avaliação do público-alvo devem ser assimilados e atuais. Os pipelines de assimilação em lote e/ou fluxo estão operacionais. Web SDK, conectores de origem ou assimilação em lote que fornecem dados em conjuntos de dados habilitados para perfil. | [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home), [Visão geral do Web SDK](https://experienceleague.adobe.com/pt-br/docs/experience-platform/web-sdk/home) |
 | Configuração de identidade e perfil | Obrigatório | Os namespaces de identidade para correspondência de destino devem ser configurados (por exemplo, email com hash para Públicos-alvo personalizados do Facebook, Correspondência de cliente do Google Ads). As políticas de mesclagem devem produzir perfis unificados com todos os atributos necessários para ativação. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home), [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview) |
-| Definição e segmentação do público-alvo | Obrigatório | Público-alvo definido usando o Construtor de segmentos, a Composição de público-alvo ou a Composição de público-alvo federado. Método de avaliação (lote, streaming ou borda) selecionado com base nas necessidades de latência de ativação. Esta função é exercida na Fase 1 deste plano. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home), [guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder) |
+| Definição e segmentação do público-alvo | Obrigatório | Público-alvo definido usando o Construtor de segmentos, a Composição de público-alvo ou a Composição de público-alvo federado. Método de avaliação (lote, streaming ou borda) selecionado com base nas necessidades de latência de ativação. Essa capacidade é exercida na Fase 1 deste plano. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home), [guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Funções de suporte
+## Recursos de suporte
 
 Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necessários para a execução principal.
 
-| Função de suporte | Status | Por que é importante | Referência do Experience League |
+| Recurso de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
 | Criação de atributo calculado/derivado | Recomendado | Os atributos computados, como valor vitalício, pontuação de engajamento ou pontuação de propensão, melhoram a precisão do público-alvo e fornecem atributos de enriquecimento para mapear a destinos. Particularmente valioso quando os destinos se beneficiam da segmentação de público com base em valor ou em pontuação. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview) |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | As políticas de expiração de conjuntos de dados e perfis garantem a atualização e a conformidade dos dados. A configuração do esquema de consentimento garante que apenas perfis consentidos sejam ativados. Essencial para a conformidade normativa ao exportar dados para sistemas externos. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
 | Rotulagem e aplicação de uso de dados | Recomendado | Os rótulos e políticas de governança impedem a ativação de dados restritos para destinos não autorizados (por exemplo, plataformas PII para anúncio, segmentos confidenciais para parceiros de dados). Especialmente importante para a ativação de públicos-alvo para sistemas externos de terceiros. | [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home), [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview) |
-| Monitoramento e capacidade de observação | Incluído | O monitoramento de ativação faz parte da cadeia de funções (Fase 5). Abrange monitoramento de execução de fluxo de dados, alertas de status do delivery, rastreamento do público-alvo e visibilidade do uso de licença. | [Monitorar fluxos de dados de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor-destinations), [Visão geral dos alertas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview) |
+| Monitoramento e capacidade de observação | Incluído | O monitoramento de ativação faz parte do plano de execução (Fase 5). Abrange monitoramento de execução de fluxo de dados, alertas de status do delivery, rastreamento do público-alvo e visibilidade do uso de licença. | [Monitorar fluxos de dados de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dataflows/ui/monitor-destinations), [Visão geral dos alertas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview) |
 | Relatórios e análise | Recomendado | A análise do CJA da eficácia de ativação de público permite medir o desempenho de públicos ativados (por exemplo, aumento de conversão da supressão, ROAS de públicos semelhantes). | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funções do aplicativo
+## Recursos do aplicativo
 
-Este plano exerce as seguintes funções do Catálogo de Funções da Aplicação. As funções são mapeadas para fases de implementação em vez de etapas numeradas.
+Este plano utiliza os seguintes recursos do Catálogo de Recursos do Aplicativo. Os recursos são mapeados para fases de implementação em vez de etapas numeradas.
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Avaliação de público | Fase 1: Avaliação de público-alvo | Defina regras de público-alvo e avalie a associação do segmento usando métodos de avaliação de lote, transmissão ou borda |
 | Composição de público | Fase 1: Avaliação de público-alvo | Opcionalmente, compor públicos-alvo derivados por meio de operações de enriquecimento, classificação, divisão, exclusão e associação para uma lógica complexa de público-alvo |
@@ -295,7 +295,7 @@ A implementação segue essas fases. Cada fase inclui detalhes de configuração
 
 ### Fase 1: Avaliação do público-alvo
 
-**Função do aplicativo:** RT-CDP: Avaliação de público-alvo, RT-CDP: Composição de público-alvo
+**Recurso do aplicativo:** RT-CDP: Audience Evaluation, RT-CDP: Audience Composition
 
 **O que você configurará:** Defina o público-alvo que será ativado para destinos. Isso inclui especificar os critérios de público-alvo (quais perfis se qualificam), selecionar o método de avaliação (a rapidez com que as atualizações de associação são feitas) e validar a população do público-alvo. Esse é o ponto de partida para toda a ativação — sem um público-alvo definido e avaliado, não há nada para ser ativado.
 
@@ -369,7 +369,7 @@ O método de avaliação deve acomodar o destino mais exigente. Se qualquer dest
 
 ### Fase 2: configuração de destino
 
-**Função do aplicativo:** RT-CDP: Configuração de Destino
+**Recurso do aplicativo:** RT-CDP: Configuração de Destino
 
 **O que você configurará:** Estabeleça conexões autenticadas com os destinos externos onde os públicos-alvo serão publicados. Isso inclui selecionar o destino no catálogo, fornecer credenciais de autenticação e configurar parâmetros específicos do destino, como formato de arquivo, local de armazenamento e agendamento de exportação. Cada destino requer sua própria configuração de conexão.
 
@@ -446,7 +446,7 @@ Repita essa fase para cada destino. Cada conexão é independente — você pode
 
 ### Fase 3: Ativação do público-alvo
 
-**Função do aplicativo:** RT-CDP: Audience Activation
+**Recurso do aplicativo:** RT-CDP: Audience Activation
 
 **O que você configurará:** publique o público avaliado no destino configurado criando o fluxo de dados de ativação. Isso envolve selecionar quais públicos-alvo serão ativados, mapear atributos de perfil para campos de destino e configurar o cronograma de exportação. O fluxo de dados de ativação conecta o público-alvo de origem ao destino e gerencia a entrega de dados em andamento.
 
@@ -507,7 +507,7 @@ Repita o fluxo de trabalho de ativação para cada destino. O mesmo público pod
 
 ### Fase 4: validação de governança
 
-**Função do aplicativo:** RT-CDP: Consentimento e Imposição de Governança
+**Recurso do aplicativo:** RT-CDP: Consentimento e Imposição de Governança
 
 **O que você configurará:** Verifique se as políticas de governança e as preferências de consentimento estão sendo aplicadas corretamente antes e durante a ativação. Essa fase garante que os dados restritos (PII, atributos confidenciais) não sejam enviados a destinos não autorizados e que os perfis sem consentimento válido sejam excluídos da ativação. A aplicação de governança ocorre automaticamente no momento da ativação, mas a validação proativa impede ativações bloqueadas e violações de conformidade.
 
@@ -555,7 +555,7 @@ Repita o fluxo de trabalho de ativação para cada destino. O mesmo público pod
 
 ### Fase 5: Monitoramento e validação
 
-**Função de aplicativo:** Monitoramento e Observação
+**Recurso do aplicativo:** Monitoramento e Observação
 
 **O que você configurará:** Configure o monitoramento contínuo para fluxos de dados de ativação, configure alertas para falhas, valide a população de público-alvo nos destinos e rastreie o uso de licenças. O monitoramento é essencial para ativações de produção em que as falhas de delivery afetam diretamente o desempenho da campanha e o gasto com mídia.
 

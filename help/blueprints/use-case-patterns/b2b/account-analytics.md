@@ -3,7 +3,7 @@ title: Análise B2B
 description: Saiba como incluir informações a nível de conta B2B na análise de jornada de clientes entre canais.
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7528'
 ht-degree: 1%
@@ -90,7 +90,7 @@ Os KPIs a seguir ajudam a medir o sucesso desse padrão de caso de uso.
 
 Inclua informações a nível de conta B2B na análise de jornada de clientes entre canais.
 
-**Cadeia de funções:** Conexão de Dados B2B > Configuração de Exibição de Dados da Conta > Workspace Analysis > Publicação de Painel
+**Plano de execução:** Conexão de Dados B2B > Configuração de Exibição de Dados da Conta > Workspace Analysis > Publicação do Painel
 
 ## Aplicativos
 
@@ -99,11 +99,11 @@ Os aplicativos a seguir são usados para implementar esse padrão de caso de uso
 - **[!DNL Customer Journey Analytics]B2B edition** — Fornece conexões baseadas em conta, contêineres de visualização de dados específicos B2B, análise de espaço de trabalho em nível de conta, análise de grupo de compras, análise de oportunidade, segmentação B2B e atribuição B2B com janelas de retrospectiva estendidas
 - **[!DNL Real-Time CDP]B2B edition** — Fornece a base de dados B2B incluindo unificação de perfil de conta, resolução de identidade B2B, classes de esquema B2B (Conta, Oportunidade, Grupo de Compras) e integração [!DNL Marketo Engage] para assimilação de dados de envolvimento B2B
 
-## Funções básicas
+## Recursos básicos
 
-Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada função, o status indica se ele é tipicamente necessário, se presume ser pré-configurado ou se não é aplicável.
+Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada recurso, o status indica se ele é normalmente necessário, se presume ser pré-configurado ou se não é aplicável.
 
-| Função de base | Status | O que deve estar em vigor | Referência do Experience League |
+| Capacidade básica | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
 | Administração e governança | Obrigatório | Sandbox configurada com [!DNL CJA] direitos de B2B edition e [!DNL RT-CDP] B2B edition. Funções provisionadas para engenheiros de dados, analistas e usuários de operações de marketing com acesso ao [!DNL CJA] e ao modelo de dados B2B. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home) |
 | Preparação e modelagem de dados | Obrigatório | Esquemas XDM B2B configurados usando classes B2B: conta de negócios XDM, oportunidade de negócios XDM, relação pessoal da conta de negócios XDM, relação pessoal da oportunidade de negócios XDM e membros da lista de marketing de negócios XDM. Os grupos de campos para atributos de conta, estágios de oportunidade e funções de grupo de compra devem ser definidos. Conjuntos de dados criados e ativados para Perfil. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), [esquemas do B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/schemas/b2b) |
@@ -111,25 +111,25 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 | Configuração de identidade e perfil | Obrigatório | Resolução de identidade B2B configurada para resolver relacionamentos entre pessoas e contas. A ID da conta, a ID da pessoa ([!DNL Marketo] ID de cliente potencial ou ID de contato do CRM) e as identidades entre dispositivos (ECID, email) devem ser vinculadas. O gráfico de identidade deve suportar o mapeamento de muitas para muitas pessoas para conta inerente aos modelos de dados B2B. | [Visão geral do Serviço de Identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home), [Resolução de identidade B2B](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/schemas/b2b) |
 | Definição e segmentação do público-alvo | Presumido em vigor | As definições de público-alvo no nível da conta devem estar disponíveis se os segmentos B2B forem publicados de [!DNL CJA] de volta para o AEP para ativação. Para casos de uso exclusivos do Analytics, esse não é um pré-requisito estrito, mas é recomendado para a análise baseada em segmentos. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home) |
 
-## Funções de suporte
+## Recursos de suporte
 
 Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necessários para a execução principal.
 
-| Função de suporte | Status | Por que é importante | Referência do Experience League |
+| Recurso de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
 | Criação de atributo calculado/derivado | Recomendado | Atributos computados em perfis de conta (por exemplo, pontuação total de engajamento, dias desde a última atividade, contagem de oportunidades) enriquecem as dimensões analíticas disponíveis em [!DNL CJA] para análise em nível de conta. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview) |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | Os conjuntos de dados B2B, especialmente os dados de eventos comportamentais de [!DNL Marketo Engage], podem crescer rapidamente. As políticas de expiração do conjunto de dados ajudam a gerenciar o armazenamento e a garantir a conformidade com os requisitos de retenção de dados. | [Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
 | Rotulagem e aplicação de uso de dados | Recomendado | Os dados B2B geralmente contêm informações comerciais confidenciais (valores contratuais, inteligência competitiva). Os rótulos de uso de dados e as políticas de governança garantem que esses dados sejam usados adequadamente em workflows de análise e ativação. | [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home) |
 | Monitoramento e capacidade de observação | Recomendado | Os conectores de origem B2B ([!DNL Marketo], [!DNL Salesforce]) exigem monitoramento para integridade da assimilação. O monitoramento da integridade da conexão em [!DNL CJA] garante a atualização de dados para o Analytics. As regras de alerta para falhas de assimilação impedem painéis obsoletos. | [Visão geral dos Insights de Capacidade de Observação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home) |
-| Relatórios e análise | Incluído | Esse padrão é, em si, um padrão de análise. Essa função é incluída inerentemente, pois a cadeia de funções principal fornece recursos de relatório e análise. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Relatórios e análise | Incluído | Esse padrão é, em si, um padrão de análise. Esse recurso é incluído inerentemente, pois o plano de execução principal fornece recursos de relatório e análise. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funções do aplicativo
+## Recursos do aplicativo
 
-Este plano exerce as seguintes funções do Catálogo de Funções da Aplicação. As funções são mapeadas para fases de implementação em vez de etapas numeradas.
+Este plano utiliza os seguintes recursos do Catálogo de Recursos do Aplicativo. Os recursos são mapeados para fases de implementação em vez de etapas numeradas.
 
 ### B2B edition [!DNL Customer Journey Analytics]
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Conexão baseada em conta | Fase 1: Conexão de dados B2B | Configure conexões usando Conta ou Conta global como o identificador principal para a análise no nível da organização |
 | Configuração da visualização de dados B2B | Fase 2: configuração da visualização de dados da conta | Definir visualizações de dados com contêineres específicos B2B (Conta, Conta global, Oportunidade, Grupo de compras) junto com contêineres padrão Pessoa, Sessão e Evento |
@@ -144,7 +144,7 @@ Este plano exerce as seguintes funções do Catálogo de Funções da Aplicaçã
 
 ### [!DNL Customer Journey Analytics] — funções padrão
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Conexão de dados | Fase 1: Conexão de dados B2B | Associar conjuntos de dados B2B do AEP a [!DNL CJA] conexões para análise entre canais |
 | Configuração da visualização de dados | Fase 2: configuração da visualização de dados da conta | Configurar dimensões, métricas, atribuição e configurações de persistência padrão na visualização de dados B2B |
@@ -153,7 +153,7 @@ Este plano exerce as seguintes funções do Catálogo de Funções da Aplicaçã
 
 ### B2B edition [!DNL Real-Time CDP]
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Unificação de perfil da conta | Pré-requisito (F2/F4) | Consolidar dados B2B entre origens em perfis de conta unificados usando classes de esquema B2B XDM especializadas |
 | Resolução de identidade B2B | Pré-requisito (F4) | Resolver relacionamentos pessoa-para-conta com suporte para hierarquias de contas de vários níveis e mapeamentos muitos-para-muitos |
@@ -303,7 +303,7 @@ As fases a seguir descrevem a sequência de implementação recomendada.
 
 ### Fase 1: Conexão de dados B2B
 
-**Função de aplicativo:** [!DNL CJA] B2B: Conexão Baseada em Conta, [!DNL CJA]: Conexão de Dados
+**Recurso do aplicativo:** [!DNL CJA] B2B: Conexão Baseada em Conta, [!DNL CJA]: Conexão de Dados
 
 Configure a conexão [!DNL CJA] que associa seus conjuntos de dados B2B do AEP a [!DNL CJA] para análise. Essa conexão define quais conjuntos de dados fluem para [!DNL CJA], o tipo de identificador principal (Conta ou Conta Global) e como os dados históricos e de transmissão são assimilados. A conexão é a base de todas as análises subsequentes.
 
@@ -372,7 +372,7 @@ Crie uma única conexão com todos os conjuntos de dados B2B. Use a ID da conta 
 
 ### Fase 2: configuração da visualização de dados da conta
 
-**Função de aplicativo:** [!DNL CJA] B2B: Configuração de Exibição de Dados B2B, [!DNL CJA]: Configuração de Exibição de Dados
+**Recurso do aplicativo:** [!DNL CJA] B2B: Configuração de Exibição de Dados B2B, [!DNL CJA]: Configuração de Exibição de Dados
 
 Configure a visualização de dados que define como os dados da conexão aparecem na análise. Para a análise B2B, isso inclui configurar contêineres específicos para B2B (Conta, Oportunidade, Grupo de compra), mapear campos de esquema B2B para dimensões e métricas, definir modelos de atribuição com janelas de pesquisa apropriadas para B2B e criar campos derivados para a lógica de negócios B2B.
 
@@ -446,7 +446,7 @@ Crie duas visualizações de dados da mesma conexão. A Visualização de dados 
 
 ### Fase 3: análise do Workspace
 
-**Função do aplicativo:** [!DNL CJA] B2B: Análise Workspace no Nível da Conta, Análise de Grupo de Compra, Análise de Oportunidade, Segmentação B2B, Atribuição B2B, [!DNL CJA]: Análise Workspace, Criação de Métrica Computada, Análise Guiada
+**Recurso do aplicativo:** [!DNL CJA] B2B: Análise Workspace no Nível da Conta, Análise de Grupo de Compra, Análise de Oportunidade, Segmentação B2B, Atribuição B2B, [!DNL CJA]: Análise Workspace, Criação de Métrica Computada, Análise Guiada
 
 Crie projetos do espaço de trabalho que forneçam os insights analíticos definidos nos KPIs. Essa fase inclui a criação de tabelas de forma livre com dimensões e métricas B2B, a criação de métricas calculadas para KPIs B2B, a configuração de visualizações específicas para B2B (fluxo no nível da conta, funnel de oportunidade, envolvimento de grupo de compra), a criação de filtros/segmentos usando contêineres B2B e a aplicação de modelos de atribuição B2B.
 
@@ -518,7 +518,7 @@ Principais detalhes de configuração:
 
 ### Fase 4: publicação do painel
 
-**Função do aplicativo:** [!DNL CJA]: Publicação de Painel e Scorecard, [!DNL CJA]: Publicação de Público-Alvo
+**Recurso do aplicativo:** [!DNL CJA]: Publicação de Painel e Scorecard, [!DNL CJA]: Publicação de Público-Alvo
 
 Crie painéis compartilháveis e cartões de pontuação móveis que fornecem insights de análise B2B às partes interessadas. Essa fase também abrange a publicação de públicos-alvo B2B definidos pelo [!DNL CJA] de volta ao AEP para ativação em casos de uso downstream, como ativação de públicos-alvo B2B.
 

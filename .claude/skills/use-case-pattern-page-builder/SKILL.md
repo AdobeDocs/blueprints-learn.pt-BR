@@ -1,10 +1,10 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Criação de guia de novo conteúdo padrão de caso de uso para o repositório de blueprints do Adobe Experience Platform. Use essa habilidade ao adicionar um novo padrão de caso de uso, criar conteúdo de orientação de implementação ou quando o usuário mencionar adicionar padrões ao site de blueprints. Lida com o fluxo de trabalho completo: coleta de informações de padrão, geração do arquivo do Markdown com a estrutura de modelo correta e atualização de todas as páginas de referência cruzada (TOC.md, overview.md).'
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '1097'
-ht-degree: 99%
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ Entrevistar o usuário para coletar todas as informações necessárias antes de
 
 4. **Soluções Adobe principais** — Os produtos Adobe são fundamentais para esse padrão. Escolha entre: Journey Optimizer, Real-Time Customer Data Platform, Experience Platform, Customer Journey Analytics, Brand Concierge, Journey Optimizer B2B edition, Real-Time CDP B2B edition ou outros, conforme apropriado.
 
-5. **Etapas da cadeia de funções** — 3-6 fases sequenciais que descrevem o fluxo de execução do padrão, separadas por `>`. Exemplo: &quot;Assimilação de evento > Entrada de Jornada > Avaliação de condição > Entrega de mensagem > Relatórios&quot;.
+5. **Etapas do plano de execução** — 3-6 fases sequenciais que descrevem o fluxo de execução do padrão, separadas por `>`. Exemplo: &quot;Assimilação de evento > Entrada de Jornada > Avaliação de condição > Entrega de mensagem > Relatórios&quot;.
 
 6. **Objetivos de negócios com suporte** — Um ou mais objetivos de negócios do conjunto existente em `/help/blueprints/business-objectives/`. Cada deve incluir o nome do objetivo, a subpasta de categoria e o nome do arquivo. Verifique se os arquivos referenciados existem antes de gerar o conteúdo.
 
@@ -58,12 +58,12 @@ Entrevistar o usuário para coletar todas as informações necessárias antes de
 
 - Parágrafos de visão geral do caso de uso (3-5 parágrafos; se não forem fornecidos, faça um rascunho deles das outras informações)
 - Lista de aplicativos com descrições da função de cada aplicativo Adobe
-- Tabela de funções básicas (função, status, o que deve estar em vigor, referência do Experience League)
-- Tabela de funções de suporte (Função, Status, Por que é importante, Referência do Experience League)
-- Tabelas de funções de aplicativos (uma por aplicativo, com Função, Fase de implementação, Descrição)
+- Tabela de recursos básicos (capacidade, status, o que deve estar em vigor, referência do Experience League)
+- Tabela de recursos de suporte (recurso, status, por que é importante, referência do Experience League)
+- Tabelas de recursos do aplicativo (uma por aplicativo, com capacidade, fase de implementação, descrição)
 - Lista de verificação de pré-requisitos
 
-Se o usuário não fornecer os itens opcionais, gere padrões razoáveis com base na categoria do padrão, nas soluções e na cadeia de funções.
+Se o usuário não fornecer os itens opcionais, gere padrões razoáveis com base na categoria do padrão, soluções e plano de execução.
 
 ## Fase 2: geração de conteúdo
 
@@ -89,15 +89,15 @@ Use o modelo de `references/pattern-template.md` e preencha todos os valores de 
 
 6. **Indicadores-chave de desempenho** — Tabela com KPI, Descrição, Colunas de medição.
 
-7. **Padrão de caso de uso** — Parágrafo de descrição e a cadeia de funções.
+7. **Padrão de caso de uso** — Parágrafo de descrição e plano de execução.
 
 8. **Aplicativos** — Lista de aplicativos do Adobe com formatação e descrições `[!DNL ...]`.
 
-9. **Funções de base** — Tabela com colunas: função de base, status, o que deve estar em vigor, referência do Experience League. Valores de status: Obrigatório, Presumido no Local, Não Aplicável.
+9. **Recursos básicos** — Tabela com colunas: recursos básicos, status, o que deve estar em vigor, referência do Experience League. Valores de status: Obrigatório, Presumido no Local, Não Aplicável.
 
-10. **Funções de suporte** — Tabela com colunas: função de suporte, status, por que é importante, referência do Experience League. Valores de status: recomendado, incluído, não aplicável.
+10. **Recursos de suporte** — Tabela com colunas: recurso de suporte, status, por que é importante, referência do Experience League. Valores de status: recomendado, incluído, não aplicável.
 
-11. **Funções do aplicativo** — Uma tabela por aplicativo com colunas: Função, Fase de Implementação, Descrição.
+11. **Recursos do aplicativo** — Uma tabela por aplicativo com colunas: Recurso, Fase de Implementação, Descrição.
 
 12. **Pré-requisitos** — Lista de verificação usando a sintaxe `- [ ]`.
 

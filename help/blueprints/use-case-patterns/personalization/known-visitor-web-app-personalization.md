@@ -3,7 +3,7 @@ title: Personalization de aplicativo/Web de visitante conhecido
 description: Saiba como fornecer conteúdo, ofertas ou promoções personalizadas para visitantes identificados com base no perfil em tempo real e na associação do segmento.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 585adc0e-f528-4a09-b931-ef6b45fa8ec8
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7968'
 ht-degree: 2%
@@ -78,13 +78,13 @@ Os KPIs a seguir ajudam a medir a eficácia desse padrão de caso de uso.
 
 ## Padrão do caso de uso
 
-Esta seção descreve o padrão principal e sua cadeia de funções.
+Esta seção descreve o padrão principal e seu plano de execução.
 
 **Personalização de aplicativo/Web de visitante conhecido**
 
 Forneça conteúdo, ofertas ou promoções personalizadas a um visitante identificado com base em perfil em tempo real e associação de segmento em superfícies da Web, dispositivos móveis no aplicativo e cartões de conteúdo.
 
-**Cadeia de funções:** Avaliação de público-alvo > Personalization Decisioning > Configuração de superfície/canal > Entrega de conteúdo > Rastreamento de impressão > Relatórios
+**Plano de execução:** Avaliação de público-alvo > Personalization Decisioning > Configuração de superfície/canal > Entrega de conteúdo > Rastreamento de impressão > Relatórios
 
 ## Aplicativos
 
@@ -94,11 +94,11 @@ Os aplicativos a seguir são usados neste padrão de caso de uso.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Avaliação de público (borda, streaming e lote), pesquisa de perfil em tempo real via Edge Network, enriquecimento de perfil com atributos computados e pontuações de propensão
 - **[!DNL Adobe Experience Platform] (AEP)** — Armazenamento de perfil, serviço de identidade, SDK da Web, SDK Móvel, configuração de sequência de dados, entrega de rede de borda
 
-## Funções básicas
+## Recursos básicos
 
-Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada função, o status indica se ele é tipicamente necessário, se presume ser pré-configurado ou se não é aplicável.
+Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada recurso, o status indica se ele é normalmente necessário, se presume ser pré-configurado ou se não é aplicável.
 
-| Função de base | Status | O que deve estar em vigor | Referência do Experience League |
+| Recurso básico | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
 | Administração e governança | Presumido em vigor | sandbox da AJO com canal da Web, canal no aplicativo e permissões de decisão configuradas. Usuários provisionados com funções de profissional de marketing e autor de conteúdo. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home), [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
 | Preparação e modelagem de dados | Obrigatório | O esquema de perfil deve incluir atributos usados para personalização e segmentação (por exemplo, nível de fidelidade, histórico de compras, interesses de produtos, estágio do ciclo de vida). Esquema de evento de experiência para rastreamento de interação na Web/aplicativo e eventos de conversão. Conjuntos de dados habilitados para [!DNL Real-Time Customer Profile]. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), [noções básicas de composição de esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition) |
@@ -106,25 +106,25 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 | Configuração de identidade e perfil | Obrigatório | Namespaces de identidade conhecidos (ID de CRM, email, ID de usuário autenticada) configurados. Compilação de identidade entre sessões anônimas e autenticadas operacionais para transição contínua de personalização anônima para personalização de visitante conhecido. Política de mesclagem do Edge configurada com `isActiveOnEdge: true` para resolver o perfil autenticado na borda. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home), [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview) |
 | Definição e segmentação do público-alvo | Obrigatório | Públicos-alvo definidos com atributos de perfil, dados comportamentais e atributos computados. Avaliação do Edge ou streaming habilitada para qualificação de personalização em tempo real. Os públicos usados para personalização baseada em segmento devem se qualificar para avaliação de borda. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home), [Segmentação do Edge](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/edge-segmentation) |
 
-## Funções de suporte
+## Recursos de suporte
 
 Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necessários para a execução principal.
 
-| Função de suporte | Status | Por que é importante | Referência do Experience League |
+| Recurso de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
 | Criação de atributo calculado/derivado | Recomendado | Os atributos computados (por exemplo, [!DNL Customer AI] pontuações de propensão, valor vitalício, pontuação de engajamento, afinidade de produto, dias desde a última compra) melhoram significativamente a qualidade da personalização, fornecendo sinais mais avançados para a definição do público e a seleção de conteúdo. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview), [Visão geral da IA do cliente](https://experienceleague.adobe.com/pt-br/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | As políticas de retenção de dados de perfis e eventos garantem que dados novos e relevantes fortaleçam as decisões de personalização. A aplicação do consentimento garante que a personalização respeite as preferências do usuário. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home), [Consentimento no Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted) |
 | Rotulagem e aplicação de uso de dados | Recomendado | Os rótulos de governança nos atributos de perfil usados para personalização (especialmente atributos adjacentes às PII, como histórico de compras, localização, dados financeiros) garantem a conformidade com as políticas de uso de dados. | [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home), [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview) |
 | Monitoramento e capacidade de observação | Recomendado | O monitoramento do desempenho de entrega e personalização do Edge ajuda a detectar problemas de latência, falhas de entrega ou problemas de atualização de dados que prejudicam a experiência personalizada. | [Visão geral dos Insights de Observabilidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home), [Visão geral dos alertas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview) |
-| Relatórios e análise | Incluído | O relatório de desempenho do Personalization faz parte da Etapa 6 da Cadeia de Funções. [!DNL Customer Journey Analytics] a análise permite uma investigação profunda do impacto da personalização na conversão, no envolvimento e na receita dos segmentos de visitantes. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [guia de integração do AJO + CJA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
+| Relatórios e análise | Incluído | O relatório de desempenho do Personalization faz parte da Etapa 6 do plano de execução. A análise do [!DNL Customer Journey Analytics] permite uma investigação profunda do impacto da personalização na conversão, no envolvimento e na receita dos segmentos de visitantes. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [guia de integração do AJO + CJA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Funções do aplicativo
+## Recursos do aplicativo
 
-Este plano exerce as seguintes funções do Catálogo de Funções da Aplicação. As funções são mapeadas para fases de implementação em vez de etapas numeradas.
+Este plano utiliza os seguintes recursos do Catálogo de Recursos do Aplicativo. Os recursos são mapeados para fases de implementação em vez de etapas numeradas.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Configuração de canais | Configuração de superfície e canal | Configurar superfícies de canal da Web, no aplicativo e no cartão de conteúdo para entrega de personalização |
 | Criação de mensagens | Criação de conteúdo | Crie variantes de conteúdo personalizadas com conteúdo dinâmico, expressões de personalização e blocos condicionais para cada superfície |
@@ -136,7 +136,7 @@ Este plano exerce as seguintes funções do Catálogo de Funções da Aplicaçã
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Avaliação de público | Definição e avaliação de público-alvo | Defina e avalie públicos-alvo usando atributos de perfil, dados comportamentais e atributos computados com avaliação de borda ou transmissão |
 | Pesquisa de perfil em tempo real | Entrega de conteúdo (tempo de execução) | Acesse atributos de perfil e associações de segmento em tempo real por meio do Edge Network para decisões de personalização em subsegundos |
@@ -244,7 +244,7 @@ Essa abordagem oferece suporte a cenários de personalização sofisticados, inc
 
 **Como isso se diferencia da Opção B do Offer Decisioning:**
 
-A infraestrutura é idêntica — ambos usam o AJO Decisioning na borda com o Web SDK e uma política de mesclagem ativa de borda. A diferença é o que está sendo selecionado. Essa opção gerencia itens de conteúdo nos quais o critério de seleção é o ajuste de personalização (associação de segmento, classificação comportamental). [Offer Decisioning](offer-decisioning.md) A opção B gerencia um catálogo de ofertas controlado em que as regras de elegibilidade, os limites de limite e as janelas de validade são requisitos comerciais. Se o conjunto de itens exigir limite de impressão por perfil, restrições de qualificação regulamentar ou gerenciamento do ciclo de vida da oferta, use a Opção B do Offer Decisioning.
+A infraestrutura é idêntica — ambos usam o AJO Decisioning na borda com o Web SDK e uma política de mesclagem ativa de borda. A diferença é o que está sendo selecionado. Essa opção gerencia itens de conteúdo nos quais o critério de seleção é o ajuste de personalização (associação de segmento, classificação comportamental). [Offer Decisioning](offer-decisioning.md) A opção B gerencia um catálogo de ofertas controlado em que regras de elegibilidade, limites de limite e janelas de validade são requisitos comerciais. Se o conjunto de itens exigir limite de impressão por perfil, restrições de qualificação regulamentar ou gerenciamento do ciclo de vida da oferta, use a Opção B do Offer Decisioning.
 
 ### Opção C: Personalização de várias superfícies (Web + no aplicativo + cartão de conteúdo)
 
@@ -321,7 +321,7 @@ Esta seção aborda detalhadamente cada fase da implementação.
 
 ### Fase 1: definir públicos e configurar a avaliação
 
-**Função do aplicativo:** RT-CDP: Avaliação de Público-Alvo
+**Recurso do aplicativo:** RT-CDP: Avaliação de Público-Alvo
 
 **O que você configurará:** Defina os públicos que impulsionam a seleção de conteúdo de personalização. Esses públicos-alvo representam os segmentos de visitantes que receberão experiências personalizadas — camadas de fidelidade, estágios do ciclo de vida, coortes comportamentais ou grupos de afinidade de produtos.
 
@@ -368,7 +368,7 @@ Esta seção aborda detalhadamente cada fase da implementação.
 
 ### Fase 2: configurar a decisão (somente as opções B e C)
 
-**Função do aplicativo:** AJO: decisão
+**Recurso do aplicativo:** AJO: decisão
 
 **O que você configurará:** configure a infraestrutura de decisão que seleciona dinamicamente o conteúdo ou a oferta ideal para cada visitante. Isso inclui disposições (onde as ofertas são exibidas), ofertas (qual conteúdo está disponível), regras de elegibilidade (quem se qualifica), estratégias de classificação (como escolher o melhor) e políticas de decisão (como tudo se conecta).
 
@@ -419,7 +419,7 @@ Esta seção aborda detalhadamente cada fase da implementação.
 
 ### Fase 3: Configurar superfícies e canais
 
-**Função do aplicativo:** AJO: configuração de canal
+**Recurso do aplicativo:** AJO: configuração de canal
 
 **O que você configurará:** Configure as superfícies de canal que definem onde o conteúdo personalizado será entregue. Cada tipo de superfície (Web, no aplicativo, cartão de conteúdo) requer sua própria configuração especificando o URI da superfície, o formato de conteúdo e os parâmetros de entrega.
 
@@ -465,7 +465,7 @@ Navegação da **UI:** [!DNL Journey Optimizer] > Administração > Canais > Sup
 
 ### Fase 4: Conteúdo do autor
 
-**Função do aplicativo:** AJO: Criação de Mensagens
+**Recurso do aplicativo:** AJO: Criação de Mensagens
 
 **O que você configurará:** Crie as variantes de conteúdo personalizadas para cada superfície, segmento ou oferta. Isso inclui projetar o layout visual, adicionar expressões de personalização que fazem referência a atributos de perfil, configurar blocos de conteúdo condicional e criar fragmentos de conteúdo reutilizáveis.
 
@@ -530,7 +530,7 @@ Navegação da **UI:** [!DNL Journey Optimizer] > Campanhas > Criar campanha > E
 
 ### Fase 5: configurar e ativar campanhas
 
-**Função do aplicativo:** AJO: Execução de Campanha
+**Recurso do aplicativo:** AJO: execução de campanha
 
 **O que você configurará:** crie e ative a campanha do AJO que associa o público, a superfície e o conteúdo para entrega. Para personalização na Web, as campanhas normalmente são configuradas para ativação imediata ou contínua em vez de envios programados únicos.
 
@@ -578,7 +578,7 @@ Navegação da **UI:** [!DNL Journey Optimizer] > Campanhas > Criar campanha > E
 
 ### Fase 6: Rastrear impressões e coletar dados
 
-**Função do aplicativo:** AEP: Fontes de dados e coleção
+**Recurso do aplicativo:** AEP: Fontes de Dados e Coleção
 
 **O que você configurará:** verifique se as impressões, as interações e as conversões de experiências personalizadas são rastreadas de volta para a plataforma para otimização de relatórios, reavaliação de públicos-alvo e decisões.
 
@@ -598,7 +598,7 @@ Navegação da **UI:** [!DNL Journey Optimizer] > Campanhas > Criar campanha > E
 
 ### Fase 7: relatar e otimizar
 
-**Função do aplicativo:** AJO: Reporting &amp; Performance Analysis, Reporting &amp; Analysis
+**Recurso do aplicativo:** AJO: Reporting &amp; Performance Analysis, Reporting &amp; Analysis
 
 **O que você configurará:** Configure o monitoramento e a análise de desempenho para medir a eficácia da personalização em superfícies, segmentos e variantes de conteúdo. Use os relatórios nativos do AJO para métricas operacionais e [!DNL Customer Journey Analytics] para análise de impacto nos negócios entre canais.
 

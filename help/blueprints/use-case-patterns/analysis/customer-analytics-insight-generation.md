@@ -3,7 +3,7 @@ title: Análise do cliente e geração de Insight
 description: Saiba como criar espaços de trabalho de análise entre canais, métricas calculadas e painéis para análise de comportamento e desempenho.
 solution: Customer Journey Analytics, Experience Platform
 exl-id: 235a4eb0-91ae-4030-b90e-7eda08c67ae1
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8947'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Os KPIs a seguir ajudam a medir o sucesso desse padrão de caso de uso.
 
 Crie espaços de trabalho de análise entre canais, métricas calculadas e painéis para entender o comportamento do cliente e o desempenho da campanha.
 
-**Cadeia de funções:** Conexão de Dados > Configuração de Visualização de Dados > Análise do Workspace > Criação de Métricas Computadas > Publicação de Painel
+**Plano de execução:** Conexão de dados > Configuração de visualização de dados > Workspace Analysis > Criação de métrica computada > Publicação de painel
 
 Consulte a seção [Opções de implementação](#implementation-options) para obter orientação sobre composição.
 
@@ -104,11 +104,11 @@ Os aplicativos a seguir são usados neste padrão de caso de uso.
 - **[!DNL Customer Journey Analytics] (CJA)** — Conexões, visualizações de dados, análise de espaço de trabalho, análise guiada, métricas computadas, painéis, publicação de público e análise de conteúdo
 - **[!DNL Adobe Experience Platform] (AEP)** — Data lake, conjuntos de dados, esquemas XDM, dados de perfil e evento que alimentam conexões do CJA
 
-## Funções básicas
+## Recursos básicos
 
-Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada função, o status indica se ele é tipicamente necessário, se presume ser pré-configurado ou se não é aplicável.
+Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada recurso, o status indica se ele é normalmente necessário, se presume ser pré-configurado ou se não é aplicável.
 
-| Função de base | Status | O que deve estar em vigor | Referência do Experience League |
+| Capacidade básica | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
 | Administração e governança | Presumido em vigor | Perfil de produto do CJA provisionado com criação de espaço de trabalho e permissões de acesso de visualização de dados. Conjuntos de dados do AEP acessíveis à conexão do CJA. Usuários atribuídos às funções apropriadas do CJA. | [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
 | Preparação e modelagem de dados | Obrigatório | Os esquemas XDM e conjuntos de dados que serão conectados à CJA devem existir no AEP. O design do esquema afeta diretamente quais dimensões e métricas estão disponíveis nas visualizações de dados do CJA. Esquemas de evento precisam de campos de carimbo de data e hora; esquemas de pesquisa precisam de campos-chave. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) |
@@ -116,11 +116,11 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 | Configuração de identidade e perfil | Obrigatório | A configuração da ID de pessoa na conexão do CJA determina como os eventos são compilados nos conjuntos de dados. A compilação de identidade entre dispositivos no AEP melhora a capacidade da CJA de criar jornadas completas para o cliente. O namespace de identidade deve ser configurado para o campo ID de pessoa. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home) |
 | Definição e segmentação do público-alvo | Não se aplica | O CJA cria seus próprios filtros e públicos-alvo no contexto da análise. Os públicos-alvo da RT-CDP não são um pré-requisito, embora o CJA possa publicá-los de volta no AEP por meio da publicação de públicos-alvo (opção C). | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home) |
 
-## Funções de suporte
+## Recursos de suporte
 
 Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necessários para a execução principal.
 
-| Função de suporte | Status | Por que é importante | Referência do Experience League |
+| Recurso de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
 | Criação de atributo calculado/derivado | Recomendado | Os atributos calculados do AEP podem enriquecer os conjuntos de dados conectados ao CJA, fornecendo dimensões e métricas adicionais para análise (por exemplo, contagem de compras vitalícias, dias desde a última atividade). Essas agregações no nível do perfil ficam disponíveis como dimensões nas visualizações de dados do CJA. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview) |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | As políticas de retenção de conjuntos de dados afetam quais dados históricos estão disponíveis no CJA. Normalmente, a retenção longa é desejada para que o Analytics permita comparações ano a ano e análises de tendências de longo prazo. Configure os TTLs do conjunto de dados para garantir uma profundidade histórica adequada. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
@@ -128,15 +128,15 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 | Monitoramento e capacidade de observação | Recomendado | A integridade da conexão do CJA e a atualização de dados devem ser monitoradas. Configure alertas para falhas de fluxo de dados de origem e problemas de assimilação para garantir que a alimentação de dados do CJA seja confiável e atualizada. | [Visão geral dos Insights de Capacidade de Observação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home) |
 | Relatórios e análise | Incluído | Essa é a implementação do relatórios e da análise. Quando um plano de referência para outro padrão incluir S5, use este plano de geração de análise do cliente e insight para a implementação de análise. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funções do aplicativo
+## Recursos do aplicativo
 
-Este plano utiliza as seguintes funções do catálogo de funções do aplicativo. As funções são mapeadas para fases de implementação em vez de etapas numeradas.
+Este plano utiliza os seguintes recursos do Catálogo de Recursos do Aplicativo. Os recursos são mapeados para fases de implementação em vez de etapas numeradas.
 
 ### [!DNL Customer Journey Analytics] (CJA)
 
-A tabela a seguir lista as funções de aplicativo do CJA usadas nesse padrão.
+A tabela a seguir lista os recursos de aplicativo do CJA usados neste padrão.
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Conexão de dados | Fase 1: Conexão de dados | Vincule conjuntos de dados do AEP a uma conexão do CJA para análise entre canais, configuração de tipos de conjunto de dados e ID de pessoa para compilação entre conjuntos de dados |
 | Configuração da visualização de dados | Fase 2: Configuração da visualização de dados | Definir dimensões, métricas, modelos de atribuição, configurações de persistência, parâmetros de sessão e campos derivados que moldam a perspectiva analítica |
@@ -149,9 +149,9 @@ A tabela a seguir lista as funções de aplicativo do CJA usadas nesse padrão.
 
 ### [!DNL Adobe Experience Platform] (AEP)
 
-A tabela a seguir lista as funções de aplicativo do AEP usadas nesse padrão.
+A tabela a seguir lista os recursos de aplicativo do AEP usados neste padrão.
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Data Lake e conjuntos de dados | Pré-requisito (F2, F3) | Forneça o evento de origem, o perfil e os conjuntos de dados de pesquisa que alimentam a conexão do CJA |
 | Serviço de identidade | Pré-requisito (F4) | Fornecer configuração de namespace de identidade para compilação de ID de pessoa em conjuntos de dados na conexão do CJA |
@@ -333,7 +333,7 @@ A tabela a seguir compara as opções de implementação disponíveis.
 | Visualizações principais | Tabelas de forma livre, números de resumo, linhas de tendência | Fluxo, fallout, coorte, atribuição | O mesmo que A ou B, além da publicação do público-alvo | Funnel, tendências, retenção, crescimento |
 | Recurso de ativação | Não (somente relatórios) | Não (somente relatórios) | Sim (publica públicos no AEP) | Não (somente relatórios) |
 | Público-alvo obrigatório | Analistas de marketing, gerentes de campanha | Analistas de dados, arquitetos do jornada | Analistas + equipes de ativação | Gerentes de produtos, analistas de crescimento |
-| Funções do CJA usadas | Conexão, Visualização de dados, Workspace, Métricas calculadas, Painel | Conexão, Visualização de dados, Workspace, Métricas calculadas, Painel | O mesmo que A ou B, além de Publicação de público-alvo | Conexão, Visualização de dados, Análise guiada, Painel |
+| Recursos do CJA usados | Conexão, Visualização de dados, Workspace, Métricas calculadas, Painel | Conexão, Visualização de dados, Workspace, Métricas calculadas, Painel | O mesmo que A ou B, além de Publicação de público-alvo | Conexão, Visualização de dados, Análise guiada, Painel |
 | Tempo até a primeira insight | Dias | Semanas | Semanas | Horas-Dias |
 
 ### Escolha a opção certa
@@ -356,7 +356,7 @@ Esta seção detalha as fases de implementação passo a passo para esse padrão
 
 ### Fase 1: Conexão de dados
 
-**Função de aplicativo:** CJA: conexão de dados
+**Recurso do aplicativo:** CJA: conexão de dados
 
 Essa fase configura uma conexão do CJA que vincula um ou mais conjuntos de dados do AEP à CJA para análise. A conexão define quais conjuntos de dados fluem para o CJA, como os eventos são compilados entre conjuntos de dados por meio da ID de pessoa e como os dados históricos e de transmissão são assimilados. Esse é o link fundamental entre o data lake da AEP e o CJA.
 
@@ -439,7 +439,7 @@ Principais detalhes de configuração:
 
 ### Fase 2: configuração da visualização de dados
 
-**Função de aplicativo:** CJA: configuração de visualização de dados
+**Recurso do aplicativo:** CJA: configuração de visualização de dados
 
 Essa fase configura uma visualização de dados que define como os dados da conexão aparecem na análise. A visualização de dados determina quais campos de esquema são expostos como dimensões e métricas, como os valores são atribuídos e persistentes, como as sessões são definidas e quais campos derivados transformam dados brutos em componentes prontos para análise. Várias visualizações de dados podem ser criadas a partir de uma única conexão para diferentes perspectivas analíticas.
 
@@ -541,7 +541,7 @@ Mapeie dimensões e métricas de nível de evento relevantes para a análise de 
 
 ### Fase 3: Análise e criação de métricas
 
-**Função do aplicativo:** CJA: Workspace Analysis, CJA: Análise Guiada, CJA: Criação de Métrica Computada
+**Recurso do aplicativo:** CJA: Workspace Analysis, CJA: Análise Guiada, CJA: Criação de Métrica Computada
 
 Essa fase cria os espaços de trabalho de análise (projetos de forma livre ou análise guiada), métricas computadas para KPIs derivados, filtros para análise segmentada e anotações para eventos principais. É aqui que o valor analítico é realizado — a criação de tabelas, visualizações e métricas que respondam a perguntas comerciais.
 
@@ -652,7 +652,7 @@ Selecione o tipo de análise guiada apropriado com base na pergunta comercial. C
 
 ### Fase 4: publicação do painel
 
-**Função do aplicativo:** CJA: publicação de painel e scorecard
+**Recurso do aplicativo:** CJA: publicação de painel e scorecard
 
 Essa fase cria painéis interativos (projetos do Workspace) e scorecards para dispositivos móveis que fornecem visibilidade de KPI às partes interessadas. Os painéis fornecem visibilidade executiva e operacional por meio de números de resumo, linhas de tendência, detalhamentos e anotações. Os cartões de pontuação móveis fornecem dados de desempenho instantâneos por meio do aplicativo móvel de painéis do [!DNL Adobe Analytics].
 
@@ -722,7 +722,7 @@ Principais detalhes de configuração:
 
 ### Fase 5: Publicação de público-alvo (somente opção C)
 
-**Função do aplicativo:** CJA: Publicação de público-alvo
+**Recurso do aplicativo:** CJA: Publicação de público-alvo
 
 Essa fase configura a publicação de público do CJA para enviar segmentos detectados na análise de volta para o Perfil do cliente em tempo real da AEP, para ativação downstream em destinos da RT-CDP, campanhas do AJO ou jornadas do AJO.
 
@@ -957,7 +957,7 @@ Os recursos a seguir fornecem informações adicionais para esse padrão de caso
 
 - [Visão geral dos conjuntos de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/overview)
 - [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home)
-- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+- [Visão geral das origens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
 - [Visão geral do serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home)
 - [Visão geral do portal de público](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-portal)
 

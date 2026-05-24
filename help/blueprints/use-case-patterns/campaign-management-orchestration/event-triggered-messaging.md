@@ -3,7 +3,7 @@ title: Mensagens acionadas por evento
 description: Saiba como fornecer mensagens contextuais em tempo real em resposta a eventos comportamentais ou do sistema.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 75137990-9848-40c0-abf3-adbd21d2de52
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '9040'
 ht-degree: 2%
@@ -94,13 +94,13 @@ Os KPIs a seguir ajudam a medir a eficácia das implementações de mensagens ac
 
 ## Padrão do caso de uso
 
-Esta seção descreve o padrão principal e a cadeia de funções que direciona as mensagens acionadas por eventos.
+Esta seção descreve o padrão principal e o plano de execução que direciona as mensagens acionadas por eventos.
 
 **Mensagens acionadas por Evento**
 
 Analise um evento comportamental ou de sistema em tempo real e entregue uma mensagem contextual ao perfil de acionamento.
 
-**Cadeia De Funções:** Assimilação De Evento > Entrada De Jornada > Avaliação De Condição > Entrega De Mensagem > Relatórios
+**Plano De Execução:** Assimilação De Evento > Entrada De Jornada > Avaliação De Condição > Entrega De Mensagem > Relatórios
 
 ## Aplicativos
 
@@ -110,11 +110,11 @@ Os seguintes aplicativos da Adobe são usados neste padrão de caso de uso.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Avaliação de público-alvo para filtragem baseada em condição em jornadas, imposição de consentimento e governança, enriquecimento de perfil
 - **[!DNL Adobe Experience Platform] (AEP)** — Assimilação de eventos em tempo real via Web SDK, Mobile SDK ou API do lado do servidor; modelagem de dados; resolução de identidade; Edge Network
 
-## Funções básicas
+## Recursos básicos
 
-Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada função, o status indica se ele é tipicamente necessário, se presume ser pré-configurado ou se não é aplicável.
+Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada recurso, o status indica se ele é normalmente necessário, se presume ser pré-configurado ou se não é aplicável.
 
-| Função de base | Status | O que deve estar em vigor | Referência do Experience League |
+| Recurso básico | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
 | Administração e governança | Presumido em vigor | sandbox da AJO provisionada com configuração de canal ativa. Permissões de criação e publicação de jornada atribuídas à equipe de implementação. Funções de usuário configuradas para gerenciamento de jornadas, criação de conteúdo e administração de canais. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home), [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
 | Preparação e modelagem de dados | Obrigatório | Um esquema XDM ExperienceEvent deve capturar o evento de acionamento com todos os campos contextuais necessários para avaliação de condição e personalização de mensagem (por exemplo, `commerce.productListAdds` para eventos de carrinho, detalhes do produto, valor do carrinho). O esquema deve ser ativado para o Perfil de cliente em tempo real. Um conjunto de dados correspondente deve ser criado e ativado para perfil. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), [noções básicas de composição de esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition) |
@@ -122,11 +122,11 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 | Configuração de identidade e perfil | Obrigatório | O evento de acionamento deve estar associado a uma identidade conhecida (email, ID de CRM ou sessão autenticada) para que a jornada possa resolver o perfil e entregar a mensagem. Os namespaces de identidade devem existir para os identificadores usados pelo evento de acionamento. Eventos anônimos exigem a identificação por meio do gráfico de identidade antes que uma mensagem possa ser entregue. Uma política de mesclagem deve ser configurada. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home), [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview) |
 | Definição e segmentação do público-alvo | Recomendado | Embora não seja estritamente necessário para jornadas acionadas por eventos (a entrada se baseie em eventos, não no público-alvo), os segmentos de público-alvo podem ser usados para avaliação de condição na jornada (por exemplo, enviar somente se o perfil estiver em um segmento de &quot;cliente de alto valor&quot;, ou suprimir se o perfil estiver em um segmento &quot;contatado recentemente&quot;). A avaliação de transmissão é recomendada para verificações de associação de segmento em tempo real no jornada. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home), [Segmentação de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation) |
 
-## Funções de suporte
+## Recursos de suporte
 
 Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necessários para a execução principal.
 
-| Função de suporte | Status | Por que é importante | Referência do Experience League |
+| Recurso de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
 | Criação de atributo calculado/derivado | Recomendado | Atributos calculados, como contagem de abandono do carrinho, dias desde a última compra, valor médio de pedido e total de compra por vida útil, melhoram a avaliação da condição e a personalização nas jornadas acionadas. Esses agregados comportamentais permitem decisões de direcionamento mais precisas (por exemplo, diferenciar os abandonadores pela primeira vez dos abandonadores repetidos). | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview) |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | A expiração dos dados do evento deve ser configurada para eventos comportamentais transitórios (exibições de página, pesquisas, cliques) para gerenciar os custos de armazenamento e a conformidade. Os campos de esquema de consentimento devem estar presentes para a imposição de aceitação/recusa específica do canal durante a entrega da mensagem. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home), [Expirações do conjunto de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/ui/dataset-expiration) |
@@ -134,13 +134,13 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 | Monitoramento e capacidade de observação | Incluído | O monitoramento da execução da jornada faz parte da fase de relatórios. Além disso, configure alertas para falhas de assimilação de eventos ou atrasos de processamento de jornadas para detectar problemas de pipeline que impediriam o envio de mensagens acionadas. | [Visão geral dos alertas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview), [Visão geral dos Insights de observação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home) |
 | Relatórios e análise | Incluído | Os relatórios de desempenho da jornada são abordados na fase de relatórios. Para uma análise mais profunda da eficácia de mensagens acionadas em canais e ao longo do tempo, configure as conexões e os espaços de trabalho do CJA para analisar a atribuição de conversão, o tempo de conversão e o desempenho do canal. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [guia de integração do AJO + CJA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Funções do aplicativo
+## Recursos do aplicativo
 
-Este plano exerce as seguintes funções do Catálogo de Funções da Aplicação. As funções são mapeadas para fases de implementação em vez de etapas numeradas.
+Este plano utiliza os seguintes recursos do Catálogo de Recursos do Aplicativo. Os recursos são mapeados para fases de implementação em vez de etapas numeradas.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Journey Orchestration | Criação e configuração do Jornada | Crie uma jornada com entrada de evento unitária, configure o evento de qualificação, adicione nós de condição, etapas de espera, ações de mensagem, critérios de saída e regras de reentrada |
 | Configuração de canais | Configuração da Superfície de Canal | Configurar ou validar superfícies dos canais (email, SMS, push) incluindo delegação de subdomínio, pools de IP, configurações de remetente e gerenciamento de lista de supressão |
@@ -151,7 +151,7 @@ Este plano exerce as seguintes funções do Catálogo de Funções da Aplicaçã
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Avaliação de público | Configuração Básica (F5) | Avaliar os segmentos de público-alvo usados para filtragem baseada em condições na jornada (por exemplo, segmentos de alto valor do cliente, segmentos de supressão) |
 | Consentimento e aplicação de governança | Configuração básica (S2/S3) | Imponha preferências de consentimento e políticas de governança de uso de dados durante a entrega de mensagens para garantir comunicações em conformidade |
@@ -322,7 +322,7 @@ As fases a seguir abordam a implementação completa de mensagens acionadas por 
 
 ### Fase 1: configurar o esquema de evento e a coleta de dados
 
-**Função do Aplicativo:** AEP: Modelagem de Dados (F2), AEP: Fontes de Dados e Coleção (F3)
+**Recurso do aplicativo:** AEP: Modelagem de Dados (F2), AEP: Fontes de Dados e Coleção (F3)
 
 **O que você configurará:** o esquema XDM ExperienceEvent que captura o evento de acionamento, o conjunto de dados que armazena esses eventos e o pipeline de coleta de dados em tempo real (Web SDK, Mobile SDK ou Server API) que transmite eventos para o AEP. Essa fase estabelece a base de dados que a jornada ouvirá.
 
@@ -374,7 +374,7 @@ As fases a seguir abordam a implementação completa de mensagens acionadas por 
 
 ### Fase 2: configurar identidade e perfil
 
-**Função do Aplicativo:** AEP: Configuração de Identidade e Perfil (F4)
+**Recurso do aplicativo:** AEP: identidade e configuração de perfil (F4)
 
 **O que você configurará:** Namespaces de identidade para os identificadores no evento de acionamento, designação de identidade principal no esquema do evento, regras de vinculação de identidade para resolução entre dispositivos e uma política de mesclagem para unificação de perfis. Isso garante que o evento de acionamento esteja associado a um perfil de cliente unificado, para que a jornada possa resolver as informações de contato e entregar a mensagem.
 
@@ -409,7 +409,7 @@ As fases a seguir abordam a implementação completa de mensagens acionadas por 
 
 ### Fase 3: Configurar superfícies do canal
 
-**Função do Aplicativo:** AJO: Configuração de Canal
+**Recurso do aplicativo:** AJO: configuração de canal
 
 **O que você configurará:** a superfície de canal (predefinição) que define a infraestrutura de envio da mensagem disparada: delegação de subdomínio, pool de IP, identidade do remetente, endereço para resposta, tratamento de cancelamento de inscrição e credenciais específicas de canal (provedor SMS, certificados push). Uma superfície de canal válida deve existir para que o conteúdo da mensagem possa ser criado ou as jornadas possam ser publicadas.
 
@@ -460,7 +460,7 @@ As fases a seguir abordam a implementação completa de mensagens acionadas por 
 
 ### Fase 4: Criar conteúdo da mensagem
 
-**Função do Aplicativo:** AJO: Criação de Mensagens
+**Recurso do aplicativo:** AJO: Criação de Mensagens
 
 **O que você configurará:** o conteúdo da mensagem que será entregue pela jornada, incluindo design de layout, tokens de personalização usando atributos de perfil e evento, blocos de conteúdo condicionais, fragmentos reutilizáveis (cabeçalhos, rodapés, avisos de isenção legal) e pré-visualização e teste de conteúdo.
 
@@ -513,7 +513,7 @@ As fases a seguir abordam a implementação completa de mensagens acionadas por 
 
 ### Fase 5: criar e configurar a jornada
 
-**Função do Aplicativo:** AJO: Journey Orchestration, AJO: Frequência e Regras de Negócios (Opção C), AJO: Gerenciamento de Conflitos e Prioridades
+**Recurso do aplicativo:** AJO: Journey Orchestration, AJO: Frequency &amp; Business Rules (Opção C), AJO: Gerenciamento de Conflitos e Prioridades
 
 **O que você configurará:** A jornada que escuta o evento de acionamento e orquestra a entrega de mensagens. Esta é a fase de implementação principal em que a tela de jornada é projetada com o nó de entrada do evento, nós de condição, etapas de espera (para a Opção B), nós de ação de mensagem e critérios de saída. Esta fase abrange também a governação da frequência (opção C) e a configuração de conflitos/prioridades.
 
@@ -607,7 +607,7 @@ Configure limites de frequência no nível da organização por meio de Administ
 
 ### Fase 6: testar e implantar a jornada
 
-**Função do Aplicativo:** AJO: Journey Orchestration
+**Recurso do aplicativo:** AJO: Journey Orchestration
 
 **O que você configurará:** Validação do modo de teste para verificar se a jornada se comporta conforme esperado com perfis de teste, seguida pela publicação da jornada para ativá-la.
 
@@ -630,7 +630,7 @@ Navegação da **UI:** tela de Jornada > alternância de modo de teste (para tes
 
 ### Fase 7: monitorar e relatar o desempenho
 
-**Função do Aplicativo:** AJO: Relatórios e Análise de Desempenho, S4: Monitoramento e Observabilidade, S5: Relatórios e Análise
+**Recurso do aplicativo:** AJO: Relatórios e análise de desempenho, S4: Monitoramento e observação, S5: Relatórios e análise
 
 **O que você configurará:** Relatórios de jornada ao vivo e históricos para monitoramento de entrega e envolvimento, alertas de plataforma para assimilação de eventos e falhas de processamento de jornadas e, opcionalmente, espaços de trabalho do CJA para uma análise mais profunda entre canais da eficácia do sistema de mensagens acionado.
 

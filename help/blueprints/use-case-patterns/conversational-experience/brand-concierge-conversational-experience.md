@@ -3,7 +3,7 @@ title: Experiência de conversa do Brand Concierge
 description: Saiba como transformar propriedades digitais em experiências conversacionais habilitadas por IA e seguras para a marca, que orientam a descoberta do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7239'
 ht-degree: 0%
@@ -20,7 +20,7 @@ O [!DNL Brand Concierge] permite que as marcas implantem agentes de conversaçã
 
 ## Visão geral do caso de uso
 
-As organizações buscam cada vez mais transformar experiências digitais estáticas em conversas dinâmicas alimentadas por IA que orientam os clientes nas decisões de descoberta, seleção de produtos e compra. [!DNL Adobe Brand Concierge] A aborda isso fornecendo uma camada de IA conversacional orquestrada que fica no topo das propriedades digitais existentes, viabilizada pelo AEP Agent Orchestrator.
+As organizações buscam cada vez mais transformar experiências digitais estáticas em conversas dinâmicas alimentadas por IA que orientam os clientes nas decisões de descoberta, seleção de produtos e compra. O [!DNL Adobe Brand Concierge] aborda isso fornecendo uma camada de IA conversacional orquestrada que fica no topo das propriedades digitais existentes, viabilizada pelo AEP Agent Orchestrator.
 
 Esse padrão é diferente das implementações tradicionais de chatbot porque é integrado nativamente ao perfil unificado da AEP, usa medidas de proteção de governança da marca para garantir que cada resposta esteja alinhada aos padrões da marca e alimenta sinais de conversação de volta na plataforma de dados do cliente para personalização e ativação downstream.
 
@@ -100,7 +100,7 @@ Os KPIs a seguir ajudam a medir o sucesso desse padrão de caso de uso.
 
 Transforme propriedades digitais em experiências conversacionais habilitadas por IA e seguras para a marca, que orientam a descoberta do cliente por meio de um diálogo natural, enriquecem os perfis com sinais de intenção e sentimento e fornecem recomendações personalizadas do produto.
 
-**Cadeia de funções:** Configuração do Agente > Configuração de Governança de Marca > Integração de Conteúdo > Implantação de Experiência de Conversação > Enriquecimento de Perfil > Analytics e Otimização
+**Plano de execução:** Configuração do agente > Configuração de governança de marca > Integração de conteúdo > Implantação de experiência de conversa > Enriquecimento de perfil > Analytics e otimização
 
 ## Aplicativos
 
@@ -110,11 +110,11 @@ Os aplicativos a seguir são usados para implementar esse padrão de caso de uso
 - **[!DNL Adobe Experience Platform] (AEP)** — A Unified Data Foundation fornece esquemas XDM, resolução de identidade, perfis de clientes em tempo real e infraestrutura de coleta de dados para sinais de conversação
 - **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — Plataforma de dados do cliente que fornece pesquisa de perfil em tempo real para conversas personalizadas, segmentação de público a partir de sinais de conversação e enriquecimento de perfil com intenção e dados de sentimento
 
-## Funções básicas
+## Recursos básicos
 
-Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada função, o status indica se ele é tipicamente necessário, se presume ser pré-configurado ou se não é aplicável.
+Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada recurso, o status indica se ele é normalmente necessário, se presume ser pré-configurado ou se não é aplicável.
 
-| Função de base | Status | O que deve estar em vigor | Referência do Experience League |
+| Capacidade básica | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
 | Administração e governança | Obrigatório | Sandbox provisionada com o direito [!DNL Brand Concierge] habilitado; funções configuradas para administradores de experiência de conversação, gerentes de conteúdo e usuários de análise; políticas ABAC em vigor para dados de conversação contendo PII ou sinais sigilosos do cliente | [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
 | Preparação e modelagem de dados | Obrigatório | Esquemas XDM para eventos de conversação (classe ExperienceEvent com grupos de campos específicos de conversação capturando intenção, sentimento, interações de produto e eventos de entrega); esquema de perfil estendido com preferência de conversação e atributos de intenção; esquema de pesquisa do catálogo de produtos para recomendações de base | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) |
@@ -122,11 +122,11 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 | Configuração de identidade e perfil | Obrigatório | Namespaces de identidade configurados para identificação de visitantes (ECID para anônimo, ID de CRM ou email para autenticado); política de mesclagem configurada com ativação de borda para pesquisa de perfil em tempo real durante conversas; regras de vinculação de identidade para continuidade de conversa entre dispositivos | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home) |
 | Definição e segmentação do público-alvo | Presumido em vigor | Públicos-alvo não necessários para implantação conversacional principal, mas necessários para estratégias de conversa personalizadas (por exemplo, segmentos de clientes de alto valor recebem fluxos de conversa diferentes); avaliação de streaming ou borda recomendada para personalização de conversa em tempo real | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home) |
 
-## Funções de suporte
+## Recursos de suporte
 
 Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necessários para a execução principal.
 
-| Função de suporte | Status | Por que é importante | Referência do Experience League |
+| Recurso de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
 | Criação de atributo calculado/derivado | Recomendado | Agregar sinais de conversação em atributos no nível do perfil (por exemplo, total de conversas, interesses dominantes do produto, pontuação média do sentimento) para uso na segmentação e personalização downstream | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview) |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | Configure políticas de retenção para dados de eventos de conversação, gerencie o consentimento para gravação e criação de perfil da conversação e dê suporte a solicitações de exclusão de privacidade para transcrições de conversação | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
@@ -134,13 +134,13 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 | Monitoramento e capacidade de observação | Recomendado | Monitore pipelines de assimilação de eventos de conversação, rastreie as taxas de sucesso de enriquecimento do perfil e alerte sobre falhas no fluxo de dados que podem afetar a qualidade da personalização da conversação | [Visão geral dos Insights de Capacidade de Observação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home) |
 | Relatórios e análise | Incluído | Analise o desempenho da conversa, o feedback do cliente, a atribuição de conversão e a eficácia do agente usando a análise integrada do [!DNL Brand Concierge] e o [!DNL CJA] para a análise de impacto da conversa entre canais | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview) |
 
-## Funções do aplicativo
+## Recursos do aplicativo
 
-Este plano exerce as seguintes funções do Catálogo de Funções da Aplicação. As funções são mapeadas para fases de implementação em vez de etapas numeradas.
+Este plano utiliza os seguintes recursos do Catálogo de Recursos do Aplicativo. Os recursos são mapeados para fases de implementação em vez de etapas numeradas.
 
 ### [!DNL Brand Concierge]
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Configuração do agente | Fase 1: Configuração do agente | Configure o orquestrador de agentes [!DNL Brand Concierge] com especializações de agente (Supervisor de Produto, Site Advisory) e definições de comportamento de base |
 | Configuração do controle de marca | Fase 2: Configuração de governança de marca | Defina a voz da marca, o tom, as medidas de proteção de mensagens, os limites de conteúdo aprovados e os tópicos proibidos que moldam todas as interações conversacionais |
@@ -155,7 +155,7 @@ Este plano exerce as seguintes funções do Catálogo de Funções da Aplicaçã
 
 ### [!DNL Real-Time CDP]
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Pesquisa de perfil em tempo real | Fase 4: Implantação da experiência de conversa | Acesse atributos de perfil do cliente em tempo real e associações de segmento para personalizar respostas conversacionais com base em dados conhecidos do cliente |
 | Enriquecimento de perfil | Fase 5: Enriquecimento de perfil | Enriquecer perfis com atributos computados derivados de eventos comportamentais conversacionais (pontuações de intenção, tendências de sentimento, afinidade de produtos) |
@@ -312,7 +312,7 @@ As fases a seguir descrevem a sequência de implementação recomendada.
 
 ### Fase 1: configuração do agente
 
-**Função de aplicativo:** [!DNL Brand Concierge]: configuração de agente
+**Recurso do aplicativo:** [!DNL Brand Concierge]: configuração de agente
 
 Configure o orquestrador de agentes [!DNL Brand Concierge] principal, incluindo a seleção de especializações do agente (Supervisor de Produto, Site Advisory ou ambos), a configuração do comportamento do agente base e o estabelecimento da conexão entre o [!DNL Brand Concierge] e o AEP para acesso ao perfil e captura de eventos.
 
@@ -350,13 +350,13 @@ Principais detalhes de configuração:
 
 **Onde as opções divergem:**
 
-**Para Opção A (Consultor de Produtos):**
+**Para a Opção A (Consultor de Produtos):**
 Habilite a especialização do Product Advisor e configure sua conexão com a fonte de dados do catálogo de produtos. Defina parâmetros de recomendação do produto, incluindo máximo de recomendações por resposta, preferências de exibição do atributo do produto e regras de tratamento de comparação.
 
-**Para a Opção B (Supervisão de Site):**
+**Para a Opção B (Consultoria do Site):**
 Habilite a especialização do Site Advisory e configure sua conexão com o índice de conteúdo do site. Defina parâmetros de navegação, incluindo limites de escopo de conteúdo, tratamento de categoria de página e preferências de geração de deep link.
 
-**Para Opção C (Combinada):**
+**Para a Opção C (Combinada):**
 Habilite ambas as especializações e configure a lógica de roteamento de intenção do orchestrator. Defina regras de roteamento que determinem quando uma conversa deve ser tratada pelo Supervisor de Produto versus o Site Advisory e como as transições entre especializações devem ser gerenciadas em uma única conversa.
 
 **Documentação do Experience League:**
@@ -367,7 +367,7 @@ Habilite ambas as especializações e configure a lógica de roteamento de inten
 
 ### Fase 2: configuração de governança da marca
 
-**Função do aplicativo:** [!DNL Brand Concierge]: configuração de governança de marca
+**Recurso do aplicativo:** [!DNL Brand Concierge]: configuração do Brand Governance
 
 Configure as medidas de proteção da governança de marca que moldam todas as interações conversacionais. Isso inclui definições de voz e tom da marca, limites de conteúdo aprovados, tópicos proibidos, diretrizes de estilo de resposta e regras de escalonamento. A governança da marca garante que cada resposta gerada por IA esteja alinhada aos padrões da marca.
 
@@ -412,7 +412,7 @@ Principais detalhes de configuração:
 
 ### Fase 3: Integração de conteúdo
 
-**Função do aplicativo:** [!DNL Brand Concierge]: Integração de Conteúdo, Configuração do Supervisor de Produto, Configuração do Site Advisory
+**Recurso do aplicativo:** [!DNL Brand Concierge]: Integração de Conteúdo, Configuração do Supervisor de Produto, Configuração do Site Advisory
 
 Configure as fontes de conteúdo que fundamentam as respostas de conversas em informações precisas e aprovadas pela marca. Isso inclui a integração do catálogo de produtos, conexões de conteúdo do AEM, importações da base de conhecimento e agendamentos de atualização de conteúdo.
 
@@ -450,13 +450,13 @@ Principais detalhes de configuração:
 
 **Onde as opções divergem:**
 
-**Para Opção A (Consultor de Produtos):**
+**Para a Opção A (Consultor de Produtos):**
 Concentre-se na integração do catálogo de produtos com o mapeamento de atributos de produtos avançados. Configure a lógica de recomendação do Product Advisor Agent, incluindo quantos produtos sugerir, como lidar com itens indisponíveis, como apresentar comparações de produtos e como incorporar dados de perfil do cliente (histórico de compras, comportamento de navegação) à classificação de recomendação.
 
-**Para a Opção B (Supervisão de Site):**
+**Para a Opção B (Consultoria do Site):**
 Concentre-se na indexação de conteúdo do site com o mapeamento de hierarquia de página. Configure a lógica de navegação do Agente de consultoria de site, incluindo como interpretar a intenção do visitante, quais categorias de conteúdo priorizar, como lidar com solicitações de navegação ambíguas e como adaptar sugestões com base no contexto da página atual do visitante e no comportamento da sessão.
 
-**Para Opção C (Combinada):**
+**Para a Opção C (Combinada):**
 Configure o catálogo de produtos e as fontes de conteúdo do site. Certifique-se de que a lógica de roteamento de conteúdo atribua o conteúdo corretamente à especialização apropriada e que as referências cruzadas entre o conteúdo do produto e o conteúdo de navegação do site sejam mapeadas corretamente.
 
 **Documentação do Experience League:**
@@ -464,11 +464,11 @@ Configure o catálogo de produtos e as fontes de conteúdo do site. Certifique-s
 - [Configuração de conteúdo do Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/overview)
 - [consultor de produtos da Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/product-advisor)
 - [supervisor de site do Brand Concierge](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/brand-concierge/site-advisor)
-- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+- [Visão geral das origens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
 
 ### Fase 4: implantação da experiência de conversa
 
-**Função do aplicativo:** [!DNL Brand Concierge]: Implantação de Experiência de Conversação, Gerenciamento de Fluxo de Baixo Código, Transferência de Agente em Tempo Real; [!DNL RT-CDP]: Pesquisa de Perfil em Tempo Real
+**Recurso do aplicativo:** [!DNL Brand Concierge]: Implantação de Experiência de Conversação, Gerenciamento de Fluxo de Baixo Código, Transferência de Agente em Tempo Real; [!DNL RT-CDP]: Pesquisa de Perfil em Tempo Real
 
 Implante a experiência de conversação nas propriedades digitais do Target, incluindo configuração de canal, personalização de widget, integração de pesquisa de perfil para personalização, regras de handoff de agente ao vivo e ferramentas de baixo código para gerenciamento contínuo de conteúdo.
 
@@ -526,7 +526,7 @@ Principais detalhes de configuração:
 
 ### Fase 5: Enriquecimento de perfil
 
-**Função de aplicativo:** [!DNL Brand Concierge]: Enriquecimento de Perfil de Conversação; [!DNL RT-CDP]: Enriquecimento de Perfil, Avaliação de Público
+**Recurso do aplicativo:** [!DNL Brand Concierge]: Enriquecimento de Perfil de Conversação; [!DNL RT-CDP]: Enriquecimento de Perfil, Avaliação de Público
 
 Configure o pipeline de captura e enriquecimento que alimenta sinais de conversação de volta no perfil unificado do cliente do AEP. Isso inclui mapear eventos de conversa para o XDM, extrair sinais de intenção e sentimento, criar atributos computados de dados de conversação e criar públicos com base em comportamentos de conversação.
 
@@ -572,7 +572,7 @@ Principais detalhes de configuração:
 
 ### Fase 6: Analytics e otimização
 
-**Função do aplicativo:** [!DNL Brand Concierge]: Conversational Analytics
+**Recurso do aplicativo:** [!DNL Brand Concierge]: Análise de Conversação
 
 Configure painéis de análise e relatórios para medir o desempenho da experiência de conversação, identificar oportunidades de otimização e rastrear KPIs. Isso inclui análise interna do [!DNL Brand Concierge], integração opcional do [!DNL CJA] para análise de impacto de conversações entre canais e fluxos de trabalho de otimização em andamento.
 
@@ -699,7 +699,7 @@ Os recursos a seguir fornecem informações adicionais para implementar esse pad
 - [Visão geral do Mobile SDK](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network/mobile-sdk/overview)
 - [Configurar sequências de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/datastreams/configure)
 - [Visão geral da API do Edge Network Server](https://experienceleague.adobe.com/pt-br/docs/experience-platform/edge-network-server-api/overview)
-- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+- [Visão geral das origens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
 
 **Identidade e perfil**
 

@@ -3,10 +3,10 @@ title: Ativação de mensagem de saída em lote
 description: Saiba como avaliar um público-alvo e fornecer uma mensagem de saída agendada em uma única execução em lote.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '8246'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -84,7 +84,7 @@ A tabela a seguir define os KPIs usados para medir a eficácia da campanha.
 
 Avalie um público-alvo e entregue uma mensagem de saída agendada (email, SMS, push) para todos os perfis qualificados em uma única execução em lote.
 
-**Cadeia de funções:** Avaliação de público-alvo > Criação de mensagem > Execução de campanha > Relatórios
+**Plano de execução:** Avaliação de público-alvo > Criação de mensagem > Execução de campanha > Relatórios
 
 ## Aplicativos
 
@@ -94,11 +94,11 @@ Os aplicativos a seguir são usados para implementar esse padrão.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Avaliação de público, consentimento e imposição de governança
 - **[!DNL Adobe Experience Platform] (AEP)** — Armazenamento de perfil, serviço de identidade, esquemas, conjuntos de dados, coleta de dados
 
-## Funções básicas
+## Recursos básicos
 
-Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada função, o status indica se ele é tipicamente necessário, se presume ser pré-configurado ou se não é aplicável.
+Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada recurso, o status indica se ele é normalmente necessário, se presume ser pré-configurado ou se não é aplicável.
 
-| Função de base | Status | O que deve estar em vigor | Referência do Experience League |
+| Recurso básico | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
 | Administração e governança | Presumido em vigor | Sandbox da AJO provisionada com uma configuração de canal ativa. Envio de subdomínio delegado, pool de IP atribuído e aumento gradual de IP concluído. Funções de usuário com permissões de criação de campanha/jornada atribuídas. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home), [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
 | Preparação e modelagem de dados | Obrigatório | Esquema de perfil individual XDM com atributos usados para segmentação e personalização (por exemplo, nome, email, preferências, nível). Esquema XDM ExperienceEvent que captura a ação de conversão de destino (por exemplo, `commerce.purchases`, `web.webInteraction`) para rastreamento de conversão pós-campanha. Conjuntos de dados habilitados para perfil para ambos os esquemas. | [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), [noções básicas de composição de esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition) |
@@ -106,11 +106,11 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 | Configuração de identidade e perfil | Presumido em vigor | Namespaces de identidade para email (e quaisquer identificadores entre dispositivos) configurados. Atributos de perfil necessários para personalização mapeada, assimilada e resolvível no momento do envio. Política de mesclagem configurada. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home), [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview) |
 | Definição e segmentação do público-alvo | Obrigatório | Público-alvo definido na RT-CDP usando o Construtor de segmentos ou a Composição de público-alvo. Público publicado e avaliado com uma população diferente de zero. Abordado na Fase 1 da implementação por meio da avaliação de público-alvo da RT-CDP. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home), [guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Funções de suporte
+## Recursos de suporte
 
 Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necessários para a execução principal.
 
-| Função de suporte | Status | Por que é importante | Referência do Experience League |
+| Recurso de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
 | Criação de atributo calculado/derivado | Recomendado | Atributos computados, como dias desde a última compra, contagem de pedidos ao longo da vida útil ou pontuação de engajamento, melhoram a precisão do público-alvo e permitem uma personalização de mensagens mais avançada. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview) |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | As políticas de retenção de dados (expiração) devem estar em vigor para conjuntos de dados de eventos que impulsionam o rastreamento de conversão. Os campos de esquema de consentimento devem ser configurados para imposição de aceitação/recusa em nível de canal. | [Visão geral do Gerenciamento Avançado do Ciclo de Vida dos Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home), [Grupo de campos Consentimento e Preferências](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/consents) |
@@ -118,13 +118,13 @@ Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necess�
 | Monitoramento e capacidade de observação | Incluído | O monitoramento de envio em tempo real faz parte da fase de Relatório. Alertas em nível de plataforma sobre falhas de assimilação ou uso de licença fornecem visibilidade operacional além das métricas em nível de campanha. | [Visão geral dos Insights de Observabilidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home), [Visão geral dos alertas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview) |
 | Relatórios e análise | Incluído | Os relatórios de campanha e jornada são abordados na fase de Relatórios. Para uma análise mais profunda entre canais, a integração do CJA fornece análise do funnel, modelagem de atribuição e análise de coorte além dos relatórios integrados do AJO. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [guia de integração do AJO + CJA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/reporting/channel-report/cja-ajo) |
 
-## Funções do aplicativo
+## Recursos do aplicativo
 
-Este plano utiliza as seguintes funções do catálogo de funções do aplicativo. As funções são mapeadas para fases de implementação em vez de etapas numeradas.
+Este plano utiliza os seguintes recursos do Catálogo de Recursos do Aplicativo. Os recursos são mapeados para fases de implementação em vez de etapas numeradas.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Configuração de canais | Fase 2: configuração de canal | Configurar ou validar a superfície de canal (email, SMS ou push), incluindo subdomínio, pool de IP, configurações de remetente e lista de supressão |
 | Criação de mensagens | Fase 3: Criação de mensagens | Criar conteúdo de mensagem usando modelos, o Designer de email, expressões de personalização, blocos de conteúdo condicional e fragmentos de conteúdo |
@@ -136,7 +136,7 @@ Este plano utiliza as seguintes funções do catálogo de funções do aplicativ
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Avaliação de público | Fase 1: Avaliação de público-alvo | Defina as regras de público-alvo usando o Construtor de segmentos ou a Composição de público-alvo, selecione o método de avaliação (lote, fluxo ou borda) e valide a população do público-alvo |
 | Consentimento e aplicação de governança | Fase 1: Avaliação de público-alvo | Imponha preferências de consentimento e políticas de uso de dados para garantir que apenas perfis consentidos recebam a mensagem da campanha |
@@ -232,7 +232,7 @@ A jornada é configurada na interface do AJO Jornada usando o evento de entrada 
 
 **Experience League:**
 
-- [Introdução ao jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Introdução às jornadas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Ler jornada de público-alvo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 
 ### Opção C: campanha acionada por API
@@ -309,7 +309,7 @@ Esta seção aborda detalhadamente cada fase da implementação, incluindo ponto
 
 ### Fase 1: avaliar o público
 
-**Função do aplicativo:** RT-CDP: Avaliação de Público-Alvo
+**Recurso do aplicativo:** RT-CDP: Avaliação de Público-Alvo
 
 Essa fase define e avalia o segmento do público-alvo que receberá a mensagem da campanha. Ele determina quais perfis se qualificam para o envio com base em atributos de perfil, sinais comportamentais e regras de supressão.
 
@@ -381,7 +381,7 @@ A avaliação do público-alvo pode ser totalmente ignorada. Se usada, crie um p
 
 ### Fase 2: configurar o canal
 
-**Função do aplicativo:** AJO: configuração de canal
+**Recurso do aplicativo:** AJO: configuração de canal
 
 Essa fase valida ou cria a superfície de canal (predefinição) que define a infraestrutura de envio da mensagem: subdomínio, pool de IP, identidade do remetente, endereço de resposta e configurações de cancelamento de assinatura. Uma superfície de canal válida deve existir para que o conteúdo da mensagem possa ser criado ou as campanhas possam ser ativadas.
 
@@ -440,7 +440,7 @@ Administração > Canais > Superfícies de canal > Criar superfície (ou selecio
 
 ### Fase 3: Criação da mensagem
 
-**Função do aplicativo:** AJO: Criação de Mensagens
+**Recurso do aplicativo:** AJO: Criação de Mensagens
 
 Essa fase cria o conteúdo da mensagem que será entregue ao público-alvo. Ele inclui selecionar ou criar um modelo de conteúdo, projetar o layout da mensagem, adicionar personalização usando atributos de perfil, configurar blocos de conteúdo condicional para variações específicas do público-alvo, criar fragmentos de conteúdo reutilizáveis e visualizar/testar a mensagem com perfis de amostra.
 
@@ -511,7 +511,7 @@ Campanhas > Selecionar campanha > Editar conteúdo > Enviar email para o Designe
 
 ### Fase 4: criar a campanha ou a jornada
 
-**Função do aplicativo:** AJO: Execução de Campanha (Opções A e C) ou AJO: Journey Orchestration (Opção B)
+**Recurso do aplicativo:** AJO: Execução de Campanha (Opções A e C) ou AJO: Journey Orchestration (Opção B)
 
 Essa fase cria a campanha ou jornada que vincula o público-alvo, a mensagem e o mecanismo de execução em uma unidade do material de entrega. É neste ponto que as três opções de execução divergem mais significativamente.
 
@@ -589,7 +589,7 @@ Qual nível de prioridade essa campanha deve ter em relação a outras campanhas
 - [Criar uma campanha](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
 - [Introdução às campanhas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [Campanhas acionadas por API](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
-- [Introdução ao jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Introdução às jornadas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Ler jornada de público-alvo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 - [Introdução ao experimento de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [Criar um experimento de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
@@ -599,7 +599,7 @@ Qual nível de prioridade essa campanha deve ter em relação a outras campanhas
 
 ### Fase 5: analisar a geração de relatórios e o desempenho
 
-**Função do aplicativo:** AJO: Relatórios e análise de desempenho
+**Recurso do aplicativo:** AJO: análise de relatórios e desempenho
 
 Essa fase monitora as métricas de entrega durante a execução por meio de relatórios em tempo real e analisa o desempenho da campanha após a conclusão por meio de relatórios históricos. Configurar opcionalmente a integração do CJA para uma análise mais profunda entre canais.
 
@@ -745,7 +745,7 @@ Esta seção fornece links abrangentes para a documentação do [!DNL Experience
 
 ### Jornadas
 
-- [Introdução ao jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Introdução às jornadas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey)
 - [Ler jornada de público-alvo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 
 ### Configuração de canais

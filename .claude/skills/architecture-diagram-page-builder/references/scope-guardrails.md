@@ -1,7 +1,7 @@
 ---
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Se você estiver escrevendo qualquer um dos itens a seguir, redirecione para uma
 | KPIs e fórmulas de medição | Os padrões de caso de uso avaliam os resultados; as páginas de arquitetura não |
 | Objetivos de negócios, impacto nos negócios | O conteúdo do KBO está em `/help/blueprints/business-objectives/`; os padrões fazem referência a ele |
 | Exemplos de caso de uso tático | &quot;Lembrete de abandono do carrinho&quot;, &quot;Herói da página inicial personalizada&quot; etc. — estes são conteúdos padrão |
-| Cadeias de funções (`A > B > C > D`) | A construção de cadeia de função faz parte do modelo de padrão de caso de uso |
+| Recursos (`A > B > C > D`) | A construção de recursos faz parte do modelo padrão de caso de uso |
 | Narrativas pessoais | &quot;Maria, a comerciante quer...&quot; cenários de estilo pertencem a padrões, não a referências de arquitetura |
 | Opções de implementação | A orientação de implementação de várias opções (Melhor para, Como funciona, Vantagens, Limitações) é uma construção de padrão |
 | Tabelas de funções básicas/de suporte | Estas são seções de página padrão |
@@ -47,7 +47,7 @@ Se o usuário fornecer qualquer uma dessas frases ao descrever a nova página, p
 - &quot;KPIs&quot;
 - &quot;impacto nos negócios&quot; / &quot;resultados dos negócios&quot;
 - &quot;casos de uso tático&quot; / &quot;exemplos de cenários&quot;
-- &quot;cadeia de funções&quot;
+- &quot;recursos&quot;
 - &quot;opções de implementação&quot;
 - &quot;melhor para&quot;
 - &quot;vantagens e limitações&quot;

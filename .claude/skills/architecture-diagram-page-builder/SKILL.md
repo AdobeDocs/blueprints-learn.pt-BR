@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Criação de guias de novas páginas de diagrama de arquitetura para o repositório de blueprints do Adobe Experience Platform. Use essa habilidade ao adicionar um novo diagrama de arquitetura de nível superior, uma página de arquitetura de integração ou uma visão geral da arquitetura do aplicativo. As páginas de arquitetura abordam o AEP de nível superior, as arquiteturas de aplicativos e os principais pontos de integração, e não casos de uso aprofundado (que pertencem ao construtor de padrões de casos de uso). Lida com o fluxo de trabalho completo: coleta de informações da página, geração do arquivo de marcação, colocação dele na pasta de tópico correta e atualização do TOC.md.'
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ As páginas de diagrama de arquitetura são **páginas focalizadas, com estilo d
 - Uma pequena lista dos fluxos de dados principais e pontos de integração ilustrados
 - Links do Experience League para obter mais informações sobre o domínio do aplicativo
 
-Eles **não** o local para conteúdo de casos de uso detalhados. Os KPIs, os objetivos comerciais, os exemplos de caso de uso tático, as cadeias de função e as narrativas pessoais pertencem às páginas de padrão de caso de uso, geradas pela habilidade `use-case-pattern-builder`. Consulte `references/scope-guardrails.md` para obter as medidas de proteção completas.
+Eles **não** o local para conteúdo de casos de uso detalhados. Os KPIs, os objetivos comerciais, os exemplos de caso de uso tático, os recursos e as narrativas pessoais pertencem às páginas de padrão de caso de uso, geradas pela habilidade `use-case-pattern-builder`. Consulte `references/scope-guardrails.md` para obter as medidas de proteção completas.
 
 ## Leitura necessária antes de iniciar
 
@@ -95,7 +95,7 @@ Se qualquer um dos itens a seguir for exibido no conteúdo planejado, avise o us
 - KPIs ou fórmulas de medição
 - Objetivos ou narrativas de impacto nos negócios
 - Exemplos de caso de uso tático (cenários de personalização específicos, exemplos de campanha etc.)
-- Cadeias de funções (`A > B > C > D` estilo)
+- Recursos (`A > B > C > D` estilo)
 - Narrativa orientada por pessoas
 
 Se o conteúdo planejado permanecer no escopo da página de arquitetura (arquitetura de nível superior, fluxo de dados do sistema, pontos de integração, topologia de implantação, borda versus hub), confirme com o usuário e prossiga para a Fase 3.
@@ -192,4 +192,4 @@ Corrija quaisquer problemas de validação antes de considerar a tarefa como con
 - Os diagramas de arquitetura normalmente são SVG (preferidos para nitidez e dimensionamento), mas PNG é aceitável para arte-final raster.
 - A cadeia de caracteres de estilo embutido `<img>` (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) e `class="modal-image"` são necessárias — elas habilitam a interação de zoom modal do Experience League.
 - Se o usuário estiver criando uma página para uma pasta de tópico totalmente nova que ainda não existe, avise-o de que o TOC.md precisa de uma nova subseção de nível superior em `+ Architecture Diagrams and Blueprints{#architecture-diagrams}`. Trate isso como uma etapa separada com a aprovação explícita do usuário.
-- Se o diagrama de arquitetura documenta extensivamente um *único caso de uso de ponta a ponta* (com KPIs, objetivos de negócios, cadeia de funções), redirecione o usuário para `use-case-pattern-builder` — essa não é uma página de arquitetura.
+- Se o diagrama de arquitetura documenta extensivamente um *único caso de uso de ponta a ponta* (com KPIs, objetivos de negócios, recursos), redirecione o usuário para `use-case-pattern-builder` — essa não é uma página de arquitetura.

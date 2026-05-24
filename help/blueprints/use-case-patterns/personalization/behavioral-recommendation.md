@@ -3,7 +3,7 @@ title: Recomendação comportamental
 description: Saiba como gerar recomendações de item e conteúdo usando estratégias de seleção e modelos de classificação.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
 source-wordcount: '7545'
 ht-degree: 2%
@@ -79,7 +79,7 @@ Os KPIs a seguir ajudam a medir a eficácia das implementações de recomendaç�
 
 Gerar recomendações no nível do item ou do conteúdo com base em sinais comportamentais, usando estratégias de seleção e modelos de classificação do AJO Decisioning para veicular conteúdo contextual.
 
-**Cadeia de funções:** Assimilação de sinal comportamental > Avaliação de estratégia de decisão > Entrega de recomendação > Relatórios
+**Plano de execução:** Assimilação de sinal comportamental > Avaliação de estratégia de decisão > Entrega de recomendação > Relatórios
 
 Consulte a seção Composição do padrão em Considerações sobre implementação para obter orientação sobre a combinação de padrões.
 
@@ -91,11 +91,11 @@ Os aplicativos a seguir são usados neste padrão de caso de uso.
 - **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Acúmulo de dados de perfil comportamental, avaliação de público-alvo para escopo de recomendação e atributos computados para pontuação de afinidade comportamental
 - **[!DNL Adobe Experience Platform] (AEP)** — Assimilação comportamental de evento via [!DNL Web SDK] e [!DNL Mobile SDK], processamento de [!DNL Edge Network], gerenciamento de esquema XDM para dados de evento e catálogo
 
-## Funções básicas
+## Recursos básicos
 
-Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada função, o status indica se ele é tipicamente necessário, se presume ser pré-configurado ou se não é aplicável.
+Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de uso. Para cada recurso, o status indica se ele é normalmente necessário, se presume ser pré-configurado ou se não é aplicável.
 
-| Função de base | Status | O que deve estar em vigor | Referência do Experience League |
+| Recurso básico | Status | O que deve estar em vigor | Referência do Experience League |
 | --- | --- | --- | --- |
 | Administração e governança | Presumido em vigor | sandbox da AJO com permissões de decisão ativadas. As funções de usuário foram provisionadas com acesso ao gerenciamento de catálogo de itens, configuração de estratégia de seleção e administração de superfície de canal. | [Visão geral das sandboxes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sandbox/home), [Visão geral do controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) |
 | Preparação e modelagem de dados | Obrigatório | Esquema de evento de experiência que captura sinais comportamentais (exibições de produtos, suplementos ao carrinho, compras, interações de conteúdo) com identificadores de item/produto. Esquema de catálogo de itens (atributos de produto, categorias, imagens, preços) para o conjunto de itens de recomendação. Esquema de perfil com campos de identidade. Todos os esquemas habilitados para [!DNL Real-Time Customer Profile]. | [Visão geral do Sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home), [Noções básicas sobre a composição de esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition), [Criar um conjunto de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/catalog/datasets/create) |
@@ -103,25 +103,25 @@ Os seguintes recursos básicos devem estar em vigor para esse padrão de caso de
 | Configuração de identidade e perfil | Obrigatório | Os sinais comportamentais devem ser associados a uma identidade (conhecida ou anônima por meio da ECID) para criar perfis comportamentais. Para recomendações de visitantes conhecidos, a identidade autenticada (ID de CRM, email) deve ser configurada. Política de mesclagem ativa no Edge para entrega de recomendações em tempo real. | [Visão geral do Serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home), [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview) |
 | Definição e segmentação do público-alvo | Recomendado | Os públicos-alvo podem ser usados para definir o escopo das recomendações (por exemplo, recomendar apenas produtos premium para membros premium) ou para filtragem. Não é estritamente necessário se as recomendações forem puramente comportamentais. Obrigatório para recomendações baseadas em email (Opção C) para definir o público-alvo. | [Visão geral do Serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home), [guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder) |
 
-## Funções de suporte
+## Recursos de suporte
 
 Os recursos a seguir aumentam esse padrão de caso de uso, mas não são necessários para a execução principal.
 
-| Função de suporte | Status | Por que é importante | Referência do Experience League |
+| Recurso de suporte | Status | Por que é importante | Referência do Experience League |
 | --- | --- | --- | --- |
-| Criação de atributo calculado/derivado | Recomendado | Atributos calculados, como pontuações de afinidade de categoria, frequência de interação de produto, recenticidade de compra e gasto total, melhoram a qualidade da classificação da recomendação. [!DNL Customer AI] as pontuações de propensão podem aumentar ainda mais a relevância ao prever a probabilidade de compra. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview), [Visão geral da IA do cliente](https://experienceleague.adobe.com/pt-br/docs/experience-platform/intelligent-services/customer-ai/overview) |
+| Criação de atributo calculado/derivado | Recomendado | Atributos calculados, como pontuações de afinidade de categoria, frequência de interação de produto, recenticidade de compra e gasto total, melhoram a qualidade da classificação da recomendação. As pontuações de propensão [!DNL Customer AI] podem aumentar ainda mais a relevância ao prever a probabilidade de compra. | [Visão geral dos atributos computados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/computed-attributes/overview), [Visão geral da IA do cliente](https://experienceleague.adobe.com/pt-br/docs/experience-platform/intelligent-services/customer-ai/overview) |
 | Gerenciamento do ciclo de vida dos dados | Recomendado | Os dados de eventos comportamentais devem ter políticas de expiração apropriadas — a relevância da recomendação é degradada com dados obsoletos. Definir políticas de expiração do conjunto de dados em conjuntos de dados de eventos comportamentais garante a atualização e gerencia o armazenamento. A aplicação do consentimento garante o uso compatível de dados comportamentais. | [Expirações do conjunto de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/ui/dataset-expiration), [Visão geral do Gerenciamento avançado do ciclo de vida dos dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-lifecycle/home) |
 | Rotulagem e aplicação de uso de dados | Recomendado | Os rótulos de governança em dados comportamentais garantem o uso compatível do histórico de interação para recomendações. Particularmente importante quando os dados comportamentais incluem padrões de navegação, histórico de compras ou sinais de interesse de produtos financeiros/de saúde. | [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home), [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview) |
 | Monitoramento e capacidade de observação | Recomendado | A latência de entrega de recomendação, as taxas de fallback e a integridade da assimilação do catálogo de itens devem ser monitoradas. Alertas sobre falhas de assimilação de eventos comportamentais e erros de decisão ajudam a manter a qualidade da recomendação. | [Visão geral dos Insights de Observabilidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/home), [Visão geral dos alertas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/observability/alerts/overview) |
-| Relatórios e análise | Incluído | O relatório de desempenho de recomendação faz parte da Etapa 4 da Cadeia de Funções. [!DNL Customer Journey Analytics] a análise da eficácia da recomendação, do impacto na receita e do desempenho no nível do item em superfícies e segmentos fornece insights de otimização. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [visão geral do Analysis Workspace](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home) |
+| Relatórios e análise | Incluído | O relatório de desempenho do Recommendation faz parte da Etapa 4 do Plano de Execução. A análise [!DNL Customer Journey Analytics] da eficácia da recomendação, do impacto na receita e do desempenho no nível do item em superfícies e segmentos fornece insights de otimização. | [visão geral do CJA](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview), [visão geral do Analysis Workspace](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-workspace/home) |
 
-## Funções do aplicativo
+## Recursos do aplicativo
 
-Este plano exerce as seguintes funções do Catálogo de Funções da Aplicação. As funções são mapeadas para fases de implementação em vez de etapas numeradas.
+Este plano utiliza os seguintes recursos do Catálogo de Recursos do Aplicativo. Os recursos são mapeados para fases de implementação em vez de etapas numeradas.
 
 ### [!DNL Journey Optimizer] (AJO)
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Decisão. | Configuração da Estratégia de Seleção e Catálogo de Itens | Configurar catálogos de itens (itens de decisão), estratégias de seleção com modelos de classificação comportamental, regras de filtragem e recomendações de fallback |
 | Configuração de canais | Configuração de canal e superfície | Configurar superfícies de entrega para canais da Web (experiências baseadas em código), no aplicativo, de cartão de conteúdo ou de email, nos quais as recomendações serão renderizadas |
@@ -130,7 +130,7 @@ Este plano exerce as seguintes funções do Catálogo de Funções da Aplicaçã
 
 ### [!DNL Real-Time CDP] (RT-CDP)
 
-| Função | Fase de implementação | Descrição |
+| Recurso | Fase de implementação | Descrição |
 | --- | --- | --- |
 | Avaliação de público | Escopo Do Público-Alvo (Opção C) | Avaliar os segmentos de público-alvo usados para determinar o escopo das recomendações ou definir o público-alvo para campanhas de recomendação por email |
 | Enriquecimento de perfil | Enriquecimento de sinal comportamental | Enriqueça os perfis com atributos computados (pontuações de afinidade de categoria, frequência de interação) que melhoram a classificação da recomendação |
@@ -288,7 +288,7 @@ As fases a seguir orientam você pela implementação completa de recomendaçõe
 
 ### Fase 1: configurar o esquema de evento comportamental e a coleta de dados
 
-**Função do Aplicativo:** AEP: Modelagem e Preparação de Dados (F2), AEP: Fontes de Dados e Coleção (F3)
+**Recurso do aplicativo:** AEP: Modelagem e preparação de dados (F2), AEP: Fontes de dados e coleção (F3)
 
 Essa fase estabelece os esquemas XDM, conjuntos de dados e mecanismos de coleta de dados que capturam sinais comportamentais e dados de catálogo de itens. Essa base de dados é do que toda a lógica de recomendação depende.
 
@@ -331,7 +331,7 @@ Navegação da **UI:** Gerenciamento de Dados > Esquemas > Criar esquema; Coleç
 
 ### Fase 2: configurar identidade e perfil
 
-**Função do Aplicativo:** AEP: Configuração de Identidade e Perfil (F4)
+**Recurso do aplicativo:** AEP: identidade e configuração de perfil (F4)
 
 Essa fase configura namespaces de identidade, designações de identidade primárias e políticas de mesclagem que garantem que os sinais comportamentais sejam associados corretamente aos perfis do visitante e disponibilizados para a entrega de recomendações em tempo real.
 
@@ -372,7 +372,7 @@ Como os sinais comportamentais de visitantes anônimos devem ser tratados?
 
 ### Fase 3: Configurar catálogo de itens e estratégia de seleção
 
-**Função do Aplicativo:** AJO: Decisão
+**Recurso do aplicativo:** AJO: decisão
 
 Essa fase configura o catálogo de itens (itens de decisão), as estratégias de seleção que combinam sinais comportamentais com atributos de item para classificação, as regras de filtragem para excluir itens inelegíveis e as recomendações de fallback para perfis de início frio.
 
@@ -442,7 +442,7 @@ O que deve ser mostrado para novos visitantes sem histórico comportamental?
 
 ### Fase 4: configurar canal e superfície
 
-**Função do Aplicativo:** AJO: Configuração de Canal
+**Recurso do aplicativo:** AJO: configuração de canal
 
 Essa fase configura as superfícies de entrega onde as recomendações serão renderizadas. A configuração varia significativamente de acordo com a opção de implementação.
 
@@ -460,13 +460,13 @@ Onde as recomendações serão exibidas?
 
 **Onde as opções divergem:**
 
-**Para a Opção A (Recomendações em Tempo Real da Web):**
+**Para A Opção A (Recomendações Em Tempo Real Da Web):**
 Configure uma superfície de experiência baseada em código ou uma superfície de canal da Web. Experiências baseadas em código fornecem mais flexibilidade para a renderização de recomendação personalizada (carrosséis, grades, cartões de item). O URI de superfície identifica onde as recomendações da página são exibidas.
 
 **Para a Opção B (Recomendações para Aplicativos Móveis):**
 Configurar superfícies de cartão de conteúdo ou mensagens no aplicativo. Os cartões de conteúdo são recomendados para feeds de recomendação persistentes. As mensagens no aplicativo funcionam bem para recomendações contextuais acionadas por comportamento.
 
-**Para Opção C (Recomendações Comportamentais De Email):**
+**Para A Opção C (Recomendações Comportamentais De Email):**
 Configure uma superfície de canal de email com delegação de subdomínio, atribuição de pool de IP e configurações do remetente. Verifique se a superfície está validada para entrega.
 
 **Navegação da interface do usuário:** Administração > Canais > Superfícies de canal > Criar superfície
@@ -480,7 +480,7 @@ Configure uma superfície de canal de email com delegação de subdomínio, atri
 
 ### Fase 5: configurar o conteúdo e o delivery
 
-**Função do Aplicativo:** AJO: Criação de Mensagens
+**Recurso do aplicativo:** AJO: Criação de Mensagens
 
 Essa fase define os modelos de renderização de recomendação que controlam como os itens recomendados são exibidos para o visitante. Isso inclui o design do layout do item, expressões de personalização que extraem atributos de item (nome, imagem, preço, link) e o design da experiência de recomendação geral.
 
@@ -508,13 +508,13 @@ Quantos itens a decisão deve retornar por posicionamento?
 
 **Onde as opções divergem:**
 
-**Para a Opção A (Recomendações em Tempo Real da Web):**
+**Para A Opção A (Recomendações Em Tempo Real Da Web):**
 Projete a renderização da recomendação usando modelos de experiência baseados em código. Use HTML/CSS/JavaScript para criar o layout do carrossel, grade ou widget. As expressões Personalization fazem referência aos atributos de resposta de decisão (nome do item, URL da imagem, preço, URL do produto). O rastreamento de impressões e cliques é feito automaticamente pelo [!DNL Web SDK].
 
 **Para a Opção B (Recomendações para Aplicativos Móveis):**
 Configure modelos de cartão de conteúdo ou de mensagem no aplicativo com lógica de exibição de item. Use estruturas de conteúdo baseadas em JSON que o aplicativo móvel renderiza nativamente. Inclua deep links para cada item recomendado.
 
-**Para Opção C (Recomendações Comportamentais De Email):**
+**Para A Opção C (Recomendações Comportamentais De Email):**
 Crie conteúdo de email usando o Designer de email. Insira disposições de recomendação usando blocos de conteúdo com poder de decisão. Configure expressões de personalização para atributos de item no modelo de email. A personalização da linha de assunto pode fazer referência aos principais itens recomendados.
 
 **Navegação da interface do usuário:** Gerenciamento de conteúdo > Modelos de conteúdo; Campanha/Jornada > Editar conteúdo > Email Designer
@@ -539,7 +539,7 @@ Crie conteúdo de email usando o Designer de email. Insira disposições de reco
 
 ### Fase 6: configurar o escopo de público-alvo e a campanha/jornada (somente a opção C)
 
-**Função do Aplicativo:** RT-CDP: Avaliação de Público-Alvo, AJO: Execução de Campanha ou Journey Orchestration
+**Recurso do aplicativo:** RT-CDP: Audience Evaluation, AJO: Campaign Execution ou Journey Orchestration
 
 Para recomendações baseadas em email (Opção C), essa fase define o público-alvo e configura a campanha ou jornada que entrega o email de recomendação. As opções A e B ignoram essa fase porque as recomendações são entregues em tempo real no carregamento de página/tela.
 
@@ -579,7 +579,7 @@ O email deve ser entregue por meio de uma campanha ou jornada?
 
 ### Fase 7: configurar relatórios e otimização
 
-**Função do Aplicativo:** AJO: Reporting &amp; Performance Analysis, S5: Reporting &amp; Analysis
+**Recurso do aplicativo:** AJO: Reporting &amp; Performance Analysis, S5: Reporting &amp; Analysis
 
 Essa fase estabelece o monitoramento do desempenho para métricas de click-through, conversão e receita da recomendação. Ele cria a infraestrutura de relatórios para medir a eficácia da recomendação e identificar oportunidades de otimização.
 
@@ -784,6 +784,6 @@ Os recursos a seguir fornecem detalhes adicionais sobre as tecnologias e capacid
 
 ### Tutoriais e guias
 
-- [Visão geral das fontes](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
+- [Visão geral das origens](https://experienceleague.adobe.com/pt-br/docs/experience-platform/sources/home)
 - [Visão geral das tags](https://experienceleague.adobe.com/pt-br/docs/experience-platform/tags/home)
 - [Grupo de campos Consentimento e preferências](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/consents)

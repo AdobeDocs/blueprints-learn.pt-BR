@@ -13,16 +13,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: 333
 ht-degree: 4%
 
 ---
 
-# Objetivos de negócios, casos de uso e diagramas de arquitetura da orquestração da experiência do cliente
+# Casos de uso e diagramas de arquitetura do Customer Experience Orchestration
 
-Este site contém **Objetivos Comerciais Principais**, que descrevem o exemplo de valor comercial principal e os objetivos que podem ser alcançados com o Adobe Experience Platform e os Aplicativos. **Os padrões de caso de uso** descrevem recursos comuns de plataforma e aplicativo com abordagens de implementação repetíveis. **Casos de uso do setor** aplicam padrões a cenários comerciais específicos verticais. **Diagramas e blueprints de arquitetura** são diagramas de referência de fluxo de dados e arquitetura visual que ilustram os pontos de integração do sistema, os fluxos de dados e conteúdo e a sequência de operações, fornecendo uma referência técnica para o design da solução. Juntas, essas camadas conectam o valor comercial à arquitetura e às dependências da implementação.
+Este site contém **Objetivos Comerciais Principais**, que descrevem o exemplo de valor comercial principal e os objetivos que podem ser alcançados com o Adobe Experience Platform e os Aplicativos. **Os padrões de caso de uso** descrevem recursos comuns de plataforma e aplicativo com abordagens de implementação repetíveis. **Exemplos de casos de uso do setor** aplicam padrões a cenários comerciais específicos de vertical. **Diagramas e blueprints de arquitetura** são diagramas de referência de fluxo de dados e arquitetura visual que ilustram os pontos de integração do sistema, os fluxos de dados e conteúdo e a sequência de operações, fornecendo uma referência técnica para o design da solução. Juntas, essas camadas conectam o valor comercial à arquitetura e às dependências da implementação.
 
 ## Principais objetivos de negócios
 
@@ -45,7 +45,7 @@ Resultados estratégicos que as organizações buscam alcançar por meio de inic
 
 ## Padrões de caso de uso
 
-Abordagens de implementação repetíveis que descrevem recursos específicos, a cadeia de funções que os fornece e os aplicativos envolvidos.
+Abordagens de implementação repetíveis que descrevem como alcançar resultados específicos com os recursos associados e os componentes de aplicativos que os fornecem.
 
 <table>
 <tr>
@@ -62,7 +62,7 @@ Abordagens de implementação repetíveis que descrevem recursos específicos, a
 
 [Exibir todos os padrões de caso de uso](use-case-patterns/overview.md)
 
-## Explorar por setor
+## Veja exemplos de casos de uso por setor
 
 Casos de uso personalizados para setores específicos, cada um mapeado para padrões de implementação e objetivos de negócios.
 
