@@ -112,4 +112,4 @@ Os aplicativos a seguir são usados para implementar esse padrão de caso de uso
 
 ## Documentação relacionada
 
-Para obter orientação sobre implementação e mais informações, consulte a [visão geral do Brand Concierge](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview) na Adobe Experience League.
+Para obter orientação sobre implementação e mais informações, consulte a [visão geral do Brand Concierge](https://experienceleague.adobe.com/pt-br/docs/brand-concierge/content/documentation/overview) na Adobe Experience League.
