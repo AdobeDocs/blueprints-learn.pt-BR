@@ -6,7 +6,7 @@ short-description: Integre perfis e públicos-alvo da RTCDP com o Adobe Target.
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 33%
@@ -30,7 +30,7 @@ ht-degree: 33%
 
 ### Documentação de referência
 
-* [Conexão Adobe Target para a Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html?lang=pt-BR)
+* [Conexão Adobe Target para a Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)
 * [Configuração da sequência de dados do Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=pt-BR)
 
 ## Padrões de integração
@@ -45,15 +45,15 @@ ht-degree: 33%
 
 Arquitetura
 
-![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/RTCDP+Target.svg)
+![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/RTCDP+Target.png)
 
 Detalhes da sequência
 
-![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.svg)
+![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.png)
 
 Visão geral da arquitetura
 
-![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/personalization_with_apps.svg)
+![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/personalization_with_apps.png)
 
 ## Padrões de implantação
 
@@ -70,7 +70,7 @@ A personalização de cliente conhecido é permitida por várias abordagens de i
 
 Usar SDKs tradicionais específicos para aplicativos (por exemplo, AT.js e AppMeasurement.js). A avaliação de segmento de borda em tempo real não é compatível com essa abordagem de implantação. No entanto, o compartilhamento de público-alvo de lote e streaming do hub da Experience Platform são compatíveis com essa abordagem de implantação.
 
-[Consulte a Documentação do Adobe Target Connector](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
+[Consulte a Documentação do Adobe Target Connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection)
 [Consulte o SDK Blueprint específico do aplicativo](/help/blueprints/experience-platform/deployment/appsdk.md)
 
 ## Considerações de implantação
