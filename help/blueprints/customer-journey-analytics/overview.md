@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 154
 ht-degree: 86%
@@ -41,4 +41,4 @@ Uma lista completa de casos de uso, juntamente com a documentação, pode ser en
 
 ## Arquitetura do Customer Journey Analytics
 
-![Diagrama da arquitetura](assets/CJA.svg){zoomable="yes"}
+![Diagrama da arquitetura](assets/CJA.png){zoomable="yes"}

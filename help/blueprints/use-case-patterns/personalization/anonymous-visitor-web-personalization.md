@@ -3,7 +3,7 @@ title: Visitante anônimo - Web Personalization
 description: Saiba como fornecer conteúdo personalizado da Web para visitantes não identificados com base em sinais comportamentais na sessão.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: e2446801-ffce-40e6-bfe9-abec623c9201
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '8109'
 ht-degree: 1%
@@ -108,7 +108,7 @@ Os aplicativos a seguir são usados neste padrão de caso de uso.
 
 A arquitetura de referência a seguir ilustra como os sinais anônimos de visitantes são coletados na borda, avaliados em relação às regras de público-alvo e usados para fornecer conteúdo personalizado.
 
-![Arquitetura de referência para ativação e personalização de público anônimo](/help/blueprints/audience-activation/assets/anonymous_activation.svg)
+![Arquitetura de referência para ativação e personalização de público anônimo](/help/blueprints/audience-activation/assets/anonymous_activation.png)
 
 ## Recursos básicos
 

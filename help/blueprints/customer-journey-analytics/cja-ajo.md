@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 762f6273fa3099f15eec529ceaeb2cc609c11b48
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 145
 ht-degree: 90%
@@ -34,5 +34,5 @@ Consulte a documentação a seguir para obter orientação sobre a implementaç�
 
 ## Arquitetura do Customer Journey Analytics com Journey Optimizer
 
-![Diagrama da arquitetura](assets/CJA_AJO.svg){zoomable="yes"}
+![Diagrama da arquitetura](assets/CJA_AJO.png){zoomable="yes"}
 

@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: 186
 ht-degree: 72%
@@ -39,7 +39,7 @@ Compartilhe alterações de perfil e público-alvo e eventos por streaming ou em
 
 ## Arquitetura
 
-<img src="assets/known_activation.svg" alt="Arquitetura de referência para cenários de ativação empresarial" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="assets/known_activation.png" alt="Arquitetura de referência para cenários de ativação empresarial" style="width:90%; border:1px solid #4a4a4a" class="modal-image" />
 
 ## Documentação relacionada
 

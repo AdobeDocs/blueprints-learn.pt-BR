@@ -19,9 +19,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
-source-wordcount: 2349
+source-wordcount: 2322
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Quando um cliente potencial demonstra claramente o interesse pela solução, iss
 
 Como o diagrama a seguir ilustra, você pode coletar detalhes em formulários ou por meio da ativação do LinkedIn e qualificar uma intenção de solução quando ocorrer a interação com um bot de chat.
 
-![jornada do grupo de compras](./assets/buying-group-journey-diagram.svg){zoomable="yes"}
+![jornada do grupo de compras](./assets/buying-group-journey-diagram.png){zoomable="yes"}
 
 Quando a porcentagem de conclusão do grupo de compra for alta o suficiente, você compartilhará o grupo com a equipe de vendas por meio do SQL ou de uma SOL para converter os clientes potenciais na conta em uma venda concluída.
 

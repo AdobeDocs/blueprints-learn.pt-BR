@@ -3,7 +3,7 @@ title: Ativação de público-alvo para destinos
 description: Saiba como avaliar e publicar segmentos de público-alvo em destinos externos para direcionamento ou supressão usando o Adobe Real-Time CDP.
 solution: Real-Time Customer Data Platform, Experience Platform
 exl-id: b0b9d937-45d2-48f9-ac4c-3611c6e35f58
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '7080'
 ht-degree: 1%
@@ -94,7 +94,7 @@ Melhore o retorno sobre o investimento em marketing através de melhor direciona
 
 A arquitetura de referência a seguir ilustra como o público-alvo e os dados de perfil fluem do Real-Time CDP para destinos corporativos, incluindo armazenamento em nuvem, endpoints de transmissão e aplicativos SaaS.
 
-![Arquitetura de referência para ativação de públicos e perfis para destinos corporativos](/help/blueprints/audience-activation/assets/known_activation.svg)
+![Arquitetura de referência para ativação de públicos e perfis para destinos corporativos](/help/blueprints/audience-activation/assets/known_activation.png)
 
 ## Recursos básicos
 

@@ -6,7 +6,7 @@ short-description: Integre perfis e públicos-alvo da RTCDP com o Adobe Target.
 solution: Real-Time Customer Data Platform, Target, Experience Platform
 kt: 7194
 thumbnail: thumb-web-personalization-scenario2.jpg
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 33%
@@ -45,15 +45,15 @@ ht-degree: 33%
 
 Arquitetura
 
-![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/RTCDP+Target.svg)
+![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/RTCDP+Target.png)
 
 Detalhes da sequência
 
-![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.svg)
+![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/RTCDP+Target_flow.png)
 
 Visão geral da arquitetura
 
-![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/personalization_with_apps.svg)
+![Arquitetura de referência para o Blueprint Online/Offline do Web Personalization](/help/blueprints/audience-activation/assets/personalization_with_apps.png)
 
 ## Padrões de implantação
 
