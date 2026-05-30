@@ -3,20 +3,26 @@ title: Experiência de conversa do Brand Concierge
 description: Saiba como transformar propriedades digitais em experiências conversacionais habilitadas por IA e seguras para a marca, que orientam a descoberta do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: a9545328-316d-446a-9308-18af61c58d1c
-source-git-commit: fe4353cfe34855ad91ccb5698e30030322246c08
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
 
 # Experiência conversacional do Brand Concierge
 
-Este guia fornece uma referência de implementação abrangente para experiências conversacionais habilitadas por IA usando o [!DNL Adobe Brand Concierge], integrado com o [!DNL Adobe Experience Platform] (AEP) e o [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam implantar agentes conversacionais seguros para a marca em propriedades digitais.
-
-Abrange todas as abordagens viáveis para implantar experiências conversacionais, desde chatbots de consultoria de produto até assistentes de navegação de site completo, com orientação sobre quando escolher cada opção. O plano aborda a configuração do agente, a governança da marca, a integração de conteúdo, as estratégias de implantação, o enriquecimento do perfil por sinais de conversa e a otimização de análises.
+Este guia fornece uma visão geral das experiências de conversação alimentadas por IA usando o [!DNL Adobe Brand Concierge], integrado ao [!DNL Adobe Experience Platform] (AEP) e ao [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]). Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam implantar agentes conversacionais seguros para a marca em propriedades digitais.
 
 O [!DNL Brand Concierge] permite que as marcas implantem agentes de conversação inteligentes que entendam a voz da marca, acessem catálogos e conteúdo de produtos aprovados, forneçam recomendações personalizadas com base em dados de perfil em tempo real e capturem sinais de intenção e sentimento de volta no perfil unificado do cliente. O resultado é uma experiência de conversação que é natural e sobre a marca, enriquecendo a compreensão da organização de cada cliente.
+
+## Padrão do caso de uso
+
+**experiência de conversação do Brand Concierge**
+
+Transforme propriedades digitais em experiências conversacionais habilitadas por IA e seguras para a marca, que orientam a descoberta do cliente por meio de um diálogo natural, enriquecem os perfis com sinais de intenção e sentimento e fornecem recomendações personalizadas do produto.
+
+**Plano de execução:** Configuração do agente > Configuração de governança de marca > Integração de conteúdo > Implantação de experiência de conversa > Enriquecimento de perfil > Analytics e otimização
 
 ## Visão geral do caso de uso
 
@@ -94,22 +100,14 @@ Os KPIs a seguir ajudam a medir o sucesso desse padrão de caso de uso.
 | Receita influenciada pela conversa | Receita de compras nas quais uma conversa [!DNL Brand Concierge] precedeu a conversão | Análise de atribuição em jornadas de conversa para compra |
 | Tempo até a solução | Duração média do início da conversa para resolução ou entrega | Análise de carimbo de data e hora em eventos de conversa |
 
-## Padrão do caso de uso
-
-**experiência de conversação do Brand Concierge**
-
-Transforme propriedades digitais em experiências conversacionais habilitadas por IA e seguras para a marca, que orientam a descoberta do cliente por meio de um diálogo natural, enriquecem os perfis com sinais de intenção e sentimento e fornecem recomendações personalizadas do produto.
-
-**Cadeia de funções:** Configuração do Agente > Configuração de Governança de Marca > Integração de Conteúdo > Implantação de Experiência de Conversação > Enriquecimento de Perfil > Analytics e Otimização
-
 ## Aplicativos
 
 Os aplicativos a seguir são usados para implementar esse padrão de caso de uso.
 
 - **[!DNL Brand Concierge]** — aplicativo de experiência de conversação habilitado por IA que fornece o orquestrador de agentes, o Product Advisor Agent, o Agente de Consultoria de Sites, a governança de marcas e a análise de conversação
-- **[!DNL Adobe Experience Platform] (AEP)** — A Unified Data Foundation fornece esquemas XDM, resolução de identidade, perfis de clientes em tempo real e infraestrutura de coleta de dados para sinais de conversação
-- **[!DNL Real-Time CDP] ([!DNL RT-CDP])** — Plataforma de dados do cliente que fornece pesquisa de perfil em tempo real para conversas personalizadas, segmentação de público a partir de sinais de conversação e enriquecimento de perfil com intenção e dados de sentimento
+- **[!DNL Adobe Experience Platform](AEP)** — A Unified Data Foundation fornece esquemas XDM, resolução de identidade, perfis de clientes em tempo real e infraestrutura de coleta de dados para sinais de conversação
+- **[!DNL Real-Time CDP]([!DNL RT-CDP])** — Plataforma de dados do cliente que fornece pesquisa de perfil em tempo real para conversas personalizadas, segmentação de público a partir de sinais de conversação e enriquecimento de perfil com intenção e dados de sentimento
 
 ## Documentação relacionada
 
-Para obter orientação sobre implementação e mais informações, consulte a [visão geral do Brand Concierge](https://experienceleague.adobe.com/pt-br/docs/brand-concierge/content/documentation/overview) na Adobe Experience League.
+Para obter orientação sobre implementação e mais informações, consulte a [visão geral do Brand Concierge](https://experienceleague.adobe.com/en/docs/brand-concierge/content/documentation/overview) na Adobe Experience League.

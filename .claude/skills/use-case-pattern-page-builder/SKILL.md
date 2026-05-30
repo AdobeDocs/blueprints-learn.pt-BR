@@ -1,7 +1,7 @@
 ---
 name: use-case-pattern-page-builder
 description: 'Criação de guia de novo conteúdo padrão de caso de uso para o repositório de blueprints do Adobe Experience Platform. Use essa habilidade ao adicionar um novo padrão de caso de uso, criar conteúdo de orientação de implementação ou quando o usuário mencionar adicionar padrões ao site de blueprints. Lida com o fluxo de trabalho completo: coleta de informações de padrão, geração do arquivo do Markdown com a estrutura de modelo correta e atualização de todas as páginas de referência cruzada (TOC.md, overview.md).'
-source-git-commit: 2577bb034012a78fd30a65b7b44196b91921923e
+source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 94%
@@ -68,15 +68,15 @@ Use o modelo de `references/pattern-template.md` e preencha todos os valores de 
 
 2. **Seção de abertura** — cabeçalho `# {Pattern name}` seguido de um parágrafo de introdução e a mensagem &quot;Use este guia para entender...&quot; sentença.
 
-3. **Visão geral do caso de uso** — 3 a 5 parágrafos que descrevem o escopo do padrão, quando ele se aplica, o que ele faz ou não faz e quem são os participantes típicos.
+3. **Padrão de caso de uso** — Parágrafo de descrição e plano de execução.
 
-4. **Principais objetivos de negócios** — cada objetivo como um cabeçalho vinculado com uma breve descrição e uma linha de resumo de KPIs.
+4. **Visão geral do caso de uso** — 3 a 5 parágrafos que descrevem o escopo do padrão, quando ele se aplica, o que ele faz ou não faz e quem são os participantes típicos.
 
-5. **Exemplo de casos de uso tático** — Lista com marcadores de 6 a 10 cenários.
+5. **Principais objetivos de negócios** — cada objetivo como um cabeçalho vinculado com uma breve descrição e uma linha de resumo de KPIs.
 
-6. **Indicadores-chave de desempenho** — Tabela com KPI, Descrição, Colunas de medição.
+6. **Exemplo de casos de uso tático** — Lista com marcadores de 6 a 10 cenários.
 
-7. **Padrão de caso de uso** — Parágrafo de descrição e plano de execução.
+7. **Indicadores-chave de desempenho** — Tabela com KPI, Descrição, Colunas de medição.
 
 8. **Aplicativos** — Lista de aplicativos do Adobe com formatação e descrições `[!DNL ...]`.
 
@@ -132,7 +132,7 @@ Depois que todos os arquivos forem criados e atualizados, verifique o seguinte:
 
 5. **Integridade do Frontmatter** — O arquivo padrão inclui título, descrição, solução e exl-id no frontmatter do YAML.
 
-6. **Links do Experience League** — Verifique se todas as URLs do Experience League são plausíveis (comece com `https://experienceleague.adobe.com/pt-br`).
+6. **Links do Experience League** — Verifique se todas as URLs do Experience League são plausíveis (comece com `https://experienceleague.adobe.com/`).
 
 Relate quaisquer falhas de validação ao usuário e corrija-as antes de considerar a tarefa como concluída.
 
