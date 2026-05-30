@@ -99,8 +99,8 @@ Os KPIs a seguir ajudam a medir o sucesso desse padrão de caso de uso.
 
 Os aplicativos a seguir são usados neste padrão de caso de uso.
 
-- **[!DNL Customer Journey Analytics](CJA)** — Conexões, visualizações de dados, análise de espaço de trabalho, análise guiada, métricas computadas, painéis, publicação de público e análise de conteúdo
-- **[!DNL Adobe Experience Platform](AEP)** — Data lake, conjuntos de dados, esquemas XDM, dados de perfil e evento que alimentam conexões do CJA
+- **[!DNL Customer Journey Analytics] (CJA)** — Conexões, visualizações de dados, análise de espaço de trabalho, análise guiada, métricas computadas, painéis, publicação de público e análise de conteúdo
+- **[!DNL Adobe Experience Platform] (AEP)** — Data lake, conjuntos de dados, esquemas XDM, dados de perfil e evento que alimentam conexões do CJA
 
 ## Documentação relacionada
 

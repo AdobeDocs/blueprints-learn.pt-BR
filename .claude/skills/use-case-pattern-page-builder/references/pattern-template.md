@@ -9,7 +9,7 @@ ht-degree: 48%
 
 Esse arquivo contém o modelo de marcação completo para uma página de padrão de caso de uso. Substituir todos os valores de `{{placeholder}}` pelo conteúdo real ao gerar um novo padrão.
 
----
+&#x200B;---
 
 ## Modelo
 
@@ -103,7 +103,7 @@ The following resources provide additional detail on the capabilities used in th
 - [{{Link text}}]({{URL}})
 ````
 
----
+&#x200B;---
 
 ## Observações sobre o uso deste modelo
 

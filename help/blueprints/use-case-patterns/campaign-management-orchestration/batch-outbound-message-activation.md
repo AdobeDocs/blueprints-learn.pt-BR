@@ -88,9 +88,9 @@ A tabela a seguir define os KPIs usados para medir a eficácia da campanha.
 
 Os aplicativos a seguir são usados para implementar esse padrão.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — Criação de mensagens, configuração de canal, execução de campanha, orquestração de jornadas, experimentação de conteúdo, regras de frequência e relatórios
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Avaliação de público, consentimento e imposição de governança
-- **[!DNL Adobe Experience Platform](AEP)** — Armazenamento de perfil, serviço de identidade, esquemas, conjuntos de dados, coleta de dados
+- **[!DNL Adobe Journey Optimizer] (AJO)** — Criação de mensagens, configuração de canal, execução de campanha, orquestração de jornadas, experimentação de conteúdo, regras de frequência e relatórios
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Avaliação de público, consentimento e imposição de governança
+- **[!DNL Adobe Experience Platform] (AEP)** — Armazenamento de perfil, serviço de identidade, esquemas, conjuntos de dados, coleta de dados
 
 ## Documentação relacionada
 
