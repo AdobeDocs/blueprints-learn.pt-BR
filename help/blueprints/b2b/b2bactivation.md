@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 95ba7aa681e67efb136adac15dc7894cb413a4f0
+source-git-commit: b8b25146021472c6f513435df8e3be88254d9c3f
 workflow-type: tm+mt
-source-wordcount: 1034
+source-wordcount: 1036
 ht-degree: 52%
 
 ---
@@ -34,7 +34,7 @@ Use as informações de conta, oportunidade e lead vinculadas a um cliente indiv
 
 * Crie públicos-alvo de pessoas para direcionamento e personalização nos canais em relação a dados B2B, incluindo contas, oportunidades e leads.
 * Ative públicos-alvo para quaisquer destinos da Experience Platform para direcionamento e personalização.
-* Crie públicos-alvo de contas (por exemplo, listas de empresas) e direcione essas empresas por meio de destinos como o LinkedIn, que aceitam listas de empresas como entrada ou exportação para destinos de armazenamento em nuvem para direcionamento e alcance de vendas.
+* Crie públicos-alvo de contas (por exemplo, listas de empresas) e direcione essas empresas por meio de destinos como LinkedIn ou armazenamento em nuvem. Para obter detalhes, requisitos e medidas de proteção de conta-público, consulte [Ativação de conta B2B para destinos e destinos de arquivo do Advertising](b2b-account-activation.md).
 
 ## Aplicativos
 
