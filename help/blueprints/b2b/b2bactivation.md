@@ -114,8 +114,8 @@ Se a implementação usar o Marketo Engage como uma origem e o Marketo Engage es
 ## Documentação relacionada
 
 * [B2B edition da Plataforma de dados do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/b2b-overview.html?lang=pt-BR)
-* [Introdução à Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
-* [Medidas de proteção para a Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
+* [Introdução à Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial)
+* [Medidas de proteção para a Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails)
 * [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [Marketo Engage](https://experienceleague.adobe.com/docs/marketo/using/home.html?lang=pt-BR)
 * [Adobe Experience Platform - Conector Source do Marketo](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo.html?lang=pt-BR)
