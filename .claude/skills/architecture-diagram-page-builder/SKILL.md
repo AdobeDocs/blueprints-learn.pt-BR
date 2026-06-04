@@ -174,7 +174,7 @@ Depois que todos os arquivos forem criados e atualizados, verifique o seguinte e
 
 2. **Links padrão de caso de uso** — Cada link padrão no arquivo aponta para um arquivo de Markdown existente em `/help/blueprints/use-case-patterns/`. Use `Read` ou glob para confirmar se cada destino existe.
 
-3. **Links do Experience League** — Verifique se cada URL na seção `## Further reading` começa com `https://experienceleague.adobe.com/`.
+3. **Links do Experience League** — Verifique se cada URL na seção `## Further reading` começa com `https://experienceleague.adobe.com/pt-br`.
 
 4. **Posicionamento da entrada do índice** — A nova entrada está dentro da subseção correta, usa recuo de quatro espaços e o caminho corresponde exatamente ao local do arquivo gerado.
 
