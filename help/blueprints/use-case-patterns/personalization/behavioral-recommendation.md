@@ -3,9 +3,9 @@ title: Recomendação comportamental
 description: Saiba como gerar recomendações de item e conteúdo usando estratégias de seleção e modelos de classificação.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+source-git-commit: 9ea30e48ec0fade2f9a97b185e35fbfa93f49c43
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1652'
 ht-degree: 5%
 
 ---
@@ -36,19 +36,25 @@ O público-alvo para esse padrão inclui equipes de merchandising de comércio e
 
 Os seguintes objetivos de negócios são compatíveis com esse padrão de caso de uso.
 
-### [Impulsionar vendas cruzadas e vendas adicionais](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
+### Impulsionar a venda cruzada e a receita de venda adicional
+
+[Impulsionar a venda cruzada e a receita de venda adicional](../../business-objectives/revenue-monetization/drive-cross-sell-upsell-revenue.md)
 
 Promova produtos ou serviços complementares e premium para os clientes existentes com base no histórico de comportamento e de compras.
 
 **KPIs:** % de venda adicional/venda cruzada, Receita incremental, Valor vitalício do cliente
 
-### [Aumentar taxas de conversão](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
+### Aumentar as taxas de conversão
+
+[Aumentar as taxas de conversão](../../business-objectives/revenue-monetization/increase-conversion-rates.md)
 
 Melhore a porcentagem de visitantes e prospetos que concluem as ações desejadas, como compras, inscrições ou envios de formulários.
 
 **KPIs:** Taxas de Conversão, Conversão de Cliente Potencial, Custo por Cliente Potencial
 
-### [Fornecer experiências personalizadas ao cliente](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
+### Fornecer experiências personalizadas ao cliente
+
+[Fornecer experiências personalizadas ao cliente](../../business-objectives/customer-experience/deliver-personalized-customer-experiences.md)
 
 Personalize conteúdo, ofertas e mensagens para preferências individuais, comportamentos e estágios do ciclo de vida.
 
