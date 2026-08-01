@@ -20,7 +20,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a99add31cc9f485db119ca00426798545e6a7316
+source-git-commit: 4134ba7db88206379e267841a4642c555a7e56d5
 workflow-type: tm+mt
 source-wordcount: 486
 ht-degree: 14%
@@ -72,4 +72,4 @@ As seguintes páginas fornecem informações sobre medidas de proteção para re
 
 O diagrama a seguir descreve as latências observadas de borda e hub principais a serem observadas ao projetar o caso de uso no Experience Platform e nos aplicativos.
 
-![Latências observadas no Experience Platform [!DNL Edge Network] e no hub principal.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.svg "Latências observadas do Experience Platform Edge Network e do hub principal"){width="1000" zoomable="yes"}
+![Latências observadas no Experience Platform [!DNL Edge Network] e no hub principal.](/help/blueprints/experience-platform/assets/aep_edge_hub_latency_v1.png "Latências observadas do Experience Platform Edge Network e do hub principal"){width="1000" zoomable="yes"}
