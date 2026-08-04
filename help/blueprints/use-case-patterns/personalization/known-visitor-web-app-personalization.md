@@ -88,9 +88,9 @@ Os KPIs a seguir ajudam a medir a eficácia desse padrão de caso de uso.
 
 Os aplicativos a seguir são usados neste padrão de caso de uso.
 
-- **[!DNL Adobe Journey Optimizer](AJO)** — Configuração de canal da Web, configuração de canal no aplicativo, configuração de canal de cartão de conteúdo, decisão (seleção e classificação de ofertas), criação de mensagens (criação de conteúdo personalizado), execução de campanha, experimentação de conteúdo e relatórios
-- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Avaliação de público (borda, streaming e lote), pesquisa de perfil em tempo real via Edge Network, enriquecimento de perfil com atributos computados e pontuações de propensão
-- **[!DNL Adobe Experience Platform](AEP)** — Armazenamento de perfil, serviço de identidade, SDK da Web, SDK Móvel, configuração de sequência de dados, entrega de rede de borda
+- **[!DNL Adobe Journey Optimizer] (AJO)** — Configuração de canal da Web, configuração de canal no aplicativo, configuração de canal de cartão de conteúdo, decisão (seleção e classificação de ofertas), criação de mensagens (criação de conteúdo personalizado), execução de campanha, experimentação de conteúdo e relatórios
+- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Avaliação de público (borda, streaming e lote), pesquisa de perfil em tempo real via Edge Network, enriquecimento de perfil com atributos computados e pontuações de propensão
+- **[!DNL Adobe Experience Platform] (AEP)** — Armazenamento de perfil, serviço de identidade, SDK da Web, SDK Móvel, configuração de sequência de dados, entrega de rede de borda
 
 ## Documentação relacionada
 
