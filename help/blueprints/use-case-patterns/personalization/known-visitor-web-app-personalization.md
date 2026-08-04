@@ -105,7 +105,7 @@ Os recursos a seguir fornecem detalhes adicionais sobre as tecnologias e configu
 ### Canais no aplicativo e de cartão de conteúdo
 
 - [Visão geral do canal no aplicativo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/in-app/get-started-in-app)
-- [Pré-requisitos do canal no aplicativo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
+- [Pré-requisitos do canal no aplicativo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/in-app/inapp-configuration)
 - [Criar mensagens no aplicativo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/in-app/create-in-app)
 - [Canal de cartão de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/get-started-content-card)
 - [Configuração do cartão de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/content-card/content-card-configuration)
