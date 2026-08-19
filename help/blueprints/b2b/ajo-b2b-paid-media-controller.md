@@ -1,16 +1,16 @@
 ---
-title: Controlador de mídia paga B2B do AJO
+title: Conta Journey Orchestration - Controlador de mídia paga
 description: Prioridade de campanhas e ativação de contas para destinos de Mídia paga
 solution: Journey Optimizer B2B Edition
 exl-id: a4f4982f-2b56-4ce2-9c16-abdf627f97de
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 796e113c40b6b4e8b56e5fbbd22122c066c30c6f
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
 
-# AJO B2B - Account Journey Orchestration - Controlador de mídia paga
+# Conta Journey Orchestration - Controlador de mídia paga
 
 >[!TIP]
 >Este blueprint também está disponível como um [padrão de caso de uso](/help/blueprints/use-case-patterns/b2b/paid-media-orchestration.md) em Ativação e marketing B2B.
@@ -71,14 +71,14 @@ Fluxo de alto nível:
 
 ## Modelagem de dados no AEP B2B
 
-Com qualquer orquestração orientada por dados, o design do esquema é importante. Os perfis de conta e pessoa no AEP/RTCDP devem incluir os atributos usados em **condições de divisão de caminho** (por exemplo, sinalizador de busca, interesse em soluções, persona, categoria de intenção, pontuação de envolvimento). Os esquemas B2B (Conta comercial XDM, Perfil individual XDM, relacional) devem representar sua hierarquia e fontes de dados. Para obter detalhes, consulte a [documentação sobre esquemas B2B do RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) e a [documentação B2B do AJO](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/home).
+Com qualquer orquestração orientada por dados, o design do esquema é importante. Os perfis de conta e pessoa no AEP/RTCDP devem incluir os atributos usados em **condições de divisão de caminho** (por exemplo, sinalizador de busca, interesse em soluções, persona, categoria de intenção, pontuação de envolvimento). Os esquemas B2B (Conta comercial XDM, Perfil individual XDM, relacional) devem representar sua hierarquia e fontes de dados. Para obter detalhes, consulte [esquemas B2B do RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) e [documentação do Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/guide-overview).
 
 **Observação:** a lógica de divisão de caminho na jornada usa dados de perfil e, quando houver suporte, dados relacionais; verifique se os campos necessários para a lógica de cascata estão disponíveis na jornada.
 
 ### Medidas de proteção
 
-- **Journey Optimizer B2B edition** — Consulte a [descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html) para obter limites de jornada, limites de nó e suporte de destino.
-- **Real-Time CDP** — Consulte [medidas de proteção da RTCDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/guardrails/overview) para obter limites de segmentação e ativação.
+- **Journey Optimizer B2B edition** — Consulte a [descrição do produto](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html) para obter limites de jornada, limites de nó e suporte de destino.
+- **Real-Time CDP** — Consulte [medidas de proteção da RTCDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview) para obter limites de segmentação e ativação.
 
 ## Implementação
 
@@ -131,6 +131,6 @@ O blueprint do **Controlador de mídia paga** mostra como o **AJO B2B e o AEP** 
 
 ## Documentação relacionada
 
-- [Blueprint de Marketing baseado em grupo e de Gerenciamento de Jornadas](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — jornadas de conta e grupo de compras no AJO B2B.
-- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b) — Documentação do produto.
+- [Blueprint de Marketing baseado em grupo e de Gerenciamento de Jornadas](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-buying-group-journeys) — jornadas de conta e grupo de compras no AJO B2B.
+- [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b) — Documentação do produto.
 - [Real-time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/b2b-overview) — Públicos-alvo e ativação de conta.
