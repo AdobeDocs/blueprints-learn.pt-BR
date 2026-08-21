@@ -19,10 +19,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 213e2d7d73d91fa7b487289dfe62685bc32d5029
+source-git-commit: b3bc4a99bf083cccc5cec076caf7faa2d8258501
 workflow-type: tm+mt
-source-wordcount: 2322
-ht-degree: 0%
+source-wordcount: 2351
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ As etapas a seguir fornecem orientação para habilitar grupos de compra em sua 
 
    Como primeira etapa, você define e cria um esquema de experiência projetado para atender às necessidades do caso de uso B2B e abranger as fontes de dados, tanto em lote quanto em tempo real. Esse design deve representar a maneira como a empresa está pensando nas entidades de conta e pessoa e nos casos de uso que você deseja suportar. Para que o esquema seja um esquema B2B, o esquema deve seguir as estruturas disponíveis na [documentação do Esquema B2B do RTCDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/relationship-b2b).
 
-   Uma prática útil é pegar os nomes das entidades do diagrama e identificá-las no esquema rotulando-as da mesma maneira. Observe que alguns esquemas exigem chaves específicas, como `sourceKey`, para funcionar no RTCDP B2B. A curto prazo, a relação _Muitos para Muitos_ entre conta e pessoa por meio do Relacionamento Conta-Pessoa não é compatível com o Journey Optimizer B2B. Use os scripts do acelerador para o melhor ponto de partida:
+   Uma prática útil é pegar os nomes das entidades do diagrama e identificá-las no esquema rotulando-as da mesma maneira. Observe que alguns esquemas exigem chaves específicas, como `sourceKey`, para funcionar no RTCDP B2B.  Use os scripts do acelerador para o melhor ponto de partida:
 
    * Use o [script de criação de esquema B2B do RTCDP](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility) para gerar o esquema inicial
    * Adicione campos específicos do caso de uso aos esquemas gerados para concluir o esquema de acordo com a necessidade da organização.
