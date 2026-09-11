@@ -55,7 +55,7 @@ Você pode clicar no botão de alternância na parte superior para **excluir eve
 
 3 eventos externos
 
-5. Clique na guia **Email** (no painel esquerdo)
+&#x200B;5. Clique na guia **Email** (no painel esquerdo)
    - **Email - Desempenho de Envio**
      - Você vê alguns valores para **Entregue** e **Enviado** (a contagem dependerá de quantos eventos você enviou, erros etc.)
      - Esperamos que você não tenha erros (a menos que tenha encontrado alguns problemas anteriormente)
@@ -64,7 +64,7 @@ Você pode clicar no botão de alternância na parte superior para **excluir eve
 
    ![Guia Email mostrando desempenho e estatísticas de envio](assets/validate-journey-email-tab-sending-performance.png)
 
-6. Verifique sua **caixa de entrada de email** e veja se recebeu o email (ele é semelhante a este abaixo)
+&#x200B;6. Verifique sua **caixa de entrada de email** e veja se recebeu o email (ele é semelhante a este abaixo)
    - *,* seu pedido enviou ETA: *10/17/2026* Número de Rastreamento: *051009364*
 
    >[!NOTE]
@@ -81,7 +81,7 @@ Você pode clicar no botão de alternância na parte superior para **excluir eve
 
 
 
-7. *Após 30-60 minutos*, você pode até mesmo verificar seu conjunto de dados no data lake com o seguinte: **Consultas** -> **Criar Consulta** -> **Copiar/Colar SQL** -> **Executar**
+&#x200B;7. *Após 30-60 minutos*, você pode até mesmo verificar seu conjunto de dados no data lake com o seguinte: **Consultas** -> **Criar Consulta** -> **Copiar/Colar SQL** -> **Executar**
 
 >[!NOTE]
 >

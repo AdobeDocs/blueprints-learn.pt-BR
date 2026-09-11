@@ -134,17 +134,17 @@ Este público-alvo deve ser direto.  Podemos ter várias páginas de produtos, m
 
 
 
-5. Forneça uma descrição.
+&#x200B;5. Forneça uma descrição.
 
-6. Alterar para streaming
+&#x200B;6. Alterar para streaming
 
-7. Salvar como &quot;*Página do iPhone 14 Visitada, mas Não Proprietária/Ordenada*&quot;
+&#x200B;7. Salvar como &quot;*Página do iPhone 14 Visitada, mas Não Proprietária/Ordenada*&quot;
 
-8. Clique no botão azul **Ativar público-alvo** para destino
+&#x200B;8. Clique no botão azul **Ativar público-alvo** para destino
 
-9. Selecione o Destino do **Webhook de DEP de Streaming** e clique em Próximo
+&#x200B;9. Selecione o Destino do **Webhook de DEP de Streaming** e clique em Próximo
 
-10. Clique em Avançar e Concluir
+&#x200B;10. Clique em Avançar e Concluir
 
 >[!NOTE]
 >

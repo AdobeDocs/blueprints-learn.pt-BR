@@ -25,7 +25,7 @@ Neste caso de uso, não há muito trabalho prévio a ser feito. Basicamente, tem
 
 
 
-3. Procure por &quot;uso&quot; em Eventos.  Clique no &quot;i&quot; para analisar a descrição (não há nenhuma).
+&#x200B;3. Procure por &quot;uso&quot; em Eventos.  Clique no &quot;i&quot; para analisar a descrição (não há nenhuma).
 
 ![Procurar uso em Eventos - nenhuma descrição mostrada](assets/pre-work-search-usage-in-events.png)
 

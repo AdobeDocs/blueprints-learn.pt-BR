@@ -69,27 +69,27 @@ Esta etapa demonstra como os modelos podem ser reutilizados em jornadas, permiti
 
 ![Editar opção de email para a atividade de email da campanha](assets/creating-the-email-click-edit-email.png)
 
-11. Clique na **guia Ação** e selecione **sua** configuração de email. Sua sandbox pode mostrar isso como Email relacional. (Selecione qualquer)
+&#x200B;11. Clique na **guia Ação** e selecione **sua** configuração de email. Sua sandbox pode mostrar isso como Email relacional. (Selecione qualquer)
 
 ![Guia Ação com a configuração de email selecionada](assets/creating-the-email-action-tab-email-configuration.png)
 
-12. Clique na **guia Conteúdo**
+&#x200B;12. Clique na **guia Conteúdo**
 
 ![Guia Conteúdo no editor de email](assets/creating-the-email-click-content-tab.png)
 
-13. Clique em **Aplicar modelo de conteúdo**
+&#x200B;13. Clique em **Aplicar modelo de conteúdo**
 
 ![Aplicar a opção Modelo de Conteúdo no editor de email](assets/creating-the-email-click-apply-content-template.png)
 
-14. Selecione o modelo **&quot;Modelo Promocional&quot;** que você criou e clique em **Confirmar**
+&#x200B;14. Selecione o modelo **&quot;Modelo Promocional&quot;** que você criou e clique em **Confirmar**
 
 ![Selecionar o Modelo Promocional e clicar em Confirmar](assets/creating-the-email-select-promotional-template-confirm.png)
 
-15. Clique em **Editar corpo do email**
+&#x200B;15. Clique em **Editar corpo do email**
 
 ![Editar opção de corpo de email após aplicar o modelo](assets/creating-the-email-click-edit-email-body.png)
 
-16. Confirme se os novos blocos de cabeçalho, herói, rodapé e conteúdo são exibidos corretamente.
+&#x200B;16. Confirme se os novos blocos de cabeçalho, herói, rodapé e conteúdo são exibidos corretamente.
 
 ![Blocos de cabeçalho, cabeçalho, rodapé e conteúdo que aparecem corretamente no email](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 

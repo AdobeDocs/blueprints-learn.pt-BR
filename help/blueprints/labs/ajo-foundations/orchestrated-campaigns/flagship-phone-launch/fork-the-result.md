@@ -25,7 +25,7 @@ Esta etapa é simples, pois tudo o que você deseja fazer é adicionar uma ativi
 
 ## Criar a bifurcação
 
-1. Na tela do fluxo de trabalho, clique no ícone **+** **3} após a atividade Criar público-alvo e selecione a** Atividade de bifurcação ****
+1. Na tela do fluxo de trabalho, clique no ícone **+** **3&rbrace; após a atividade Criar público-alvo e selecione a** Atividade de bifurcação **&#x200B;**
 
    ![Adicionar uma atividade de bifurcação após a atividade de compilação de público-alvo](assets/fork-the-result-add-fork-activity.png)
 

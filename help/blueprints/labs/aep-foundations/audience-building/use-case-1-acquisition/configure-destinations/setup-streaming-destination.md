@@ -62,7 +62,7 @@ Na interface do Experience Platform, navegue até o catálogo de destinos fazend
 
 
 
-3. Preencha os detalhes de configuração do seu destino da seguinte maneira:
+&#x200B;3. Preencha os detalhes de configuração do seu destino da seguinte maneira:
 
 - **Nome** -> `Streaming DEP Webhook - [Your Initials]`
 - **Descrição** -> `[your webhook endpoint you copied above]`

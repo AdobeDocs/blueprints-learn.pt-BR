@@ -68,7 +68,7 @@ Observe também como cada campo específico da folha de mapeamento é fundamenta
 
 
 
-2. Atualize os `title` e `description` para o grupo de campos usando o seguinte formato: `Customer Account Details - Sandbox <your number here>`
+&#x200B;2. Atualize os `title` e `description` para o grupo de campos usando o seguinte formato: `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -76,9 +76,9 @@ Observe também como cada campo específico da folha de mapeamento é fundamenta
 
 
 
-3. Execute clicando no botão `Send`.  Você deve ver uma resposta semelhante à captura de tela abaixo.
+&#x200B;3. Execute clicando no botão `Send`.  Você deve ver uma resposta semelhante à captura de tela abaixo.
 
-4. Copie o valor `$id` do grupo de campos Detalhes da Conta do Cliente recém-criado.
+&#x200B;4. Copie o valor `$id` do grupo de campos Detalhes da Conta do Cliente recém-criado.
 
 ![Resposta de API bem-sucedida após a criação do grupo de campos personalizado](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "Etapa 2 - Êxito ao Criar Grupo de Campos Personalizado")
 

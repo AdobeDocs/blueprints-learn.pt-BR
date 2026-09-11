@@ -108,15 +108,15 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-5. Clique em Audiences —> Experience Platform. Arraste a Soma de Uso de Faturamento > 140 GB e a Média de Uso de Faturamento >= 20 GB ao lado do Nome do Plano.
+&#x200B;5. Clique em Audiences —> Experience Platform. Arraste a Soma de Uso de Faturamento > 140 GB e a Média de Uso de Faturamento >= 20 GB ao lado do Nome do Plano.
 
    ![Arraste os públicos-alvo de uso de cobrança ao lado do Nome do Plano](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-6. Copiar o pseudo código na descrição
+&#x200B;6. Copiar o pseudo código na descrição
 
-7. Marque esta opção para Streaming. **Não pode ser Streaming**. Faça algumas alterações:
+&#x200B;7. Marque esta opção para Streaming. **Não pode ser Streaming**. Faça algumas alterações:
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-8. Substituir **Nome do Plano (Nome do Plano)** por: Perfil Individual XDM > Devbc > Detalhes do Plano > **Nome do Plano**
+&#x200B;8. Substituir **Nome do Plano (Nome do Plano)** por: Perfil Individual XDM > Devbc > Detalhes do Plano > **Nome do Plano**
 
    ![Substituir o Nome do Plano (Nome do Plano) pelo campo Nome do Plano desnormalizado](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -142,7 +142,7 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-9. Valide se agora você pode salvar como Transmissão. Salvar público como &quot;*Uso alto de dados de cobrança, mas nenhum plano Ultimate*&quot;
+&#x200B;9. Valide se agora você pode salvar como Transmissão. Salvar público como &quot;*Uso alto de dados de cobrança, mas nenhum plano Ultimate*&quot;
 
 >[!NOTE]
 >

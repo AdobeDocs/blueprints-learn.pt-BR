@@ -102,14 +102,14 @@ Comece com o perfil do Bob.
 
 ![A exibição do Edge do perfil de Bob ainda não mostra nenhuma associação de público-alvo](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-11. Em uma nova guia do navegador, navegue até a Jornada criada e clique nela. Você pode ver que um perfil entrou na Jornada e agora está no nó CBE.
+&#x200B;11. Em uma nova guia do navegador, navegue até a Jornada criada e clique nela. Você pode ver que um perfil entrou na Jornada e agora está no nó CBE.
 
 ![Tela de Jornada mostrando o perfil de Bob inserido e no nó CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
 Neste ponto, Bob entrou na Jornada e a projeção do Edge está montando uma projeção que atualiza o perfil de Bob na Edge.
 
-12. Volte para o Postman e clique na segunda das chamadas de evento de experiência do Bob, **Bob - Busca no Topo da Página.**
-13. Clique em **Enviar**. O que deveria acontecer?
+&#x200B;12. Volte para o Postman e clique na segunda das chamadas de evento de experiência do Bob, **Bob - Busca no Topo da Página.**
+&#x200B;13. Clique em **Enviar**. O que deveria acontecer?
     - Se o perfil do Edge de Bob ainda não tiver sido atualizado, você receberá uma resposta muito semelhante ao que recebeu da chamada de Coleta de dados. Se esse for o caso, aguarde mais um ou dois minutos e tente enviar a chamada de Bob&#39;s Page Top Fetch novamente.
     - Se o perfil do Edge de Bob foi atualizado, você receberá uma resposta com o JSON que foi configurado anteriormente, juntamente com informações adicionais usadas para os relatórios. Mas, antes de seguir em frente, que oferta do iPhone 17 Bob deve ser oferecido?
 
@@ -117,19 +117,19 @@ Neste ponto, Bob entrou na Jornada e a projeção do Edge está montando uma pro
 
 ![Resposta do Postman mostrando a oferta da camada Base retornada para Bob](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
 
-14. Lembre-se de que essa solicitação do Postman envia automaticamente uma notificação de exibição para essa oferta. Portanto, o AJO já gravou pelo menos uma impressão para essa oferta. Clique em **Enviar** novamente para enviar uma segunda impressão. Verifique se a oferta base foi retornada novamente.
-15. Lembre-se de que um limite de frequência de 3 impressões se aplica aos modelos de nível Base, Pro e Ultra. Clique em **Enviar** pela terceira vez para obter uma terceira resposta com a camada Base e gravar outra impressão.
-16. Clique em **Enviar** uma quarta vez e o que deve acontecer? O limite de frequência para a oferta da camada Base é atingido e você recebe a oferta Genérica na resposta:
+&#x200B;14. Lembre-se de que essa solicitação do Postman envia automaticamente uma notificação de exibição para essa oferta. Portanto, o AJO já gravou pelo menos uma impressão para essa oferta. Clique em **Enviar** novamente para enviar uma segunda impressão. Verifique se a oferta base foi retornada novamente.
+&#x200B;15. Lembre-se de que um limite de frequência de 3 impressões se aplica aos modelos de nível Base, Pro e Ultra. Clique em **Enviar** pela terceira vez para obter uma terceira resposta com a camada Base e gravar outra impressão.
+&#x200B;16. Clique em **Enviar** uma quarta vez e o que deve acontecer? O limite de frequência para a oferta da camada Base é atingido e você recebe a oferta Genérica na resposta:
 
 ![Resposta do Postman mostrando a oferta Genérica retornada após o limite de frequência ser atingido](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-17. Clique em **Enviar** novamente e você verá a oferta da camada Genérica. Você pode clicar em Enviar mais 100 vezes e receber a mesma oferta de volta até o dia seguinte, quando o limite de frequência for redefinido.
+&#x200B;17. Clique em **Enviar** novamente e você verá a oferta da camada Genérica. Você pode clicar em Enviar mais 100 vezes e receber a mesma oferta de volta até o dia seguinte, quando o limite de frequência for redefinido.
 
 >[!WARNING]
 >
 >Lembre-se de que no AJO, o dia é reiniciado à meia-noite GMT. Se você enviasse outra chamada de busca após a meia-noite GMT, veria a oferta da camada base retornar.
 
-18. Retorne à interface do usuário do Journey Orchestration e clique na Jornada **Abandonar navegação do iPhone 17** que você criou. Como a Jornada é publicada e publicada em tempo real, você começa a ver as estatísticas. Você pode ver que 1 perfil entrou na Jornada e está atualmente no nó CBE.
+&#x200B;18. Retorne à interface do usuário do Journey Orchestration e clique na Jornada **Abandonar navegação do iPhone 17** que você criou. Como a Jornada é publicada e publicada em tempo real, você começa a ver as estatísticas. Você pode ver que 1 perfil entrou na Jornada e está atualmente no nó CBE.
 
 ![Relatórios de Jornada mostrando um perfil atualmente no nó CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 

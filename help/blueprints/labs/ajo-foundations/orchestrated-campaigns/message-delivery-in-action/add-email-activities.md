@@ -72,7 +72,7 @@ No próximo conjunto de etapas, você aproveitará a campanha para adicionar dua
 
 ![Caixa de diálogo de confirmação com o botão Salvar e fechar](assets/add-email-activities-save-and-close-dialog.png)
 
-11. Revise as propriedades e ações de Email, incluindo o texto adicionado ao corpo do Email. Clique na **seta para a esquerda** para voltar para a tela de campanha
+&#x200B;11. Revise as propriedades e ações de Email, incluindo o texto adicionado ao corpo do Email. Clique na **seta para a esquerda** para voltar para a tela de campanha
 
 ![Voltar para a tela do Campaign](assets/add-email-activities-back-to-campaign-canvas.png)
 

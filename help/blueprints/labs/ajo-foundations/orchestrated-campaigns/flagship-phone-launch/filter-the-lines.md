@@ -112,7 +112,7 @@ Então como você faz isso funcionar?  Adicionar uma dimensão de alteração �
 
 
 
-2. Na tela do fluxo de trabalho, clique no ícone **+** **3} entre as atividades de Filtro e SMS e selecione** Alterar Dimensão **.**
+2. Na tela do fluxo de trabalho, clique no ícone **+** **3&rbrace; entre as atividades de Filtro e SMS e selecione** Alterar Dimensão **.**
 
    ![Adicionar uma atividade Change Dimension entre Filtro e SMS](assets/filter-the-lines-add-change-dimension.png)
 

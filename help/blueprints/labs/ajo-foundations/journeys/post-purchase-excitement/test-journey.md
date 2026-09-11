@@ -105,16 +105,16 @@ Você deve ver algo como isso no log:
 
 
 
-8. **Fechar** a **guia** do Navegador
-9. **Fechar Modo de Teste** no canto superior direito
+&#x200B;8. **Fechar** a **guia** do Navegador
+&#x200B;9. **Fechar Modo de Teste** no canto superior direito
 
    ![Botão Fechar Modo de Teste na parte superior direita](assets/test-journey-close-test-mode.png)
 
-10. Clique em **Publicar** a Jornada no canto superior direito
+&#x200B;10. Clique em **Publicar** a Jornada no canto superior direito
 
 ![Botão Publicar para a Jornada na parte superior direita](assets/test-journey-publish-journey.png)
 
-11. **Feche** a **Jornada** clicando na seta \&lt;- na parte superior esquerda
+&#x200B;11. **Feche** a **Jornada** clicando na seta \&lt;- na parte superior esquerda
 
 ![Seta para trás na parte superior esquerda para fechar a Jornada](assets/test-journey-close-journey-back-arrow.png)
 

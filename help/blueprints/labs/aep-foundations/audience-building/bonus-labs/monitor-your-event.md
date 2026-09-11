@@ -39,21 +39,21 @@ O [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/pt-br
 
    ![Clique em Avançar depois de inserir o nome da sessão e a URL](assets/monitor-your-event-click-next-button.png)
 
-4. Copie o link em algum lugar que possa ser referenciado mais tarde
+&#x200B;4. Copie o link em algum lugar que possa ser referenciado mais tarde
 
-5. Clique no botão **Concluído**
+&#x200B;5. Clique no botão **Concluído**
 
    ![Copie o link da sessão do Assurance e clique em Concluído](assets/monitor-your-event-copy-link.png)
 
 
 
-6. Navegue até **Configurações**
+&#x200B;6. Navegue até **Configurações**
 
    ![Navegue até a guia Configurações na sessão do Assurance](assets/monitor-your-event-navigate-to-settings.png "Clique nas configurações")
 
 
 
-7. Habilite **Transações de Evento** e **Edge Delivery** clicando no botão **+** e **Concluído**
+&#x200B;7. Habilite **Transações de Evento** e **Edge Delivery** clicando no botão **+** e **Concluído**
 
 ![Habilite as Transações de Evento e o Edge Delivery e clique em Concluído](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)
 
@@ -62,14 +62,14 @@ O [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/pt-br
 
 Acesse Postman -> Criar Edge de evento da Web (Sem autenticação) -> Cabeçalhos
 
-1. Adicione o **x-adobe-aep-validation-token** aos cabeçalhos com o link copiado acima do Assurance. Pegue **apenas o valor de ID** depois de = no link copiado do Assurance. ex.: [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)[`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
+1. Adicione o **x-adobe-aep-validation-token** aos cabeçalhos com o link copiado acima do Assurance. Pegue **apenas o valor de ID** depois de = no link copiado do Assurance. ex.: [https://www.adobe.com/?adb\_validation\_sessionid=](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0) [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0)
 1. Usaríamos apenas o valor [`efa4a9ed-02d8-4647-80fa-f01a5be273d0`](https://www.adobe.com/?adb_validation_sessionid=efa4a9ed-02d8-4647-80fa-f01a5be273d0), não a URL completa
 
    ![Adicione o cabeçalho x-adobe-aep-validation-token com a ID de sessão do Assurance no Postman](assets/monitor-your-event-populate-the-x-adobe-aep-validation-token.png)
 
 
 
-3. No Postman, salve e execute a solicitação **Criar Edge de Eventos da Web (Sem Autenticação)**
+&#x200B;3. No Postman, salve e execute a solicitação **Criar Edge de Eventos da Web (Sem Autenticação)**
 
 
 

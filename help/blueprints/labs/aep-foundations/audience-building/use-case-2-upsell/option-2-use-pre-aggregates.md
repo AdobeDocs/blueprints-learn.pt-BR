@@ -36,15 +36,15 @@ Crie um público-alvo de todos os perfis cujo uso de dados de faturamento é alt
 
 
 
-3. Procure o Nome do plano no Perfil e adicione-o (Perfil individual XDM > Devbc > Detalhes do plano > Nome do plano). Select Does Not Equal &quot;Ultimate&quot; (Não é igual a &quot;&quot;)
+&#x200B;3. Procure o Nome do plano no Perfil e adicione-o (Perfil individual XDM > Devbc > Detalhes do plano > Nome do plano). Select Does Not Equal &quot;Ultimate&quot; (Não é igual a &quot;&quot;)
 
    ![Selecionar Nome do Plano Não É Igual a Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-4. Forneça uma descrição.  O método de avaliação de validação é Streaming.
+&#x200B;4. Forneça uma descrição.  O método de avaliação de validação é Streaming.
 
-5. Salve o Público como &quot;*Uso alto de dados de cobrança, mas sem plano Ultimate (Agg)*&quot;
+&#x200B;5. Salve o Público como &quot;*Uso alto de dados de cobrança, mas sem plano Ultimate (Agg)*&quot;
 
 >[!NOTE]
 >

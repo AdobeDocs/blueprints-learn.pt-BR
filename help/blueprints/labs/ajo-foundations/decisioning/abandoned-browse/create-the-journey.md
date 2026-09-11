@@ -77,16 +77,16 @@ ht-degree: 0%
 >
 >A oferta substituta é opcional porque só seria aplicável se os usuários finais pudessem ser (ou se tornarem) inelegíveis para qualquer uma das ofertas. No nosso caso, nossa estratégia de seleção era para todos os visitantes e as únicas pessoas que atingiriam o nó CBE eram aquelas que entraram na Jornada. Ser autenticado é um requisito para a entrada da Jornada (o namespace definido na Jornada é aquele que eles só teriam se estivessem autenticados). Também criamos uma oferta substituta em nossa fórmula de Classificação, portanto, em nosso caso, não há necessidade de definir essa oferta substituta.
 
-11. Clique no botão azul **Avançar** para revisar a política de decisão.
+&#x200B;11. Clique no botão azul **Avançar** para revisar a política de decisão.
 
 ![Revisar etapa da política de decisão antes de criá-la](assets/create-the-journey-review-decision-policy.png)
 
-12. Quando tudo estiver correto, clique no botão azul **Criar**. Depois de criada, você retornará à página do editor de expressão.
-13. Você deve ver uma tela semelhante à mostrada abaixo; caso contrário, clique em **Política de decisão** novamente e você verá sua política de decisão aparecer.
+&#x200B;12. Quando tudo estiver correto, clique no botão azul **Criar**. Depois de criada, você retornará à página do editor de expressão.
+&#x200B;13. Você deve ver uma tela semelhante à mostrada abaixo; caso contrário, clique em **Política de decisão** novamente e você verá sua política de decisão aparecer.
 
 ![O editor de expressão que mostra a política de decisão está pronto para ser inserido](assets/create-the-journey-decision-policy-ready.png)
 
-14. Clique no botão **+ Inserir política** e você verá um loop ForEach aparecer no editor de código:
+&#x200B;14. Clique no botão **+ Inserir política** e você verá um loop ForEach aparecer no editor de código:
 
 Loop ![ForEach inserido no editor de código após inserir a política de decisão](assets/create-the-journey-foreach-loop-inserted.png)
 
@@ -94,7 +94,7 @@ Loop ![ForEach inserido no editor de código após inserir a política de decis�
 >
 >Por que um loop for each? No nosso caso, estamos apenas retornando uma única oferta. No entanto, considere as etapas anteriores, em que poderíamos retornar várias ofertas. Ao considerar a funcionalidade, o mecanismo de loop aqui faz sentido.
 
-15. Adicione JSON válido dentro dos limites do loop para retornar a marca, o modelo e a camada do telefone que deve ser oferecida ao usuário final. Como o limite de frequência também está em vigor, um trackingToken precisa ser adicionado à resposta. Mais informações sobre isso posteriormente nas instruções. Para economizar tempo, basta copiar e colar essas linhas de código no editor de código no loop Para cada:
+&#x200B;15. Adicione JSON válido dentro dos limites do loop para retornar a marca, o modelo e a camada do telefone que deve ser oferecida ao usuário final. Como o limite de frequência também está em vigor, um trackingToken precisa ser adicionado à resposta. Mais informações sobre isso posteriormente nas instruções. Para economizar tempo, basta copiar e colar essas linhas de código no editor de código no loop Para cada:
 
 ```javascript
 {
@@ -111,14 +111,14 @@ Loop ![ForEach inserido no editor de código após inserir a política de decis�
 >
 >Lembre-se de que você adicionou atributos ao esquema XDM da oferta padrão, especificamente, a marca, o modelo e a camada. Em seguida, você preencheu esses atributos quando as ofertas foram criadas. Agora você adiciona esses atributos como variáveis que são preenchidas com valores da oferta selecionada. O campo trackingToken é um valor gerado pelo sistema usado para rastrear cliques e impressões.
 
-16. Coloque o cursor entre o **&quot;** do nó &#39;make&#39;. Insira a marca da oferta navegando no menu de política de decisão para o nó **\_dep > Dispositivo > Criar**.  Clique no ícone **+** no elemento **Make** e você o verá preencher o editor.
+&#x200B;16. Coloque o cursor entre o **&quot;** do nó &#39;make&#39;. Insira a marca da oferta navegando no menu de política de decisão para o nó **\_dep > Dispositivo > Criar**.  Clique no ícone **+** no elemento **Make** e você o verá preencher o editor.
 
 ![Criar atributo da política de decisão preenchida no editor de JSON](assets/create-the-journey-populate-make-attribute.png)
 
-17. Adicione os atributos **model** e **tier** de maneira semelhante.
-18. Clique em **Política de decisão** na navegação de atributos para retornar ao nível raiz.
-19. Preencha o atributo trackingToken navegando até o valor do Token de Rastreamento pelo caminho **\_experience > decisioning > decisionitem > Token de Rastreamento**.
-20. Finalmente, coloque todo o pedaço de código em um conjunto de colchetes (**\[]**). O código JSON final deve ter esta aparência:
+&#x200B;17. Adicione os atributos **model** e **tier** de maneira semelhante.
+&#x200B;18. Clique em **Política de decisão** na navegação de atributos para retornar ao nível raiz.
+&#x200B;19. Preencha o atributo trackingToken navegando até o valor do Token de Rastreamento pelo caminho **\_experience > decisioning > decisionitem > Token de Rastreamento**.
+&#x200B;20. Finalmente, coloque todo o pedaço de código em um conjunto de colchetes (**\[]**). O código JSON final deve ter esta aparência:
 
 ![Código JSON final entre colchetes para a resposta do CBE](assets/create-the-journey-final-json-code.png)
 
@@ -128,16 +128,16 @@ Loop ![ForEach inserido no editor de código após inserir a política de decis�
 
 
 
-21. Quando tudo aparecer na captura de tela acima, clique em **Salvar e fechar** no canto superior direito para salvar seu código. Você retornará à página Experiência baseada em código.
-22. Clique no ícone de seta para trás **\&lt;** ao lado do nome da Jornada e você retornará à tela.
+&#x200B;21. Quando tudo aparecer na captura de tela acima, clique em **Salvar e fechar** no canto superior direito para salvar seu código. Você retornará à página Experiência baseada em código.
+&#x200B;22. Clique no ícone de seta para trás **\&lt;** ao lado do nome da Jornada e você retornará à tela.
 
 ![Jornada tela após retornar do editor de experiência baseado em código](assets/create-the-journey-return-to-canvas.png)
 
-23. Clique no botão azul **Salvar** para salvar o nó da ação CBE. Agora a Jornada tem esta aparência:
+&#x200B;23. Clique no botão azul **Salvar** para salvar o nó da ação CBE. Agora a Jornada tem esta aparência:
 
 ![Tela de Jornada mostrando o nó de ação do CBE concluído](assets/create-the-journey-completed-canvas.png)
 
-24. Com a Jornada concluída, clique no botão azul **Publicar** no canto superior direito e **Publicar** novamente quando a caixa de confirmação for exibida. Depois de um ou dois momentos, você verá que sua Jornada está ativa agora!
+&#x200B;24. Com a Jornada concluída, clique no botão azul **Publicar** no canto superior direito e **Publicar** novamente quando a caixa de confirmação for exibida. Depois de um ou dois momentos, você verá que sua Jornada está ativa agora!
 
 ![Jornada de Abandono de Navegação do iPhone 17 publicada e ao vivo](assets/create-the-journey-published-live.png)
 

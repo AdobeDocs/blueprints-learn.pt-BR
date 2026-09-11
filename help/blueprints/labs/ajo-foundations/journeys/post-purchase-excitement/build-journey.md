@@ -188,7 +188,7 @@ Para conteúdo, você vai manter as coisas simples. Como estúpido simples.
 
 ![Botão Salvar e seta para trás na parte superior direita e superior esquerda](assets/build-journey-save-and-back-arrow.png)
 
-12. Finalmente, clique no **\&lt; ícone Voltar** na parte superior esquerda para voltar à Tela de Jornada
+&#x200B;12. Finalmente, clique no **\&lt; ícone Voltar** na parte superior esquerda para voltar à Tela de Jornada
 
 ![Ícone Voltar na parte superior esquerda para retornar à Tela de Jornada](assets/build-journey-back-icon-to-journey-canvas.png)
 

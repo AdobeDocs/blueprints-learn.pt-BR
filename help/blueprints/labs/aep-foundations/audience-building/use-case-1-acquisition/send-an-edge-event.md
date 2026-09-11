@@ -142,13 +142,13 @@ Na Adobe Experience Platform, procure o perfil que você acabou de enviar a part
 
 
 
-3. Clique em **Eventos** na navegação superior para ver o evento que acabou de enviar
+&#x200B;3. Clique em **Eventos** na navegação superior para ver o evento que acabou de enviar
 
    ![Exibir o evento na guia Eventos do perfil](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-4. Confirme se o Perfil se qualificou para os Públicos revisando a guia Associação de público-alvo na navegação superior.  Você deve ver o seguinte:
+&#x200B;4. Confirme se o Perfil se qualificou para os Públicos revisando a guia Associação de público-alvo na navegação superior.  Você deve ver o seguinte:
 
 - Qualquer Edge de evento (nos últimos 15 minutos)
 - Qualquer transmissão de evento (na última hora)

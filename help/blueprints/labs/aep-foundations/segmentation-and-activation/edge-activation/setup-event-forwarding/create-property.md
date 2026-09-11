@@ -208,7 +208,7 @@ Quando você terminar, valide sua tela com aparência semelhante à mostrada aba
 
 
 
-4. Quando terminar, você deverá ver sua ação adicionada à regra. Clique em **Salvar** para continuar.
+&#x200B;4. Quando terminar, você deverá ver sua ação adicionada à regra. Clique em **Salvar** para continuar.
 
 ![O editor de regras mostra a ação configurada com o botão Salvar realçado](assets/create-property-save-rule-button.png "Salvar sua regra")
 

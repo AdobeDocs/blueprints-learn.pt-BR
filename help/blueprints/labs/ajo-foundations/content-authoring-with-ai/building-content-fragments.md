@@ -136,11 +136,11 @@ Crie um fragmento de cabeçalho para começar. No entanto, antes de criar o frag
 
 ![Clique em Avançar após selecionar o carregamento do logotipo](assets/building-content-fragments-upload-logo-click-next.png)
 
-11. Selecione a **pasta de ativos** que você criou e clique em **Importar**. O arquivo é salvo na sua pasta.
+&#x200B;11. Selecione a **pasta de ativos** que você criou e clique em **Importar**. O arquivo é salvo na sua pasta.
 
 ![Selecionando a pasta de ativos criada e clicando em Importar](assets/building-content-fragments-select-asset-folder-import.png)
 
-12. O logotipo é colocado corretamente, mas é muito grande e precisa ser redimensionado. Para redimensionar o logotipo, atualize suas propriedades. Clique na **guia Estilo** e defina a largura para 40% arrastando o controle deslizante, como mostrado abaixo.
+&#x200B;12. O logotipo é colocado corretamente, mas é muito grande e precisa ser redimensionado. Para redimensionar o logotipo, atualize suas propriedades. Clique na **guia Estilo** e defina a largura para 40% arrastando o controle deslizante, como mostrado abaixo.
 
 >[!NOTE]
 >
@@ -150,15 +150,15 @@ Crie um fragmento de cabeçalho para começar. No entanto, antes de criar o frag
 
 ![Controle deslizante de largura da guia de estilo definido como 40% para redimensionar o logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-13. Clique em **&quot;Salvar&quot;** e seu fragmento será salvo. Você recebe uma notificação de barra verde na confirmação.
+&#x200B;13. Clique em **&quot;Salvar&quot;** e seu fragmento será salvo. Você recebe uma notificação de barra verde na confirmação.
 
 ![Barra de confirmação verde depois de salvar o fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
 
-14. O fragmento salvo está no modo de rascunho. Antes de usá-lo, você precisa publicá-lo. Clique no botão **voltar**.
+&#x200B;14. O fragmento salvo está no modo de rascunho. Antes de usá-lo, você precisa publicá-lo. Clique no botão **voltar**.
 
 ![Botão Voltar para sair do fragmento de rascunho antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
 
-15. Clique no botão **Publicar**. Você verá a mensagem &quot;Publicando fragmento, isso pode levar algum tempo. Notificaremos quando a tarefa for concluída.&quot; na confirmação. O fragmento está pronto para ser usado para criação de modelo.
+&#x200B;15. Clique no botão **Publicar**. Você verá a mensagem &quot;Publicando fragmento, isso pode levar algum tempo. Notificaremos quando a tarefa for concluída.&quot; na confirmação. O fragmento está pronto para ser usado para criação de modelo.
 
 ![Botão Publicar e mensagem de confirmação do fragmento de publicação](assets/building-content-fragments-click-publish-fragment-button.png)
 

@@ -50,7 +50,7 @@ No próximo conjunto de etapas, você salvará o público-alvo criado no Portal 
 
 ## Desduplicar o resultado
 
-1. Clique no ícone **+** **3} após a atividade Change Dimension e, na lista de atividades, selecione a atividade** Deduplication ****
+1. Clique no ícone **+** **3&rbrace; após a atividade Change Dimension e, na lista de atividades, selecione a atividade** Deduplication **&#x200B;**
 
    ![Adicionar a atividade de Eliminação de Duplicação após Change Dimension](assets/save-the-audience-add-deduplication-activity.png)
 

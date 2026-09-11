@@ -77,7 +77,7 @@ Uma maneira de pensar sobre as regras de ajuste de prioridade é tratá-las como
 
 3. Deixe o operador definido como &#39;Equals&#39; e, na caixa de texto restante, digite o nome do item de oferta da camada ulterior, que é **iphone:17\:ultra**. Depois de inserir o texto, a interface do usuário atualiza e reflete que a condição correspondente foi aceita.
 4. Clique em **+Adicionar condição** e clique na **nova caixa de texto que aparece** (ela tem o texto &#39;*Clique para criar um item de decisão...*&#39; nele
-5. Clique na opção agora disponível **Selecionar atributo****.**
+5. Clique na opção agora disponível **Selecionar atributo**&#x200B;**.**
 6. Quando a caixa de diálogo &#39;Selecionar um atributo&#39; for aberta, clique em **Atributos do perfil > Pessoa** (provavelmente será necessário rolar para baixo) **> Ano de Nascimento**. Depois de selecionado, clique em **Salvar.**
 
    >[!NOTE]
@@ -144,7 +144,7 @@ Uma maneira de pensar sobre as regras de ajuste de prioridade é tratá-las como
 >- Os usuários nascidos em 1990 com uma **ID de plano = 1** terão as ofertas Ultra e Pro removidas, mesmo que sejam as mais altas. O usuário só vê as ofertas Base e Generic porque os níveis Ultra e Pro têm uma condição adicional: somente os usuários com **IDs de plano 2 ou 3** podem visualizá-las.
 >- Como a oferta Genérica não tem regras de limite de frequência, o usuário do ano de nascimento **1970** nunca verá a oferta Ultra, pois sua pontuação de prioridade é menor do que a pontuação aumentada do Genérico.
 
-5. Com todas as regras e a pontuação de prioridade padrão em vigor, role de volta para a parte superior e clique no botão azul **Criar** no canto superior direito.
+&#x200B;5. Com todas as regras e a pontuação de prioridade padrão em vigor, role de volta para a parte superior e clique no botão azul **Criar** no canto superior direito.
 
 >[!TIP]
 >
