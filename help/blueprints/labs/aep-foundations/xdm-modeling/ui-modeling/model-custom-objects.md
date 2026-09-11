@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Objetos personalizados do modelo
 description: Crie campos e objetos personalizados de conta, plano e customerID no editor de esquema, incluindo valores de enumeração, para modelar dados sem equivalente de grupo de campos padrão.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -36,11 +35,11 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
 
 1. Adicione um novo campo clicando no botão **+ (adicionar)** na parte superior do esquema
 
-![Botão Adicionar (+) na parte superior do esquema para adicionar um campo personalizado](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
+   ![Botão Adicionar (+) na parte superior do esquema para adicionar um campo personalizado](assets/model-custom-objects-add-a-custom-field-to-your-schema.png)
 
->[!NOTE]
->
->Observe que o painel direito abre com alguns campos para você preencher
+   >[!NOTE]
+   >
+   >Observe que o painel direito abre com alguns campos para você preencher
 
 
 
@@ -73,14 +72,14 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
 
 1. Adicione os seguintes campos exibidos abaixo no objeto Account que você acabou de criar.
 
-| Nome do campo | Nome de exibição | Tipo |
-| ------------ | ------------- | ---------- |
-| *createDate* | *Criar Data* | *DateTime* |
-| *endDate* | *Data de término* | *DateTime* |
+   | Nome do campo | Nome de exibição | Tipo |
+   | ------------ | ------------- | ---------- |
+   | *createDate* | *Criar Data* | *DateTime* |
+   | *endDate* | *Data de término* | *DateTime* |
 
->[!NOTE]
->
->Você percebe que, ao adicionar os novos campos, a opção **Atribuir a** já está preenchida e faz referência ao grupo de campos usado para o objeto da conta.
+   >[!NOTE]
+   >
+   >Você percebe que, ao adicionar os novos campos, a opção **Atribuir a** já está preenchida e faz referência ao grupo de campos usado para o objeto da conta.
 
 
 
@@ -88,28 +87,28 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
 
 
 
-![Esquema de conta de cliente com objeto de conta e campos filho adicionados](assets/model-custom-objects-account-object-with-child-fields.png)
+   ![Esquema de conta de cliente com objeto de conta e campos filho adicionados](assets/model-custom-objects-account-object-with-child-fields.png)
 
 
 
 1. Adicione mais um campo personalizado ao objeto da conta. Clique no botão **+ (adicionar)** ao lado do objeto de conta.  Crie o seguinte campo:
 
-| Nome do campo | Nome de exibição | Tipo | Enumerações |
-| ----------- | ----------------- | -------- | --------------------------------------- |
-| *acqSource* | *Source adquirido* | *Cadeia de caracteres* | *Web :: Web *<br />*inStore :: InStore* |
+   | Nome do campo | Nome de exibição | Tipo | Enumerações |
+   | ----------- | ----------------- | -------- | --------------------------------------- |
+   | *acqSource* | *Source adquirido* | *Cadeia de caracteres* | *Web :: Web *<br />*inStore :: InStore* |
 
-Este campo precisa de valores padronizados, portanto, use a opção **Enumerar &amp; Valores sugeridos** nas propriedades dos campos. Selecione o botão de opção **Enumerar** para adicionar a validação para este campo na assimilação, bem como rótulos amigáveis. Adicione os valores de enumeração conforme mostrado abaixo:
+   Este campo precisa de valores padronizados, portanto, use a opção **Enumerar &amp; Valores sugeridos** nas propriedades dos campos. Selecione o botão de opção **Enumerar** para adicionar a validação para este campo na assimilação, bem como rótulos amigáveis. Adicione os valores de enumeração conforme mostrado abaixo:
 
-- *Web :: Web*
-- *inStore :: InStore*
+   - *Web :: Web*
+   - *inStore :: InStore*
 
 
 
-![Valores de enumeração da Web e do inStore adicionados ao campo Source de aquisição](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
+   ![Valores de enumeração da Web e do inStore adicionados ao campo Source de aquisição](assets/model-custom-objects-enum-values-for-acquisition-source-field.png)
 
->[!NOTE]
->
->A meta de Enumerar e Valores sugeridos é facilitar a segmentação para o usuário final. As enumerações impõem validação no momento da assimilação de dados, enquanto os valores sugeridos não. Para saber mais sobre este recurso, você pode ler mais na documentação aqui -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=pt-BR#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=pt-BR#enums-and-suggested-values)
+   >[!NOTE]
+   >
+   >A meta de Enumerar e Valores sugeridos é facilitar a segmentação para o usuário final. As enumerações impõem validação no momento da assimilação de dados, enquanto os valores sugeridos não. Para saber mais sobre este recurso, você pode ler mais na documentação aqui -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 

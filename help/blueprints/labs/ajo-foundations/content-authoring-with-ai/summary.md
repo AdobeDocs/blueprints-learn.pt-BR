@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Resumo
 description: Analise os principais argumentos e uma lista de verificação de conclusão para criar campanhas personalizadas e compatíveis com a marca, com fragmentos, ferramentas de IA e simulação no Adobe Journey Optimizer.
 doc-type: article
 solution: Experience Platform
 exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 0%
@@ -36,7 +35,7 @@ Ao longo deste curso, você explorou a jornada completa de criar campanhas perso
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**SE ESTIVER LENDO ISSO SIGNIFICA QUE VOCÊ ESTÁ NO FINAL DO LABORATÓRIO.**
 >

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Verificar conjunto de mapeamento final
 description: Compare os mapeamentos de campo simples e calculado do esquema Conta do cliente com o conjunto de mapeamento final esperado.
 doc-type: article
 solution: Experience Platform
 exl-id: d1521d08-1ccb-405f-b728-a2777598cb9f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Verificar conjunto de mapeamento final
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Se você vem do laboratório de assimilação de streaming, clique no link abaixo para prosseguir para a próxima etapa desse laboratório:
 >
@@ -52,7 +51,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | delivery\_street\_address | shippingAddress.street1 |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Verifique se o mapeamento final corresponde ao mostrado abaixo antes de continuar.
 
@@ -66,6 +65,6 @@ ht-degree: 0%
 | concat(date\_part(&quot;month&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString(), &quot;-&quot;, date\_part(&quot;day&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString()) | person.birthDayAndMonth |
 | date\_part(&quot;aaaa&quot;,date(birth\_Date,&quot;M/d/aaaa&quot;)) | person.birthYear |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Verifique se o mapeamento final corresponde ao mostrado abaixo antes de continuar

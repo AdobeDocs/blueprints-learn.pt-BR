@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar relação do esquema
 description: Use a API de registro do esquema para criar um descritor de relacionamento individualizado vinculando o esquema de Conta do cliente a um esquema de plano de pesquisa.
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -17,15 +16,15 @@ ht-degree: 0%
 
 1. Clique na solicitação de API `Step 2 - Relationship Descriptor Customer Account To Plan` na pasta `XDM Schema Lab -> Create Relationship Descriptors`
 
->[!CAUTION]
->
->Não executar a solicitação...ainda
+   >[!CAUTION]
+   >
+   >Não executar a solicitação...ainda
 
-![Etapa 2 - Conta do Cliente do Descritor de Relacionamento para a Solicitação de API do Plano](assets/create-schema-relationship-step-2-descriptor-request.png "Etapa 2 - Conta do Cliente do Descritor de Relacionamento para o Plano")
+   ![Etapa 2 - Conta do Cliente do Descritor de Relacionamento para a Solicitação de API do Plano](assets/create-schema-relationship-step-2-descriptor-request.png "Etapa 2 - Conta do Cliente do Descritor de Relacionamento para o Plano")
 
 
 
-&#x200B;2. Atualize as seguintes propriedades no corpo da chamada de API.
+2. Atualize as seguintes propriedades no corpo da chamada de API.
 
 - Defina o valor da propriedade `xdm:sourceSchema` como `$id` do esquema da Conta do cliente que você salvou da etapa do laboratório [Criar esquema](../build-schema/create-schema.md)
 - Defina o valor de `xdm:sourceProperty` para o caminho do campo `planID` do Esquema de Conta de Cliente.
@@ -58,9 +57,9 @@ SOMENTE EXEMPLO
 
 
 
-&#x200B;3. Salve sua solicitação antes de continuar usando o botão `Save`
+3. Salve sua solicitação antes de continuar usando o botão `Save`
 
-&#x200B;4. Execute a API clicando no botão `Send`
+4. Execute a API clicando no botão `Send`
 
 Agora você deve ver uma resposta de `201 Created` como a seguir
 

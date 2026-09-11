@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar regra de decisão
 description: Crie uma Regra de decisão que restrinja a qualificação para ofertas telefônicas premium a clientes em planos de nível superior.
 doc-type: article
 solution: Experience Platform
 exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -24,22 +23,22 @@ Como a qualificação é um dos blocos fundamentais de uma oferta, a primeira et
 1. Se necessário, faça logon na Adobe Experience Cloud e navegue até o **Adobe Journey Optimizer.**
 2. Expanda o item de menu **Decisão** no painel esquerdo, se necessário, e clique em **Configuração de Estratégia.**
 
->[!WARNING]
->
->Certifique-se de estar no menu Decisão e NÃO no menu Gestão de decisões. Se o menu Gerenciamento de decisões for expandido, recolha-o para evitar confusão de navegação durante esse laboratório.
+   >[!WARNING]
+   >
+   >Certifique-se de estar no menu Decisão e NÃO no menu Gestão de decisões. Se o menu Gerenciamento de decisões for expandido, recolha-o para evitar confusão de navegação durante esse laboratório.
 
 3. Clique em **Regras de Decisão** no menu &#39;Qualificação&#39;, seguido pelo botão **Criar regra** no canto superior direito.
 
-![Página Regras de Decisão com o botão Criar regra](assets/create-decision-rule-create-rule-button.png)
+   ![Página Regras de Decisão com o botão Criar regra](assets/create-decision-rule-create-rule-button.png)
 
-&#x200B;4. Isso abre uma tela semelhante à interface do usuário do Construtor de segmentos. Adicione o atributo ID do plano à tela da regra clicando em **Perfil Individual XDM > DEP > Detalhes do plano** e arrastando o atributo **ID do plano** para a tela.
-&#x200B;5. Altere o menu suspenso de igual a **contém.**
-&#x200B;6. Insira o texto **2** na caixa, pressione a tecla **Tab** para aceitar o valor 2 e insira um **3,** pressione **Tab** novamente para que a regra procure IDs de Plano que contenham um 2 ou 3
-&#x200B;7. Use a caixa de texto **Nome** no painel direito para nomear a Regra de decisão **Planos de camada superior**. Adicione uma descrição, se desejar. Quando terminar, sua Regra de decisão deverá ter esta aparência:
+4. Isso abre uma tela semelhante à interface do usuário do Construtor de segmentos. Adicione o atributo ID do plano à tela da regra clicando em **Perfil Individual XDM > DEP > Detalhes do plano** e arrastando o atributo **ID do plano** para a tela.
+5. Altere o menu suspenso de igual a **contém.**
+6. Insira o texto **2** na caixa, pressione a tecla **Tab** para aceitar o valor 2 e insira um **3,** pressione **Tab** novamente para que a regra procure IDs de Plano que contenham um 2 ou 3
+7. Use a caixa de texto **Nome** no painel direito para nomear a Regra de decisão **Planos de camada superior**. Adicione uma descrição, se desejar. Quando terminar, sua Regra de decisão deverá ter esta aparência:
 
-![Regra de decisão de Planos de Camada Superior concluída com ID de Plano contendo 2 ou 3](assets/create-decision-rule-upper-tier-plans-finished.png "Regra de decisão de Planos de Camada Superior concluída com ID de Plano contendo 2 ou 3")
+   ![Regra de decisão de Planos de Camada Superior concluída com ID de Plano contendo 2 ou 3](assets/create-decision-rule-upper-tier-plans-finished.png "Regra de decisão de Planos de Camada Superior concluída com ID de Plano contendo 2 ou 3")
 
-&#x200B;8. Quando a regra estiver correta, clique no botão azul **Criar** no canto superior direito e você retornará à página Configuração de estratégia com a Regra de decisão que acabou de criar listada como a única regra de decisão.
+8. Quando a regra estiver correta, clique no botão azul **Criar** no canto superior direito e você retornará à página Configuração de estratégia com a Regra de decisão que acabou de criar listada como a única regra de decisão.
 
 >[!NOTE]
 >

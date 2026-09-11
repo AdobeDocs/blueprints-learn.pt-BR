@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Objetos padrão de modelo
 description: Crie um esquema de Perfil individual na interface do usuário e adicione e apare grupos de campos padrão como Detalhes demográficos e Consentimento e Preferências.
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 1. Clique na guia **Esquemas** no painel esquerdo
 
-![Guia Esquemas na navegação do painel esquerdo](assets/model-standard-objects-schemas-tab-left-rail.png "Navegue até esquemas usando o painel esquerdo")
+   ![Guia Esquemas na navegação do painel esquerdo](assets/model-standard-objects-schemas-tab-left-rail.png "Navegue até esquemas usando o painel esquerdo")
 
 
 
@@ -36,13 +35,13 @@ ht-degree: 0%
 
 1. Comece clicando em **Criar esquema**
 
-![Botão Criar esquema](assets/model-standard-objects-create-schema-button.png "Criar esquema")
+   ![Botão Criar esquema](assets/model-standard-objects-create-schema-button.png "Criar esquema")
 
 
 
 1. Selecionar **Manual**
 
-![Selecione a opção Criação manual de esquema](assets/model-standard-objects-select-manual-option.png "Selecione Manual")
+   ![Selecione a opção Criação manual de esquema](assets/model-standard-objects-select-manual-option.png "Selecione Manual")
 
 
 
@@ -68,24 +67,24 @@ Existem muitos grupos de campos que existem como XDM padrão no Adobe Experience
 
 1. Clique em **+ (adicionar)** no painel esquerdo da seção grupo de campos.
 
-![Botão Adicionar grupo de campos no painel esquerdo](assets/model-standard-objects-add-field-group-button.png "Adicionar um grupo de campos")
+   ![Botão Adicionar grupo de campos no painel esquerdo](assets/model-standard-objects-add-field-group-button.png "Adicionar um grupo de campos")
 
 
 
 1. Pesquise por **Detalhes Demográficos** ou localize-os navegando na lista.
 
-- Ao localizar o grupo de campos, clique na lupa à direita do grupo de campos para exibir sua estrutura.  Essa é uma maneira útil de visualizar o que você está prestes a adicionar ao esquema sem realmente adicioná-lo.
-- Fechar a visualização ao concluir a revisão
+   - Ao localizar o grupo de campos, clique na lupa à direita do grupo de campos para exibir sua estrutura.  Essa é uma maneira útil de visualizar o que você está prestes a adicionar ao esquema sem realmente adicioná-lo.
+   - Fechar a visualização ao concluir a revisão
 
 
 
-![Clique na lupa para visualizar a estrutura do grupo de campos](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "Clique na lupa para visualizar a estrutura do Grupo de Campos")
+   ![Clique na lupa para visualizar a estrutura do grupo de campos](assets/model-standard-objects-click-magnify-glass-to-preview-field-group-structure.png "Clique na lupa para visualizar a estrutura do Grupo de Campos")
 
-![Visualização da estrutura do grupo de campos de Detalhes Demográficos](assets/model-standard-objects-demographic-details-structure-preview.png)
+   ![Visualização da estrutura do grupo de campos de Detalhes Demográficos](assets/model-standard-objects-demographic-details-structure-preview.png)
 
 
 
-&#x200B;3. **Marque** a caixa de seleção ao lado do grupo de campos e clique no botão **Adicionar grupos de campos**
+3. **Marque** a caixa de seleção ao lado do grupo de campos e clique no botão **Adicionar grupos de campos**
 
 ![Selecione o grupo de campos Detalhes Demográficos para adicioná-lo ao esquema](assets/model-standard-objects-select-demographic-details-field-group.png "Selecione o grupo de campos Detalhes Demográficos para adicioná-lo ao esquema")
 
@@ -126,24 +125,24 @@ Para remover campos de qualquer grupo de campos padrão do Adobe, você pode uti
 1. Selecione o objeto **pessoa** no esquema
 1. Clique no **Gerenciar campos relacionados** no painel direito
 
-![Opção Gerenciar campos relacionados para o objeto de pessoa no grupo de campos Detalhes Demográficos](assets/model-standard-objects-manage-related-fields-person-object.png "Gerenciar campos relacionados para o objeto de pessoa como parte do grupo de campos Detalhes Demográficos")
+   ![Opção Gerenciar campos relacionados para o objeto de pessoa no grupo de campos Detalhes Demográficos](assets/model-standard-objects-manage-related-fields-person-object.png "Gerenciar campos relacionados para o objeto de pessoa como parte do grupo de campos Detalhes Demográficos")
 
 
 
 1. Expanda o objeto pessoa clicando na divisa à esquerda da pessoa e expanda o objeto de nome completo clicando na divisa à esquerda do objeto de nome. Manter apenas os seguintes campos:
 
-- person.name.firstName
-- person.name.lastName
-- person.birthDayAndMonth
-- person.birthYear
+   - person.name.firstName
+   - person.name.lastName
+   - person.birthDayAndMonth
+   - person.birthYear
 
-Quando terminar, clique no botão **Confirmar** no canto superior direito.
+   Quando terminar, clique no botão **Confirmar** no canto superior direito.
 
-![Caixa de diálogo Gerenciar campos relacionados mostrando os campos de pessoa Detalhes Demográficos selecionados](assets/model-standard-objects-demographic-details-person-fields-dialog.png "Gerenciar campos relacionados do objeto de pessoa Detalhes Demográficos")
+   ![Caixa de diálogo Gerenciar campos relacionados mostrando os campos de pessoa Detalhes Demográficos selecionados](assets/model-standard-objects-demographic-details-person-fields-dialog.png "Gerenciar campos relacionados do objeto de pessoa Detalhes Demográficos")
 
->[!NOTE]
->
->Você pode clicar na caixa de seleção mais acima para **Detalhes demográficos** para desmarcar automaticamente todos os objetos filho e, em seguida, selecionar novamente apenas aqueles de que necessita!
+   >[!NOTE]
+   >
+   >Você pode clicar na caixa de seleção mais acima para **Detalhes demográficos** para desmarcar automaticamente todos os objetos filho e, em seguida, selecionar novamente apenas aqueles de que necessita!
 
 
 

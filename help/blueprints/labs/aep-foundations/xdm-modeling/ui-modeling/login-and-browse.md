@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Login e navegação
 description: Faça logon no Adobe Experience Platform e navegue até a seção Esquemas para procurar esquemas, grupos de campos e tipos de dados existentes.
 doc-type: article
 solution: Experience Platform
 exl-id: 35cac81f-4711-425e-8df1-b0c302eda562
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -43,7 +42,7 @@ Clique no ícone Experience Platform no painel acesso rápido para acessar a san
 
 1. Clique na guia **Esquemas** no painel esquerdo
 
-![Guia Esquemas na navegação do painel esquerdo](assets/login-and-browse-schemas-tab-left-rail.png "Navegue até esquemas usando o painel esquerdo")
+   ![Guia Esquemas na navegação do painel esquerdo](assets/login-and-browse-schemas-tab-left-rail.png "Navegue até esquemas usando o painel esquerdo")
 
 1. Na navegação superior, você vê opções para procurar esquemas existentes, bem como visualizar grupos de campos e tipos de dados que estão atualmente no registro XDM.
 

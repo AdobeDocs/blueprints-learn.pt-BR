@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Executar o fluxo de trabalho
 description: Saiba como executar um fluxo de trabalho do Orchestrated Campaign no modo de teste e solucionar problemas do motivo pelo qual alguns registros são descartados de um envio de SMS devido à falta de junções de dimensões de destino.
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -25,33 +24,33 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
 1. Quando você termina, o fluxo de trabalho final é semelhante ao seguinte. Verifique se tudo está bem. Você verá:
 
-![Tela final de fluxo de trabalho pronta para teste](assets/run-the-workflow-final-workflow-canvas.png)
+   ![Tela final de fluxo de trabalho pronta para teste](assets/run-the-workflow-final-workflow-canvas.png)
 
-&#x200B;2. Caso ainda não tenha interrompido o fluxo de trabalho, certifique-se de fazê-lo agora clicando no botão **Parar** no canto superior direito.
+2. Caso ainda não tenha interrompido o fluxo de trabalho, certifique-se de fazê-lo agora clicando no botão **Parar** no canto superior direito.
 
-![Botão Parar na parte superior direita do fluxo de trabalho](assets/run-the-workflow-click-stop-button.png)
+   ![Botão Parar na parte superior direita do fluxo de trabalho](assets/run-the-workflow-click-stop-button.png)
 
->[!NOTE]
->
->Opcionalmente, você pode tentar clicar no botão Reiniciar, mas é provável que você veja um erro, pois adicionou atividades após a criação do fluxo de trabalho e seu cache não é mais válido.
-
-
-
-&#x200B;3. Clique no botão **Iniciar** para executar e testar o fluxo de trabalho de ponta a ponta
-
-![Botão Iniciar para executar o teste de fluxo de trabalho](assets/run-the-workflow-click-start-button.png)
+   >[!NOTE]
+   >
+   >Opcionalmente, você pode tentar clicar no botão Reiniciar, mas é provável que você veja um erro, pois adicionou atividades após a criação do fluxo de trabalho e seu cache não é mais válido.
 
 
 
-&#x200B;4. Revise o resultado que entra na atividade de SMS clicando em **Resultado** (há dois Resultados, portanto, use o esquerdo como mostrado abaixo) e, em seguida, no painel esquerdo clicando no botão **Visualizar resultados**.
+3. Clique no botão **Iniciar** para executar e testar o fluxo de trabalho de ponta a ponta
 
-![Transição de Resultado Deixada selecionada antes da atividade de SMS](assets/run-the-workflow-select-result-transition.png)
-
-![Botão Visualizar resultados no painel direito](assets/run-the-workflow-click-preview-results.png)
+   ![Botão Iniciar para executar o teste de fluxo de trabalho](assets/run-the-workflow-click-start-button.png)
 
 
 
-&#x200B;5. Você vê **33 registros** e o targeting dimension corresponde à ID do cliente (a chave de junção se você quiser criar o perfil)
+4. Revise o resultado que entra na atividade de SMS clicando em **Resultado** (há dois Resultados, portanto, use o esquerdo como mostrado abaixo) e, em seguida, no painel esquerdo clicando no botão **Visualizar resultados**.
+
+   ![Transição de Resultado Deixada selecionada antes da atividade de SMS](assets/run-the-workflow-select-result-transition.png)
+
+   ![Botão Visualizar resultados no painel direito](assets/run-the-workflow-click-preview-results.png)
+
+
+
+5. Você vê **33 registros** e o targeting dimension corresponde à ID do cliente (a chave de junção se você quiser criar o perfil)
 
 ![33 registros com targeting dimension correspondente à ID do cliente](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -61,35 +60,35 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
 1. Feche a janela anterior, clique na **atividade de SMS** e clique no botão **Executar teste** no painel direito
 
-![Botão Executar teste na atividade de SMS](assets/run-the-workflow-click-run-test-sms.png)
+   ![Botão Executar teste na atividade de SMS](assets/run-the-workflow-click-run-test-sms.png)
 
 
 
-&#x200B;2. Quase imediatamente, um novo botão aparece rotulado **Exibir relatório**.  Clique no botão **Exibir relatório** para iniciar na tela do relatório.
+2. Quase imediatamente, um novo botão aparece rotulado **Exibir relatório**.  Clique no botão **Exibir relatório** para iniciar na tela do relatório.
 
-![Botão Exibir relatório para o teste de atividade de SMS](assets/run-the-workflow-click-view-report.png)
+   ![Botão Exibir relatório para o teste de atividade de SMS](assets/run-the-workflow-click-view-report.png)
 
->[!NOTE]
->
->Esta tela não será preenchida inicialmente, pois demora algum tempo para executar o teste. Talvez seja necessário atualizar algumas vezes antes de ver os resultados.
-
-
-
-&#x200B;3. Ao obter resultados, você verá que 100% foram direcionados!
-
-![Resultados de envio de teste de SMS mostrando 100% de direcionamento](assets/run-the-workflow-100-percent-targeted.png)
-
-*Aguarde, um minuto... o resultado recebido foi de 33 registros, então para onde foram os 4?*
+   >[!NOTE]
+   >
+   >Esta tela não será preenchida inicialmente, pois demora algum tempo para executar o teste. Talvez seja necessário atualizar algumas vezes antes de ver os resultados.
 
 
 
-&#x200B;4. Volte para a tela do fluxo de trabalho e clique na transição **Resultado** que entra na atividade de SMS e clique em **Visualizar resultados** no painel direito.
+3. Ao obter resultados, você verá que 100% foram direcionados!
 
-![Revendo os resultados da transição após o teste de SMS](assets/run-the-workflow-recheck-transition-results.png)
+   ![Resultados de envio de teste de SMS mostrando 100% de direcionamento](assets/run-the-workflow-100-percent-targeted.png)
+
+   *Aguarde, um minuto... o resultado recebido foi de 33 registros, então para onde foram os 4?*
 
 
 
-&#x200B;5. Na tela Preview results, role até o final da tabela e observe que **4 registros** têm uma **Targeting dimension em branco**.
+4. Volte para a tela do fluxo de trabalho e clique na transição **Resultado** que entra na atividade de SMS e clique em **Visualizar resultados** no painel direito.
+
+   ![Revendo os resultados da transição após o teste de SMS](assets/run-the-workflow-recheck-transition-results.png)
+
+
+
+5. Na tela Preview results, role até o final da tabela e observe que **4 registros** têm uma **Targeting dimension em branco**.
 
 ![4 registros com uma targeting dimension em branco na parte inferior da tabela](assets/run-the-workflow-4-records-missing-dimension.png)
 

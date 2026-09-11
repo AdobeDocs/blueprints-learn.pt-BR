@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Resumo
 description: Recapitule criando uma Campanha Orquestrada que bifurca um público-alvo e compara resultados de delivery de email entre canais de email baseados em Perfil e Relacionais.
 doc-type: article
 solution: Experience Platform
 exl-id: 11249940-469f-4ba6-bd36-1f2bb7b388a9
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -26,7 +25,7 @@ Por meio desse laboratório, você realizou as seguintes atividades:
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**SE ESTIVER LENDO ISSO SIGNIFICA QUE VOCÊ ESTÁ NO FINAL DO LABORATÓRIO.**
 >

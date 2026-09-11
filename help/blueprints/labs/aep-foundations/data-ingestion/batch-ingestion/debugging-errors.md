@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Erros de depuração
 description: Use diagnósticos de erro de visualização para investigar uma execução de fluxo de dados com falha e distinguir erros de formato de INGEST dos avisos de conversão do MAPPER.
 doc-type: article
 solution: Experience Platform
 exl-id: beee191b-a860-494c-873f-ab2e407ffbf5
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
@@ -66,6 +65,6 @@ _dep.account.createDate. Details: Unable to convert
 Created on 2023-09-24T10:19:58Z to schema type DATE_TIME
 ```
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Esse erro não é grave, pois isso gera apenas avisos durante o mapeamento. A execução do fluxo de dados não falha por causa disso, portanto, este laboratório não corrige esse erro.

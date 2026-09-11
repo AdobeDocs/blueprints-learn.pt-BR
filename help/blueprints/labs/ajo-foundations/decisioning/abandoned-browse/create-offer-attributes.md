@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar atributos de oferta
 description: Adicione atributos personalizados do dispositivo, como marca, modelo e camada ao esquema XDM da oferta padrão para uso na classificação e nas regras de qualificação.
 doc-type: article
 solution: Experience Platform
 exl-id: 00326a7c-8139-46f5-85bd-5ea1f63f29cf
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 0%
@@ -24,33 +23,33 @@ Nesta seção, você adicionará campos XDM personalizados ao esquema XDM de ofe
 1. Expanda o item de menu **Decisão** no painel esquerdo, se necessário, e clique em **Catálogos.**
 2. Por padrão, a página &quot;Ofertas&quot; é exibida. Clique no botão **Editar esquema** no canto superior direito.
 
-![Botão Editar esquema na página Catálogo de ofertas](assets/create-offer-attributes-edit-schema-button.png)
+   ![Botão Editar esquema na página Catálogo de ofertas](assets/create-offer-attributes-edit-schema-button.png)
 
->[!TIP]
->
->A página resultante é o editor de esquema XDM padrão. Assim como o XDM é usado para definir a estrutura de dados dos conjuntos de dados, o XDM é usado aqui para definir os atributos de uma oferta.
+   >[!TIP]
+   >
+   >A página resultante é o editor de esquema XDM padrão. Assim como o XDM é usado para definir a estrutura de dados dos conjuntos de dados, o XDM é usado aqui para definir os atributos de uma oferta.
 
->[!NOTE]
->
->O esquema &quot;Itens de oferta personalizados - Experience Decisioning&quot; é um esquema padrão gerado pelo sistema que se aplica a todas as ofertas. No entanto, é possível adicionar itens a esse esquema para atender a necessidades de negócios exclusivas, que é o que você fará nesta seção.
->
->Além disso, percorrer a página de ofertas é um atalho para acessar esse esquema. Você também pode acessá-lo por meio do menu Esquema no painel esquerdo.
+   >[!NOTE]
+   >
+   >O esquema &quot;Itens de oferta personalizados - Experience Decisioning&quot; é um esquema padrão gerado pelo sistema que se aplica a todas as ofertas. No entanto, é possível adicionar itens a esse esquema para atender a necessidades de negócios exclusivas, que é o que você fará nesta seção.
+   >
+   >Além disso, percorrer a página de ofertas é um atalho para acessar esse esquema. Você também pode acessá-lo por meio do menu Esquema no painel esquerdo.
 
-&#x200B;3. Clique no ícone **+** à direita do nível raiz do esquema e, usando o menu &quot;Propriedades do Campo&quot; agora visível no painel direito, preencha os seguintes campos com os valores fornecidos:
+3. Clique no ícone **+** à direita do nível raiz do esquema e, usando o menu &quot;Propriedades do Campo&quot; agora visível no painel direito, preencha os seguintes campos com os valores fornecidos:
    - Nome do campo: **dispositivo**
    - Nome de exibição: **Dispositivo**
    - Lista suspensa de tipos: **Objeto**
    - Atribuir ao Grupo de Campos (digite este valor em): **Detalhes da Oferta**
 
->[!NOTE]
->
->O Grupo de campos Atribuir a parece ser uma lista suspensa, mas também aceita entrada de texto direta; portanto, insira o texto &#39;Detalhes da oferta&#39;. Ao digitá-lo, você vê um item &quot;Detalhes da oferta (Novo)&quot; também aparecer. Qualquer novo atributo deve ser atribuído a um grupo de campos, portanto, nesta etapa, você está criando um novo grupo de campos chamado Detalhes da oferta.
+   >[!NOTE]
+   >
+   >O Grupo de campos Atribuir a parece ser uma lista suspensa, mas também aceita entrada de texto direta; portanto, insira o texto &#39;Detalhes da oferta&#39;. Ao digitá-lo, você vê um item &quot;Detalhes da oferta (Novo)&quot; também aparecer. Qualquer novo atributo deve ser atribuído a um grupo de campos, portanto, nesta etapa, você está criando um novo grupo de campos chamado Detalhes da oferta.
 
-&#x200B;4. Verifique se todas as propriedades foram preenchidas como a captura de tela abaixo:
+4. Verifique se todas as propriedades foram preenchidas como a captura de tela abaixo:
 
-![Propriedades de campo do novo objeto Dispositivo preenchidas](assets/create-offer-attributes-device-object-field-properties.png)
+   ![Propriedades de campo do novo objeto Dispositivo preenchidas](assets/create-offer-attributes-device-object-field-properties.png)
 
-&#x200B;5. Depois de verificar que todos os campos estão corretos, clique no botão azul **Aplicar**, na parte inferior do menu &#39;Propriedades do campo&#39; (painel direito), para ver as alterações aplicadas ao esquema:
+5. Depois de verificar que todos os campos estão corretos, clique no botão azul **Aplicar**, na parte inferior do menu &#39;Propriedades do campo&#39; (painel direito), para ver as alterações aplicadas ao esquema:
 
 ![Grupo de campos de dispositivo aplicado ao esquema de oferta](assets/create-offer-attributes-device-object-applied.png)
 
@@ -74,9 +73,9 @@ Agora que o objeto XDM do dispositivo foi criado, você pode continuar criando c
    - Depois de verificar que todos os campos estão corretos, clique no botão azul **Aplicar** para ver as alterações aplicadas ao esquema
 2. Repita as etapas anteriores para adicionar dois atributos adicionais para **Modelo** e **Camada**. Use o mesmo padrão de nomenclatura, tipo e grupo de campos. Quando terminar, o esquema deverá ter esta aparência:
 
-![Esquema de oferta mostrando os campos Marca, Modelo e Camada preenchidos](assets/create-offer-attributes-make-model-tier-fields.png)
+   ![Esquema de oferta mostrando os campos Marca, Modelo e Camada preenchidos](assets/create-offer-attributes-make-model-tier-fields.png)
 
-&#x200B;3. Com todos os novos campos/atributos XDM criados, clique em **Salvar** no canto superior direito e você receberá uma mensagem verde &quot;Esquema salvo com êxito&quot; na parte inferior da tela. Agora você concluiu as etapas desta seção.
+3. Com todos os novos campos/atributos XDM criados, clique em **Salvar** no canto superior direito e você receberá uma mensagem verde &quot;Esquema salvo com êxito&quot; na parte inferior da tela. Agora você concluiu as etapas desta seção.
 
 >[!WARNING]
 >

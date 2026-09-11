@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criação de fragmentos de conteúdo
 description: Saiba como dividir um design de email em fragmentos reutilizáveis, como um bloco de cabeçalho, que permanecem consistentes entre modelos no Adobe Journey Optimizer.
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -85,21 +84,21 @@ Crie um fragmento de cabeçalho para começar. No entanto, antes de criar o frag
 
 1. Na navegação à esquerda, localize a seção **Gerenciamento de Conteúdo** e clique em **Assets**.
 
-![Seção de gerenciamento de conteúdo com a opção Assets na navegação à esquerda](assets/building-content-fragments-content-management-assets-nav.png)
+   ![Seção de gerenciamento de conteúdo com a opção Assets na navegação à esquerda](assets/building-content-fragments-content-management-assets-nav.png)
 
-&#x200B;2. Clique em **Assets** na seção Gerenciamento do Assets.
+2. Clique em **Assets** na seção Gerenciamento do Assets.
 
-![Opção do Assets na seção Gerenciamento do Assets](assets/building-content-fragments-assets-under-assets-management.png)
+   ![Opção do Assets na seção Gerenciamento do Assets](assets/building-content-fragments-assets-under-assets-management.png)
 
-&#x200B;3. Crie uma pasta clicando no botão **&quot;Criar Pasta&quot;**.
+3. Crie uma pasta clicando no botão **&quot;Criar Pasta&quot;**.
 
-![Botão Criar pasta na área do Assets](assets/building-content-fragments-click-create-folder-button.png)
+   ![Botão Criar pasta na área do Assets](assets/building-content-fragments-click-create-folder-button.png)
 
-&#x200B;4. Nomeie como seu nome e sobrenome. ex.: Nish\_Pithia\_LabAssets (algo que você possa lembrar)
+4. Nomeie como seu nome e sobrenome. ex.: Nish\_Pithia\_LabAssets (algo que você possa lembrar)
 
-![Nomeando a nova pasta de ativos com seu nome e sobrenome](assets/building-content-fragments-name-asset-folder.png)
+   ![Nomeando a nova pasta de ativos com seu nome e sobrenome](assets/building-content-fragments-name-asset-folder.png)
 
-&#x200B;5. **Crie um novo fragmento:** Em Gerenciamento de Conteúdo, clique em **Fragmentos** e crie um novo fragmento.
+5. **Crie um novo fragmento:** Em Gerenciamento de Conteúdo, clique em **Fragmentos** e crie um novo fragmento.
 
    Opção ![Fragmentos em Gerenciamento de conteúdo para criar um novo fragmento](assets/building-content-fragments-click-fragments-create-new.png)
 
@@ -113,35 +112,35 @@ Crie um fragmento de cabeçalho para começar. No entanto, antes de criar o frag
 
    ![Campos de tipo de fragmento Visual, nome e descrição do fragmento do cabeçalho](assets/building-content-fragments-fragment-name-type-details.png)
 
-&#x200B;6. Clique no **Botão Criar** no canto superior direito.
+6. Clique no **Botão Criar** no canto superior direito.
 
-![Botão Criar na parte superior direita da caixa de diálogo Novo fragmento](assets/building-content-fragments-click-create-button-top-right.png)
+   ![Botão Criar na parte superior direita da caixa de diálogo Novo fragmento](assets/building-content-fragments-click-create-button-top-right.png)
 
-Isso abre uma tela em branco do criador de fragmentos.
+   Isso abre uma tela em branco do criador de fragmentos.
 
-&#x200B;7. Clique nas colunas 1:1 em Estruturas e arraste na tela como mostrado abaixo. (Clique na imagem abaixo para ver o gráfico animado)
+7. Clique nas colunas 1:1 em Estruturas e arraste na tela como mostrado abaixo. (Clique na imagem abaixo para ver o gráfico animado)
 
-![Demonstração animada de arrastar uma estrutura de Colunas 1:1 para a tela do fragmento](assets/building-content-fragments-drag-1-1-columns-structure.gif)
+   ![Demonstração animada de arrastar uma estrutura de Colunas 1:1 para a tela do fragmento](assets/building-content-fragments-drag-1-1-columns-structure.gif)
 
-&#x200B;8. Em seguida, arraste &quot;**image**&quot; na linha 1:1 que acabamos de adicionar
+8. Em seguida, arraste &quot;**image**&quot; na linha 1:1 que acabamos de adicionar
 
-![Arrastando um componente de imagem para a linha 1:1](assets/building-content-fragments-drag-image-onto-row.png)
+   ![Arrastando um componente de imagem para a linha 1:1](assets/building-content-fragments-drag-image-onto-row.png)
 
-&#x200B;9. Carregue a imagem do logotipo fornecida. Clique no **&quot;Botão Importar mídia&quot;**
+9. Carregue a imagem do logotipo fornecida. Clique no **&quot;Botão Importar mídia&quot;**
 
-![Botão Importar mídia para carregar a imagem de logotipo](assets/building-content-fragments-click-import-media-button.png)
+   ![Botão Importar mídia para carregar a imagem de logotipo](assets/building-content-fragments-click-import-media-button.png)
 
-&#x200B;10. **Carregue o logotipo:** Carregue o logotipo (*C5G-Logo.png*) da pasta de imagens do kit de ferramentas e clique em Avançar.
+10. **Carregue o logotipo:** Carregue o logotipo (*C5G-Logo.png*) da pasta de imagens do kit de ferramentas e clique em Avançar.
 
 ![Selecionando C5G-Logo.png da pasta do kit de ferramentas para carregar](assets/building-content-fragments-upload-logo-select-file.png)
 
 ![Clique em Avançar após selecionar o carregamento do logotipo](assets/building-content-fragments-upload-logo-click-next.png)
 
-&#x200B;11. Selecione a **pasta de ativos** que você criou e clique em **Importar**. O arquivo é salvo na sua pasta.
+11. Selecione a **pasta de ativos** que você criou e clique em **Importar**. O arquivo é salvo na sua pasta.
 
 ![Selecionando a pasta de ativos criada e clicando em Importar](assets/building-content-fragments-select-asset-folder-import.png)
 
-&#x200B;12. O logotipo é colocado corretamente, mas é muito grande e precisa ser redimensionado. Para redimensionar o logotipo, atualize suas propriedades. Clique na **guia Estilo** e defina a largura para 40% arrastando o controle deslizante, como mostrado abaixo.
+12. O logotipo é colocado corretamente, mas é muito grande e precisa ser redimensionado. Para redimensionar o logotipo, atualize suas propriedades. Clique na **guia Estilo** e defina a largura para 40% arrastando o controle deslizante, como mostrado abaixo.
 
 >[!NOTE]
 >
@@ -151,15 +150,15 @@ Isso abre uma tela em branco do criador de fragmentos.
 
 ![Controle deslizante de largura da guia de estilo definido como 40% para redimensionar o logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-&#x200B;13. Clique em **&quot;Salvar&quot;** e seu fragmento será salvo. Você recebe uma notificação de barra verde na confirmação.
+13. Clique em **&quot;Salvar&quot;** e seu fragmento será salvo. Você recebe uma notificação de barra verde na confirmação.
 
 ![Barra de confirmação verde depois de salvar o fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;14. O fragmento salvo está no modo de rascunho. Antes de usá-lo, você precisa publicá-lo. Clique no botão **voltar**.
+14. O fragmento salvo está no modo de rascunho. Antes de usá-lo, você precisa publicá-lo. Clique no botão **voltar**.
 
 ![Botão Voltar para sair do fragmento de rascunho antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;15. Clique no botão **Publicar**. Você verá a mensagem &quot;Publicando fragmento, isso pode levar algum tempo. Notificaremos quando a tarefa for concluída.&quot; na confirmação. O fragmento está pronto para ser usado para criação de modelo.
+15. Clique no botão **Publicar**. Você verá a mensagem &quot;Publicando fragmento, isso pode levar algum tempo. Notificaremos quando a tarefa for concluída.&quot; na confirmação. O fragmento está pronto para ser usado para criação de modelo.
 
 ![Botão Publicar e mensagem de confirmação do fragmento de publicação](assets/building-content-fragments-click-publish-fragment-button.png)
 

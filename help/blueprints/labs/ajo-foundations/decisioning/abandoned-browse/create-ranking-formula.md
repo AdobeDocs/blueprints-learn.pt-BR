@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar fórmula de classificação
 description: Crie uma fórmula de classificação que aumenta dinamicamente as pontuações de prioridade da oferta com base nos atributos do perfil, como idade.
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%
@@ -28,16 +27,16 @@ Neste cenário de laboratório, vamos fingir que a equipe de marketing de pesqui
 1. Se necessário, expanda **Decisão** no painel esquerdo e clique em **Configuração de estratégia**. Você chega à página &quot;Regras de decisão&quot; e vê a Regra de decisão &quot;Planos de camada superior&quot;, criada anteriormente e usada como requisitos de qualificação para os itens de oferta telefônica de camada superior.
 2. Clique em **Fórmulas de classificação** no menu &#39;Métodos de classificação&#39;. Isso abre uma página vazia, pois você ainda não tem nenhuma fórmula de classificação.
 
-![Página de fórmulas de Classificação vazia antes de criar uma fórmula](assets/create-ranking-formula-empty-ranking-formulas-page.png)
+   ![Página de fórmulas de Classificação vazia antes de criar uma fórmula](assets/create-ranking-formula-empty-ranking-formulas-page.png)
 
-&#x200B;3. Clique no botão azul **Criar fórmula** para começar a criar uma nova fórmula de classificação
-&#x200B;4. Nomeie a fórmula de classificação **Fórmula de Classificação do iPhone 17**
+3. Clique no botão azul **Criar fórmula** para começar a criar uma nova fórmula de classificação
+4. Nomeie a fórmula de classificação **Fórmula de Classificação do iPhone 17**
 
->[!NOTE]
->
->Quando um evento de experiência é enviado para a Coleção de dados da Edge com os parâmetros necessários para solicitar uma oferta de um pacote do Decisioning ativo, todas as ofertas nesse pacote são avaliadas usando a fórmula de classificação. Cada oferta manterá sua prioridade original ou terá sua prioridade ajustada dinamicamente com base no perfil que acionou o Evento de experiência.
+   >[!NOTE]
+   >
+   >Quando um evento de experiência é enviado para a Coleção de dados da Edge com os parâmetros necessários para solicitar uma oferta de um pacote do Decisioning ativo, todas as ofertas nesse pacote são avaliadas usando a fórmula de classificação. Cada oferta manterá sua prioridade original ou terá sua prioridade ajustada dinamicamente com base no perfil que acionou o Evento de experiência.
 
-&#x200B;5. Role até a parte inferior da seção &quot;Critérios&quot;, clique no ícone **\&lt;/>** da caixa de texto na parte inferior e selecione a variável **Pontuação de prioridade da oferta**.
+5. Role até a parte inferior da seção &quot;Critérios&quot;, clique no ícone **\&lt;/>** da caixa de texto na parte inferior e selecione a variável **Pontuação de prioridade da oferta**.
 
 ![Variável de pontuação da prioridade da oferta selecionada nos critérios de fórmula de classificação](assets/create-ranking-formula-select-offer-priority-score.png)
 
@@ -67,31 +66,31 @@ Uma maneira de pensar sobre as regras de ajuste de prioridade é tratá-las como
 
 1. Comece criando a regra de classificação para o item de oferta da Camada Ultra. Clique na primeira caixa de texto na seção **Critério 1** e clique no botão **Selecionar atributo** quando ele aparecer.
 
-![Selecione a opção de atributo mostrada para o Critério 1](assets/create-ranking-formula-criterion-one-select-attribute.png)
+   ![Selecione a opção de atributo mostrada para o Critério 1](assets/create-ranking-formula-criterion-one-select-attribute.png)
 
-&#x200B;2. Quando a caixa de diálogo &#39;Selecionar um atributo&#39; se abrir, clique em **Nome da oferta**. Depois de selecionado, clique em **Salvar.**
+2. Quando a caixa de diálogo &#39;Selecionar um atributo&#39; se abrir, clique em **Nome da oferta**. Depois de selecionado, clique em **Salvar.**
 
->[!NOTE]
->
->O &quot;atributo de decisão&quot; refere-se aos elementos do item de oferta. Como é aqui que você descreve a quais itens de oferta os critérios serão aplicados, as únicas opções disponíveis são os atributos do item de oferta.
->
+   >[!NOTE]
+   >
+   >O &quot;atributo de decisão&quot; refere-se aos elementos do item de oferta. Como é aqui que você descreve a quais itens de oferta os critérios serão aplicados, as únicas opções disponíveis são os atributos do item de oferta.
+   >
 
-&#x200B;3. Deixe o operador definido como &#39;Equals&#39; e, na caixa de texto restante, digite o nome do item de oferta da camada ulterior, que é **iphone:17\:ultra**. Depois de inserir o texto, a interface do usuário atualiza e reflete que a condição correspondente foi aceita.
-&#x200B;4. Clique em **+Adicionar condição** e clique na **nova caixa de texto que aparece** (ela tem o texto &#39;*Clique para criar um item de decisão...*&#39; nele
-&#x200B;5. Clique na opção agora disponível **Selecionar atributo**&#x200B;**.**
-&#x200B;6. Quando a caixa de diálogo &#39;Selecionar um atributo&#39; for aberta, clique em **Atributos do perfil > Pessoa** (provavelmente será necessário rolar para baixo) **> Ano de Nascimento**. Depois de selecionado, clique em **Salvar.**
+3. Deixe o operador definido como &#39;Equals&#39; e, na caixa de texto restante, digite o nome do item de oferta da camada ulterior, que é **iphone:17\:ultra**. Depois de inserir o texto, a interface do usuário atualiza e reflete que a condição correspondente foi aceita.
+4. Clique em **+Adicionar condição** e clique na **nova caixa de texto que aparece** (ela tem o texto &#39;*Clique para criar um item de decisão...*&#39; nele
+5. Clique na opção agora disponível **Selecionar atributo****.**
+6. Quando a caixa de diálogo &#39;Selecionar um atributo&#39; for aberta, clique em **Atributos do perfil > Pessoa** (provavelmente será necessário rolar para baixo) **> Ano de Nascimento**. Depois de selecionado, clique em **Salvar.**
 
->[!NOTE]
->
-> &quot;Atributos de perfil&quot; refere-se ao usuário ou perfil que enviou o evento de experiência, e &quot;Dados de contexto&quot; refere-se a elementos no próprio evento de experiência, como URL, nome de página ou outros atributos da carga do evento de experiência.
+   >[!NOTE]
+   >
+   > &quot;Atributos de perfil&quot; refere-se ao usuário ou perfil que enviou o evento de experiência, e &quot;Dados de contexto&quot; refere-se a elementos no próprio evento de experiência, como URL, nome de página ou outros atributos da carga do evento de experiência.
 
-&#x200B;7. Altere o operador para **Greater than** e insira o ano de nascimento **1986** (a interface coloca uma vírgula no ano, o que é esperado). Depois de inserir, a interface é atualizada para refletir que a condição foi aceita. Como o caso de uso comercial é oferecer o nível Ultra a qualquer pessoa com menos de 40 anos, a prioridade é ajustada para qualquer pessoa nascida após 1986.
+7. Altere o operador para **Greater than** e insira o ano de nascimento **1986** (a interface coloca uma vírgula no ano, o que é esperado). Depois de inserir, a interface é atualizada para refletir que a condição foi aceita. Como o caso de uso comercial é oferecer o nível Ultra a qualquer pessoa com menos de 40 anos, a prioridade é ajustada para qualquer pessoa nascida após 1986.
 
->[!NOTE]
->
->Como mencionado anteriormente, a interface do usuário indica que essas condições adicionais são &quot;opcionais&quot;. Isso é verdade porque talvez seja desejável ajustar dinamicamente a prioridade em um conjunto de itens de oferta sem critérios adicionais. Pode ser que os mesmos itens de oferta possam ser usados em uma coleção diferente e classificados com um conjunto diferente de regras de classificação. Como esse laboratório usa apenas um único conjunto de itens de oferta, condições adicionais são usadas para ajustar a prioridade.
+   >[!NOTE]
+   >
+   >Como mencionado anteriormente, a interface do usuário indica que essas condições adicionais são &quot;opcionais&quot;. Isso é verdade porque talvez seja desejável ajustar dinamicamente a prioridade em um conjunto de itens de oferta sem critérios adicionais. Pode ser que os mesmos itens de oferta possam ser usados em uma coleção diferente e classificados com um conjunto diferente de regras de classificação. Como esse laboratório usa apenas um único conjunto de itens de oferta, condições adicionais são usadas para ajustar a prioridade.
 
-&#x200B;8. A prioridade original para o item de oferta da Camada Ultra é 4. Para aumentar a prioridade, multiplique por 100. Para fazer isso, clique no ícone **\&lt;/>** ao lado da última caixa de texto e selecione a variável **Offer priority score**. Adicione um **\*100** após o texto inserido automaticamente. Esta expressão multiplica a prioridade original (4) por 100 e atribui a ela uma nova prioridade de 400.
+8. A prioridade original para o item de oferta da Camada Ultra é 4. Para aumentar a prioridade, multiplique por 100. Para fazer isso, clique no ícone **\&lt;/>** ao lado da última caixa de texto e selecione a variável **Offer priority score**. Adicione um **\*100** após o texto inserido automaticamente. Esta expressão multiplica a prioridade original (4) por 100 e atribui a ela uma nova prioridade de 400.
 
    Agora, sua regra deve ter esta aparência:
 
@@ -110,9 +109,9 @@ Uma maneira de pensar sobre as regras de ajuste de prioridade é tratá-las como
 1. Logo abaixo da regra de ajuste que você acabou de criar, clique no botão **+ Adicionar critério**.
 2. Crie uma condição correspondente para onde o **Offer name** NÃO seja igual a **iphone:17\:ultra**.
 
->[!WARNING]
->
->Essa regra se aplica a todos os outros itens de oferta. Mais detalhes sobre por que você está mais longe nesta página, mas tenha muito cuidado ao usar esse tipo de lógica na prática, pois ela se aplicaria a todas as ofertas da coleção que não têm esse valor. No nosso caso, tudo bem, mas pode não ser em outros casos de uso.
+   >[!WARNING]
+   >
+   >Essa regra se aplica a todos os outros itens de oferta. Mais detalhes sobre por que você está mais longe nesta página, mas tenha muito cuidado ao usar esse tipo de lógica na prática, pois ela se aplicaria a todas as ofertas da coleção que não têm esse valor. No nosso caso, tudo bem, mas pode não ser em outros casos de uso.
 
 3. Adicione a condição de que esta regra se aplique a qualquer pessoa com um ano de nascimento maior que **1966** (qualquer pessoa com menos de 60 anos).
 4. Assim como na regra anterior, multiplique a pontuação de prioridade padrão do item de oferta por 100. Quando concluída, sua regra de &quot;Critério 2&quot; terá esta aparência:
@@ -145,12 +144,13 @@ Uma maneira de pensar sobre as regras de ajuste de prioridade é tratá-las como
 >- Os usuários nascidos em 1990 com uma **ID de plano = 1** terão as ofertas Ultra e Pro removidas, mesmo que sejam as mais altas. O usuário só vê as ofertas Base e Generic porque os níveis Ultra e Pro têm uma condição adicional: somente os usuários com **IDs de plano 2 ou 3** podem visualizá-las.
 >- Como a oferta Genérica não tem regras de limite de frequência, o usuário do ano de nascimento **1970** nunca verá a oferta Ultra, pois sua pontuação de prioridade é menor do que a pontuação aumentada do Genérico.
 
-&#x200B;5. Com todas as regras e a pontuação de prioridade padrão em vigor, role de volta para a parte superior e clique no botão azul **Criar** no canto superior direito.
+5. Com todas as regras e a pontuação de prioridade padrão em vigor, role de volta para a parte superior e clique no botão azul **Criar** no canto superior direito.
 
 >[!TIP]
 >
 >Você será levado de volta à página &#39;Configuração da estratégia&#39; e verá a única Fórmula de Classificação que acabou de criar.
-> [!NOTE]
+
+>[!NOTE]
 >
 >O que acontece se duas ofertas resultarem na mesma prioridade? As ofertas com a mesma pontuação de prioridade são escolhidas aleatoriamente para retornar ao sistema solicitante.
 

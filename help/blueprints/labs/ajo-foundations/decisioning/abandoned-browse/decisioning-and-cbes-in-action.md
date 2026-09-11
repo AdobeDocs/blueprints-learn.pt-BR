@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Decisão e CBEs em ação
 description: Use o Postman para enviar eventos de experiência para perfis de teste e validar se a qualificação, a classificação e o limite de frequência retornam as ofertas corretas.
 doc-type: article
 solution: Experience Platform
 exl-id: 540e50c9-bf39-49a4-ae63-c1d7b94f6b8c
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
@@ -34,7 +33,7 @@ Localizar esses perfis no AEP
 1. Se necessário, expanda o item **Cliente** no painel esquerdo e clique em **Perfis**
 1. Clique na guia **Procurar** e, entre todos os perfis que já foram criados para você ou que você criou como parte dos laboratórios anteriores, você verá estes três perfis.
 
-Encontre os eventos de experiência correspondentes para cada perfil na coleção do Postman
+   Encontre os eventos de experiência correspondentes para cada perfil na coleção do Postman
 
 1. Se necessário, abra o Postman
 1. Verifique se as variáveis de ambiente **EDGE\_REGION** e **DATASTREAM\_CONFIG** ainda estão definidas. Se precisarem ser definidos novamente, analise as etapas no laboratório &quot;Importar ambiente e coleção&quot;.
@@ -44,7 +43,7 @@ Encontre os eventos de experiência correspondentes para cada perfil na coleçã
 
 ## Envio em eventos de experiência
 
-&#x200B;> [!IMPORTANT]
+>[!IMPORTANT]
 >
 >Não ignore a explicação do texto de abertura desta seção!
 
@@ -69,48 +68,48 @@ Comece com o perfil do Bob.
 1. Clique na solicitação **Bob - Coleção de dados final da página**.
 2. Clique na guia **Body** e observe os parâmetros que estão sendo transmitidos, como o namespace customerID no IdentityMap, que indica que ele está autenticado, bem como o parâmetro &#39;web.webPageDetails.name&#39; que é transmitido no nome de página de &#39;phones\:apple\:iphone 17\:overview&#39;.
 
-![Bob - corpo da solicitação de Coleta de Dados Final da Página no Postman](assets/decisioning-and-cbes-in-action-bob-page-bottom-request.png)
+   ![Bob - corpo da solicitação de Coleta de Dados Final da Página no Postman](assets/decisioning-and-cbes-in-action-bob-page-bottom-request.png)
 
-&#x200B;3. Clique em **Enviar** no canto superior direito para enviar uma exibição de página. Você recebe uma resposta semelhante a esta
+3. Clique em **Enviar** no canto superior direito para enviar uma exibição de página. Você recebe uma resposta semelhante a esta
 
-![Resposta recebida após o envio do evento Bob&#39;s Page Bottom Data Collection](assets/decisioning-and-cbes-in-action-bob-data-collection-response.png)
+   ![Resposta recebida após o envio do evento Bob&#39;s Page Bottom Data Collection](assets/decisioning-and-cbes-in-action-bob-data-collection-response.png)
 
-&#x200B;4. Depois de receber uma resposta adequada, clique em **Enviar** novamente para reenviar o mesmo evento de fim de página pela segunda vez. Aguarde alguns segundos e envie uma chamada da 3ª Coleção de dados para o perfil Bob. Você enviou um total de 3 chamadas de fim de página.
+4. Depois de receber uma resposta adequada, clique em **Enviar** novamente para reenviar o mesmo evento de fim de página pela segunda vez. Aguarde alguns segundos e envie uma chamada da 3ª Coleção de dados para o perfil Bob. Você enviou um total de 3 chamadas de fim de página.
 
-Nesse ponto, o sistema está processando essas ocorrências e adicionando Bob ao segmento de transmissão &quot;dep: Interested in iPhone 17&quot;. Feito isso, Bob é colocado na Jornada. Uma vez na Jornada, leva apenas alguns minutos para a entrada de Bob na Jornada e no segmento ser projetada para a loja de perfis da Edge para Bob.
+   Nesse ponto, o sistema está processando essas ocorrências e adicionando Bob ao segmento de transmissão &quot;dep: Interested in iPhone 17&quot;. Feito isso, Bob é colocado na Jornada. Uma vez na Jornada, leva apenas alguns minutos para a entrada de Bob na Jornada e no segmento ser projetada para a loja de perfis da Edge para Bob.
 
-&#x200B;5. Retorne à interface do usuário do AJO e clique em **Perfis** no painel esquerdo, seguido pela guia **Procurar**.
-&#x200B;6. Procure o perfil de Bob usando o namespace **customerID** com o valor de **287415903**.
+5. Retorne à interface do usuário do AJO e clique em **Perfis** no painel esquerdo, seguido pela guia **Procurar**.
+6. Procure o perfil de Bob usando o namespace **customerID** com o valor de **287415903**.
 
-![Procurando o perfil de Bob usando o namespace customerID](assets/decisioning-and-cbes-in-action-search-bob-profile.png)
+   ![Procurando o perfil de Bob usando o namespace customerID](assets/decisioning-and-cbes-in-action-search-bob-profile.png)
 
-&#x200B;7. Clique em **Exibir** para abrir o perfil do Bob (a cor do perfil do Bob pode ser diferente da mostrada na captura de tela).
+7. Clique em **Exibir** para abrir o perfil do Bob (a cor do perfil do Bob pode ser diferente da mostrada na captura de tela).
 
-![Página de perfil do Bob aberta no AJO](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
+   ![Página de perfil do Bob aberta no AJO](assets/decisioning-and-cbes-in-action-bob-profile-opened.png)
 
-&#x200B;8. Quando o perfil de Bob for aberto, clique na guia **Associação de público-alvo** e você verá que Bob agora é um membro do segmento &quot;dep: Interessado no iPhone 17&quot;, pelo menos da perspectiva do AEP Hub.
-&#x200B;9. Clique em **Atributos** e selecione o botão de opção **Edge** para alternar para o modo de exibição do Edge.
+8. Quando o perfil de Bob for aberto, clique na guia **Associação de público-alvo** e você verá que Bob agora é um membro do segmento &quot;dep: Interessado no iPhone 17&quot;, pelo menos da perspectiva do AEP Hub.
+9. Clique em **Atributos** e selecione o botão de opção **Edge** para alternar para o modo de exibição do Edge.
 
-![Guia Atributos com o botão de opção Edge para alternar a exibição de perfil](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
+   ![Guia Atributos com o botão de opção Edge para alternar a exibição de perfil](assets/decisioning-and-cbes-in-action-edge-view-toggle.png)
 
->[!WARNING]
->
->Há um erro na interface do usuário infeliz que requer que você clique na guia Atributos para alternar o botão de opção para Edge.
+   >[!WARNING]
+   >
+   >Há um erro na interface do usuário infeliz que requer que você clique na guia Atributos para alternar o botão de opção para Edge.
 
 
 
-&#x200B;10. Clique novamente em **Associação de público-alvo** e, se você tiver feito essas etapas com rapidez suficiente, verá que a Edge está selecionada e mostrará que Bob não tem associação de público-alvo
+10. Clique novamente em **Associação de público-alvo** e, se você tiver feito essas etapas com rapidez suficiente, verá que a Edge está selecionada e mostrará que Bob não tem associação de público-alvo
 
 ![A exibição do Edge do perfil de Bob ainda não mostra nenhuma associação de público-alvo](assets/decisioning-and-cbes-in-action-edge-audience-membership-empty.png)
 
-&#x200B;11. Em uma nova guia do navegador, navegue até a Jornada criada e clique nela. Você pode ver que um perfil entrou na Jornada e agora está no nó CBE.
+11. Em uma nova guia do navegador, navegue até a Jornada criada e clique nela. Você pode ver que um perfil entrou na Jornada e agora está no nó CBE.
 
 ![Tela de Jornada mostrando o perfil de Bob inserido e no nó CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
 Neste ponto, Bob entrou na Jornada e a projeção do Edge está montando uma projeção que atualiza o perfil de Bob na Edge.
 
-&#x200B;12. Volte para o Postman e clique na segunda das chamadas de evento de experiência do Bob, **Bob - Busca no Topo da Página.**
-&#x200B;13. Clique em **Enviar**. O que deveria acontecer?
+12. Volte para o Postman e clique na segunda das chamadas de evento de experiência do Bob, **Bob - Busca no Topo da Página.**
+13. Clique em **Enviar**. O que deveria acontecer?
     - Se o perfil do Edge de Bob ainda não tiver sido atualizado, você receberá uma resposta muito semelhante ao que recebeu da chamada de Coleta de dados. Se esse for o caso, aguarde mais um ou dois minutos e tente enviar a chamada de Bob&#39;s Page Top Fetch novamente.
     - Se o perfil do Edge de Bob foi atualizado, você receberá uma resposta com o JSON que foi configurado anteriormente, juntamente com informações adicionais usadas para os relatórios. Mas, antes de seguir em frente, que oferta do iPhone 17 Bob deve ser oferecido?
 
@@ -118,19 +117,19 @@ Neste ponto, Bob entrou na Jornada e a projeção do Edge está montando uma pro
 
 ![Resposta do Postman mostrando a oferta da camada Base retornada para Bob](assets/decisioning-and-cbes-in-action-bob-base-offer-response.png)
 
-&#x200B;14. Lembre-se de que essa solicitação do Postman envia automaticamente uma notificação de exibição para essa oferta. Portanto, o AJO já gravou pelo menos uma impressão para essa oferta. Clique em **Enviar** novamente para enviar uma segunda impressão. Verifique se a oferta base foi retornada novamente.
-&#x200B;15. Lembre-se de que um limite de frequência de 3 impressões se aplica aos modelos de nível Base, Pro e Ultra. Clique em **Enviar** pela terceira vez para obter uma terceira resposta com a camada Base e gravar outra impressão.
-&#x200B;16. Clique em **Enviar** uma quarta vez e o que deve acontecer? O limite de frequência para a oferta da camada Base é atingido e você recebe a oferta Genérica na resposta:
+14. Lembre-se de que essa solicitação do Postman envia automaticamente uma notificação de exibição para essa oferta. Portanto, o AJO já gravou pelo menos uma impressão para essa oferta. Clique em **Enviar** novamente para enviar uma segunda impressão. Verifique se a oferta base foi retornada novamente.
+15. Lembre-se de que um limite de frequência de 3 impressões se aplica aos modelos de nível Base, Pro e Ultra. Clique em **Enviar** pela terceira vez para obter uma terceira resposta com a camada Base e gravar outra impressão.
+16. Clique em **Enviar** uma quarta vez e o que deve acontecer? O limite de frequência para a oferta da camada Base é atingido e você recebe a oferta Genérica na resposta:
 
 ![Resposta do Postman mostrando a oferta Genérica retornada após o limite de frequência ser atingido](assets/decisioning-and-cbes-in-action-bob-generic-offer-after-cap.png)
 
-&#x200B;17. Clique em **Enviar** novamente e você verá a oferta da camada Genérica. Você pode clicar em Enviar mais 100 vezes e receber a mesma oferta de volta até o dia seguinte, quando o limite de frequência for redefinido.
+17. Clique em **Enviar** novamente e você verá a oferta da camada Genérica. Você pode clicar em Enviar mais 100 vezes e receber a mesma oferta de volta até o dia seguinte, quando o limite de frequência for redefinido.
 
 >[!WARNING]
 >
 >Lembre-se de que no AJO, o dia é reiniciado à meia-noite GMT. Se você enviasse outra chamada de busca após a meia-noite GMT, veria a oferta da camada base retornar.
 
-&#x200B;18. Retorne à interface do usuário do Journey Orchestration e clique na Jornada **Abandonar navegação do iPhone 17** que você criou. Como a Jornada é publicada e publicada em tempo real, você começa a ver as estatísticas. Você pode ver que 1 perfil entrou na Jornada e está atualmente no nó CBE.
+18. Retorne à interface do usuário do Journey Orchestration e clique na Jornada **Abandonar navegação do iPhone 17** que você criou. Como a Jornada é publicada e publicada em tempo real, você começa a ver as estatísticas. Você pode ver que 1 perfil entrou na Jornada e está atualmente no nó CBE.
 
 ![Relatórios de Jornada mostrando um perfil atualmente no nó CBE](assets/decisioning-and-cbes-in-action-bob-enters-journey.png)
 
@@ -147,15 +146,15 @@ Agora que você viu a Jornada funcionando para o perfil do Bob, há dois outros 
 3. Aguarde alguns minutos para que os três perfis se qualifiquem para o segmento de transmissão, insira a Jornada e projete o CBE nos perfis do Edge.
 4. Envie a chamada de Busca superior da página quantas vezes forem necessárias para verificar se as regras de decisão e as fórmulas de Classificação estão funcionando como esperado.
 
-**Perfis de decisão: comportamento esperado**
+   **Perfis de decisão: comportamento esperado**
 
-| Nome | Sobrenome | 1ª oferta | 2ª oferta | 3ª oferta | 4ª oferta |
-| ---------- | ------------ | --------- | --------- | --------- | --------- |
-| Bob | Básico | Base | Genérico | Genérico | Genérico |
-| Peter | Profissional | Pro | Base | Genérico | Genérico |
-| Ursula | Ultimate | Ultra | Pro | Base | Genérico |
+   | Nome | Sobrenome | 1ª oferta | 2ª oferta | 3ª oferta | 4ª oferta |
+   | ---------- | ------------ | --------- | --------- | --------- | --------- |
+   | Bob | Básico | Base | Genérico | Genérico | Genérico |
+   | Peter | Profissional | Pro | Base | Genérico | Genérico |
+   | Ursula | Ultimate | Ultra | Pro | Base | Genérico |
 
-&#x200B;5. Quando terminar, retorne à Jornada. Você vê que todos os três perfis entraram na Jornada e estão no nó CBE.
+5. Quando terminar, retorne à Jornada. Você vê que todos os três perfis entraram na Jornada e estão no nó CBE.
 
 >[!NOTE]
 >

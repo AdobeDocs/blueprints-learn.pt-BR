@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar a origem
 description: Faça upload de um exemplo de arquivo de Conta do cliente para a Data Landing Zone e configure um novo fluxo de dados de fonte de armazenamento na nuvem.
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -45,25 +44,25 @@ Quando carregada, sua tela deve ficar parecida com a captura de tela abaixo.
 
 1. Selecione o **Lab\_Customer\_Account.csv**
 
-![Selecionando o arquivo Lab_Customer_Account.csv para visualização no Azure Storage Explorer](assets/setup-source-select-lab-customer-account-csv.png "Acessando os arquivos do Azure Storage Explorer no Adobe Experience Platform")
+   ![Selecionando o arquivo Lab_Customer_Account.csv para visualização no Azure Storage Explorer](assets/setup-source-select-lab-customer-account-csv.png "Acessando os arquivos do Azure Storage Explorer no Adobe Experience Platform")
 
 1. No painel de visualização, observe os seguintes atributos e observe o seguinte:
 
-- **sms\_optIn** é um campo de consentimento que tem vários valores ausentes (mostrado na visualização como - )
-- **account\_create\_date** não tem o formato de data adequado. Ele tem valores de string junto com valores de data e hora em uma string.
-- **account\_end\_date** tem o formato de data adequado.
+   - **sms\_optIn** é um campo de consentimento que tem vários valores ausentes (mostrado na visualização como - )
+   - **account\_create\_date** não tem o formato de data adequado. Ele tem valores de string junto com valores de data e hora em uma string.
+   - **account\_end\_date** tem o formato de data adequado.
 
 
 
-Campo ![sms_optIn com vários valores ausentes mostrados na visualização do arquivo](assets/setup-source-sms-optin-missing-values.png "sms_optIn")
+   Campo ![sms_optIn com vários valores ausentes mostrados na visualização do arquivo](assets/setup-source-sms-optin-missing-values.png "sms_optIn")
 
 
 
-![campos account_create_date e account_end_date mostrados na visualização do arquivo](assets/setup-source-account-create-date-account-end-date.png "account_create_date e account_end_date")
+   ![campos account_create_date e account_end_date mostrados na visualização do arquivo](assets/setup-source-account-create-date-account-end-date.png "account_create_date e account_end_date")
 
->[!NOTE]
->
->Você precisará lidar com os valores ausentes, datas e campos formatados incorretamente nas etapas de mapeamento posteriormente neste laboratório
+   >[!NOTE]
+   >
+   >Você precisará lidar com os valores ausentes, datas e campos formatados incorretamente nas etapas de mapeamento posteriormente neste laboratório
 
 1. Clique em **Avançar** no canto superior direito da tela para prosseguir para a próxima etapa
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Transmitir um perfil
 description: Use o Postman e o endpoint de transmissão e a ID de fluxo de dados para enviar um registro de perfil de cliente para o Adobe Experience Platform por meio da API HTTP.
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
@@ -79,18 +78,18 @@ Execute as seguintes etapas:
 
 1. Copie o valor de **Ponto de extremidade de streaming** e salve-o no computador local (supondo que você não tenha saído da etapa da seção anterior). Se você navegou, é possível encontrá-lo em Fontes -> Contas.
 
->[!NOTE]
->
->Se você navegou para fora, é possível acessar essa página fazendo o seguinte:
->
->- Clique em **Fontes** no painel esquerdo
->- Verifique se você está na guia **Contas** e clique na conta criada com o título **Assimilação de streaming - \&lt;Suas iniciais>**
+   >[!NOTE]
+   >
+   >Se você navegou para fora, é possível acessar essa página fazendo o seguinte:
+   >
+   >- Clique em **Fontes** no painel esquerdo
+   >- Verifique se você está na guia **Contas** e clique na conta criada com o título **Assimilação de streaming - \&lt;Suas iniciais>**
 
->[!NOTE]
->
->Se você não vir esse valor, verifique se não tem a linha de fluxo de dados selecionada clicando na linha.  NÃO CLIQUE NOS LINKS AZUIS
+   >[!NOTE]
+   >
+   >Se você não vir esse valor, verifique se não tem a linha de fluxo de dados selecionada clicando na linha.  NÃO CLIQUE NOS LINKS AZUIS
 
-![URL do ponto de extremidade de streaming exibida no lado direito dos detalhes da conta](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
+   ![URL do ponto de extremidade de streaming exibida no lado direito dos detalhes da conta](assets/stream-a-profile-streaming-endpoint-url-on-the-right.png)
 
 
 
@@ -106,34 +105,34 @@ Mude para o aplicativo Postman e atualize a solicitação Criar conta do cliente
 
 1. Abra o Postman e navegue até a **Solicitação do laboratório de assimilação de dados -> Criar conta do cliente** para abrir a solicitação de API
 
-![Solicitação de API para Criar Conta de Cliente aberta no Postman](assets/stream-a-profile-create-customer-account-api-request.png)
+   ![Solicitação de API para Criar Conta de Cliente aberta no Postman](assets/stream-a-profile-create-customer-account-api-request.png)
 
 
 
 1. Copie e cole o valor de **Ponto de extremidade de streaming** que você salvou anteriormente na URL da solicitação
 
-![Valor de ponto de extremidade de streaming colado na URL de solicitação de Criação de Conta de Cliente](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
+   ![Valor de ponto de extremidade de streaming colado na URL de solicitação de Criação de Conta de Cliente](assets/stream-a-profile-create-customer-account-streaming-endpoint-url.png)
 
 
 
 1. Copie e cole o valor da ID de fluxo de dados que você salvou anteriormente no valor de cabeçalho **x-adobe-flow-id**
 
-![ID do fluxo de dados colada no valor do cabeçalho x-adobe-flow-id](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
+   ![ID do fluxo de dados colada no valor do cabeçalho x-adobe-flow-id](assets/stream-a-profile-copy-paste-x-adobe-flow-id.png)
 
 
 
 1. No corpo da solicitação, atualize os seguintes atributos da seguinte maneira:
 
-- **firstName** -> Seu nome
-- **lastName** -> Seu Sobrenome
-- **email** -> Seu endereço de email
-- **data_de_nascimento** -> DD/MM/AAAA
+   - **firstName** -> Seu nome
+   - **lastName** -> Seu Sobrenome
+   - **email** -> Seu endereço de email
+   - **data_de_nascimento** -> DD/MM/AAAA
 
-**5. Salve** sua solicitação
+   **5. Salve** sua solicitação
 
 1. Clique no botão **Enviar** para executar a solicitação para transmitir em seu Perfil de Conta de Cliente
 
-![Solicitação de Criação de Conta de Cliente Final pronta para ser enviada no Postman](assets/stream-a-profile-final-create-customer-account-request.png)
+   ![Solicitação de Criação de Conta de Cliente Final pronta para ser enviada no Postman](assets/stream-a-profile-final-create-customer-account-request.png)
 
 
 

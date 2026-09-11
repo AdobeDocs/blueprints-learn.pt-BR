@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar propriedade
 description: Crie uma propriedade de encaminhamento de eventos com um elemento de dados e uma regra que encaminhe eventos de experiência recebidos para um ponto de extremidade de webhook.
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
@@ -24,11 +23,11 @@ Normalmente, queremos encaminhar um Evento de experiência para terceiros (embor
 1. No painel à esquerda, clique em Encaminhamento de evento
 2. Em seguida, clique em Nova propriedade
 
-![A seção Encaminhamento de Eventos com o botão Nova Propriedade realçado](assets/create-property-new-property-button.png "Criar uma nova propriedade de encaminhamento de eventos")
+   ![A seção Encaminhamento de Eventos com o botão Nova Propriedade realçado](assets/create-property-new-property-button.png "Criar uma nova propriedade de encaminhamento de eventos")
 
-&#x200B;3. Atualize o nome da propriedade usando a seguinte fórmula: `Event Forward Property SB + [sandbox number]`. Seu nome final seria mais ou menos assim: **Propriedade de Encaminhamento de Eventos SB01**
+3. Atualize o nome da propriedade usando a seguinte fórmula: `Event Forward Property SB + [sandbox number]`. Seu nome final seria mais ou menos assim: **Propriedade de Encaminhamento de Eventos SB01**
 
-&#x200B;4. Clique em **Salvar** ao concluir
+4. Clique em **Salvar** ao concluir
 
 ![Campo de nome da propriedade de Encaminhamento de Eventos preenchido com o botão Salvar realçado](assets/create-property-name-property-form.png)
 
@@ -36,21 +35,21 @@ Normalmente, queremos encaminhar um Evento de experiência para terceiros (embor
 
 1. Clique na propriedade de encaminhamento de eventos que você acabou de criar
 
-![Lista de propriedades de Encaminhamento de Eventos com a propriedade recém-criada realçada](assets/create-property-open-new-property.png "Abra a propriedade do evento")
+   ![Lista de propriedades de Encaminhamento de Eventos com a propriedade recém-criada realçada](assets/create-property-open-new-property.png "Abra a propriedade do evento")
 
 
 
-&#x200B;2. Você deve ver uma tela como a abaixo.  Clique em **Extensões**.
+2. Você deve ver uma tela como a abaixo.  Clique em **Extensões**.
 
-![Tela de visão geral da propriedade de Encaminhamento de Eventos com a guia Extensões realçada](assets/create-property-click-extensions-tab.png)
+   ![Tela de visão geral da propriedade de Encaminhamento de Eventos com a guia Extensões realçada](assets/create-property-click-extensions-tab.png)
 
 
 
-&#x200B;3. Instale a extensão Adobe Cloud Connector fazendo o seguinte:
+3. Instale a extensão Adobe Cloud Connector fazendo o seguinte:
 
-&#x200B;4. Clique em **Catálogo** na navegação superior
-&#x200B;5. Clique no cartão **Adobe Cloud Connector**
-&#x200B;6. No painel direito, clique no botão **Instalar**
+4. Clique em **Catálogo** na navegação superior
+5. Clique no cartão **Adobe Cloud Connector**
+6. No painel direito, clique no botão **Instalar**
 
 ![Catálogo de extensões com a placa do Adobe Cloud Connector e o botão Instalar realçados](assets/create-property-install-cloud-connector-extension.png)
 
@@ -70,52 +69,52 @@ Depois de clicar em Instalar, você deve ver a exibição da extensão nas exten
 
 
 
-![Navegação no painel esquerdo com o link de Elementos de Dados realçado](assets/create-property-navigate-to-data-elements.png "Navegar até os elementos de dados")
+   ![Navegação no painel esquerdo com o link de Elementos de Dados realçado](assets/create-property-navigate-to-data-elements.png "Navegar até os elementos de dados")
 
 
 
-&#x200B;2. Clique no botão **Criar novo elemento de dados**
+2. Clique no botão **Criar novo elemento de dados**
 
-![A página Elementos de dados com o botão Criar novo elemento de dados realçado](assets/create-property-create-new-data-element-button.png "Criar novo elemento de dados")
-
-
-
-&#x200B;3. Configure o novo elemento de dados com as seguintes informações:
-
-| Tipo de elemento | Valor a ser configurado |
-| ----------------- | ------------------ |
-| Nome | Objeto de dados |
-| Extensão | Núcleo |
-| Tipo de elemento de dados | Custom Code |
-
-![Configuração do elemento de dados com os campos Nome, Extensão e Tipo de Elemento de Dados definidos](assets/create-property-data-element-config-step-1.png "Etapa 1 da configuração do elemento de dados")
+   ![A página Elementos de dados com o botão Criar novo elemento de dados realçado](assets/create-property-create-new-data-element-button.png "Criar novo elemento de dados")
 
 
 
-&#x200B;4. Clique no botão **Abrir Editor** para adicionar o seguinte código personalizado:
+3. Configure o novo elemento de dados com as seguintes informações:
 
-![Configurações do elemento de dados com o botão Abrir Editor realçado para código personalizado](assets/create-property-open-custom-code-editor.png "Abrir o editor")
+   | Tipo de elemento | Valor a ser configurado |
+   | ----------------- | ------------------ |
+   | Nome | Objeto de dados |
+   | Extensão | Núcleo |
+   | Tipo de elemento de dados | Custom Code |
 
-
-
-&#x200B;5. Adicione o código personalizado ao editor assim como e salve
-
-```none
-var xdm = arc?.event || '';
-return xdm;
-```
-
-![Editor de código personalizado mostrando o script que retorna o objeto de evento XDM de entrada](assets/create-property-custom-code-added.png "Código personalizado")
-
->[!NOTE]
->
->Isso está capturando todo o objeto xdm sem fazer qualquer tradução na carga útil.  Se necessário, podemos analisar cada parte individual do objeto XDM (por exemplo, nome da página, valor de compra) em um elemento de dados por campo.  A razão para fazer isso pode ser se houver transformação da estrutura para uma estrutura diferente
+   ![Configuração do elemento de dados com os campos Nome, Extensão e Tipo de Elemento de Dados definidos](assets/create-property-data-element-config-step-1.png "Etapa 1 da configuração do elemento de dados")
 
 
 
+4. Clique no botão **Abrir Editor** para adicionar o seguinte código personalizado:
+
+   ![Configurações do elemento de dados com o botão Abrir Editor realçado para código personalizado](assets/create-property-open-custom-code-editor.png "Abrir o editor")
 
 
-&#x200B;6. Clique no botão **Salvar** para salvar seu elemento de dados.
+
+5. Adicione o código personalizado ao editor assim como e salve
+
+   ```none
+   var xdm = arc?.event || '';
+   return xdm;
+   ```
+
+   ![Editor de código personalizado mostrando o script que retorna o objeto de evento XDM de entrada](assets/create-property-custom-code-added.png "Código personalizado")
+
+   >[!NOTE]
+   >
+   >Isso está capturando todo o objeto xdm sem fazer qualquer tradução na carga útil.  Se necessário, podemos analisar cada parte individual do objeto XDM (por exemplo, nome da página, valor de compra) em um elemento de dados por campo.  A razão para fazer isso pode ser se houver transformação da estrutura para uma estrutura diferente
+
+
+
+
+
+6. Clique no botão **Salvar** para salvar seu elemento de dados.
 
 ![Editor de elementos de dados com o botão Salvar realçado](assets/create-property-save-data-element-button.png)
 
@@ -139,31 +138,31 @@ Quando terminar, você deve ver a tela a seguir confirmando que o elemento de da
 
 1. No painel esquerdo, clique em **Regras**
 
-![Navegação no painel esquerdo com o link Regras realçado](assets/create-property-navigate-to-rules.png)
+   ![Navegação no painel esquerdo com o link Regras realçado](assets/create-property-navigate-to-rules.png)
 
 
 
-&#x200B;2. Em seguida, clique em **Criar nova regra**
+2. Em seguida, clique em **Criar nova regra**
 
-A página ![Regras com o botão Criar Nova Regra realçado](assets/create-property-new-rule-button.png)
-
-
-
-&#x200B;3. Atualize o nome da regra usando a seguinte fórmula: `"EF Rule SB" + [your sandbox number]` (ou seja, Regra EF SB01). Você pode encontrar seu número de sandbox na parte superior direita da janela do navegador, como mostrado abaixo\...
-
-![Canto superior direito da janela do navegador mostrando o número da sandbox usado no nome da regra](assets/create-property-sandbox-number-location.png)
-
-&#x200B;4. Clique em **Salvar** ao concluir
-
->[!NOTE]
->
->Verifique se o nome da regra segue o padrão de fórmula de `"EF Rule SB" + [sandbox number]`
-
-![Campo de nome de regra preenchido com o padrão de nomenclatura da sandbox da Regra EF](assets/create-property-add-rule-name.png "Adicionar nome à regra")
+   A página ![Regras com o botão Criar Nova Regra realçado](assets/create-property-new-rule-button.png)
 
 
 
-&#x200B;5. Adicione uma Ação à regra clicando no sinal (+) para adicionar uma nova ação
+3. Atualize o nome da regra usando a seguinte fórmula: `"EF Rule SB" + [your sandbox number]` (ou seja, Regra EF SB01). Você pode encontrar seu número de sandbox na parte superior direita da janela do navegador, como mostrado abaixo\...
+
+   ![Canto superior direito da janela do navegador mostrando o número da sandbox usado no nome da regra](assets/create-property-sandbox-number-location.png)
+
+4. Clique em **Salvar** ao concluir
+
+   >[!NOTE]
+   >
+   >Verifique se o nome da regra segue o padrão de fórmula de `"EF Rule SB" + [sandbox number]`
+
+   ![Campo de nome de regra preenchido com o padrão de nomenclatura da sandbox da Regra EF](assets/create-property-add-rule-name.png "Adicionar nome à regra")
+
+
+
+5. Adicione uma Ação à regra clicando no sinal (+) para adicionar uma nova ação
 
 ![Editor de regras com o ícone de adição realçado para adicionar uma nova ação](assets/create-property-add-action-button.png "Adicionar uma ação")
 
@@ -178,11 +177,11 @@ A página ![Regras com o botão Criar Nova Regra realçado](assets/create-proper
 1. Abra o link a seguir em uma nova guia do navegador -> [https://webhook.site](https://webhook.site/)
 2. Copie o URL exclusivo que você vê e salve-o em algum lugar seguro
 
-Página ![Webhook.site com a URL exclusiva realçada para cópia](assets/create-property-webhooksite-copy-url.png)
+   Página ![Webhook.site com a URL exclusiva realçada para cópia](assets/create-property-webhooksite-copy-url.png)
 
 
 
-&#x200B;3. Configure sua ação com as seguintes informações:
+3. Configure sua ação com as seguintes informações:
 
 | Configuração | Valor |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -209,7 +208,7 @@ Quando você terminar, valide sua tela com aparência semelhante à mostrada aba
 
 
 
-&#x200B;4. Quando terminar, você deverá ver sua ação adicionada à regra. Clique em **Salvar** para continuar.
+4. Quando terminar, você deverá ver sua ação adicionada à regra. Clique em **Salvar** para continuar.
 
 ![O editor de regras mostra a ação configurada com o botão Salvar realçado](assets/create-property-save-rule-button.png "Salvar sua regra")
 
@@ -225,29 +224,29 @@ Quando você terminar, valide sua tela com aparência semelhante à mostrada aba
 
 1. No painel esquerdo, clique em **Fluxo de publicação**
 
-![Navegação no painel esquerdo com o link Fluxo de publicação destacado](assets/create-property-navigate-to-publishing-flow.png "Navegar até o Fluxo de publicação")
+   ![Navegação no painel esquerdo com o link Fluxo de publicação destacado](assets/create-property-navigate-to-publishing-flow.png "Navegar até o Fluxo de publicação")
 
 
 
-&#x200B;2. Clique no botão **Adicionar Biblioteca**
+2. Clique no botão **Adicionar Biblioteca**
 
-![Página de Fluxo de Publicação com o botão Adicionar Biblioteca realçado](assets/create-property-add-library-button.png "Adicionar biblioteca")
-
-
-
-&#x200B;3. Configure a biblioteca com as seguintes informações:
-
-- Nome -> **EF Biblioteca**
-- Ambiente -> **Desenvolvimento**
-- Clique em **Adicionar todos os recursos alterados**
-
-
-Quando terminar, sua tela deve ser semelhante à captura de tela abaixo.  Se tudo estiver bem, clique no botão **Salvar e criar no desenvolvimento**
-
-![Configuração de biblioteca com nome, ambiente de desenvolvimento e botão Salvar e criar no desenvolvimento](assets/create-property-configure-library-save-and-build.png)
+   ![Página de Fluxo de Publicação com o botão Adicionar Biblioteca realçado](assets/create-property-add-library-button.png "Adicionar biblioteca")
 
 
 
-&#x200B;4. Você deve ver a build de desenvolvimento ficar verde, declarando que está pronta para uso
+3. Configure a biblioteca com as seguintes informações:
+
+   - Nome -> **EF Biblioteca**
+   - Ambiente -> **Desenvolvimento**
+   - Clique em **Adicionar todos os recursos alterados**
+
+
+   Quando terminar, sua tela deve ser semelhante à captura de tela abaixo.  Se tudo estiver bem, clique no botão **Salvar e criar no desenvolvimento**
+
+   ![Configuração de biblioteca com nome, ambiente de desenvolvimento e botão Salvar e criar no desenvolvimento](assets/create-property-configure-library-save-and-build.png)
+
+
+
+4. Você deve ver a build de desenvolvimento ficar verde, declarando que está pronta para uso
 
 ![Fluxo de Publicação mostrando o status da compilação de desenvolvimento como verde e pronto para uso](assets/create-property-development-build-ready.png)

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Recapitulação
 description: Revise as etapas do laboratório de modelagem de API, desde a criação do esquema da conta do cliente até a aplicação de patches JSON, marcação de identidades e criação de uma relação de pesquisa.
 doc-type: article
 solution: Experience Platform
 exl-id: 0279cd68-af7b-43b4-8c6c-d8f8f96f0c0e
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -19,7 +18,7 @@ O vídeo abaixo recapitula como você criou o esquema, as identidades e os descr
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >Primeiro de parabéns! Criar coisas por meio da API não é fácil, mas entender como funciona ajudará você a entender o sistema como um todo. Parabéns!
 

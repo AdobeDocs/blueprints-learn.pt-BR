@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar destino do Personalization personalizado
 description: Configure um destino do Personalization personalizado para enviar atributos de perfil à Edge Network para uso em tempo real por um sistema de personalização de terceiros.
 doc-type: article
 solution: Experience Platform
 exl-id: 46073f7c-00f4-4a4f-9fa3-8827ef15ec4a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Configurar destino do Personalization personalizado
 
-Usar um [Destino personalizado do Personalization](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/custom-personalization) é uma maneira de disponibilizar públicos-alvo no Edge para uso por terceiros, geralmente usando a API do Servidor de Rede, para uso na Personalização.
+Usar um [Destino personalizado do Personalization](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) é uma maneira de disponibilizar públicos-alvo no Edge para uso por terceiros, geralmente usando a API do Servidor de Rede, para uso na Personalização.
 
 Esse laboratório configura o Destino personalizado do Personalization para que possamos enviar Atributos de perfil para a Edge.
 
@@ -25,7 +24,7 @@ Esse laboratório configura o Destino personalizado do Personalization para que 
 
 >[!NOTE]
 >
->Para personalizar usando o Adobe Target, usaríamos o [Destino do Adobe Target.](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) O comportamento é idêntico ao do Personalization personalizado.
+>Para personalizar usando o Adobe Target, usaríamos o [Destino do Adobe Target.](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-v2) O comportamento é idêntico ao do Personalization personalizado.
 
 1. No painel à esquerda, clique em **Destinos**
 1. No painel superior, clique em **Catálogo**
@@ -105,7 +104,7 @@ Adicione um **novo mapeamento** da seguinte maneira:
 | ---------------------- | ------------ |
 | \_tenantName.plan.name | Nome do plano |
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Lembre-se de substituir **\_tenantName** pelo seu nome de locatário
 
@@ -121,7 +120,7 @@ Quando terminar, sua tela deve ficar parecida com a imagem abaixo.  Você pode c
 
 >[!NOTE]
 >
->Como os atributos de perfil podem conter dados confidenciais, todas as chamadas da [API do Edge Network Server](https://experienceleague.adobe.com/pt-br/docs/experience-platform/edge-network-server-api/overview) devem ser feitas em um contexto autenticado para recuperar o atributo após sua inclusão na Edge.
+>Como os atributos de perfil podem conter dados confidenciais, todas as chamadas da [API do Edge Network Server](https://experienceleague.adobe.com/en/docs/experience-platform/edge-network-server-api/overview) devem ser feitas em um contexto autenticado para recuperar o atributo após sua inclusão na Edge.
 
 
 ### Revisão
@@ -132,4 +131,4 @@ Na tela final, é possível revisar os detalhes da configuração e clicar no bo
 
 >[!NOTE]
 >
->Este é o ponto em que a [Imposição Automática](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/enforcement/auto-enforcement) verifica as [Políticas de Uso de Dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/policies/overview). Ele verificará suas Ações de marketing com as Regras que você criou e gerará erros.
+>Este é o ponto em que a [Imposição Automática](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement) verifica as [Políticas de Uso de Dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview). Ele verificará suas Ações de marketing com as Regras que você criou e gerará erros.

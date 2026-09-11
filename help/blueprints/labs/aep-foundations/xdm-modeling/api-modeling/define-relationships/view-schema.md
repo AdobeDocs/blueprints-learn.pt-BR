@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Exibir esquema
 description: Visualize a relação de pesquisa do esquema da Conta do cliente com o esquema do Plano por meio da interface do usuário do esquema e da API Obter esquema.
 doc-type: article
 solution: Experience Platform
 exl-id: dae48ef4-f762-4173-8564-c1ad40c0109b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -28,19 +27,19 @@ ht-degree: 0%
 
 1. Selecione a API `Step 4 - Get Customer Account Schema and its descriptors` clicando nela
 
-![Etapa 4 - Obter Esquema de Conta do Cliente e chamada à API de seus descritores](assets/view-schema-step-4-get-schema-and-descriptors.png "Etapa 4 - Obter Esquema de Conta do Cliente e seus descritores")
+   ![Etapa 4 - Obter Esquema de Conta do Cliente e chamada à API de seus descritores](assets/view-schema-step-4-get-schema-and-descriptors.png "Etapa 4 - Obter Esquema de Conta do Cliente e seus descritores")
 
 
 
-&#x200B;2. Na URL da solicitação, substitua `<replace me>` pelo `$meta:altId` que você salvou da seção anterior [Criar Esquema](../build-schema/create-schema.md), conforme mostrado abaixo
+2. Na URL da solicitação, substitua `<replace me>` pelo `$meta:altId` que você salvou da seção anterior [Criar Esquema](../build-schema/create-schema.md), conforme mostrado abaixo
 
-![Solicitação de Etapa 4 com o meta:altId anexado à URL](assets/view-schema-final-step-4-request.png "Solicitação de Etapa 4 Final")
+   ![Solicitação de Etapa 4 com o meta:altId anexado à URL](assets/view-schema-final-step-4-request.png "Solicitação de Etapa 4 Final")
 
 
 
-&#x200B;3. Salve a solicitação usando o botão `Save`
+3. Salve a solicitação usando o botão `Save`
 
-&#x200B;4. Execute a solicitação clicando no botão `Send`
+4. Execute a solicitação clicando no botão `Send`
 
 Agora você deve ver uma resposta de `200 OK` e navegar até o final do esquema criado para ver a Identidade através das lentes da estrutura JSON do XDM
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Agendar fluxo de dados
 description: Configure um agendamento de fluxo de dados recorrente de 15 minutos com preenchimento retroativo ativado e entenda como os horários de início UTC afetam as execuções.
 doc-type: article
 solution: Experience Platform
 exl-id: 9865b1eb-0d98-4cae-a928-69ea897607ca
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -47,7 +46,7 @@ Depois de clicar em **Concluir**, você será redirecionado à tela **Fluxos de 
 
 ![Tela de fluxos de dados mostrando o novo fluxo de dados com status Sem execuções](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "Tela de fontes de fluxos de dados")
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >É necessário atualizar a página continuamente para ver a atualização de status, pois o back-end não envia atualizações para a interface.
 

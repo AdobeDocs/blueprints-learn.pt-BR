@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar sequência de dados
 description: Crie e configure um fluxo de dados com os serviços Encaminhamento de eventos e Adobe Experience Platform para rotear eventos de borda de entrada.
 doc-type: article
 solution: Experience Platform
 exl-id: f7ada451-2f87-48f4-8673-7bfa0df9d0d3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
@@ -58,13 +57,13 @@ Isso permite usar o encaminhamento de eventos para dados recebidos por essa sequ
 
 1. Clique em **Adicionar serviço**
 
-![Página de detalhes da sequência de dados com o botão Adicionar Serviço realçado](assets/create-datastream-add-service-button.png "Adicionar Serviço")
+   ![Página de detalhes da sequência de dados com o botão Adicionar Serviço realçado](assets/create-datastream-add-service-button.png "Adicionar Serviço")
 
 1. Configure os seguintes itens:
 
-- Serviço -> Encaminhamento de eventos
-- Propriedade -> Selecione a propriedade que você criou na etapa anterior.  Ele deve ser nomeado assim: Propriedade de encaminhamento de eventos SB + \&lt;número da sandbox>
-- Ambiente -> Desenvolvimento
+   - Serviço -> Encaminhamento de eventos
+   - Propriedade -> Selecione a propriedade que você criou na etapa anterior.  Ele deve ser nomeado assim: Propriedade de encaminhamento de eventos SB + \&lt;número da sandbox>
+   - Ambiente -> Desenvolvimento
 
 1. Quando terminar, clique em **Salvar**
 
@@ -80,17 +79,17 @@ Isso permite enviar dados para o Hub e chegar a um conjunto de dados para os dad
 
 1. Clique em **Adicionar serviço**
 
-![A página de detalhes da sequência de dados com o botão Adicionar Serviço foi realçada para adicionar o serviço do Adobe Experience Platform](assets/create-datastream-add-second-service-button.png "Adicionar um novo serviço")
+   ![A página de detalhes da sequência de dados com o botão Adicionar Serviço foi realçada para adicionar o serviço do Adobe Experience Platform](assets/create-datastream-add-second-service-button.png "Adicionar um novo serviço")
 
 1. Configure os seguintes itens:
 
-- Serviço -> Adobe Experience Platform
-- Conjunto de dados do evento -> profundidade: Web
-- Conjunto de dados do perfil -> dep: Conta do cliente
-- Marque a caixa de seleção -> Segmentação do Edge
-- Marque a caixa de seleção -> Destino do Personalization
+   - Serviço -> Adobe Experience Platform
+   - Conjunto de dados do evento -> profundidade: Web
+   - Conjunto de dados do perfil -> dep: Conta do cliente
+   - Marque a caixa de seleção -> Segmentação do Edge
+   - Marque a caixa de seleção -> Destino do Personalization
 
-![Configuração do serviço Adobe Experience Platform com conjunto de dados do evento, conjunto de dados do perfil e caixas de seleção de segmentação definidas](assets/create-datastream-aep-service-config.png "Configurar Serviço")
+   ![Configuração do serviço Adobe Experience Platform com conjunto de dados do evento, conjunto de dados do perfil e caixas de seleção de segmentação definidas](assets/create-datastream-aep-service-config.png "Configurar Serviço")
 
 1. Quando terminar, clique em **Salvar**.
 

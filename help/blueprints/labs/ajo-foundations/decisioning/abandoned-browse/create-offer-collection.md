@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar coleção de ofertas
 description: Agrupe itens de oferta relacionados em uma coleção usando regras baseadas em atributos para que eles possam ser avaliados em conjunto por uma estratégia de seleção.
 doc-type: article
 solution: Experience Platform
 exl-id: 0a54f4dc-2112-474a-8383-9dd1497c3c74
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -24,31 +23,31 @@ Agora que suas ofertas foram criadas, elas precisam ser organizadas em uma cole�
 1. Se necessário, expanda **Decisão** no painel esquerdo e clique em **Catálogos**. Você verá as quatro ofertas criadas na seção anterior.
 2. Clique em **Coleções** à esquerda do nome da oferta
 
-![Guia Coleções na página Catálogos](assets/create-offer-collection-collections-tab.png)
+   ![Guia Coleções na página Catálogos](assets/create-offer-collection-collections-tab.png)
 
-&#x200B;3. Clique na **Criar coleção** azul para criar a nova coleção.
-&#x200B;4. Nomeie a coleção **iPhone 17 Collection**
-&#x200B;5. Na seção &#39;Regras de coleção&#39;, clique na caixa de texto que contém o texto **_Clique para criar um item de decisão_**. Depois de clicado, as opções para criar a regra serão exibidas.
+3. Clique na **Criar coleção** azul para criar a nova coleção.
+4. Nomeie a coleção **iPhone 17 Collection**
+5. Na seção &#39;Regras de coleção&#39;, clique na caixa de texto que contém o texto **_Clique para criar um item de decisão_**. Depois de clicado, as opções para criar a regra serão exibidas.
 
-![Caixa de texto de regra de coleção aberta para criar um item de decisão](assets/create-offer-collection-create-decision-item.png)
+   ![Caixa de texto de regra de coleção aberta para criar um item de decisão](assets/create-offer-collection-create-decision-item.png)
 
-&#x200B;6. Clique no botão **Selecionar atributo** e navegue pelo esquema do item de oferta clicando em **Dispositivo > Criar**. Clique em **Salvar** e você verá que o atributo &quot;Criar&quot; agora está na regra de decisão.
+6. Clique no botão **Selecionar atributo** e navegue pelo esquema do item de oferta clicando em **Dispositivo > Criar**. Clique em **Salvar** e você verá que o atributo &quot;Criar&quot; agora está na regra de decisão.
 
-![Atributo do Device Make adicionado à regra de coleção](assets/create-offer-collection-select-make-attribute.png)
+   ![Atributo do Device Make adicionado à regra de coleção](assets/create-offer-collection-select-make-attribute.png)
 
->[!NOTE]
->
->Observe que as opções disponíveis para você são os mesmos campos configuráveis usados ao criar os itens de oferta. Como uma coleção é um agrupamento de itens de oferta, faz sentido que as regras para agrupá-los dependam de seus atributos.
+   >[!NOTE]
+   >
+   >Observe que as opções disponíveis para você são os mesmos campos configuráveis usados ao criar os itens de oferta. Como uma coleção é um agrupamento de itens de oferta, faz sentido que as regras para agrupá-los dependam de seus atributos.
 
-&#x200B;7. Deixe o operador &quot;Equals&quot; no lugar e insira o texto **iPhone** no campo de valor e veja que o número de itens muda para 4, indicando que todos os itens de oferta atendem a esse critério
+7. Deixe o operador &quot;Equals&quot; no lugar e insira o texto **iPhone** no campo de valor e veja que o número de itens muda para 4, indicando que todos os itens de oferta atendem a esse critério
 
-![Regra de coleção mostrando quatro itens de oferta que correspondem aos critérios de iPhone](assets/create-offer-collection-four-matching-offers.png)
+   ![Regra de coleção mostrando quatro itens de oferta que correspondem aos critérios de iPhone](assets/create-offer-collection-four-matching-offers.png)
 
->[!NOTE]
->
->Você também pode clicar no botão **Visualizar Coleção** e ver os itens de oferta que atendem aos critérios.
+   >[!NOTE]
+   >
+   >Você também pode clicar no botão **Visualizar Coleção** e ver os itens de oferta que atendem aos critérios.
 
-&#x200B;8. Com todos os quatro itens de oferta selecionados, clique no botão azul **Criar**. Isso leva você a uma página que mostra sua coleção recém-criada.
+8. Com todos os quatro itens de oferta selecionados, clique no botão azul **Criar**. Isso leva você a uma página que mostra sua coleção recém-criada.
 
 ![Página da coleção do iPhone 17 recém-criada](assets/create-offer-collection-created-collection-page.png)
 

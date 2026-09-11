@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Resumo
 description: Recapitule como um evento da Web simulado flui pelas camadas do Edge Network, Perfil em tempo real e Data Lake do Adobe Experience Platform.
 doc-type: article
 solution: Experience Platform
 exl-id: 2f2a2c92-0359-4101-973f-3cb012debb63
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 1%
@@ -23,7 +22,7 @@ Por meio dessas etapas, você demonstrou como os eventos se movem pelas camadas 
 
 
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**SE ESTIVER LENDO ISSO SIGNIFICA QUE VOCÊ ESTÁ NO FINAL DO LABORATÓRIO.**
 >

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar para perfil
 description: Saiba como configurar um canal de email usando o atributo personalEmail.address do perfil do AEP para Jornada e Campanhas orquestradas.
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 8%
@@ -24,9 +23,9 @@ No próximo conjunto de etapas, você criará uma Configuração de canal de ema
 1. Navegue até **Configurações de Canal** encontradas no menu **Administração → Canais → Configurações gerais**
 2. Clique no botão **Criar configuração**
 
-![Criar configuração de canal](assets/configure-for-profile-create-configuration-button.png)
+   ![Criar configuração de canal](assets/configure-for-profile-create-configuration-button.png)
 
-&#x200B;3. No assistente Criar, defina os seguintes valores:
+3. No assistente Criar, defina os seguintes valores:
    - **Nome:** `Profile-Email`
    - **Canal:** `Email`
    - **Ação de marketing:** `Email Targeting`
@@ -95,45 +94,45 @@ Manter as configurações padrão
 
 1. Conclua a seção **Detalhes da execução**. Na guia **Jornada e Ação** -> **Dimensão de execução**, selecione **Perfil** como **Source** e clique no ícone Editar para **Endereço de entrega** na seção **Endereço de execução**
 
-![Detalhes da execução](assets/configure-for-profile-execution-details-journey-tab.png)
+   ![Detalhes da execução](assets/configure-for-profile-execution-details-journey-tab.png)
 
-&#x200B;2. Clique na pasta denominada **Email Pessoal** para abri-lo
+2. Clique na pasta denominada **Email Pessoal** para abri-lo
 
-![Endereço de entrega](assets/configure-for-profile-personal-email-folder.png)
+   ![Endereço de entrega](assets/configure-for-profile-personal-email-folder.png)
 
-&#x200B;3. Clique na **caixa de seleção** no campo `Address` e no botão **Selecionar**
+3. Clique na **caixa de seleção** no campo `Address` e no botão **Selecionar**
 
-![Email Pessoal como Endereço de Entrega](assets/configure-for-profile-select-address-checkbox-journeys.png)
+   ![Email Pessoal como Endereço de Entrega](assets/configure-for-profile-select-address-checkbox-journeys.png)
 
-&#x200B;4. Para **Perfil**, `personalEmail.address` agora está configurado como o **Endereço de entrega** na seção **Endereço de Execução**
+4. Para **Perfil**, `personalEmail.address` agora está configurado como o **Endereço de entrega** na seção **Endereço de Execução**
 
-![Endereço de entrega configurado](assets/configure-for-profile-delivery-address-configured-journeys.png)
+   ![Endereço de entrega configurado](assets/configure-for-profile-delivery-address-configured-journeys.png)
 
-&#x200B;5. Clique na guia Campanha orquestrada e **marque** a caixa de seleção Habilitado.
+5. Clique na guia Campanha orquestrada e **marque** a caixa de seleção Habilitado.
 
-![Configuração de campanha orquestrada](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
+   ![Configuração de campanha orquestrada](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-&#x200B;6. No cabeçalho Execution dimension, configure o seguinte:
+6. No cabeçalho Execution dimension, configure o seguinte:
    - **Entregar uma mensagem por:** `Target Dimension`
    - **Dimension de Destino do Perfil:** `dep-rel: Customer Account - customer_id`
 
-![Dimension de Destino](assets/configure-for-profile-target-dimension-settings.png)
+   ![Dimension de Destino](assets/configure-for-profile-target-dimension-settings.png)
 
-&#x200B;7. Em Endereço de execução, configure o seguinte:
+7. Em Endereço de execução, configure o seguinte:
    - **Source:** `Profile`
    - **Endereço de entrega:** `click on the Edit icon`
 
-![Endereço de Execução](assets/configure-for-profile-execution-address-source-profile.png)
+   ![Endereço de Execução](assets/configure-for-profile-execution-address-source-profile.png)
 
-&#x200B;8. Procure por e clique na pasta `Personal Email` para abri-la
+8. Procure por e clique na pasta `Personal Email` para abri-la
 
-![Atributo de perfil de email pessoal](assets/configure-for-profile-search-personal-email-folder.png)
+   ![Atributo de perfil de email pessoal](assets/configure-for-profile-search-personal-email-folder.png)
 
-&#x200B;9. Selecione o campo `Address` na pasta Email Pessoal e clique em **Selecionar**
+9. Selecione o campo `Address` na pasta Email Pessoal e clique em **Selecionar**
 
-![Email Pessoal como Endereço de Entrega](assets/configure-for-profile-select-address-field-orchestrated.png)
+   ![Email Pessoal como Endereço de Entrega](assets/configure-for-profile-select-address-field-orchestrated.png)
 
-&#x200B;10. Para a **campanha orquestrada**, a **dep-rel: Conta de Cliente - customer\_id** está configurada como **Dimension de Destino de Perfil** para a **Dimensão de Execução** com **Endereço de Execução** tendo uma **Source** do **Perfil** e `personalEmail.address` como **Endereço de entrega**
+10. Para a **campanha orquestrada**, a **dep-rel: Conta de Cliente - customer\_id** está configurada como **Dimension de Destino de Perfil** para a **Dimensão de Execução** com **Endereço de Execução** tendo uma **Source** do **Perfil** e `personalEmail.address` como **Endereço de entrega**
 
 ![Dimensão de execução configurada](assets/configure-for-profile-orchestrated-execution-dimension-configured.png)
 
@@ -147,7 +146,7 @@ Manter as configurações padrão
 1. Revise todos os detalhes novamente para garantir que correspondam.
 1. Role para cima e clique em **Enviar**.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Observou-se que o processamento da configuração do canal de email leva até 2h!  Uau!
 >

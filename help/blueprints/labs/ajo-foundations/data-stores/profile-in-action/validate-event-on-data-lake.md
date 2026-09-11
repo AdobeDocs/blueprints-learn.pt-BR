@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Validar evento no Data Lake
 description: Saiba como consultar o Data Lake para verificar se um evento da Web transmitido foi gravado no conjunto de dados correto.
 doc-type: article
 solution: Experience Platform
 exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -21,7 +20,7 @@ Verifique se o evento da Web foi gravado no Experience Platform Data Lake.
 
 ## Validar evento
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Por fim, os dados aparecerão no Data Lake.  **Isso pode levar até 60 minutos**.  Sabemos que o conjunto de dados está ativado para o perfil e, portanto, o evento criará um fragmento de perfil.
 >
@@ -29,18 +28,18 @@ Verifique se o evento da Web foi gravado no Experience Platform Data Lake.
 
 1. Ir para **Consultas** e **Criar Consulta**
 
-![Tela Criar Consulta na seção Consultas](assets/validate-event-on-data-lake-create-query.png)
+   ![Tela Criar Consulta na seção Consultas](assets/validate-event-on-data-lake-create-query.png)
 
-&#x200B;2. Copiar este SQL e colá-lo em sua query
+2. Copiar este SQL e colá-lo em sua query
 
-```sql
-SELECT identityMap['email'][0].id, * FROM dep_web
-where identityMap['email'][0].id = 'henry.creel@emailsim.io'
-```
+   ```sql
+   SELECT identityMap['email'][0].id, * FROM dep_web
+   where identityMap['email'][0].id = 'henry.creel@emailsim.io'
+   ```
 
-&#x200B;3. **Executar** Consulta
+3. **Executar** Consulta
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >**Lembre-se**: os dados acabarão aparecendo no Data Lake.  **Isso pode levar até 60 minutos**.
 >

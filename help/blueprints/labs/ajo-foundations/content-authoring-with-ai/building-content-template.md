@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criação do modelo de conteúdo
 description: Saiba como criar um modelo de email reutilizável no Adobe Journey Optimizer importando o HTML e inserindo um fragmento de cabeçalho criado anteriormente.
 doc-type: article
 solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
@@ -53,16 +52,16 @@ Essa funcionalidade permite que usuários orientados a conteúdo trabalhem em mo
 
 1. Vá para **Gerenciamento de Conteúdo → Modelos de Conteúdo**.
 
-![Navegando até Gerenciamento de Conteúdo e depois Modelos de Conteúdo](assets/building-content-template-navigate-content-templates.png)
+   ![Navegando até Gerenciamento de Conteúdo e depois Modelos de Conteúdo](assets/building-content-template-navigate-content-templates.png)
 
-&#x200B;2. Clique em **Criar Modelo** e preencha o seguinte:
+2. Clique em **Criar Modelo** e preencha o seguinte:
    - **Nome:** `Promotional Template`
    - **Descrição:** `Promotional Template for phone products`
    - **Canal:** `Email`
 
-![Criar formulário de modelo com nome, descrição e canal de email](assets/building-content-template-create-template-form-fields.png)
+   ![Criar formulário de modelo com nome, descrição e canal de email](assets/building-content-template-create-template-form-fields.png)
 
-&#x200B;3. Clique em **Create**.
+3. Clique em **Create**.
 
 ![Botão Criar para concluir a criação do Modelo Promocional](assets/building-content-template-click-create-button.png)
 
@@ -71,9 +70,9 @@ Essa funcionalidade permite que usuários orientados a conteúdo trabalhem em mo
 
 1. Adicionar linha de assunto: `Promotional Template` e clique em **no corpo do email** para abri-lo para edição
 
-![Adicionando a linha de assunto e abrindo o corpo do email para edição](assets/building-content-template-add-subject-line-open-editor.png)
+   ![Adicionando a linha de assunto e abrindo o corpo do email para edição](assets/building-content-template-add-subject-line-open-editor.png)
 
-&#x200B;2. Há três opções:
+2. Há três opções:
    1. Criar do zero
    2. Desenvolva o seu
    3. Importar HTML
@@ -90,13 +89,13 @@ Selecione a terceira opção. Clique em **Importar HTML**
 
 1. Carregar o arquivo html de modelo da pasta do kit de ferramentas `promotional-template-final.html`
 
-![Carregando promocional-modelo-final.html da pasta do kit de ferramentas](assets/building-content-template-upload-html-template-file.png)
+   ![Carregando promocional-modelo-final.html da pasta do kit de ferramentas](assets/building-content-template-upload-html-template-file.png)
 
-&#x200B;2. Clique no botão Importar para **importar** o modelo.
+2. Clique no botão Importar para **importar** o modelo.
 
-![Botão Importar para importar o modelo HTML carregado](assets/building-content-template-click-import-button.png)
+   ![Botão Importar para importar o modelo HTML carregado](assets/building-content-template-click-import-button.png)
 
-&#x200B;3. Aguarde a renderização do layout. Você percebe problemas como links de imagem quebrados e ausência de identidade visual. (Esse é o comportamento esperado, pois temos ativos de espaço reservado)
+3. Aguarde a renderização do layout. Você percebe problemas como links de imagem quebrados e ausência de identidade visual. (Esse é o comportamento esperado, pois temos ativos de espaço reservado)
 
 ![Modelo renderizado mostrando links de imagens corrompidos e espaços reservados para marcas ausentes](assets/building-content-template-rendered-template-broken-images.png)
 
@@ -127,7 +126,7 @@ Você verá que o fragmento do cabeçalho criado no exercício anterior aparece 
 
 ![Fragmento de cabeçalho mostrado ao vivo com um ponto azul na barra lateral esquerda](assets/building-content-template-header-fragment-live-sidebar.png)
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Se você não vir seu fragmento aqui, significa que não o salvou corretamente e precisa carregá-lo novamente.
 
@@ -139,25 +138,25 @@ Agora, melhore o template. Você já criou o cabeçalho e o rodapé.
 
 1. Arraste uma **Coluna 1:1** acima do conteúdo existente.
 
-![Arrastando uma Coluna 1:1 acima do conteúdo do modelo existente](assets/building-content-template-drag-1-1-column-above-content.png)
+   ![Arrastando uma Coluna 1:1 acima do conteúdo do modelo existente](assets/building-content-template-drag-1-1-column-above-content.png)
 
-Você vê algo assim.
+   Você vê algo assim.
 
-![Layout do modelo depois de adicionar a nova coluna acima do conteúdo](assets/building-content-template-column-added-above-content.png)
+   ![Layout do modelo depois de adicionar a nova coluna acima do conteúdo](assets/building-content-template-column-added-above-content.png)
 
-&#x200B;2. O plano de fundo usa a cor de plano de fundo do modelo, que atualmente é preta. Defina sua cor de fundo **para branco. Clique em** na guia Estilo no painel direito e use a cor branca do seletor de cores.
+2. O plano de fundo usa a cor de plano de fundo do modelo, que atualmente é preta. Defina sua cor de fundo **para branco. Clique em** na guia Estilo no painel direito e use a cor branca do seletor de cores.
 
-![Definindo a cor de plano de fundo da coluna para branco usando o seletor de cores](assets/building-content-template-set-background-color-white.png)
+   ![Definindo a cor de plano de fundo da coluna para branco usando o seletor de cores](assets/building-content-template-set-background-color-white.png)
 
-&#x200B;3. Abra **Fragmentos** e arraste o fragmento **Cabeçalho**.
+3. Abra **Fragmentos** e arraste o fragmento **Cabeçalho**.
 
-![Arrastando o fragmento de cabeçalho para o modelo a partir do painel Fragmentos](assets/building-content-template-drag-header-fragment-into-template.png)
+   ![Arrastando o fragmento de cabeçalho para o modelo a partir do painel Fragmentos](assets/building-content-template-drag-header-fragment-into-template.png)
 
-&#x200B;4. Observe que o fragmento do cabeçalho está alinhado perfeitamente ao seu modelo, conforme mostrado abaixo.
+4. Observe que o fragmento do cabeçalho está alinhado perfeitamente ao seu modelo, conforme mostrado abaixo.
 
-![Fragmento de cabeçalho perfeitamente alinhado no modelo](assets/building-content-template-header-fragment-aligned-template.png)
+   ![Fragmento de cabeçalho perfeitamente alinhado no modelo](assets/building-content-template-header-fragment-aligned-template.png)
 
-&#x200B;5. Clique no botão **Salvar** para salvar seu modelo e em **Voltar**.
+5. Clique no botão **Salvar** para salvar seu modelo e em **Voltar**.
 
 ![Botão Salvar para salvar o modelo antes de clicar em Voltar](assets/building-content-template-click-save-button-template.png)
 

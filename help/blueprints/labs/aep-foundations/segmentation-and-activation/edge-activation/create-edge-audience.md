@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar público-alvo do Edge
 description: Crie e publique um público avaliado pela Edge junto com um lote equivalente para comparar como cada um responde aos eventos recebidos em tempo real.
 doc-type: article
 solution: Experience Platform
 exl-id: 79265a8f-81dd-41a3-89c5-c6646e435328
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -42,7 +41,7 @@ A página ![Públicos-alvo com o botão Criar público-alvo e a opção Criar re
 1. Vá para **Audiences** e clique na pasta **Experience Platform**
 1. Arraste e solte o público-alvo chamado **dep: Qualquer fluxo de evento (em uma hora)** na tela
 
-![Arrastando a profundidade: Qualquer público-alvo de Streaming de Eventos (em uma hora) para a tela do construtor de regras](assets/create-edge-audience-drag-audience-to-canvas.png)
+   ![Arrastando a profundidade: Qualquer público-alvo de Streaming de Eventos (em uma hora) para a tela do construtor de regras](assets/create-edge-audience-drag-audience-to-canvas.png)
 
 
 

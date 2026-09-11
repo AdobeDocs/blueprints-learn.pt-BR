@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Instruções de implantação
 description: Use a CLI da DEP para implantar os esquemas, conjuntos de dados, fluxos de dados e dados de perfil de amostra do pacote de laboratório do AEP Foundations em sua sandbox.
 doc-type: article
 solution: Experience Platform
 exl-id: 9f2b6d4a-8e1c-4b7a-a3d5-6c9f0e2a4b8d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 1%
@@ -15,7 +14,7 @@ ht-degree: 1%
 
 # Instruções de implantação
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Isso só é necessário se você estiver trabalhando nos laboratórios no seu próprio ritmo. Se você estiver em um curso ou evento de treinamento ao vivo, sua sandbox já foi implantada para você.
 
@@ -58,17 +57,17 @@ O pacote de laboratório do AEP Foundations é implantado em sua sandbox usando 
 A CLI é implantada na sandbox para a qual o arquivo de ambiente aponta. Portanto, isso deve ser configurado corretamente antes de você executar qualquer ação.
 
 1. Copie `envFiles/sample-env.json` e dê a ele um novo nome, ex.: `my-env.json`
-2. Abra o arquivo e preencha os seguintes campos usando os valores da [Instalação do Developer Console](developer-console-setup.md):
+1. Abra o arquivo e preencha os seguintes campos usando os valores da [Instalação do Developer Console](developer-console-setup.md):
 
-| **Campo** | **Valor** |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY` | ID do cliente |
-| `CLIENT_SECRET` | Segredo do cliente |
-| `IMS_ORG` | ID da organização |
-| `SCOPES` | Deve incluir escopos da API do Experience Platform (openid, session, AdobeID, read_organizations, additional_info.projectedProductContext) |
-| `SANDBOX_NAME` | A sandbox que você está direcionando — deve estar vazia e ser do tipo `dev` |
+   | **Campo** | **Valor** |
+   | --------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY` | ID do cliente |
+   | `CLIENT_SECRET` | Segredo do cliente |
+   | `IMS_ORG` | ID da organização |
+   | `SCOPES` | Deve incluir escopos da API do Experience Platform (openid, session, AdobeID, read_organizations, additional_info.projectedProductContext) |
+   | `SANDBOX_NAME` | A sandbox que você está direcionando — deve estar vazia e ser do tipo `dev` |
 
-&#x200B;3. Salvar e fechar o arquivo
+1. Salvar e fechar o arquivo
 
 >[!NOTE]
 >
@@ -90,7 +89,7 @@ No menu principal, selecione **AEP foundation**. Há três etapas, que devem ser
 
 A Etapa 1 leva cerca de 2 minutos para ser executada, a Etapa 2 cerca de 6 minutos e a Etapa 3 é uma validação rápida sem espera própria. Os intervalos de 60 e 15 minutos entre as etapas permitem que o AEP conclua a propagação de dados em segundo plano — é a maior parte do tempo de 2 horas.
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >A CLI verifica esses tempos de espera automaticamente. Se você executar uma etapa muito cedo, ela bloqueará e informará quantos minutos ainda restam — você não precisará rastrear o relógio por conta própria.
 

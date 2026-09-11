@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Mesclar políticas
 description: Crie uma política de mesclagem sem a identificação e compare pesquisas de perfil por email, ID do cliente e GAID para ver como os gráficos de identidade moldam a montagem de perfis.
 doc-type: article
 solution: Experience Platform
 exl-id: ac7eb22f-141e-4cd8-9a2f-6a9687c3e839
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 0%
@@ -30,7 +29,7 @@ Uma Política de mesclagem faz duas coisas:
    - Precedência do carimbo de data e hora - use o registro mais recente de todos os conjuntos de dados como o conjunto verdadeiro e permita que todos os outros registros preencham as lacunas, na ordem do mais recente ao mais antigo
    - Precedência do conjunto de dados - escolha quais conjuntos de dados do Perfil individual XDM podem ser usados para formar o perfil e em que ordem montá-los
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Quando o método de mesclagem de Precedência do conjunto de dados é escolhido, é possível escolher quais conjuntos de dados de Perfil individual XDM e Evento de experiência XDM poderão ser usados na formação do perfil.
 >
@@ -122,9 +121,9 @@ Vá em frente e abra o visualizador de perfil seguindo as etapas abaixo:
 1. Clique no botão **Exibir** para pesquisar o perfil
 1. Clique no **link** para exibir os detalhes do perfil
 
-![Pesquisando o perfil Modo de Espera por email usando a política de mesclagem padrão baseada em carimbo de data/hora](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "Pesquise o Modo de Espera com a política de mesclagem padrão baseada em tempo")
+   ![Pesquisando o perfil Modo de Espera por email usando a política de mesclagem padrão baseada em carimbo de data/hora](assets/merge-policies-lookup-depeche-mode-default-merge-policy.png "Pesquise o Modo de Espera com a política de mesclagem padrão baseada em tempo")
 
-Faça outra pesquisa pelo perfil Modo de Profundidade, mas desta vez usando a **Política de mesclagem Sem Compilação de ID**.
+   Faça outra pesquisa pelo perfil Modo de Profundidade, mas desta vez usando a **Política de mesclagem Sem Compilação de ID**.
 
 1. Clique com o botão direito do mouse em **Perfis** no painel à esquerda e selecione **abrir em uma nova guia**
 1. Na navegação superior, selecione **Procurar**
@@ -198,7 +197,7 @@ Quando o gráfico de identidade é usado com o armazenamento de perfis, você po
 
 Sem o gráfico de identidade, o armazenamento de perfis só pode recuperar fragmentos de perfil usando um único identificador (ou seja, identidade principal)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**Ganhe tempo extra e deseje experimentar...:**
 >

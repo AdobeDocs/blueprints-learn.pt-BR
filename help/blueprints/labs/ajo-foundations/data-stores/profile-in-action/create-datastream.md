@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar sequência de dados
 description: Saiba como criar e configurar um fluxo de dados com os serviços do Adobe Experience Platform, Offer Decisioning e Journey Optimizer para habilitar o processamento de eventos do Edge.
 doc-type: article
 solution: Experience Platform
 exl-id: 37873340-476a-4303-886d-de4835bba8df
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 0%
@@ -59,15 +58,15 @@ Isso permite enviar dados para o Hub e chegar a um conjunto de dados para os dad
 
 1. Clique no botão azul **Adicionar serviço** localizado no meio da tela
 
-![Botão Adicionar Serviço na tela de configuração da sequência de dados](assets/create-datastream-add-service-button.png)
+   ![Botão Adicionar Serviço na tela de configuração da sequência de dados](assets/create-datastream-add-service-button.png)
 
-&#x200B;2. Configure os seguintes itens:
+2. Configure os seguintes itens:
    - **Serviço** -> `Adobe Experience Platform`
    - **Conjunto de Dados do Evento** -> `dep: Web`
    - **Conjunto de Dados de Perfil** -> `dep: Customer Account`
    - **Marcar Caixa de Seleção** -> `Offer Decisioning`
    - **Marcar Caixa de Seleção** -> `Adobe Journey Optimizer`
-&#x200B;3. Quando terminar, clique em **Salvar**
+3. Quando terminar, clique em **Salvar**
 
 ![Caixa de diálogo de configuração do serviço Adobe Experience Platform com campos de conjunto de dados de evento e perfil](assets/create-datastream-configure-aep-service.png)
 

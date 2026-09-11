@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Simulação de conteúdo
 description: Saiba como usar a ferramenta de simulação do Adobe Journey Optimizer com dados de perfil de amostra para validar campos personalizados, variantes de conteúdo e comportamento de fallback.
 doc-type: article
 solution: Experience Platform
 exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -51,9 +50,9 @@ Um painel de simulação é aberto após alguns segundos.
    - **Jason** → Abaixo de 40 anos
 2. Clique em **Carregar dados de entrada**.
 
-![Botão Carregar Dados de Entrada no painel de simulação](assets/content-simulation-click-upload-input-data.png)
+   ![Botão Carregar Dados de Entrada no painel de simulação](assets/content-simulation-click-upload-input-data.png)
 
-&#x200B;3. Escolha **sample.csv** e clique em **Continuar**.
+3. Escolha **sample.csv** e clique em **Continuar**.
 
 ![Escolhendo sample.csv e clicando em Continuar](assets/content-simulation-choose-sample-csv-continue.png)
 

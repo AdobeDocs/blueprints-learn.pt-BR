@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Exibir esquema
 description: Visualize os descritores de identidade de um esquema por meio da interface e da API e compare as opções de cabeçalho Aceitar para respostas de esquema resolvidas versus não resolvidas.
 doc-type: article
 solution: Experience Platform
 exl-id: 44eedb82-259f-4f7f-84fe-acc2b42376eb
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -28,13 +27,13 @@ ht-degree: 0%
 
 1. Selecione a API `Step 3 - Get Customer Account Schema and its descriptors` clicando nela.
 
-![Etapa 3 - Obter Esquema da Conta do Cliente com solicitação de API de descritores](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "Etapa 3 - Obter Esquema da Conta do Cliente com descritores")
+   ![Etapa 3 - Obter Esquema da Conta do Cliente com solicitação de API de descritores](assets/view-schema-step-3-get-customer-account-schema-w-descriptors.png "Etapa 3 - Obter Esquema da Conta do Cliente com descritores")
 
 
 
 1. Na URL da solicitação, substitua `<replace me>` pelo `$meta:altId` que você salvou da seção anterior (Criar seu Esquema) ao final da chamada, como mostrado abaixo
 
-![Solicitação da Etapa Final 5 com altId anexada à URL](assets/view-schema-final-step-5-request.png "Solicitação da Etapa Final 5")
+   ![Solicitação da Etapa Final 5 com altId anexada à URL](assets/view-schema-final-step-5-request.png "Solicitação da Etapa Final 5")
 
 
 
@@ -61,7 +60,7 @@ Observe o cabeçalho **Aceitar** usado na solicitação. Esse cabeçalho informa
 
 >[!NOTE]
 >
->Você pode ler mais sobre os vários cabeçalhos Aceitar aqui -> [Endpoint da API de Esquema do Experience League](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=pt-BR#lookup)
+>Você pode ler mais sobre os vários cabeçalhos Aceitar aqui -> [Endpoint da API de Esquema do Experience League](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
 
 
 

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Enviar evento da Web para Hub
 description: Saiba como enviar um evento da Web diretamente para o Hub usando o Postman e validar se ele chega ao perfil e se qualifica para segmentos de transmissão.
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -40,7 +39,7 @@ Comece reunindo os seguintes valores:
 1. Navegue até **Fontes** no painel esquerdo e clique em **Contas** na navegação superior
 1. Pesquise por **dep: API HTTP \[raw]**, realce a linha, copie e salve o valor do **Ponto de Extremidade de Streaming** em algum lugar que você possa referenciar mais tarde
 
- conta e copiar seu Ponto de Extremidade de Streaming&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ conta e copiar seu Ponto de Extremidade de Streaming](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## Localizar ID do fluxo de dados da Web
 
@@ -63,7 +62,7 @@ Copie os valores salvos nas etapas anteriores nos locais destacados abaixo.
 
 Sua solicitação final da API deve ter esta aparência quando concluída
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >AINDA NÃO EXECUTAR!
 

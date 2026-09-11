@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Campos calculados
 description: Crie expressões de campo calculado para preencher retroativamente valores de consentimento de SMS ausentes e dividir uma data de nascimento em campos de dia, mês e ano.
 doc-type: article
 solution: Experience Platform
 exl-id: ea5d006b-11c5-439c-af01-bc00b919851f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 0%
@@ -27,17 +26,17 @@ O campo sms\_optIn é um campo obrigatório no esquema Conta do cliente. O probl
 
 1. Crie um campo calculado clicando no ícone **Novo tipo de campo** e selecione **Adicionar Campo Calculado**. Para todos os valores ausentes, presume-se que o consentimento não foi dado e está marcado como **&quot;n&quot;**. Observe que os campos calculados aparecem na coluna à esquerda, pois a transformação por meio do campo calculado é a entrada para esse novo mapeamento.
 
-![Menu de ícone de novo tipo de campo com a opção Adicionar Campo Calculado selecionada](assets/calculated-fields-add-a-calculated-field.png "Adicionar um campo calculado")
+   ![Menu de ícone de novo tipo de campo com a opção Adicionar Campo Calculado selecionada](assets/calculated-fields-add-a-calculated-field.png "Adicionar um campo calculado")
 
 
 
 1. Na caixa de diálogo Criar campo calculado, adicione a seguinte expressão e clique em **Visualizar**
 
-```none
-iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
-```
+   ```none
+   iif(sms_optIn == null or sms_optIn == "", 'n', sms_optIn)
+   ```
 
-![Criar caixa de diálogo de Campo Calculado com a expressão sms_optIn e Visualizar resultado](assets/calculated-fields-sms-optin-calculated-field.png "campo calculado sms_optIn")
+   ![Criar caixa de diálogo de Campo Calculado com a expressão sms_optIn e Visualizar resultado](assets/calculated-fields-sms-optin-calculated-field.png "campo calculado sms_optIn")
 
 
 
@@ -55,13 +54,13 @@ Um novo campo é adicionado à tela de mapeamento, mas com um caminho de campo d
 1. No painel direito, agora é possível ver o painel Esquema de destino aberto. Digite **sms** na caixa de pesquisa
 1. Selecione o campo **val**
 
-![Painel de esquema de destino com o campo sms.val selecionado para o mapeamento de campo calculado](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
+   ![Painel de esquema de destino com o campo sms.val selecionado para o mapeamento de campo calculado](assets/calculated-fields-map-calculated-field-to-target-xdm-field.png)
 
 
 
-O mapeamento final deve ficar assim:
+   O mapeamento final deve ficar assim:
 
-![Tela de mapeamento final com o campo calculado sms_optin mapeado para o esquema de destino](assets/calculated-fields-final-mapping-screen.png)
+   ![Tela de mapeamento final com o campo calculado sms_optin mapeado para o esquema de destino](assets/calculated-fields-final-mapping-screen.png)
 
 
 
@@ -84,21 +83,21 @@ Há um requisito para separar o dia, mês e ano de nascimento em campos separado
 1. Adicione um novo campo calculado para capturar o dia e o mês de nascimento dos perfis
 1. Use o seguinte código para o campo calculado:
 
->[!NOTE]
->
->Em vez de apenas copiar o código acima, tente entender o que está acontecendo executando as partes de código separadamente para ver como ele foi composto para criar campos calculados mais complexos em uma única linha, pois não é permitido usar várias linhas. Tente o seguinte:
->
->1. `date(birth_Date,"M/d/yyyy")`
->2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
->3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
->4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
->   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
+   >[!NOTE]
+   >
+   >Em vez de apenas copiar o código acima, tente entender o que está acontecendo executando as partes de código separadamente para ver como ele foi composto para criar campos calculados mais complexos em uma única linha, pois não é permitido usar várias linhas. Tente o seguinte:
+   >
+   >1. `date(birth_Date,"M/d/yyyy")`
+   >2. `date_part("day", date(birth_Date,"M/d/yyyy")).toString()`
+   >3. `date_part("month", date(birth_Date,"M/d/yyyy")).toString()`
+   >4. `concat(date_part("month", date(birth_Date,"M/d/yyyy")).toString(),`
+   >   `"-", date_part("day", date(birth_Date,"M/d/yyyy")).toString())`
 
 
 
 1. Clique em visualizar e você deverá ver o seguinte resultado. Se tudo estiver bem, clique em **Salvar**
 
-![Visualizar o resultado da expressão de campo calculado de dia e mês de nascimento](assets/calculated-fields-birth-day-month-preview.png)
+   ![Visualizar o resultado da expressão de campo calculado de dia e mês de nascimento](assets/calculated-fields-birth-day-month-preview.png)
 
 
 
@@ -112,9 +111,9 @@ Há um requisito para separar o dia, mês e ano de nascimento em campos separado
 
 1. Crie um novo campo calculado para capturar o ano de nascimento do perfil usando o código abaixo
 
-```none
-date_part("yyyy",date(birth_Date,"M/d/yyyy"))
-```
+   ```none
+   date_part("yyyy",date(birth_Date,"M/d/yyyy"))
+   ```
 
 1. Mapeie o campo calculado para o local de destino de **person.birthYear**
 

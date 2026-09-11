@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Validar jornada
 description: Verifique a execução da jornada por meio de contagens de entrada e saída, relatórios de delivery de email e dados de serviço de consulta para eventos de etapa.
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -24,10 +23,10 @@ Verifique se a jornada foi acionada e executada conforme esperado.  Verifique se
 1. Vá para a Jornada Pedido enviado, abra-a se a tiver fechado
 2. Você vê pelo menos 2 perfis inseridos
 
-![Contagem de Entradas de Perfil mostrada para a jornada](assets/validate-journey-profile-entered-count.png)
+   ![Contagem de Entradas de Perfil mostrada para a jornada](assets/validate-journey-profile-entered-count.png)
 
-&#x200B;3. Clique em **Exibir relatório** -> **Últimas 24 horas** na parte superior direita.
-&#x200B;4. Por padrão, você está na guia **Jornada** (no painel esquerdo)
+3. Clique em **Exibir relatório** -> **Últimas 24 horas** na parte superior direita.
+4. Por padrão, você está na guia **Jornada** (no painel esquerdo)
    - Você verá algumas entradas e saídas (a contagem dependerá de quantos eventos você enviou, qualquer teste, erros etc.)
 
 ![relatório da guia Jornada mostrando entradas e saídas](assets/validate-journey-journey-tab-enters-exits.png)
@@ -56,33 +55,33 @@ Você pode clicar no botão de alternância na parte superior para **excluir eve
 
 3 eventos externos
 
-&#x200B;5. Clique na guia **Email** (no painel esquerdo)
+5. Clique na guia **Email** (no painel esquerdo)
    - **Email - Desempenho de Envio**
      - Você vê alguns valores para **Entregue** e **Enviado** (a contagem dependerá de quantos eventos você enviou, erros etc.)
      - Esperamos que você não tenha erros (a menos que tenha encontrado alguns problemas anteriormente)
    - **Email - Estatísticas**
      - Email - 3 direcionados, enviados, entregues
 
-![Guia Email mostrando desempenho e estatísticas de envio](assets/validate-journey-email-tab-sending-performance.png)
+   ![Guia Email mostrando desempenho e estatísticas de envio](assets/validate-journey-email-tab-sending-performance.png)
 
-&#x200B;6. Verifique sua **caixa de entrada de email** e veja se recebeu o email (ele é semelhante a este abaixo)
+6. Verifique sua **caixa de entrada de email** e veja se recebeu o email (ele é semelhante a este abaixo)
    - *,* seu pedido enviou ETA: *10/17/2026* Número de Rastreamento: *051009364*
 
-&#x200B;> [!NOTE]
->
->Verifique se há Campanhas do AJO na sua pasta de spam [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
+   >[!NOTE]
+   >
+   >Verifique se há Campanhas do AJO na sua pasta de spam [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
 
->[!NOTE]
->
->**Por que o nome está ausente?**
->
->Alteramos o nó Email para examinar o Contexto do evento para o endereço de email.  Mas o nome na personalização é extraído de \{\{profile.person.name.firstName\}\}.
->
->Quando você procura seu perfil para seu email, você tem um nome?
+   >[!NOTE]
+   >
+   >**Por que o nome está ausente?**
+   >
+   >Alteramos o nó Email para examinar o Contexto do evento para o endereço de email.  Mas o nome na personalização é extraído de \{\{profile.person.name.firstName\}\}.
+   >
+   >Quando você procura seu perfil para seu email, você tem um nome?
 
 
 
-&#x200B;7. *Após 30-60 minutos*, você pode até mesmo verificar seu conjunto de dados no data lake com o seguinte: **Consultas** -> **Criar Consulta** -> **Copiar/Colar SQL** -> **Executar**
+7. *Após 30-60 minutos*, você pode até mesmo verificar seu conjunto de dados no data lake com o seguinte: **Consultas** -> **Criar Consulta** -> **Copiar/Colar SQL** -> **Executar**
 
 >[!NOTE]
 >
@@ -120,7 +119,7 @@ Os resultados têm mais de 100 colunas e dão uma ideia de quais registros de Ev
 
 >[!NOTE]
 >
->Curioso sobre o que cada campo significa, verifique o Dicionário de Esquemas do AJO e altere a lista suspensa para o esquema de Eventos de etapa do Jornada: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+>Curioso sobre o que cada campo significa, verifique o Dicionário de Esquemas do AJO e altere a lista suspensa para o esquema de Eventos de etapa do Jornada: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
 
 
 

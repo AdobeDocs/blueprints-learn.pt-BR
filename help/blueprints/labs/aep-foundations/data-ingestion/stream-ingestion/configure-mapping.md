@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar mapeamento
 description: Importe o conjunto de mapeamento do laboratório de assimilação em lote e atualize os campos de data calculada para corresponder ao formato de data da fonte de transmissão.
 doc-type: article
 solution: Experience Platform
 exl-id: c05792af-5eab-4e62-a26e-a54478a988a8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Configurar mapeamento
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Siga esta seção somente se tiver concluído com êxito o laboratório de assimilação em lote.  Caso contrário, siga as etapas [Dados de mapeamento](../batch-ingestion/mapping-data/overview.md) encontradas no laboratório de assimilação em lote.
 
@@ -27,7 +26,7 @@ Execute as seguintes etapas:
 
 1. Clique no botão **Importar Mapeamento** na tela de mapeamento
 
-![Botão Importar Mapeamento na tela de mapeamento](assets/configure-mapping-import-mapping-button.png)
+   ![Botão Importar Mapeamento na tela de mapeamento](assets/configure-mapping-import-mapping-button.png)
 
 
 

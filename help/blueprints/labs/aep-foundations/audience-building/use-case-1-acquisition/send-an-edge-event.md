@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Enviar um evento do Edge
 description: Envie um evento da Web não autenticado para a Edge por meio do Postman e rastreie-o pelo encaminhamento de eventos, assimilação de perfis, qualificação de público-alvo e ativação de destino.
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
@@ -139,17 +138,17 @@ Na Adobe Experience Platform, procure o perfil que você acabou de enviar a part
 1. Clique em **Exibir** para pesquisar o perfil
 1. Clique na **ID do Perfil** para abrir o perfil
 
-![Pesquise o perfil e clique na ID do Perfil para abri-lo](assets/send-an-edge-event-lookup-profile.png)
+   ![Pesquise o perfil e clique na ID do Perfil para abri-lo](assets/send-an-edge-event-lookup-profile.png)
 
 
 
-&#x200B;3. Clique em **Eventos** na navegação superior para ver o evento que acabou de enviar
+3. Clique em **Eventos** na navegação superior para ver o evento que acabou de enviar
 
-![Exibir o evento na guia Eventos do perfil](assets/send-an-edge-event-view-the-profile-event.png)
+   ![Exibir o evento na guia Eventos do perfil](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-&#x200B;4. Confirme se o Perfil se qualificou para os Públicos revisando a guia Associação de público-alvo na navegação superior.  Você deve ver o seguinte:
+4. Confirme se o Perfil se qualificou para os Públicos revisando a guia Associação de público-alvo na navegação superior.  Você deve ver o seguinte:
 
 - Qualquer Edge de evento (nos últimos 15 minutos)
 - Qualquer transmissão de evento (na última hora)

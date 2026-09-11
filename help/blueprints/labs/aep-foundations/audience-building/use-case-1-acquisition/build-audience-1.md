@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar público-alvo
 description: Crie um público-alvo de transmissão que encontre perfis que fizeram um pedido para um iPhone 14 hoje, explorando a seleção da fonte do evento e os contêineres de matriz.
 doc-type: article
 solution: Experience Platform
 exl-id: b8c1080e-b093-4d50-94da-5aced6bf0a08
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -48,9 +47,9 @@ Você obtém muitos objetos relacionados a um pedido
 
 >[!NOTE]
 >
->&#x200B;* Não existe um &quot;i&quot; para a &quot;pasta&quot; do pedido. Mesmo que nossa descrição tenha sido preenchida, ela não a possui e isso pode ser uma fonte de confusão para o profissional de marketing, pois ele pode tentar usá-la ou querer saber o que é.
->&#x200B;* O &quot;i&quot; para Cartões de evento apenas repete o tipo, já que o Tipo de evento é um campo, não muitos.
->&#x200B;* Os dados de resumo serão exibidos somente se o valor estiver presente em mais de 2% dos perfis mesclados. Isso também direciona qualquer preenchimento automático ao filtrar em uma string.
+>* Não existe um &quot;i&quot; para a &quot;pasta&quot; do pedido. Mesmo que nossa descrição tenha sido preenchida, ela não a possui e isso pode ser uma fonte de confusão para o profissional de marketing, pois ele pode tentar usá-la ou querer saber o que é.
+>* O &quot;i&quot; para Cartões de evento apenas repete o tipo, já que o Tipo de evento é um campo, não muitos.
+>* Os dados de resumo serão exibidos somente se o valor estiver presente em mais de 2% dos perfis mesclados. Isso também direciona qualquer preenchimento automático ao filtrar em uma string.
 
 
 
@@ -58,7 +57,7 @@ Use o cartão Tipo de evento feito no pedido e arraste-o para a tela.
 
 ![Arraste o cartão de tipo de evento Pedido feito para a tela](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >**Opcional:**
 >
@@ -247,7 +246,7 @@ Não altere o mapeamento, clique em Próximo e Concluir
 >
 >Os containers são uma maneira de fazer referência a uma variável de Evento ou a um elemento de Matriz. Você pode ler mais sobre qual é a ramificação disso neste Blog, mas por uma questão de simplicidade, isso permite especificar se um único elemento na matriz atende a ambas as condições ou se a condição pode ser espalhada por dois elementos.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=pt](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=pt)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
 
 >[!WARNING]
 >

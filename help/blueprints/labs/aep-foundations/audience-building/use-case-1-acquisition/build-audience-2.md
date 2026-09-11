@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar público-alvo
 description: Crie um público-alvo de perfis sem uma linha ativa do iPhone 14 e converta-o de um lote para uma avaliação de transmissão usando um campo baseado em perfil.
 doc-type: article
 solution: Experience Platform
 exl-id: 5a598e9b-9969-4287-8bbd-9de8864b3025
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -90,80 +89,80 @@ O marketing entrou hoje e nos deu um requisito para ter esse Streaming e, infeli
 
 1. Abra o Público-alvo &quot;*Proprietário do iPhone 14*&quot; e altere o nome para &quot;*Proprietário do Lote do iPhone 14*&quot;.
 
->[!WARNING]
->
->Atualmente, não é possível alterar o Método de avaliação na interface do usuário. Todos os públicos que referenciam esse público também precisam ser excluídos. Lembre-se disso ao decidir sobre sua estratégia de criação de usar Segmentos dentro de Segmentos.
+   >[!WARNING]
+   >
+   >Atualmente, não é possível alterar o Método de avaliação na interface do usuário. Todos os públicos que referenciam esse público também precisam ser excluídos. Lembre-se disso ao decidir sobre sua estratégia de criação de usar Segmentos dentro de Segmentos.
 
 
 
 2. Crie um novo Público-alvo. Adicione o público-alvo &quot;Proprietário do lote de público-alvo do iPhone 14&quot; à tela e clique em Converter para regras.
 
-![Adicione o público-alvo do Lote 14 do iPhone Proprietário à tela e clique em Converter para Regras](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
+   ![Adicione o público-alvo do Lote 14 do iPhone Proprietário à tela e clique em Converter para Regras](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules.png)
 
-![Público convertido em regras na tela](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
-
-
-
-&#x200B;3. Atualize a Descrição, o Nome e o Método de avaliação para Streaming no canto inferior direito e clique no ícone de pasta ao lado do Método de avaliação. Você deve ver isso:
-
-![Método de Avaliação definido como Streaming após clicar no ícone de pasta](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+   ![Público convertido em regras na tela](assets/build-audience-2-audience-to-the-canvas-and-click-convert-to-rules-2.png)
 
 
 
-Embora não seja óbvio, o motivo é que estamos usando o Nome do produto em um esquema de pesquisa
+3. Atualize a Descrição, o Nome e o Método de avaliação para Streaming no canto inferior direito e clique no ícone de pasta ao lado do Método de avaliação. Você deve ver isso:
+
+   ![Método de Avaliação definido como Streaming após clicar no ícone de pasta](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
+
+
+
+   Embora não seja óbvio, o motivo é que estamos usando o Nome do produto em um esquema de pesquisa
+
+   >[!NOTE]
+   >
+   >Sempre que usamos uma pesquisa, nosso método de avaliação é forçado ao Batch.
+   >
+   >Você pode dizer isso se olhar para o caminho e ele tiver &quot;propriedades&quot; em qualquer lugar
+   >
+   >![Caminho contendo &quot;propriedades&quot; força o método de avaliação para Batch](assets/build-audience-2-path-contains-properties-forces-batch.png)
+
+
+
+
+
+4. Substitua o valor existente para que o nome do produto agora venha do esquema do Perfil individual XDM
+
+   Substitua o seguinte caminho:
+
+   - Perfil individual XDM > Profundidade > Produtos ativos > Propriedades da ID do produto > Nome do produto
+
+   Adicione o novo caminho:
+
+   - Perfil individual XDM > Dep > Produtos ativos > Modelo
+
+   ![Substituir o caminho do nome do produto pelo caminho do Modelo de Produtos Ativos de Perfil Individual XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
+
+   ![Atualização da regra de público-alvo que faz referência ao caminho do Modelo de Perfil Individual XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
+
+
+
+5. Altere o Método de avaliação para Streaming e clique no ícone de pasta
+
+   ![Altere o Método de Avaliação para Streaming e clique no ícone de pasta](assets/build-audience-2-change-evaluation-method-to-streaming.png)
+
+
+
+6. Forneça uma descrição para o novo Público-alvo qualificado de streaming.
+
+   - Salve o público-alvo como &quot;*Proprietário do público-alvo do iPhone 14*&quot;.
+   - Clique no botão azul **Ativar público-alvo** para destino
+
+   ![Clique em Ativar público-alvo para destino para o público qualificado para transmissão](assets/build-audience-2-activate-audience-to-destination.png)
+
+
+
+7. Selecione o Destino do **Webhook de DEP de Streaming** e clique em **Avançar**
+
+8. Clique em **Avançar** e **Concluir**
 
 >[!NOTE]
 >
->Sempre que usamos uma pesquisa, nosso método de avaliação é forçado ao Batch.
->
->Você pode dizer isso se olhar para o caminho e ele tiver &quot;propriedades&quot; em qualquer lugar
->
->![Caminho contendo &quot;propriedades&quot; força o método de avaliação para Batch](assets/build-audience-2-path-contains-properties-forces-batch.png)
-
-
-
-
-
-&#x200B;4. Substitua o valor existente para que o nome do produto agora venha do esquema do Perfil individual XDM
-
-Substitua o seguinte caminho:
-
-- Perfil individual XDM > Profundidade > Produtos ativos > Propriedades da ID do produto > Nome do produto
-
-Adicione o novo caminho:
-
-- Perfil individual XDM > Dep > Produtos ativos > Modelo
-
-![Substituir o caminho do nome do produto pelo caminho do Modelo de Produtos Ativos de Perfil Individual XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path.png)
-
-![Atualização da regra de público-alvo que faz referência ao caminho do Modelo de Perfil Individual XDM](assets/build-audience-2-replace-with-xdm-individual-profile-path--2.png)
-
-
-
-&#x200B;5. Altere o Método de avaliação para Streaming e clique no ícone de pasta
-
-![Altere o Método de Avaliação para Streaming e clique no ícone de pasta](assets/build-audience-2-change-evaluation-method-to-streaming.png)
-
-
-
-&#x200B;6. Forneça uma descrição para o novo Público-alvo qualificado de streaming.
-
-- Salve o público-alvo como &quot;*Proprietário do público-alvo do iPhone 14*&quot;.
-- Clique no botão azul **Ativar público-alvo** para destino
-
-![Clique em Ativar público-alvo para destino para o público qualificado para transmissão](assets/build-audience-2-activate-audience-to-destination.png)
-
-
-
-&#x200B;7. Selecione o Destino do **Webhook de DEP de Streaming** e clique em **Avançar**
-
-&#x200B;8. Clique em **Avançar** e **Concluir**
-
-&#x200B;> [!NOTE]
->
 >Considerações sobre por que você pode querer selecionar Lote vs. Streaming ou Edge:
 >
->Medidas de proteção mais recentes: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
+>Medidas de proteção mais recentes: [https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=en](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 
 >[!TIP]
 >

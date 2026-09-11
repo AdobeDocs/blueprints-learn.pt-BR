@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Instruções de implantação
 description: Use a CLI da DEP para implantar os esquemas, os conjuntos de dados, os fluxos de dados e os dados de amostra do pacote de laboratório do AJO Architectural Foundations em sua sandbox.
 doc-type: article
 solution: Experience Platform
 exl-id: 3d6e9a1c-7b2f-4e8a-9d0c-1f5a8b6c2e3d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 1%
@@ -67,15 +66,15 @@ A CLI é implantada na sandbox para a qual o arquivo de ambiente aponta. Portant
 1. Copie `envFiles/sample-env.json` e dê a ele um novo nome, ex.: `my-env.json`
 2. Abra o arquivo e preencha os seguintes campos usando os valores da [configuração do Developer Console](developer-console-setup.md):
 
-| **Campo** | **Valor** |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `API_KEY` | ID do cliente |
-| `CLIENT_SECRET` | Segredo do cliente |
-| `IMS_ORG` | ID da organização |
-| `SCOPES` | Deve incluir os escopos API do Experience Platform e API do Adobe Journey Optimizer <br />*(por exemplo, cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
-| `SANDBOX_NAME` | A sandbox que você está direcionando — deve estar vazia e ser do tipo `dev` |
+   | **Campo** | **Valor** |
+   | ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | `API_KEY` | ID do cliente |
+   | `CLIENT_SECRET` | Segredo do cliente |
+   | `IMS_ORG` | ID da organização |
+   | `SCOPES` | Deve incluir os escopos API do Experience Platform e API do Adobe Journey Optimizer <br />*(por exemplo, cjm.suppression\_service.client.delete, cjm.suppression\_service.client.all, openid, session, AdobeID, read\_organizations, additional\_info.projectedProductContext)* |
+   | `SANDBOX_NAME` | A sandbox que você está direcionando — deve estar vazia e ser do tipo `dev` |
 
-&#x200B;3. Salvar e fechar o arquivo
+3. Salvar e fechar o arquivo
 
 >[!NOTE]
 >
@@ -118,7 +117,8 @@ A etapa 1 leva aproximadamente 2 minutos, a etapa 2, aproximadamente 6 minutos.
 >[!NOTE]
 >
 >Use a Etapa 6 em vez de executar as Etapas 4 e 5 separadamente — ela faz a mesma coisa em uma passagem com a espera de propagação tratada para você.
-> [!NOTE]
+
+>[!NOTE]
 >
 >Todos os tempos de espera acima são verificados automaticamente pela CLI. Se você executar uma etapa muito cedo, ela será bloqueada e informará o tempo de espera.
 

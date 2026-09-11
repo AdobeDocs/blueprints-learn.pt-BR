@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Enviar um evento
 description: Use o Postman para transmitir um evento de pedido enviado simulado diretamente para o Hub a fim de acionar a jornada, em vez de enviá-lo para a Edge.
 doc-type: article
 solution: Experience Platform
 exl-id: a0f75f5a-e3b3-42a2-8547-f075a7661a22
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -51,7 +50,7 @@ Comece reunindo os seguintes valores:
 1. Localizar o registro de **dep: Pedidos (fluxo)** clique no link de fluxos de dados
 1. No painel direito, copie e salve os valores de **ID de fluxo de dados** em algum lugar que você possa consultar mais tarde
 
-&#x200B;> [!WARNING]
+>[!WARNING]
 >
 >Clique em um espaço vazio na linha.  NÃO clique nos links azuis!
 
@@ -80,7 +79,7 @@ Inicie o Postman no computador e navegue até a seguinte chamada de API:
    - **Verde** —> `Dataflow ID`
      - O valor parece com um GUID (não começa com http)
 
-&#x200B;> [!CAUTION]
+>[!CAUTION]
 >
 >AINDA NÃO EXECUTAR!
 

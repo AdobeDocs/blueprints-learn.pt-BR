@@ -1,11 +1,10 @@
 ---
-hold: true
 title: APIs de perfil e identidade
 description: Use a API de entidade de perfil e a API de cluster do serviço de identidade no Postman para pesquisar atributos de perfil, eventos e identidades vinculadas.
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 1%
@@ -80,17 +79,17 @@ Para se familiarizar com a API de pesquisa de entidade, use o perfil Modo de pro
 1. Clique na solicitação **Pesquisa de Entidade (atributos)** para abri-la
 1. Execute a chamada clicando no botão **Enviar**
 
-![Painel de solicitações do Postman para a chamada Pesquisa de Entidade (atributos) antes de enviar](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "API de Pesquisa de Entidade de Perfil (atributos)")
+   ![Painel de solicitações do Postman para a chamada Pesquisa de Entidade (atributos) antes de enviar](assets/profile-and-identity-apis-entity-lookup-attributes-request.png "API de Pesquisa de Entidade de Perfil (atributos)")
 
-Uma solicitação bem-sucedida deve responder com um `200 OK` e você deve ver um resultado que contenha todos os atributos do perfil Modo de profundidade.
+   Uma solicitação bem-sucedida deve responder com um `200 OK` e você deve ver um resultado que contenha todos os atributos do perfil Modo de profundidade.
 
-![Resposta OK 200 contendo todos os atributos para o perfil do Modo de Execução](assets/profile-and-identity-apis-successful-attributes-api-response.png "Resposta de API (atributos) de Entidade de Perfil com Êxito")
+   ![Resposta OK 200 contendo todos os atributos para o perfil do Modo de Execução](assets/profile-and-identity-apis-successful-attributes-api-response.png "Resposta de API (atributos) de Entidade de Perfil com Êxito")
 
->[!NOTE]
->
->Por padrão, se nenhuma política de mesclagem for especificada em uma solicitação de entidade de perfil, ela usará a política de mesclagem padrão na sandbox
+   >[!NOTE]
+   >
+   >Por padrão, se nenhuma política de mesclagem for especificada em uma solicitação de entidade de perfil, ela usará a política de mesclagem padrão na sandbox
 
-Com a API de entidade há vários parâmetros de consulta que você pode utilizar para alterar o que é retornado em resposta.
+   Com a API de entidade há vários parâmetros de consulta que você pode utilizar para alterar o que é retornado em resposta.
 
 1. Na solicitação de Pesquisa de Entidade (atributos), clique na opção **Params** para a solicitação
 1. Marque a caixa ao lado de **Chave** chamada **campos**
@@ -106,7 +105,7 @@ Uma solicitação bem-sucedida deve responder com um `200 OK` e você deve ver a
 
 ![Resposta 200 OK filtrada mostrando apenas campos de Nome, Sobrenome e Produtos Ativos](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Pesquisa de Entidade de Perfil com Êxito (atributos) Resposta de API com filtro habilitado")
 
-&#x200B;> [!TIP]
+>[!TIP]
 >
 >Parabéns!  Você pesquisou com êxito os atributos de um perfil usando a API de entidade de perfil
 

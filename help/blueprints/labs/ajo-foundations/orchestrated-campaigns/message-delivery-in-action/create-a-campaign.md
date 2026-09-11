@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar uma campanha
 description: Saiba como criar e definir as configurações básicas de uma nova Campanha orquestrada.
 doc-type: article
 solution: Experience Platform
 exl-id: 5602b0ba-95e2-455f-affd-081df540c999
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 4%
@@ -23,23 +22,23 @@ No próximo conjunto de etapas, você começará com a criação de uma Campanha
 
 1. No painel lateral esquerdo, clique em **Campanhas**
 
-![Clique em Campanhas no painel lateral esquerdo](assets/create-a-campaign-click-campaigns.png)
+   ![Clique em Campanhas no painel lateral esquerdo](assets/create-a-campaign-click-campaigns.png)
 
-&#x200B;2. Clique em **Criar campanha**
+2. Clique em **Criar campanha**
 
-![Clique no botão Criar campanha](assets/create-a-campaign-click-create-campaign.png)
+   ![Clique no botão Criar campanha](assets/create-a-campaign-click-create-campaign.png)
 
-&#x200B;3. Selecione a **Orquestração - Marketing** e clique em **Confirmar**
+3. Selecione a **Orquestração - Marketing** e clique em **Confirmar**
 
-![Selecione a Orquestração - Marketing e clique em Confirmar](assets/create-a-campaign-select-orchestration-marketing.png)
+   ![Selecione a Orquestração - Marketing e clique em Confirmar](assets/create-a-campaign-select-orchestration-marketing.png)
 
-&#x200B;4. Forneça os detalhes da Campanha abaixo e clique no **botão Salvar** quando terminar
+4. Forneça os detalhes da Campanha abaixo e clique no **botão Salvar** quando terminar
    - **Nome:** `OC-MDL-Campaign-Test`
    - **Descrição:** `OC Message Delivery Test`
 
-![Forneça os detalhes da campanha e clique em Salvar](assets/create-a-campaign-provide-campaign-details.png)
+   ![Forneça os detalhes da campanha e clique em Salvar](assets/create-a-campaign-provide-campaign-details.png)
 
-&#x200B;5. Aguarde a mensagem de confirmação antes de continuar
+5. Aguarde a mensagem de confirmação antes de continuar
 
 ![Mensagem de confirmação atualizada das configurações da campanha](assets/create-a-campaign-confirmation-message.png)
 

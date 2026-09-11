@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Validar instantâneo do perfil
 description: Saiba como consultar o conjunto de dados Instantâneo de perfil e entenda por que uma atualização de perfil recém-transmitida não é exibida até a próxima tarefa em lote diária.
 doc-type: article
 solution: Experience Platform
 exl-id: 1e7befcf-d952-47a2-86d9-33ef71eec57a
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -23,29 +22,29 @@ Confirme se o perfil ainda não é exibido no conjunto de dados Instantâneo do 
 
 1. Na navegação à esquerda, na seção Gerenciamento de dados, clique em **Conjuntos de dados** e depois clique na **guia Procurar**, localizada no painel superior
 
-![Guia Procurar Conjuntos de Dados na seção Gerenciamento de Dados](assets/validate-profile-snapshot-datasets-browse-tab.png)
+   ![Guia Procurar Conjuntos de Dados na seção Gerenciamento de Dados](assets/validate-profile-snapshot-datasets-browse-tab.png)
 
-&#x200B;2. Na **caixa de pesquisa**, digite `profile` e **clique na linha** com o título &quot;Instantâneo de Perfil...&quot;.   e, no painel direito **copie o nome da tabela** e cole-o em algum lugar que você possa referenciar na próxima etapa.
+2. Na **caixa de pesquisa**, digite `profile` e **clique na linha** com o título &quot;Instantâneo de Perfil...&quot;.   e, no painel direito **copie o nome da tabela** e cole-o em algum lugar que você possa referenciar na próxima etapa.
 
-&#x200B;> [!NOTE]
->
->Talvez seja necessário limpar os filtros se você não vir a mensagem &quot;Instantâneo de perfil...&quot; conjunto de dados.
+   >[!NOTE]
+   >
+   >Talvez seja necessário limpar os filtros se você não vir a mensagem &quot;Instantâneo de perfil...&quot; conjunto de dados.
 
 
 
-![Resultados de pesquisa para o conjunto de dados Perfil-Instantâneo](assets/validate-profile-snapshot-dataset-search.png)
+   ![Resultados de pesquisa para o conjunto de dados Perfil-Instantâneo](assets/validate-profile-snapshot-dataset-search.png)
 
-&#x200B;3. Navegue de volta para o Editor de consultas e copie e cole o SQL abaixo no editor
+3. Navegue de volta para o Editor de consultas e copie e cole o SQL abaixo no editor
 
-```sql
-select
-  identityMap,
-  segmentID,
-  segmentMembershipUps[segmentID] ['lastQualificationTime'],
-  segmentMembershipUps[segmentID] ['status'],
-  current_timestamp
-from
-  (
+   ```sql
+   select
+     identityMap,
+     segmentID,
+     segmentMembershipUps[segmentID] ['lastQualificationTime'],
+     segmentMembershipUps[segmentID] ['status'],
+     current_timestamp
+   from
+     (
     select
       identityMap,
       explode (map_keys (segmentMembership['ups'])) as segmentID,
@@ -55,20 +54,20 @@ from
     where
       map_keys (segmentMembership['ups']) is not null
     limit 100
-  )
-  --where identityMap['email'][0].id = 'henry.creel@emailsim.io'
-  limit 50
-```
+     )
+     --where identityMap['email'][0].id = 'henry.creel@emailsim.io'
+     limit 50
+   ```
 
-&#x200B;4. Atualize o nome da tabela e o endereço de email conforme descrito abaixo:
+4. Atualize o nome da tabela e o endereço de email conforme descrito abaixo:
    - **Nome da tabela:** na linha 14, copie e cole o nome da tabela que você tem para a tabela Instantâneo de Perfil entre o `from` e o `where`
    - **Endereço de email:** por enquanto, na linha 19, digite o mesmo endereço de email que você costumava enviar no seu Evento da Web (usamos henry.creel\@emailsim.io, a menos que você o tenha alterado).
      - No momento, comentamos isso (deixe assim). Quando a consulta é executada e você procura Henry, você não o encontra.
 
-![Editor de consultas com o nome e o endereço de email da tabela Instantâneo de Perfil a ser atualizada](assets/validate-profile-snapshot-update-query-table-name.png)
+   ![Editor de consultas com o nome e o endereço de email da tabela Instantâneo de Perfil a ser atualizada](assets/validate-profile-snapshot-update-query-table-name.png)
 
-&#x200B;5. **Execute** a consulta clicando na seta na parte superior esquerda
-&#x200B;6. Os resultados são como abaixo (mas se você procurar Henry, você não encontrá-lo)
+5. **Execute** a consulta clicando na seta na parte superior esquerda
+6. Os resultados são como abaixo (mas se você procurar Henry, você não encontrá-lo)
 
 ![Os resultados da consulta não mostram nenhuma correspondência para o perfil transmitido no instantâneo](assets/validate-profile-snapshot-query-results-no-match.png)
 

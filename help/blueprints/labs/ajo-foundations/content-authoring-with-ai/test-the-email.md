@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Testar o email
 description: Saiba como enviar e verificar emails de prova no Adobe Journey Optimizer para validar conteúdo personalizado e variantes condicionais antes da ativação.
 doc-type: article
 solution: Experience Platform
 exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -33,27 +32,27 @@ Neste ponto, você aprendeu que podemos não apenas personalizar os atributos do
 1. Clique em **Simular Conteúdo**.
 2. Selecione **Simular variação de conteúdo**.
 
-![Clicar em Simular conteúdo e selecionar Simular variação de conteúdo](assets/content-simulation-click-simulate-content-variation.png)
+   ![Clicar em Simular conteúdo e selecionar Simular variação de conteúdo](assets/content-simulation-click-simulate-content-variation.png)
 
-Um painel de simulação é aberto.
+   Um painel de simulação é aberto.
 
-&#x200B;3. Clique em **Enviar prova**.
+3. Clique em **Enviar prova**.
 
-![Botão Enviar prova no painel de simulação](assets/test-the-email-click-send-proof-button.png)
+   ![Botão Enviar prova no painel de simulação](assets/test-the-email-click-send-proof-button.png)
 
-&#x200B;4. Adicione seu próprio endereço de email pessoal.
+4. Adicione seu próprio endereço de email pessoal.
 
->[!NOTE]
->
->Observe que, às vezes, o email corporativo bloqueará emails da sandbox. Eu recomendaria que você usasse seu email pessoal.
+   >[!NOTE]
+   >
+   >Observe que, às vezes, o email corporativo bloqueará emails da sandbox. Eu recomendaria que você usasse seu email pessoal.
 
 
 
-&#x200B;5. Selecione ambas as variantes.
-&#x200B;6. Adicionar prefixo da linha de assunto
+5. Selecione ambas as variantes.
+6. Adicionar prefixo da linha de assunto
    1. Variante 1: acima de 40
    2. Variante 2: Abaixo de 40
-&#x200B;7. Clique em **Enviar prova**. Você recebe uma mensagem de confirmação verde &quot;**Provas enviadas com êxito**&quot;
+7. Clique em **Enviar prova**. Você recebe uma mensagem de confirmação verde &quot;**Provas enviadas com êxito**&quot;
 
 ![Mensagem de confirmação verde mostrando provas enviadas com êxito](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

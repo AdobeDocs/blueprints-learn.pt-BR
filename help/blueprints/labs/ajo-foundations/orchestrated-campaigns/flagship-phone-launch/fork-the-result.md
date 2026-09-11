@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Bifurque o resultado
 description: Saiba como adicionar uma atividade de bifurcação a uma campanha orquestrada para ramificar um resultado a fim de salvar um público e enviar mensagens SMS.
 doc-type: article
 solution: Experience Platform
 exl-id: 8f1d0839-e4ca-4b7c-bc97-4e271a457296
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -26,31 +25,31 @@ Esta etapa é simples, pois tudo o que você deseja fazer é adicionar uma ativi
 
 ## Criar a bifurcação
 
-1. Na tela do fluxo de trabalho, clique no ícone **+** **3&rbrace; após a atividade Criar público-alvo e selecione a** Atividade de bifurcação **&#x200B;**
+1. Na tela do fluxo de trabalho, clique no ícone **+** **3} após a atividade Criar público-alvo e selecione a** Atividade de bifurcação ****
 
-![Adicionar uma atividade de bifurcação após a atividade de compilação de público-alvo](assets/fork-the-result-add-fork-activity.png)
+   ![Adicionar uma atividade de bifurcação após a atividade de compilação de público-alvo](assets/fork-the-result-add-fork-activity.png)
 
 
 
-&#x200B;2. Atualize os nomes de cada transição na bifurcação clicando na transição e atribuindo os nomes conforme descrito abaixo:
+2. Atualize os nomes de cada transição na bifurcação clicando na transição e atribuindo os nomes conforme descrito abaixo:
    - **Superior** —> `Save Audience`
    - **Inferior** —> `SMS`
 
-![Transições de bifurcação renomeadas para Salvar Público e SMS](assets/fork-the-result-rename-transitions.png)
+   ![Transições de bifurcação renomeadas para Salvar Público e SMS](assets/fork-the-result-rename-transitions.png)
 
 
 
-Quando terminar, sua tela agora deve parecer tão...
+   Quando terminar, sua tela agora deve parecer tão...
 
-![Tela de fluxo de trabalho após adicionar a atividade de bifurcação](assets/fork-the-result-final-canvas.png)
+   ![Tela de fluxo de trabalho após adicionar a atividade de bifurcação](assets/fork-the-result-final-canvas.png)
 
->[!NOTE]
->
->Uma atividade fork essencialmente é apenas duplicar o resultado da atividade anterior em duas ramificações independentes
+   >[!NOTE]
+   >
+   >Uma atividade fork essencialmente é apenas duplicar o resultado da atividade anterior em duas ramificações independentes
 
 
 
-&#x200B;3. Clique em **Salvar** na parte superior da tela de fluxo de trabalho.
+3. Clique em **Salvar** na parte superior da tela de fluxo de trabalho.
 
 ![Botão Salvar na barra de ferramentas da tela do fluxo de trabalho](assets/fork-the-result-click-save.png)
 

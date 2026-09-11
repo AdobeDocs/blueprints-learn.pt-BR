@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuração do console do desenvolvedor
 description: Crie um projeto do Adobe Developer Console com credenciais OAuth de servidor para servidor para a CLI da DEP para autenticar em sua sandbox.
 doc-type: article
 solution: Experience Platform
 exl-id: 4a7c9e2b-1d3f-4a6e-8b9c-2d5e7f1a3c6b
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 # Configuração do console do desenvolvedor
 
-&#x200B;> [!NOTE]
+>[!NOTE]
 >
 >Isso só é necessário se você estiver trabalhando nos laboratórios no seu próprio ritmo. Se você estiver em um curso ou evento de treinamento ao vivo, sua sandbox já foi implantada para você.
 

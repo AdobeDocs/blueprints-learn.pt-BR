@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar evento
 description: Crie e configure um evento de Pedido enviado unitário, incluindo configurações de namespace de identidade, para servir como acionador de entrada de jornada.
 doc-type: article
 solution: Experience Platform
 exl-id: 4d1c1d4d-0dc6-4ea1-aa3c-f959bb3b9aa8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -33,49 +32,49 @@ Para criar uma Jornada que use um Evento unitário, precisamos primeiro configur
 
 1. No painel esquerdo, no menu Administração, clique em **Configurações** e, no bloco Eventos, clique no botão **Gerenciar**
 
-![Botão Gerenciar no bloco Eventos em Configurações](assets/configure-event-open-events-manage.png)
+   ![Botão Gerenciar no bloco Eventos em Configurações](assets/configure-event-open-events-manage.png)
 
-&#x200B;2. No canto superior direito, clique no botão **Criar evento**
+2. No canto superior direito, clique no botão **Criar evento**
 
-![Botão Criar Evento no canto superior direito](assets/configure-event-click-create-event-button.png)
+   ![Botão Criar Evento no canto superior direito](assets/configure-event-click-create-event-button.png)
 
-&#x200B;3. Atualize as configurações do evento da seguinte maneira:
+3. Atualize as configurações do evento da seguinte maneira:
    - **Nome** = `orderShipped`
    - **Tipo** = `Unitary`
    - **Tipo de ID do evento** = `Rule based`
    - **Esquema** = `dep: Orders v.1`
 
-![evento orderShipped configurado com tipo Unitário e dep: Pedidos v.1 schema](assets/configure-event-set-name-type-schema.png)
+   ![evento orderShipped configurado com tipo Unitário e dep: Pedidos v.1 schema](assets/configure-event-set-name-type-schema.png)
 
-&#x200B;4. Na caixa de entrada `Fields`, clique no **ícone de Lápis**
+4. Na caixa de entrada `Fields`, clique no **ícone de Lápis**
 
-![Ícone de lápis na caixa de entrada Campos](assets/configure-event-click-fields-pencil-icon.png)
+   ![Ícone de lápis na caixa de entrada Campos](assets/configure-event-click-fields-pencil-icon.png)
 
-&#x200B;5. Selecione os campos a seguir para adicionar ao evento e, quando terminar, clique no botão **OK**
+5. Selecione os campos a seguir para adicionar ao evento e, quando terminar, clique no botão **OK**
    - `Event Type (eventType)`
    - `Order ID (orderID)`
 
-![Campos de Tipo de Evento e ID do Pedido selecionados para serem adicionados ao evento](assets/configure-event-select-eventtype-orderid-fields.png)
+   ![Campos de Tipo de Evento e ID do Pedido selecionados para serem adicionados ao evento](assets/configure-event-select-eventtype-orderid-fields.png)
 
->[!NOTE]
->
->Selecione apenas o campo ID do Pedido e não todos os campos no Pedido 😁
+   >[!NOTE]
+   >
+   >Selecione apenas o campo ID do Pedido e não todos os campos no Pedido 😁
 
 
 
-&#x200B;6. No `Event Id condition input`, clique no **ícone de Lápis**
+6. No `Event Id condition input`, clique no **ícone de Lápis**
 
-![Ícone de lápis na entrada de condição da ID de Evento](assets/configure-event-click-event-id-condition-pencil.png)
+   ![Ícone de lápis na entrada de condição da ID de Evento](assets/configure-event-click-event-id-condition-pencil.png)
 
-&#x200B;7. **Arraste** o campo `Event Type` para a tela
+7. **Arraste** o campo `Event Type` para a tela
 
-![Arraste o campo Tipo de Evento para a tela de condição](assets/configure-event-drag-event-type-field-onto-canvas.png)
+   ![Arraste o campo Tipo de Evento para a tela de condição](assets/configure-event-drag-event-type-field-onto-canvas.png)
 
-&#x200B;8. Na caixa de seleção exibida, procure e verifique o valor intitulado **pedidos.remetidos.** Clique no botão **OK**.
+8. Na caixa de seleção exibida, procure e verifique o valor intitulado **pedidos.remetidos.** Clique no botão **OK**.
 
-![pedidos.valor enviado marcado na caixa de seleção](assets/configure-event-select-orders-shipped-value.png)
+   ![pedidos.valor enviado marcado na caixa de seleção](assets/configure-event-select-orders-shipped-value.png)
 
-&#x200B;9. Em seguida, atualize os dois últimos valores de Namespace e Identificador de perfil com os valores mostrados abaixo:
+9. Em seguida, atualize os dois últimos valores de Namespace e Identificador de perfil com os valores mostrados abaixo:
    - **Namespace** —> `Email`
    - **Identificador de Perfil** —> `personalEmail`
 

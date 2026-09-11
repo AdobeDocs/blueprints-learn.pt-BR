@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Verificar e agendar fluxo de dados
 description: Verifique o conjunto completo de mapeamento Pedidos, visualize a saída e programe o fluxo de dados para ser executado a cada 15 minutos.
 doc-type: article
 solution: Experience Platform
 exl-id: b7f0c43b-092c-45ba-b95b-27cb4a49d110
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 7%
@@ -57,7 +56,7 @@ ht-degree: 7%
 
 1. Visualize a saída do mapeamento. Role por todos os atributos para garantir que não haja exclamação vermelha ao lado de nenhum dos atributos no lado direito.
 
-![Visualizar a tela de mapeamento sem erros em nenhum atributo mapeado](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "Visualizar a tela de mapeamento será assim")
+   ![Visualizar a tela de mapeamento sem erros em nenhum atributo mapeado](assets/verify-and-schedule-dataflow-preview-mapping-screen.png "Visualizar a tela de mapeamento será assim")
 
 1. No lado esquerdo da navegação de Visualização, selecione a matriz de objetos **productListItems**. O lado direito é atualizado para mostrar apenas os atributos nessa matriz de objetos.
 
@@ -71,9 +70,9 @@ ht-degree: 7%
 
 1. Defina o agendamento para executar **a cada 15 minutos** definindo Frequency como Minuto e Intervalo como 15. Revise o fluxo e clique em Concluir.
 
->[!CAUTION]
->
->Verifique se a programação está definida como 15 minutos. Se você agendar a execução como **Executar Uma Vez**, não poderá executá-la novamente, mesmo que faça alterações no mapeamento posteriormente.
+   >[!CAUTION]
+   >
+   >Verifique se a programação está definida como 15 minutos. Se você agendar a execução como **Executar Uma Vez**, não poderá executá-la novamente, mesmo que faça alterações no mapeamento posteriormente.
 
 1. A execução do fluxo de dados não é iniciada imediatamente e leva alguns minutos. Assim, o último Status de Execução do Fluxo de Dados está definido como &quot;*Nenhuma execução*&quot;.
 

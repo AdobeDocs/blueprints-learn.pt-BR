@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar destino de transmissão
 description: Configure um destino de transmissão da API HTTP com um endpoint de webhook, política de governança, públicos-alvo e mapeamentos de campo para testar a ativação do segmento.
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -55,15 +54,15 @@ Na interface do Experience Platform, navegue até o catálogo de destinos fazend
 1. Tipo de conexão **Nenhum**
 1. Clique em **Conectar ao destino**
 
-![Conectar ao destino](assets/setup-streaming-destination-connect-to-destination.png "Conectar ao destino")
+   ![Conectar ao destino](assets/setup-streaming-destination-connect-to-destination.png "Conectar ao destino")
 
->[!NOTE]
->
->Normalmente, adicionamos credenciais de autenticação no momento, mas nenhuma é necessária para esse webhook.
+   >[!NOTE]
+   >
+   >Normalmente, adicionamos credenciais de autenticação no momento, mas nenhuma é necessária para esse webhook.
 
 
 
-&#x200B;3. Preencha os detalhes de configuração do seu destino da seguinte maneira:
+3. Preencha os detalhes de configuração do seu destino da seguinte maneira:
 
 - **Nome** -> `Streaming DEP Webhook - [Your Initials]`
 - **Descrição** -> `[your webhook endpoint you copied above]`
@@ -92,7 +91,7 @@ Quando terminar, verifique se a configuração corresponde ao que você vê abai
 >
 >Você pode saber mais sobre as políticas de governança no Experience League
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
 
 ## Selecionar públicos
 

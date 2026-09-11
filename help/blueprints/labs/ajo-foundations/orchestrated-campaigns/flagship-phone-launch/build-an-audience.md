@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar um público
 description: Saiba como usar a atividade Build Audience em uma campanha orquestrada para direcionar linhas ativas do cliente com uma criação de telefone específica usando condições de esquema relacional.
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 0%
@@ -25,11 +24,11 @@ Nas próximas etapas, você criará o público-alvo que deseja direcionar para a
 
 1. Na tela, clique no símbolo **+** e selecione a atividade **Criar público** para adicioná-lo ao fluxo de trabalho
 
-![Adicionar a atividade Criar público à tela do fluxo de trabalho](assets/build-an-audience-add-activity.png)
+   ![Adicionar a atividade Criar público à tela do fluxo de trabalho](assets/build-an-audience-add-activity.png)
 
 
 
-&#x200B;2. No painel direito, você verá as propriedades Criar público-alvo. Atualize o Rótulo para indicar o seguinte: `Active Lines with Apple`
+2. No painel direito, você verá as propriedades Criar público-alvo. Atualize o Rótulo para indicar o seguinte: `Active Lines with Apple`
 
 ![Criar rótulo de público definido como Linhas Ativas com o Apple](assets/build-an-audience-set-label.png)
 
@@ -40,9 +39,9 @@ A próxima etapa é selecionar a **Targeting dimension** (ou seja, qual tabela v
 
 1. Clique no **ícone de pesquisa** na caixa Targeting dimension
 
-![Ícone Pesquisar na caixa Dimensão de direcionamento](assets/build-an-audience-search-targeting-dimension.png)
+   ![Ícone Pesquisar na caixa Dimensão de direcionamento](assets/build-an-audience-search-targeting-dimension.png)
 
-&#x200B;2. No pop-up, procure e selecione a tabela denominada **dep-rel: Customer Line** e clique no botão **Confirm**.
+2. No pop-up, procure e selecione a tabela denominada **dep-rel: Customer Line** e clique no botão **Confirm**.
 
 ![Selecione a tabela dep-rel: Customer Line e clique em Confirmar](assets/build-an-audience-select-customer-line-table.png)
 
@@ -62,9 +61,9 @@ Agora que você selecionou o targeting dimension (qual esquema relacional você 
 
 1. No painel direito, clique no botão **Criar Público**
 
-![Botão Criar público-alvo no painel direito](assets/build-an-audience-click-create-audience.png)
+   ![Botão Criar público-alvo no painel direito](assets/build-an-audience-click-create-audience.png)
 
-&#x200B;2. Clique no botão **Adicionar condição**
+2. Clique no botão **Adicionar condição**
 
 ![Botão Adicionar condição para a definição de público-alvo](assets/build-an-audience-click-add-condition.png)
 
@@ -80,9 +79,9 @@ Agora é hora de escrever a lógica do público-alvo usando os atributos encontr
    - **Atributo**: `Active Line`
    - **Valor**: `true`
 
-![Condição 1 definida como Linha Ativa igual a verdadeiro](assets/build-an-audience-condition-active-line-true.png)
+   ![Condição 1 definida como Linha Ativa igual a verdadeiro](assets/build-an-audience-condition-active-line-true.png)
 
-&#x200B;2. Clique no ícone **Atualizar** para exibir as contagens qualificadas na condição.
+2. Clique no ícone **Atualizar** para exibir as contagens qualificadas na condição.
 
 ![Ícone Atualizar mostrando a contagem qualificada de 241 para a condição 1](assets/build-an-audience-condition-1-refresh-count.png)
 
@@ -96,31 +95,31 @@ Agora é hora de escrever a lógica do público-alvo usando os atributos encontr
 
 1. Clique no botão **Adicionar condição** e selecione o esquema **dep-rel:** **Product \[Lookup]** clicando no ícone **>**
 
-![Selecione o esquema dep-rel: Product [Lookup] clicando no ícone >](assets/build-an-audience-select-product-lookup-schema.png)
+   ![Selecione o esquema dep-rel: Product [Lookup] clicando no ícone >](assets/build-an-audience-select-product-lookup-schema.png)
 
 
-&#x200B;2. Procure o campo **Marca**, clique nos três pontos e selecione **Distribuição de valores**
+2. Procure o campo **Marca**, clique nos três pontos e selecione **Distribuição de valores**
 
-![Opção de distribuição de valores para o campo Criar](assets/build-an-audience-make-distribution-of-values.png)
-
-
-
-&#x200B;3. Observe os vários valores. Você só quer `Apple` e, felizmente, ele não tem 100 grafias diferentes. Clique no **campo do Apple** para selecioná-lo e, em seguida, clique no **botão Selecionar atributo e valor** no canto superior direito.
-
-![Valor do Apple selecionado com o botão Selecionar atributo e valor](assets/build-an-audience-select-apple-attribute-value.png)
-
->[!NOTE]
->
->Este é um exemplo excelente de onde o arquiteto de dados deve ter projetado o esquema com enumerações.  Dessa forma, um profissional de marketing não precisa selecionar/digitar manualmente o valor.  Que vergonha, arquiteto de dados!
+   ![Opção de distribuição de valores para o campo Criar](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-&#x200B;4. O campo `Make` é adicionado automaticamente com as condições mostradas abaixo.
+3. Observe os vários valores. Você só quer `Apple` e, felizmente, ele não tem 100 grafias diferentes. Clique no **campo do Apple** para selecioná-lo e, em seguida, clique no **botão Selecionar atributo e valor** no canto superior direito.
+
+   ![Valor do Apple selecionado com o botão Selecionar atributo e valor](assets/build-an-audience-select-apple-attribute-value.png)
+
+   >[!NOTE]
+   >
+   >Este é um exemplo excelente de onde o arquiteto de dados deve ter projetado o esquema com enumerações.  Dessa forma, um profissional de marketing não precisa selecionar/digitar manualmente o valor.  Que vergonha, arquiteto de dados!
+
+
+
+4. O campo `Make` é adicionado automaticamente com as condições mostradas abaixo.
    - **Operador:** `Equal to`
    - **Valor:** `Apple`
    - **Diferenciação de maiúsculas e minúsculas:** `Enabled`
 
-&#x200B;5. Clique no **ícone calcular** e você verá 85 como o resultado.
+5. Clique no **ícone calcular** e você verá 85 como o resultado.
 
 ![Contagem calculada da Condição 2 de 85](assets/build-an-audience-condition-2-final-count.png)
 
@@ -134,15 +133,15 @@ Agora é hora de escrever a lógica do público-alvo usando os atributos encontr
 
 1. Clique no **ícone Calcular** localizado no painel direito sob o título Perfis direcionados para obter uma estimativa exata do tamanho do público. Você vê **65** como a **contagem final**.
 
-![Ícone Calcular mostrando o tamanho final do público de 65](assets/build-an-audience-calculate-final-audience-size.png)
+   ![Ícone Calcular mostrando o tamanho final do público de 65](assets/build-an-audience-calculate-final-audience-size.png)
 
->[!NOTE]
->
->Observe como cada condição individual retornou um número diferente (condição #1 —> 241 e condição #2 —> 85), mas o tamanho do público final foi o menor das duas condições.  Isso é devido a esse operador AND.
+   >[!NOTE]
+   >
+   >Observe como cada condição individual retornou um número diferente (condição #1 —> 241 e condição #2 —> 85), mas o tamanho do público final foi o menor das duas condições.  Isso é devido a esse operador AND.
 
 
 
-&#x200B;2. Se você vir a contagem final de **65**, clique no botão **Confirmar**, na parte superior direita da tela, e clique no botão **Salvar**, na parte superior direita, para salvar seu trabalho.
+2. Se você vir a contagem final de **65**, clique no botão **Confirmar**, na parte superior direita da tela, e clique no botão **Salvar**, na parte superior direita, para salvar seu trabalho.
 
 
 

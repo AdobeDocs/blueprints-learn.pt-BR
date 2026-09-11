@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Enviar um evento da Web do Edge
 description: Saiba como enviar um evento da Web simulado para a Adobe Edge Network por meio de uma chamada de API do Postman usando a ID da sequência de dados.
 doc-type: article
 solution: Experience Platform
 exl-id: 0823bcf7-35d9-492e-ad8d-3e8327f77dd8
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -73,18 +72,18 @@ Antes de executar a solicitação de API, é necessário adicionar a ID do fluxo
 
 1. Clique em **Variáveis na solicitação** no canto superior direito
 
-![Variáveis na opção Solicitação da barra de ferramentas do Postman](assets/send-an-edge-web-event-click-variables-in-request.png)
+   ![Variáveis na opção Solicitação da barra de ferramentas do Postman](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-&#x200B;2. Atualize o **DATASTREAM_CONFIG** **Value** com a **ID de sequência de dados** da primeira etapa da página.
+2. Atualize o **DATASTREAM_CONFIG** **Value** com a **ID de sequência de dados** da primeira etapa da página.
 
-Variável ![DATASTREAM_CONFIG atualizada com a ID de sequência de dados](assets/send-an-edge-web-event-update-datastream-config-variable.png)
+   Variável ![DATASTREAM_CONFIG atualizada com a ID de sequência de dados](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
-&#x200B;3. **Salvar** sua atualização (ctrl+s ou command+s)
-&#x200B;4. Clique em &#39;**X**&#39; no canto superior direito da barra lateral do ambiente para fechá-la
+3. **Salvar** sua atualização (ctrl+s ou command+s)
+4. Clique em &#39;**X**&#39; no canto superior direito da barra lateral do ambiente para fechá-la
 
-![Fechando a barra lateral do ambiente do Postman após salvar](assets/send-an-edge-web-event-close-environment-sidebar.png)
+   ![Fechando a barra lateral do ambiente do Postman após salvar](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-&#x200B;5. A solicitação **Criar Evento da Web** está pronta para ser enviada, pois todas as variáveis agora estão azuis e têm um valor no ambiente.
+5. A solicitação **Criar Evento da Web** está pronta para ser enviada, pois todas as variáveis agora estão azuis e têm um valor no ambiente.
 
 ![Criar solicitação de Evento da Web com todas as variáveis populadas](assets/send-an-edge-web-event-request-ready-to-send.png)
 
