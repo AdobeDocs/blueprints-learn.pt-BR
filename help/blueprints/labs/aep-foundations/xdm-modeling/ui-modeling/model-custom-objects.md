@@ -109,7 +109,7 @@ Este campo precisa de valores padronizados, portanto, use a opção **Enumerar &
 
 >[!NOTE]
 >
->A meta de Enumerar e Valores sugeridos é facilitar a segmentação para o usuário final. As enumerações impõem validação no momento da assimilação de dados, enquanto os valores sugeridos não. Para saber mais sobre este recurso, você pode ler mais na documentação aqui -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
+>A meta de Enumerar e Valores sugeridos é facilitar a segmentação para o usuário final. As enumerações impõem validação no momento da assimilação de dados, enquanto os valores sugeridos não. Para saber mais sobre este recurso, você pode ler mais na documentação aqui -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=pt-BR#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=pt-BR#enums-and-suggested-values)
 
 
 

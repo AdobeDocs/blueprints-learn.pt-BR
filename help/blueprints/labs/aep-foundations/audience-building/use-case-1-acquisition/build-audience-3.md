@@ -158,7 +158,7 @@ Este público-alvo deve ser direto.  Podemos ter várias páginas de produtos, m
 >
 >Dividimos o que é um requisito simples em muitos públicos-alvo por alguns motivos. O requisito é para um Streaming, mas esses dois requisitos transformam nosso Público-alvo em Lote. Mais detalhes aqui sobre as regras de qualificação de streaming aqui:
 >
->[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html)
+>[https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=pt-BR](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=pt-BR)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Este público-alvo deve ser direto.  Podemos ter várias páginas de produtos, m
 >
 >Precisamos entender que, ao usar um Público-alvo em um Público-alvo, o AEP tentará sequenciar quando puder. Há casos excepcionais em que isso não é possível, por exemplo, Se um Público-alvo de públicos-alvo for usado, a desqualificação de perfis ocorrerá a cada 24 horas.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=pt](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/peeking-underneath-the-hood-of-segments-in-aep-adobe-experience/ba-p/453535?profile.language=pt)
 
 
 

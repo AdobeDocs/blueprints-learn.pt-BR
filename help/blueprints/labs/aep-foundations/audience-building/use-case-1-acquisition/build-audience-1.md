@@ -247,7 +247,7 @@ Não altere o mapeamento, clique em Próximo e Concluir
 >
 >Os containers são uma maneira de fazer referência a uma variável de Evento ou a um elemento de Matriz. Você pode ler mais sobre qual é a ramificação disso neste Blog, mas por uma questão de simplicidade, isso permite especificar se um único elemento na matriz atende a ambas as condições ou se a condição pode ser espalhada por dois elementos.
 >
->[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780)
+>[https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=pt](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-blogs/how-exactly-do-containers-work-in-aep-segmentation-a-deeper-look/ba-p/458780?profile.language=pt)
 
 >[!WARNING]
 >

@@ -92,7 +92,7 @@ Quando terminar, verifique se a configuração corresponde ao que você vê abai
 >
 >Você pode saber mais sobre as políticas de governança no Experience League
 >
->[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions)
+>[https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR#core-actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=pt-BR#core-actions)
 
 ## Selecionar públicos
 
