@@ -26,7 +26,7 @@ Antes de continuar, verifique se seu acesso é legítimo. Execute as seguintes e
 
 Uma resposta bem-sucedida tem a seguinte aparência:
 
-![Resposta OK de {200 confirmando a recuperação bem-sucedida da sandbox atribuída](assets/sandbox-access-successful-response.png "Solicitação de sandbox bem-sucedida de ")
+![Resposta OK de &lbrace;200 confirmando a recuperação bem-sucedida da sandbox atribuída](assets/sandbox-access-successful-response.png "Solicitação de sandbox bem-sucedida de ")
 
 >[!NOTE]
 >
