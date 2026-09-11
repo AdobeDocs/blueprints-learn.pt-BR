@@ -74,7 +74,7 @@ Na Adobe Experience Platform, procure o perfil que você acabou de enviar a part
 >
 >**Como ler segmentMembership?**
 >
->[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** esta é a chave de mapa para diferentes tipos de públicos suportados pelo AEP.  A chave ups contém públicos-alvo criados pelo Construtor de regras.  Outros públicos-alvo estarão contidos em outras chaves (por exemplo, AAM).
 >

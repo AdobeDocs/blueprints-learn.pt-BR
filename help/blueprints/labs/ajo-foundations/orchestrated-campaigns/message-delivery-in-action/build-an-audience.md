@@ -80,4 +80,4 @@ No próximo conjunto de etapas, você criará um público-alvo do esquema relaci
 
 Agora você viu como é fácil usar a atividade Criar público-alvo na campanha ao escolher o Targeting dimension correto no esquema relacional. Em seguida, você adicionou uma condição para refinar os critérios de criação do público-alvo e usou a opção de atualização para verificar o número esperado de linhas.
 
-Você pode ler mais [aqui](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience), se estiver interessado.
+Você pode ler mais [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/build-audience), se estiver interessado.

@@ -60,7 +60,7 @@ Observe o cabeçalho **Aceitar** usado na solicitação. Esse cabeçalho informa
 
 >[!NOTE]
 >
->Você pode ler mais sobre os vários cabeçalhos Aceitar aqui -> [Endpoint da API de Esquema do Experience League](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=en#lookup)
+>Você pode ler mais sobre os vários cabeçalhos Aceitar aqui -> [Endpoint da API de Esquema do Experience League](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/schemas.html?lang=pt-BR#lookup)
 
 
 

@@ -69,4 +69,4 @@ Faça o seguinte:
 
 Agora você viu como é fácil navegar pela interface do usuário de Esquema e Relações.  Você pode selecionar um ou mais esquemas específicos e navegar para ver os relacionamentos para ajudar a entender e usar os dados na orquestração de campanha.
 
-Você pode ler mais [aqui](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/data-management/get-started-schemas), se estiver interessado.
+Você pode ler mais [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/data-management/get-started-schemas), se estiver interessado.
