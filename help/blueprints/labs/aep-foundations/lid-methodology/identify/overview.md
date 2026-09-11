@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Identificar
 description: Saiba mais sobre a etapa Identificar da metodologia TAMPA, que compreende a identificação dos tipos de tabela restantes e a identificação dos campos de identidade principais.
-doc-type: overview-page
+doc-type: article
 solution: Experience Platform
 exl-id: 83657cf0-db35-4d4d-8cfb-1934ff40baca
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 8fba6e953de0e588af5398b21554ebad085899fd
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%
