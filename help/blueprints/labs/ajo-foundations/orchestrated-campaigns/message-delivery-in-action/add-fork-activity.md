@@ -32,4 +32,4 @@ A tela com o **Criar público-alvo** configurado é apresentada. Clique em **+**
 
 Agora você viu como é fácil usar a atividade Bifurcação na tela da campanha para criar ramificações idênticas dos mesmos dados que fluem para dentro. As ramificações da atividade Fork serão usadas na próxima etapa.
 
-Você pode ler mais [aqui](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork), se estiver interessado.
+Você pode ler mais [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/fork), se estiver interessado.
