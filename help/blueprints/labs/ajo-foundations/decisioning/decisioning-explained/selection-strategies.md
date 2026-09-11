@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Estratégias de seleção
 description: Saiba mais sobre os três componentes de uma estratégia de seleção e como os métodos de qualificação e classificação no nível do item versus no nível da estratégia funcionam juntos.
 doc-type: article
 solution: Experience Platform
 exl-id: d15cc038-f012-4988-b033-7080fb065110
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%

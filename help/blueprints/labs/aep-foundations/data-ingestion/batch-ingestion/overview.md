@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Assimilação em lote
 description: Carregue dados da conta do cliente por meio da assimilação em lote no Data Lake e no Perfil, corrigindo erros de mapeamento e qualidade de dados.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 76830e79-8fc0-4fda-98b1-2c1de19e8158
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Coleções
 description: Saiba como os itens de decisão são agrupados em coleções usando regras de atributo ou metadados, incluindo a proteção de 500 itens por coleção.
 doc-type: article
 solution: Experience Platform
 exl-id: b155ceb1-476f-4401-8158-f8abe7eb2f27
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 1%

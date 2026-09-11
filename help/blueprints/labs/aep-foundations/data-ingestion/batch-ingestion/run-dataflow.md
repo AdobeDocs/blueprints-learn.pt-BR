@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Executar fluxo de dados
 description: Execute um fluxo de dados em lote configurado e monitore seu status quando a primeira execução de carregamento de dados começar.
 doc-type: article
 solution: Experience Platform
 exl-id: 64441624-75d2-4dc9-a48b-2b28883c510d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%

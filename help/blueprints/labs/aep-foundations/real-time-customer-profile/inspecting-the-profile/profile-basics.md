@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Noções básicas de perfil
 description: Explore o esquema de união de perfis, pesquise um perfil na interface do usuário e inspecione os atributos, o mapa de identidade e as relações do gráfico de identidade.
 doc-type: article
 solution: Experience Platform
 exl-id: 5be38b40-47ef-42ce-8829-39fa09394716
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 0%

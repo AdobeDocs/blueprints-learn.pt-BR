@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Palestra de entrega de mensagem
 description: Assista a uma palestra em vídeo sobre a arquitetura da entrega de mensagens em Campanhas orquestradas e como ela difere das Jornadas.
 doc-type: article
 solution: Experience Platform
 exl-id: d6b08e96-3914-450e-8bd3-7cde9ddb2cae
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 0%

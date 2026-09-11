@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Coleção de API
 description: Baixe e importe a coleção de APIs do Postman do bootcamp que contém as solicitações usadas nos laboratórios do AEP Foundations.
 doc-type: article
 solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%

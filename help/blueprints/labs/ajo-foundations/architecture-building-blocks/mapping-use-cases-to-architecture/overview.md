@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Mapeamento de casos de uso para a arquitetura
 description: Saiba como aplicar uma estrutura estruturada para escolher entre Campanhas orquestradas e Jornadas com base em casos de uso de marketing reais.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 650e13e9-35d9-44a5-895f-8a7844e0614f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%

@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Fórmulas de classificação
 description: Saiba como as fórmulas de classificação ajustam dinamicamente a pontuação de prioridade de um item de decisão por perfil usando expressões matemáticas condicionais.
 doc-type: article
 solution: Experience Platform
 exl-id: 08183f1a-8db6-43c5-8b2e-05fa3d9c0f8d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%

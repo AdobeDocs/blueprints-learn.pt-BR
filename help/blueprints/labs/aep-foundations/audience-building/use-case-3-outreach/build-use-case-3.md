@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar caso de uso
 description: Crie um público-alvo em lote que use variáveis de contêiner para corresponder a eventos colocados em pedidos e cancelados em pedidos para o mesmo pedido em uma semana.
 doc-type: article
 solution: Experience Platform
 exl-id: 4b72b76f-de64-4712-85a6-ec7890b23b97
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%

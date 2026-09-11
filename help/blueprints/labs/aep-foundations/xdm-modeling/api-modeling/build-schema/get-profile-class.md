@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Obter Classe de Perfil
 description: Chame a API do registro do esquema global para recuperar e salvar a $id da classe Perfil individual XDM para uso em um esquema personalizado.
 doc-type: article
 solution: Experience Platform
 exl-id: d87c21a2-dad4-4666-b917-cdf8e16058d4
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

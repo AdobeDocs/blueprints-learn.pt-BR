@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Entrega de mensagem em ação
 description: Obtenha uma visão geral da criação de uma Campanha orquestrada que segmente os membros do plano básico e compare o comportamento do delivery entre o Perfil do AEP e os canais de email do esquema relacional.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%

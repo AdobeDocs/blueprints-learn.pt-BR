@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuração do Developer Console
 description: Crie um projeto do Adobe Developer Console com credenciais OAuth de servidor para servidor para as APIs do Experience Platform e do Journey Optimizer usadas pela CLI da DEP.
 doc-type: article
 solution: Experience Platform
 exl-id: 8b8f2a3e-2f4a-4b0e-9c5a-6e0c2b7a1d4f
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%

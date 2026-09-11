@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configuração
 description: Conclua as etapas de implantação da sandbox e configuração do Postman necessárias antes de iniciar os laboratórios do AJO Foundations.
 doc-type: article
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 1%

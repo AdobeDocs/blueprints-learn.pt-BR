@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Obter grupos de campos padrão
 description: Consulte a API do registro do esquema global para localizar e salvar as $ids dos grupos de campos XDM padrão necessários para criar um esquema de perfil do cliente.
 doc-type: article
 solution: Experience Platform
 exl-id: 62017ece-eef2-4785-afed-5c690c00ed02
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%

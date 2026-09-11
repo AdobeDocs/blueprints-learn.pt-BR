@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Criar mapeamentos
 description: Aplique técnicas anteriores do laboratório para mapear independentemente um arquivo de origem da Data Landing Zone ao esquema XDM de destino.
 doc-type: article
 solution: Experience Platform
 exl-id: 80052fd3-a824-4b71-ae7e-ce587f925950
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%

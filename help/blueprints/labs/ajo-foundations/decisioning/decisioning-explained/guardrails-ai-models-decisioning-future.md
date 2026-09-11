@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Medidas de proteção, modelos de IA e o futuro da Decisão
 description: Saiba mais sobre as principais medidas de proteção da decisão, como os modelos de classificação de IA diferem das fórmulas e como os componentes básicos do decisioning se conectam de ponta a ponta.
 doc-type: article
 solution: Experience Platform
 exl-id: 90902f6e-ba3c-4852-ab82-ad852698b227
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%

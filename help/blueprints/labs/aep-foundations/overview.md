@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Visão geral
 description: Visualize a cobertura de bootcamp dos AEP Foundations sobre modelagem relacional para NoSQL, esquemas XDM, assimilação de dados e ativação de público-alvo.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: b8958725-1e27-4440-bc6a-2b50f64f4076
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 2%

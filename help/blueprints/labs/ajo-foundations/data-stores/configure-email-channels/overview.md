@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Configurar canais de email
 description: Configure duas configurações de canal de email, uma usando um atributo de Perfil do AEP e outra usando um atributo de esquema Relacional, para Campanhas Orquestradas.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: ebcb3c09-27b8-4a7a-9e30-76b5b61e72ae
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%

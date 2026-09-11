@@ -1,11 +1,10 @@
 ---
-hold: true
 title: Armazenamento relacional em ação
 description: Obtenha uma visão geral da navegação em esquemas relacionais, configuração de um Dimension de direcionamento de perfil e criação e teste de uma Campanha orquestrada com dados de público relacional e do AEP.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 121dae05-6b24-4d79-9313-6a38d7e175c3
-source-git-commit: 2b2b9b9c359c4cc6757ac62ad502ece9a4923095
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%
