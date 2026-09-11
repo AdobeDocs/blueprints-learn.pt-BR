@@ -41,56 +41,56 @@ Esta etapa demonstra como os modelos podem ser reutilizados em jornadas, permiti
 
 ![Botão Criar Campanha no Gerenciamento do Jornada](assets/creating-the-email-click-create-campaign-button.png)
 
-3. Selecione &quot;**Orquestração - Marketing**&quot; e clique em **confirmar**
+&#x200B;3. Selecione &quot;**Orquestração - Marketing**&quot; e clique em **confirmar**
 
 ![Selecionar Orquestração - Marketing e clique em confirmar](assets/creating-the-email-select-orchestration-marketing.png)
 
-4. Nomeie sua campanha `Flagship Phone Launch Branded`. Pressione o botão **Salvar**.
+&#x200B;4. Nomeie sua campanha `Flagship Phone Launch Branded`. Pressione o botão **Salvar**.
 
 ![Nomear a campanha como Inicialização Telefônica Flagrante com a marca e clicar em Salvar](assets/creating-the-email-name-campaign-save.png)
 
-5. Clique no sinal **+** e selecione a atividade **Ler público**
+&#x200B;5. Clique no sinal **+** e selecione a atividade **Ler público**
 
 ![Sinal de adição para selecionar a atividade Ler Público](assets/creating-the-email-click-plus-read-audience.png)
 
-6. A próxima etapa é selecionar a caixa **&quot;Ler público-alvo&quot;** e clicar no **ícone da pasta Público-alvo**
+&#x200B;6. A próxima etapa é selecionar a caixa **&quot;Ler público-alvo&quot;** e clicar no **ícone da pasta Público-alvo**
 
 ![Ler caixa de Público-alvo e ícone de pasta de Público-alvo](assets/creating-the-email-read-audience-folder-icon.png)
 
-7. Selecione a **dep: Interessado no público-alvo do iPhone 17** e clique no botão &quot;**Adicionar público-alvo**&quot;
+&#x200B;7. Selecione a **dep: Interessado no público-alvo do iPhone 17** e clique no botão &quot;**Adicionar público-alvo**&quot;
 
 ![Selecionando o público-alvo Interessado no iPhone 17 e clicando em Adicionar público-alvo](assets/creating-the-email-select-audience-add-button.png)
 
-8. Selecione a Entidade - **dep-rel: Conta do Cliente - customer\_id** (ou qualquer uma, pois não importa para esta parte)
-9. Adicione a **Atividade de email** clicando no sinal **+** e selecione **Email** nas atividades de Canal.
+&#x200B;8. Selecione a Entidade - **dep-rel: Conta do Cliente - customer\_id** (ou qualquer uma, pois não importa para esta parte)
+&#x200B;9. Adicione a **Atividade de email** clicando no sinal **+** e selecione **Email** nas atividades de Canal.
 
 ![Adicionando a atividade Email das atividades de Canal](assets/creating-the-email-add-email-channel-activity.png)
 
-10. Clique em **Editar email**.
+&#x200B;10. Clique em **Editar email**.
 
 ![Editar opção de email para a atividade de email da campanha](assets/creating-the-email-click-edit-email.png)
 
-11. Clique na **guia Ação** e selecione **sua** configuração de email. Sua sandbox pode mostrar isso como Email relacional. (Selecione qualquer)
+&#x200B;11. Clique na **guia Ação** e selecione **sua** configuração de email. Sua sandbox pode mostrar isso como Email relacional. (Selecione qualquer)
 
 ![Guia Ação com a configuração de email selecionada](assets/creating-the-email-action-tab-email-configuration.png)
 
-12. Clique na **guia Conteúdo**
+&#x200B;12. Clique na **guia Conteúdo**
 
 ![Guia Conteúdo no editor de email](assets/creating-the-email-click-content-tab.png)
 
-13. Clique em **Aplicar modelo de conteúdo**
+&#x200B;13. Clique em **Aplicar modelo de conteúdo**
 
 ![Aplicar a opção Modelo de Conteúdo no editor de email](assets/creating-the-email-click-apply-content-template.png)
 
-14. Selecione o modelo **&quot;Modelo Promocional&quot;** que você criou e clique em **Confirmar**
+&#x200B;14. Selecione o modelo **&quot;Modelo Promocional&quot;** que você criou e clique em **Confirmar**
 
 ![Selecionar o Modelo Promocional e clicar em Confirmar](assets/creating-the-email-select-promotional-template-confirm.png)
 
-15. Clique em **Editar corpo do email**
+&#x200B;15. Clique em **Editar corpo do email**
 
 ![Editar opção de corpo de email após aplicar o modelo](assets/creating-the-email-click-edit-email-body.png)
 
-16. Confirme se os novos blocos de cabeçalho, herói, rodapé e conteúdo são exibidos corretamente.
+&#x200B;16. Confirme se os novos blocos de cabeçalho, herói, rodapé e conteúdo são exibidos corretamente.
 
 ![Blocos de cabeçalho, cabeçalho, rodapé e conteúdo que aparecem corretamente no email](assets/creating-the-email-header-hero-footer-blocks-confirmed.png)
 
@@ -103,23 +103,23 @@ Alterar as imagens do herói e do telefone. Você precisa fazer upload do conte�
 
 ![Clicando na imagem de banner principal do espaço reservado](assets/creating-the-email-click-broken-hero-banner-image.png)
 
-2. Remova o URL de origem temporário.
+&#x200B;2. Remova o URL de origem temporário.
 
 ![Removendo a URL de origem temporária da imagem](assets/creating-the-email-remove-temporary-source-url.png)
 
-3. Clique em **Importar mídia**
+&#x200B;3. Clique em **Importar mídia**
 
 ![Botão Importar Mídia para a imagem herói](assets/creating-the-email-click-import-media.png)
 
-4. Carregue `hero.png` do seu kit de ferramentas. (Você pode arrastar o arquivo)
+&#x200B;4. Carregue `hero.png` do seu kit de ferramentas. (Você pode arrastar o arquivo)
 
 ![Carregando hero.png da pasta do kit de ferramentas](assets/creating-the-email-upload-hero-png-file.png)
 
-5. Clique em **Avançar** Selecione **sua pasta para os ativos** e pressione **importar**
+&#x200B;5. Clique em **Avançar** Selecione **sua pasta para os ativos** e pressione **importar**
 
 ![Selecionar a pasta de ativos e clicar em Importar para a imagem herói](assets/creating-the-email-select-folder-import-hero.png)
 
-6. Seu modelo de email está surgindo muito bem. Ela é exibida da seguinte forma. Clique em **&quot;Salvar&quot;** para salvar seu trabalho.
+&#x200B;6. Seu modelo de email está surgindo muito bem. Ela é exibida da seguinte forma. Clique em **&quot;Salvar&quot;** para salvar seu trabalho.
 
 ![Modelo de email atualizado com a nova imagem herói antes de salvar](assets/creating-the-email-save-updated-email-template.png)
 

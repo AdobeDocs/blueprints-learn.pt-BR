@@ -26,13 +26,13 @@ Esta etapa é simples, pois tudo o que você deseja fazer é adicionar uma ativi
 
 ## Criar a bifurcação
 
-1. Na tela do fluxo de trabalho, clique no ícone **+** **3} após a atividade Criar público-alvo e selecione a** Atividade de bifurcação ****
+1. Na tela do fluxo de trabalho, clique no ícone **+** **3&rbrace; após a atividade Criar público-alvo e selecione a** Atividade de bifurcação **&#x200B;**
 
 ![Adicionar uma atividade de bifurcação após a atividade de compilação de público-alvo](assets/fork-the-result-add-fork-activity.png)
 
 
 
-2. Atualize os nomes de cada transição na bifurcação clicando na transição e atribuindo os nomes conforme descrito abaixo:
+&#x200B;2. Atualize os nomes de cada transição na bifurcação clicando na transição e atribuindo os nomes conforme descrito abaixo:
    - **Superior** —> `Save Audience`
    - **Inferior** —> `SMS`
 
@@ -50,7 +50,7 @@ Quando terminar, sua tela agora deve parecer tão...
 
 
 
-3. Clique em **Salvar** na parte superior da tela de fluxo de trabalho.
+&#x200B;3. Clique em **Salvar** na parte superior da tela de fluxo de trabalho.
 
 ![Botão Salvar na barra de ferramentas da tela do fluxo de trabalho](assets/fork-the-result-click-save.png)
 

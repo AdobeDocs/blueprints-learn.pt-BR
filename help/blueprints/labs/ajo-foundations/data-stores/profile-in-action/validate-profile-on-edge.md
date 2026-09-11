@@ -31,7 +31,7 @@ Confirme se o perfil não existe no armazenamento de perfis de rede do Edge.
 
 
 
-2. Clique na guia Associação de público-alvo.  Estará **em branco**.
+&#x200B;2. Clique na guia Associação de público-alvo.  Estará **em branco**.
 
 ![Guia de Associação de Público-Alvo vazia no perfil do Edge](assets/validate-profile-on-edge-empty-audience-membership-tab.png)
 

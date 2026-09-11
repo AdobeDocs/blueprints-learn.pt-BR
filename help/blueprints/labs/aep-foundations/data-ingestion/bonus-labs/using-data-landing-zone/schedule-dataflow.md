@@ -47,7 +47,7 @@ Depois de clicar em **Concluir**, você será redirecionado à tela **Fluxos de 
 
 ![Tela de fluxos de dados mostrando o novo fluxo de dados com status Sem execuções](assets/schedule-dataflow-dataflows-screen-no-runs-status.png "Tela de fontes de fluxos de dados")
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >É necessário atualizar a página continuamente para ver a atualização de status, pois o back-end não envia atualizações para a interface.
 

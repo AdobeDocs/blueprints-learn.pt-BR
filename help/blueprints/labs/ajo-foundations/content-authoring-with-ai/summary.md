@@ -36,7 +36,7 @@ Ao longo deste curso, você explorou a jornada completa de criar campanhas perso
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SE ESTIVER LENDO ISSO SIGNIFICA QUE VOCÊ ESTÁ NO FINAL DO LABORATÓRIO.**
 >

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Configurar mapeamento
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Siga esta seção somente se tiver concluído com êxito o laboratório de assimilação em lote.  Caso contrário, siga as etapas [Dados de mapeamento](../batch-ingestion/mapping-data/overview.md) encontradas no laboratório de assimilação em lote.
 

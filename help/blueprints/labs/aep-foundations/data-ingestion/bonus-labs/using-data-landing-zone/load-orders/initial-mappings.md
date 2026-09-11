@@ -57,7 +57,7 @@ lastOrderStatusUpdate
 
 Se a tela de mapeamento reclamar agora, há um mapeamento duplicado, como **orderStatus** mapeado para **order.\_devbc.acqSource,** clique no ícone &quot;-&quot; para remover o mapeamento.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Lembre-se de que vários campos de entrada não podem ser mapeados para o mesmo campo de saída, pois isso torna o mapeamento ambíguo. Mas um único campo de entrada pode ser mapeado para vários campos de saída no esquema XDM.
 

@@ -29,19 +29,19 @@ No próximo conjunto de etapas, você filtrará todas as linhas que realmente n�
 
 
 
-2. No painel direito, atualize o Rótulo para informar o seguinte: `Filter out opt'd out lines`
+&#x200B;2. No painel direito, atualize o Rótulo para informar o seguinte: `Filter out opt'd out lines`
 
 ![Dividir rótulo de atividade definido para Filtrar linhas recusadas](assets/filter-the-lines-set-split-label.png)
 
 
 
-3. No painel direito, expanda a seção do segmento padrão **Subconjunto** e clique no botão **Criar filtro**
+&#x200B;3. No painel direito, expanda a seção do segmento padrão **Subconjunto** e clique no botão **Criar filtro**
 
 ![Botão Criar filtro na seção Subconjunto](assets/filter-the-lines-create-filter-button.png)
 
 
 
-4. Adicione uma condição para garantir que você remova todas as Linhas de Clientes que recusaram mensagens SMS e clique em **Confirmar**.
+&#x200B;4. Adicione uma condição para garantir que você remova todas as Linhas de Clientes que recusaram mensagens SMS e clique em **Confirmar**.
 
 ![Condição ao remover Linhas de Cliente recusadas pelo SMS](assets/filter-the-lines-sms-optin-condition.png)
 
@@ -51,7 +51,7 @@ No próximo conjunto de etapas, você filtrará todas as linhas que realmente n�
 
 
 
-5. Clique no botão Salvar no canto superior direito para salvar seu trabalho.  Sua tela se parece agora...
+&#x200B;5. Clique no botão Salvar no canto superior direito para salvar seu trabalho.  Sua tela se parece agora...
 
 ![Tela de fluxo de trabalho após salvar a atividade de Split](assets/filter-the-lines-canvas-after-split-save.png)
 
@@ -67,13 +67,13 @@ No próximo conjunto de etapas, você filtrará todas as linhas que realmente n�
 
 
 
-2. No painel direito, clique no botão Editar SMS para iniciar a configuração da mensagem SMS.
+&#x200B;2. No painel direito, clique no botão Editar SMS para iniciar a configuração da mensagem SMS.
 
 ![Botão Editar SMS no painel direito](assets/filter-the-lines-edit-sms-button.png)
 
 
 
-3. Na navegação superior, clique no item de menu Ações e, no menu suspenso Configuração de SMS, selecione o canal criado anteriormente.
+&#x200B;3. Na navegação superior, clique no item de menu Ações e, no menu suspenso Configuração de SMS, selecione o canal criado anteriormente.
 
 ![Menu suspenso de configuração de SMS não mostrando nenhum erro de resultados](assets/filter-the-lines-sms-configuration-no-results.png)
 
@@ -113,13 +113,13 @@ Então como você faz isso funcionar?  Adicionar uma dimensão de alteração �
 
 
 
-2. Na tela do fluxo de trabalho, clique no ícone **+** **3} entre as atividades de Filtro e SMS e selecione** Alterar Dimensão **.**
+&#x200B;2. Na tela do fluxo de trabalho, clique no ícone **+** **3&rbrace; entre as atividades de Filtro e SMS e selecione** Alterar Dimensão **.**
 
 ![Adicionar uma atividade Change Dimension entre Filtro e SMS](assets/filter-the-lines-add-change-dimension.png)
 
 
 
-3. Na direita, atualize a dimensão de alteração com as seguintes informações:
+&#x200B;3. Na direita, atualize a dimensão de alteração com as seguintes informações:
    - **Rótulo:** `Convert Line to Account`
    - **Nova dimensão de destino:**`dep-rel: Customer Account`
 
@@ -127,7 +127,7 @@ Então como você faz isso funcionar?  Adicionar uma dimensão de alteração �
 
 
 
-4. Clique no botão **Salvar**, na parte superior direita da tela, para salvar seu trabalho. Quando terminar, seu fluxo de trabalho agora ficará assim...
+&#x200B;4. Clique no botão **Salvar**, na parte superior direita da tela, para salvar seu trabalho. Quando terminar, seu fluxo de trabalho agora ficará assim...
 
 ![Tela de fluxo de trabalho após adicionar a dimensão de alteração](assets/filter-the-lines-workflow-after-change-dimension.png)
 
@@ -151,7 +151,7 @@ Agora que você corrigiu o fluxo de trabalho, reconfigure o SMS.
 
 
 
-2. Na navegação superior, clique no item de menu **Ações** e, no menu suspenso Configuração de SMS, selecione o canal criado anteriormente.
+&#x200B;2. Na navegação superior, clique no item de menu **Ações** e, no menu suspenso Configuração de SMS, selecione o canal criado anteriormente.
 
 ![Configuração de SMS mostrando com êxito o canal selecionado](assets/filter-the-lines-sms-configuration-selected.png)
 

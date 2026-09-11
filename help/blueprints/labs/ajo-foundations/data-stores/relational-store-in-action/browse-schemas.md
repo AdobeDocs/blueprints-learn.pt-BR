@@ -45,20 +45,20 @@ Faça o seguinte:
 
 
 
-2. Clique em **Selecionar esquemas**
-3. Na janela pop-up, selecione `dep-rel: Customer Account` e clique em **Confirmar**
+&#x200B;2. Clique em **Selecionar esquemas**
+&#x200B;3. Na janela pop-up, selecione `dep-rel: Customer Account` e clique em **Confirmar**
 
 ![Pop-up Selecionar esquemas com dep-rel: Conta do Cliente escolhida](assets/browse-schemas-select-schema-popup.png)
 
 
 
-4. No ERD, clique nos **3 pontos** e selecione **Mostrar entidades relacionadas**
+&#x200B;4. No ERD, clique nos **3 pontos** e selecione **Mostrar entidades relacionadas**
 
 ![Opção Mostrar entidades relacionadas no menu de contexto ERD](assets/browse-schemas-show-related-entities.png)
 
 
 
-5. Veja o ERD com todas as tabelas diretamente relacionadas ao dep-rel: Conta do Cliente. Como opção, você pode baixar o ERD como um arquivo PNG.
+&#x200B;5. Veja o ERD com todas as tabelas diretamente relacionadas ao dep-rel: Conta do Cliente. Como opção, você pode baixar o ERD como um arquivo PNG.
 
 ![Diagrama de relacionamento de entidade mostrando tabelas relacionadas à Conta do Cliente](assets/browse-schemas-erd-diagram.png)
 

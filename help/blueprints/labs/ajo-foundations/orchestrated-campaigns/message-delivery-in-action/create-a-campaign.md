@@ -25,21 +25,21 @@ No próximo conjunto de etapas, você começará com a criação de uma Campanha
 
 ![Clique em Campanhas no painel lateral esquerdo](assets/create-a-campaign-click-campaigns.png)
 
-2. Clique em **Criar campanha**
+&#x200B;2. Clique em **Criar campanha**
 
 ![Clique no botão Criar campanha](assets/create-a-campaign-click-create-campaign.png)
 
-3. Selecione a **Orquestração - Marketing** e clique em **Confirmar**
+&#x200B;3. Selecione a **Orquestração - Marketing** e clique em **Confirmar**
 
 ![Selecione a Orquestração - Marketing e clique em Confirmar](assets/create-a-campaign-select-orchestration-marketing.png)
 
-4. Forneça os detalhes da Campanha abaixo e clique no **botão Salvar** quando terminar
+&#x200B;4. Forneça os detalhes da Campanha abaixo e clique no **botão Salvar** quando terminar
    - **Nome:** `OC-MDL-Campaign-Test`
    - **Descrição:** `OC Message Delivery Test`
 
 ![Forneça os detalhes da campanha e clique em Salvar](assets/create-a-campaign-provide-campaign-details.png)
 
-5. Aguarde a mensagem de confirmação antes de continuar
+&#x200B;5. Aguarde a mensagem de confirmação antes de continuar
 
 ![Mensagem de confirmação atualizada das configurações da campanha](assets/create-a-campaign-confirmation-message.png)
 

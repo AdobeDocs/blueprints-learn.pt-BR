@@ -37,11 +37,11 @@ Neste ponto, você aprendeu que podemos não apenas personalizar os atributos do
 
 Um painel de simulação é aberto.
 
-3. Clique em **Enviar prova**.
+&#x200B;3. Clique em **Enviar prova**.
 
 ![Botão Enviar prova no painel de simulação](assets/test-the-email-click-send-proof-button.png)
 
-4. Adicione seu próprio endereço de email pessoal.
+&#x200B;4. Adicione seu próprio endereço de email pessoal.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Um painel de simulação é aberto.
 
 
 
-5. Selecione ambas as variantes.
-6. Adicionar prefixo da linha de assunto
+&#x200B;5. Selecione ambas as variantes.
+&#x200B;6. Adicionar prefixo da linha de assunto
    1. Variante 1: acima de 40
    2. Variante 2: Abaixo de 40
-7. Clique em **Enviar prova**. Você recebe uma mensagem de confirmação verde &quot;**Provas enviadas com êxito**&quot;
+&#x200B;7. Clique em **Enviar prova**. Você recebe uma mensagem de confirmação verde &quot;**Provas enviadas com êxito**&quot;
 
 ![Mensagem de confirmação verde mostrando provas enviadas com êxito](assets/test-the-email-proofs-sent-successfully-confirmation.png)
 

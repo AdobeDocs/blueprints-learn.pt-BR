@@ -33,7 +33,7 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 >
 >Indica que o link para opção de não participação está ausente em uma variante de email
 
-4. Clique em **Simular** e, no lado esquerdo, selecione **Modo de Teste**
+&#x200B;4. Clique em **Simular** e, no lado esquerdo, selecione **Modo de Teste**
 
 ![Modo de Teste selecionado em Simular no lado esquerdo](assets/test-journey-select-test-mode.png)
 
@@ -45,15 +45,15 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
 
 
-5. Clique em **Acionar um Evento** e preencha estas propriedades:
+&#x200B;5. Clique em **Acionar um Evento** e preencha estas propriedades:
    - **Tipo de evento**: `orders.shipped`
    - **Email Pessoal**: `henry.creel@emailsim.io`
    - **ID do pedido**: `123`
-6. Clique em **Enviar** (observe que demora alguns segundos para responder depois de clicar em enviar)
+&#x200B;6. Clique em **Enviar** (observe que demora alguns segundos para responder depois de clicar em enviar)
 
 ![Acionar um Formulário de evento preenchido e Enviar clicado](assets/test-journey-trigger-event-send.png)
 
-> [!WARNING]
+&#x200B;> [!WARNING]
 >
 >Alguns alunos recebem erros e precisam enviar isso algumas vezes. Talvez seja necessário fazer isso **várias** vezes.
 >
@@ -65,11 +65,11 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
 
 
-7. Em **Resultados** -> Clique em **Mostrar Log** no lado esquerdo
+&#x200B;7. Em **Resultados** -> Clique em **Mostrar Log** no lado esquerdo
 
 ![Opção Mostrar Log em Resultados após disparar o evento de teste](assets/test-journey-show-log-results.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Alguns alunos que receberam erros às vezes recebem logs diferentes mostrando uma matriz de instâncias vazia `{"instances": []}`. Isso não é um bloqueador, vá em frente e vá para a próxima etapa.
 
@@ -106,16 +106,16 @@ Você deve ver algo como isso no log:
 
 
 
-8. **Fechar** a **guia** do Navegador
-9. **Fechar Modo de Teste** no canto superior direito
+&#x200B;8. **Fechar** a **guia** do Navegador
+&#x200B;9. **Fechar Modo de Teste** no canto superior direito
 
 ![Botão Fechar Modo de Teste na parte superior direita](assets/test-journey-close-test-mode.png)
 
-10. Clique em **Publicar** a Jornada no canto superior direito
+&#x200B;10. Clique em **Publicar** a Jornada no canto superior direito
 
 ![Botão Publicar para a Jornada na parte superior direita](assets/test-journey-publish-journey.png)
 
-11. **Feche** a **Jornada** clicando na seta \&lt;- na parte superior esquerda
+&#x200B;11. **Feche** a **Jornada** clicando na seta \&lt;- na parte superior esquerda
 
 ![Seta para trás na parte superior esquerda para fechar a Jornada](assets/test-journey-close-journey-back-arrow.png)
 

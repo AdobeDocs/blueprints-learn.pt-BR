@@ -51,7 +51,7 @@ Comece reunindo os seguintes valores:
 1. Localizar o registro de **dep: Pedidos (fluxo)** clique no link de fluxos de dados
 1. No painel direito, copie e salve os valores de **ID de fluxo de dados** em algum lugar que você possa consultar mais tarde
 
-> [!WARNING]
+&#x200B;> [!WARNING]
 >
 >Clique em um espaço vazio na linha.  NÃO clique nos links azuis!
 
@@ -80,7 +80,7 @@ Inicie o Postman no computador e navegue até a seguinte chamada de API:
    - **Verde** —> `Dataflow ID`
      - O valor parece com um GUID (não começa com http)
 
-> [!CAUTION]
+&#x200B;> [!CAUTION]
 >
 >AINDA NÃO EXECUTAR!
 

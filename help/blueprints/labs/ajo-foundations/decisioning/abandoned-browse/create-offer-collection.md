@@ -26,13 +26,13 @@ Agora que suas ofertas foram criadas, elas precisam ser organizadas em uma cole�
 
 ![Guia Coleções na página Catálogos](assets/create-offer-collection-collections-tab.png)
 
-3. Clique na **Criar coleção** azul para criar a nova coleção.
-4. Nomeie a coleção **iPhone 17 Collection**
-5. Na seção &#39;Regras de coleção&#39;, clique na caixa de texto que contém o texto **_Clique para criar um item de decisão_**. Depois de clicado, as opções para criar a regra serão exibidas.
+&#x200B;3. Clique na **Criar coleção** azul para criar a nova coleção.
+&#x200B;4. Nomeie a coleção **iPhone 17 Collection**
+&#x200B;5. Na seção &#39;Regras de coleção&#39;, clique na caixa de texto que contém o texto **_Clique para criar um item de decisão_**. Depois de clicado, as opções para criar a regra serão exibidas.
 
 ![Caixa de texto de regra de coleção aberta para criar um item de decisão](assets/create-offer-collection-create-decision-item.png)
 
-6. Clique no botão **Selecionar atributo** e navegue pelo esquema do item de oferta clicando em **Dispositivo > Criar**. Clique em **Salvar** e você verá que o atributo &quot;Criar&quot; agora está na regra de decisão.
+&#x200B;6. Clique no botão **Selecionar atributo** e navegue pelo esquema do item de oferta clicando em **Dispositivo > Criar**. Clique em **Salvar** e você verá que o atributo &quot;Criar&quot; agora está na regra de decisão.
 
 ![Atributo do Device Make adicionado à regra de coleção](assets/create-offer-collection-select-make-attribute.png)
 
@@ -40,7 +40,7 @@ Agora que suas ofertas foram criadas, elas precisam ser organizadas em uma cole�
 >
 >Observe que as opções disponíveis para você são os mesmos campos configuráveis usados ao criar os itens de oferta. Como uma coleção é um agrupamento de itens de oferta, faz sentido que as regras para agrupá-los dependam de seus atributos.
 
-7. Deixe o operador &quot;Equals&quot; no lugar e insira o texto **iPhone** no campo de valor e veja que o número de itens muda para 4, indicando que todos os itens de oferta atendem a esse critério
+&#x200B;7. Deixe o operador &quot;Equals&quot; no lugar e insira o texto **iPhone** no campo de valor e veja que o número de itens muda para 4, indicando que todos os itens de oferta atendem a esse critério
 
 ![Regra de coleção mostrando quatro itens de oferta que correspondem aos critérios de iPhone](assets/create-offer-collection-four-matching-offers.png)
 
@@ -48,7 +48,7 @@ Agora que suas ofertas foram criadas, elas precisam ser organizadas em uma cole�
 >
 >Você também pode clicar no botão **Visualizar Coleção** e ver os itens de oferta que atendem aos critérios.
 
-8. Com todos os quatro itens de oferta selecionados, clique no botão azul **Criar**. Isso leva você a uma página que mostra sua coleção recém-criada.
+&#x200B;8. Com todos os quatro itens de oferta selecionados, clique no botão azul **Criar**. Isso leva você a uma página que mostra sua coleção recém-criada.
 
 ![Página da coleção do iPhone 17 recém-criada](assets/create-offer-collection-created-collection-page.png)
 

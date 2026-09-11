@@ -41,7 +41,7 @@ Clique no botão **Editar conteúdo** ou navegue diretamente para a guia **Conte
 
 
 
-2. Copie e cole o texto abaixo no corpo da mensagem SMS.
+&#x200B;2. Copie e cole o texto abaixo no corpo da mensagem SMS.
 
 ```none
 Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrade to one of the new iPhone 17 models. Shop online or come into a store today to take advantage of this offer.
@@ -53,7 +53,7 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-3. Atualize os dois campos na mensagem chamada **phone\_make** e **phone\_model** abaixo usando a opção **Atributos de destino** no painel esquerdo.  Quando terminar, sua mensagem deverá corresponder à captura de tela.
+&#x200B;3. Atualize os dois campos na mensagem chamada **phone\_make** e **phone\_model** abaixo usando a opção **Atributos de destino** no painel esquerdo.  Quando terminar, sua mensagem deverá corresponder à captura de tela.
 
 ![Mensagem SMS final com modelo personalizado e criação de telefone](assets/compose-the-sms-final-message-text.png)
 
@@ -63,13 +63,13 @@ Hi from Connection 5G! Your phone_make phone_model is eligible for a free upgrad
 
 
 
-4. Clique em **Validar** no editor e verifique se não há erros de validação. Se estiver correto, clique no botão **Salvar**
+&#x200B;4. Clique em **Validar** no editor e verifique se não há erros de validação. Se estiver correto, clique no botão **Salvar**
 
 ![Botões Validar e Salvar no editor de mensagens](assets/compose-the-sms-validate-and-save.png)
 
 
 
-5. Clique na **seta para trás (\&lt;-)** quando terminar para retornar à tela de fluxo de trabalho
+&#x200B;5. Clique na **seta para trás (\&lt;-)** quando terminar para retornar à tela de fluxo de trabalho
 
 ![Seta para trás para retornar à tela do fluxo de trabalho](assets/compose-the-sms-return-to-canvas.png)
 

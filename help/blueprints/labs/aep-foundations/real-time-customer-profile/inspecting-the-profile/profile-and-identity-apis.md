@@ -106,7 +106,7 @@ Uma solicitação bem-sucedida deve responder com um `200 OK` e você deve ver a
 
 ![Resposta 200 OK filtrada mostrando apenas campos de Nome, Sobrenome e Produtos Ativos](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Pesquisa de Entidade de Perfil com Êxito (atributos) Resposta de API com filtro habilitado")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Parabéns!  Você pesquisou com êxito os atributos de um perfil usando a API de entidade de perfil
 

@@ -27,7 +27,7 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
 ![Tela final de fluxo de trabalho pronta para teste](assets/run-the-workflow-final-workflow-canvas.png)
 
-2. Caso ainda não tenha interrompido o fluxo de trabalho, certifique-se de fazê-lo agora clicando no botão **Parar** no canto superior direito.
+&#x200B;2. Caso ainda não tenha interrompido o fluxo de trabalho, certifique-se de fazê-lo agora clicando no botão **Parar** no canto superior direito.
 
 ![Botão Parar na parte superior direita do fluxo de trabalho](assets/run-the-workflow-click-stop-button.png)
 
@@ -37,13 +37,13 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
 
 
-3. Clique no botão **Iniciar** para executar e testar o fluxo de trabalho de ponta a ponta
+&#x200B;3. Clique no botão **Iniciar** para executar e testar o fluxo de trabalho de ponta a ponta
 
 ![Botão Iniciar para executar o teste de fluxo de trabalho](assets/run-the-workflow-click-start-button.png)
 
 
 
-4. Revise o resultado que entra na atividade de SMS clicando em **Resultado** (há dois Resultados, portanto, use o esquerdo como mostrado abaixo) e, em seguida, no painel esquerdo clicando no botão **Visualizar resultados**.
+&#x200B;4. Revise o resultado que entra na atividade de SMS clicando em **Resultado** (há dois Resultados, portanto, use o esquerdo como mostrado abaixo) e, em seguida, no painel esquerdo clicando no botão **Visualizar resultados**.
 
 ![Transição de Resultado Deixada selecionada antes da atividade de SMS](assets/run-the-workflow-select-result-transition.png)
 
@@ -51,7 +51,7 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
 
 
-5. Você vê **33 registros** e o targeting dimension corresponde à ID do cliente (a chave de junção se você quiser criar o perfil)
+&#x200B;5. Você vê **33 registros** e o targeting dimension corresponde à ID do cliente (a chave de junção se você quiser criar o perfil)
 
 ![33 registros com targeting dimension correspondente à ID do cliente](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -65,7 +65,7 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
 
 
-2. Quase imediatamente, um novo botão aparece rotulado **Exibir relatório**.  Clique no botão **Exibir relatório** para iniciar na tela do relatório.
+&#x200B;2. Quase imediatamente, um novo botão aparece rotulado **Exibir relatório**.  Clique no botão **Exibir relatório** para iniciar na tela do relatório.
 
 ![Botão Exibir relatório para o teste de atividade de SMS](assets/run-the-workflow-click-view-report.png)
 
@@ -75,7 +75,7 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
 
 
-3. Ao obter resultados, você verá que 100% foram direcionados!
+&#x200B;3. Ao obter resultados, você verá que 100% foram direcionados!
 
 ![Resultados de envio de teste de SMS mostrando 100% de direcionamento](assets/run-the-workflow-100-percent-targeted.png)
 
@@ -83,13 +83,13 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
 
 
-4. Volte para a tela do fluxo de trabalho e clique na transição **Resultado** que entra na atividade de SMS e clique em **Visualizar resultados** no painel direito.
+&#x200B;4. Volte para a tela do fluxo de trabalho e clique na transição **Resultado** que entra na atividade de SMS e clique em **Visualizar resultados** no painel direito.
 
 ![Revendo os resultados da transição após o teste de SMS](assets/run-the-workflow-recheck-transition-results.png)
 
 
 
-5. Na tela Preview results, role até o final da tabela e observe que **4 registros** têm uma **Targeting dimension em branco**.
+&#x200B;5. Na tela Preview results, role até o final da tabela e observe que **4 registros** têm uma **Targeting dimension em branco**.
 
 ![4 registros com uma targeting dimension em branco na parte inferior da tabela](assets/run-the-workflow-4-records-missing-dimension.png)
 

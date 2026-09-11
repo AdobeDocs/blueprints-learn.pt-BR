@@ -19,7 +19,7 @@ O vídeo abaixo recapitula como você criou o esquema, as identidades e os descr
 
 >[!VIDEO](https://video.tv.adobe.com/v/3459564/?quality=12&learn=on)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Primeiro de parabéns! Criar coisas por meio da API não é fácil, mas entender como funciona ajudará você a entender o sistema como um todo. Parabéns!
 

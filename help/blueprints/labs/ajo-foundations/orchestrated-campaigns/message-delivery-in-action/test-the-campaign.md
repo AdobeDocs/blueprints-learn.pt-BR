@@ -31,7 +31,7 @@ No próximo conjunto de etapas, você executará a campanha no modo de teste par
 
 
 
-2. A execução do teste de todas as atividades da campanha é iniciada, verifique os resultados
+&#x200B;2. A execução do teste de todas as atividades da campanha é iniciada, verifique os resultados
 
 ![Execução de teste de atividades de campanha em andamento](assets/test-the-campaign-verify-execution-results.png)
 
@@ -43,11 +43,11 @@ No próximo conjunto de etapas, você executará a campanha no modo de teste par
 
 ![Executar teste para email usando a atividade de atributo de perfil](assets/test-the-campaign-run-test-profile-attribute.png)
 
-2. Aguarde a mensagem de confirmação e clique em **Exibir relatório** para ver os detalhes do teste de email
+&#x200B;2. Aguarde a mensagem de confirmação e clique em **Exibir relatório** para ver os detalhes do teste de email
 
 ![Clique em Exibir relatório para ver os detalhes do teste de email](assets/test-the-campaign-view-report-1.png)
 
-3. A página Email report é apresentada com as estatísticas da campanha e o status da execução. O teste de Email é uma verificação da atividade para garantir que não haja erros e não envie emails. Normalmente, leva aproximadamente \~**5** minutos para ser concluído.
+&#x200B;3. A página Email report é apresentada com as estatísticas da campanha e o status da execução. O teste de Email é uma verificação da atividade para garantir que não haja erros e não envie emails. Normalmente, leva aproximadamente \~**5** minutos para ser concluído.
 
 ![Página do relatório de email com estatísticas do Campaign](assets/test-the-campaign-campaign-statistics-1.png)
 
@@ -57,11 +57,11 @@ No próximo conjunto de etapas, você executará a campanha no modo de teste par
 
 
 
-4. Quando o teste de Email estiver concluído, os resultados serão apresentados. Há alguma porcentagem de erros; clique em **Exibir mais** para saber o motivo.
+&#x200B;4. Quando o teste de Email estiver concluído, os resultados serão apresentados. Há alguma porcentagem de erros; clique em **Exibir mais** para saber o motivo.
 
 ![Taxa de erros com Exibir mais links](assets/test-the-campaign-error-rate-view-more.png)
 
-5. Os estados de motivo `Email address not found in profile`
+&#x200B;5. Os estados de motivo `Email address not found in profile`
 
 ![Motivo: endereço de email não encontrado no perfil](assets/test-the-campaign-email-not-found-reason.png)
 
@@ -81,11 +81,11 @@ No próximo conjunto de etapas, você executará a campanha no modo de teste par
 
 ![Executar teste para Email usando atividade do Dimension do Target](assets/test-the-campaign-run-test-target-dimension.png)
 
-2. Aguarde a mensagem de confirmação e clique em **Exibir relatório** para ver os detalhes do teste de email
+&#x200B;2. Aguarde a mensagem de confirmação e clique em **Exibir relatório** para ver os detalhes do teste de email
 
 ![Clique em Exibir relatório para ver os detalhes do teste de email](assets/test-the-campaign-view-report-2.png)
 
-3. Quando o teste de Email estiver concluído, os resultados serão apresentados. Nesse caso, não haverá erros
+&#x200B;3. Quando o teste de Email estiver concluído, os resultados serão apresentados. Nesse caso, não haverá erros
 
 ![Estatísticas de campanha sem erros](assets/test-the-campaign-campaign-statistics-2.png)
 

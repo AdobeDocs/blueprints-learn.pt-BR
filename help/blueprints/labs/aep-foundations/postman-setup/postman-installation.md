@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Instalação do Postman
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >A Postman é necessária para vários laboratórios neste curso.  Mesmo que o Postman já esteja instalado, será necessário passar por esse laboratório para garantir que você tenha os Arquivos de ambiente e a Coleção de API instalados e configurados corretamente.
 

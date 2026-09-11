@@ -133,10 +133,10 @@ O caminho totalmente composto se parece com o que você vê abaixo.  Copie este 
 
 
 
-2. Atualize o corpo da solicitação com as seguintes informações
+&#x200B;2. Atualize o corpo da solicitação com as seguintes informações
 
 - **op** ->` add`
-- **caminho** -> `path from previous step +`` the new field name`
+- **caminho** -> `path from previous step +`&#x200B;` the new field name`
 - **valor** ->
   - **título** -> `Plan Description`
   - **tipo** -> `string`
@@ -152,9 +152,9 @@ Quando você terminar, sua solicitação de API deverá ser semelhante a esta
 
 
 
-3. Se tudo estiver bem `Save`, sua chamada
+&#x200B;3. Se tudo estiver bem `Save`, sua chamada
 
-4. `Execute` a chamada para executar o PATCH
+&#x200B;4. `Execute` a chamada para executar o PATCH
 
 Você deve ver uma resposta `200 OK ` e agora deve ver o campo `planDescription` em seu grupo de campos da seguinte maneira:
 

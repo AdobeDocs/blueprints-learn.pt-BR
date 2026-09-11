@@ -35,7 +35,7 @@ No painel esquerdo, no menu Administração, clique em **Configurações** e, no
 
 ![Botão Criar Ação no canto superior direito](assets/configure-custom-action-click-create-action-button.png)
 
-2. No painel de configuração exibido, atualize os seguintes valores básicos, conforme mostrado abaixo:
+&#x200B;2. No painel de configuração exibido, atualize os seguintes valores básicos, conforme mostrado abaixo:
    - **Nome**: `GetShippingDetails`
    - **Descrição**: `Call third party to get Shipping ETA and Tracking Number`
    - **Tipo de ação**: `Custom`
@@ -80,7 +80,7 @@ Agora é necessário fornecer uma amostra de carga para que a ação saiba como 
 
 
 
-2. **Copiar e colar** a carga abaixo na caixa Carga
+&#x200B;2. **Copiar e colar** a carga abaixo na caixa Carga
 
 ```json
 {
@@ -94,7 +94,7 @@ Agora é necessário fornecer uma amostra de carga para que a ação saiba como 
 >Esta é a mesma estrutura JSON que o endpoint do Mockaroo acima deve retornar:
 
 
-3. A carga da resposta será exibida. Clique no botão **Salvar**.
+&#x200B;3. A carga da resposta será exibida. Clique no botão **Salvar**.
 
 ![Carga de resposta exibida com o botão Salvar](assets/configure-custom-action-save-response-payload.png)
 
@@ -112,13 +112,13 @@ Agora é necessário fornecer uma amostra de carga para que a ação saiba como 
 
 
 
-2. Clique na guia **Parâmetros de consulta** e atualize o valor de `orderId` para **123**
+&#x200B;2. Clique na guia **Parâmetros de consulta** e atualize o valor de `orderId` para **123**
 
 ![Guia de parâmetros de consulta com o valor orderId definido como 123](assets/configure-custom-action-set-orderid-query-parameter.png)
 
 
 
-3. Clique no botão **Enviar** e, se tudo der certo, você deverá ver um código de resposta 200 e uma Pré-visualização da carga conforme mostrado abaixo...
+&#x200B;3. Clique no botão **Enviar** e, se tudo der certo, você deverá ver um código de resposta 200 e uma Pré-visualização da carga conforme mostrado abaixo...
 
 ![Código de resposta 200 e pré-visualização de carga após o envio da solicitação de teste](assets/configure-custom-action-response-200-preview.png)
 
@@ -137,7 +137,7 @@ Visualização
 
 
 
-4. Clique no botão **Cancelar** para voltar à tela Ação e role de volta no painel superior direito e clique no botão **Salvar**
+&#x200B;4. Clique no botão **Cancelar** para voltar à tela Ação e role de volta no painel superior direito e clique no botão **Salvar**
 
 >[!TIP]
 >

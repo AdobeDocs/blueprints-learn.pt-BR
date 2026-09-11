@@ -37,21 +37,21 @@ O Dimension de direcionamento de perfil é usado para informar à Adobe Journey 
 
 ![Menu de ícones de aplicativos com o Journey Optimizer selecionado](assets/profile-target-dimension-navigate-to-journey-optimizer.png)
 
-2. Clique em **Esquemas** no menu Gerenciamento de Dados e verifique se a guia **Procurar** está selecionada.
-3. Pesquisar o esquema chamado `dep-rel: Customer Account`
+&#x200B;2. Clique em **Esquemas** no menu Gerenciamento de Dados e verifique se a guia **Procurar** está selecionada.
+&#x200B;3. Pesquisar o esquema chamado `dep-rel: Customer Account`
 
 ![Pesquisa de esquema para dep-rel: Conta de Cliente](assets/profile-target-dimension-search-schema.png)
 
-4. Abra o esquema clicando no seu nome e depois clique no campo **customer\_id**
+&#x200B;4. Abra o esquema clicando no seu nome e depois clique no campo **customer\_id**
 
 ![Lista de campos de esquema com customer_id selecionada](assets/profile-target-dimension-select-customer-id-field.png)
 
-5. No painel direito, localize a caixa de seleção denominada **Identidade**, **marque a caixa** e escolha o namespace de identidade denominado **customerID**
+&#x200B;5. No painel direito, localize a caixa de seleção denominada **Identidade**, **marque a caixa** e escolha o namespace de identidade denominado **customerID**
 
 ![Caixa de seleção de identidade com o namespace customerID selecionado](assets/profile-target-dimension-choose-identity-namespace.png)
 
-6. Clique no botão **Salvar** para salvar seu esquema. Uma mensagem de confirmação é exibida
-7. Clique no botão **Cancelar** ou em **Esquemas** no painel esquerdo para sair da interface do esquema
+&#x200B;6. Clique no botão **Salvar** para salvar seu esquema. Uma mensagem de confirmação é exibida
+&#x200B;7. Clique no botão **Cancelar** ou em **Esquemas** no painel esquerdo para sair da interface do esquema
 
 >[!CAUTION]
 >
@@ -67,15 +67,15 @@ O Dimension de direcionamento de perfil é usado para informar à Adobe Journey 
 
 ![Menu Administração com Configurações selecionadas](assets/profile-target-dimension-configurations-menu.png)
 
-2. Selecione **Dimension de Destino do Perfil** e clique em **Gerenciar**
+&#x200B;2. Selecione **Dimension de Destino do Perfil** e clique em **Gerenciar**
 
 ![Configuração do Dimension de Destino de Perfil com a opção Gerenciar](assets/profile-target-dimension-manage-configuration.png)
 
-3. O painel Dimension de Direcionamento de Perfil é aberto. Clique em **Criar**
+&#x200B;3. O painel Dimension de Direcionamento de Perfil é aberto. Clique em **Criar**
 
 ![Painel Dimension de Direcionamento de Perfil com o botão Criar](assets/profile-target-dimension-create-button.png)
 
-4. Selecione o esquema `dep-rel: Customer Account` no menu suspenso.
+&#x200B;4. Selecione o esquema `dep-rel: Customer Account` no menu suspenso.
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ O Dimension de direcionamento de perfil é usado para informar à Adobe Journey 
 
 ![Criar formulário Dimension de Destino de Perfil com o menu suspenso de esquema](assets/profile-target-dimension-select-schema-dropdown.png)
 
-5. Para o **Valor de identidade**, selecione `/customer_id`
+&#x200B;5. Para o **Valor de identidade**, selecione `/customer_id`
 
 ![Lista suspensa de valor de identidade com /customer_id selecionado](assets/profile-target-dimension-select-identity-value.png)
 
@@ -93,7 +93,7 @@ O Dimension de direcionamento de perfil é usado para informar à Adobe Journey 
 
 
 
-6. Clique no botão **Salvar** para criar o Dimension de Destino de Perfil. Você verá o registro aparecer.
+&#x200B;6. Clique no botão **Salvar** para criar o Dimension de Destino de Perfil. Você verá o registro aparecer.
 
 ![Registro de Dimension de Destino de Perfil salvo na lista](assets/profile-target-dimension-saved-record.png)
 

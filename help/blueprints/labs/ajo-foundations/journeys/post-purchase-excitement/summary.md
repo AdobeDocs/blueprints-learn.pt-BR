@@ -23,7 +23,7 @@ Após configurar a jornada, você testou a configuração e enviou um evento sim
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SE ESTIVER LENDO ISSO SIGNIFICA QUE VOCÊ ESTÁ NO FINAL DO LABORATÓRIO.**
 >

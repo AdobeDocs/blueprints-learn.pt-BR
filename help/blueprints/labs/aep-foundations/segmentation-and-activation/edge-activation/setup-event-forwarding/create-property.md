@@ -26,9 +26,9 @@ Normalmente, queremos encaminhar um Evento de experiência para terceiros (embor
 
 ![A seção Encaminhamento de Eventos com o botão Nova Propriedade realçado](assets/create-property-new-property-button.png "Criar uma nova propriedade de encaminhamento de eventos")
 
-3. Atualize o nome da propriedade usando a seguinte fórmula: `Event Forward Property SB + [sandbox number]`. Seu nome final seria mais ou menos assim: **Propriedade de Encaminhamento de Eventos SB01**
+&#x200B;3. Atualize o nome da propriedade usando a seguinte fórmula: `Event Forward Property SB + [sandbox number]`. Seu nome final seria mais ou menos assim: **Propriedade de Encaminhamento de Eventos SB01**
 
-4. Clique em **Salvar** ao concluir
+&#x200B;4. Clique em **Salvar** ao concluir
 
 ![Campo de nome da propriedade de Encaminhamento de Eventos preenchido com o botão Salvar realçado](assets/create-property-name-property-form.png)
 
@@ -40,17 +40,17 @@ Normalmente, queremos encaminhar um Evento de experiência para terceiros (embor
 
 
 
-2. Você deve ver uma tela como a abaixo.  Clique em **Extensões**.
+&#x200B;2. Você deve ver uma tela como a abaixo.  Clique em **Extensões**.
 
 ![Tela de visão geral da propriedade de Encaminhamento de Eventos com a guia Extensões realçada](assets/create-property-click-extensions-tab.png)
 
 
 
-3. Instale a extensão Adobe Cloud Connector fazendo o seguinte:
+&#x200B;3. Instale a extensão Adobe Cloud Connector fazendo o seguinte:
 
-4. Clique em **Catálogo** na navegação superior
-5. Clique no cartão **Adobe Cloud Connector**
-6. No painel direito, clique no botão **Instalar**
+&#x200B;4. Clique em **Catálogo** na navegação superior
+&#x200B;5. Clique no cartão **Adobe Cloud Connector**
+&#x200B;6. No painel direito, clique no botão **Instalar**
 
 ![Catálogo de extensões com a placa do Adobe Cloud Connector e o botão Instalar realçados](assets/create-property-install-cloud-connector-extension.png)
 
@@ -74,13 +74,13 @@ Depois de clicar em Instalar, você deve ver a exibição da extensão nas exten
 
 
 
-2. Clique no botão **Criar novo elemento de dados**
+&#x200B;2. Clique no botão **Criar novo elemento de dados**
 
 ![A página Elementos de dados com o botão Criar novo elemento de dados realçado](assets/create-property-create-new-data-element-button.png "Criar novo elemento de dados")
 
 
 
-3. Configure o novo elemento de dados com as seguintes informações:
+&#x200B;3. Configure o novo elemento de dados com as seguintes informações:
 
 | Tipo de elemento | Valor a ser configurado |
 | ----------------- | ------------------ |
@@ -92,13 +92,13 @@ Depois de clicar em Instalar, você deve ver a exibição da extensão nas exten
 
 
 
-4. Clique no botão **Abrir Editor** para adicionar o seguinte código personalizado:
+&#x200B;4. Clique no botão **Abrir Editor** para adicionar o seguinte código personalizado:
 
 ![Configurações do elemento de dados com o botão Abrir Editor realçado para código personalizado](assets/create-property-open-custom-code-editor.png "Abrir o editor")
 
 
 
-5. Adicione o código personalizado ao editor assim como e salve
+&#x200B;5. Adicione o código personalizado ao editor assim como e salve
 
 ```none
 var xdm = arc?.event || '';
@@ -115,7 +115,7 @@ return xdm;
 
 
 
-6. Clique no botão **Salvar** para salvar seu elemento de dados.
+&#x200B;6. Clique no botão **Salvar** para salvar seu elemento de dados.
 
 ![Editor de elementos de dados com o botão Salvar realçado](assets/create-property-save-data-element-button.png)
 
@@ -143,17 +143,17 @@ Quando terminar, você deve ver a tela a seguir confirmando que o elemento de da
 
 
 
-2. Em seguida, clique em **Criar nova regra**
+&#x200B;2. Em seguida, clique em **Criar nova regra**
 
 A página ![Regras com o botão Criar Nova Regra realçado](assets/create-property-new-rule-button.png)
 
 
 
-3. Atualize o nome da regra usando a seguinte fórmula: `"EF Rule SB" + [your sandbox number]` (ou seja, Regra EF SB01). Você pode encontrar seu número de sandbox na parte superior direita da janela do navegador, como mostrado abaixo\...
+&#x200B;3. Atualize o nome da regra usando a seguinte fórmula: `"EF Rule SB" + [your sandbox number]` (ou seja, Regra EF SB01). Você pode encontrar seu número de sandbox na parte superior direita da janela do navegador, como mostrado abaixo\...
 
 ![Canto superior direito da janela do navegador mostrando o número da sandbox usado no nome da regra](assets/create-property-sandbox-number-location.png)
 
-4. Clique em **Salvar** ao concluir
+&#x200B;4. Clique em **Salvar** ao concluir
 
 >[!NOTE]
 >
@@ -163,7 +163,7 @@ A página ![Regras com o botão Criar Nova Regra realçado](assets/create-proper
 
 
 
-5. Adicione uma Ação à regra clicando no sinal (+) para adicionar uma nova ação
+&#x200B;5. Adicione uma Ação à regra clicando no sinal (+) para adicionar uma nova ação
 
 ![Editor de regras com o ícone de adição realçado para adicionar uma nova ação](assets/create-property-add-action-button.png "Adicionar uma ação")
 
@@ -182,7 +182,7 @@ Página ![Webhook.site com a URL exclusiva realçada para cópia](assets/create-
 
 
 
-3. Configure sua ação com as seguintes informações:
+&#x200B;3. Configure sua ação com as seguintes informações:
 
 | Configuração | Valor |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -209,7 +209,7 @@ Quando você terminar, valide sua tela com aparência semelhante à mostrada aba
 
 
 
-4. Quando terminar, você deverá ver sua ação adicionada à regra. Clique em **Salvar** para continuar.
+&#x200B;4. Quando terminar, você deverá ver sua ação adicionada à regra. Clique em **Salvar** para continuar.
 
 ![O editor de regras mostra a ação configurada com o botão Salvar realçado](assets/create-property-save-rule-button.png "Salvar sua regra")
 
@@ -229,13 +229,13 @@ Quando você terminar, valide sua tela com aparência semelhante à mostrada aba
 
 
 
-2. Clique no botão **Adicionar Biblioteca**
+&#x200B;2. Clique no botão **Adicionar Biblioteca**
 
 ![Página de Fluxo de Publicação com o botão Adicionar Biblioteca realçado](assets/create-property-add-library-button.png "Adicionar biblioteca")
 
 
 
-3. Configure a biblioteca com as seguintes informações:
+&#x200B;3. Configure a biblioteca com as seguintes informações:
 
 - Nome -> **EF Biblioteca**
 - Ambiente -> **Desenvolvimento**
@@ -248,6 +248,6 @@ Quando terminar, sua tela deve ser semelhante à captura de tela abaixo.  Se tud
 
 
 
-4. Você deve ver a build de desenvolvimento ficar verde, declarando que está pronta para uso
+&#x200B;4. Você deve ver a build de desenvolvimento ficar verde, declarando que está pronta para uso
 
 ![Fluxo de Publicação mostrando o status da compilação de desenvolvimento como verde e pronto para uso](assets/create-property-development-build-ready.png)

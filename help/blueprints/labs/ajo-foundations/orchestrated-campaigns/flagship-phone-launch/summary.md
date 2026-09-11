@@ -36,7 +36,7 @@ Se você tivesse tentado isso no Jornada, não teria sido capaz de satisfazer es
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SE ESTIVER LENDO ISSO SIGNIFICA QUE VOCÊ ESTÁ NO FINAL DO LABORATÓRIO.**
 >

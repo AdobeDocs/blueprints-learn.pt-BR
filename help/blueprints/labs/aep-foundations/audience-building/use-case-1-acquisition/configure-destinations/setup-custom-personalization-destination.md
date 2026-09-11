@@ -105,7 +105,7 @@ Adicione um **novo mapeamento** da seguinte maneira:
 | ---------------------- | ------------ |
 | \_tenantName.plan.name | Nome do plano |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Lembre-se de substituir **\_tenantName** pelo seu nome de locatário
 

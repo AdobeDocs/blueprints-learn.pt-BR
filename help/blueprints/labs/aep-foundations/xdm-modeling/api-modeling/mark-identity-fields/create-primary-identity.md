@@ -55,6 +55,6 @@ SOMENTE EXEMPLO
 
 ![201 Resposta criada após a criação bem-sucedida do descritor de identidade primário](assets/create-primary-identity-201-created-response.png "Descritor de identidade primário criado com êxito")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Parabéns!  Você acabou de criar um descritor de identidade primário em seu esquema

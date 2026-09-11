@@ -48,9 +48,9 @@ Você obtém muitos objetos relacionados a um pedido
 
 >[!NOTE]
 >
->* Não existe um &quot;i&quot; para a &quot;pasta&quot; do pedido. Mesmo que nossa descrição tenha sido preenchida, ela não a possui e isso pode ser uma fonte de confusão para o profissional de marketing, pois ele pode tentar usá-la ou querer saber o que é.
->* O &quot;i&quot; para Cartões de evento apenas repete o tipo, já que o Tipo de evento é um campo, não muitos.
->* Os dados de resumo serão exibidos somente se o valor estiver presente em mais de 2% dos perfis mesclados. Isso também direciona qualquer preenchimento automático ao filtrar em uma string.
+>&#x200B;* Não existe um &quot;i&quot; para a &quot;pasta&quot; do pedido. Mesmo que nossa descrição tenha sido preenchida, ela não a possui e isso pode ser uma fonte de confusão para o profissional de marketing, pois ele pode tentar usá-la ou querer saber o que é.
+>&#x200B;* O &quot;i&quot; para Cartões de evento apenas repete o tipo, já que o Tipo de evento é um campo, não muitos.
+>&#x200B;* Os dados de resumo serão exibidos somente se o valor estiver presente em mais de 2% dos perfis mesclados. Isso também direciona qualquer preenchimento automático ao filtrar em uma string.
 
 
 
@@ -58,7 +58,7 @@ Use o cartão Tipo de evento feito no pedido e arraste-o para a tela.
 
 ![Arraste o cartão de tipo de evento Pedido feito para a tela](assets/build-audience-1-drag-order-placed-event-onto-canvas.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**Opcional:**
 >

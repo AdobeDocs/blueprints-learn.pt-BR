@@ -25,7 +25,7 @@ Finalmente, você **testou o fluxo de decisão completo**, validando se o Adobe 
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SE ESTIVER LENDO ISTO, SIGNIFICA QUE VOCÊ ESTÁ NO FINAL DO LABORATÓRIO.**
 >

@@ -61,13 +61,13 @@ Isso permite enviar dados para o Hub e chegar a um conjunto de dados para os dad
 
 ![Botão Adicionar Serviço na tela de configuração da sequência de dados](assets/create-datastream-add-service-button.png)
 
-2. Configure os seguintes itens:
+&#x200B;2. Configure os seguintes itens:
    - **Serviço** -> `Adobe Experience Platform`
    - **Conjunto de Dados do Evento** -> `dep: Web`
    - **Conjunto de Dados de Perfil** -> `dep: Customer Account`
    - **Marcar Caixa de Seleção** -> `Offer Decisioning`
    - **Marcar Caixa de Seleção** -> `Adobe Journey Optimizer`
-3. Quando terminar, clique em **Salvar**
+&#x200B;3. Quando terminar, clique em **Salvar**
 
 ![Caixa de diálogo de configuração do serviço Adobe Experience Platform com campos de conjunto de dados de evento e perfil](assets/create-datastream-configure-aep-service.png)
 

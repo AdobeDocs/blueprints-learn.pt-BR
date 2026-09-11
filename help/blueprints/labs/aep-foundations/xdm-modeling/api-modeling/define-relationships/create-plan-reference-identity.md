@@ -25,7 +25,7 @@ ht-degree: 0%
 
 
 
-2. Atualize as seguintes propriedades no corpo da chamada de API.
+&#x200B;2. Atualize as seguintes propriedades no corpo da chamada de API.
 
 - Atualize o valor da propriedade `xdm:sourceSchema` para o `$id` do esquema `Customer Account` salvo da etapa [Criar Esquema](../build-schema/create-schema.md)
 - Atualize o valor de `xdm:sourceProperty` para o caminho do campo `planID` do esquema `Customer Account`
@@ -54,9 +54,9 @@ SOMENTE EXEMPLO
 
 
 
-3. Salve sua solicitação antes de continuar usando o botão `Save`
+&#x200B;3. Salve sua solicitação antes de continuar usando o botão `Save`
 
-4. Execute a API clicando no botão `Send`
+&#x200B;4. Execute a API clicando no botão `Send`
 
 Agora você deve ver uma resposta de `201 Created` como a seguir
 

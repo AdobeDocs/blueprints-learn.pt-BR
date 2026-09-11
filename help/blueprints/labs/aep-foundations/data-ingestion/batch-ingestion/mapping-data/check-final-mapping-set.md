@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Verificar conjunto de mapeamento final
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Se você vem do laboratório de assimilação de streaming, clique no link abaixo para prosseguir para a próxima etapa desse laboratório:
 >
@@ -52,7 +52,7 @@ ht-degree: 0%
 | shipping\_state | shippingAddress.state |
 | delivery\_street\_address | shippingAddress.street1 |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Verifique se o mapeamento final corresponde ao mostrado abaixo antes de continuar.
 
@@ -66,6 +66,6 @@ ht-degree: 0%
 | concat(date\_part(&quot;month&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString(), &quot;-&quot;, date\_part(&quot;day&quot;, date(birth\_Date,&quot;M/d/yyyy&quot;)).toString()) | person.birthDayAndMonth |
 | date\_part(&quot;aaaa&quot;,date(birth\_Date,&quot;M/d/aaaa&quot;)) | person.birthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Verifique se o mapeamento final corresponde ao mostrado abaixo antes de continuar

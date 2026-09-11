@@ -26,7 +26,7 @@ No próximo conjunto de etapas, você criará uma Configuração de Canal de ema
 
 ![Criar configuração de canal](assets/configure-for-profile-create-configuration-button.png)
 
-3. No assistente Criar, defina os seguintes valores:
+&#x200B;3. No assistente Criar, defina os seguintes valores:
    - **Nome:** `Relational-Email`
    - **Canal:** `Email`
    - **Ação de marketing:** `Email Targeting`
@@ -101,27 +101,27 @@ Manter as configurações padrão
 
 ![Configurar campanha orquestrada](assets/configure-for-profile-enable-orchestrated-campaign-tab.png)
 
-2. Em Execution dimension, configure o seguinte:
+&#x200B;2. Em Execution dimension, configure o seguinte:
    - **Entregar uma mensagem por:** `Target Dimension `
    - **Dimension de Destino do Perfil:** `dep-rel: Customer Account - customer_id`
 
 ![Dimensão de execução](assets/configure-for-relational-execution-dimension-target-settings.png)
 
-3. Em Endereço de execução, configure o seguinte:
+&#x200B;3. Em Endereço de execução, configure o seguinte:
    - **Source:** `Target Dimension`
    - **Endereço de entrega:** `click on the Edit button`
 
 ![Dimension de Destino](assets/configure-for-relational-execution-address-source-target-dimension.png)
 
-4. Na janela pop-up, clique na pasta **dep-rel: Conta de cliente**
+&#x200B;4. Na janela pop-up, clique na pasta **dep-rel: Conta de cliente**
 
 ![Configurar endereço de entrega](assets/configure-for-relational-customer-account-folder.png)
 
-5. Selecione **Email** e clique no botão **Selecionar**
+&#x200B;5. Selecione **Email** e clique no botão **Selecionar**
 
 ![Enviar email como endereço de entrega](assets/configure-for-relational-select-email-as-delivery-address.png)
 
-6. Quando terminar, seus detalhes de Execução finais serão semelhantes à captura de tela abaixo
+&#x200B;6. Quando terminar, seus detalhes de Execução finais serão semelhantes à captura de tela abaixo
 
 ![Dimensão de execução configurada](assets/configure-for-relational-execution-details-final-result.png)
 

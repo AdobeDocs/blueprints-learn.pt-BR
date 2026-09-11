@@ -32,14 +32,14 @@ Como a qualificação é um dos blocos fundamentais de uma oferta, a primeira et
 
 ![Página Regras de Decisão com o botão Criar regra](assets/create-decision-rule-create-rule-button.png)
 
-4. Isso abre uma tela semelhante à interface do usuário do Construtor de segmentos. Adicione o atributo ID do plano à tela da regra clicando em **Perfil Individual XDM > DEP > Detalhes do plano** e arrastando o atributo **ID do plano** para a tela.
-5. Altere o menu suspenso de igual a **contém.**
-6. Insira o texto **2** na caixa, pressione a tecla **Tab** para aceitar o valor 2 e insira um **3,** pressione **Tab** novamente para que a regra procure IDs de Plano que contenham um 2 ou 3
-7. Use a caixa de texto **Nome** no painel direito para nomear a Regra de decisão **Planos de camada superior**. Adicione uma descrição, se desejar. Quando terminar, sua Regra de decisão deverá ter esta aparência:
+&#x200B;4. Isso abre uma tela semelhante à interface do usuário do Construtor de segmentos. Adicione o atributo ID do plano à tela da regra clicando em **Perfil Individual XDM > DEP > Detalhes do plano** e arrastando o atributo **ID do plano** para a tela.
+&#x200B;5. Altere o menu suspenso de igual a **contém.**
+&#x200B;6. Insira o texto **2** na caixa, pressione a tecla **Tab** para aceitar o valor 2 e insira um **3,** pressione **Tab** novamente para que a regra procure IDs de Plano que contenham um 2 ou 3
+&#x200B;7. Use a caixa de texto **Nome** no painel direito para nomear a Regra de decisão **Planos de camada superior**. Adicione uma descrição, se desejar. Quando terminar, sua Regra de decisão deverá ter esta aparência:
 
 ![Regra de decisão de Planos de Camada Superior concluída com ID de Plano contendo 2 ou 3](assets/create-decision-rule-upper-tier-plans-finished.png "Regra de decisão de Planos de Camada Superior concluída com ID de Plano contendo 2 ou 3")
 
-8. Quando a regra estiver correta, clique no botão azul **Criar** no canto superior direito e você retornará à página Configuração de estratégia com a Regra de decisão que acabou de criar listada como a única regra de decisão.
+&#x200B;8. Quando a regra estiver correta, clique no botão azul **Criar** no canto superior direito e você retornará à página Configuração de estratégia com a Regra de decisão que acabou de criar listada como a única regra de decisão.
 
 >[!NOTE]
 >

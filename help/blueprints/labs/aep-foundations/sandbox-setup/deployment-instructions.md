@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Instruções de implantação
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Isso só é necessário se você estiver trabalhando nos laboratórios no seu próprio ritmo. Se você estiver em um curso ou evento de treinamento ao vivo, sua sandbox já foi implantada para você.
 
@@ -68,7 +68,7 @@ A CLI é implantada na sandbox para a qual o arquivo de ambiente aponta. Portant
 | `SCOPES` | Deve incluir escopos da API do Experience Platform (openid, session, AdobeID, read_organizations, additional_info.projectedProductContext) |
 | `SANDBOX_NAME` | A sandbox que você está direcionando — deve estar vazia e ser do tipo `dev` |
 
-3. Salvar e fechar o arquivo
+&#x200B;3. Salvar e fechar o arquivo
 
 >[!NOTE]
 >
@@ -90,7 +90,7 @@ No menu principal, selecione **AEP foundation**. Há três etapas, que devem ser
 
 A Etapa 1 leva cerca de 2 minutos para ser executada, a Etapa 2 cerca de 6 minutos e a Etapa 3 é uma validação rápida sem espera própria. Os intervalos de 60 e 15 minutos entre as etapas permitem que o AEP conclua a propagação de dados em segundo plano — é a maior parte do tempo de 2 horas.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >A CLI verifica esses tempos de espera automaticamente. Se você executar uma etapa muito cedo, ela bloqueará e informará quantos minutos ainda restam — você não precisará rastrear o relógio por conta própria.
 

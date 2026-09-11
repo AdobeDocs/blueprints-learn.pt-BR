@@ -51,7 +51,7 @@ Você começará com o documento Diretriz da marca 5G Connection, fará o upload
 
 ![Diretriz da Marca 5G da Conexão PDF aberta da pasta do kit de ferramentas](assets/brand-management-open-brand-guideline-pdf.png)
 
-2. Revise o documento para entender o conteúdo usado para a Conexão 5G:
+&#x200B;2. Revise o documento para entender o conteúdo usado para a Conexão 5G:
    - Tom de voz
    - Cores e estilo visual
    - Estilo de escrita e exemplos de mensagens
@@ -66,35 +66,35 @@ Você começará com o documento Diretriz da marca 5G Connection, fará o upload
 
 ![Botão Criar Marca na seção Marcas](assets/brand-management-click-create-brand-button.png)
 
-3. No campo **Nome**, digite `Connection 5G Brand Guidelines`
-4. Na área de carregamento, arraste e solte o arquivo **Diretrizes de Marca da Conexão5g.pdf** (ou clique em **Selecionar arquivos** e escolha-o no seu computador).
+&#x200B;3. No campo **Nome**, digite `Connection 5G Brand Guidelines`
+&#x200B;4. Na área de carregamento, arraste e solte o arquivo **Diretrizes de Marca da Conexão5g.pdf** (ou clique em **Selecionar arquivos** e escolha-o no seu computador).
 
 ![Arraste e solte o PDF de Diretrizes de Marca Connection5g na área de upload](assets/brand-management-upload-brand-guideline-pdf.png)
 
-5. Clique em **Criar marca** para iniciar a extração.
+&#x200B;5. Clique em **Criar marca** para iniciar a extração.
 
 Uma tela de progresso é exibida enquanto o AJO analisa o arquivo. Isso pode levar vários minutos, dependendo do tamanho do documento.
 
 ![A tela de andamento é exibida enquanto a AJO analisa o arquivo de diretrizes da marca](assets/brand-management-extraction-progress-screen.png)
 
-6. Quando a extração for concluída:
+&#x200B;6. Quando a extração for concluída:
    - Uma barra de confirmação verde é exibida na parte superior.
    - Você é redirecionado automaticamente para a tela de configuração da marca.
    - Os padrões de criação de conteúdo e visual agora são automaticamente preenchidos com base no arquivo de Diretrizes de marca carregado.
 
 ![Tela de configuração de marca preenchida após conclusão da extração](assets/brand-management-brand-configuration-populated.png)
 
-7. Clique no botão **Publicar** para publicar as diretrizes da marca.
+&#x200B;7. Clique no botão **Publicar** para publicar as diretrizes da marca.
 
 ![Botão Publicar para as diretrizes de marca](assets/brand-management-click-publish-button.png)
 
-8. Confirme pressionando o botão &quot;Publicar&quot; para confirmar.
+&#x200B;8. Confirme pressionando o botão &quot;Publicar&quot; para confirmar.
 
 ![Confirmar caixa de diálogo Publicar para as diretrizes de marca](assets/brand-management-confirm-publish-dialog.png)
 
 Uma barra de confirmação verde é exibida na parte inferior da página, indicando que sua marca foi publicada com êxito.
 
-9. Clique novamente na página da marca principal e veja que sua marca está agora ativa (isso deve ser mostrado por um ponto verde com o rótulo **&quot;Ao vivo&quot;**).
+&#x200B;9. Clique novamente na página da marca principal e veja que sua marca está agora ativa (isso deve ser mostrado por um ponto verde com o rótulo **&quot;Ao vivo&quot;**).
 
 ![Lista de marcas mostrando a nova marca com um rótulo verde de status Live](assets/brand-management-brand-live-status-label.png)
 
@@ -155,19 +155,19 @@ No conteúdo extraído, alguns princípios orientadores podem estar incompletos.
 
 ![Clicando no cartão da marca Connection 5G recém-criado](assets/brand-management-click-created-brand-card.png)
 
-2. Clique em **Editar marca**. Uma guia de confirmação é exibida; clique novamente em **Editar Marca** para confirmar.
+&#x200B;2. Clique em **Editar marca**. Uma guia de confirmação é exibida; clique novamente em **Editar Marca** para confirmar.
 
 ![Botão Editar marca e guia de confirmação](assets/brand-management-click-edit-brand-button.png)
 
-3. Vá para a guia **Sobre a Marca**.
+&#x200B;3. Vá para a guia **Sobre a Marca**.
 
 ![Navegando até a guia Sobre a Marca durante a edição](assets/brand-management-about-the-brand-tab-edit.png)
 
-4. Localize a seção de **Princípios orientadores**, **Visão** ou descrição semelhante de alto nível.
+&#x200B;4. Localize a seção de **Princípios orientadores**, **Visão** ou descrição semelhante de alto nível.
 
 ![Seção de princípios orientadores e visão em Sobre a guia Marca](assets/brand-management-guiding-principles-vision-section.png)
 
-5. Adicione o seguinte texto:
+&#x200B;5. Adicione o seguinte texto:
 
 **Visão:**
 
@@ -179,7 +179,7 @@ No conteúdo extraído, alguns princípios orientadores podem estar incompletos.
 
 ![Texto de posicionamento de visão e mercado adicionado à marca](assets/brand-management-vision-market-positioning-added.png)
 
-6. Clique em **Salvar**. (Se você não vir o botão **Salvar**, clique primeiro na guia **Visão geral** e, em seguida, clique em **Salvar**.)
+&#x200B;6. Clique em **Salvar**. (Se você não vir o botão **Salvar**, clique primeiro na guia **Visão geral** e, em seguida, clique em **Salvar**.)
 
 >[!TIP]
 >
@@ -194,15 +194,15 @@ Em seguida, aprimore a marca adicionando uma regra que garanta que os botões de
 
 ![Guia Estilo de Gravação aberta para adicionar uma regra de exclusão](assets/brand-management-writing-style-tab-exclusion.png)
 
-2. Verifique se você está na seção **Estilo de comunicação da marca**.
+&#x200B;2. Verifique se você está na seção **Estilo de comunicação da marca**.
 
 ![Seção de estilo de comunicação da marca na guia Estilo de Redação](assets/brand-management-brand-communication-style-section.png)
 
-3. Na área **Não**, clique no ícone **mais** para adicionar uma nova regra.
+&#x200B;3. Na área **Não**, clique no ícone **mais** para adicionar uma nova regra.
 
 ![Ícone de adição na área Não adicionar uma nova regra](assets/brand-management-add-donts-rule-plus-icon.png)
 
-4. Configure a regra da seguinte maneira:
+&#x200B;4. Configure a regra da seguinte maneira:
    - **Exclusão:** `Be pushy`
 
 >[!NOTE]
@@ -213,15 +213,15 @@ Em seguida, aprimore a marca adicionando uma regra que garanta que os botões de
 
 Botão **Elemento:**
 
-5. Clique em **Adicionar**.
+&#x200B;5. Clique em **Adicionar**.
 
 ![Adicionar botão para a regra de exclusão Be pushy](assets/brand-management-click-add-rule-button.png)
 
-6. Confirme se a nova regra Não aparecer como `Be pushy` na lista.
+&#x200B;6. Confirme se a nova regra Não aparecer como `Be pushy` na lista.
 
 ![Ser push Não confirmar regra na lista de regras](assets/brand-management-be-pushy-dont-rule-confirmed.png)
 
-7. Clique em **Salvar**.
+&#x200B;7. Clique em **Salvar**.
 
 Essa regra se aplica sempre que o Assistente de IA ou os autores trabalham na cópia do botão de email, mantendo os CTAs alinhados ao tom da conexão 5G.
 
@@ -242,13 +242,13 @@ Quando estiver satisfeito com a configuração:
 
 ![Botão Publicar no canto superior direito](assets/brand-management-click-publish-top-right.png)
 
-3. Uma caixa de diálogo de confirmação será exibida explicando que você está prestes a publicar as Diretrizes de marca atualizadas para a conexão 5G. Clique em **Publicar** novamente para confirmar.
+&#x200B;3. Uma caixa de diálogo de confirmação será exibida explicando que você está prestes a publicar as Diretrizes de marca atualizadas para a conexão 5G. Clique em **Publicar** novamente para confirmar.
 
 ![Caixa de diálogo de confirmação para publicar as Diretrizes de Marca atualizadas](assets/brand-management-confirm-publish-updated-guidelines.png)
 
-4. Aguarde até que a barra de confirmação verde seja exibida.
-5. Clique em **Voltar** para retornar à lista de marcas.
-6. Verifique se um novo cartão é exibido para as **Diretrizes da Marca 5G da Conexão** com um status mostrando que ele está ativo e disponível.
+&#x200B;4. Aguarde até que a barra de confirmação verde seja exibida.
+&#x200B;5. Clique em **Voltar** para retornar à lista de marcas.
+&#x200B;6. Verifique se um novo cartão é exibido para as **Diretrizes da Marca 5G da Conexão** com um status mostrando que ele está ativo e disponível.
 
 ![Cartão de Diretrizes da Marca 5G da Conexão mostrando o status Ativo](assets/brand-management-brand-guidelines-card-live-status.png)
 

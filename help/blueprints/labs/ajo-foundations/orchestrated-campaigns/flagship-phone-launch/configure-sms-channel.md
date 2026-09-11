@@ -60,18 +60,18 @@ Agora, você mapeará essa credencial de API para uma configuração de canal qu
 
 
 
-2. Clique em **Criar configuração de canal**.
+&#x200B;2. Clique em **Criar configuração de canal**.
 
 ![Botão Criar configuração de canal](assets/configure-sms-channel-click-create-configuration.png)
 
 
 
-3. Preencha as Configurações do canal SMS com os seguintes valores:
+&#x200B;3. Preencha as Configurações do canal SMS com os seguintes valores:
    - **Nome:** `Relational-SMS-Multi-Entity`
    - **Canal:** `Mobile Message`
    - **Ação de marketing:** `SMS Targeting`
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Se você receber um erro informando que o usuário não tem permissão, ignore-o e continue.
 
@@ -97,13 +97,13 @@ Ao selecionar Canal como Mensagem para dispositivo móvel, uma nova seção cham
 
 
 
-2. Verifique se a caixa de seleção **Habilitado** está marcada
+&#x200B;2. Verifique se a caixa de seleção **Habilitado** está marcada
 
 ![Caixa de seleção habilitada marcada para campanhas orquestradas](assets/configure-sms-channel-enabled-checkbox.png)
 
 
 
-3. Em seguida, na subseção **Execution dimension**, verifique se os itens a seguir estão configurados da seguinte maneira:
+&#x200B;3. Em seguida, na subseção **Execution dimension**, verifique se os itens a seguir estão configurados da seguinte maneira:
    - **Entregar uma mensagem por:** `Target + Secondary Dimension`
    - **Dimension de Destino do Perfil:** `dep-rel: Customer Account - customer_id`
    - **Dimension Secundário:** `Customer Line`
@@ -118,13 +118,13 @@ Ao selecionar Canal como Mensagem para dispositivo móvel, uma nova seção cham
 
 
 
-4. No cabeçalho Endereço de Execução, selecione o botão de opção para **Dimension Secundário** e clique no botão de edição no **Campo de Execução do SMS**
+&#x200B;4. No cabeçalho Endereço de Execução, selecione o botão de opção para **Dimension Secundário** e clique no botão de edição no **Campo de Execução do SMS**
 
 ![Endereço de execução definido como Dimension secundário com campo de edição](assets/configure-sms-channel-execution-address-selection.png)
 
 
 
-5. Na janela pop-up, clique no esquema **dep-rel: Customer Line** e selecione **Celular**.
+&#x200B;5. Na janela pop-up, clique no esquema **dep-rel: Customer Line** e selecione **Celular**.
 
 ![Pop-up de esquema para dep-rel: Esquema de linha do cliente](assets/configure-sms-channel-customer-line-schema-popup.png)
 
@@ -132,7 +132,7 @@ Ao selecionar Canal como Mensagem para dispositivo móvel, uma nova seção cham
 
 
 
-6. Confirme as correspondências da seção de Detalhes da execução final abaixo
+&#x200B;6. Confirme as correspondências da seção de Detalhes da execução final abaixo
 
 ![Configuração de detalhes da execução final correspondente às configurações necessárias](assets/configure-sms-channel-final-execution-details.png)
 
@@ -146,7 +146,7 @@ Ao selecionar Canal como Mensagem para dispositivo móvel, uma nova seção cham
 
 
 
-2. Na página de inventário das configurações de canal, verifique se o status é exibido como **Ativo** antes de continuar
+&#x200B;2. Na página de inventário das configurações de canal, verifique se o status é exibido como **Ativo** antes de continuar
 
 ![Status de configuração do canal mostrado como Ativo](assets/configure-sms-channel-active-status.png)
 
@@ -156,7 +156,7 @@ Ao selecionar Canal como Mensagem para dispositivo móvel, uma nova seção cham
 
 
 
-3. Quando o status se torna Ativo, você está concluído!
+&#x200B;3. Quando o status se torna Ativo, você está concluído!
 
 >[!TIP]
 >

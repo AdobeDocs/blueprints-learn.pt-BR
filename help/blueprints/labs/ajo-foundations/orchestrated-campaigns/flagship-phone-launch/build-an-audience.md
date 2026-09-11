@@ -29,7 +29,7 @@ Nas próximas etapas, você criará o público-alvo que deseja direcionar para a
 
 
 
-2. No painel direito, você verá as propriedades Criar público-alvo. Atualize o Rótulo para indicar o seguinte: `Active Lines with Apple`
+&#x200B;2. No painel direito, você verá as propriedades Criar público-alvo. Atualize o Rótulo para indicar o seguinte: `Active Lines with Apple`
 
 ![Criar rótulo de público definido como Linhas Ativas com o Apple](assets/build-an-audience-set-label.png)
 
@@ -42,7 +42,7 @@ A próxima etapa é selecionar a **Targeting dimension** (ou seja, qual tabela v
 
 ![Ícone Pesquisar na caixa Dimensão de direcionamento](assets/build-an-audience-search-targeting-dimension.png)
 
-2. No pop-up, procure e selecione a tabela denominada **dep-rel: Customer Line** e clique no botão **Confirm**.
+&#x200B;2. No pop-up, procure e selecione a tabela denominada **dep-rel: Customer Line** e clique no botão **Confirm**.
 
 ![Selecione a tabela dep-rel: Customer Line e clique em Confirmar](assets/build-an-audience-select-customer-line-table.png)
 
@@ -64,7 +64,7 @@ Agora que você selecionou o targeting dimension (qual esquema relacional você 
 
 ![Botão Criar público-alvo no painel direito](assets/build-an-audience-click-create-audience.png)
 
-2. Clique no botão **Adicionar condição**
+&#x200B;2. Clique no botão **Adicionar condição**
 
 ![Botão Adicionar condição para a definição de público-alvo](assets/build-an-audience-click-add-condition.png)
 
@@ -82,7 +82,7 @@ Agora é hora de escrever a lógica do público-alvo usando os atributos encontr
 
 ![Condição 1 definida como Linha Ativa igual a verdadeiro](assets/build-an-audience-condition-active-line-true.png)
 
-2. Clique no ícone **Atualizar** para exibir as contagens qualificadas na condição.
+&#x200B;2. Clique no ícone **Atualizar** para exibir as contagens qualificadas na condição.
 
 ![Ícone Atualizar mostrando a contagem qualificada de 241 para a condição 1](assets/build-an-audience-condition-1-refresh-count.png)
 
@@ -99,13 +99,13 @@ Agora é hora de escrever a lógica do público-alvo usando os atributos encontr
 ![Selecione o esquema dep-rel: Product [Lookup] clicando no ícone >](assets/build-an-audience-select-product-lookup-schema.png)
 
 
-2. Procure o campo **Marca**, clique nos três pontos e selecione **Distribuição de valores**
+&#x200B;2. Procure o campo **Marca**, clique nos três pontos e selecione **Distribuição de valores**
 
 ![Opção de distribuição de valores para o campo Criar](assets/build-an-audience-make-distribution-of-values.png)
 
 
 
-3. Observe os vários valores. Você só quer `Apple` e, felizmente, ele não tem 100 grafias diferentes. Clique no **campo do Apple** para selecioná-lo e, em seguida, clique no **botão Selecionar atributo e valor** no canto superior direito.
+&#x200B;3. Observe os vários valores. Você só quer `Apple` e, felizmente, ele não tem 100 grafias diferentes. Clique no **campo do Apple** para selecioná-lo e, em seguida, clique no **botão Selecionar atributo e valor** no canto superior direito.
 
 ![Valor do Apple selecionado com o botão Selecionar atributo e valor](assets/build-an-audience-select-apple-attribute-value.png)
 
@@ -115,12 +115,12 @@ Agora é hora de escrever a lógica do público-alvo usando os atributos encontr
 
 
 
-4. O campo `Make` é adicionado automaticamente com as condições mostradas abaixo.
+&#x200B;4. O campo `Make` é adicionado automaticamente com as condições mostradas abaixo.
    - **Operador:** `Equal to`
    - **Valor:** `Apple`
    - **Diferenciação de maiúsculas e minúsculas:** `Enabled`
 
-5. Clique no **ícone calcular** e você verá 85 como o resultado.
+&#x200B;5. Clique no **ícone calcular** e você verá 85 como o resultado.
 
 ![Contagem calculada da Condição 2 de 85](assets/build-an-audience-condition-2-final-count.png)
 
@@ -142,7 +142,7 @@ Agora é hora de escrever a lógica do público-alvo usando os atributos encontr
 
 
 
-2. Se você vir a contagem final de **65**, clique no botão **Confirmar**, na parte superior direita da tela, e clique no botão **Salvar**, na parte superior direita, para salvar seu trabalho.
+&#x200B;2. Se você vir a contagem final de **65**, clique no botão **Confirmar**, na parte superior direita da tela, e clique no botão **Salvar**, na parte superior direita, para salvar seu trabalho.
 
 
 

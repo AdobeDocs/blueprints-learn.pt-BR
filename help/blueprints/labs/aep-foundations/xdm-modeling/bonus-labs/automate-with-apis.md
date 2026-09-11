@@ -65,6 +65,6 @@ Para ver como você pode automatizar implantações usando APIs, execute uma pas
 
 ![Dois conjuntos de dados criados com o postman: prefixo que corresponde aos esquemas automatizados](assets/automate-with-apis-datasets-created-in-ui.png "Conjuntos de dados de automação")
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Parabéns!  Você acabou de automatizar a implantação de namespaces de identidade, grupos de campos, esquemas, descritores de identidade/relacionamento e ativar um esquema para criar um perfil e gerar um conjunto de dados utilizando o esquema

@@ -45,7 +45,7 @@ Lembre-se de que os requisitos comerciais são que qualquer sistema da Connectio
 
 ![Configuração de canal de Experiência Baseada em Código concluída com o formato JSON selecionado](assets/create-code-based-experience-channel-completed-config.png)
 
-9. Quando tudo estiver correto, clique no botão azul **Enviar** no canto superior direito.
+&#x200B;9. Quando tudo estiver correto, clique no botão azul **Enviar** no canto superior direito.
 
 >[!TIP]
 >

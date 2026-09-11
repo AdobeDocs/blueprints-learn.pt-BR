@@ -29,7 +29,7 @@ No próximo conjunto de etapas, você salvará o público-alvo criado no Portal 
 
 
 
-2. Atualize as propriedades da dimensão de alteração conforme descrito abaixo:
+&#x200B;2. Atualize as propriedades da dimensão de alteração conforme descrito abaixo:
    - **Rótulo:** `Convert Line to Account`
    - **Nova dimensão de destino:** `dep-rel: Customer Account`
 
@@ -43,7 +43,7 @@ No próximo conjunto de etapas, você salvará o público-alvo criado no Portal 
 
 
 
-3. Quando terminar, sua tela ficará assim.  Salve o trabalho!
+&#x200B;3. Quando terminar, sua tela ficará assim.  Salve o trabalho!
 
 ![Tela de fluxo de trabalho após adicionar a atividade de alteração de dimensão](assets/save-the-audience-canvas-after-change-dimension.png)
 
@@ -51,19 +51,19 @@ No próximo conjunto de etapas, você salvará o público-alvo criado no Portal 
 
 ## Desduplicar o resultado
 
-1. Clique no ícone **+** **3} após a atividade Change Dimension e, na lista de atividades, selecione a atividade** Deduplication ****
+1. Clique no ícone **+** **3&rbrace; após a atividade Change Dimension e, na lista de atividades, selecione a atividade** Deduplication **&#x200B;**
 
 ![Adicionar a atividade de Eliminação de Duplicação após Change Dimension](assets/save-the-audience-add-deduplication-activity.png)
 
 
 
-2. Atualizar o rótulo da atividade de Eliminação de Duplicatas para `Dedup customer id`
+&#x200B;2. Atualizar o rótulo da atividade de Eliminação de Duplicatas para `Dedup customer id`
 
 ![Rótulo de atividade de desduplicação definido como ID de cliente de Desduplicação](assets/save-the-audience-deduplication-label.png)
 
 
 
-3. Agora clique no botão **+ Adicionar atributo** e selecione o campo do esquema intitulado **ID do cliente**
+&#x200B;3. Agora clique no botão **+ Adicionar atributo** e selecione o campo do esquema intitulado **ID do cliente**
 
 ![Botão Adicionar atributo para a atividade de Eliminação de Duplicatas](assets/save-the-audience-add-attribute-button.png)
 
@@ -71,7 +71,7 @@ No próximo conjunto de etapas, você salvará o público-alvo criado no Portal 
 
 
 
-4. Nas configurações de Desduplicação, verifique se você tem o seguinte conjunto:
+&#x200B;4. Nas configurações de Desduplicação, verifique se você tem o seguinte conjunto:
    - **Duplicatas a serem mantidas:** `1`
    - **Método de desduplicação:** `Random selection`
 
@@ -83,7 +83,7 @@ No próximo conjunto de etapas, você salvará o público-alvo criado no Portal 
 
 
 
-5. Quando terminar, sua tela ficará assim. Clique no botão **Salvar** no canto superior direito antes de continuar.
+&#x200B;5. Quando terminar, sua tela ficará assim. Clique no botão **Salvar** no canto superior direito antes de continuar.
 
 ![Atividade de desduplicação totalmente configurada na tela](assets/save-the-audience-deduplication-configured.png)
 
@@ -95,7 +95,7 @@ No próximo conjunto de etapas, você salvará o público-alvo criado no Portal 
 
 ![Adicionar a atividade Salvar Público-Alvo após a Eliminação de Duplicação](assets/save-the-audience-add-save-audience-activity.png)
 
-2. No painel direito, defina as propriedades da atividade como a seguir:
+&#x200B;2. No painel direito, defina as propriedades da atividade como a seguir:
    - **Rótulo do público-alvo**: `Apple Upgrade Eligible Customer Accounts`
    - **Campo de mapeamento de perfil**: `dep-rel: Customer Account - customer id`
 
@@ -134,7 +134,7 @@ Por padrão, a chave primária da targeting dimension (ou seja, ID de cliente) �
 
 
 
-2. Clique no botão **Iniciar** para executar o fluxo de trabalho. Agora, seu fluxo de trabalho fica assim, e você vê as contagens da seguinte maneira:
+&#x200B;2. Clique no botão **Iniciar** para executar o fluxo de trabalho. Agora, seu fluxo de trabalho fica assim, e você vê as contagens da seguinte maneira:
    - Criar audiência: `65`
    - Converter Linha em Conta: `65`
    - Excluir duplicatas da ID do cliente: `46`

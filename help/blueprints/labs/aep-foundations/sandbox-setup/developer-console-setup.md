@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Configuração do console do desenvolvedor
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Isso só é necessário se você estiver trabalhando nos laboratórios no seu próprio ritmo. Se você estiver em um curso ou evento de treinamento ao vivo, sua sandbox já foi implantada para você.
 

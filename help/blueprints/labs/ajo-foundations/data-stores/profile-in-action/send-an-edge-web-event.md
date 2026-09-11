@@ -75,16 +75,16 @@ Antes de executar a solicitação de API, é necessário adicionar a ID do fluxo
 
 ![Variáveis na opção Solicitação da barra de ferramentas do Postman](assets/send-an-edge-web-event-click-variables-in-request.png)
 
-2. Atualize o **DATASTREAM_CONFIG** **Value** com a **ID de sequência de dados** da primeira etapa da página.
+&#x200B;2. Atualize o **DATASTREAM_CONFIG** **Value** com a **ID de sequência de dados** da primeira etapa da página.
 
 Variável ![DATASTREAM_CONFIG atualizada com a ID de sequência de dados](assets/send-an-edge-web-event-update-datastream-config-variable.png)
 
-3. **Salvar** sua atualização (ctrl+s ou command+s)
-4. Clique em &#39;**X**&#39; no canto superior direito da barra lateral do ambiente para fechá-la
+&#x200B;3. **Salvar** sua atualização (ctrl+s ou command+s)
+&#x200B;4. Clique em &#39;**X**&#39; no canto superior direito da barra lateral do ambiente para fechá-la
 
 ![Fechando a barra lateral do ambiente do Postman após salvar](assets/send-an-edge-web-event-close-environment-sidebar.png)
 
-5. A solicitação **Criar Evento da Web** está pronta para ser enviada, pois todas as variáveis agora estão azuis e têm um valor no ambiente.
+&#x200B;5. A solicitação **Criar Evento da Web** está pronta para ser enviada, pois todas as variáveis agora estão azuis e têm um valor no ambiente.
 
 ![Criar solicitação de Evento da Web com todas as variáveis populadas](assets/send-an-edge-web-event-request-ready-to-send.png)
 

@@ -46,19 +46,19 @@ Este público-alvo deve ser direto.  Podemos ter várias páginas de produtos, m
 
 
 
-2. Forneça uma descrição e faça a transmissão.
+&#x200B;2. Forneça uma descrição e faça a transmissão.
 
-3. Acima do evento inserido, altere &quot;A qualquer momento&quot; para &quot;Hoje&quot;
+&#x200B;3. Acima do evento inserido, altere &quot;A qualquer momento&quot; para &quot;Hoje&quot;
 
 ![Alterar o filtro de hora do evento de Qualquer hora para Hoje](assets/build-audience-1-change-any-time-to-today.png)
 
-4. Salvar este público-alvo como &quot;*Visitou qualquer página*&quot;
+&#x200B;4. Salvar este público-alvo como &quot;*Visitou qualquer página*&quot;
 
-5. Clique no botão azul **Ativar público-alvo** para destino
+&#x200B;5. Clique no botão azul **Ativar público-alvo** para destino
 
-6. Selecione o Destino do **Webhook de DEP de Streaming** e clique em Próximo
+&#x200B;6. Selecione o Destino do **Webhook de DEP de Streaming** e clique em Próximo
 
-7. Clique em Avançar e Concluir
+&#x200B;7. Clique em Avançar e Concluir
 
 ## Criar um público-alvo (visitou a página do iPhone 14, mas não a possui/solicitou)
 
@@ -68,7 +68,7 @@ Este público-alvo deve ser direto.  Podemos ter várias páginas de produtos, m
 
 
 
-2. Navegue até onde o Nome da página é e adicione o campo Nome da página ao Evento para que possamos filtrá-lo.
+&#x200B;2. Navegue até onde o Nome da página é e adicione o campo Nome da página ao Evento para que possamos filtrá-lo.
 
 - XDM ExperienceEvent —> Web —> Detalhes da página da Web —> Nome
 
@@ -76,11 +76,11 @@ Este público-alvo deve ser direto.  Podemos ter várias páginas de produtos, m
 
 
 
-3. Adicionar contém &quot;iPhone 14&quot;
+&#x200B;3. Adicionar contém &quot;iPhone 14&quot;
 
 ![Adicionar uma condição contains para &quot;iPhone 14&quot;](assets/build-audience-3-add-contains-iphone-14.png)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**Procurando por &quot;Página&quot;**
 >
@@ -98,7 +98,7 @@ Este público-alvo deve ser direto.  Podemos ter várias páginas de produtos, m
 
 
 
-4. Acima do evento inserido, altere &quot;A qualquer momento&quot; para &quot;Hoje&quot;
+&#x200B;4. Acima do evento inserido, altere &quot;A qualquer momento&quot; para &quot;Hoje&quot;
 
 ![Alterar o filtro de hora do evento de Qualquer hora para Hoje](assets/build-audience-1-change-any-time-to-today.png)
 
@@ -108,19 +108,19 @@ Este público-alvo deve ser direto.  Podemos ter várias páginas de produtos, m
 
 
 
-5. Verifique se é Streaming e forneça uma descrição.
+&#x200B;5. Verifique se é Streaming e forneça uma descrição.
 
-6. Salvar público-alvo como &quot;*Página visitada do iPhone 14*&quot;
+&#x200B;6. Salvar público-alvo como &quot;*Página visitada do iPhone 14*&quot;
 
 ![Salvar o público-alvo como &quot;Página do iPhone 14 Visitada&quot;](assets/build-audience-3-save-audience-as-visited-iphone-14-page.png)
 
 
 
-7. Clique no botão azul **Ativar público-alvo** para destino
+&#x200B;7. Clique no botão azul **Ativar público-alvo** para destino
 
-8. Selecione o Destino do **Webhook de DEP de Streaming** e clique em Próximo
+&#x200B;8. Selecione o Destino do **Webhook de DEP de Streaming** e clique em Próximo
 
-9. Clique em Avançar e Concluir
+&#x200B;9. Clique em Avançar e Concluir
 
 
 
@@ -135,24 +135,23 @@ Este público-alvo deve ser direto.  Podemos ter várias páginas de produtos, m
 
 
 
-5. Forneça uma descrição.
+&#x200B;5. Forneça uma descrição.
 
-6. Alterar para streaming
+&#x200B;6. Alterar para streaming
 
-7. Salvar como &quot;*Página do iPhone 14 Visitada, mas Não Proprietária/Ordenada*&quot;
+&#x200B;7. Salvar como &quot;*Página do iPhone 14 Visitada, mas Não Proprietária/Ordenada*&quot;
 
-8. Clique no botão azul **Ativar público-alvo** para destino
+&#x200B;8. Clique no botão azul **Ativar público-alvo** para destino
 
-9. Selecione o Destino do **Webhook de DEP de Streaming** e clique em Próximo
+&#x200B;9. Selecione o Destino do **Webhook de DEP de Streaming** e clique em Próximo
 
-10. Clique em Avançar e Concluir
+&#x200B;10. Clique em Avançar e Concluir
 
 >[!NOTE]
 >
 >**Filtro de Tempo**
 >
 >Os requerimentos não tinham requisitos de tempo, então se alguém visitasse três anos atrás, eles se qualificariam. Dependendo do nosso caso de uso, isso pode ou não funcionar. Vale a pena perguntar. Adicionamos um porque estamos ativando com base nas pessoas que visitaram nosso site hoje.  Isso pode não funcionar em todos os casos de uso.  Se adicionarmos um filtro de tempo, até que ponto podemos voltar antes que um público-alvo do Edge se torne Streaming ou até Mesmo Lote?
-
 > [!NOTE]
 >
 >**Ramificações da divisão**

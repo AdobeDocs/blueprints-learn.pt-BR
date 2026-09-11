@@ -29,14 +29,14 @@ No próximo conjunto de etapas, você cria o shell de uma Campanha orquestrada (
 
 
 
-2. No painel de navegação esquerdo, selecione **Campanhas**
-3. Em seguida, clique no botão **Criar campanha** no canto superior direito
+&#x200B;2. No painel de navegação esquerdo, selecione **Campanhas**
+&#x200B;3. Em seguida, clique no botão **Criar campanha** no canto superior direito
 
 ![Botão Criar campanha na navegação de Campanhas](assets/create-an-orchestrated-campaign-click-create-campaign.png)
 
 
 
-4. No modal exibido, selecione **Orquestração - Marketing** e clique em **Confirmar**
+&#x200B;4. No modal exibido, selecione **Orquestração - Marketing** e clique em **Confirmar**
 
 ![Selecione a Orquestração - Marketing e clique em Confirmar](assets/create-an-orchestrated-campaign-select-orchestration-marketing.png)
 
@@ -52,7 +52,7 @@ Quando terminar, sua tela deverá ficar parecida com a exibida abaixo.
 
 ![Configurações de campanha preenchidas com nome e política de mesclagem](assets/create-an-orchestrated-campaign-settings-filled.png)
 
-2. Clique no botão **Salvar** para continuar.
+&#x200B;2. Clique no botão **Salvar** para continuar.
 
 
 

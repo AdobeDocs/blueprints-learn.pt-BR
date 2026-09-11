@@ -30,7 +30,7 @@ Uma Política de mesclagem faz duas coisas:
    - Precedência do carimbo de data e hora - use o registro mais recente de todos os conjuntos de dados como o conjunto verdadeiro e permita que todos os outros registros preencham as lacunas, na ordem do mais recente ao mais antigo
    - Precedência do conjunto de dados - escolha quais conjuntos de dados do Perfil individual XDM podem ser usados para formar o perfil e em que ordem montá-los
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Quando o método de mesclagem de Precedência do conjunto de dados é escolhido, é possível escolher quais conjuntos de dados de Perfil individual XDM e Evento de experiência XDM poderão ser usados na formação do perfil.
 >
@@ -198,7 +198,7 @@ Quando o gráfico de identidade é usado com o armazenamento de perfis, você po
 
 Sem o gráfico de identidade, o armazenamento de perfis só pode recuperar fragmentos de perfil usando um único identificador (ou seja, identidade principal)
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**Ganhe tempo extra e deseje experimentar...:**
 >

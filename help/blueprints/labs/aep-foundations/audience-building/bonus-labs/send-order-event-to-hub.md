@@ -93,7 +93,7 @@ Comece reunindo os seguintes valores:
 1. Navegue até **Fontes** no painel esquerdo e clique em **Contas** na navegação superior
 1. Pesquise por **dep: API HTTP \[raw]**, realce a linha, copie e salve o valor do **Ponto de Extremidade de Streaming** em algum lugar que você possa referenciar mais tarde
 
- conta e copiar seu Ponto de Extremidade de Streaming](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ conta e copiar seu Ponto de Extremidade de Streaming&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## Encontrar ID de fluxo de dados
 
@@ -115,7 +115,7 @@ Copie os valores salvos nas etapas anteriores nos locais destacados abaixo.
 
 Sua solicitação final da API deve ter esta aparência quando concluída
 
-> [!CAUTION]
+&#x200B;> [!CAUTION]
 >
 >AINDA NÃO EXECUTAR!
 

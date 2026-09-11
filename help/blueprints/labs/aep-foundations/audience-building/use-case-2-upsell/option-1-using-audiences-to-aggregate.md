@@ -35,7 +35,7 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-2. Clique no botão de Elipse nas regras da parte inferior direita e escolha Agregar. Clique em Selecionar um atributo e digite Uso. Selecione o campo Uso de dados de faturamento.
+&#x200B;2. Clique no botão de Elipse nas regras da parte inferior direita e escolha Agregar. Clique em Selecionar um atributo e digite Uso. Selecione o campo Uso de dados de faturamento.
 
 
 
@@ -47,17 +47,17 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-3. Altere o valor Igual a maior que e o valor a 140.
+&#x200B;3. Altere o valor Igual a maior que e o valor a 140.
 
-4. Altere o horário acima do cartão Evento de Qualquer horário para Último e o valor para 6 e os dias para meses
+&#x200B;4. Altere o horário acima do cartão Evento de Qualquer horário para Último e o valor para 6 e os dias para meses
 
 ![Altere a janela de tempo do evento para Nos últimos 6 meses](assets/option-1-using-audiences-to-aggregate-change-time-to-last-6-months.png)
 
 
 
-5. Forneça uma descrição e salve.
+&#x200B;5. Forneça uma descrição e salve.
 
-6. Dê ao público o nome &quot;*Soma de Uso de Cobrança > 140 GB (últimos 6 meses)*&quot;
+&#x200B;6. Dê ao público o nome &quot;*Soma de Uso de Cobrança > 140 GB (últimos 6 meses)*&quot;
 
 >[!NOTE]
 >
@@ -84,13 +84,13 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-2. Clique na cópia e edite-a.  Clique no cartão Evento e altere a Soma para Média. Altere o maior que para maior que ou igual a e o valor para 20. Copie o pseudocódigo na descrição.
+&#x200B;2. Clique na cópia e edite-a.  Clique no cartão Evento e altere a Soma para Média. Altere o maior que para maior que ou igual a e o valor para 20. Copie o pseudocódigo na descrição.
 
 ![Copie o pseudocódigo na descrição do público-alvo](assets/option-1-using-audiences-to-aggregate-copy-pseudo-code-into-description.png)
 
 
 
-3. Dê ao público o nome &quot;*Média de uso de cobrança > 20 GB (últimos 6 meses)*&quot;
+&#x200B;3. Dê ao público o nome &quot;*Média de uso de cobrança > 20 GB (últimos 6 meses)*&quot;
 
 ## Público #3 - não tem um plano de telefone definitivo
 
@@ -109,15 +109,15 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-5. Clique em Audiences —> Experience Platform. Arraste a Soma de Uso de Faturamento > 140 GB e a Média de Uso de Faturamento >= 20 GB ao lado do Nome do Plano.
+&#x200B;5. Clique em Audiences —> Experience Platform. Arraste a Soma de Uso de Faturamento > 140 GB e a Média de Uso de Faturamento >= 20 GB ao lado do Nome do Plano.
 
 ![Arraste os públicos-alvo de uso de cobrança ao lado do Nome do Plano](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-6. Copiar o pseudo código na descrição
+&#x200B;6. Copiar o pseudo código na descrição
 
-7. Marque esta opção para Streaming. **Não pode ser Streaming**. Faça algumas alterações:
+&#x200B;7. Marque esta opção para Streaming. **Não pode ser Streaming**. Faça algumas alterações:
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-8. Substituir **Nome do Plano (Nome do Plano)** por: Perfil Individual XDM > Devbc > Detalhes do Plano > **Nome do Plano**
+&#x200B;8. Substituir **Nome do Plano (Nome do Plano)** por: Perfil Individual XDM > Devbc > Detalhes do Plano > **Nome do Plano**
 
 ![Substituir o Nome do Plano (Nome do Plano) pelo campo Nome do Plano desnormalizado](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -143,9 +143,9 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-9. Valide se agora você pode salvar como Transmissão. Salvar público como &quot;*Uso alto de dados de cobrança, mas nenhum plano Ultimate*&quot;
+&#x200B;9. Valide se agora você pode salvar como Transmissão. Salvar público como &quot;*Uso alto de dados de cobrança, mas nenhum plano Ultimate*&quot;
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Embora esse método de avaliação seja Streaming, ele baseia a qualificação de Públicos-alvo em dois públicos-alvo em lote.
 

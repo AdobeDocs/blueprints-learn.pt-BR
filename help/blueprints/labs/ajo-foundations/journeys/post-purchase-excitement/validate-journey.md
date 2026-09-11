@@ -26,8 +26,8 @@ Verifique se a jornada foi acionada e executada conforme esperado.  Verifique se
 
 ![Contagem de Entradas de Perfil mostrada para a jornada](assets/validate-journey-profile-entered-count.png)
 
-3. Clique em **Exibir relatório** -> **Últimas 24 horas** na parte superior direita.
-4. Por padrão, você está na guia **Jornada** (no painel esquerdo)
+&#x200B;3. Clique em **Exibir relatório** -> **Últimas 24 horas** na parte superior direita.
+&#x200B;4. Por padrão, você está na guia **Jornada** (no painel esquerdo)
    - Você verá algumas entradas e saídas (a contagem dependerá de quantos eventos você enviou, qualquer teste, erros etc.)
 
 ![relatório da guia Jornada mostrando entradas e saídas](assets/validate-journey-journey-tab-enters-exits.png)
@@ -56,7 +56,7 @@ Você pode clicar no botão de alternância na parte superior para **excluir eve
 
 3 eventos externos
 
-5. Clique na guia **Email** (no painel esquerdo)
+&#x200B;5. Clique na guia **Email** (no painel esquerdo)
    - **Email - Desempenho de Envio**
      - Você vê alguns valores para **Entregue** e **Enviado** (a contagem dependerá de quantos eventos você enviou, erros etc.)
      - Esperamos que você não tenha erros (a menos que tenha encontrado alguns problemas anteriormente)
@@ -65,10 +65,10 @@ Você pode clicar no botão de alternância na parte superior para **excluir eve
 
 ![Guia Email mostrando desempenho e estatísticas de envio](assets/validate-journey-email-tab-sending-performance.png)
 
-6. Verifique sua **caixa de entrada de email** e veja se recebeu o email (ele é semelhante a este abaixo)
+&#x200B;6. Verifique sua **caixa de entrada de email** e veja se recebeu o email (ele é semelhante a este abaixo)
    - *,* seu pedido enviou ETA: *10/17/2026* Número de Rastreamento: *051009364*
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Verifique se há Campanhas do AJO na sua pasta de spam [ajo-campaigns@email.dep-labs.com](mailto:ajo-campaigns@email.dep-labs.com)
 
@@ -82,7 +82,7 @@ Você pode clicar no botão de alternância na parte superior para **excluir eve
 
 
 
-7. *Após 30-60 minutos*, você pode até mesmo verificar seu conjunto de dados no data lake com o seguinte: **Consultas** -> **Criar Consulta** -> **Copiar/Colar SQL** -> **Executar**
+&#x200B;7. *Após 30-60 minutos*, você pode até mesmo verificar seu conjunto de dados no data lake com o seguinte: **Consultas** -> **Criar Consulta** -> **Copiar/Colar SQL** -> **Executar**
 
 >[!NOTE]
 >

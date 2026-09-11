@@ -141,7 +141,6 @@ Navegue pela classe Perfil individual XDM e reserve alguns momentos para revisar
 >[!NOTE]
 >
 >Observe que o esquema mostrado é uma exibição mesclada agregada de todos os esquemas habilitados para perfil na sandbox. Campos semelhantes na estrutura XDM hierárquica se mesclam, enquanto campos com nomes e/ou hierarquias diferentes são adicionados à exibição geral.
-
 > [!NOTE]
 >
 >Somente a classe baseada no Perfil individual XDM executa mesclagens entre campos com nomes semelhantes.

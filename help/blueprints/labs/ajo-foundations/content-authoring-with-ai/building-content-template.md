@@ -55,14 +55,14 @@ Essa funcionalidade permite que usuários orientados a conteúdo trabalhem em mo
 
 ![Navegando até Gerenciamento de Conteúdo e depois Modelos de Conteúdo](assets/building-content-template-navigate-content-templates.png)
 
-2. Clique em **Criar Modelo** e preencha o seguinte:
+&#x200B;2. Clique em **Criar Modelo** e preencha o seguinte:
    - **Nome:** `Promotional Template`
    - **Descrição:** `Promotional Template for phone products`
    - **Canal:** `Email`
 
 ![Criar formulário de modelo com nome, descrição e canal de email](assets/building-content-template-create-template-form-fields.png)
 
-3. Clique em **Create**.
+&#x200B;3. Clique em **Create**.
 
 ![Botão Criar para concluir a criação do Modelo Promocional](assets/building-content-template-click-create-button.png)
 
@@ -73,7 +73,7 @@ Essa funcionalidade permite que usuários orientados a conteúdo trabalhem em mo
 
 ![Adicionando a linha de assunto e abrindo o corpo do email para edição](assets/building-content-template-add-subject-line-open-editor.png)
 
-2. Há três opções:
+&#x200B;2. Há três opções:
    1. Criar do zero
    2. Desenvolva o seu
    3. Importar HTML
@@ -92,11 +92,11 @@ Selecione a terceira opção. Clique em **Importar HTML**
 
 ![Carregando promocional-modelo-final.html da pasta do kit de ferramentas](assets/building-content-template-upload-html-template-file.png)
 
-2. Clique no botão Importar para **importar** o modelo.
+&#x200B;2. Clique no botão Importar para **importar** o modelo.
 
 ![Botão Importar para importar o modelo HTML carregado](assets/building-content-template-click-import-button.png)
 
-3. Aguarde a renderização do layout. Você percebe problemas como links de imagem quebrados e ausência de identidade visual. (Esse é o comportamento esperado, pois temos ativos de espaço reservado)
+&#x200B;3. Aguarde a renderização do layout. Você percebe problemas como links de imagem quebrados e ausência de identidade visual. (Esse é o comportamento esperado, pois temos ativos de espaço reservado)
 
 ![Modelo renderizado mostrando links de imagens corrompidos e espaços reservados para marcas ausentes](assets/building-content-template-rendered-template-broken-images.png)
 
@@ -127,7 +127,7 @@ Você verá que o fragmento do cabeçalho criado no exercício anterior aparece 
 
 ![Fragmento de cabeçalho mostrado ao vivo com um ponto azul na barra lateral esquerda](assets/building-content-template-header-fragment-live-sidebar.png)
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Se você não vir seu fragmento aqui, significa que não o salvou corretamente e precisa carregá-lo novamente.
 
@@ -145,19 +145,19 @@ Você vê algo assim.
 
 ![Layout do modelo depois de adicionar a nova coluna acima do conteúdo](assets/building-content-template-column-added-above-content.png)
 
-2. O plano de fundo usa a cor de plano de fundo do modelo, que atualmente é preta. Defina sua cor de fundo **para branco. Clique em** na guia Estilo no painel direito e use a cor branca do seletor de cores.
+&#x200B;2. O plano de fundo usa a cor de plano de fundo do modelo, que atualmente é preta. Defina sua cor de fundo **para branco. Clique em** na guia Estilo no painel direito e use a cor branca do seletor de cores.
 
 ![Definindo a cor de plano de fundo da coluna para branco usando o seletor de cores](assets/building-content-template-set-background-color-white.png)
 
-3. Abra **Fragmentos** e arraste o fragmento **Cabeçalho**.
+&#x200B;3. Abra **Fragmentos** e arraste o fragmento **Cabeçalho**.
 
 ![Arrastando o fragmento de cabeçalho para o modelo a partir do painel Fragmentos](assets/building-content-template-drag-header-fragment-into-template.png)
 
-4. Observe que o fragmento do cabeçalho está alinhado perfeitamente ao seu modelo, conforme mostrado abaixo.
+&#x200B;4. Observe que o fragmento do cabeçalho está alinhado perfeitamente ao seu modelo, conforme mostrado abaixo.
 
 ![Fragmento de cabeçalho perfeitamente alinhado no modelo](assets/building-content-template-header-fragment-aligned-template.png)
 
-5. Clique no botão **Salvar** para salvar seu modelo e em **Voltar**.
+&#x200B;5. Clique no botão **Salvar** para salvar seu modelo e em **Voltar**.
 
 ![Botão Salvar para salvar o modelo antes de clicar em Voltar](assets/building-content-template-click-save-button-template.png)
 

@@ -86,6 +86,6 @@ Agora você deve ver uma tela parecida com a exibida abaixo
 
 ![Azure Storage Explorer mostrando a conta da Zona de Aterrissagem de Dados](assets/overview-successfully-connected-account.png) conectada com êxito
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >Parabéns!  O Azure Storage Explorer foi configurado com êxito

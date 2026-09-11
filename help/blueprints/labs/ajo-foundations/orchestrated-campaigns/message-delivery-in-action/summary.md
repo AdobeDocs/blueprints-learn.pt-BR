@@ -26,7 +26,7 @@ Por meio desse laboratório, você realizou as seguintes atividades:
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SE ESTIVER LENDO ISSO SIGNIFICA QUE VOCÊ ESTÁ NO FINAL DO LABORATÓRIO.**
 >

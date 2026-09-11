@@ -28,21 +28,21 @@ Imagine que tivéssemos centenas de ofertas utilizadas em quarenta coleções e 
 
 ![Página de Estratégias de Seleção com o botão Criar estratégia de seleção](assets/create-selection-strategy-create-button.png)
 
-3. Nomeie a estratégia de seleção **Estratégia de seleção do iPhone 17**
-4. Você pode ver que uma estratégia de seleção requer 3 itens.
+&#x200B;3. Nomeie a estratégia de seleção **Estratégia de seleção do iPhone 17**
+&#x200B;4. Você pode ver que uma estratégia de seleção requer 3 itens.
    - Uma coleção de ofertas
    - Requisitos de elegibilidade
    - Um método de classificação
 
 Clique no botão **Selecionar coleção**, marque a caixa ao lado da única coleção que você tem (**coleção do iPhone 17**) e clique em **Salvar**.
 
-5. Deixe a lista suspensa &quot;Elegibilidade&quot; definida como Todos visitantes.
+&#x200B;5. Deixe a lista suspensa &quot;Elegibilidade&quot; definida como Todos visitantes.
 
 >[!NOTE]
 >
 >A elegibilidade pode ser aplicada no nível da oferta, do nível da estratégia de seleção ou do nível de Jornada/Campanha por meio dos critérios para inserção da Jornada ou Campanha. Tudo depende do caso de uso que você está tentando perceber. Se você clicar no menu suspenso **Qualificação**, verá as mesmas opções de Público-alvo e Regra de decisão que viu no nível da oferta. No nosso caso de uso, queríamos apenas limitar ofertas específicas, portanto, fazia sentido fazer a qualificação no nível da oferta.
 
-6. Defina o **Método de classificação** como **fórmula** e clique no botão **Selecionar fórmula**
+&#x200B;6. Defina o **Método de classificação** como **fórmula** e clique no botão **Selecionar fórmula**
 
 >[!NOTE]
 >
@@ -50,11 +50,11 @@ Clique no botão **Selecionar coleção**, marque a caixa ao lado da única cole
 >
 >A opção Modelo de IA usa um modelo de IA que analisa impressões, cliques e conversões de ofertas retornadas para determinar qual oferta exibir para o indivíduo. Não os usaremos neste laboratório, pois há limites mínimos de dados e duas semanas necessárias para treinar os modelos.
 
-7. Marque a caixa ao lado da única fórmula de Classificação que você tem (**Fórmula de Classificação do iPhone 17**) e clique em **Salvar**. Quando terminar, sua estratégia de seleção terá esta aparência:
+&#x200B;7. Marque a caixa ao lado da única fórmula de Classificação que você tem (**Fórmula de Classificação do iPhone 17**) e clique em **Salvar**. Quando terminar, sua estratégia de seleção terá esta aparência:
 
 ![Estratégia de seleção concluída com coleção, qualificação e conjunto de fórmulas de classificação](assets/create-selection-strategy-completed-configuration.png)
 
-8. Quando a estratégia de seleção estiver correta, clique no botão azul **Criar**.
+&#x200B;8. Quando a estratégia de seleção estiver correta, clique no botão azul **Criar**.
 
 >[!TIP]
 >

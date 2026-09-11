@@ -65,7 +65,7 @@ ht-degree: 0%
 
 1. Para se recuperar dos erros, vá para **Fontes->Fluxos de Dados->Nome do Fluxo de Dados->Atualizar fluxo de dados** e corrija seus mapeamentos.
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Você precisa recarregar o arquivo de amostra JSON excluindo-o e adicionando-o novamente para que o mapeador agora seja atualizado com uma nova cópia para validação.
 

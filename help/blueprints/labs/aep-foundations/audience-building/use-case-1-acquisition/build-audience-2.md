@@ -104,7 +104,7 @@ O marketing entrou hoje e nos deu um requisito para ter esse Streaming e, infeli
 
 
 
-3. Atualize a Descrição, o Nome e o Método de avaliação para Streaming no canto inferior direito e clique no ícone de pasta ao lado do Método de avaliação. Você deve ver isso:
+&#x200B;3. Atualize a Descrição, o Nome e o Método de avaliação para Streaming no canto inferior direito e clique no ícone de pasta ao lado do Método de avaliação. Você deve ver isso:
 
 ![Método de Avaliação definido como Streaming após clicar no ícone de pasta](assets/build-audience-2-evaluation-method-streaming-folder-icon.png)
 
@@ -124,7 +124,7 @@ Embora não seja óbvio, o motivo é que estamos usando o Nome do produto em um 
 
 
 
-4. Substitua o valor existente para que o nome do produto agora venha do esquema do Perfil individual XDM
+&#x200B;4. Substitua o valor existente para que o nome do produto agora venha do esquema do Perfil individual XDM
 
 Substitua o seguinte caminho:
 
@@ -140,13 +140,13 @@ Adicione o novo caminho:
 
 
 
-5. Altere o Método de avaliação para Streaming e clique no ícone de pasta
+&#x200B;5. Altere o Método de avaliação para Streaming e clique no ícone de pasta
 
 ![Altere o Método de Avaliação para Streaming e clique no ícone de pasta](assets/build-audience-2-change-evaluation-method-to-streaming.png)
 
 
 
-6. Forneça uma descrição para o novo Público-alvo qualificado de streaming.
+&#x200B;6. Forneça uma descrição para o novo Público-alvo qualificado de streaming.
 
 - Salve o público-alvo como &quot;*Proprietário do público-alvo do iPhone 14*&quot;.
 - Clique no botão azul **Ativar público-alvo** para destino
@@ -155,11 +155,11 @@ Adicione o novo caminho:
 
 
 
-7. Selecione o Destino do **Webhook de DEP de Streaming** e clique em **Avançar**
+&#x200B;7. Selecione o Destino do **Webhook de DEP de Streaming** e clique em **Avançar**
 
-8. Clique em **Avançar** e **Concluir**
+&#x200B;8. Clique em **Avançar** e **Concluir**
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Considerações sobre por que você pode querer selecionar Lote vs. Streaming ou Edge:
 >

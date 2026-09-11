@@ -38,20 +38,20 @@ O primeiro item de oferta mais fácil que você criar é a oferta substituta, qu
 
 ![Página vazia do catálogo de ofertas antes de criar qualquer item de oferta](assets/create-offer-items-empty-offers-page.png)
 
-3. Clique no botão azul **Criar item**. Isso abre a página &quot;Criar item de oferta&quot;.
-4. No campo &#39;Offer name&#39;, digite o texto **iphone:17\:generic**. Digite uma descrição se desejar.
+&#x200B;3. Clique no botão azul **Criar item**. Isso abre a página &quot;Criar item de oferta&quot;.
+&#x200B;4. No campo &#39;Offer name&#39;, digite o texto **iphone:17\:generic**. Digite uma descrição se desejar.
 
 >[!NOTE]
 >
 >A convenção de nomenclatura separada por dois-pontos, totalmente em minúsculas, é apenas um de nossos designs que pode servir como um modelo a ser seguido para um cliente real. Na prática, você pode desenvolver uma estratégia de nomenclatura diferente para seus itens de oferta. Certifique-se de que ele esteja documentado e consistente antes de criar itens de oferta. Isso garantirá que os itens de oferta sejam fáceis de encontrar e agrupados em coleções. Mais informações sobre isso depois.
 
-5. Como esse é o item de oferta de prioridade mais baixa/padrão, deixe a Prioridade padrão como 1.
+&#x200B;5. Como esse é o item de oferta de prioridade mais baixa/padrão, deixe a Prioridade padrão como 1.
 
 >[!NOTE]
 >
 >Na Decisão, quanto menor o número, menor a prioridade. Por exemplo, um item de oferta com prioridade 100 é mostrado antes de um item de oferta com prioridade 1
 
-6. Expanda o item **Dispositivo** na área &#39;Atributos personalizados&#39; e insira as seguintes informações nas caixas de texto:
+&#x200B;6. Expanda o item **Dispositivo** na área &#39;Atributos personalizados&#39; e insira as seguintes informações nas caixas de texto:
    - Camada: **Genérica**
    - Modelo: **17**
    - Marca: **iPhone**
@@ -70,14 +70,14 @@ Esses são os valores de texto reais que descrevem a oferta e o que pode ser usa
 >
 >A seção anterior mencionou a necessidade de ter muito cuidado ao adicionar atributos personalizados ao esquema &quot;Itens de oferta personalizados - Decisão da experiência&quot; gerado pelo sistema. Cada nó personalizado adicional será exibido como um campo possível para cada item de oferta que estiver avançando. A criação de atributos desnecessários ou específicos da campanha sobrecarregará a interface de criação do item de oferta e poderá causar confusão.
 
-7. Clique no botão azul **Avançar** no canto superior direito para seguir para a próxima etapa.
-8. Essa oferta deve estar disponível para todos/Todos os visitantes e não ter limite de frequência, portanto, não há necessidade de fazer alterações nas seções &quot;Qualificação&quot; ou &quot;Limite&quot;. Clique no botão azul **Avançar** novamente para prosseguir para a última etapa.
-9. Na etapa &quot;Revisar&quot;, verifique se todos os dados estão corretos:
+&#x200B;7. Clique no botão azul **Avançar** no canto superior direito para seguir para a próxima etapa.
+&#x200B;8. Essa oferta deve estar disponível para todos/Todos os visitantes e não ter limite de frequência, portanto, não há necessidade de fazer alterações nas seções &quot;Qualificação&quot; ou &quot;Limite&quot;. Clique no botão azul **Avançar** novamente para prosseguir para a última etapa.
+&#x200B;9. Na etapa &quot;Revisar&quot;, verifique se todos os dados estão corretos:
 
 ![Etapa de revisão que confirma os detalhes do item de oferta genérico antes de salvar](assets/create-offer-items-generic-offer-review-step.png "Etapa de revisão que confirma os detalhes do item de oferta genérico antes de salvar")
 
-10. Faça as alterações necessárias. Quando estiver pronto, clique no botão azul **Salvar**.
-11. Depois de salvo, um botão branco &quot;Aprovar&quot; é exibido onde o botão &quot;Salvar&quot; costumava estar. Clique no botão branco **Aprovar** para aprovar esse item de oferta. Você verá um indicador verde &quot;Aprovado&quot; abaixo do título do item de oferta:
+&#x200B;10. Faça as alterações necessárias. Quando estiver pronto, clique no botão azul **Salvar**.
+&#x200B;11. Depois de salvo, um botão branco &quot;Aprovar&quot; é exibido onde o botão &quot;Salvar&quot; costumava estar. Clique no botão branco **Aprovar** para aprovar esse item de oferta. Você verá um indicador verde &quot;Aprovado&quot; abaixo do título do item de oferta:
 
 ![Indicador verde aprovado no item de oferta genérico](assets/create-offer-items-generic-offer-approved.png)
 
@@ -85,7 +85,7 @@ Esses são os valores de texto reais que descrevem a oferta e o que pode ser usa
 >
 >Na prática, e com ofertas mais complexas, um processo de aprovação adequado deve estar em vigor para garantir que os itens da oferta tenham sido criados corretamente. Para economizar tempo nesse laboratório, basta aprovar cada item de oferta criado.
 
-12. Clique na **seta para a esquerda** ao lado do título do item de oferta para retornar à página &#39;Ofertas&#39; e você verá sua oferta iphone:17\:generic listada.
+&#x200B;12. Clique na **seta para a esquerda** ao lado do título do item de oferta para retornar à página &#39;Ofertas&#39; e você verá sua oferta iphone:17\:generic listada.
 
 ## Criar item de oferta de modelo base
 
@@ -104,9 +104,9 @@ Quando terminar, o item de oferta ficará assim (a caixa vermelha é adicionada 
 
 Quando tudo estiver correto, clique no botão azul **Avançar** para prosseguir para a próxima etapa.
 
-4. Esse item de oferta deve estar disponível para todos, portanto, não há requisito de qualificação; no entanto, ele deve ser limitado a 3 impressões por dia. Clique no botão &#39;**+ Criar limite&#39;**.
-5. Na nova regra de limite, altere o **Escolher evento de limite** para **Impressão.**
-6. Altere a **Contagem de eventos de limite** para **3**. Depois de concluída, sua regra de limitação tem esta aparência:
+&#x200B;4. Esse item de oferta deve estar disponível para todos, portanto, não há requisito de qualificação; no entanto, ele deve ser limitado a 3 impressões por dia. Clique no botão &#39;**+ Criar limite&#39;**.
+&#x200B;5. Na nova regra de limite, altere o **Escolher evento de limite** para **Impressão.**
+&#x200B;6. Altere a **Contagem de eventos de limite** para **3**. Depois de concluída, sua regra de limitação tem esta aparência:
 
 ![Regra de limite para a oferta base definida como 3 impressões](assets/create-offer-items-base-offer-capping-rule.png)
 
@@ -117,14 +117,13 @@ Depois de corrigido, clique no botão azul **Criar** para salvar a regra de limi
 >Observe como criar uma regra de limite adicional. Na prática, talvez você queira adicionar mais de uma regra. Nesse caso, poderíamos ter adicionado uma regra para limitar isso se um evento específico fosse visto, como um evento de compra. Esse laboratório mantém a simplicidade com uma única regra de limitação.
 >
 >![Exemplo de uma regra de limitação adicional baseada em um evento de compra](assets/create-offer-items-additional-capping-rule-example.png)
-
 > [!NOTE]
 >
 >Os &quot;dias&quot; mencionados nas regras de limite de frequência se referem aos dias no fuso horário GMT.  O limite de frequência com dias na lógica é redefinido à meia-noite, GMT.
 
-7. Clique em **Avançar** para prosseguir para a etapa de revisão.
-8. Verifique se tudo aparece conforme o esperado e clique no botão **Salvar**. Depois de salvo, clique em **Aprovar.**
-9. Depois de aprovado, clique na seta à esquerda ao lado do título e retorne à página de ofertas. Agora você vê duas ofertas, cada uma com a prioridade apropriada.
+&#x200B;7. Clique em **Avançar** para prosseguir para a etapa de revisão.
+&#x200B;8. Verifique se tudo aparece conforme o esperado e clique no botão **Salvar**. Depois de salvo, clique em **Aprovar.**
+&#x200B;9. Depois de aprovado, clique na seta à esquerda ao lado do título e retorne à página de ofertas. Agora você vê duas ofertas, cada uma com a prioridade apropriada.
 
 ![Página de ofertas listando os itens de oferta genéricos e básicos com suas prioridades](assets/create-offer-items-first-two-offers-priority.png)
 
@@ -140,18 +139,18 @@ Agora que as ofertas do modelo genérico e do modelo base foram criadas, é poss
 
 ![Qualificação de item de oferta profissional e configuração de limite para 3 impressões por dia](assets/create-offer-items-pro-offer-eligibility-capping.png)
 
-6. Depois de verificar que tudo está correto, clique em **Avançar**. A configuração do item de oferta final é semelhante a:
+&#x200B;6. Depois de verificar que tudo está correto, clique em **Avançar**. A configuração do item de oferta final é semelhante a:
 
 ![Configuração concluída para o item de oferta da camada Pro](assets/create-offer-items-pro-offer-final-config.png)
 
-7. Quando tudo estiver correto, **Salve** e **Aprove** o item de oferta.
-8. Retorne à página de ofertas e verifique se as 3 ofertas estão lá e se cada uma tem a prioridade adequada.
-9. Crie o item de oferta final e nomeie-o como **iphone:17\:ultra,** dê a ele uma prioridade **4,** e defina os outros atributos personalizados com os mesmos valores que as outras ofertas.
-10. Assim como no último item de oferta, defina a qualificação para a regra de decisão &quot;Planos de nível superior&quot; e defina um limite de frequência de 3 impressões por dia. Quando terminar, seu item de oferta ficará assim:
+&#x200B;7. Quando tudo estiver correto, **Salve** e **Aprove** o item de oferta.
+&#x200B;8. Retorne à página de ofertas e verifique se as 3 ofertas estão lá e se cada uma tem a prioridade adequada.
+&#x200B;9. Crie o item de oferta final e nomeie-o como **iphone:17\:ultra,** dê a ele uma prioridade **4,** e defina os outros atributos personalizados com os mesmos valores que as outras ofertas.
+&#x200B;10. Assim como no último item de oferta, defina a qualificação para a regra de decisão &quot;Planos de nível superior&quot; e defina um limite de frequência de 3 impressões por dia. Quando terminar, seu item de oferta ficará assim:
 
 ![Configuração concluída para o item de oferta da Camada Ultramarina](assets/create-offer-items-ultra-offer-final-config.png)
 
-11. Depois de verificar se todas as configurações estão corretas, salve e aprove este item de oferta. Agora você vê todos os quatro itens de oferta, cada um com uma prioridade exclusiva.
+&#x200B;11. Depois de verificar se todas as configurações estão corretas, salve e aprove este item de oferta. Agora você vê todos os quatro itens de oferta, cada um com uma prioridade exclusiva.
 
 ![Página de ofertas listando todos os quatro itens de oferta com prioridades exclusivas](assets/create-offer-items-all-four-offers-priority.png)
 

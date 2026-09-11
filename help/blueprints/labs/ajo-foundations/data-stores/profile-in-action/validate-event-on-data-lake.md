@@ -21,7 +21,7 @@ Verifique se o evento da Web foi gravado no Experience Platform Data Lake.
 
 ## Validar evento
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Por fim, os dados aparecerão no Data Lake.  **Isso pode levar até 60 minutos**.  Sabemos que o conjunto de dados está ativado para o perfil e, portanto, o evento criará um fragmento de perfil.
 >
@@ -31,16 +31,16 @@ Verifique se o evento da Web foi gravado no Experience Platform Data Lake.
 
 ![Tela Criar Consulta na seção Consultas](assets/validate-event-on-data-lake-create-query.png)
 
-2. Copiar este SQL e colá-lo em sua query
+&#x200B;2. Copiar este SQL e colá-lo em sua query
 
 ```sql
 SELECT identityMap['email'][0].id, * FROM dep_web
 where identityMap['email'][0].id = 'henry.creel@emailsim.io'
 ```
 
-3. **Executar** Consulta
+&#x200B;3. **Executar** Consulta
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >**Lembre-se**: os dados acabarão aparecendo no Data Lake.  **Isso pode levar até 60 minutos**.
 >

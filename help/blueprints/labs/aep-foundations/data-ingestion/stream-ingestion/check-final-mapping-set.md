@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Mapeamentos de passagem
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Verifique se o mapeamento final corresponde ao mostrado abaixo antes de continuar.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 | concat(date\_part(&quot;mm&quot;, date(birth\_Date, &quot;aaaa-M-d&quot;)).toString(), &quot;-&quot;, date\_part(&quot;dd&quot;, date(birth\_Date, &quot;aaaa-M-d&quot;)).toString()) | person.birthDayAndMonth |
 | date\_part(&quot;aaaa&quot;,date(birth\_Date,&quot;yyyy-M-d&quot;)) | person.birthYear |
 
-> [!NOTE]
+&#x200B;> [!NOTE]
 >
 >Verifique se o mapeamento final corresponde ao mostrado abaixo antes de continuar
 

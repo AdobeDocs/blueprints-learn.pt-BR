@@ -39,7 +39,7 @@ Confirme se o evento foi assimilado com êxito no Adobe Experience Platform.
 
 
 
-3. Validar se o Perfil se qualificou para os **Públicos-alvo** (pode levar alguns minutos).
+&#x200B;3. Validar se o Perfil se qualificou para os **Públicos-alvo** (pode levar alguns minutos).
    - Qualquer Edge de evento (em 15 minutos)
    - Qualquer transmissão de evento (em 15 minutos)
 
@@ -56,8 +56,8 @@ Agora que você validou que o Perfil foi recebido, envie alguns eventos de pedid
 
 ![Endereço de email alterado no corpo da solicitação do Postman](assets/validate-event-ingested-change-email-in-postman-body.png)
 
-3. **Salvar** e pressionar **Enviar**.
-4. Retorne às etapas 1 a 3 e valide usando seu endereço de email.
+&#x200B;3. **Salvar** e pressionar **Enviar**.
+&#x200B;4. Retorne às etapas 1 a 3 e valide usando seu endereço de email.
 
 ## Recapitulação
 

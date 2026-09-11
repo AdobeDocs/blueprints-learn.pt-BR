@@ -23,7 +23,7 @@ Por meio dessas etapas, você demonstrou como os eventos se movem pelas camadas 
 
 
 
-> [!TIP]
+&#x200B;> [!TIP]
 >
 >**SE ESTIVER LENDO ISSO SIGNIFICA QUE VOCÊ ESTÁ NO FINAL DO LABORATÓRIO.**
 >
