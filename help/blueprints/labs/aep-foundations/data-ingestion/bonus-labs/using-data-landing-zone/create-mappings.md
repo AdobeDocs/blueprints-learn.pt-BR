@@ -1,0 +1,19 @@
+---
+title: Criar mapeamentos
+description: Aplique técnicas anteriores do laboratório para mapear independentemente um arquivo de origem da Data Landing Zone ao esquema XDM de destino.
+doc-type: article
+solution: Experience Platform
+exl-id: 80052fd3-a824-4b71-ae7e-ce587f925950
+source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 0%
+
+---
+
+
+# Criar mapeamentos
+
+Veja se você consegue descobrir como mapear o arquivo com êxito usando o que você fez em laboratórios anteriores.
+
+![Exemplo de tela de mapeamento de fluxo de dados para o arquivo de origem da Zona de Aterrissagem de Dados](assets/create-mappings-ai-ml-based-contextual-recommendations.png)
