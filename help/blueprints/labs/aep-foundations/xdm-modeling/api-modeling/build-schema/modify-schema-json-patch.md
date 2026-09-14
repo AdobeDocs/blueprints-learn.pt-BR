@@ -19,7 +19,7 @@ Suponha que, depois de criar o esquema, você precise adicionar outro campo ao o
 Saiba mais sobre o JSON PATCH nos links abaixo. Para este laboratório, suponha que você tenha um entendimento geral de como funciona.
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Fundamentos da API do Experience League](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
+- [Fundamentos da API do Experience League](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=pt-BR#json-patch)
 
 ![Diagrama de correção de um campo planDescription ausente em um esquema existente](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "Patch em uma Descrição de Plano de Campo Ausente")
 

@@ -108,4 +108,4 @@ Para parar o **Modo de teste** da campanha, clique no botão **Parar**
 
 Agora você viu como testar a campanha criada para entender o fluxo e o comportamento. Aqui, as nuances de usar as diferentes configurações para a configuração do canal de email eram bem compreendidas durante a execução do fluxo de teste.
 
-Leia mais sobre o modo de teste de campanha [aqui](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) se estiver interessado.
+Leia mais sobre o modo de teste de campanha [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) se estiver interessado.

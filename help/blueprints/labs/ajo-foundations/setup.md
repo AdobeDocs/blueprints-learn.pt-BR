@@ -40,7 +40,7 @@ Dois laboratórios posteriormente neste treinamento de inicialização dependem 
 
 ### Subdomínio delegado
 
-O laboratório [Configurar canais de email](data-stores/configure-email-channels/overview.md) — e tudo o que depende dele ([Entrega de mensagens em ação](orchestrated-campaigns/message-delivery-in-action/overview.md), [Excitação pós-compra](journeys/post-purchase-excitement/overview.md) e [Marcas da AJO](content-authoring-with-ai/overview.md)) — requer um subdomínio delegado à Adobe para enviar emails. Se você ainda não tiver um domínio, registre-o com qualquer registrador de domínio (por exemplo, Namecheap). Em seguida, para delegar um subdomínio dele (por exemplo, `email.yourdomain.com`) ao Adobe, siga as [instruções de delegação de subdomínio](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain) da Adobe.
+O laboratório [Configurar canais de email](data-stores/configure-email-channels/overview.md) — e tudo o que depende dele ([Entrega de mensagens em ação](orchestrated-campaigns/message-delivery-in-action/overview.md), [Excitação pós-compra](journeys/post-purchase-excitement/overview.md) e [Marcas da AJO](content-authoring-with-ai/overview.md)) — requer um subdomínio delegado à Adobe para enviar emails. Se você ainda não tiver um domínio, registre-o com qualquer registrador de domínio (por exemplo, Namecheap). Em seguida, para delegar um subdomínio dele (por exemplo, `email.yourdomain.com`) ao Adobe, siga as [instruções de delegação de subdomínio](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain) da Adobe.
 
 >[!NOTE]
 >

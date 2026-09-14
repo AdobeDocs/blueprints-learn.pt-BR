@@ -182,4 +182,4 @@ Um novo segmento com o nome **Result** foi criado
 
 Agora você viu como é fácil criar uma Campanha e executar uma atividade Ler público junto com o Dimension do Direcionamento de perfil para usar o esquema relacional. Você usou a atividade Split para dividir o público com base em uma condição. Por fim, o modo de teste ajudou a entender que é importante ter a consistência de dados entre o Perfil e o esquema Relacional.
 
-Você pode ler mais [aqui](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience), se estiver interessado.
+Você pode ler mais [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience), se estiver interessado.
