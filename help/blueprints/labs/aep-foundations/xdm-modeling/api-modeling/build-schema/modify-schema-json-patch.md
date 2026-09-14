@@ -133,7 +133,7 @@ O caminho totalmente composto se parece com o que você vê abaixo.  Copie este 
 2. Atualize o corpo da solicitação com as seguintes informações
 
    - **op** ->` add`
-   - **caminho** -> `path from previous step +`` the new field name`
+   - **caminho** -> `path from previous step +`&#x200B;` the new field name`
    - **valor** ->
      - **título** -> `Plan Description`
      - **tipo** -> `string`

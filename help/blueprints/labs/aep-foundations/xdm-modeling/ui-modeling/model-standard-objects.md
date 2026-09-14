@@ -82,7 +82,7 @@ Existem muitos grupos de campos que existem como XDM padrão no Adobe Experience
 
 
 
-3. **Marque** a caixa de seleção ao lado do grupo de campos e clique no botão **Adicionar grupos de campos**
+&#x200B;3. **Marque** a caixa de seleção ao lado do grupo de campos e clique no botão **Adicionar grupos de campos**
 
 ![Selecione o grupo de campos Detalhes Demográficos para adicioná-lo ao esquema](assets/model-standard-objects-select-demographic-details-field-group.png "Selecione o grupo de campos Detalhes Demográficos para adicioná-lo ao esquema")
 
