@@ -4,13 +4,11 @@ description: Crie um esquema de Perfil individual na interface do usuário e adi
 doc-type: article
 solution: Experience Platform
 exl-id: ea516c0b-3644-483c-a167-0264cc795449
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '990'
 ht-degree: 0%
-
 ---
-
 
 # Objetos padrão de modelo
 
@@ -52,7 +50,7 @@ ht-degree: 0%
 
 ## Nomeie seu esquema
 
-Os esquemas baseados em classe de Perfil individual XDM permitem coletar atributos sobre um indivíduo que será anexado ao perfil. A própria classe contém campos que não são editáveis, como *modifiedByBatchID*, *PersonID*, etc.
+Os esquemas baseados em classe de Perfil individual XDM permitem coletar atributos sobre um indivíduo que são compilados no perfil. A própria classe contém campos que não são editáveis, como *modifiedByBatchID*, *PersonID*, etc.
 
 1. Dê um nome e uma descrição ao esquema.
    - **Nome para Exibição do Esquema** —> *Conta do Cliente - \[Suas Iniciais]*
@@ -63,7 +61,7 @@ Os esquemas baseados em classe de Perfil individual XDM permitem coletar atribut
 
 ## Adicionar grupo de campos de Detalhes Demográficos
 
-Existem muitos grupos de campos que existem como XDM padrão no Adobe Experience Platform para você adicionar ao esquema e personalizar.
+Existem muitos grupos de campos que existem como XDM padrão no Adobe Experience Platform para você adicionar ao esquema e personalizá-los.
 
 1. Clique em **+ (adicionar)** no painel esquerdo da seção grupo de campos.
 
@@ -73,7 +71,7 @@ Existem muitos grupos de campos que existem como XDM padrão no Adobe Experience
 
 1. Pesquise por **Detalhes Demográficos** ou localize-os navegando na lista.
 
-   - Ao localizar o grupo de campos, clique na lupa à direita do grupo de campos para exibir sua estrutura.  Essa é uma maneira útil de visualizar o que você está prestes a adicionar ao esquema sem realmente adicioná-lo.
+   - Ao localizar o grupo de campos, clique na lupa à direita do grupo de campos para exibir sua estrutura.  Essa etapa é uma maneira útil de visualizar o que você está prestes a adicionar ao esquema sem adicioná-lo.
    - Fechar a visualização ao concluir a revisão
 
 
@@ -84,7 +82,7 @@ Existem muitos grupos de campos que existem como XDM padrão no Adobe Experience
 
 
 
-&#x200B;3. **Marque** a caixa de seleção ao lado do grupo de campos e clique no botão **Adicionar grupos de campos**
+3. **Marque** a caixa de seleção ao lado do grupo de campos e clique no botão **Adicionar grupos de campos**
 
 ![Selecione o grupo de campos Detalhes Demográficos para adicioná-lo ao esquema](assets/model-standard-objects-select-demographic-details-field-group.png "Selecione o grupo de campos Detalhes Demográficos para adicioná-lo ao esquema")
 
@@ -96,7 +94,7 @@ Você precisa adicionar outros grupos de campos padrão ao esquema. Repita as et
 - Detalhes de contato pessoal
 - Detalhes sobre consentimento e preferência
 
-Quando você terminar, seu esquema deverá ter a aparência da imagem abaixo. Certifique-se de clicar no botão **Salvar** e salvar seu trabalho!
+Quando terminar, seu esquema ficará parecido com a imagem abaixo. Certifique-se de clicar no botão **Salvar** e salvar seu trabalho!
 
 ![Esquema após adicionar grupos de campos Detalhes Demográficos, Detalhes de Contato Pessoal e Detalhes de Consentimento e Preferência](assets/model-standard-objects-final-schema-after-adding-field-groups.png "Esquema final após salvar ")
 
@@ -120,7 +118,7 @@ O grupo de campos Detalhes demográficos trazia vários campos, mas com base no 
 - person.birthDayAndMonth
 - person.birthYear
 
-Para remover campos de qualquer grupo de campos padrão do Adobe, você pode utilizar a opção **Gerenciar campos relacionados**. Gerenciar campos relacionados permite remover campos padrão do esquema, de modo que você só fica com os campos necessários.
+Para remover campos de qualquer grupo de campos padrão do Adobe, use a opção **Gerenciar campos relacionados**. Gerenciar campos relacionados permite remover campos padrão do esquema, de modo que apenas os campos necessários permaneçam.
 
 1. Selecione o objeto **pessoa** no esquema
 1. Clique no **Gerenciar campos relacionados** no painel direito
@@ -146,7 +144,7 @@ Para remover campos de qualquer grupo de campos padrão do Adobe, você pode uti
 
 
 
-1. Quando terminar, você deverá ver o objeto person no esquema, como mostrado abaixo. Se tudo estiver bem, clique no botão **Salvar** para salvar seu esquema.
+1. Quando terminar, você deverá ver o objeto person no esquema, como mostrado abaixo. Para salvar seu esquema, clique no botão **Salvar** se tudo estiver bem.
 
 ![Objeto de pessoa de Detalhes Demográficos Finais com apenas os campos necessários](assets/model-standard-objects-final-demographic-details-person-object.png "grupo de campos Detalhes Demográficos Finais com apenas campos necessários")
 
@@ -155,7 +153,7 @@ Para remover campos de qualquer grupo de campos padrão do Adobe, você pode uti
 Execute o mesmo conjunto de etapas que executou anteriormente, mas desta vez para o grupo de campos Consentimento e Preferências.
 
 1. Clique no nome do grupo de campos **Consentimento e Preferências** no painel à esquerda para realçar seus campos no esquema.
-1. Selecione o objeto **consentimentos** e use o processo **Gerenciar campos relacionados** para remover campos desnecessários do objeto de consentimento. Manter apenas os seguintes campos:
+1. Selecione o objeto **consentimentos** e use o processo **Gerenciar campos relacionados** para remover campos desnecessários do objeto de consentimentos. Manter apenas os seguintes campos:
 
 - consentimentos.marketing.email.val
 - consentimentos.marketing.sms.val
@@ -168,10 +166,10 @@ Execute o mesmo conjunto de etapas que executou anteriormente, mas desta vez par
 
 
 
-Quando terminar, o esquema final deverá ter esta aparência.  Certifique-se de clicar em **Salvar** antes de continuar.
+Quando terminar, seu esquema final ficará assim. Certifique-se de clicar em **Salvar** antes de continuar.
 
 ![Esquema após gerenciar campos relacionados do grupo de campos Consentimento e Preferências](assets/model-standard-objects-final-consent-and-preferences-fields.png "Campos relacionados gerenciados do grupo de campos Consentimento e Preferências")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Agora você terminou de adicionar componentes padrão ao esquema. Excelente trabalho! Continue criando alguns atributos personalizados para seu esquema.

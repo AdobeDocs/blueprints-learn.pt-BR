@@ -4,17 +4,15 @@ description: Verifique se o ambiente do Postman pode recuperar a sandbox do Expe
 doc-type: article
 solution: Experience Platform
 exl-id: c841e497-a695-4d3f-85e6-d653478cad1e
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%
-
 ---
-
 
 # Acesso à sandbox
 
-Antes de continuar, verifique se seu acesso é legítimo. Execute as seguintes etapas:
+Antes de continuar, verifique se seu acesso é válido. Execute as seguintes etapas:
 
 1. Abra a pasta `Check Sandbox Access` e clique na chamada `Retrieve Your Sandbox`
 1. Em seguida, no canto superior direito do Postman, é exibida uma caixa suspensa Ambiente.  Certifique-se de selecionar o ambiente `AEP Bootcamp`
@@ -24,14 +22,14 @@ Antes de continuar, verifique se seu acesso é legítimo. Execute as seguintes e
 
 
 
-Uma resposta bem-sucedida tem a seguinte aparência:
+Uma resposta bem-sucedida tem esta aparência:
 
-![Resposta OK de &lbrace;200 confirmando a recuperação bem-sucedida da sandbox atribuída](assets/sandbox-access-successful-response.png "Solicitação de sandbox bem-sucedida de ")
+![Resposta OK de {200 confirmando a recuperação bem-sucedida da sandbox atribuída](assets/sandbox-access-successful-response.png "Solicitação de sandbox bem-sucedida de ")
 
 >[!NOTE]
 >
 >O valor **name** deve corresponder à variável sandbox\_name em seu ambiente do Postman
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns!  Você está pronto para começar a usar as APIs do Experience Platform

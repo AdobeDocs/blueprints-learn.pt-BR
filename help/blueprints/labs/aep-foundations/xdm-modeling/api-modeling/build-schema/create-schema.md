@@ -4,13 +4,11 @@ description: Use a API do registro de esquema para montar um esquema do cliente 
 doc-type: article
 solution: Experience Platform
 exl-id: 78ebc5b8-d088-48e9-857f-87085a87a280
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 
 # Criar esquema
 
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->**Não executar a chamada...ainda**
+>**Não executar a chamada ainda**
 
 1. Clique na chamada à API `Step 4 - Create Customer Account Schema` na pasta `XDM Schema Lab -> Create Schema`.
 
@@ -33,7 +31,7 @@ ht-degree: 0%
    - Título -> `Sample Customer Schema - <your sandbox number>`
    - Descrição -> `Sample Customer Schema - <your sandbox number>`
 
-4. Preencha os campos `$ref` com o `$ids` que você salvou das seções de laboratório anteriores que você concluiu: [Criar Grupos de Campos Personalizados](./create-custom-field-groups.md) e [Obter Classe de Perfil](./get-profile-class.md). Você deve ter $ids para cada um dos seguintes itens:
+4. Preencha os campos `$ref` com o `$ids` que você salvou das seções de laboratório anteriores que você concluiu: [Criar grupos de campos personalizados](./create-custom-field-groups.md) e [Obter classe de perfil](./get-profile-class.md). Você tem $ids para cada um dos seguintes itens:
 
    - Classe -> Perfil individual XDM
    - Grupo de campos -> Detalhes demográficos
@@ -78,6 +76,6 @@ Uma resposta bem-sucedida para criar o esquema deve resultar em um status `201 C
 >
 >Não continue até que você tenha salvo `$id` e `$meta:altId` em algum lugar.  Eles serão necessários em etapas futuras do laboratório
 
->[!TIP]
+>[!SUCCESS]
 >
->**Parabéns! Você acabou de criar um esquema usando apenas as APIs**
+>**Parabéns! Você criou um esquema usando apenas as APIs**

@@ -4,24 +4,22 @@ description: Use uma chamada à API JSON PATCH para adicionar um novo campo a um
 doc-type: article
 solution: Experience Platform
 exl-id: c0313594-d998-4525-a0a4-d9d844bed5ef
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '805'
 ht-degree: 0%
-
 ---
-
 
 # Modificar esquema - Patch JSON
 
 ## Visão geral
 
-Considere por um minuto que, depois de criar o esquema, você precisa voltar e adicionar outro campo ao objeto `plan` chamado `planDescription`, pois você esqueceu de adicioná-lo no momento da criação ou foi uma solicitação recebida meses depois.  Para executar esta tarefa, basta executar uma operação `PATCH` que atualiza o esquema com o novo campo.
+Suponha que, depois de criar o esquema, você precise adicionar outro campo ao objeto `plan` chamado `planDescription`. Essa necessidade pode ocorrer porque você esqueceu de adicioná-la ao criar o esquema ou porque foi uma solicitação recebida meses depois. Para executar esta tarefa, execute uma operação `PATCH` que atualize o esquema com o novo campo.
 
-Você pode saber mais sobre o JSON PATCH nos links abaixo, mas para os fins deste laboratório, suponha que você tenha algum conceito de como isso funciona 😄
+Saiba mais sobre o JSON PATCH nos links abaixo. Para este laboratório, suponha que você tenha um entendimento geral de como funciona.
 
 - [https://jsonpatch.com/](https://jsonpatch.com/)
-- [Fundamentos da API do Experience League](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=pt-BR#json-patch)
+- [Fundamentos da API do Experience League](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-fundamentals.html?lang=en#json-patch)
 
 ![Diagrama de correção de um campo planDescription ausente em um esquema existente](assets/modify-schema-json-patch-patching-missing-plan-description-field.png "Patch em uma Descrição de Plano de Campo Ausente")
 
@@ -29,16 +27,16 @@ Você pode saber mais sobre o JSON PATCH nos links abaixo, mas para os fins dest
 >
 >Lembre-se dos seguintes pontos:
 >
->- Um esquema é composto de uma (1) classe e um (1) ou mais grupos de campos
->- Não é possível adicionar novos campos diretamente a um esquema sem primeiro adicionar a um grupo de campos. Isso garante a reutilização de um campo em qualquer esquema que utilize esse grupo de campos.
+>- Um esquema é composto por uma classe e um ou mais grupos de campos
+>- Você deve adicionar novos campos a um grupo de campos antes de adicioná-los a um esquema. Essa restrição garante a reutilização de um campo em qualquer esquema que utilize esse grupo de campos.
 
 
 
-Para adicionar um novo campo a um esquema, é necessário executar as seguintes operações em ordem.  Isso é o que você faz nas seguintes etapas do laboratório.
+Para adicionar um novo campo a um esquema, é necessário executar as seguintes operações em ordem. Esse processo é o que você faz nas seguintes etapas de laboratório.
 
 - Identifique o grupo de campos no qual você deseja adicionar a nova propriedade
 - Construir uma chamada JSON PATCH para atualizar o grupo de campos
-- Executar a chamada JSON PATCH para atualizar o grupo de Campos (que o esquema herdará)
+- Executar a chamada JSON PATCH para atualizar o grupo de campos (herdado pelo esquema)
 
 
 
@@ -57,17 +55,17 @@ Para adicionar um novo campo a um esquema, é necessário executar as seguintes 
 
 1. Na resposta, pesquise a ID do esquema do grupo de campos personalizado que você criou com o título anterior `Customer Account Details - Sandbox <your number here> `
 
-1. Copie o `$meta:altId` e salve-o em um local seguro, pois ele será necessário para a próxima etapa
+1. Copie o `$meta:altId` e salve-o em um local seguro, conforme necessário, para a próxima etapa
 
 ![Localizando o grupo de campos Detalhes da Conta do Cliente na resposta da API](assets/modify-schema-json-patch-search-field-group-response.jpeg "Pesquisar a resposta do Grupo de Campos Detalhes da Conta do Cliente")
 
 >[!CAUTION]
 >
->Selecione o grupo de campos correto para copiar.  Existe um com o mesmo nome `dep: Customer Account Details` que você deve **não** usar
+>Selecione o grupo de campos correto para copiar. Não use o grupo de campos com nome semelhante chamado `dep: Customer Account Details`
 
 >[!WARNING]
 >
->Não continue até que você tenha salvo o `$meta:altId ` em algum lugar.  Ele será necessário em etapas futuras do laboratório
+>Você precisa do `$meta:altId` para as próximas etapas de laboratório, portanto salve-o em algum lugar antes de continuar
 
 
 
@@ -119,7 +117,7 @@ O caminho totalmente composto se parece com o que você vê abaixo.  Copie este 
 ```
 
 - **op (Operação)** -> fornece a instrução para qual ação o PATCH deve executar
-- **Caminho** -> este é o caminho que você deseja criar, atualizar ou excluir (isto é, este é o ponteiro JSON para o local do novo campo)
+- **Caminho** -> esse é o caminho que você deseja criar, atualizar ou excluir (ou seja, o ponteiro JSON para o local do novo campo)
 - **Valor** -> este campo é opcional e é usado somente ao criar ou substituir um campo existente
 
 
@@ -135,7 +133,7 @@ O caminho totalmente composto se parece com o que você vê abaixo.  Copie este 
 2. Atualize o corpo da solicitação com as seguintes informações
 
    - **op** ->` add`
-   - **caminho** -> `path from previous step +`&#x200B;` the new field name`
+   - **caminho** -> `path from previous step +`` the new field name`
    - **valor** ->
      - **título** -> `Plan Description`
      - **tipo** -> `string`
@@ -155,11 +153,11 @@ O caminho totalmente composto se parece com o que você vê abaixo.  Copie este 
 
 4. `Execute` a chamada para executar o PATCH
 
-Você deve ver uma resposta `200 OK ` e agora deve ver o campo `planDescription` em seu grupo de campos da seguinte maneira:
+Você vê uma resposta `200 OK` e o campo `planDescription` no seu grupo de campos, da seguinte forma:
 
 Resposta OK ![200 após corrigir com êxito o grupo de campos com planDescription](assets/modify-schema-json-patch-step-3-200-ok-successful-patch.png "Etapa 3 - 200 OK PATCH com Êxito")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns! Você atualizou com êxito um grupo/esquema de campos usando o JSON PATCH
 
@@ -167,6 +165,6 @@ Resposta OK ![200 após corrigir com êxito o grupo de campos com planDescriptio
 
 ## Visualizar a alteração na interface do usuário
 
-Navegue pelo esquema na interface do usuário e observe o campo recém-adicionado.  Muito legal, não é?
+Navegue pelo esquema na interface do usuário e visualize o campo recém-adicionado.
 
 ![Campo Descrição do plano visível no esquema após o patch de JSON na interface do usuário do Experience Platform](assets/modify-schema-json-patch-plan-description-added-to-field-group.png "Campo Descrição do plano adicionado ao grupo de campos Detalhes da conta do cliente - Sandbox \&lt;seu número>. Modificar JSON de Esquema")

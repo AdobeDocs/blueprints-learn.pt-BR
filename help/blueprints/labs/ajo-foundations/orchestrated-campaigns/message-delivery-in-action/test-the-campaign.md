@@ -4,19 +4,17 @@ description: Saiba como executar uma Campanha orquestrada no modo de teste e int
 doc-type: article
 solution: Experience Platform
 exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '660'
 ht-degree: 0%
-
 ---
-
 
 # Testar a campanha
 
 ## Objetivo
 
-No próximo conjunto de etapas, você executará a campanha no modo de teste para confirmar as funções da campanha, conforme esperado, antes de publicá-la. Nesse caso, o modo de teste não envia emails, mas ajuda a verificar todo o fluxo e identificar problemas antecipadamente.
+No próximo conjunto de etapas, execute a campanha no modo de teste para confirmar as funções da campanha, como esperado, antes de publicar a campanha. Nesse caso, o modo de teste não envia emails, mas ajuda a verificar todo o fluxo e identificar problemas antecipadamente.
 
 ## Iniciar o fluxo de trabalho
 
@@ -30,7 +28,7 @@ No próximo conjunto de etapas, você executará a campanha no modo de teste par
 
 
 
-2. A execução do teste de todas as atividades da campanha é iniciada, verifique os resultados
+2. A execução de teste de todas as atividades da campanha é iniciada. Verifique os resultados
 
 ![Execução de teste de atividades de campanha em andamento](assets/test-the-campaign-verify-execution-results.png)
 
@@ -38,7 +36,7 @@ No próximo conjunto de etapas, você executará a campanha no modo de teste par
 
 ## Relatório de email #1
 
-1. Para testar a entrega de email, clique na atividade **Enviar email usando o atributo de perfil** e, no painel direito, clique em **Executar teste**
+1. Para testar a entrega de email, clique na atividade **Email usando o atributo de perfil** e, no painel direito, clique em **Executar teste**
 
    ![Executar teste para email usando a atividade de atributo de perfil](assets/test-the-campaign-run-test-profile-attribute.png)
 
@@ -52,11 +50,11 @@ No próximo conjunto de etapas, você executará a campanha no modo de teste par
 
    >[!NOTE]
    >
-   >Talvez seja necessário atualizar a página algumas vezes para ver o resultado final do teste.
+   >Atualize a página algumas vezes, se necessário, para ver o resultado final do teste.
 
 
 
-4. Quando o teste de Email estiver concluído, os resultados serão apresentados. Há alguma porcentagem de erros; clique em **Exibir mais** para saber o motivo.
+4. Quando o teste de Email estiver concluído, os resultados serão apresentados. Há alguma porcentagem de erros; clique em **Exibir mais** para ver o motivo.
 
    ![Taxa de erros com Exibir mais links](assets/test-the-campaign-error-rate-view-more.png)
 
@@ -84,7 +82,7 @@ No próximo conjunto de etapas, você executará a campanha no modo de teste par
 
    ![Clique em Exibir relatório para ver os detalhes do teste de email](assets/test-the-campaign-view-report-2.png)
 
-3. Quando o teste de Email estiver concluído, os resultados serão apresentados. Nesse caso, não haverá erros
+3. Quando o teste de Email estiver concluído, os resultados serão apresentados. Nesse caso, não há erros
 
 ![Estatísticas de campanha sem erros](assets/test-the-campaign-campaign-statistics-2.png)
 
@@ -98,9 +96,9 @@ No próximo conjunto de etapas, você executará a campanha no modo de teste par
 
 ## Interromper o fluxo de trabalho
 
-Clique no botão **Parar** para parar o **Modo de teste** da campanha
+Para parar o **Modo de teste** da campanha, clique no botão **Parar**
 
->[!TIP]
+>[!SUCCESS]
 >
 >Ambas as configurações de canal de email foram testadas na mesma campanha, e foram observadas diferenças entre o uso de um atributo de perfil do AEP e o uso do Target Dimension na configuração do canal de email.
 >
@@ -110,4 +108,4 @@ Clique no botão **Parar** para parar o **Modo de teste** da campanha
 
 Agora você viu como testar a campanha criada para entender o fluxo e o comportamento. Aqui, as nuances de usar as diferentes configurações para a configuração do canal de email eram bem compreendidas durante a execução do fluxo de teste.
 
-Você pode ler mais sobre o modo de teste de campanha [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns), se estiver interessado.
+Leia mais sobre o modo de teste de campanha [aqui](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/launch/start-monitor-campaigns) se estiver interessado.

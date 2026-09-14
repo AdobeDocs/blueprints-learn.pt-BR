@@ -4,19 +4,17 @@ description: Crie campos e objetos personalizados de conta, plano e customerID n
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '988'
 ht-degree: 0%
-
 ---
-
 
 # Objetos personalizados do modelo
 
 ## Adição de campos personalizados
 
-Conforme discutido na palestra, não há grupos de campos ou tipos de dados padrão prontos para uso que modelem os campos personalizados da Conta do cliente.  Os campos abaixo atualmente são considerados personalizados e devem ser modelados dentro do esquema XDM.
+Conforme discutido na palestra, não há grupos de campos padrão pré-criados ou tipos de dados que modelem os campos personalizados da Conta do cliente.  Os campos abaixo atualmente são considerados personalizados e devem ser modelados dentro do esquema XDM.
 
 - \_\&lt;nome-do-locatário>.account.createDate
 - \_\&lt;nome-do-locatário>.account.endDate
@@ -27,7 +25,7 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
 
 >[!NOTE]
 >
->Observe que \&lt;nome-do-locatário> será específico para o ambiente em que você está trabalhando
+>Observe que \&lt;nome-do-locatário> é específico para o ambiente em que você está trabalhando
 
 
 
@@ -43,15 +41,15 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
 
 
 
-1. Crie o objeto de conta utilizando os detalhes abaixo. Quando terminar, clique no botão **Aplicar** no painel direito para ver a alteração no espaço de trabalho de esquema
+1. Crie o objeto de conta usando os detalhes abaixo. Quando terminar, clique no botão **Aplicar** no painel direito para ver a alteração no espaço de trabalho de esquema
 
 | Nome do campo | Nome de exibição | Tipo | Atribuir a um novo grupo de campos |
 | ---------- | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| *conta* | *Conta* | *Objeto* | *Detalhes da Conta do Cliente - \[Suas Iniciais]*<br />*(digite este item e selecione a lista suspensa ou pressione a tecla Enter)* |
+| *conta* | *Conta* | *Objeto* | *Detalhes da Conta do Cliente - \[Suas Iniciais]*<br />*(digite isto e selecione a lista suspensa ou pressione Enter)* |
 
 >[!WARNING]
 >
->Os nomes de campo precisam seguir uma capitalização específica. O motivo é que já pré-criamos o mesmo esquema que você está criando. Se sua caixa estiver desativada, isso causará um conflito com os caminhos de campo do esquema pré-existente na sandbox
+>Os nomes de campo precisam seguir uma capitalização específica. O motivo é que o mesmo esquema que você está criando já foi pré-criado. Se sua caixa estiver desativada, isso causará um conflito com os caminhos de campo do esquema pré-existente na sandbox
 
 ![Adicionando o objeto de conta com seu grupo de campos atribuído](assets/model-custom-objects-adding-the-account-object.png "Adicionando o objeto de conta")
 
@@ -61,7 +59,7 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
 
 >[!NOTE]
 >
->Observe que o novo grupo de campos personalizados aparece no painel esquerdo sob `Field groups` sem um ícone de cadeado.  Isso indica que é um grupo de campos criado de forma personalizada.
+>Observe que o novo grupo de campos personalizados aparece no painel esquerdo sob `Field groups` sem um ícone de cadeado.  Esse ícone de bloqueio ausente indica que é um grupo de campos criado de forma personalizada.
 
 >[!WARNING]
 >
@@ -70,7 +68,7 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
 
 
 
-1. Adicione os seguintes campos exibidos abaixo no objeto Account que você acabou de criar.
+1. Adicione os seguintes campos mostrados abaixo no objeto Account que você acabou de criar.
 
    | Nome do campo | Nome de exibição | Tipo |
    | ------------ | ------------- | ---------- |
@@ -83,7 +81,7 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
 
 
 
-1. Quando concluído, seu objeto de conta de esquemas deve ter a aparência abaixo. **Salve** seu esquema!
+1. Quando concluído, o objeto da conta do esquema será semelhante ao mostrado abaixo. **Salve** seu esquema!
 
 
 
@@ -97,7 +95,7 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
    | ----------- | ----------------- | -------- | --------------------------------------- |
    | *acqSource* | *Source adquirido* | *Cadeia de caracteres* | *Web :: Web *<br />*inStore :: InStore* |
 
-   Este campo precisa de valores padronizados, portanto, use a opção **Enumerar &amp; Valores sugeridos** nas propriedades dos campos. Selecione o botão de opção **Enumerar** para adicionar a validação para este campo na assimilação, bem como rótulos amigáveis. Adicione os valores de enumeração conforme mostrado abaixo:
+   Este campo precisa de valores padronizados, portanto, use a opção **Enumerar &amp; Valores sugeridos** nas propriedades do campo. Selecione o botão de opção **Enumerar** para adicionar a validação para este campo na assimilação, bem como rótulos amigáveis. Adicione os valores de enumeração conforme mostrado abaixo:
 
    - *Web :: Web*
    - *inStore :: InStore*
@@ -108,7 +106,7 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
 
    >[!NOTE]
    >
-   >A meta de Enumerar e Valores sugeridos é facilitar a segmentação para o usuário final. As enumerações impõem validação no momento da assimilação de dados, enquanto os valores sugeridos não. Para saber mais sobre este recurso, você pode ler mais na documentação aqui -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=pt-BR#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=pt-BR#enums-and-suggested-values)
+   >A meta de Enumerar e Valores sugeridos é facilitar a segmentação para o usuário final. As enumerações impõem validação no momento da assimilação de dados, enquanto os valores sugeridos não. Para saber mais sobre este recurso, leia mais na documentação aqui -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 
@@ -116,7 +114,7 @@ Conforme discutido na palestra, não há grupos de campos ou tipos de dados padr
 
 1. **Salvar** seu esquema
 
->[!TIP]
+>[!SUCCESS]
 >
 >Você criou com sucesso seu primeiro objeto e campos personalizados no registro do esquema XDM.
 
@@ -161,9 +159,9 @@ Quando terminar de validar, seu esquema corresponderá à captura de tela abaixo
 
 ## Criação do campo ID do cliente
 
-Adicionar o campo **customerID** como este campo é crítico porque ele servirá como a identidade primária para o esquema, bem como um campo geral no qual manter os dados.
+Adicionar o campo **customerID** como este campo é crítico porque ele serve como a identidade primária para o esquema, bem como um campo geral no qual manter os dados.
 
-Execute as mesmas etapas que fez anteriormente e utilize a tabela abaixo para fazer referência aos metadados do campo.
+Siga as mesmas etapas descritas anteriormente e use a tabela abaixo para fazer referência aos metadados do campo.
 
 | Nome do campo | Nome de exibição | Tipo | Grupo de campos |
 | ------------ | ------------- | -------- | --------------------------------------------- |
@@ -171,13 +169,13 @@ Execute as mesmas etapas que fez anteriormente e utilize a tabela abaixo para fa
 
 >[!NOTE]
 >
->O `customerID` pode ser colocado em qualquer lugar no esquema de uma perspectiva hierárquica. Neste laboratório, escolhemos mantê-lo na raiz e não aninhado dentro de um dos objetos personalizados criados anteriormente.  É aqui que a arquitetura de dados tem opiniões
+>O `customerID` pode ser colocado em qualquer lugar no esquema de uma perspectiva hierárquica. Neste laboratório, o campo customerID permanece na raiz e não é aninhado dentro de um dos objetos personalizados criados anteriormente.  É nesse posicionamento que a arquitetura de dados tem opiniões
 >
 >😄
 
 
 
-O resultado final deve ficar parecido com a captura de tela abaixo quando você estiver concluído
+O resultado final é semelhante à captura de tela abaixo quando você está concluído
 
 ![Esquema de Conta de Cliente com campo customerID adicionado à raiz](assets/model-custom-objects-customerid-field-added.png)
 
@@ -189,6 +187,6 @@ O resultado final deve ficar parecido com a captura de tela abaixo quando você 
 
 ![Esquema final com todos os objetos e campos personalizados adicionados](assets/model-custom-objects-final-schema-with-custom-objects.jpeg "Esquema final com objetos personalizados")
 
->[!TIP]
+>[!SUCCESS]
 >
->Você criou seu primeiro esquema XDM! Na próxima seção, você configurará o esquema para uso com o Perfil de cliente em tempo real.
+>Você criou seu primeiro esquema XDM! Na próxima seção, você configura o esquema para uso com o Perfil de cliente em tempo real.

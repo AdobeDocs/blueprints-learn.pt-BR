@@ -4,13 +4,11 @@ description: Use a API de registro do esquema para criar um descritor de identid
 doc-type: article
 solution: Experience Platform
 exl-id: db690081-e857-4875-8bb9-7ac197d73cab
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '144'
 ht-degree: 0%
-
 ---
-
 
 # Criar identidade principal
 
@@ -50,10 +48,10 @@ ht-degree: 0%
 
 1. Salve sua solicitação antes de continuar usando o botão `Save`
 
-1. Execute a API clicando no botão `Send`. Agora você deve ver uma resposta de `201 Created` como a seguir
+1. Execute a API clicando no botão `Send`. Você agora vê uma resposta de `201 Created` como mostrado abaixo
 
 ![201 Resposta criada após a criação bem-sucedida do descritor de identidade primário](assets/create-primary-identity-201-created-response.png "Descritor de identidade primário criado com êxito")
 
->[!TIP]
+>[!SUCCESS]
 >
->Parabéns!  Você acabou de criar um descritor de identidade primário em seu esquema
+>Parabéns!  Você criou um descritor de identidade principal em seu esquema

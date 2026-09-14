@@ -2,17 +2,15 @@
 user-guide-title: Objetivos de negócios, casos de uso, diagramas de arquitetura e blueprints da orquestração de experiência do cliente
 breadcrumb-title: Casos de uso e blueprints
 user-guide-description: Explore os principais objetivos de negócios, padrões de casos de uso e casos de uso do setor para Adobe Experience Platform e aplicativos. Os diagramas e blueprints da arquitetura visual fornecem referências técnicas para integração do sistema, fluxos de dados e design da solução, conectando o valor comercial à implementação.
-product: adobe experience platform
+product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1169'
 ht-degree: 15%
-
 ---
-
 
 # Blueprints de orquestração de experiência do cliente {#architecture}
 
@@ -145,8 +143,8 @@ ht-degree: 15%
       + [Journey Optimizer com Adobe Campaign v8](/help/blueprints/customer-journeys/campaign-v8/ajo-and-campaign-v8.md)
     + Blueprints obsoletos{#deprecated-blueprints}
       + Campaign Standard{#campaign-standard}
-        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/pt-br/docs/campaign-standard){target="_blank"}
-        + [Real-Time CDP com Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/pt-br/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
+        + [[!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard){target="_blank"}
+        + [Real-Time CDP com Adobe [!DNL Campaign Standard]](https://experienceleague.adobe.com/en/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/get-started-sources-destinations)
       + Campaign v7{#campaign-v7}
         + [Campaign v7](/help/blueprints/customer-journeys/campaign-v7/campaign-v7-overview.md)
 
@@ -211,7 +209,6 @@ ht-degree: 15%
             + [Exibir esquema](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/define-relationships/view-schema.md)
           + [Recapitulação](/help/blueprints/labs/aep-foundations/xdm-modeling/api-modeling/recap.md)
         + Laboratórios Bônus{#aep-xdm-bonus}
-          + [Visão geral](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/overview.md)
           + [Automatizar com APIs](/help/blueprints/labs/aep-foundations/xdm-modeling/bonus-labs/automate-with-apis.md)
       + Ingestão de dados{#aep-ingestion}
         + [Palestras](/help/blueprints/labs/aep-foundations/data-ingestion/lectures.md)
@@ -240,7 +237,6 @@ ht-degree: 15%
           + [Erros de Monitoramento e Depuração](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/monitoring-and-debugging-errors.md)
           + [Verificação e validação](/help/blueprints/labs/aep-foundations/data-ingestion/stream-ingestion/verification-and-validation.md)
         + Laboratórios Bônus{#aep-ingestion-bonus}
-          + [Visão geral](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/overview.md)
           + [Corrigir Erros do MAPPER para CreateDate](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/fix-mapper-errors-for-createdate.md)
           + [Transmitir um evento de pedido](/help/blueprints/labs/aep-foundations/data-ingestion/bonus-labs/stream-an-order-event.md)
           + Uso da Landing Zone{#aep-ingestion-dlz}
@@ -287,7 +283,6 @@ ht-degree: 15%
           + [Caso de uso de build 3](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/build-use-case-3.md)
           + [Análise de pensamento crítico](/help/blueprints/labs/aep-foundations/audience-building/use-case-3-outreach/critical-thinking-review.md)
         + Laboratórios Bônus{#aep-audiences-bonus}
-          + [Visão geral](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/overview.md)
           + [Enviar evento de pedido para hub](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-order-event-to-hub.md)
           + [Enviar Evento da Web para Hub](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/send-web-event-to-hub.md)
           + [Monitorar o evento](/help/blueprints/labs/aep-foundations/audience-building/bonus-labs/monitor-your-event.md)

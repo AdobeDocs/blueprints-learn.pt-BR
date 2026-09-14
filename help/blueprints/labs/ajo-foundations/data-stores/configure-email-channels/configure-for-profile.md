@@ -4,19 +4,17 @@ description: Saiba como configurar um canal de email usando o atributo personalE
 doc-type: article
 solution: Experience Platform
 exl-id: bb85e0aa-554e-4527-bf91-e7fd4f69ce71
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 8%
-
+source-wordcount: '656'
+ht-degree: 5%
 ---
-
 
 # Configurar para perfil
 
 ## Objetivo
 
-No próximo conjunto de etapas, você criará uma Configuração de canal de email com Jornadas e Campanhas orquestradas usando o atributo de Perfil do AEP `personalEmail.address`
+No próximo conjunto de etapas, você cria uma Configuração de canal de email com Jornadas e Campanhas orquestradas usando o atributo de Perfil do AEP `personalEmail.address`
 
 ## Criar configuração de canal
 
@@ -48,6 +46,10 @@ Na lista suspensa **Subdomínio**, selecione **email.dep-labs.com**
 
 ![Subdomínio suspenso com email.dep-labs.com selecionado](assets/configure-for-profile-select-email-subdomain.png "Configurar Subdomínio")
 
+>[!NOTE]
+>
+>Se você estiver no seu ritmo e não tiver um subdomínio pré-provisionado, selecione seu próprio subdomínio delegado à Adobe aqui em vez de `email.dep-labs.com`. Consulte [Configuração](../../setup.md) para saber como delegar um.
+
 ## Configurar detalhes do pool de IPs
 
 Na lista suspensa **Pool de IP**, selecione **marketing**
@@ -76,11 +78,11 @@ Na lista suspensa **Pool de IP**, selecione **marketing**
 
 ## Configurar email com CCO
 
-Deixe em branco
+Deixe este campo em branco
 
 >[!NOTE]
 >
->Você pode manter uma cópia dos emails enviados enviando-os para uma caixa de entrada CCO. Digite o endereço de email de sua escolha para que cada email enviado seja copiado para o CCO. Observe que o domínio de endereço CCO deve ser distinto de qualquer subdomínio delegado à Adobe. Esse recurso é opcional. *Como usar Cco para emails*
+>Você pode manter uma cópia dos emails enviados enviando-os para uma caixa de entrada CCO. Para copiar todos os emails enviados para este endereço CCo, digite o endereço de email de sua escolha. Observe que o domínio de endereço CCO deve ser distinto de qualquer subdomínio delegado à Adobe. Esse recurso é opcional. *Como usar Cco para emails*
 
 ## Configurar parâmetros de nova tentativa de email
 
@@ -138,7 +140,7 @@ Manter as configurações padrão
 
 >[!NOTE]
 >
->Para Campanhas Orquestradas, você direciona a conta do cliente com um email para que envie apenas *uma mensagem por Perfil*.  O Endereço de execução que você usa vem do próprio Perfil (ou seja, o que é armazenado no Perfil do AEP sob o atributo **personalEmail.address**)
+>Para Campanhas Orquestradas, você direciona a conta do cliente com um email para que envie apenas *uma mensagem por Perfil*.  O Endereço de execução que você usa vem do próprio Perfil (especificamente, o que é armazenado no Perfil do AEP sob o atributo **personalEmail.address**)
 
 
 ## Revisar e salvar
@@ -148,7 +150,7 @@ Manter as configurações padrão
 
 >[!NOTE]
 >
->Observou-se que o processamento da configuração do canal de email leva até 2h!  Uau!
+>Observou-se que o processamento da configuração do canal de email leva até 2 horas!
 >
 >Prossiga para o próximo exercício enquanto aguarda o processamento dessa configuração de canal.
 
