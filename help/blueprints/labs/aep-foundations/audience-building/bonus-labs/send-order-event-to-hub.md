@@ -4,15 +4,17 @@ description: Saiba como transmitir um evento de pedido para o Hub por meio da AP
 doc-type: article
 solution: Experience Platform
 exl-id: d5de39d7-7340-487a-86fa-504344daeab7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '696'
 ht-degree: 0%
-
 ---
 
-
 # Enviar evento de ordem para Hub
+
+>[!IMPORTANT]
+>
+>Conclua a [configuração do Postman](../../postman-setup/postman-installation.md) antes de iniciar este laboratório. Você também precisa de acesso ao [webhook.site](https://webhook.site/) e ao destino **Webhook DEP de Streaming** criados no [Caso de uso de aquisição](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md).
 
 ## Transmissão para Hub vs. Edge
 
@@ -92,7 +94,7 @@ Comece reunindo os seguintes valores:
 1. Navegue até **Fontes** no painel esquerdo e clique em **Contas** na navegação superior
 1. Pesquise por **dep: API HTTP \[raw]**, realce a linha, copie e salve o valor do **Ponto de Extremidade de Streaming** em algum lugar que você possa referenciar mais tarde
 
- conta e copiar seu Ponto de Extremidade de Streaming&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ conta e copiar seu Ponto de Extremidade de Streaming](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## Encontrar ID de fluxo de dados
 

@@ -4,15 +4,17 @@ description: Saiba como enviar um evento da Web diretamente para o Hub usando o 
 doc-type: article
 solution: Experience Platform
 exl-id: a8343499-b4d5-4540-8fe1-7497bc20e437
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '512'
 ht-degree: 0%
-
 ---
 
-
 # Enviar evento da Web para Hub
+
+>[!IMPORTANT]
+>
+>Conclua a [configuração do Postman](../../postman-setup/postman-installation.md) antes de iniciar este laboratório. Você também precisa de acesso ao [webhook.site](https://webhook.site/) para o [fluxo de trabalho de ativação de destino externo](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md) relacionado.
 
 ## Abrir Postman
 
@@ -39,7 +41,7 @@ Comece reunindo os seguintes valores:
 1. Navegue até **Fontes** no painel esquerdo e clique em **Contas** na navegação superior
 1. Pesquise por **dep: API HTTP \[raw]**, realce a linha, copie e salve o valor do **Ponto de Extremidade de Streaming** em algum lugar que você possa referenciar mais tarde
 
- conta e copiar seu Ponto de Extremidade de Streaming&rbrack;(assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
+ conta e copiar seu Ponto de Extremidade de Streaming](assets/send-order-event-to-hub-http-api-raw-streaming-endpoint.png &quot;dep: HTTP API \[raw]&quot;)
 
 ## Localizar ID do fluxo de dados da Web
 
@@ -85,9 +87,8 @@ Uma chamada bem-sucedida deve resultar na seguinte resposta...
    1. Qualquer Edge de evento (em 15 minutos)
       1. Lembre-se: todos os públicos-alvo salvos com uma avaliação do Edge também são avaliados no Hub quando os dados de transmissão entram em vigor
    2. dep: Qualquer transmissão de evento (dentro de uma hora)
-1. Talvez você não veja nada aparecer no webhook se não tiver nenhum segmento novo.
-1. O encaminhamento de eventos não enviará nada.
-   1. Por quê? Esse evento foi para o Hub, não para o Edge, portanto, não aparecerá como nada para o encaminhamento de eventos enviar, nem no Assurance.
+1. Este evento de Hub não é enviado para o seu webhook.
+   1. O encaminhamento de eventos processa eventos enviados para a Edge, não eventos enviados diretamente para o Hub. Use o [fluxo de trabalho de ativação de destino externo](../use-case-1-acquisition/configure-destinations/setup-streaming-destination.md) para capturar um evento no webhook.site.
 1. Após pelo menos 30 minutos, você pode até verificar seu conjunto de dados com o seguinte:
    1. Altere o nome da tabela abaixo para o da sua sandbox.  Para encontrá-lo, vá para a lista de conjuntos de dados e filtre por &quot;`dest`&quot;, abra o conjunto de dados e copie o nome da tabela no painel direito.
 

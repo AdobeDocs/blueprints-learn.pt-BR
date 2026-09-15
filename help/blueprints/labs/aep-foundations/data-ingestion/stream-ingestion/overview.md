@@ -4,13 +4,11 @@ description: Carregue dados da conta do cliente por meio de uma fonte de transmi
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 973a9cac-dc9d-4c5f-87c3-16a55efd1314
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '120'
 ht-degree: 0%
-
 ---
-
 
 # Assimilação de fluxo
 
@@ -22,6 +20,10 @@ Neste exercício, carregaremos os dados da conta do cliente de uma fonte de tran
 - Importação do conjunto de mapeamento de outro fluxo de dados
 - Obter a ID de fluxo de dados e a ID de conjunto de dados da interface
 - Utilização da API REST para assimilar um evento
+
+>[!IMPORTANT]
+>
+>Conclua a [configuração do Postman](../../setup.md) antes de iniciar este laboratório.
 
 >[!NOTE]
 >

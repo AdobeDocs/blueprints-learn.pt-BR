@@ -1,16 +1,14 @@
 ---
-title: Caso de uso
+title: Caso de uso #1 - Acquisition
 description: Defina um caso de uso de aquisição que segmente os visitantes da página 14 do iPhone que não compraram ou não são proprietários do dispositivo e planeje a abordagem de criação de público-alvo.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: a85b1eb1-88f4-41b2-acce-2e34dbe6aff8
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 
 # Caso de uso #1 - Aquisição
 
@@ -25,6 +23,10 @@ Neste vídeo, você aprenderá a criar o público-alvo para o caso de uso de aqu
 **Definição de caso de uso**
 
 Ative todos os perfis que visitaram uma página de produto do iPhone 14 e não há pedidos para um iPhone 14 ou que não têm um iPhone 14 ativo.
+
+>[!IMPORTANT]
+>
+>Conclua a [configuração do Postman](../../setup.md) antes de iniciar este laboratório. Você também precisa de acesso ao [webhook.site](https://webhook.site/) para capturar os dados do público-alvo ativado.
 
 
 

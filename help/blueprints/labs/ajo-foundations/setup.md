@@ -5,9 +5,9 @@ doc-type: article
 
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '357'
 ht-degree: 1%
 ---
 
@@ -34,13 +34,17 @@ A Postman é necessária para os laboratórios neste curso, independentemente de
 - [Importar arquivo de ambiente](postman-setup/import-environment-file.md)
 - [Importar coleção de API](postman-setup/import-api-collection.md)
 
+## Disponibilidade sob demanda
+
+Antes de iniciar os laboratórios, conclua a configuração do Postman acima. Os alunos individualizados também precisam de um subdomínio delegado para os laboratórios dependentes de email e credenciais SMS para o laboratório principal de lançamento de telefones.
+
 ## Pré-requisitos do canal
 
 Dois laboratórios posteriormente neste treinamento de inicialização dependem de contas externas que somente os alunos individualizados precisam organizar — se você estiver em um curso ou evento de treinamento ao vivo, eles já estão provisionados para você.
 
 ### Subdomínio delegado
 
-O laboratório [Configurar canais de email](data-stores/configure-email-channels/overview.md) — e tudo o que depende dele ([Entrega de mensagens em ação](orchestrated-campaigns/message-delivery-in-action/overview.md), [Excitação pós-compra](journeys/post-purchase-excitement/overview.md) e [Marcas da AJO](content-authoring-with-ai/overview.md)) — requer um subdomínio delegado à Adobe para enviar emails. Se você ainda não tiver um domínio, registre-o com qualquer registrador de domínio (por exemplo, Namecheap). Em seguida, para delegar um subdomínio dele (por exemplo, `email.yourdomain.com`) ao Adobe, siga as [instruções de delegação de subdomínio](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain) da Adobe.
+O laboratório [Configurar canais de email](data-stores/configure-email-channels/overview.md) — e tudo o que depende dele ([Entrega de mensagens em ação](orchestrated-campaigns/message-delivery-in-action/overview.md), [Excitação pós-compra](journeys/post-purchase-excitement/overview.md) e [Marcas da AJO](content-authoring-with-ai/overview.md)) — requer um subdomínio delegado à Adobe para enviar emails. Se você ainda não tiver um domínio, registre-o com qualquer registrador de domínio (por exemplo, Namecheap). Em seguida, para delegar um subdomínio dele (por exemplo, `email.yourdomain.com`) ao Adobe, siga as [instruções de delegação de subdomínio](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain) da Adobe.
 
 >[!NOTE]
 >

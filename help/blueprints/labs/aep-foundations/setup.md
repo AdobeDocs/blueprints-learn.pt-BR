@@ -4,15 +4,21 @@ description: Conclua as etapas de configuração da sandbox e do Postman necess�
 doc-type: article
 solution: Experience Platform
 exl-id: 2b6e8a4c-9d1f-4c7a-b3e6-8a2c5f9d1e7b
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '183'
 ht-degree: 1%
 ---
 
 # Configuração
 
 Antes de iniciar os laboratórios do AEP Foundations, conclua as etapas de configuração abaixo. Quais etapas você precisa dependem de como você está tomando este treinamento de inicialização.
+
+## Requisitos e acesso
+
+- Conclua a [configuração do Postman](#postman-setup) antes de iniciar os laboratórios que fazem chamadas de API.
+- O acesso ao [webhook.site](https://webhook.site/) é necessário para os laboratórios de ativação do Edge e de ativação de público-alvo que enviam eventos para um destino externo.
+- Os exercícios de Metodologia de TAMPA exigem uma impressora para imprimir a pasta de trabalho e uma caneta ou lápis para concluí-la. Consulte [pré-requisitos da metodologia LID](lid-methodology/prerequisites.md).
 
 ## Configuração de sandbox
 
