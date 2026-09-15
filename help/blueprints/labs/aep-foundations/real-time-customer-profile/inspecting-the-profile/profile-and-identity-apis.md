@@ -4,21 +4,19 @@ description: Use a API de entidade de perfil e a API de cluster do serviço de i
 doc-type: article
 solution: Experience Platform
 exl-id: 1db55c5b-fdf8-4c63-b435-477626bb0450
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1143'
 ht-degree: 1%
-
 ---
-
 
 # APIs de perfil e identidade
 
 ## API da entidade de perfil
 
-Saber como utilizar as APIs de perfil é essencial para trabalhar com o Perfil do cliente em tempo real. Ela permite uma triagem e depuração rápidas, além de expor você a inúmeras possibilidades de integrações de sistemas, desde centrais de atendimento até quiosques.
+Saber como utilizar as APIs de perfil é essencial para trabalhar com o Perfil do cliente em tempo real. Ela permite uma triagem e depuração rápidas, além de expor você a várias integrações de sistema possíveis, de call centers a quiosques.
 
-Uma das APIs mais importantes é a API da entidade de perfil.  Essa API permite pesquisar um perfil individual (como você viu na interface do usuário), mas usa parâmetros para determinar se você deseja ver os atributos ou eventos do perfil.
+Uma das APIs mais importantes é a API da entidade de perfil. Essa API permite pesquisar um perfil individual, como você viu na interface do usuário do. Ele usa parâmetros para determinar se você deseja ver os atributos ou eventos do perfil.
 
 Abaixo está a especificação completa do método GET para a API de entidade de perfil
 
@@ -89,7 +87,7 @@ Para se familiarizar com a API de pesquisa de entidade, use o perfil Modo de pro
    >
    >Por padrão, se nenhuma política de mesclagem for especificada em uma solicitação de entidade de perfil, ela usará a política de mesclagem padrão na sandbox
 
-   Com a API de entidade há vários parâmetros de consulta que você pode utilizar para alterar o que é retornado em resposta.
+   Com a API de entidade, use os parâmetros de consulta para alterar o que é retornado em resposta.
 
 1. Na solicitação de Pesquisa de Entidade (atributos), clique na opção **Params** para a solicitação
 1. Marque a caixa ao lado de **Chave** chamada **campos**
@@ -99,13 +97,13 @@ Para se familiarizar com a API de pesquisa de entidade, use o perfil Modo de pro
 
 >[!NOTE]
 >
->Observe que também há um parâmetro para especificar o `mergePolicyId`.  Você pode encontrar o valor para isso utilizando outras APIs ou procurando a ID usando a interface do.
+>Observe que também há um parâmetro para especificar o `mergePolicyId`. Para localizar o valor desse, use outras APIs ou procure a ID usando a interface do.
 
 Uma solicitação bem-sucedida deve responder com um `200 OK` e você deve ver apenas os campos especificados no filtro de parâmetros que acabou de habilitar: Nome, Sobrenome e uma matriz de Produtos Ativos.
 
 ![Resposta 200 OK filtrada mostrando apenas campos de Nome, Sobrenome e Produtos Ativos](assets/profile-and-identity-apis-successful-filtered-attributes-response.png "Pesquisa de Entidade de Perfil com Êxito (atributos) Resposta de API com filtro habilitado")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns!  Você pesquisou com êxito os atributos de um perfil usando a API de entidade de perfil
 
@@ -124,20 +122,20 @@ Uma solicitação bem-sucedida deve responder com um `200 OK` e você deve ver u
 
 ![Resposta OK 200 contendo todos os eventos para o perfil do Modo de Execução](assets/profile-and-identity-apis-successful-events-api-response.png "Pesquisa de Entidade de Perfil Bem-sucedida (eventos) Resposta de API")
 
-Assim como ao pesquisar atributos de perfil, a API de entidade tem ainda mais parâmetros de consulta que podem ser utilizados para alterar o que é retornado em resposta.
+Quando você pesquisa atributos de perfil, a API de entidade tem ainda mais parâmetros de consulta que alteram o que é retornado em resposta.
 
-Você pode experimentar alguns deles ativando-os na seção Params e executando a solicitação.  Experimente e veja como funciona!
+Experimente alguns deles, ativando-os na seção Params e executando a solicitação. Veja como funciona!
 
 ![Solicitação de Pesquisa de Entidade (eventos) com parâmetros de consulta adicionais habilitados na seção Params](assets/profile-and-identity-apis-entity-lookup-events-query-params.png "Pesquisa de Entidade de Perfil para Eventos de Experiência")
 
 **Definições do parâmetro de consulta de exemplo**
 
 | Chave | Valor | Descrição |
-| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| mergePolicyId | \&lt;blank> | Se fornecido, você poderá alternar a política de mesclagem usada para executar a pesquisa. Deixar o laboratório em branco significa que ele usará a política de mesclagem padrão de sandboxes |
-| campos | eventType,timestamp,identityMap | Exibe somente esses campos de cada evento, independentemente se o campo especificado tem um valor |
-| propriedade | eventType=&quot;order.placement&quot; | Filtra os eventos do perfil somente para aqueles do tipo &quot;order.placement&quot; |
-| orderby | +carimbo de data e hora | Classifica os eventos em ordem descendente |
+| ------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| mergePolicyId | \&lt;blank> | Alterna a política de mesclagem usada para a pesquisa. Deixá-lo em branco usa a política de mesclagem padrão da sandbox |
+| campos | eventType,timestamp,identityMap | Exibe somente esses campos de cada evento, tenham ou não um valor |
+| propriedade | eventType=&quot;order.placement&quot; | Filtra os eventos somente para aqueles do tipo especificado |
+| orderby | +carimbo de data e hora | Classifica eventos em ordem crescente |
 | limite | 5 | Mostra apenas 5 eventos na resposta |
 
 >[!NOTE]

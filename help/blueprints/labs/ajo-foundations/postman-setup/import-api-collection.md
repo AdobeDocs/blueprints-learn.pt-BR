@@ -4,19 +4,17 @@ description: Importe a coleção de APIs do Postman do bootcamp e valide se suas
 doc-type: article
 solution: Experience Platform
 exl-id: 7562c7f1-0d60-4a3a-8bce-fa42bda08962
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 
 # Importar coleção de API
 
 ## Objetivo
 
-Nesta etapa, você importará a coleção da API que contém todas as várias solicitações que precisarão ser feitas durante a inicialização.  Essas solicitações de API dependem do arquivo de ambiente que você acabou de importar.
+Nesta etapa, você importa a coleção da API, que contém todas as várias solicitações que precisam ser feitas durante a inicialização.  Essas solicitações de API dependem do arquivo de ambiente que você acabou de importar.
 
 
 
@@ -32,7 +30,7 @@ Nesta etapa, você importará a coleção da API que contém todas as várias so
 
 ![verificar importação da coleção do postman](assets/import-api-collection-verify-collection-imported.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns!  Você importou com êxito a coleção de Postman do bootcamp
 
@@ -40,14 +38,14 @@ Nesta etapa, você importará a coleção da API que contém todas as várias so
 
 ## Validar variáveis de ambiente
 
-A coleção importada contém todas as chamadas de API necessárias que serão necessárias para laboratórios em toda a inicialização.  Cada laboratório é organizado em uma pasta específica com seu próprio conjunto de solicitações.
+A coleção importada contém todas as chamadas de API necessárias para laboratórios em toda a inicialização.  Cada laboratório é organizado em uma pasta específica com seu próprio conjunto de solicitações.
 
-Detalhes sobre cada pasta podem ser encontrados abaixo:
+Os detalhes sobre cada pasta aparecem abaixo:
 
 - **Laboratórios de Jornada e Perfil** - Contém um conjunto de solicitações para enviar um Evento da Web e um evento que simula uma confirmação de remessa.
 - **Laboratórios de decisão** - Contém solicitações para 3 visitantes que simulam as chamadas de página superior e inferior que normalmente seriam encontradas em um site com marcas AEP Web SDK.
 
-Para garantir que o ambiente e a coleção estejam funcionando corretamente juntos, siga estas etapas.
+Para garantir que o ambiente e a coleção funcionem corretamente juntos, siga estas etapas.
 
 1. Se necessário, clique em **Coleções** no painel à esquerda e expanda a pasta **Perfil e Laboratórios de Jornada**.
 2. Clique na solicitação **Criar evento da Web** e veja que as variáveis de ambiente são **vermelhas**

@@ -4,28 +4,26 @@ description: Recapitule os esquemas de navegação, configure um Dimension de di
 doc-type: article
 solution: Experience Platform
 exl-id: 787276d3-5720-447b-ab5c-a910670eb011
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '102'
 ht-degree: 1%
-
 ---
-
 
 # Resumo
 
-Por meio desse laboratório, você realizou as seguintes atividades:
+Nesse laboratório, você fez as seguintes atividades:
 
 - Esquemas pesquisados e relacionamentos exibidos entre esquemas
 - Configurar um Dimension de direcionamento de perfil
 - Criou uma campanha orquestrada usando várias atividades de fluxo de trabalho
 - Criação de um público-alvo usando uma atividade Read Audience e sua utilização junto com os atributos de esquema relacional
-- Usado o modo de teste na campanha e entendido o comportamento ao usar públicos do AEP em conjunto com esquema relacional
+- Usado o modo de teste na campanha e entendido o comportamento ao usar públicos do AEP em conjunto com o esquema relacional
 
 
 
 
 
->[!TIP]
+>[!SUCCESS]
 >
->Parabéns, agora você pode prosseguir para o próximo laboratório e fazer isso também!
+>Parabéns, agora você pode prosseguir para o próximo laboratório!

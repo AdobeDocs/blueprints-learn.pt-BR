@@ -1,16 +1,14 @@
 ---
 title: Automatizar com APIs
-description: Execute uma coleção do Postman que automatiza a criação de esquemas, grupos de campos, descritores de identidade e relacionamento e conjuntos de dados em uma única passagem.
+description: Execute uma coleção do Postman que automatiza a criação de esquemas, grupos de campos, descritores de identidade e relacionamento e conjuntos de dados em uma única execução.
 doc-type: article
 solution: Experience Platform
 exl-id: a490f93f-19da-4de3-81c8-4569c49c5354
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 
 # Automatizar com APIs
 
@@ -44,19 +42,19 @@ Para ver como você pode automatizar implantações usando APIs, execute uma pas
 
 
 
-1. Uma nova janela que mostra todas as chamadas de API na pasta deve ser exibida. Defina o **Atraso** como **500ms** e clique no botão **Executar**.
+1. Uma nova janela é exibida mostrando todas as chamadas de API na pasta. Defina o **Atraso** como **500ms** e clique no botão **Executar**.
 
    ![Caixa de diálogo Executar Automação com Atraso definido como 500 ms antes de clicar em Executar](assets/automate-with-apis-execute-automation-dialog.png "Executar automação")
 
 
 
-1. Você vê as chamadas de API começarem a ser executadas em ordem e, quando concluído, deve ver 32 testes aprovados.
+1. Você vê as chamadas de API começarem a ser executadas em ordem e, ao concluir, vê 32 testes aprovados.
 
    ![Automação bem-sucedida executada com 32 testes bem-sucedidos](assets/automate-with-apis-successful-automation-32-passed-tests.png "Automação bem-sucedida")
 
 
 
-1. Vá para a interface do Experience Platform e você deverá ver dois esquemas e dois conjuntos de dados criados e habilitados para o perfil com o prefixo **postman:**
+1. Vá para a interface do Experience Platform e você verá dois esquemas e dois conjuntos de dados criados e habilitados para o perfil com o prefixo **postman:**
 
 ![Dois esquemas criados e habilitados para o perfil com o postman: prefixo](assets/automate-with-apis-schemas-created-in-ui.png "Esquemas de automação")
 
@@ -64,6 +62,6 @@ Para ver como você pode automatizar implantações usando APIs, execute uma pas
 
 ![Dois conjuntos de dados criados com o postman: prefixo que corresponde aos esquemas automatizados](assets/automate-with-apis-datasets-created-in-ui.png "Conjuntos de dados de automação")
 
->[!TIP]
+>[!SUCCESS]
 >
->Parabéns!  Você acabou de automatizar a implantação de namespaces de identidade, grupos de campos, esquemas, descritores de identidade/relacionamento e ativar um esquema para criar um perfil e gerar um conjunto de dados utilizando o esquema
+>Parabéns!  Você automatizou a implantação de namespaces de identidade, grupos de campos, esquemas, descritores de identidade/relacionamento e ativou um esquema para perfil e gerou um conjunto de dados utilizando o esquema

@@ -4,31 +4,29 @@ description: Instale e configure o Azure Storage Explorer com um URL SAS para se
 doc-type: overview-page
 solution: Experience Platform
 exl-id: d61bef25-7039-450d-a8e7-01bb12e8df7c
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '410'
 ht-degree: 0%
-
 ---
-
 
 # Uso da Landing Zone
 
 ## Pré-requisitos
 
-Se você não tiver baixado o Azure Storage Explorer, faça isso agora, pois ele é um requisito para este laboratório.  Você pode encontrar o download no link abaixo:
+Se você não tiver baixado o Azure Storage Explorer, faça isso agora, pois ele é um requisito para este laboratório.  Localize o download no link abaixo:
 
 [Baixar o Azure Storage Explorer](https://azure.microsoft.com/en-us/blog/microsoft-azure-data-lake-storage-adls-in-storage-explorer-public-preview/)
 
 1. Instalar o aplicativo
-1. Na primeira inicialização, aceite o Contrato de licença de usuário final
+1. Na primeira vez que você abrir o aplicativo, aceite o Contrato de Licença do Usuário Final
 
 ![Tela do Contrato de Licença de Usuário Final no Azure Storage Explorer](assets/overview-end-user-license-agreement-screen.png "Tela do Contrato de Licença de Usuário Final")
 
 
 ## Configurar o Azure Storage Explorer com o Experience Platform
 
-1. Abra o Azure Storage Explorer e clique no **ícone Selecionar Recurso** e selecione **Contêiner ou diretório Ger 2 do ADLS**
+1. Abra o Azure Storage Explorer e clique no **ícone Selecionar Recurso** e selecione **Contêiner ou diretório do ADLS Gen2**
 
    ![Selecionando o Contêiner ou o diretório ADLS Gen2 como o recurso no Azure Storage Explorer](assets/overview-choose-the-resource-as-shown-above.png)
 
@@ -50,7 +48,7 @@ Se você não tiver baixado o Azure Storage Explorer, faça isso agora, pois ele
 
 
 
-1. Vá para o Adobe Experience Platform e execute a navegação até a Data Landing zone fazendo o seguinte:
+1. Acesse o Adobe Experience Platform e navegue até a Data Landing Zone fazendo o seguinte:
 
    - Navegue até **Fontes -> Catálogo**
    - Selecione **Armazenamento na nuvem** nas origens
@@ -85,6 +83,6 @@ Agora você deve ver uma tela parecida com a exibida abaixo
 
 ![Azure Storage Explorer mostrando a conta da Zona de Aterrissagem de Dados](assets/overview-successfully-connected-account.png) conectada com êxito
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns!  O Azure Storage Explorer foi configurado com êxito

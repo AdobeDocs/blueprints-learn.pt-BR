@@ -4,13 +4,11 @@ description: Saiba como executar um fluxo de trabalho do Orchestrated Campaign n
 doc-type: article
 solution: Experience Platform
 exl-id: c3b35b27-92ae-44ca-a5fb-3f76990f9db4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '678'
 ht-degree: 0%
-
 ---
-
 
 # Executar o fluxo de trabalho
 
@@ -26,13 +24,13 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
    ![Tela final de fluxo de trabalho pronta para teste](assets/run-the-workflow-final-workflow-canvas.png)
 
-2. Caso ainda não tenha interrompido o fluxo de trabalho, certifique-se de fazê-lo agora clicando no botão **Parar** no canto superior direito.
+2. Se você ainda não interrompeu o fluxo de trabalho, clique no botão **Parar** na parte superior direita.
 
    ![Botão Parar na parte superior direita do fluxo de trabalho](assets/run-the-workflow-click-stop-button.png)
 
    >[!NOTE]
    >
-   >Opcionalmente, você pode tentar clicar no botão Reiniciar, mas é provável que você veja um erro, pois adicionou atividades após a criação do fluxo de trabalho e seu cache não é mais válido.
+   >Opcionalmente, tente clicar no botão Reiniciar, mas é provável que você veja um erro, pois adicionou atividades após a criação do fluxo de trabalho e seu cache não é mais válido.
 
 
 
@@ -50,7 +48,7 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
 
 
-5. Você vê **33 registros** e o targeting dimension corresponde à ID do cliente (a chave de junção se você quiser criar o perfil)
+5. Você vê **33 registros** e o targeting dimension corresponde à ID do cliente (a chave de junção para o perfil)
 
 ![33 registros com targeting dimension correspondente à ID do cliente](assets/run-the-workflow-33-records-customer-id.png)
 
@@ -70,7 +68,7 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
    >[!NOTE]
    >
-   >Esta tela não será preenchida inicialmente, pois demora algum tempo para executar o teste. Talvez seja necessário atualizar algumas vezes antes de ver os resultados.
+   >Essa tela não é preenchida inicialmente, pois leva algum tempo para executar a execução de teste. Talvez seja necessário atualizar algumas vezes antes de ver os resultados.
 
 
 
@@ -96,11 +94,11 @@ Nas próximas etapas, você aprenderá a testar seu fluxo de trabalho e, mais im
 
 ## Explicação
 
-Então aqui está o que aconteceu.
+Aqui está o que aconteceu.
 
 - Você tinha 33 linhas de clientes para as quais queria enviar uma mensagem SMS
 - Depois que a atividade 4 de dimensão de alteração dessas linhas de cliente não tinha nenhuma conta de cliente associada
-- A associação ao Perfil de cliente em tempo real exige que você tenha uma ID de cliente e, como não há nenhuma nesses 4 registros, não há como pesquisar um perfil ou criar um novo em tempo real
+- A associação ao Perfil de cliente em tempo real exige uma ID do cliente e, como não há nenhuma nesses 4 registros, não há como pesquisar um perfil ou criar um novo imediatamente
 
 Resultado —> Campanhas orquestradas descartam esses 4 registros na execução da mensagem
 
@@ -111,9 +109,9 @@ Resultado —> Campanhas orquestradas descartam esses 4 registros na execução 
 >1. Verifique se um log de exclusão foi criado para registros que não têm um targeting dimension no envio
 >2. Atualize a atividade Change dimension para fazer uma associação interna e uma externa, o que descartaria esses 4 registros antecipadamente
 
->[!TIP]
+>[!SUCCESS]
 >
->Parabéns! Agora você está oficialmente certificado para liberar suas próprias Campanhas Orquestradas e transmitir mensagens para o mundo — com responsabilidade, esperamos. Vá em frente e comercialize como um assistente digital majestoso!
+>Parabéns! Agora você está oficialmente certificado para lançar suas próprias Campanhas Orquestradas e transmitir mensagens para o mundo, de maneira responsável. Agora você pode comercializar com confiança!
 
 
 

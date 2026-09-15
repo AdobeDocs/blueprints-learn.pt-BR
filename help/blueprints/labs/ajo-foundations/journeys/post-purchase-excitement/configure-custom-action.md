@@ -4,19 +4,17 @@ description: Configure uma ação personalizada reutilizável no Adobe Journey O
 doc-type: article
 solution: Experience Platform
 exl-id: f81cc8be-bc2a-43cb-a2d4-89834aa94dcb
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '492'
 ht-degree: 0%
-
 ---
-
 
 # Configurar ação personalizada
 
 ## Objetivo de aprendizado
 
-Crie uma ação personalizada que define como a jornada se comunicará com um ponto de extremidade ou serviço externo para obter um ETA de quando o pacote chegará.
+Crie uma ação personalizada que define como a jornada se comunica com um ponto de extremidade ou serviço externo para obter um ETA para quando o pacote chegar.
 
 ## Navegar para ações
 
@@ -57,7 +55,7 @@ Na área Configuração do endpoint, forneça os seguintes detalhes:
 
 >[!NOTE]
 >
->Uma variável permite que passemos um valor durante uma jornada e não um valor estático para todas as jornadas
+>Uma variável permite passar um valor durante uma jornada em vez de usar um valor estático para todas as jornadas
 
 - **Tipo de Autenticação**: `No Authentication`
 
@@ -69,7 +67,7 @@ Na área Configuração do endpoint, forneça os seguintes detalhes:
 
 ### Detalhes da carga da resposta
 
-Agora é necessário fornecer uma amostra de carga para que a ação saiba como a carga de resposta deve ser.
+Agora é necessário fornecer uma amostra de carga para que a ação saiba como a carga de resposta é.
 
 1. Na área Cargas, clique no **ícone de Lápis** para abrir a tela Configuração de campo
 
@@ -93,7 +91,7 @@ Agora é necessário fornecer uma amostra de carga para que a ação saiba como 
    >Esta é a mesma estrutura JSON que o endpoint do Mockaroo acima deve retornar:
 
 
-3. A carga da resposta será exibida. Clique no botão **Salvar**.
+3. A carga de resposta é exibida. Clique no botão **Salvar**.
 
 ![Carga de resposta exibida com o botão Salvar](assets/configure-custom-action-save-response-payload.png)
 
@@ -105,7 +103,7 @@ Agora é necessário fornecer uma amostra de carga para que a ação saiba como 
 
 ### Testar a ação
 
-1. Clique no botão **Enviar solicitação de teste** no painel inferior direito para validar se você não danificou nada 😀
+1. Clique no botão **Enviar solicitação de teste** no painel inferior direito para confirmar se a configuração funciona corretamente
 
    ![Botão Enviar solicitação de teste no painel inferior direito](assets/configure-custom-action-click-send-test-request.png)
 
@@ -132,13 +130,13 @@ Agora é necessário fornecer uma amostra de carga para que a ação saiba como 
 
    >[!WARNING]
    >
-   >Se você não visualizar uma resposta 200 ou uma Pré-visualização, não continue. Levante o ✋para obter ajuda.
+   >Se você não estiver vendo uma resposta 200 ou uma Pré-visualização, não continue. Peça ajuda ao seu facilitador.
 
 
 
 4. Clique no botão **Cancelar** para voltar à tela Ação e role de volta no painel superior direito e clique no botão **Salvar**
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns! Sua ação personalizada está ativa, graças às habilidades de nível especializado Ctrl+C, Ctrl+V.
 

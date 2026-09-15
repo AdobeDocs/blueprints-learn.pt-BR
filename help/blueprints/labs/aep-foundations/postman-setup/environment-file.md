@@ -4,13 +4,11 @@ description: Importe o arquivo de ambiente do Postman e preencha o projeto do de
 doc-type: article
 solution: Experience Platform
 exl-id: 1461fac5-0714-44d4-b5c8-949df6bcff83
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '472'
 ht-degree: 0%
-
 ---
-
 
 # Arquivo de ambiente
 
@@ -25,7 +23,7 @@ Baixar arquivo — [AEP Bootcamp.postman_environment.json](assets/aep-bootcamp.p
 1. Abra o `Environment File` no navegador clicando no arquivo
 1. Copie o URL do arquivo para a área de transferência
 1. Inicie o Postman no computador local e clique no botão `Import` no espaço de trabalho
-1. Cole a URL de `Environment File` na caixa de texto modal de importação na sobreposição.  Isso deve acionar uma importação automática
+1. Cole a URL de `Environment File` na caixa de texto modal de importação na sobreposição.  Essa ação aciona uma importação automática
 
 ![Clicando no botão Importar no espaço de trabalho do Postman para importar o arquivo de ambiente](assets/environment-file-click-import-button.png "Botão Importar")
 
@@ -35,7 +33,7 @@ Baixar arquivo — [AEP Bootcamp.postman_environment.json](assets/aep-bootcamp.p
 
 
 
-Depois de importado, você pode validar se o arquivo de ambiente existe clicando na guia `Environments` na barra lateral esquerda.  Você verá algo semelhante ao mostrado abaixo.
+Depois de importado, valide se o arquivo de ambiente existe clicando na guia `Environments` na barra lateral esquerda.  Você vê algo semelhante ao mostrado abaixo.
 
 ![Ambiente do AEP Bootcamp listado na guia Ambientes do Postman após a importação](assets/environment-file-aep-bootcamp-environment-listed.png "Ambiente do AEP Bootcamp")
 
@@ -64,7 +62,7 @@ Antes de fazer chamadas de API, é necessário atualizar algumas das variáveis 
    - TECHNICAL\_ACCOUNT\_ID
    - IMS\_ORG
 
-Quando terminar, o arquivo de ambiente deverá ser semelhante a:
+Quando terminar, seu arquivo de ambiente deve ser semelhante a esta imagem:
 
 ![Arquivo de ambiente após a atualização dos valores CLIENT_SECRET, CLIENT_ID, TECHNICAL_ACCOUNT_ID e IMS_ORG](assets/environment-file-with-developer-project-values.png "Arquivo de ambiente com valores de Projeto de desenvolvedor")
 
@@ -77,7 +75,7 @@ Os únicos outros valores que precisam ser atualizados são as variáveis `SANDB
 
 >[!NOTE]
 >
->Se estiver trabalhando nesses laboratórios no seu próprio ritmo (em vez de em um evento de treinamento ao vivo com uma sandbox-assignment.pdf), você poderá encontrar os dois valores enquanto estiver conectado à sandbox pelo URL da interface do usuário do Adobe Experience Platform, por exemplo:
+>Se você estiver trabalhando nesses laboratórios de forma independente, em vez de em um evento de treinamento ao vivo com um sandbox-assignment.pdf, encontre os dois valores enquanto estiver conectado à sandbox pelo URL da interface do usuário do Adobe Experience Platform. Por exemplo:
 >
 >`https://experience.adobe.com/#/@dep/sname:prod/platform/home`
 >
@@ -93,6 +91,6 @@ Quando terminar, o arquivo de ambiente deverá ter esta aparência:
 
 ![Arquivo de ambiente após a atualização dos valores SANDBOX_NAME e TENANT_NAME](assets/environment-file-with-sandbox-name-and-tenant-name.png "Arquivo de ambiente com SANDBOX_NAME")
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns! Você concluiu a configuração do ambiente Postman

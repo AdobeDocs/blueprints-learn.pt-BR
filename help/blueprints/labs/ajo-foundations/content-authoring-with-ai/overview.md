@@ -1,9 +1,8 @@
 ---
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 5%
-
+source-wordcount: '475'
+ht-degree: 4%
 ---
 ﻿---
 title: Visão geral
@@ -24,17 +23,21 @@ exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
 - **Repositórios de Dados — Repositório Relacional em Ação** **—>** [Dimension de Destino de Perfil](../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Repositórios de Dados — Configurar Canais de Email —>** [Configurar para Relacional](../data-stores/configure-email-channels/configure-for-relational.md)
 
-Se você não concluiu esses laboratórios, faça-o agora antes de continuar.
+Se você não tiver concluído esses laboratórios, faça-o agora antes de continuar.
+
+>[!CAUTION]
+>
+>Este laboratório requer um subdomínio delegado à Adobe em sua sandbox. Consulte [Configuração](../setup.md) se você estiver no seu ritmo e ainda não tiver uma.
 
 ## Visão geral do laboratório
 
-Neste vídeo, você aprenderá o que esperar dos três atos deste laboratório prático — configurar a marca Connection 5G, criar fragmentos, modelos e um email assistido por IA, e validá-lo por meio de simulação e envio de prova.
+Neste vídeo, você aprende o que esperar nas três partes deste laboratório prático: configurar a marca Connection 5G, criar fragmentos e modelos, criar um email assistido por IA e validá-lo por meio de simulação e envio de prova.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491145/)
 
 ## Objetivos de aprendizagem
 
-Ao final deste módulo, você será capaz de:
+Ao final deste módulo, você pode:
 
 1. Explicar a importância da criação de conteúdo no Adobe Journey Optimizer.
 1. Identifique e descreva os principais conceitos, incluindo Marcas, Diretrizes da marca, Jornadas e Modelos.
@@ -55,7 +58,7 @@ Este laboratório apresenta os elementos principais necessários para criar e ge
 
 ### &#x200B;1. Marcas
 
-Uma marca no AJO representa uma identidade única (por exemplo, Connection 5G). Cada marca inclui:
+Uma Marca no AJO representa uma identidade única (por exemplo, Conexão 5G). Cada marca inclui:
 
 - Identidade visual
 - Estilo de escrita
@@ -69,7 +72,7 @@ As Diretrizes de marca definem:
 - Estilo e tom de escrita
 - Regras de voz
 - Requisitos legais
-- Padrões visuais, como cores, imagens e iconografia
+- Padrões visuais (cores, imagens, iconografia)
 
 ### &#x200B;3. Jornadas
 
@@ -94,7 +97,7 @@ Os modelos são estruturas reutilizáveis para canais, por exemplo:
 
 1. Abra o Adobe Journey Optimizer no navegador.
 1. Faça logon com suas credenciais.
-1. Você chega ao painel principal.
+1. O painel principal é exibido.
 
 ### Localize o menu de navegação principal
 
@@ -114,7 +117,7 @@ Antes de começar a criar sua marca, explore as **ferramentas de criação de co
 - Modelos de conteúdo
 - Fragmentos
 
-Clique em cada uma delas e familiarize-se com a interface do usuário. Este laboratório analisa cada seção em detalhes.
+Para se familiarizar com a interface do usuário do, selecione cada um. Este laboratório analisa cada seção em detalhes.
 
 ![Ferramentas de criação de conteúdo, incluindo Assets, Modelos de conteúdo e Fragmentos no menu de navegação](assets/overview-content-creation-tools-navigation-menu.png)
 

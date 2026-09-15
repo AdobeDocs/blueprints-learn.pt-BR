@@ -4,13 +4,11 @@ description: Use o Postman e o endpoint de transmissão e a ID de fluxo de dados
 doc-type: article
 solution: Experience Platform
 exl-id: 937d153c-9230-4f5a-a397-6c177a3ea890
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # Transmitir um perfil
 
@@ -72,7 +70,7 @@ Alguns elementos importantes a serem observados na solicitação acima:
 
 ## Coletar valores necessários
 
-Antes de transmitir dados, é necessário coletar alguns dos valores obrigatórios listados acima (ou seja, especificamente o URL do ponto de extremidade de transmissão e os valores de &quot;cabeçalho&quot; do conteúdo do corpo).
+Antes de transmitir os dados, colete os valores necessários listados acima (especificamente, o URL do ponto de extremidade de transmissão e os valores do &quot;cabeçalho&quot; de conteúdo do corpo).
 
 Execute as seguintes etapas:
 
@@ -101,7 +99,7 @@ Execute as seguintes etapas:
 
 ## Atualizar sua solicitação de API
 
-Mude para o aplicativo Postman e atualize a solicitação Criar conta do cliente com as informações que você acabou de coletar.
+Mude para o aplicativo Postman e atualize a solicitação Criar conta do cliente com as informações coletadas.
 
 1. Abra o Postman e navegue até a **Solicitação do laboratório de assimilação de dados -> Criar conta do cliente** para abrir a solicitação de API
 
@@ -136,7 +134,7 @@ Mude para o aplicativo Postman e atualize a solicitação Criar conta do cliente
 
 
 
-1. Você deve receber uma resposta `200 OK` indicando que foi recebida com êxito pela Adobe Experience Platform
+1. Você recebe uma resposta de `200 OK` indicando que o Adobe Experience Platform a recebeu com êxito
 
 Exemplo de resposta 200 OK
 
@@ -151,8 +149,8 @@ Exemplo de resposta 200 OK
 
 >[!NOTE]
 >
->Anote o **xactionId** na resposta.  Se ocorrer um erro onde você não vir um registro assimilado, isso deverá ser sempre fornecido como parte de um tíquete de suporte ao cliente, pois é um marcador usado pelas nossas equipes de suporte para depurar quaisquer problemas de ambiente
+>Anote o **xactionId** na resposta.  Se ocorrer um erro onde você não vir um registro assimilado, isso deverá ser sempre fornecido como parte de um tíquete de suporte ao cliente, pois é uma referência principal usada por nossas equipes de suporte para depurar quaisquer problemas de ambiente
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns!  Você transmitiu com êxito um registro de perfil na Adobe Experience Platform

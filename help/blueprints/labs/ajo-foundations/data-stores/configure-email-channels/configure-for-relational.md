@@ -4,19 +4,17 @@ description: Saiba como configurar um canal de email usando o atributo de email 
 doc-type: article
 solution: Experience Platform
 exl-id: 6f299942-79a6-42c2-8a5b-dd4bccd6aad4
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 10%
-
+source-wordcount: '535'
+ht-degree: 3%
 ---
-
 
 # Configurar para relacional
 
 ## Objetivo
 
-No próximo conjunto de etapas, você criará uma Configuração de Canal de email para uso somente com Campanhas Orquestradas, usando o atributo `email` do esquema Relacional `dep-rel: Customer Account`
+No próximo conjunto de etapas, você cria uma Configuração de canal de email para uso apenas com Campanhas Orquestradas, usando o atributo `email` do esquema Relacional `dep-rel: Customer Account`
 
 ## Criar configuração de canal
 
@@ -52,6 +50,10 @@ Na lista suspensa **Subdomínio**, selecione **email.dep-labs.com**
 
 ![Subdomínio suspenso com email.dep-labs.com selecionado](assets/configure-for-profile-select-email-subdomain.png "Configurar Subdomínio")
 
+>[!NOTE]
+>
+>Se você estiver no seu ritmo e não tiver um subdomínio pré-provisionado, selecione seu próprio subdomínio delegado à Adobe aqui em vez de `email.dep-labs.com`. Consulte [Configuração](../../setup.md) para saber como delegar um.
+
 ## Configurar detalhes do pool de IPs
 
 Na lista suspensa **Pool de IP**, selecione **marketing**
@@ -60,7 +62,7 @@ Na lista suspensa **Pool de IP**, selecione **marketing**
 
 ## Configurar cancelamento de inscrição da lista
 
-1. Verifique se o botão de alternância está **habilitado** para list-unsubscribe
+1. Verifique se o botão de alternância está **habilitado** para cancelar inscrição de lista
 1. Na área de preferência List unsubscribe, verifique se todas as caixas de seleção estão **marcadas**
 1. Em Gerenciamento de link, verifique se **Adobe managed** está selecionado
 1. Para o nível de Consentimento, verifique se está definido como **Canal**
@@ -80,11 +82,11 @@ Na lista suspensa **Pool de IP**, selecione **marketing**
 
 ## Configurar email com CCO
 
-Deixe em branco
+Deixe o campo Email com CCO em branco
 
 >[!NOTE]
 >
->Você pode manter uma cópia dos emails enviados enviando-os para uma caixa de entrada CCO. Digite o endereço de email de sua escolha para que cada email enviado seja copiado para o CCO. Observe que o domínio de endereço CCO deve ser distinto de qualquer subdomínio delegado à Adobe. Esse recurso é opcional. *Como usar Cco para emails*
+>Para manter uma cópia dos emails enviados, envie-os para uma caixa de entrada CCO. Digite o endereço de email de sua escolha para que cada email enviado também vá para este endereço CCO. Observe que o domínio de endereço CCO deve ser distinto de qualquer subdomínio delegado à Adobe. Esse recurso é opcional. *Como usar Cco para emails*
 
 ## Configurar parâmetros de nova tentativa de email
 
@@ -126,7 +128,7 @@ Manter as configurações padrão
 
 >[!NOTE]
 >
->Para Campanhas orquestradas, você direciona a conta do cliente com um email para que só seja necessário enviar uma mensagem por Dimension do Target.  O Endereço de execução que você usa vem do próprio Target Dimension (isto é, o que está armazenado na tabela **dep-rel: Conta de cliente** para o endereço de **email**)
+>Para Campanhas orquestradas, você direciona a conta do cliente com um email para que só seja necessário enviar uma mensagem por Dimension do Target.  O Endereço de execução que você usa vem do próprio Target Dimension (ou seja, o que é armazenado na tabela **dep-rel: Conta de cliente** para o endereço de **email**)
 
 
 ## Revisar e salvar

@@ -4,23 +4,21 @@ description: Saiba como rotular um campo de esquema relacional como uma identida
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '559'
 ht-degree: 0%
-
 ---
-
 
 # Dimension de destino do perfil
 
 ## Objetivo
 
-No próximo conjunto de etapas, você navegará pela interface do usuário para visualizar o Esquema e configurar a Identidade. Em seguida, você configurará o Dimension de direcionamento de perfil, que é o tipo de entidade ao qual a campanha está direcionando e reconciliando com o Perfil do AEP para entrega.
+No próximo conjunto de etapas, navegue pela interface do usuário para visualizar o Esquema e configurar a Identidade. Em seguida, você configura o Dimension de direcionamento de perfil, que é o tipo de entidade para o qual a campanha está direcionando e reconciliando com o Perfil do AEP para entrega.
 
-## Por que isso é importante
+## Por que essa configuração é importante
 
-O Dimension de direcionamento de perfil é usado para informar à Adobe Journey Optimizer como os dados entre o Perfil do cliente em tempo real e a Loja relacional podem ser unidos. Os ingredientes dessa configuração são os seguintes:
+O Dimension de direcionamento de perfil é usado para informar à Adobe Journey Optimizer como os dados entre o Perfil do cliente em tempo real e a Loja relacional podem ser unidos. Os componentes dessa configuração são os seguintes:
 
 - Um esquema relacional
 - Um único campo do esquema relacional
@@ -28,7 +26,7 @@ O Dimension de direcionamento de perfil é usado para informar à Adobe Journey 
 
 >[!CAUTION]
 >
->Sem essa configuração em vigor, nenhuma leitura ou compartilhamento de públicos pode acontecer, e nenhuma mensagem pode ser enviada de Campanhas orquestradas
+>Essa configuração deve estar em vigor antes que você possa ler ou compartilhar públicos ou enviar mensagens de Campanhas orquestradas
 
 ## Rotular a identidade
 
@@ -100,7 +98,7 @@ O Dimension de direcionamento de perfil é usado para informar à Adobe Journey 
 >
 >O nome do registro criado é uma concatenação do nome de esquema *(dep-rel: Customer Account)* e do campo rotulado com a identidade *(customer\_id)*
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns! Isso conclui a etapa de criação de Dimension do Profile Target no laboratório.
 

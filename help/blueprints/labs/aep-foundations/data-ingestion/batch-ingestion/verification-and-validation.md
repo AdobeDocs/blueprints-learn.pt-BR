@@ -4,13 +4,11 @@ description: Visualize um conjunto de dados assimilado na interface e execute co
 doc-type: article
 solution: Experience Platform
 exl-id: 7e7cd43d-cc24-4a40-a175-2c651436ab79
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
-
 ---
-
 
 # Verificação e validação
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**Visualizar conjunto de dados** exibe o lote bem-sucedido mais recente neste conjunto de dados. Não é possível ver os lotes anteriores. Além disso, dados complexos, como matrizes e mapas, não podem ser visualizados atualmente e são exibidos como colunas vazias. Não entre em pânico! Para obter uma visualização mais abrangente, é necessário usar o SQL para explorar o conjunto de dados, conforme explicado abaixo.
+>**Visualizar conjunto de dados** exibe o lote bem-sucedido mais recente neste conjunto de dados. Não é possível ver os lotes anteriores. Além disso, dados complexos, como matrizes e mapas, não podem ser visualizados atualmente e são exibidos como colunas vazias. Para obter uma visualização mais abrangente, é necessário usar o SQL para explorar o conjunto de dados, conforme explicado abaixo.
 
 
 
@@ -56,7 +54,7 @@ ht-degree: 0%
 
 
 
-1. Copiar e colar a seguinte consulta SQL no **Editor**. Lembre-se de substituir `<table_name>` pelo valor obtido na etapa 6.
+1. Copie e cole a seguinte consulta SQL no **Editor**. Lembre-se de substituir `<table_name>` pelo valor obtido na etapa 6.
 
    ```sql
    SELECT * FROM <table_name>
@@ -72,7 +70,7 @@ ht-degree: 0%
 
 1. **Visualizar** os resultados
 
-1. Além disso, execute a seguinte consulta SQL para recuperar o esquema XDM junto com os dados:
+1. Para recuperar o esquema XDM junto com os dados, execute também a seguinte consulta SQL:
 
 ```sql
 SELECT to_json(shippingAddress) FROM <table_name>
@@ -84,6 +82,6 @@ Para acessar os dados no `postalCode` **nó**, digite:
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns!  Você assimilou e criou com sucesso um conjunto de amostras de Perfis de clientes em tempo real

@@ -4,13 +4,11 @@ description: Obtenha uma visão geral da criação de uma Campanha orquestrada q
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 84b16fff-f733-439a-9a93-726811e543ce
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
-
+source-wordcount: '214'
+ht-degree: 0%
 ---
-
 
 # Entrega de mensagem em ação
 
@@ -21,9 +19,13 @@ ht-degree: 1%
 >Os laboratórios abaixo devem ter sido concluídos antes do início deste laboratório
 
 - **Repositórios de Dados — Repositório Relacional em Ação** **—>** [Dimension de Destino de Perfil](../../data-stores/relational-store-in-action/profile-target-dimension.md)
-- **Repositórios de Dados —>** [Configurar Canais de Email](../../data-stores/configure-email-channels/overview.md) *(esta etapa de instalação leva até 3 horas para ser concluída)*
+- **Repositórios de Dados —>** [Configurar Canais de Email](../../data-stores/configure-email-channels/overview.md) *(esta etapa de instalação leva 3 horas para ser concluída)*
 
-Se você não concluiu esses laboratórios, faça-o agora antes de continuar.
+Se você não tiver concluído esses laboratórios, faça-o agora antes de continuar.
+
+>[!CAUTION]
+>
+>Este laboratório requer um subdomínio delegado à Adobe em sua sandbox. Consulte [Configuração](../../setup.md) se você estiver no seu ritmo e ainda não tiver uma.
 
 ## Visão geral do laboratório
 
@@ -33,9 +35,9 @@ Neste vídeo, você aprenderá a criar a campanha orquestrada para este laborat�
 
 ## Objetivos de aprendizagem
 
-- Criar uma campanha orquestrada usando uma variedade de atividades de fluxo de trabalho
+- Criar uma campanha orquestrada usando várias atividades de fluxo de trabalho
 - Construir um público-alvo usando a atividade Criar público-alvo
 - Bifurque o público para criar duas ramificações e usar os canais de email, criados no laboratório anterior, para enviar mensagens
 - Teste a campanha e entenda a diferença de comportamento entre os canais de email
 
-Neste laboratório, você criará uma campanha para direcionar membros do plano &quot;Básico&quot; e entenderá a diferença ao usar diferentes configurações do Campanha orquestrada nas configurações do canal de email.
+Para direcionar os membros do plano &quot;Básico&quot;, você cria uma campanha neste laboratório e explora como diferentes configurações do Orchestrated Campaign afetam as configurações do canal de email.

@@ -4,13 +4,11 @@ description: Saiba como criar um fluxo de trabalho completo de decisão de naveg
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 37b8a0b3-2820-4303-81d2-19890a3c5782
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 
 # Navegação abandonada
 
@@ -20,22 +18,23 @@ ht-degree: 0%
 >
 >Os laboratórios abaixo devem ter sido concluídos antes do início deste laboratório
 
+- **Instalação do Postman** **—>** [Instalação do Postman](../../postman-setup/postman-installation.md)
 - **Repositórios de Dados — Perfil em Ação** **—>** [Criar Sequência de Dados](../../data-stores/profile-in-action/create-datastream.md)
 
-Se você não concluiu esses laboratórios, faça-o agora antes de continuar.
+Se você não tiver concluído esses laboratórios, faça-o agora antes de continuar.
 
 ## Visão geral do laboratório
 
-Neste vídeo, você aprenderá como a descrição do caso de uso de navegação abandonada revela seus elementos de decisão e o que você criará neste laboratório para fornecer uma oferta telefônica personalizada e com reconhecimento de elegibilidade em tempo real.
+Neste vídeo, você aprende como a descrição do caso de uso de navegação abandonada revela seus elementos de decisão e o que você criará neste laboratório para fornecer uma oferta telefônica personalizada e com reconhecimento de elegibilidade em tempo real.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491316/)
 
 ## Objetivos de negócios
 
-O caso de uso comercial deste laboratório é que a Connection 5G quer aumentar as vendas do novo telefone principal da Apple, o iPhone 17, direcionando os clientes que navegaram na página de visão geral do iPhone 17, mas não compraram. Os principais objetivos da campanha são os seguintes:
+Para este laboratório, a Connection 5G quer aumentar as vendas do novo telefone principal da Apple, o iPhone 17, direcionando os clientes que navegaram na página de visão geral do iPhone 17, mas não compraram. Os principais objetivos da campanha são os seguintes:
 
 - **Identifique clientes de alta intenção** detectando quando um usuário exibe uma página de telefone principal várias vezes sem concluir uma compra.
-- **Acione uma experiência personalizada em tempo real** em todas as superfícies digitais de propriedade 5G do Connection quando esse comportamento ocorrer.
+- **Acione uma experiência personalizada em tempo real** em todas as superfícies digitais da Connection 5G quando esse comportamento ocorrer.
 - **Forneça ofertas contextuais** com base nos principais atributos do cliente, como a **idade do titular da conta** e seu **plano de celular atual**.
 - **Verifique se a qualificação de oferta é aplicada** para que os clientes só vejam ofertas telefônicas compatíveis com seus planos.
 - **Ajuste dinamicamente a camada de telefone oferecida** (por exemplo, base, pro, ultra) com base no engajamento do cliente ou na resposta a ofertas anteriores.
@@ -55,4 +54,4 @@ Para atender aos objetivos de negócios acima neste laboratório, você aprender
 - **Configure um canal de Experiência Baseada em Código (CBE)** para permitir que sistemas externos solicitem resultados de decisão e recebam ofertas no formato JSON.
 - **Teste o fluxo de trabalho de decisão completo** enviando eventos de experiência e solicitações de decisão para validar a lógica de qualificação, o comportamento de classificação e o limite de frequência.
 
-Ao concluir este laboratório, você ganhará experiência prática ao projetar e validar um fluxo de trabalho do **complete offer decisioning no Adobe Journey Optimizer** para atender ao caso de uso comercial.
+Ao concluir este laboratório, você obtém experiência prática ao projetar e validar um **fluxo de trabalho completo do Offer Decisioning no Adobe Journey Optimizer** para atender ao caso de uso comercial.

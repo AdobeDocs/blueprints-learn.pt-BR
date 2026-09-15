@@ -4,13 +4,11 @@ description: Baixe e importe a coleção de APIs do Postman do bootcamp que cont
 doc-type: article
 solution: Experience Platform
 exl-id: 18d820c5-56ad-46b8-a9cf-f725555d2db3
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '288'
 ht-degree: 0%
-
 ---
-
 
 # Coleção de API
 
@@ -25,7 +23,7 @@ Baixar arquivo — [AEP Foundations Bootcamp (Labs).postman_collection.json](ass
 1. Abra o `Postman API Collection File` no navegador clicando no arquivo
 1. Copie o URL do arquivo para a área de transferência
 1. Inicie o Postman no computador local e clique no botão `Import` no espaço de trabalho
-1. Cole a URL de `Postman API Collection File` na caixa de texto modal de importação na sobreposição.  Isso deve acionar uma importação automática
+1. Cole a URL do `Postman API Collection File` na caixa de texto modal de importação. Isso aciona uma importação automática
 
 ![Clicar no botão Importar no espaço de trabalho do Postman para importar a coleção de API](assets/api-collection-click-import-button.png "Botão Importar")
 
@@ -33,7 +31,7 @@ Baixar arquivo — [AEP Foundations Bootcamp (Labs).postman_collection.json](ass
 
 ![Colando a URL do arquivo de coleção de API na caixa de texto modal de importação do Postman](assets/api-collection-import-modal-paste-url.png "Caixa de Texto Modal do Botão de Importação")
 
-Agora você deve ver uma coleção preenchida na guia `Collections` da barra lateral esquerda chamada `AEP Foundations Bootcamp`
+Agora você vê uma coleção preenchida na guia `Collections` da barra lateral esquerda chamada `AEP Foundations Bootcamp`
 
 
 
@@ -41,7 +39,7 @@ Agora você deve ver uma coleção preenchida na guia `Collections` da barra lat
 
 ## Visão geral da coleção AEP Foundations Bootcamp
 
-A coleção de API importada contém todas as chamadas de API necessárias que serão necessárias para laboratórios em toda a inicialização.  Cada laboratório é organizado em uma pasta específica com seu próprio conjunto de APIs.  Esteja ciente disso ao trabalhar nos laboratórios esta semana.
+A coleção de APIs importada contém todas as chamadas de API necessárias para laboratórios em toda a inicialização.  Cada laboratório é organizado em uma pasta específica com seu próprio conjunto de APIs.  Esteja ciente dessa estrutura de pastas enquanto conclui seus laboratórios esta semana.
 
 Detalhes sobre cada pasta podem ser encontrados abaixo:
 
@@ -50,6 +48,6 @@ Detalhes sobre cada pasta podem ser encontrados abaixo:
 - **Laboratório de assimilação de dados** - contém um conjunto de solicitações para transmitir dados para a Experience Platform
 - **Laboratório de perfis** - contém um conjunto de solicitações para visualizar as características e comportamentos do Perfil do cliente em tempo real
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns!  Você importou com êxito a coleção de Postman do bootcamp

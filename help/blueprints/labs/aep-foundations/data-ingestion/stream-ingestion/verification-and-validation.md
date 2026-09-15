@@ -4,13 +4,11 @@ description: Pré-visualize um conjunto de dados transmitido na interface e exec
 doc-type: article
 solution: Experience Platform
 exl-id: fbdb0b6b-08b6-49b8-b6ab-d59d5941c678
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 
 # Verificação e validação
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->**Visualizar conjunto de dados** mostrará apenas as primeiras linhas do conjunto de dados. Os objetos de matriz não são visualizáveis.
+>**Visualizar conjunto de dados** mostra apenas as primeiras linhas do conjunto de dados. Os objetos de matriz não são visualizáveis.
 
 
 
@@ -56,13 +54,13 @@ ht-degree: 0%
 
 
 
-1. Ative o alternador para **Editor de Consulta Aprimorado**
+1. Habilitar a alternância **Editor de Consulta Aprimorado**
 
    ![Interface do editor de consultas com a opção Editor de consultas aprimorado habilitada](assets/verification-and-validation-enhanced-query-editor-toggle.png "Interface do editor de consultas")
 
 
 
-1. Copiar e colar a seguinte consulta SQL no **Editor**. Lembre-se de substituir `<table_name>` pelo valor obtido na etapa 2.
+1. Copie e cole a seguinte consulta SQL no **Editor**. Lembre-se de substituir `<table_name>` pelo valor obtido na etapa 2.
 
    ```sql
    SELECT * FROM <table_name>
@@ -82,12 +80,12 @@ ht-degree: 0%
 
 
 
-1. Para acessar os dados no `postalCode` **nó**, digite:
+1. Digite o seguinte para acessar os dados no `postalCode` **nó**:
 
 ```sql
 SELECT shippingAddress.postalCode FROM <table_name>
 ```
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns!  Você assimilou e criou com sucesso um conjunto de amostras de Perfis de clientes em tempo real

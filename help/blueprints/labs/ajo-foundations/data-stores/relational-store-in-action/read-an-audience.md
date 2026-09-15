@@ -4,13 +4,11 @@ description: Saiba como usar a atividade Ler público-alvo com um Dimension de d
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1264'
 ht-degree: 0%
-
 ---
-
 
 # Ler um público-alvo
 
@@ -172,16 +170,16 @@ Um novo segmento com o nome **Result** foi criado
 
 >[!NOTE]
 >
->Enquanto o público de Leitura mostrava **9** perfis. Como criamos um filtro no Source e o campo Source existe no armazenamento relacional, tivemos que ingressar do armazenamento de perfil ao armazenamento relacional para verificá-lo. Quando foi unido ao esquema Relacional, por meio do Dimension do Target do Campaign, somente um total de **7** perfis correspondeu. Estas **7** IDs do cliente correspondentes estão disponíveis para uso nas atividades a seguir que tentam usar dados relacionais. Todas as **7** IDs do cliente tiveram `Source` definido como **&quot;Na Loja&quot;**, o que foi evidente pelos fluxos de Divisão.
+>A audiência de Leitura mostrou **9** perfis. Como você criou um filtro no Source e o campo Source existe no armazenamento relacional, foi necessário ingressar no armazenamento de perfis com o armazenamento relacional para verificá-lo. Quando unido ao esquema Relacional por meio do Dimension do Target do Campaign, somente um total de **7** perfis correspondeu. Estas **7** IDs do cliente correspondentes estão disponíveis para uso nas atividades a seguir que tentam usar dados relacionais. Todas as **7** IDs do cliente tiveram `Source` definido como **&quot;Na Loja&quot;**, o que foi evidente pelos fluxos de Divisão.
 >
 >Portanto, manter a consistência dos dados é essencial ao usar os perfis do AEP juntamente com seus equivalentes relacionais para enriquecimento.
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns, isso conclui o laboratório sobre o uso da atividade Ler público com esquema relacional.
 
 ## Recapitulação
 
-Agora você viu como é fácil criar uma campanha e executar uma atividade Ler público junto com o Dimension do Direcionamento de perfil para aproveitar o esquema relacional. Você usou a atividade Split para dividir o público com base em uma condição. Por fim, o modo de teste ajudou a entender que é importante ter a consistência de dados entre o Perfil e o esquema Relacional.
+Agora você viu como é fácil criar uma Campanha e executar uma atividade Ler público junto com o Dimension do Direcionamento de perfil para usar o esquema relacional. Você usou a atividade Split para dividir o público com base em uma condição. Por fim, o modo de teste ajudou a entender que é importante ter a consistência de dados entre o Perfil e o esquema Relacional.
 
 Você pode ler mais [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience), se estiver interessado.

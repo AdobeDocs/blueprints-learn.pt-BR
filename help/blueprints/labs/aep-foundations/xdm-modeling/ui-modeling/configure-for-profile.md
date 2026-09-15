@@ -4,19 +4,17 @@ description: Marque os campos de identidade principal e de pessoa, crie um relac
 doc-type: article
 solution: Experience Platform
 exl-id: 52cfc0d2-ba8c-4f81-9e03-c5c2c5e276b7
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '911'
 ht-degree: 0%
-
 ---
-
 
 # Configurar para perfil
 
 ## Visão geral
 
-Para utilizar um esquema para o Perfil de cliente em tempo real, primeiro é necessário garantir que ele seja configurado adequadamente. Isso significa pegar o que você identificou durante o laboratório de LID como identidades principais/de pessoa, identidades de relacionamento etc. e garantir que essas configurações sejam feitas em cada esquema. Quando tudo estiver concluído, você poderá &quot;virar a chave&quot; e ativar um esquema para uso com o perfil.
+Para utilizar um esquema para o Perfil de cliente em tempo real, primeiro é necessário garantir que ele esteja configurado adequadamente. Essa etapa significa pegar o que você identificou durante o laboratório de LID como identidades principais/de pessoa, identidades de relacionamento etc. e garantir que essas configurações sejam feitas em cada esquema. Quando tudo estiver concluído, você ativará um esquema para uso com o perfil.
 
 Olhando para o XDM no papel Connection 5G ERD, você vê as seguintes informações sobre o esquema da conta do cliente.  Esse é o trabalho restante para utilizar o esquema no Perfil do cliente em tempo real.
 
@@ -27,7 +25,7 @@ Olhando para o XDM no papel Connection 5G ERD, você vê as seguintes informaç�
 
 ## Marcar o campo de identidade principal
 
-Todos os esquemas exigem um campo de identidade principal se ele for usado com o Perfil de cliente em tempo real. Siga as etapas abaixo para marcar um campo como uma identidade principal.
+Todos os esquemas exigem um campo de identidade principal se ele for usado com o Perfil de cliente em tempo real. Para marcar um campo como identidade primária, siga as etapas abaixo.
 
 1. Abra o esquema **Conta do cliente** que você criou
 1. Selecione o campo **\_\&lt;nome-do-locatário>.customerID** clicando no campo do esquema
@@ -47,7 +45,7 @@ Todos os esquemas exigem um campo de identidade principal se ele for usado com o
 
 >[!NOTE]
 >
->Observe também que no painel à esquerda você deve ver os itens a seguir. As identidades (primárias ou não primárias) aparecem aqui, e as identidades **primárias** também são marcadas como campos obrigatórios.
+>Observe também que no painel esquerdo você agora vê os itens a seguir. As identidades (primárias ou não primárias) aparecem aqui, e as identidades **primárias** também são marcadas como campos obrigatórios.
 >
 >
 >
@@ -57,7 +55,7 @@ Todos os esquemas exigem um campo de identidade principal se ele for usado com o
 
 ## Marcar os campos de identidade da pessoa
 
-Lembre-se de que todos os esquemas a serem usados com o perfil do Cliente em Tempo Real **opcionalmente podem conter** outros campos de identidade de pessoa. Para marcar um campo como uma identidade de pessoa, execute as seguintes ações no esquema de Conta de cliente criado anteriormente.
+Cada esquema pode **opcionalmente conter** outros campos de identidade de pessoa. Essa regra se aplica a qualquer esquema usado com o Perfil de cliente em tempo real. Para marcar um campo como uma identidade de pessoa, execute as seguintes ações no esquema de Conta de cliente criado anteriormente.
 
 1. Selecione o campo **personalEmail.address**
 1. Marque a caixa de seleção **Identidade** localizada no painel direito
@@ -74,7 +72,7 @@ Lembre-se de que todos os esquemas a serem usados com o perfil do Cliente em Tem
 
 ## Criar o relacionamento do esquema
 
-Para relacionar o schema Plan com o schema Customer Account, conforme descrito no ERD, é necessário definir uma relação. Siga as etapas abaixo para criar uma relação de esquema entre os esquemas Conta e Plano do cliente (pesquisa).
+Para relacionar o schema Plan com o schema Customer Account conforme descrito no ERD, é necessário definir uma relação. Para criar uma relação de esquema entre os esquemas Conta e Plano do cliente (pesquisa), siga as etapas abaixo.
 
 ### Adicionar relacionamento
 
@@ -88,7 +86,7 @@ Para relacionar o schema Plan com o schema Customer Account, conforme descrito n
 ### Definir relacionamento
 
 1. Na caixa de seleção Tipo, selecione a opção **Um para um**
-1. Na caixa de seleção Esquema de referência, escolha o esquema chamado **dep: Plan \[Lookup]** (isso foi pré-criado para você)
+1. Na caixa Selecionar esquema de referência, escolha o esquema chamado **dep: Plan \[Lookup]** (esse esquema foi pré-criado para você)
 1. Clique em **Aplicar** e **Salvar**
 
 ![Definindo uma relação um para um com a dep: Plano [Pesquisa] esquema](assets/configure-for-profile-define-one-to-one-relationship.png)
@@ -119,7 +117,7 @@ O Perfil do cliente em tempo real mescla dados de fontes diferentes para criar u
 
 ![Botão Habilitar no modal exibido após a alternância da opção de Perfil](assets/configure-for-profile-enable-profile-modal.png)
 
->[!TIP]
+>[!SUCCESS]
 >
 >Parabéns!  Você acabou de criar um esquema para usar com o Perfil de cliente em tempo real.
 
@@ -127,7 +125,7 @@ O Perfil do cliente em tempo real mescla dados de fontes diferentes para criar u
 
 ## Revisar o esquema de união de perfis
 
-Como mencionado anteriormente, o poder do XDM + o Perfil do cliente em tempo real é a capacidade de reunir uma variedade de fragmentos de um indivíduo e seus comportamentos em conjunto.  Isso é conhecido como &quot;Visualização de união&quot; do cliente.  Nas etapas abaixo, você visualiza a aparência dessa união para cada classe XDM configurada para o Perfil do cliente em tempo real
+Como mencionado anteriormente, o poder do XDM + o Perfil do cliente em tempo real é a capacidade de reunir uma variedade de fragmentos de um indivíduo e seus comportamentos em conjunto.  Esse agregado é chamado de &quot;Visualização de união&quot; do cliente.  Nas etapas abaixo, você visualiza a aparência dessa união para cada classe XDM configurada para o Perfil do cliente em tempo real
 
 1. Navegue até **Perfis** no painel esquerdo
 1. Selecione a guia **Esquema de união** no menu superior
@@ -143,4 +141,4 @@ Navegue pela classe Perfil individual XDM e reserve alguns momentos para revisar
 
 >[!NOTE]
 >
->Somente a classe baseada no Perfil individual XDM executa mesclagens entre campos com nomes semelhantes.
+>Somente a classe baseada em Perfil individual XDM executa mesclagens entre campos com nomes semelhantes.

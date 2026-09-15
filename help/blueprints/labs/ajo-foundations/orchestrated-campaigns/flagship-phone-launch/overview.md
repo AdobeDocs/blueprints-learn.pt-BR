@@ -4,13 +4,11 @@ description: Obtenha uma visão geral da criação de uma Campanha Orquestrada d
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 04c509f1-aa10-4d29-aa59-5e627b79e498
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '283'
 ht-degree: 0%
-
 ---
-
 
 # Lançamento de telefone emblemático
 
@@ -20,11 +18,16 @@ ht-degree: 0%
 >
 >Os laboratórios abaixo devem ter sido concluídos antes do início deste laboratório
 
+- **Instalação do Postman** **—>** [Instalação do Postman](../../postman-setup/postman-installation.md)
 - **Repositórios de Dados — Repositório Relacional em Ação** **—>** [Dimension de Destino de Perfil](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Repositórios de Dados — Configurar Canais de Email —>** [Configurar para Relacional](../../data-stores/configure-email-channels/configure-for-relational.md)
   *(esta etapa de instalação leva até 3 horas para ser concluída)*
 
-Se você não concluiu esses laboratórios, faça-o agora antes de continuar.
+Se você não tiver concluído esses laboratórios, faça-o agora antes de continuar.
+
+>[!CAUTION]
+>
+>Este laboratório requer credenciais SMS em sua sandbox para concluir a etapa Configurar canal SMS — nenhuma mensagem real é enviada, mas as credenciais do Twilio devem estar presentes. Consulte [Configuração](../../setup.md) se você estiver no seu ritmo e ainda não tiver provisionado esses itens.
 
 ## Visão geral do laboratório
 
@@ -44,7 +47,7 @@ Neste vídeo, você aprenderá como o principal caso de uso de lançamento de te
 
 ## Descrição do caso de uso
 
-Imediatamente após o lançamento do mais recente dispositivo principal de um fabricante, envie uma mensagem direcionada aos titulares de contas e usuários da linha com modelos mais antigos — convidando-os a atualizar e experimentar o futuro dos dispositivos móveis.
+Imediatamente após o lançamento do mais recente dispositivo emblemático de um fabricante, envie uma mensagem direcionada aos titulares de contas e aos usuários da linha com modelos mais antigos, convidando-os a atualizar para a tecnologia móvel mais recente.
 
 **Principais chamadas:**
 

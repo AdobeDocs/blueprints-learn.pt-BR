@@ -4,13 +4,11 @@ description: Saiba como criar uma jornada pós-compra orientada por evento que a
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 570dc378-e7a3-4895-8f14-89d420b6b340
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '326'
 ht-degree: 0%
-
 ---
-
 
 # Emoção pós-compra
 
@@ -20,17 +18,20 @@ ht-degree: 0%
 >
 >Os laboratórios abaixo devem ter sido concluídos antes do início deste laboratório
 
-Estes laboratórios devem ter sido concluídos antes de iniciar este laboratório:
-
+- **Instalação do Postman** **—>** [Instalação do Postman](../../postman-setup/postman-installation.md)
 - **Repositórios de Dados — Repositório Relacional em Ação** **—>** [Dimension de Destino de Perfil](../../data-stores/relational-store-in-action/profile-target-dimension.md)
 - **Repositórios de Dados — Configurar Canais de Email —>** [Configurar para Perfil](../../data-stores/configure-email-channels/configure-for-profile.md)
-  *(isso pode levar até 3 horas para ser concluído)*
+  *(esta etapa leva até 3 horas para ser concluída)*
 
-Se ainda não tiver feito, conclua agora
+Se ainda não tiver feito isso, conclua agora
+
+>[!CAUTION]
+>
+>Este laboratório requer um subdomínio delegado à Adobe em sua sandbox. Consulte [Configuração](../../setup.md) se você estiver no seu ritmo e ainda não tiver uma.
 
 ## Visão geral do laboratório
 
-Neste vídeo, você aprenderá como o caso de uso de excitação pós-compra mapeia uma jornada, abordando as perguntas de pensamento crítico e a arquitetura para enviar uma notificação de envio personalizada assim que um pedido for enviado.
+Neste vídeo, você aprenderá como o caso de uso de excitação pós-compra mapeia uma Jornada, abordando as perguntas de pensamento crítico e a arquitetura para enviar uma notificação de envio personalizada assim que um pedido for enviado.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491146/)
 
@@ -51,9 +52,9 @@ Quando um cliente faz um pedido, você deseja enviar uma mensagem de confirmaç�
 
 **Principais chamadas:**
 
-- O pedido inicial feito normalmente seria implementado como uma mensagem transacional, já que as pessoas não querem esperar por uma confirmação de que apenas solicitam algo.
+- A confirmação inicial do pedido normalmente seria implementada como uma mensagem transacional, pois os clientes não querem esperar por uma confirmação depois de fazerem um pedido.
 - A notificação de envio de pedido também pode ser implementada usando mensagens transacionais, mas pode ser incorporada em uma jornada, permitindo uma ação personalizada para recuperar as informações de envio e aprimorar a comunicação com o cliente.
 
 >[!NOTE]
 >
->Neste laboratório, você só desenvolverá a mensagem Pedido enviado e ignorará a mensagem de Confirmação do pedido.
+>Neste laboratório, você só desenvolve a mensagem Pedido enviado e ignora a mensagem de Confirmação do pedido.
