@@ -8,7 +8,7 @@ ht-degree: 0%
 
 Este é o modelo de marcação completo de uma página de diagrama de arquitetura. Substitua a cada `{placeholder}` com o valor coletado durante a Fase 1 do fluxo de trabalho de habilidade. Remova qualquer seção opcional que não se aplique (por exemplo, o bloco `>[!MORELIKETHIS]`) — não deixe espaços reservados vazios no arquivo gerado.
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -59,7 +59,7 @@ The architecture above supports the following use case patterns:
 - [{Article 3 title}]({Experience League URL 3})
 ```
 
----
+&#x200B;---
 
 ## Regras do Frontmatter
 

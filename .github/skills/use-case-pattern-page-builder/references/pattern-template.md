@@ -8,18 +8,18 @@ ht-degree: 48%
 
 Esse arquivo contém o modelo de marcação completo para uma página de padrão de caso de uso. Substituir todos os valores de `{{placeholder}}` pelo conteúdo real ao gerar um novo padrão.
 
----
+&#x200B;---
 
 ## Modelo
 
-````markdown
+&grave;&grave;&grave;&grave;markdown
 ---
 title: {{Pattern Title}}
 description: {{One-sentence description of what this pattern teaches}}
 solution: {{Comma-separated Adobe solutions}}
 exl-id: {{generate-uuid-placeholder}}
 ---
-# {{Pattern title}}
+&#x200B;# {{Pattern title}}
 
 This guide provides an overview of {{pattern name}} using {{solutions with [!DNL ...] formatting}}. It is designed for solution architects, marketing technologists, and implementation engineers who need to {{primary capability description}}.
 
@@ -91,18 +91,18 @@ The following Adobe applications are used in this use case pattern.
 
 The following resources provide additional detail on the capabilities used in this pattern. Group the reference links to primary Experience League documents under descriptive subheadings.
 
-### {{Topic group}}
+### &lbrace;Topic group&rbrace;
 
-- [{{Link text}}]({{URL}})
-- [{{Link text}}]({{URL}})
+- [{{Link text}}] ({{URL}})
+- [{{Link text}}] ({{URL}})
 
-### {{Topic group}}
+### &lbrace;Topic group&rbrace;
 
-- [{{Link text}}]({{URL}})
-- [{{Link text}}]({{URL}})
-````
+- [{{Link text}}] ({{URL}})
+- [{{Link text}}] ({{URL}})
+&grave;&grave;&grave;&grave;
 
----
+&#x200B;---
 
 ## Observações sobre o uso deste modelo
 
