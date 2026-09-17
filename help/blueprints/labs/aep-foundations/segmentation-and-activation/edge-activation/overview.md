@@ -4,13 +4,11 @@ description: Saiba como as velocidades de ativação do Edge, de transmissão e 
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 9ecadff9-3838-4cd4-93b1-7c23a232f84c
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 
 # Ativação do Edge
 
@@ -23,6 +21,10 @@ O Adobe tem três velocidades de ativação destinadas a atender a diferentes ne
 1. Lote
 
 Vamos analisar como ativar o usando o Adobe Edge com o encaminhamento de eventos, os públicos-alvo da Edge e o Edge Personalization. Em seguida, mostraremos como usar Destinos de transmissão do Hub para a Edge e para um destino externo.
+
+>[!IMPORTANT]
+>
+>Conclua a [configuração do Postman](../../setup.md) antes de iniciar este laboratório. Você também precisa de acesso ao [webhook.site](https://webhook.site/) para capturar o evento enviado para o destino externo.
 
 >[!NOTE]
 >

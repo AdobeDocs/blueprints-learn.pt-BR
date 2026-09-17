@@ -5,9 +5,9 @@ doc-type: article
 
 solution: Experience Platform
 exl-id: 7c1a9e3d-5b8f-4a2e-9c6d-3f7b0e4a8c2d
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '357'
 ht-degree: 1%
 ---
 
@@ -33,6 +33,10 @@ A Postman é necessária para os laboratórios neste curso, independentemente de
 - [Instalação do Postman](postman-setup/postman-installation.md)
 - [Importar arquivo de ambiente](postman-setup/import-environment-file.md)
 - [Importar coleção de API](postman-setup/import-api-collection.md)
+
+## Disponibilidade sob demanda
+
+Antes de iniciar os laboratórios, conclua a configuração do Postman acima. Os alunos individualizados também precisam de um subdomínio delegado para os laboratórios dependentes de email e credenciais SMS para o laboratório principal de lançamento de telefones.
 
 ## Pré-requisitos do canal
 

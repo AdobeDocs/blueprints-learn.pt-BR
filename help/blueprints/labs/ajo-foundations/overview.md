@@ -4,9 +4,9 @@ description: Explore a arquitetura da Adobe Journey Optimizer, a orquestração 
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 0b6c3ca7-3061-4d89-a6f8-f4c6a681706a
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '274'
 ht-degree: 1%
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## Pré-requisitos
 
-Se você estiver trabalhando com essa inicialização no seu próprio ritmo, dois laboratórios precisarão de contas externas organizadas antecipadamente: **Configurar canais de email** precisa de um subdomínio delegado à Adobe, e a **Inicialização de telefone emblemática** precisa de credenciais SMS. Consulte [Configuração](setup.md) para obter detalhes.
+Se você estiver trabalhando nesta inicialização no seu próprio ritmo, conclua a [configuração do Postman](setup.md#postman-setup) antes de iniciar os laboratórios. **Configurar canais de email** e seus laboratórios dependentes precisam de um subdomínio delegado à Adobe, e a **Inicialização de telefone emblemática** precisa de credenciais SMS. Consulte [Configuração](setup.md) para obter detalhes.
 
 
 ## Introdução
