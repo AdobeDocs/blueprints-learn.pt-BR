@@ -2,14 +2,12 @@
 title: Consolidar e modernizar a tecnologia de marketing
 description: Saiba como reduzir a fragmentação de ferramentas e o débito técnico migrando para plataformas unificadas e escaláveis.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 5ab6071e-e1b3-488a-b7ed-3153c9bf6cdb
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
-
 # Consolidar e modernizar a tecnologia de marketing
 
 Reduza a fragmentação de ferramentas e o débito técnico migrando para plataformas unificadas e dimensionáveis. Esse objetivo se concentra em simplificar a pilha de tecnologia de marketing, consolidando soluções pontuais em plataformas integradas que compartilham dados, governança e fluxos de trabalho.

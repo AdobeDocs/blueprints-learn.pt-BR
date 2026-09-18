@@ -2,14 +2,12 @@
 title: Aumente a fidelidade do cliente e o valor vitalício
 description: Saiba como aprofundar os relacionamentos com os clientes e maximizar o valor a longo prazo por meio de programas de fidelidade, recompensas e envolvimento personalizado.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 4054a964-652a-492a-adae-e6a9edaf9e8a
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 3%
-
+ht-degree: 9%
 ---
-
-
 # Aumente a fidelidade do cliente e o valor vitalício
 
 Aprofunde as relações com o cliente e maximize o valor a longo prazo por meio de programas de fidelidade, recompensas e envolvimento personalizado. Esse objetivo se concentra na criação de relacionamentos duradouros com o cliente, que impulsionem compras repetidas, maior valor vitalício e defesa da marca por meio de experiências consistentes e orientadas por valor.

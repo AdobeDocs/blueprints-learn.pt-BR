@@ -2,14 +2,12 @@
 title: Impulsionar receitas de venda cruzada e venda adicional
 description: Saiba como promover produtos ou serviços complementares e premium para clientes existentes com base no comportamento e no histórico de compras.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 35e136e8-8b66-4f4c-8e77-7466553fc4b7
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 3%
-
+ht-degree: 10%
 ---
-
-
 # Impulsionar vendas cruzadas e receita de venda adicional
 
 Promova produtos ou serviços complementares e premium para os clientes existentes com base no histórico de comportamento e de compras. Esse objetivo se concentra em aumentar o valor para o cliente, apresentando as recomendações e ofertas de produto certas no momento certo por meio de decisões personalizadas e do envolvimento de vários canais.

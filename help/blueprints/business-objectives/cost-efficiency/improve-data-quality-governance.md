@@ -2,14 +2,12 @@
 title: Melhorar a qualidade e a governança dos dados
 description: Saiba como garantir dados limpos, completos e compatíveis para direcionamento preciso, redução de desperdício e análise confiável.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: ecede85f-9af8-4d97-a33c-a14dfe1ed61c
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 2%
-
+ht-degree: 3%
 ---
-
-
 # Melhorar a qualidade e a governança dos dados
 
 Garanta dados limpos, completos e em conformidade para a definição precisa de metas, a redução de desperdício e análises confiáveis. Esse objetivo se concentra em estabelecer a base de dados necessária para todas as atividades de marketing downstream, garantindo que os dados do cliente sejam precisos, consistentes, controlados corretamente e estejam em conformidade com as regulamentações.

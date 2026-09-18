@@ -2,14 +2,12 @@
 title: Melhorar a integração do cliente
 description: Saiba como acelerar o tempo de retorno para novos clientes com experiências de boas-vindas e jornadas de ativação simplificadas e personalizadas.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 3a156fbb-b078-469a-8604-0d6d340e9941
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 3%
-
+ht-degree: 8%
 ---
-
-
 # Melhorar a integração do cliente
 
 Acelere o tempo de implantação para novos clientes com experiências de boas-vindas e jornadas de ativação simplificadas e personalizadas. Esse objetivo se concentra em orientar novos clientes por meio de sua experiência inicial com comunicações oportunas e relevantes que impulsionam a adoção de produtos e o envolvimento antecipado.
