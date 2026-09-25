@@ -75,7 +75,7 @@ Uma maneira de pensar sobre as regras de ajuste de prioridade é tratá-las como
 
 3. Deixe o operador definido como &#39;Equals&#39; e, na caixa de texto restante, digite o nome do item de oferta da camada ulterior, que é **iphone:17\:ultra**. Depois de inserir o texto, a interface do usuário atualiza e reflete que a condição correspondente foi aceita.
 4. Clique em **+Adicionar condição** e clique na **nova caixa de texto que aparece** (ela tem o texto &#39;*Clique para criar um item de decisão...*&#39; nele
-5. Clique na opção agora disponível **Selecionar atributo****.**
+5. Clique na opção agora disponível **Selecionar atributo**&#x200B;**.**
 6. Quando a caixa de diálogo &#39;Selecionar um atributo&#39; for aberta, clique em **Atributos do perfil > Pessoa** (provavelmente será necessário rolar para baixo) **> Ano de Nascimento**. Depois de selecionado, clique em **Salvar.**
 
    >[!NOTE]

@@ -112,10 +112,10 @@ são somente históricos e não devem bloquear o trabalho de migração restante
 
 ## Perguntas abertas ainda não resolvidas (da auditoria)
 
-2. **`journey-optimizer-journeys.md`** â€&quot; sinalizado como duplicata incerta de `event-triggered-messaging`; verifique o escopo antes de cortar.
-3. O conteúdo **`customer-journey-analytics/analysis.md`**€ refere-se ao Serviço de Consulta do Experience Platform, não ao CJA; considere realocar para `experience-platform/`.
-4. Página somente links de **`customer-success-stories.md`** â€; confirme a classificação da Navegação.
-5. Pergunta de âncora de índice histórica substituída pela disposição concluída da arquitetura B2B.
+&#x200B;2. **`journey-optimizer-journeys.md`** â€&quot; sinalizado como duplicata incerta de `event-triggered-messaging`; verifique o escopo antes de cortar.
+&#x200B;3. O conteúdo **`customer-journey-analytics/analysis.md`**€ refere-se ao Serviço de Consulta do Experience Platform, não ao CJA; considere realocar para `experience-platform/`.
+&#x200B;4. Página somente links de **`customer-success-stories.md`** â€; confirme a classificação da Navegação.
+&#x200B;5. Pergunta de âncora de índice histórica substituída pela disposição concluída da arquitetura B2B.
 
 ## Como retomar
 
