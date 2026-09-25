@@ -4,13 +4,11 @@ description: Crie uma fórmula de classificação que aumenta dinamicamente as p
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%
-
 ---
-
 
 # Criar fórmula de classificação
 
@@ -144,7 +142,7 @@ Uma maneira de pensar sobre as regras de ajuste de prioridade é tratá-las como
 >- Os usuários nascidos em 1990 com uma **ID de plano = 1** terão as ofertas Ultra e Pro removidas, mesmo que sejam as mais altas. O usuário só vê as ofertas Base e Generic porque os níveis Ultra e Pro têm uma condição adicional: somente os usuários com **IDs de plano 2 ou 3** podem visualizá-las.
 >- Como a oferta Genérica não tem regras de limite de frequência, o usuário do ano de nascimento **1970** nunca verá a oferta Ultra, pois sua pontuação de prioridade é menor do que a pontuação aumentada do Genérico.
 
-&#x200B;5. Com todas as regras e a pontuação de prioridade padrão em vigor, role de volta para a parte superior e clique no botão azul **Criar** no canto superior direito.
+1. Com todas as regras e a pontuação de prioridade padrão em vigor, role de volta para a parte superior e clique no botão azul **Criar** no canto superior direito.
 
 >[!TIP]
 >

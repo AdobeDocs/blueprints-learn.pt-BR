@@ -4,7 +4,7 @@ description: Use a API do registro do esquema para criar um descritor de identid
 doc-type: article
 solution: Experience Platform
 exl-id: b3b8f480-af3b-4bf8-b74e-3842f59691b6
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -51,9 +51,9 @@ SOMENTE EXEMPLO
 
 
 
-&#x200B;3. Salve sua solicitação antes de continuar usando o botão `Save`
+1. Salve sua solicitação antes de continuar usando o botão `Save`
 
-&#x200B;4. Execute a API clicando no botão `Send`
+1. Execute a API clicando no botão `Send`
 
 Agora você verá uma resposta de `201 Created` como a seguir
 

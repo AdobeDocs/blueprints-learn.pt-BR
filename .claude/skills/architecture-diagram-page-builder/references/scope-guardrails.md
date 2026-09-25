@@ -1,13 +1,12 @@
 ---
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
-
 ---
 # Medidas de proteção de escopo: página de arquitetura versus página de padrão de caso de uso
 
-O site de blueprints separa **páginas de diagrama de arquitetura** de **páginas de padrão de caso de uso** porque atendem a diferentes necessidades de leitores. Este documento define o que pertence a onde e como lidar com o conteúdo que ultrapassa o limite.
+Este site separa **páginas de diagrama de arquitetura** de **páginas de padrão de caso de uso** porque elas atendem a diferentes necessidades de leitores. Este documento define o que pertence a onde e como lidar com o conteúdo que ultrapassa o limite.
 
 ## A principal distinção
 
@@ -18,7 +17,7 @@ O site de blueprints separa **páginas de diagrama de arquitetura** de **página
 
 | Categoria | Exemplos |
 | --- | --- |
-| Arquitetura de alto nível | Diagramas de visão geral do AEP e dos aplicativos, Experience Cloud marketecture, hub versus topologia de borda |
+| Arquitetura de alto nível | Diagramas de visão geral do AEP e dos aplicativos, Experience Cloud Marketecture, hub versus topologia de borda |
 | Fluxo de dados do sistema | Caminhos de assimilação em tempo real vs. em lote, sincronização de perfil entre hub e borda, fluxos de pesquisa vs. ativação |
 | Pontos de integração | Onde o AEP se integra ao AJO, CJA, Target, Campaign, Marketo, Workfront; limites do SDK; superfícies da API |
 | Topologia de implantação | Web SDK versus implantação de SDK móvel, encaminhamento pelo lado do servidor, posicionamento do nó de borda |

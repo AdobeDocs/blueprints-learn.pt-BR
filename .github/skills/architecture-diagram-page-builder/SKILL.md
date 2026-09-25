@@ -1,9 +1,9 @@
 ---
 name: architecture-diagram-page-builder
 description: 'Criação de guias de novas páginas de diagrama de arquitetura para o repositório de blueprints do Adobe Experience Platform. Use essa habilidade ao adicionar um novo diagrama de arquitetura de nível superior, uma página de arquitetura de integração ou uma visão geral da arquitetura do aplicativo. As páginas de arquitetura abordam o AEP de nível superior, as arquiteturas de aplicativos e os principais pontos de integração, e não casos de uso aprofundado (que pertencem ao construtor de padrões de casos de uso). Lida com o fluxo de trabalho completo: coleta de informações da página, geração do arquivo de marcação, colocação dele na pasta de tópico correta e atualização do TOC.md.'
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1568'
 ht-degree: 1%
 ---
 
@@ -119,8 +119,8 @@ Use `./references/diagram-template.md` como modelo de origem. Preencha todos os 
    - 1-2 frases explicando o propósito do diagrama
    - A imagem é incorporada usando a convenção padrão:
 
-     ```html
-     <img src="assets/{filename}" alt="{Alt Text}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+     ```markdown
+     ![{Alt Text}](assets/{filename}){width="1000" zoomable="yes"}
      ```
 
 6. **`## Use case patterns supported`** — lista com marcadores. Cada marcador:
@@ -147,12 +147,11 @@ Leia `./references/toc-placement.md` para a tabela e as regras de mapeamento de 
 
 | Pasta de tópico | Subseção do índice |
 | --- | --- |
-| `experience-platform/` | `+ Architecture overviews{#architecture-overview}` |
-| `experience-platform/deployment/` | `+ Deployment{#deployment}` (subseção de visões gerais de Arquitetura) |
-| `audience-activation/` | `+ Audience & Profile Activation{#audience-activation}` |
-| `b2b/` | `+ B2B activation & marketing{#b2b-activation}` |
-| `customer-journey-analytics/` | `+ Customer Journey Analytics{#customer-journey-analytics}` |
-| `customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
+| `architecture-diagrams/architecture-overviews/` | `+ Architecture overviews{#architecture-overviews}` |
+| `architecture-diagrams/audience-profile-activation/` | `+ Audience & Profile Activation{#audience-profile-activation}` |
+| `architecture-diagrams/b2b-activation-marketing/` | `+ B2B activation & marketing{#b2b-activation-marketing}` |
+| `architecture-diagrams/customer-insights/` | `+ Customer Insights{#customer-insights}` |
+| `architecture-diagrams/customer-journeys/` | `+ Customer journeys{#customer-journeys}` |
 
 Formato de entrada (recuo de 4 espaços + `+`):
 
@@ -186,6 +185,6 @@ Corrija quaisquer problemas de validação antes de considerar a tarefa como con
 
 - Sempre use a sintaxe `[!DNL ...]` para nomes de produtos do Adobe no corpo do texto e em marcadores, seguindo a convenção de páginas existentes.
 - Os diagramas de arquitetura normalmente são SVG (preferidos para nitidez e dimensionamento), mas PNG é aceitável para arte-final raster.
-- A cadeia de caracteres de estilo embutido `<img>` (`border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;`) e `class="modal-image"` são necessárias — elas habilitam a interação de zoom modal do Experience League.
-- Se o usuário estiver criando uma página para uma pasta de tópico totalmente nova que ainda não existe, avise-o de que o TOC.md precisa de uma nova subseção de nível superior em `+ Architecture Diagrams and Blueprints{#architecture-diagrams}`. Trate isso como uma etapa separada com a aprovação explícita do usuário.
+- Use uma imagem do Markdown com texto alternativo descritivo, um caminho relativo `assets/{filename}` e `{width="1000" zoomable="yes"}` para zoom do diagrama.
+- Se o usuário estiver criando uma página para uma pasta de tópico totalmente nova que ainda não existe, pare e use a habilidade `architecture-diagram-category-builder`; ela lida com a aplicação da convenção de nomenclatura, criação da subseção TOC.md, a categoria `overview.md` e a grade do cartão de página de aterrissagem. Não crie uma nova pasta de tópico dentro dessa habilidade.
 - Se o diagrama de arquitetura documenta extensivamente um *único caso de uso de ponta a ponta* (com KPIs, objetivos de negócios, recursos), redirecione o usuário para `use-case-pattern-builder` — essa não é uma página de arquitetura.

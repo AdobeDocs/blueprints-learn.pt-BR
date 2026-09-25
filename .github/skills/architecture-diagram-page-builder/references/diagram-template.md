@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '230'
 ht-degree: 0%
 ---
 # Modelo da página de diagrama de arquitetura
@@ -28,13 +28,13 @@ solution: {Comma-separated Adobe solutions, e.g. Experience Platform, Journey Op
 
 {1-2 sentence explanation of what the diagram shows and why it matters.}
 
-<img src="assets/{filename-1}" alt="{Alt text for diagram 1}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 1}](assets/{filename-1}){width="1000" zoomable="yes"}
 
 ## {Diagram 2 section title}
 
 {1-2 sentence explanation.}
 
-<img src="assets/{filename-2}" alt="{Alt text for diagram 2}" style="border:1px solid #4a4a4a; width:90%; margin-bottom: 15px;" class="modal-image" />
+![{Alt text for diagram 2}](assets/{filename-2}){width="1000" zoomable="yes"}
 
 ## Primary data flows and integration points
 
@@ -70,7 +70,7 @@ The architecture above supports the following use case patterns:
 
 - **One H1** — o título da página. Corresponder exatamente ao objeto de destaque `title`.
 - **Um H2 por diagrama.** Sem H3 dentro das seções do diagrama; mantenha-as em uma introdução de uma a duas frases mais a imagem.
-- **`<img>`incorporado** — o estilo embutido e `class="modal-image"` são obrigatórios. Eles impulsionam a interação modal-zoom do Experience League.
+- **Imagem de Markdown incorporada** — forneça texto alternativo descritivo e use `{width="1000" zoomable="yes"}` para diagramas.
 - **Caminho da imagem** — sempre `assets/{filename}` (relativo à pasta de tópicos da página). Não use caminhos absolutos.
 - **nomes de produtos do Adobe** — quebrar em `[!DNL ...]` com corpo de texto e marcadores. Exemplo: `[!DNL Real-Time CDP]`, `[!DNL Journey Optimizer]`, `[!DNL Experience Platform]`.
 - **Links padrão de caso de uso** — sempre use o formulário `/help/blueprints/use-case-patterns/{category}/{file}.md` absoluto para que o link seja resolvido a partir de qualquer página que possa transpor este conteúdo.

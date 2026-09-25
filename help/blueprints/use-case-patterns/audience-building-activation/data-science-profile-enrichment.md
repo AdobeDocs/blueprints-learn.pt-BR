@@ -3,13 +3,11 @@ title: Blueprint de Ciência de dados personalizada para enriquecimento de perfi
 description: Saiba como os insights baseados em ciência de dados podem ser assimilados no [!DNL Experience Platform] para enriquecer o Perfil do cliente em tempo real.
 solution: Data Collection
 kt: 7203
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 64%
-
+source-wordcount: '421'
+ht-degree: 63%
 ---
-
 # Ciência de dados personalizada para blueprint de enriquecimento de perfil
 
 O blueprint de ciência de dados personalizada para enriquecimento de perfil ilustra como os dados podem ser usados para treinar, implantar e pontuar modelos para fornecer insights de aprendizado de máquina sobre o [!DNL Experience Platform] e o [!DNL Real-Time Customer Data Platform] a partir de ciência de dados e ferramentas de aprendizado de máquina.
@@ -22,13 +20,9 @@ Os insights modelados podem ser assimilados em [!DNL Experience Platform] para e
 * Aprimore o [!UICONTROL Perfil de cliente em tempo real] com insights e atributos orientados por modelos para uma personalização mais detalhada e jornadas aperfeiçoadas.
 * Treine e classifique modelos para determinar insights do cliente, como valor vitalício do cliente, propensão à conversão ou à rotatividade, afinidade de conteúdos e produtos e classificação de engajamentos.
 
-## Arquitetura
-
-<img src="/help/blueprints/audience-activation/assets/data_science.svg" alt="Blueprint de arquitetura de referência para Ciência de dados personalizada para enriquecimento de perfis" style="width:90%; border:1px solid #4a4a4a" />
-
 ## Medidas de proteção
 
-* Para obter medidas de proteção detalhadas e latências de ponta a ponta ao assimilar resultados de ciência de dados no [!DNL Experience Platform] e o Perfil do Cliente em Tempo Real, consulte as medidas de proteção de assimilação de dados e o diagrama de latência referenciado no [documento de medidas de proteção de implantação](/help/blueprints/experience-platform/guardrails.md).
+* Para obter medidas de proteção detalhadas e latências de ponta a ponta ao assimilar resultados de ciência de dados no [!DNL Experience Platform] e o Perfil do Cliente em Tempo Real, consulte as medidas de proteção de assimilação de dados e o diagrama de latência referenciado no [documento de medidas de proteção de implantação](/help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md).
 
 ## Considerações de implantação
 

@@ -2,14 +2,12 @@
 title: Otimizar os gastos com marketing e o ROI
 description: Saiba como melhorar o retorno do investimento em marketing por meio de melhor direcionamento, atribuição, supressão de público-alvo e alocação de orçamento.
 solution: Experience Platform, Real-Time Customer Data Platform
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%
-
 ---
-
-
 # Otimizar os gastos com marketing e o ROI
 
 Melhore o retorno sobre o investimento em marketing através de melhor direcionamento, atribuição, supressão de público-alvo e alocação de orçamento. Esse objetivo aborda o ciclo completo de otimização de gastos de marketing, desde a precisão do público-alvo até a medição de desempenho e a realocação contínua em canais e táticas de mais alto desempenho.

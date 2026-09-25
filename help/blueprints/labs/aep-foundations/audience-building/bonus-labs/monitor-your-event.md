@@ -4,13 +4,11 @@ description: Use o Adobe Experience Platform Assurance para criar uma sessão de
 doc-type: article
 solution: Experience Platform
 exl-id: 94b200c0-6714-4996-a266-119cc8f7f4e2
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
-
 ---
-
 
 # Monitorar o evento
 
@@ -39,21 +37,21 @@ O [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/pt-br
 
    ![Clique em Avançar depois de inserir o nome da sessão e a URL](assets/monitor-your-event-click-next-button.png)
 
-&#x200B;4. Copie o link em algum lugar que possa ser referenciado mais tarde
+1. Copie o link em algum lugar que possa ser referenciado mais tarde
 
-&#x200B;5. Clique no botão **Concluído**
+1. Clique no botão **Concluído**
 
    ![Copie o link da sessão do Assurance e clique em Concluído](assets/monitor-your-event-copy-link.png)
 
 
 
-&#x200B;6. Navegue até **Configurações**
+1. Navegue até **Configurações**
 
    ![Navegue até a guia Configurações na sessão do Assurance](assets/monitor-your-event-navigate-to-settings.png "Clique nas configurações")
 
 
 
-&#x200B;7. Habilite **Transações de Evento** e **Edge Delivery** clicando no botão **+** e **Concluído**
+1. Habilite **Transações de Evento** e **Edge Delivery** clicando no botão **+** e **Concluído**
 
 ![Habilite as Transações de Evento e o Edge Delivery e clique em Concluído](assets/monitor-your-event-enable-event-transactions-and-edge-delivery.png)
 
@@ -69,7 +67,7 @@ Acesse Postman -> Criar Edge de evento da Web (Sem autenticação) -> Cabeçalho
 
 
 
-&#x200B;3. No Postman, salve e execute a solicitação **Criar Edge de Eventos da Web (Sem Autenticação)**
+1. No Postman, salve e execute a solicitação **Criar Edge de Eventos da Web (Sem Autenticação)**
 
 
 

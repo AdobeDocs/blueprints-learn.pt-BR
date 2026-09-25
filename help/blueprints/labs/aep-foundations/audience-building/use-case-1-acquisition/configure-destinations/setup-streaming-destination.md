@@ -4,13 +4,11 @@ description: Configure um destino de transmissão da API HTTP com um endpoint de
 doc-type: article
 solution: Experience Platform
 exl-id: c52d301f-b308-40fc-a59c-ace1c96ccd13
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
-
 ---
-
 
 # Configurar destino de transmissão
 
@@ -62,7 +60,7 @@ Na interface do Experience Platform, navegue até o catálogo de destinos fazend
 
 
 
-&#x200B;3. Preencha os detalhes de configuração do seu destino da seguinte maneira:
+1. Preencha os detalhes de configuração do seu destino da seguinte maneira:
 
 - **Nome** -> `Streaming DEP Webhook - [Your Initials]`
 - **Descrição** -> `[your webhook endpoint you copied above]`

@@ -4,13 +4,11 @@ description: Saiba como dividir um design de email em fragmentos reutilizáveis,
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
-
 ---
-
 
 # Criação de fragmentos de conteúdo
 
@@ -136,29 +134,29 @@ Crie um fragmento de cabeçalho para começar. No entanto, antes de criar o frag
 
 ![Clique em Avançar após selecionar o carregamento do logotipo](assets/building-content-fragments-upload-logo-click-next.png)
 
-&#x200B;11. Selecione a **pasta de ativos** que você criou e clique em **Importar**. O arquivo é salvo na sua pasta.
+1. Selecione a **pasta de ativos** que você criou e clique em **Importar**. O arquivo é salvo na sua pasta.
 
-![Selecionando a pasta de ativos criada e clicando em Importar](assets/building-content-fragments-select-asset-folder-import.png)
+   ![Selecionando a pasta de ativos criada e clicando em Importar](assets/building-content-fragments-select-asset-folder-import.png)
 
-&#x200B;12. O logotipo é colocado corretamente, mas é muito grande e precisa ser redimensionado. Para redimensionar o logotipo, atualize suas propriedades. Clique na **guia Estilo** e defina a largura para 40% arrastando o controle deslizante, como mostrado abaixo.
+1. O logotipo é colocado corretamente, mas é muito grande e precisa ser redimensionado. Para redimensionar o logotipo, atualize suas propriedades. Clique na **guia Estilo** e defina a largura para 40% arrastando o controle deslizante, como mostrado abaixo.
 
->[!NOTE]
->
->Observe que quando o botão de alternância está ativado, o número 40 representa % e não pixels. Se quiser um valor absoluto de pixel perfeito, alterne o botão para px.
+   >[!NOTE]
+   >
+   >Observe que quando o botão de alternância está ativado, o número 40 representa % e não pixels. Se quiser um valor absoluto de pixel perfeito, alterne o botão para px.
 
 
 
-![Controle deslizante de largura da guia de estilo definido como 40% para redimensionar o logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
+   ![Controle deslizante de largura da guia de estilo definido como 40% para redimensionar o logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-&#x200B;13. Clique em **&quot;Salvar&quot;** e seu fragmento será salvo. Você recebe uma notificação de barra verde na confirmação.
+1. Clique em **&quot;Salvar&quot;** e seu fragmento será salvo. Você recebe uma notificação de barra verde na confirmação.
 
-![Barra de confirmação verde depois de salvar o fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
+   ![Barra de confirmação verde depois de salvar o fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;14. O fragmento salvo está no modo de rascunho. Antes de usá-lo, você precisa publicá-lo. Clique no botão **voltar**.
+1. O fragmento salvo está no modo de rascunho. Antes de usá-lo, você precisa publicá-lo. Clique no botão **voltar**.
 
-![Botão Voltar para sair do fragmento de rascunho antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
+   ![Botão Voltar para sair do fragmento de rascunho antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;15. Clique no botão **Publicar**. Você verá a mensagem &quot;Publicando fragmento, isso pode levar algum tempo. Notificaremos quando a tarefa for concluída.&quot; na confirmação. O fragmento está pronto para ser usado para criação de modelo.
+1. Clique no botão **Publicar**. Você verá a mensagem &quot;Publicando fragmento, isso pode levar algum tempo. Notificaremos quando a tarefa for concluída.&quot; na confirmação. O fragmento está pronto para ser usado para criação de modelo.
 
 ![Botão Publicar e mensagem de confirmação do fragmento de publicação](assets/building-content-fragments-click-publish-fragment-button.png)
 

@@ -2,14 +2,12 @@
 title: Melhorar a retenção do cliente
 description: Saiba como manter os clientes existentes envolvidos e se renovando por meio de experiências orientadas por valor e estimulação contínua do relacionamento.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 806e0d2e-71e4-4a50-9de0-a4fae1170b55
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 3%
-
+ht-degree: 10%
 ---
-
-
 # Melhorar a retenção do cliente
 
 Mantenha os clientes existentes envolvidos e renovando-os por meio de experiências orientadas por valores e estimulação contínua do relacionamento. Esse objetivo se concentra na identificação de clientes em risco, no fornecimento de intervenções oportunas e na manutenção de um compromisso contínuo para reduzir o abandono e sustentar relacionamentos de longo prazo.

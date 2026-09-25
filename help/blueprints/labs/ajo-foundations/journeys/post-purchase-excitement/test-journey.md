@@ -4,13 +4,11 @@ description: Use o simulador do Modo de teste de jornada para acionar um evento 
 doc-type: article
 solution: Experience Platform
 exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 
 # Testar jornada
 
@@ -105,16 +103,16 @@ Você deve ver algo como isso no log:
 
 
 
-&#x200B;8. **Fechar** a **guia** do Navegador
-&#x200B;9. **Fechar Modo de Teste** no canto superior direito
+1. **Fechar** a **guia** do Navegador
+1. **Fechar Modo de Teste** no canto superior direito
 
    ![Botão Fechar Modo de Teste na parte superior direita](assets/test-journey-close-test-mode.png)
 
-&#x200B;10. Clique em **Publicar** a Jornada no canto superior direito
+1. Clique em **Publicar** a Jornada no canto superior direito
 
-![Botão Publicar para a Jornada na parte superior direita](assets/test-journey-publish-journey.png)
+   ![Botão Publicar para a Jornada na parte superior direita](assets/test-journey-publish-journey.png)
 
-&#x200B;11. **Feche** a **Jornada** clicando na seta \&lt;- na parte superior esquerda
+1. **Feche** a **Jornada** clicando na seta \&lt;- na parte superior esquerda
 
 ![Seta para trás na parte superior esquerda para fechar a Jornada](assets/test-journey-close-journey-back-arrow.png)
 

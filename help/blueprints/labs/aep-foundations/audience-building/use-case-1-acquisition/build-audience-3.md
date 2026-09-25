@@ -1,16 +1,14 @@
 ---
-title: Criar público-alvo
+title: Criar público-alvo #3
 description: Crie um público-alvo de visitantes da página do produto iPhone 14 e combine-o com outros públicos-alvo usando o público-alvo de públicos-alvo para habilitar a ativação da transmissão.
 doc-type: article
 solution: Experience Platform
 exl-id: 999f9a20-1655-4eab-a796-a19d69a06879
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # Criar público-alvo #3
 
@@ -134,17 +132,17 @@ Este público-alvo deve ser direto.  Podemos ter várias páginas de produtos, m
 
 
 
-&#x200B;5. Forneça uma descrição.
+1. Forneça uma descrição.
 
-&#x200B;6. Alterar para streaming
+1. Alterar para streaming
 
-&#x200B;7. Salvar como &quot;*Página do iPhone 14 Visitada, mas Não Proprietária/Ordenada*&quot;
+1. Salvar como &quot;*Página do iPhone 14 Visitada, mas Não Proprietária/Ordenada*&quot;
 
-&#x200B;8. Clique no botão azul **Ativar público-alvo** para destino
+1. Clique no botão azul **Ativar público-alvo** para destino
 
-&#x200B;9. Selecione o Destino do **Webhook de DEP de Streaming** e clique em Próximo
+1. Selecione o Destino do **Webhook de DEP de Streaming** e clique em Próximo
 
-&#x200B;10. Clique em Avançar e Concluir
+1. Clique em Avançar e Concluir
 
 >[!NOTE]
 >

@@ -4,13 +4,11 @@ description: Saiba como adicionar e configurar duas atividades de email em ramif
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 
 # Adicionar atividades de email
 
@@ -72,7 +70,7 @@ No próximo conjunto de etapas, você aproveitará a campanha para adicionar dua
 
 ![Caixa de diálogo de confirmação com o botão Salvar e fechar](assets/add-email-activities-save-and-close-dialog.png)
 
-&#x200B;11. Revise as propriedades e ações de Email, incluindo o texto adicionado ao corpo do Email. Clique na **seta para a esquerda** para voltar para a tela de campanha
+1. Revise as propriedades e ações de Email, incluindo o texto adicionado ao corpo do Email. Clique na **seta para a esquerda** para voltar para a tela de campanha
 
 ![Voltar para a tela do Campaign](assets/add-email-activities-back-to-campaign-canvas.png)
 

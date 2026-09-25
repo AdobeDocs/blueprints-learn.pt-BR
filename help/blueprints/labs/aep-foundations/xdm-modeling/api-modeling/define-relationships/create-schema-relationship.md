@@ -4,13 +4,11 @@ description: Use a API de registro do esquema para criar um descritor de relacio
 doc-type: article
 solution: Experience Platform
 exl-id: c9079585-fff1-4ee1-8992-93825fcde759
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
-
 ---
-
 
 # Criar relação do esquema
 
@@ -57,9 +55,9 @@ SOMENTE EXEMPLO
 
 
 
-&#x200B;3. Salve sua solicitação antes de continuar usando o botão `Save`
+1. Salve sua solicitação antes de continuar usando o botão `Save`
 
-&#x200B;4. Execute a API clicando no botão `Send`
+1. Execute a API clicando no botão `Send`
 
 Agora você deve ver uma resposta de `201 Created` como a seguir
 

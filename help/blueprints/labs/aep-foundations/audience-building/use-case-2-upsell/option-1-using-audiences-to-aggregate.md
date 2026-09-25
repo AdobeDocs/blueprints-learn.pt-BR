@@ -1,16 +1,14 @@
 ---
-title: Opção
+title: Opção #1 - using Audiences to aggregate
 description: Crie públicos-alvo que usem a soma e a agregação média no público-alvo em eventos de uso de faturamento e dados desnormalizados do plano para habilitar a avaliação da transmissão.
 doc-type: article
 solution: Experience Platform
 exl-id: da019755-07a3-406c-8ac7-7878325a14bf
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '813'
 ht-degree: 0%
-
 ---
-
 
 # Opção #1 - uso de públicos para agregar
 
@@ -108,15 +106,15 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-&#x200B;5. Clique em Audiences —> Experience Platform. Arraste a Soma de Uso de Faturamento > 140 GB e a Média de Uso de Faturamento >= 20 GB ao lado do Nome do Plano.
+1. Clique em Audiences —> Experience Platform. Arraste a Soma de Uso de Faturamento > 140 GB e a Média de Uso de Faturamento >= 20 GB ao lado do Nome do Plano.
 
    ![Arraste os públicos-alvo de uso de cobrança ao lado do Nome do Plano](assets/option-1-using-audiences-to-aggregate-20-gb-next-to-plan-name.png)
 
 
 
-&#x200B;6. Copiar o pseudo código na descrição
+1. Copiar o pseudo código na descrição
 
-&#x200B;7. Marque esta opção para Streaming. **Não pode ser Streaming**. Faça algumas alterações:
+1. Marque esta opção para Streaming. **Não pode ser Streaming**. Faça algumas alterações:
 
    >[!NOTE]
    >
@@ -126,7 +124,7 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-&#x200B;8. Substituir **Nome do Plano (Nome do Plano)** por: Perfil Individual XDM > Devbc > Detalhes do Plano > **Nome do Plano**
+1. Substituir **Nome do Plano (Nome do Plano)** por: Perfil Individual XDM > Devbc > Detalhes do Plano > **Nome do Plano**
 
    ![Substituir o Nome do Plano (Nome do Plano) pelo campo Nome do Plano desnormalizado](assets/option-1-using-audiences-to-aggregate-replace-denormalized-plan-name.png)
 
@@ -142,7 +140,7 @@ Nesta build de público-alvo, você determina o uso total dos dados de faturamen
 
 
 
-&#x200B;9. Valide se agora você pode salvar como Transmissão. Salvar público como &quot;*Uso alto de dados de cobrança, mas nenhum plano Ultimate*&quot;
+1. Valide se agora você pode salvar como Transmissão. Salvar público como &quot;*Uso alto de dados de cobrança, mas nenhum plano Ultimate*&quot;
 
 >[!NOTE]
 >

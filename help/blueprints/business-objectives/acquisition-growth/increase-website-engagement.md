@@ -2,14 +2,12 @@
 title: Aumentar o engajamento no site
 description: Saiba como melhorar o tempo no site, as páginas por sessão e a interação com o conteúdo da Web por meio de experiências relevantes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 41d03772-678a-4039-b470-6053c39e53aa
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 4%
-
+ht-degree: 10%
 ---
-
-
 # Aumentar o engajamento do site
 
 Melhore o tempo no site, as páginas por sessão e a interação com o conteúdo da Web por meio de experiências relevantes. Esse objetivo se concentra em fornecer experiências da Web contextuais e personalizadas que mantêm os visitantes envolvidos e progredindo pelos caminhos de conteúdo e conversão.

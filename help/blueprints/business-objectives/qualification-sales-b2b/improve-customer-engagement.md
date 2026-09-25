@@ -2,14 +2,12 @@
 title: Melhorar o engajamento do cliente
 description: Saiba como aumentar a frequência e a profundidade da interação em todos os pontos de contato digitais e físicos.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 9a2143c7-f962-4651-886a-a4be6ceff3fc
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 3%
-
+ht-degree: 10%
 ---
-
-
 # Melhorar o engajamento do cliente
 
 Aumente a frequência e a profundidade da interação em todos os pontos de contato digitais e físicos. Esse objetivo se concentra em fornecer interações relevantes e oportunas que incentivem relacionamentos mais profundos e engajamento mais frequente com a marca em todos os canais.

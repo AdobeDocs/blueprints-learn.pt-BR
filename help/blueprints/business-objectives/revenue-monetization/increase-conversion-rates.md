@@ -2,14 +2,12 @@
 title: Aumentar as taxas de conversão
 description: Saiba como melhorar a porcentagem de visitantes e prospetos que concluem as ações desejadas, como compras, inscrições ou envios de formulários.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: 47cb89e4-28d7-402c-9015-9b1b1ec0641a
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 2%
-
+ht-degree: 8%
 ---
-
-
 # Aumentar as taxas de conversão
 
 Melhore a porcentagem de visitantes e prospetos que concluem as ações desejadas, como compras, inscrições ou envios de formulários. Esse objetivo se concentra na otimização de todos os pontos de contato na jornada do cliente para reduzir o atrito e impulsionar a ação por meio de experiências personalizadas e mensagens em tempo hábil.

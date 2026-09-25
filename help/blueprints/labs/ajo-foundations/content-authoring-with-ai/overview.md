@@ -1,15 +1,13 @@
 ---
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
-workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 4%
----
-﻿---
 title: Visão geral
 description: Obtenha uma introdução a marcas, diretrizes de marca, jornadas e modelos e saiba como navegar pelas ferramentas de criação de conteúdo do Adobe Journey Optimizer.
 doc-type: overview-page
 solution: Experience Platform
 exl-id: 70eaf77b-e407-4fbc-8338-ab47784e0721
+source-git-commit: 05f7ecfb00f92af29838452abf4069758bb6f1b3
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 4%
 ---
 
 # Visão geral

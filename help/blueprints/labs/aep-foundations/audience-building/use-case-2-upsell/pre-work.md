@@ -4,13 +4,11 @@ description: Investigue campos de esquema para uso de faturamento e nome do plan
 doc-type: article
 solution: Experience Platform
 exl-id: c26de19e-82da-4070-a918-2d2c8ef2c116
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
-
 ---
-
 
 # Trabalho prévio
 
@@ -25,7 +23,7 @@ Neste caso de uso, não há muito trabalho prévio a ser feito. Basicamente, tem
 
 
 
-&#x200B;3. Procure por &quot;uso&quot; em Eventos.  Clique no &quot;i&quot; para analisar a descrição (não há nenhuma).
+1. Procure por &quot;uso&quot; em Eventos.  Clique no &quot;i&quot; para analisar a descrição (não há nenhuma).
 
 ![Procurar uso em Eventos - nenhuma descrição mostrada](assets/pre-work-search-usage-in-events.png)
 

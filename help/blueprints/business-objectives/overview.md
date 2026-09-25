@@ -3,14 +3,12 @@ title: Principais objetivos de negócios
 description: Saiba mais sobre os principais objetivos de negócios que os padrões de casos de uso do Adobe Experience Platform ajudam as organizações a alcançar.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+exl-id: ebebdf85-3ca0-4d8d-a14e-3808dfe43382
+source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 0%
-
 ---
-
-
 # Principais objetivos de negócios
 
 Os principais objetivos de negócios definem os resultados estratégicos que as organizações buscam alcançar por meio de suas iniciativas de experiência digital. Cada objetivo mapeia para um ou mais [padrões de caso de uso](/help/blueprints/use-case-patterns/overview.md) que descrevem como implementar o Adobe Experience Platform e aplicativos para fornecer esses resultados.

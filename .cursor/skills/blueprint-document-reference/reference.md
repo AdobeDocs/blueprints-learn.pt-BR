@@ -1,9 +1,8 @@
 ---
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
-
+source-wordcount: '630'
+ht-degree: 4%
 ---
 # Referência do documento de blueprint — Guia detalhado
 
@@ -122,9 +121,9 @@ Exemplo:
 
 ## Exemplo de referências neste repositório
 
-- **Blueprint do cenário (formulário longo)**: `help/blueprints/audience-activation/real-time-lookup.md`
-- **Visão geral/hub com guias e tabelas**: `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **Foco nas grades de proteção**: `help/blueprints/experience-platform/guardrails.md`
+- **Blueprint do cenário (formulário longo)**: `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **Visão geral/hub com guias e tabelas**: `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **Foco nas grades de proteção**: `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **Navegação**: `help/blueprints/TOC.md`, `help/blueprints/overview.md`
 
 Use-os como padrões para a ordem da seção, o assunto principal, a inserção de diagramas e o uso de links do Experience League.
