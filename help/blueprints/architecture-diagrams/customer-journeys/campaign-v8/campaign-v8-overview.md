@@ -1,14 +1,52 @@
 ---
-title: Blueprint, campanha e plataforma do Campaign v8
-description: Saiba mais sobre o blueprint do Campaign v8.
+title: Campaign v8, Campaign e plataforma
+description: Saiba mais sobre a arquitetura do Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
+exl-id: 89b3a761-9cb3-4e01-8da0-043e634fa61f
+TQID: https://experienceleague.adobe.com/1FmOmeJcV9zxUt6bXHYVV9z6qcQSIBkTHOcu5tJ8yJ0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+subfeature_v2:
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1056'
 ht-degree: 29%
 ---
-# Blueprint do Campaign v8
+# Campaign v8
+
+>[!TIP]
+>Esta arquitetura também está documentada como um [padrão de caso de uso](/help/blueprints/use-case-patterns/campaign-management-orchestration/campaign-v8-orchestration.md) em Gerenciamento e orquestração de campanhas.
 
 O Adobe Campaign v8 é uma plataforma de gerenciamento de campanha de última geração projetada para canais de marketing tradicionais, como email e correspondência direta. Ele oferece recursos avançados de ETL e gerenciamento de dados para oferecer suporte a segmentação complexa e direcionamento de público, além de um poderoso mecanismo de orquestração para a criação de programas de marketing orientados por lote e multitoque.
 
@@ -48,13 +86,13 @@ Saiba mais sobre os [modelos de implantação do Campaign v8](https://experience
 
 ### Implantação do Campaign Enterprise (FFDA)
 
-<img src="/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/images/campaign-v8-ffda.png" alt="Arquitetura de referência para o Blueprint de implantação do Campaign v8 (FFDA)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+![Arquitetura de referência para a implantação do Campaign v8 (FFDA)](images/campaign-v8-ffda.png){width="1000" zoomable="yes"}
 
 <br>
 
 ### Implantação do FDA no Campaign v8
 
-<img src="/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/images/campaign-v8-fda.png" alt="Arquitetura de referência do Blueprint do Campaign v8 (FDA)" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+![Arquitetura de referência do Campaign v8 (FDA)](images/campaign-v8-fda.png){width="1000" zoomable="yes"}
 
 <br>
 
@@ -62,14 +100,14 @@ Saiba mais sobre os [modelos de implantação do Campaign v8](https://experience
 
 | Cenário | Descrição | Considerações técnicas |
 | :-- | :--- | :--- |
-| [[!DNL Real-time Customer Data Platform] com Adobe [!DNL Campaign]](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/rtcdp-and-campaign-v8.md) | Mostra como a Adobe Experience Platform e seu Perfil do Cliente em Tempo Real e a ferramenta de segmentação centralizada podem ser utilizados com o Adobe [!DNL Campaign] para fornecer conversas personalizadas | <ul><li>Compartilhamento de perfis e públicos do [!DNL Real-Time CDP] para o Adobe [!DNL Campaign] por meio do uso da troca de arquivos de armazenamento em nuvem e dos fluxos de trabalho de assimilação do Adobe [!DNL Campaign] </li><li>Compartilhe facilmente dados de entrega e interação de conversas com clientes no [!DNL Real-Time CDP] a partir do Adobe [!DNL Campaign] para aprimorar o Perfil do cliente em tempo real e fornecer relatórios entre canais sobre campanhas de mensagens</li></ul> |
-| [[!DNL Journey Optimizer] com Adobe [!DNL Campaign]](/help/blueprints/architecture-diagrams/customer-journeys/campaign-v8/ajo-and-campaign-v8.md) | Mostra como você pode usar o Adobe Journey Optimizer para orquestrar experiências individuais utilizando o Perfil de Cliente em Tempo Real e aproveitar o sistema de mensagens transacionais [!DNL Campaign] nativo do Adobe para enviar a mensagem | <ul><li>Envia até 1 milhão de mensagens por hora por meio do servidor de mensagens em tempo real<li>Nenhuma limitação é executada a partir de [!DNL Journey Optimizer], portanto, garanta a verificação técnica por um arquiteto corporativo de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o Campaign v8</li></ul> |
+| [[!DNL Real-time Customer Data Platform] com Adobe [!DNL Campaign]](rtcdp-and-campaign-v8.md) | Mostra como a Adobe Experience Platform e seu Perfil do Cliente em Tempo Real e a ferramenta de segmentação centralizada podem ser utilizados com o Adobe [!DNL Campaign] para fornecer conversas personalizadas | <ul><li>Compartilhamento de perfis e públicos do [!DNL Real-Time CDP] para o Adobe [!DNL Campaign] por meio do uso da troca de arquivos de armazenamento em nuvem e dos fluxos de trabalho de assimilação do Adobe [!DNL Campaign] </li><li>Compartilhe facilmente dados de entrega e interação de conversas com clientes no [!DNL Real-Time CDP] a partir do Adobe [!DNL Campaign] para aprimorar o Perfil do cliente em tempo real e fornecer relatórios entre canais sobre campanhas de mensagens</li></ul> |
+| [[!DNL Journey Optimizer] com Adobe [!DNL Campaign]](ajo-and-campaign-v8.md) | Mostra como você pode usar o Adobe Journey Optimizer para orquestrar experiências individuais utilizando o Perfil de Cliente em Tempo Real e aproveitar o sistema de mensagens transacionais [!DNL Campaign] nativo do Adobe para enviar a mensagem | <ul><li>Envia até 1 milhão de mensagens por hora por meio do servidor de mensagens em tempo real<li>Nenhuma limitação é executada a partir de [!DNL Journey Optimizer], portanto, garanta a verificação técnica por um arquiteto corporativo de pré-vendas</li><li>A gestão de decisões não é compatível com cargas para o Campaign v8</li></ul> |
 
 <br>
 
 ## Pré-requisitos
 
-Existem os seguintes pré-requisitos para este blueprint.
+Existem os seguintes pré-requisitos para esta arquitetura.
 
 ### Servidor de aplicativo e servidor de mensagens em tempo real
 

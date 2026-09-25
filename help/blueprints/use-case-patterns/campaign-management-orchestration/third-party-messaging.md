@@ -1,14 +1,12 @@
 ---
-title: Journey Optimizer - Blueprint de mensagens de terceiros
+title: Journey Optimizer - blueprint de mensagens de terceiros
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagens de terceiros para enviar comunicações personalizadas.
 solution: Journey Optimizer
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 62%
-
+ht-degree: 58%
 ---
-
 # Blueprint de mensagens de terceiros
 
 Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagens de terceiros para enviar comunicações personalizadas.
@@ -17,7 +15,7 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagen
 
 ## Arquitetura
 
-<img src="/help/blueprints/customer-journeys/journey-optimizer/images/3rd-party-messaging-architecture.svg" alt="Blueprint do Journey Optimizer com arquitetura de referência" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
+<img src="/help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/images/ajo-third-party-messaging.png" alt="Blueprint do Journey Optimizer com arquitetura de referência" style="width:100%; border:1px solid #4a4a4a" class="modal-image" />
 
 <br>
 
@@ -37,9 +35,9 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagen
 
 ## Medidas de proteção
 
-[Link do produto Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=pt-BR)
+[Link do produto Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Medidas de proteção e orientação de latência completa](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=pt-BR)
+[Medidas de proteção e orientação de latência completa](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 
@@ -71,9 +69,9 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagen
 1. Configure sua fonte de dados do Experience Platform e determine quais campos devem ser armazenados em cache como parte da jornada
 1. Os dados de transmissão, usados para iniciar uma jornada do cliente, devem ser configurados primeiro para obter uma ID de orquestração. Essa ID de orquestração é então fornecida ao desenvolvedor para uso durante a assimilação
 1. Configure as origens de dados externos
-1. Configure ações personalizadas para aplicativos de terceiros
+1. Configurar ações personalizadas para aplicativos de terceiros
 
-### Configuração de push para publicação de conteúdo para dispositivos móveis (opcional, já que terceiros podem coletar tokens)
+### Configuração de push para dispositivos móveis (opcional, pois terceiros podem coletar tokens)
 
 1. Implemente o SDK móvel da Experience Platform para coletar tokens de push e informações de logon a serem vinculadas a perfis de clientes conhecidos
 1. Aproveite as tags da Adobe e crie uma propriedade de publicação de conteúdo para dispositivos móveis com a seguinte extensão:
@@ -90,6 +88,6 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagen
 
 * [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [Documentação de tags do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR)
-* [Documentação do Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)
-* [Documentação do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=pt-BR)
+* [Documentação do Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
+* [Documentação do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 * [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)
