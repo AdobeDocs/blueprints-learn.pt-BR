@@ -61,7 +61,7 @@ Esses diagramas de arquitetura mostram como o Experience Platform (AEP) está re
 
 >[!MORELIKETHIS]
 >
->[Configurações de integração para integrações de aplicativos da Experience Cloud](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en).
+>[Configurações de integração para integrações de aplicativos da Experience Cloud](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=pt-BR).
 
 
 ## Diagrama de arquitetura
