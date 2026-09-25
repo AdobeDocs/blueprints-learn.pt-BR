@@ -1,16 +1,14 @@
 ---
-title: Opção
+title: Opção #2 - use pre-aggregates
 description: Crie um público-alvo de transmissão total usando atributos de uso pré-agregados calculados upstream em vez de agregar eventos dentro da regra de público-alvo.
 doc-type: article
 solution: Experience Platform
 exl-id: fe6ee041-814f-41c1-91cf-c3473cbca0c2
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '312'
 ht-degree: 0%
-
 ---
-
 
 # Opção #2 - use pré-agregados
 
@@ -36,15 +34,15 @@ Crie um público-alvo de todos os perfis cujo uso de dados de faturamento é alt
 
 
 
-&#x200B;3. Procure o Nome do plano no Perfil e adicione-o (Perfil individual XDM > Devbc > Detalhes do plano > Nome do plano). Select Does Not Equal &quot;Ultimate&quot; (Não é igual a &quot;&quot;)
+1. Procure o Nome do plano no Perfil e adicione-o (Perfil individual XDM > Devbc > Detalhes do plano > Nome do plano). Select Does Not Equal &quot;Ultimate&quot; (Não é igual a &quot;&quot;)
 
    ![Selecionar Nome do Plano Não É Igual a Ultimate](assets/option-2-use-pre-aggregates-select-does-not-equal-ultimate.png)
 
 
 
-&#x200B;4. Forneça uma descrição.  O método de avaliação de validação é Streaming.
+1. Forneça uma descrição.  O método de avaliação de validação é Streaming.
 
-&#x200B;5. Salve o Público como &quot;*Uso alto de dados de cobrança, mas sem plano Ultimate (Agg)*&quot;
+1. Salve o Público como &quot;*Uso alto de dados de cobrança, mas sem plano Ultimate (Agg)*&quot;
 
 >[!NOTE]
 >

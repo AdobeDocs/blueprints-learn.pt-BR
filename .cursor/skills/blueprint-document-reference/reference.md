@@ -1,9 +1,8 @@
 ---
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
-
+source-wordcount: '630'
+ht-degree: 4%
 ---
 # Referência do documento de blueprint — Guia detalhado
 
@@ -15,7 +14,7 @@ ht-degree: 1%
 | **Blueprint do cenário** | Caso de uso único: arquitetura, etapas, medidas de proteção | e.g. `real-time-lookup.md`, `journey-optimizer-journeys.md` |
 | **SUMÁRIO** | Navegação; não usar como modelo de conteúdo | `help/blueprints/TOC.md` |
 
-&#x200B;---
+---
 
 ## Referência de seção completa
 
@@ -46,7 +45,7 @@ ht-degree: 1%
 - **Cenários de blueprint** ou **Padrões de integração**: tabela com nome de cenário, descrição curta e link para o blueprint do cenário.
 - **Pré-requisitos**, **Medidas de Proteção**, **Documentação relacionada**: os mesmos mencionados acima; mantenha-se conciso.
 
-&#x200B;---
+---
 
 ## Adobe Experience League — Direções do agente
 
@@ -65,7 +64,7 @@ Não cole procedimentos longos do Experience League no blueprint. Resumir e vinc
 | Tipo de conteúdo | URL base | Exemplo de caminho |
 |--------------|----------|--------------|
 | documentos do Experience Platform | `https://experienceleague.adobe.com/docs/experience-platform/` | `.../profile/home.html`, `.../destinations/catalog/...` |
-| Experience League (EN) | `https://experienceleague.adobe.com/pt-br/docs/` | Mesma estrutura acima com `/en/`. |
+| Experience League (EN) | `https://experienceleague.adobe.com/en/docs/` | Mesma estrutura acima com `/en/`. |
 | Journey Optimizer | `https://experienceleague.adobe.com/docs/journey-optimizer/` | `.../using/get-started/guardrails.html` |
 | SDK da Web | `https://experienceleague.adobe.com/docs/experience-platform/web-sdk/` | `.../home.html`, `.../commands/command-responses.html` |
 | API do servidor do Edge Network | `https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/` | `.../overview.html`, `.../guardrails.html` |
@@ -77,7 +76,7 @@ Use o caminho canônico que corresponde ao site atual do Experience League (pref
 
 ### Formatação de link no Markdown
 
-- **Texto do link descritivo**: `[Create schemas](https://experienceleague.adobe.com/pt-br...)` não &quot;clique aqui&quot;.
+- **Texto do link descritivo**: `[Create schemas](https://experienceleague.adobe.com/...)` não &quot;clique aqui&quot;.
 - **Nomes de produtos no texto**: use `[!DNL Product Name]` por estilo do Adobe (por exemplo, `[!DNL Real-time Customer Profile]`).
 - **Links externos**: adicionar `{target="_blank"}` somente quando o modelo ou pipeline exigir (verificar blueprints existentes no repositório).
 
@@ -98,19 +97,19 @@ Exemplo:
 ## Related documentation
 
 ### Destination configurations
-* [Custom Personalization Connection](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
-* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
+* [Custom Personalization Connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization)
+* [Activate audiences to edge personalization destinations](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations)
 
 ### SDK documentation
-* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=pt-BR)
-* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=pt-BR)
+* [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html)
+* [Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html)
 
 ### Profile and segmentation
-* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=pt-BR)
-* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
+* [Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Profile Guardrails](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html)
 ```
 
-&#x200B;---
+---
 
 ## Acordo de recompra e índice
 
@@ -118,13 +117,13 @@ Exemplo:
 - **Assets**: colocalize com o blueprint (por exemplo, `assets/`, `images/`) ou em uma pasta compartilhada (por exemplo, `experience-platform/assets/`).
 - **TOC**: editar `help/blueprints/TOC.md` ao adicionar, renomear ou mover páginas de blueprint. Preservar o frontmatter (`user-guide-title`, `breadcrumb-title`, `user-guide-description`, `product`, `mini-toc-levels`, `role`) e a hierarquia `+`.
 
-&#x200B;---
+---
 
 ## Exemplo de referências neste repositório
 
-- **Blueprint do cenário (formulário longo)**: `help/blueprints/audience-activation/real-time-lookup.md`
-- **Visão geral/hub com guias e tabelas**: `help/blueprints/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
-- **Foco nas grades de proteção**: `help/blueprints/experience-platform/guardrails.md`
+- **Blueprint do cenário (formulário longo)**: `help/blueprints/architecture-diagrams/audience-profile-activation/real-time-lookup.md`
+- **Visão geral/hub com guias e tabelas**: `help/blueprints/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview.md`
+- **Foco nas grades de proteção**: `help/blueprints/architecture-diagrams/architecture-overviews/guardrails.md`
 - **Navegação**: `help/blueprints/TOC.md`, `help/blueprints/overview.md`
 
 Use-os como padrões para a ordem da seção, o assunto principal, a inserção de diagramas e o uso de links do Experience League.

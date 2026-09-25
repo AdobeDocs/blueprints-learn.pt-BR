@@ -1,12 +1,12 @@
 ---
-source-git-commit: 8b3391d41cd4a3ea6cb52d5167e627b7f6bd2c6e
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
 ---
 # Medidas de proteção de escopo: página de arquitetura versus página de padrão de caso de uso
 
-O site de blueprints separa **páginas de diagrama de arquitetura** de **páginas de padrão de caso de uso** porque atendem a diferentes necessidades de leitores. Este documento define o que pertence a onde e como lidar com o conteúdo que ultrapassa o limite.
+Este site separa **páginas de diagrama de arquitetura** de **páginas de padrão de caso de uso** porque elas atendem a diferentes necessidades de leitores. Este documento define o que pertence a onde e como lidar com o conteúdo que ultrapassa o limite.
 
 ## A principal distinção
 

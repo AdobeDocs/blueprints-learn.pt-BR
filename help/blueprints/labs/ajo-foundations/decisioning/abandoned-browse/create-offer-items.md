@@ -4,13 +4,11 @@ description: Crie itens de oferta hierárquicos do iPhone com prioridades, regra
 doc-type: article
 solution: Experience Platform
 exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
-
 ---
-
 
 # Criar itens de oferta
 
@@ -84,7 +82,7 @@ O primeiro item de oferta mais fácil que você criar é a oferta substituta, qu
 >
 >Na prática, e com ofertas mais complexas, um processo de aprovação adequado deve estar em vigor para garantir que os itens da oferta tenham sido criados corretamente. Para economizar tempo nesse laboratório, basta aprovar cada item de oferta criado.
 
-&#x200B;12. Clique na **seta para a esquerda** ao lado do título do item de oferta para retornar à página &#39;Ofertas&#39; e você verá sua oferta iphone:17\:generic listada.
+1. Clique na **seta para a esquerda** ao lado do título do item de oferta para retornar à página &#39;Ofertas&#39; e você verá sua oferta iphone:17\:generic listada.
 
 ## Criar item de oferta de modelo base
 
@@ -150,7 +148,7 @@ Agora que as ofertas do modelo genérico e do modelo base foram criadas, é poss
 
 ![Configuração concluída para o item de oferta da Camada Ultramarina](assets/create-offer-items-ultra-offer-final-config.png)
 
-&#x200B;11. Depois de verificar se todas as configurações estão corretas, salve e aprove este item de oferta. Agora você vê todos os quatro itens de oferta, cada um com uma prioridade exclusiva.
+1. Depois de verificar se todas as configurações estão corretas, salve e aprove este item de oferta. Agora você vê todos os quatro itens de oferta, cada um com uma prioridade exclusiva.
 
 ![Página de ofertas listando todos os quatro itens de oferta com prioridades exclusivas](assets/create-offer-items-all-four-offers-priority.png)
 

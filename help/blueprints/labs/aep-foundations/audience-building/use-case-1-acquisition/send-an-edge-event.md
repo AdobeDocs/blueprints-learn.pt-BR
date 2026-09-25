@@ -4,13 +4,11 @@ description: Envie um evento da Web não autenticado para a Edge por meio do Pos
 doc-type: article
 solution: Experience Platform
 exl-id: 465d09da-e30f-404c-8778-5df06e5a199f
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
-
 ---
-
 
 # Enviar um evento do Edge
 
@@ -142,13 +140,13 @@ Na Adobe Experience Platform, procure o perfil que você acabou de enviar a part
 
 
 
-&#x200B;3. Clique em **Eventos** na navegação superior para ver o evento que acabou de enviar
+1. Clique em **Eventos** na navegação superior para ver o evento que acabou de enviar
 
    ![Exibir o evento na guia Eventos do perfil](assets/send-an-edge-event-view-the-profile-event.png)
 
 
 
-&#x200B;4. Confirme se o Perfil se qualificou para os Públicos revisando a guia Associação de público-alvo na navegação superior.  Você deve ver o seguinte:
+1. Confirme se o Perfil se qualificou para os Públicos revisando a guia Associação de público-alvo na navegação superior.  Você deve ver o seguinte:
 
 - Qualquer Edge de evento (nos últimos 15 minutos)
 - Qualquer transmissão de evento (na última hora)

@@ -1,9 +1,8 @@
 ---
-source-git-commit: 7511cc0e5c099d5d3ee1275a374cd9ffdc972335
+source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 0%
-
+source-wordcount: '690'
+ht-degree: 1%
 ---
 # Rubrica de avaliação do blueprint
 
@@ -21,7 +20,7 @@ definir possíveis abordagens de execução e considerações para alcançar ess
 Forma canônica: `.claude/skills/use-case-pattern-builder/references/pattern-template.md`.
 - **Diagrama de Arquitetura** — um diagrama visual que representa a funcionalidade de um sistema, o
 integrações e fluxos de dados. Narrativa mínima; o diagrama é o artefato.
-Exemplo canônico: [platform-data-flow.md](../help/blueprints/experience-platform/platform-data-flow.md).
+Exemplo canônico: [platform-data-flow.md](../help/blueprints/architecture-diagrams/architecture-overviews/platform-data-flow.md).
 
 ## Pontuação
 
@@ -42,11 +41,11 @@ apenas uma breve visão geral.
 
 ### Sinais de diagrama (cada = +1 Diagrama)
 
-&#x200B;6. **Imagem de arquitetura/fluxo de dados presente** — `.svg`, `.png` ou `.jpg` mostrando a topologia do sistema,
+6. **Imagem de arquitetura/fluxo de dados presente** — `.svg`, `.png` ou `.jpg` mostrando a topologia do sistema,
 fluxo de dados ou setas de integração.
-&#x200B;7. **Topologia de integração entre sistemas, forma de implantação ou medidas de proteção** — descreve como
+7. **Topologia de integração entre sistemas, forma de implantação ou medidas de proteção** — descreve como
 conexão de componentes, onde os dados estão, modelos de implantação (borda vs. hub) ou limites de capacidade.
-&#x200B;8. **O público-alvo são arquitetos de soluções** — a estrutura usa implantação, SDK, borda, hub ou semelhante
+8. **O público-alvo são arquitetos de soluções** — a estrutura usa implantação, SDK, borda, hub ou semelhante
 terminologia orientada por arquiteto em vez de enquadramento orientado por profissionais de marketing (campanhas, jornadas,
 públicos-alvo).
 
@@ -89,7 +88,7 @@ Para cada arquivo de marcação de blueprint no escopo:
      `audience-building-activation`, `personalization`, `campaign-management-orchestration`,
      `analysis`, `conversational-experience` ou uma nova categoria denominada `(new) <name>`.
    - `proposed_pattern_title` — um título curto e orientado a ações seguindo o padrão existente
-estilo de nomenclatura.
+     estilo de nomenclatura.
 6. Para `Diagram` e `Split` recomendações, proponha:
    - `proposed_diagram_title` — normalmente, o título existente é cortado do enquadramento comercial.
 7. Capturar quaisquer duplicatas encontradas comparando o escopo do blueprint com o catálogo de padrões existente

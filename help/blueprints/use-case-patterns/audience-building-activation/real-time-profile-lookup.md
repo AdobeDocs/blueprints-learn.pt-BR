@@ -3,13 +3,11 @@ title: Acesso ao perfil em tempo real para cenários de suporte e vendas
 description: Pesquisas de [!UICONTROL perfis de clientes em tempo real] para fornecer contexto ao suporte e às vendas atendidas por agentes.
 solution: Data Collection
 kt: 7195
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+source-git-commit: 0c41931afad32e806d57271439e31dda84a4b2ca
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 66%
-
+source-wordcount: '484'
+ht-degree: 65%
 ---
-
 # Acesso ao perfil em tempo real para cenários de suporte e vendas
 
 O blueprint Real-time Profile Access for Support and Sales Scenarios (Acesso a perfil em tempo real para suporte e cenários de vendas) mostra como os aplicativos externos podem acessar o [!UICONTROL Perfil do cliente em tempo real] da Adobe Experience Platform.
@@ -20,15 +18,11 @@ Com essa funcionalidade, é possível acessar conteúdo avançado durante chamad
 
 >[!NOTE]
 >
->A pesquisa de perfil no hub não se destina a casos de uso de alta taxa de transferência e baixa latência, como personalização de entrada da web/dispositivos móveis. A pesquisa de perfil no hub destina-se a cenários de latência mais baixa, como suporte assistido por agente ou interações de vendas. Para cenários de baixa latência e alta taxa de transferência, como personalização da Web/móvel ou o Offer Decisioning em tempo real, o perfil do Edge deve ser aproveitado. O perfil do Edge habilita o acesso em tempo real por meio da [Conexão personalizada do Personalization](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/personalization/custom-personalization) da Real-time Customer Data Platform.
+>A pesquisa de perfil no hub não se destina a casos de uso de alta taxa de transferência e baixa latência, como personalização de entrada da web/dispositivos móveis. A pesquisa de perfil no hub destina-se a cenários de latência mais baixa, como suporte assistido por agente ou interações de vendas. Para cenários de baixa latência e alta taxa de transferência, como personalização da Web/móvel ou o Offer Decisioning em tempo real, o perfil do Edge deve ser aproveitado. O perfil do Edge habilita o acesso em tempo real por meio da [Conexão personalizada do Personalization](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/custom-personalization) da Real-time Customer Data Platform.
 
 ## Casos de uso
 
 * Forneça contexto aprofundado do consumidor nas interações com agentes, como suporte e experiências de vendas. Ao usar a pesquisa de perfil na Experience Platform, os agentes podem receber mais contexto sobre o consumidor, como compras recentes, interações com campanhas, propensões, associações do público e outros atributos e insights que são armazenados no perfil do cliente em tempo real.
-
-## Arquitetura
-
-<img src="/help/blueprints/audience-activation/assets/customer_activity_hub.svg" alt="Blueprint de arquitetura de referência para o Hub de atividades do cliente" style="width:90%; border:1px solid #4a4a4a"  class="modal-image" />
 
 ## Medidas de proteção
 

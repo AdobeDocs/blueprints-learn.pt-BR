@@ -4,13 +4,11 @@ description: Crie uma jornada unitária que responda a um evento de Pedido envia
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
-
 ---
-
 
 # Criar jornada
 
@@ -159,8 +157,8 @@ Para conteúdo, você vai manter as coisas simples. Como estúpido simples.
 
    ```json
    {{profile.person.name.firstName}}, your order has shipped
-   ETA: 
-   Tracking Number: 
+   ETA:
+   Tracking Number:
    ```
 
 8. Adicione os campos de personalização da seguinte maneira (**clique no sinal de mais &#39;+&#39; ao lado do campo no painel esquerdo**):
@@ -188,7 +186,7 @@ Para conteúdo, você vai manter as coisas simples. Como estúpido simples.
 
 ![Botão Salvar e seta para trás na parte superior direita e superior esquerda](assets/build-journey-save-and-back-arrow.png)
 
-&#x200B;12. Finalmente, clique no **\&lt; ícone Voltar** na parte superior esquerda para voltar à Tela de Jornada
+1. Finalmente, clique no **\&lt; ícone Voltar** na parte superior esquerda para voltar à Tela de Jornada
 
 ![Ícone Voltar na parte superior esquerda para retornar à Tela de Jornada](assets/build-journey-back-icon-to-journey-canvas.png)
 

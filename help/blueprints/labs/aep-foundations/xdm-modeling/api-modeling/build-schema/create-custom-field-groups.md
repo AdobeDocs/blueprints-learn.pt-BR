@@ -4,13 +4,11 @@ description: Use a API de registro do esquema para criar um grupo de campos Deta
 doc-type: article
 solution: Experience Platform
 exl-id: d3262db9-7c0b-476a-843f-1a2c224ee792
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 
 # Criar grupos de campos personalizados
 
@@ -68,7 +66,7 @@ Observe também como cada campo específico da folha de mapeamento é fundamenta
 
 
 
-&#x200B;2. Atualize os `title` e `description` para o grupo de campos usando o seguinte formato: `Customer Account Details - Sandbox <your number here>`
+1. Atualize os `title` e `description` para o grupo de campos usando o seguinte formato: `Customer Account Details - Sandbox <your number here>`
 
 
 
@@ -76,9 +74,9 @@ Observe também como cada campo específico da folha de mapeamento é fundamenta
 
 
 
-&#x200B;3. Execute clicando no botão `Send`.  Você deve ver uma resposta semelhante à captura de tela abaixo.
+1. Execute clicando no botão `Send`.  Você deve ver uma resposta semelhante à captura de tela abaixo.
 
-&#x200B;4. Copie o valor `$id` do grupo de campos Detalhes da Conta do Cliente recém-criado.
+1. Copie o valor `$id` do grupo de campos Detalhes da Conta do Cliente recém-criado.
 
 ![Resposta de API bem-sucedida após a criação do grupo de campos personalizado](assets/create-custom-field-groups-step-2-create-custom-field-group-success.png "Etapa 2 - Êxito ao Criar Grupo de Campos Personalizado")
 

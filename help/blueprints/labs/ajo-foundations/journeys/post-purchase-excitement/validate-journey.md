@@ -4,13 +4,11 @@ description: Verifique a execução da jornada por meio de contagens de entrada 
 doc-type: article
 solution: Experience Platform
 exl-id: 2e6e73e5-6bd8-4dde-ba06-29b67f927131
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
-
 ---
-
 
 # Validar jornada
 
@@ -55,7 +53,7 @@ Você pode clicar no botão de alternância na parte superior para **excluir eve
 
 3 eventos externos
 
-&#x200B;5. Clique na guia **Email** (no painel esquerdo)
+1. Clique na guia **Email** (no painel esquerdo)
    - **Email - Desempenho de Envio**
      - Você vê alguns valores para **Entregue** e **Enviado** (a contagem dependerá de quantos eventos você enviou, erros etc.)
      - Esperamos que você não tenha erros (a menos que tenha encontrado alguns problemas anteriormente)
@@ -64,7 +62,7 @@ Você pode clicar no botão de alternância na parte superior para **excluir eve
 
    ![Guia Email mostrando desempenho e estatísticas de envio](assets/validate-journey-email-tab-sending-performance.png)
 
-&#x200B;6. Verifique sua **caixa de entrada de email** e veja se recebeu o email (ele é semelhante a este abaixo)
+1. Verifique sua **caixa de entrada de email** e veja se recebeu o email (ele é semelhante a este abaixo)
    - *,* seu pedido enviou ETA: *10/17/2026* Número de Rastreamento: *051009364*
 
    >[!NOTE]
@@ -81,7 +79,7 @@ Você pode clicar no botão de alternância na parte superior para **excluir eve
 
 
 
-&#x200B;7. *Após 30-60 minutos*, você pode até mesmo verificar seu conjunto de dados no data lake com o seguinte: **Consultas** -> **Criar Consulta** -> **Copiar/Colar SQL** -> **Executar**
+1. *Após 30-60 minutos*, você pode até mesmo verificar seu conjunto de dados no data lake com o seguinte: **Consultas** -> **Criar Consulta** -> **Copiar/Colar SQL** -> **Executar**
 
 >[!NOTE]
 >
@@ -119,7 +117,7 @@ Os resultados têm mais de 100 colunas e dão uma ideia de quais registros de Ev
 
 >[!NOTE]
 >
->Curioso sobre o que cada campo significa, verifique o Dicionário de Esquemas do AJO e altere a lista suspensa para o esquema de Eventos de etapa do Jornada: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
+>Curioso sobre o que cada campo significa, verifique o Dicionário de Esquemas do AJO e altere a lista suspensa para o esquema de Eventos de etapa do Jornada: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
 
 
 

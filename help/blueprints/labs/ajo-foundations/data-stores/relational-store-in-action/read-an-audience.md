@@ -4,7 +4,7 @@ description: Saiba como usar a atividade Ler público-alvo com um Dimension de d
 doc-type: article
 solution: Experience Platform
 exl-id: f825efe9-4349-4195-a017-c956c15df946
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -126,45 +126,45 @@ O Orchestrated Campaign usa o schema relacional para todas as atividades. Ao usa
 
 ![Atributo Source selecionado das colunas da Targeting dimension](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;11. Os valores distintos da coluna Source estão disponíveis na lista suspensa. Para a **Condição personalizada**, selecione **&quot;Na Loja&quot;** na lista suspensa e clique em **Confirmar** para sair
+1. Os valores distintos da coluna Source estão disponíveis na lista suspensa. Para a **Condição personalizada**, selecione **&quot;Na Loja&quot;** na lista suspensa e clique em **Confirmar** para sair
 
-![Condição personalizada definida como Na Loja](assets/read-an-audience-set-in-store-condition.png)
+   ![Condição personalizada definida como Na Loja](assets/read-an-audience-set-in-store-condition.png)
 
-&#x200B;12. De volta ao painel de detalhes da atividade **Split**, as configurações da primeira Split são concluídas. Clique em **Adicionar segmento** à segunda divisão
+1. De volta ao painel de detalhes da atividade **Split**, as configurações da primeira Split são concluídas. Clique em **Adicionar segmento** à segunda divisão
 
-![Botão Adicionar segmento no painel de detalhes da atividade de Divisão](assets/read-an-audience-add-segment-button.png)
+   ![Botão Adicionar segmento no painel de detalhes da atividade de Divisão](assets/read-an-audience-add-segment-button.png)
 
-Um novo segmento com o nome **Result** foi criado
+   Um novo segmento com o nome **Result** foi criado
 
-![Novo segmento chamado Resultado](assets/read-an-audience-new-result-segment.png)
+   ![Novo segmento chamado Resultado](assets/read-an-audience-new-result-segment.png)
 
-&#x200B;13. Renomeie &quot;**Result**&quot; para &quot;**Not In Store**&quot; e clique em **Criar filtro** para definir a condição de filtro
+1. Renomeie &quot;**Result**&quot; para &quot;**Not In Store**&quot; e clique em **Criar filtro** para definir a condição de filtro
 
-![Segmento renomeado para Fora do Repositório com a opção de filtro](assets/read-an-audience-rename-not-in-store-segment.png)
+   ![Segmento renomeado para Fora do Repositório com a opção de filtro](assets/read-an-audience-rename-not-in-store-segment.png)
 
-&#x200B;14. No painel **Criar filtro**, clique em **Adicionar condição**. Siga a mesma abordagem acima, expanda a **Dimensão de direcionamento** clicando em **>**, selecione `Source` na lista e clique em **Confirmar**
+1. No painel **Criar filtro**, clique em **Adicionar condição**. Siga a mesma abordagem acima, expanda a **Dimensão de direcionamento** clicando em **>**, selecione `Source` na lista e clique em **Confirmar**
 
-![Dimensão de direcionamento expandida para mostrar colunas de repositório relacional](assets/read-an-audience-expand-targeting-dimension.png)
+   ![Dimensão de direcionamento expandida para mostrar colunas de repositório relacional](assets/read-an-audience-expand-targeting-dimension.png)
 
-![Atributo Source selecionado das colunas da Targeting dimension](assets/read-an-audience-select-source-attribute.png)
+   ![Atributo Source selecionado das colunas da Targeting dimension](assets/read-an-audience-select-source-attribute.png)
 
-&#x200B;15. Para a **Condição personalizada**, selecione **&quot;Na Loja&quot;** na lista suspensa e, para o operador, selecione &quot;**não é igual a**&quot;. Clique em **Confirmar** para sair
+1. Para a **Condição personalizada**, selecione **&quot;Na Loja&quot;** na lista suspensa e, para o operador, selecione &quot;**não é igual a**&quot;. Clique em **Confirmar** para sair
 
-![Condição personalizada definida como diferente de No Repositório](assets/read-an-audience-set-not-in-store-condition.png)
+   ![Condição personalizada definida como diferente de No Repositório](assets/read-an-audience-set-not-in-store-condition.png)
 
-&#x200B;16. De volta ao painel de detalhes da atividade **Split**, as configurações das duas Divisões estão concluídas. Clique em **Iniciar** para executar a campanha no **Modo de teste**
+1. De volta ao painel de detalhes da atividade **Split**, as configurações das duas Divisões estão concluídas. Clique em **Iniciar** para executar a campanha no **Modo de teste**
 
-![Botão Iniciar para executar a campanha no modo Teste após configurar a Divisão](assets/read-an-audience-start-test-mode-second-run.png)
+   ![Botão Iniciar para executar a campanha no modo Teste após configurar a Divisão](assets/read-an-audience-start-test-mode-second-run.png)
 
-&#x200B;17. A execução do teste começa e os resultados são exibidos após a conclusão. Como apenas **7** dimensão de Destino correspondente foi encontrada no esquema Relacional, a mesma contagem também é observada após as operações Split (**7** e **0**)
+1. A execução do teste começa e os resultados são exibidos após a conclusão. Como apenas **7** dimensão de Destino correspondente foi encontrada no esquema Relacional, a mesma contagem também é observada após as operações Split (**7** e **0**)
 
-![Resultados de atividade dividida mostrando contagens de 7 e 0](assets/read-an-audience-verify-split-counts.png)
+   ![Resultados de atividade dividida mostrando contagens de 7 e 0](assets/read-an-audience-verify-split-counts.png)
 
-&#x200B;18. Clique em cada caixa de resultados e **Visualizar resultados** para exibir os resultados
+1. Clique em cada caixa de resultados e **Visualizar resultados** para exibir os resultados
 
-![Opção Visualizar resultados para cada caixa de resultado de Divisão](assets/read-an-audience-preview-split-results.png)
+   ![Opção Visualizar resultados para cada caixa de resultado de Divisão](assets/read-an-audience-preview-split-results.png)
 
-&#x200B;19. Clique em **Parar** para parar o **Modo de teste** da campanha
+1. Clique em **Parar** para parar o **Modo de teste** da campanha
 
 ![Botão Parar para finalizar a execução final do modo de Teste](assets/read-an-audience-stop-test-mode-final.png)
 
@@ -182,4 +182,4 @@ Um novo segmento com o nome **Result** foi criado
 
 Agora você viu como é fácil criar uma Campanha e executar uma atividade Ler público junto com o Dimension do Direcionamento de perfil para usar o esquema relacional. Você usou a atividade Split para dividir o público com base em uma condição. Por fim, o modo de teste ajudou a entender que é importante ter a consistência de dados entre o Perfil e o esquema Relacional.
 
-Você pode ler mais [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience), se estiver interessado.
+Você pode ler mais [aqui](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/design-campaigns/read-audience), se estiver interessado.

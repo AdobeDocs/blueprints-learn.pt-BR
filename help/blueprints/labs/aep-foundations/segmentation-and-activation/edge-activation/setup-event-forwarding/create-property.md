@@ -4,13 +4,11 @@ description: Crie uma propriedade de encaminhamento de eventos com um elemento d
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
-
 ---
-
 
 # Criar propriedade
 
@@ -208,7 +206,7 @@ Quando você terminar, valide sua tela com aparência semelhante à mostrada aba
 
 
 
-&#x200B;4. Quando terminar, você deverá ver sua ação adicionada à regra. Clique em **Salvar** para continuar.
+1. Quando terminar, você deverá ver sua ação adicionada à regra. Clique em **Salvar** para continuar.
 
 ![O editor de regras mostra a ação configurada com o botão Salvar realçado](assets/create-property-save-rule-button.png "Salvar sua regra")
 
