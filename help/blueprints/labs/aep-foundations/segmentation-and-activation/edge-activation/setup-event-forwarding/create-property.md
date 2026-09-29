@@ -4,7 +4,10 @@ description: Crie uma propriedade de encaminhamento de eventos com um elemento d
 doc-type: article
 solution: Experience Platform
 exl-id: eabd5f75-7706-4c96-982e-2512509bdc55
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%

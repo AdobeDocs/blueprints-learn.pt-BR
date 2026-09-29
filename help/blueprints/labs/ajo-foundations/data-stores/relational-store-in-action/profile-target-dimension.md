@@ -4,7 +4,10 @@ description: Saiba como rotular um campo de esquema relacional como uma identida
 doc-type: article
 solution: Experience Platform
 exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -106,4 +109,4 @@ O Dimension de direcionamento de perfil é usado para informar à Adobe Journey 
 
 Agora você viu como é fácil navegar pelo Esquema, marcar um atributo como uma Identidade e criar o Dimension de direcionamento de perfil.
 
-Você pode ler mais [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension), se estiver interessado.
+Você pode ler mais [aqui](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension), se estiver interessado.

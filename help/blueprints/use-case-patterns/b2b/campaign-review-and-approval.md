@@ -1,7 +1,10 @@
 ---
 title: Revisar e aprovar
 description: Revisar e aprovar - Integração do Marketo Engage e do Workfront
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 83%
@@ -71,7 +74,7 @@ Quando a tarefa “Pronta para revisão” passa para o status “Revisar email 
 
 ### Use provas do Workfront para colaborar por meio de comentários e anotações {#use-workfront-proofing-to-collaborate}
 
-Os recursos de [prova](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html?lang=pt-BR){target="_blank"} do Workfront permitem que sua equipe de marketing pegue um novo ativo, como uma imagem ou um email, e colabore através de comentários e anotações. Quando uma prova estiver pronta para ser ativada, os tomadores de decisão poderão aprovar o ativo a partir da ferramenta de prova.
+Os recursos de [prova](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proofing-basics.html){target="_blank"} do Workfront permitem que sua equipe de marketing pegue um novo ativo, como uma imagem ou um email, e colabore através de comentários e anotações. Quando uma prova estiver pronta para ser ativada, os tomadores de decisão poderão aprovar o ativo a partir da ferramenta de prova.
 
 ### Aprovar o Workfront Proof e acionar a aprovação de ativos no Marketo Engage, marcar a tarefa como concluída {#approve-workfront-proof-and-trigger-asset-approval-in-marketo-engage}
 

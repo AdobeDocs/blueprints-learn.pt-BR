@@ -2,7 +2,10 @@
 title: Journey Optimizer - blueprint de mensagens de terceiros
 description: Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagens de terceiros para enviar comunicações personalizadas.
 solution: Journey Optimizer
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 58%
@@ -35,9 +38,9 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagen
 
 ## Medidas de proteção
 
-[Link do produto Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html?lang=pt-BR)
+[Link do produto Journey Optimizer Guardrails](https://experienceleague.adobe.com/docs/journeys/using/starting-with-journeys/limitations.html)
 
-[Medidas de proteção e orientação de latência completa](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html?lang=pt-BR)
+[Medidas de proteção e orientação de latência completa](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/architecture-overview/guardrails.html)
 
 <br>
 
@@ -88,6 +91,6 @@ Demonstra como o Adobe Journey Optimizer pode ser usado com sistemas de mensagen
 
 * [Documentação do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html?lang=pt-BR)
 * [Documentação de tags do Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=pt-BR)
-* [Documentação do Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)
-* [Documentação do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=pt-BR)
+* [Documentação do Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)
+* [Documentação do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html)
 * [Descrição do produto Journey Optimizer](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer.html)

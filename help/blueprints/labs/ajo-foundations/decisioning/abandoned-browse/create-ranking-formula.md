@@ -4,7 +4,10 @@ description: Crie uma fórmula de classificação que aumenta dinamicamente as p
 doc-type: article
 solution: Experience Platform
 exl-id: 67aaca7f-366c-4db4-a5d5-017f52fbd15b
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 0%
@@ -75,7 +78,7 @@ Uma maneira de pensar sobre as regras de ajuste de prioridade é tratá-las como
 
 3. Deixe o operador definido como &#39;Equals&#39; e, na caixa de texto restante, digite o nome do item de oferta da camada ulterior, que é **iphone:17\:ultra**. Depois de inserir o texto, a interface do usuário atualiza e reflete que a condição correspondente foi aceita.
 4. Clique em **+Adicionar condição** e clique na **nova caixa de texto que aparece** (ela tem o texto &#39;*Clique para criar um item de decisão...*&#39; nele
-5. Clique na opção agora disponível **Selecionar atributo**&#x200B;**.**
+5. Clique na opção agora disponível **Selecionar atributo****.**
 6. Quando a caixa de diálogo &#39;Selecionar um atributo&#39; for aberta, clique em **Atributos do perfil > Pessoa** (provavelmente será necessário rolar para baixo) **> Ano de Nascimento**. Depois de selecionado, clique em **Salvar.**
 
    >[!NOTE]

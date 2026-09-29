@@ -4,13 +4,18 @@ description: Saiba mais sobre os padrões de casos de uso para implementar o Ado
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 doc-type: overview-page
 exl-id: 58caa6ad-0d1c-4290-9614-c68c9c9028bb
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 0%
-
+source-wordcount: '1098'
+ht-degree: 8%
 ---
-
 # Padrões de caso de uso
 
 Os padrões de caso de uso definem abordagens de implementação repetíveis para o Adobe Experience Platform e os aplicativos. Cada padrão descreve um recurso específico, o plano de execução que o fornece, os aplicativos envolvidos e os [principais objetivos de negócios](/help/blueprints/business-objectives/overview.md) aos quais ele dá suporte.
@@ -72,7 +77,7 @@ Os padrões a seguir abordam cenários de marketing específicos para B2B — p�
 | [Ativação de público B2B](b2b/account-audience-activation.md) | Ativar públicos-alvo B2B baseados em conta nos canais da Web, de email e de publicidade | B2B edition [!DNL Real-Time CDP] |
 | [Comprando marketing baseado em grupo e gerenciamento de jornadas](b2b/buying-group-marketing.md) | Desenvolver jornadas a nível de conta que qualifiquem leads em grupos de compras para melhorar a eficácia do marketing B2B | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
 | [Análise B2B](b2b/account-analytics.md) | Incluir informações a nível de conta B2B na análise de jornada de clientes entre canais | [!DNL Customer Journey Analytics] B2B edition, [!DNL Real-Time CDP] B2B edition |
-| [Jornadas B2B usando Dados do Marketo](b2b/marketo-data-journeys.md) | Implantar o Journey Optimizer B2B edition com dados do Marketo para orquestrar jornadas de grupos de compra e envolvimento com a conta | [!DNL Journey Optimizer] B2B edition, [!DNL Marketo Engage], [!DNL Real-Time CDP] B2B edition |
+| [Jornadas B2B usando Dados do Marketo](b2b/marketo-data-journeys.md) | Implante o Journey Optimizer B2B Edition com dados do Marketo para orquestrar jornadas de grupos de compra e envolvimento com a conta | [!DNL Journey Optimizer] B2B edition, [!DNL Marketo Engage], [!DNL Real-Time CDP] B2B edition |
 | [Controlador de Mídia Paga B2B do AJO](b2b/paid-media-orchestration.md) | Orquestrar campanhas de mídia paga B2B usando a lógica de cascata para atribuir contas a campanhas e ativar para destinos | [!DNL Journey Optimizer] B2B edition, [!DNL Real-Time CDP] B2B edition |
 | [Entradas e criação do Marketo &amp; Workfront](b2b/campaign-intake-and-creation.md) | Automatizar a entrada de solicitações de campanha de marketing e a criação de programas do Marketo Engage usando o Workfront Forms e o Fusion | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
 | [Revisão e aprovação do Marketo &amp; Workfront](b2b/campaign-review-and-approval.md) | Integrar workflows de prova e aprovação do Workfront com ativos de email do Marketo Engage usando a automação do Fusion | [!DNL Marketo Engage], [!DNL Workfront], [!DNL Workfront Fusion] |
@@ -94,33 +99,33 @@ Use este guia quando um cenário couber em mais de um padrão. Responda às perg
 *Um cliente decorrido não efetuou a compra há 90 dias. Você deseja engajá-los novamente com uma oferta direcionada.*
 
 - **A seleção de ofertas é dinâmica (clientes diferentes recebem ofertas diferentes com base na qualificação ou classificação)?**
-   - Sim → [Offer Decisioning](personalization/offer-decisioning.md) como a camada de oferta, encapsulada em [jornada orquestrada de várias etapas](campaign-management-orchestration/multi-step-orchestrated-journey.md) para a sequência de reengajamento
-   - Não (mesma oferta para todos os clientes qualificados do programa de aprendizado) → [jornada orquestrada em várias etapas](campaign-management-orchestration/multi-step-orchestrated-journey.md) sozinha
+  - Sim → [Offer Decisioning](personalization/offer-decisioning.md) como a camada de oferta, encapsulada em [jornada orquestrada de várias etapas](campaign-management-orchestration/multi-step-orchestrated-journey.md) para a sequência de reengajamento
+  - Não (mesma oferta para todos os clientes qualificados do programa de aprendizado) → [jornada orquestrada em várias etapas](campaign-management-orchestration/multi-step-orchestrated-journey.md) sozinha
 
 ### Acompanhamento pós-compra
 
 *Um cliente acabou de concluir uma compra. Você deseja enviar uma confirmação, recomendação de venda cruzada e notificação de recompensa de fidelidade.*
 
 - **A sequência requer ramificação adaptável com base em eventos em tempo real (por exemplo, recompensa reclamada, produto revisado)?**
-   - Sim → [jornada orquestrada em várias etapas](campaign-management-orchestration/multi-step-orchestrated-journey.md)
-   - Não (sequência fixa, sem ramificação) → [Ativação de mensagem de saída em lote](campaign-management-orchestration/batch-outbound-message-activation.md)
+  - Sim → [jornada orquestrada em várias etapas](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - Não (sequência fixa, sem ramificação) → [Ativação de mensagem de saída em lote](campaign-management-orchestration/batch-outbound-message-activation.md)
 - **Inclui recomendações personalizadas de produtos?**
-   - Sim → Estenda com [recomendação comportamental](personalization/behavioral-recommendation.md) na camada de conteúdo
+  - Sim → Estenda com [recomendação comportamental](personalization/behavioral-recommendation.md) na camada de conteúdo
 
 ### Personalização de marco de fidelidade
 
 *Um cliente atinge uma nova camada de fidelidade. Você deseja mostrar conteúdo personalizado da Web e enviar uma mensagem de felicitações.*
 
 - **O conteúdo da Web é personalizado (conteúdo diferente por camada ou segmento)?**
-   - Sim → [Personalização de aplicativo/Web de visitante conhecido](personalization/known-visitor-web-app-personalization.md) para a superfície da Web
+  - Sim → [Personalização de aplicativo/Web de visitante conhecido](personalization/known-visitor-web-app-personalization.md) para a superfície da Web
 - **A mensagem de saída é um envio único ou uma sequência de criação?**
-   - Envio único → [Mensagens acionadas por evento](campaign-management-orchestration/event-triggered-messaging.md)
-   - Sequência → [jornada orquestrada em várias etapas](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - Envio único → [Mensagens acionadas por evento](campaign-management-orchestration/event-triggered-messaging.md)
+  - Sequência → [jornada orquestrada em várias etapas](campaign-management-orchestration/multi-step-orchestrated-journey.md)
 
 ### Campanha de reengajamento
 
 *Um segmento de usuários inativos precisa de uma sequência de reativação multitoque.*
 
 - **As mensagens individuais precisam selecionar entre várias variantes de ofertas em tempo real?**
-   - Sim → [jornada entre canais com decisão](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
-   - Não → [jornada orquestrada em várias etapas](campaign-management-orchestration/multi-step-orchestrated-journey.md)
+  - Sim → [jornada entre canais com decisão](campaign-management-orchestration/cross-channel-journey-with-decisioning.md)
+  - Não → [jornada orquestrada em várias etapas](campaign-management-orchestration/multi-step-orchestrated-journey.md)

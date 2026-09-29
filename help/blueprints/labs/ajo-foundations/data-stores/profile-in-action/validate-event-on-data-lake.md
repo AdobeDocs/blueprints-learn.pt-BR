@@ -4,13 +4,14 @@ description: Saiba como consultar o Data Lake para verificar se um evento da Web
 doc-type: article
 solution: Experience Platform
 exl-id: 14445089-aa3c-4cce-9d33-80032b6f9868
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
-
 ---
-
 
 # Validar evento no Data Lake
 

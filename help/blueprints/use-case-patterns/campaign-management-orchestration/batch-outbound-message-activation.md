@@ -3,13 +3,16 @@ title: Ativação de mensagem de saída em lote
 description: Saiba como avaliar um público-alvo e fornecer uma mensagem de saída agendada em uma única execução em lote.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 4%
-
 ---
-
 # Ativação de mensagem de saída em lote
 
 Este guia descreve o padrão de caso de uso de ativação de mensagem de saída em lote, que usa o [!DNL Adobe Journey Optimizer] (AJO) e o [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) para entregar mensagens de saída agendadas a segmentos de público-alvo definidos. Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam entender o que esse padrão faz, os objetivos de negócios que ele aceita, os casos de uso táticos que ele permite e os aplicativos Adobe envolvidos.
@@ -88,9 +91,9 @@ A tabela a seguir define os KPIs usados para medir a eficácia da campanha.
 
 Os aplicativos a seguir são usados para implementar esse padrão.
 
-- **[!DNL Adobe Journey Optimizer] (AJO)** — Criação de mensagens, configuração de canal, execução de campanha, orquestração de jornadas, experimentação de conteúdo, regras de frequência e relatórios
-- **[!DNL Adobe Real-Time Customer Data Platform] (RT-CDP)** — Avaliação de público, consentimento e imposição de governança
-- **[!DNL Adobe Experience Platform] (AEP)** — Armazenamento de perfil, serviço de identidade, esquemas, conjuntos de dados, coleta de dados
+- **[!DNL Adobe Journey Optimizer](AJO)** — Criação de mensagens, configuração de canal, execução de campanha, orquestração de jornadas, experimentação de conteúdo, regras de frequência e relatórios
+- **[!DNL Adobe Real-Time Customer Data Platform](RT-CDP)** — Avaliação de público, consentimento e imposição de governança
+- **[!DNL Adobe Experience Platform](AEP)** — Armazenamento de perfil, serviço de identidade, esquemas, conjuntos de dados, coleta de dados
 
 ## Documentação relacionada
 
@@ -98,29 +101,29 @@ Esta seção fornece links abrangentes para a documentação do [!DNL Experience
 
 ### Campanhas
 
-- [Introdução às campanhas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
+- [Introdução às campanhas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/get-started-with-campaigns)
 - [Criar uma campanha](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
-- [Campanhas acionadas por API](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
+- [Campanhas acionadas por API](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/api-triggered-campaigns/api-triggered-campaigns)
 
 ### Jornadas
 
-- [Introdução às jornadas](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey)
-- [Ler jornada de público-alvo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
+- [Introdução às jornadas](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Ler jornada de público-alvo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/read-audience)
 
 ### Configuração de canais
 
-- [Introdução à configuração de email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
+- [Introdução à configuração de email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/get-started-email-config)
 - [Delegar subdomínios](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/delegate-subdomain)
 - [Criar pools de IP](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-pools)
 - [Planos de aquecimento de IP](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/ip-warmup/ip-warmup-gs)
-- [Configurações de superfície de email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
-- [Configurar canal de SMS](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
+- [Configurações de superfície de email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/configure-email/email-settings)
+- [Configurar canal de SMS](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration)
 - [Configurar canal de notificação por push](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/push/configure-push/push-configuration)
-- [Gerenciar lista de supressão](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
+- [Gerenciar lista de supressão](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list)
 
 ### Criação e personalização de mensagens
 
-- [Criar um email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/channels/email/create-email)
+- [Criar um email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/create-email)
 - [Criar conteúdo de email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/design-emails)
 - [Usar componentes de conteúdo do Email Designer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/content-components)
 - [Importar ou codificar conteúdo de email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/code-content)
@@ -131,15 +134,15 @@ Esta seção fornece links abrangentes para a documentação do [!DNL Experience
 
 ### Gestão de conteúdo
 
-- [Trabalhar com modelos de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-templates/content-templates)
+- [Trabalhar com modelos de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates/content-templates)
 - [Trabalhar com fragmentos de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/content-fragments)
-- [Visualizar e testar o conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/preview-test/preview-test)
-- [Enviar provas de email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/preview-test/proofs)
+- [Visualizar e testar o conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/preview-test)
+- [Enviar provas de email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/proofs)
 - [Renderização de email](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/preview-test/email-rendering)
 
 ### Experimentação de conteúdo
 
-- [Introdução ao experimento de conteúdo](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
+- [Introdução ao experimento de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment)
 - [Criar um experimento de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/create-content-experiment)
 - [Relatório de experimento de conteúdo](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-report)
 - [Cálculos estatísticos](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment-calculations)
@@ -148,19 +151,19 @@ Esta seção fornece links abrangentes para a documentação do [!DNL Experience
 
 - [Regras de frequência](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/frequency-rules)
 - [Visão geral das regras de negócios](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/business-rules/business-rules)
-- [Introdução ao gerenciamento de conflitos e prioridades](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
-- [Pontuações de prioridade](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
-- [Identificar possíveis conflitos](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/conflict-prioritization/conflicts)
-- [Limite de jornada e arbitragem](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
+- [Introdução ao gerenciamento de conflitos e prioridades](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/gs-conflict-prioritization)
+- [Pontuações de prioridade](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/priority-scores)
+- [Identificar possíveis conflitos](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/conflicts)
+- [Limite de jornada e arbitragem](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/journey-capping)
 
 ### Públicos-alvo e segmentação
 
-- [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/home)
-- [Guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/segment-builder)
-- [Segmentação de transmissão](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/streaming-segmentation)
-- [Segmentação de borda](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/methods/edge-segmentation)
-- [Composição de público](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/audience-composition)
-- [Referência do Profile Query Language](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/pql/overview)
+- [Visão geral do serviço de segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home)
+- [Guia da interface do usuário do Construtor de segmentos](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder)
+- [Segmentação de transmissão](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation)
+- [Segmentação de borda](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/edge-segmentation)
+- [Composição de público](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition)
+- [Referência do Profile Query Language](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)
 
 ### Relatório
 
@@ -169,30 +172,30 @@ Esta seção fornece links abrangentes para a documentação do [!DNL Experience
 - [Relatório em tempo real da jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-live-report)
 - [Jornada relatório global](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/journey-global-report-cja)
 - [Trabalhar com o Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reports/report-cja-manage)
-- [Guia de integração do AJO + CJA](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
+- [Guia de integração do AJO + CJA](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/channel-report/cja-ajo)
 
 ### Governança e consentimento de dados
 
-- [Visão geral da governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home)
+- [Visão geral da governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home)
 - [Visão geral dos rótulos de uso de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/labels/overview)
-- [Grupo de campos Consentimento e preferências](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/consents)
+- [Grupo de campos Consentimento e preferências](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents)
 - [Consentimento no Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/privacy/consent/consent-restricted)
 
 ### Modelagem de dados e identidade
 
-- [Visão geral do sistema XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home)
-- [Noções básicas de composição de esquema](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/schema/composition)
-- [Visão geral do serviço de identidade](https://experienceleague.adobe.com/pt-br/docs/experience-platform/identity/home)
-- [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/merge-policies/overview)
+- [Visão geral do sistema XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home)
+- [Noções básicas de composição de esquema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
+- [Visão geral do serviço de identidade](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home)
+- [Visão geral das políticas de mesclagem](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ### Medidas de proteção
 
-- [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/guardrails)
-- [Medidas de proteção do Perfil do cliente em tempo real](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails)
-- [Medidas de proteção de assimilação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ingestion/guardrails)
+- [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/guardrails)
+- [Medidas de proteção do Perfil do cliente em tempo real](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Medidas de proteção de assimilação](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails)
 
 ### Tutoriais e introdução
 
-- [Introdução ao Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/get-started/get-started)
+- [Introdução ao Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/get-started)
 - [Criar sua primeira campanha](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/create-campaign)
-- [Criar a primeira jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/journey)
+- [Criar a primeira jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey)

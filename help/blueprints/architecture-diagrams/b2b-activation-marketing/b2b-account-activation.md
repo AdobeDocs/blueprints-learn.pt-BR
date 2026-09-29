@@ -3,7 +3,10 @@ title: Ativação de conta B2B para Advertising e destinos de arquivo
 description: Use o envolvimento baseado em conta para criar públicos-alvo da conta e ativá-los para destinos de publicidade e armazenamento na nuvem.
 solution: Real-Time Customer Data Platform
 exl-id: 578c0019-6133-4508-ae9d-8a8a463376f0
-source-git-commit: ce7331f279a6e59db95ca3b763148440598cde84
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -60,19 +63,19 @@ Consulte a documentação de destino para obter a lista mais recente de destinos
 
 Consulte as seguintes medidas de proteção ao projetar e ativar públicos-alvo da conta:
 
-- [Medidas de proteção para o Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
-- [Públicos da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [Proteções de perfil e segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails)
-- [Atualização dos critérios de qualificação de segmentação de streaming](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/eligibility-criteria-update)
+- [Medidas de proteção para o Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Públicos da conta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Proteções de perfil e segmentação](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails)
+- [Atualização dos critérios de qualificação de segmentação de streaming](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/eligibility-criteria-update)
 
 ## Etapas de implementação do Real-Time Customer Data Platform B2B edition, criação e ativação de público-alvo da conta
 
-- Para obter as etapas de implementação do Real-Time Customer Data Platform B2B edition, consulte a documentação: [Introdução ao Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en).
-- Para conhecer as etapas de criação de um Público-alvo de conta, consulte a documentação de [Públicos-alvo de conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
-- Para consultar as etapas de ativação de Público-alvo, consulte a documentação [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en):
+- Para obter as etapas de implementação do Real-Time Customer Data Platform B2B edition, consulte a documentação: [Introdução ao Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en).
+- Para conhecer as etapas de criação de um Público-alvo de conta, consulte a documentação de [Públicos-alvo de conta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
+- Para consultar as etapas de ativação de Público-alvo, consulte a documentação [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en):
 
-  - Mapeamento necessário para [Destino de públicos correspondentes do LinkedIn](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
+  - Mapeamento necessário para [Destino de públicos correspondentes do LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
 
 ## Considerações de implantação
 
@@ -81,11 +84,11 @@ Os públicos-alvo correspondentes do LinkedIn têm um requisito de tamanho míni
 ## Documentação relacionada
 
 - [blueprint de Audiência B2B e Ativação de perfil](b2b-audience-profile-activation.md) — blueprint principal que cobre ativação B2B no nível das pessoas e da conta.
-- [B2B edition do Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
-- [Criar e ativar público-alvo da conta - vídeo tutorial](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
-- [Criar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
-- [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
-- [Adobe Experience Platform - Conector de destino do LinkedIn](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
-- [Esquemas no Real-Time CDP B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/schemas/b2b)
-- [Atualizações de arquitetura no Real-Time CDP B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
-- [Proteção de destino](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/guardrails)
+- [B2B edition do Real-Time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview?lang=en)
+- [Criar e ativar público-alvo da conta - vídeo tutorial](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
+- [Criar públicos-alvo da conta](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Adobe Experience Platform - Conector de destino do LinkedIn](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
+- [Esquemas no Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b)
+- [Atualizações de arquitetura no Real-Time CDP B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)
+- [Proteção de destino](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/guardrails)

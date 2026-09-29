@@ -3,13 +3,16 @@ title: Permita a tomada de decisões orientadas por dados
 description: Saiba como capacitar equipes com análises de autoatendimento, insights do cliente em tempo real e previsões alimentadas por IA para orientar a estratégia.
 solution: Experience Platform, Customer Journey Analytics
 exl-id: 0ff0e873-a95c-4286-9378-56db02d209a1
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 3%
-
 ---
-
 # Permita a tomada de decisões orientadas por dados
 
 Capacite as equipes com análises de autoatendimento, insights do cliente em tempo real e previsões alimentadas por IA para orientar a estratégia. Esse objetivo se concentra em tornar os dados de clientes e desempenho acessíveis e acionáveis para os tomadores de decisão em toda a organização.

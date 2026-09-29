@@ -4,13 +4,14 @@ description: Saiba como os atributos de item de decisão diferem das configuraç
 doc-type: article
 solution: Experience Platform
 exl-id: 28752ac1-118c-41d9-af6a-9907f854df1e
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
-
 ---
-
 
 # Criação do item de decisão
 

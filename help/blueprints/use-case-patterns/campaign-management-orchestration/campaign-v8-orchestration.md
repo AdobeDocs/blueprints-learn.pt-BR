@@ -3,7 +3,12 @@ title: Blueprint, campanha e plataforma do Campaign v8
 description: Saiba mais sobre o blueprint do Campaign v8.
 solution: Campaign,Campaign v8
 version: Campaign v8
-source-git-commit: 79738031788419872e32b8f754febacbfd18cc06
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 29%
@@ -134,11 +139,11 @@ Existem os seguintes pré-requisitos para este blueprint.
 
 ## Etapas de implantação
 
-Consulte o guia de introdução para a [Implementação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=pt-BR)
+Consulte o guia de introdução para a [Implementação do Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html)
 
 ## Documentação relacionada
 
-- [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=pt-BR)
+- [Documentação do Campaign v8](https://experienceleague.adobe.com/docs/campaign-v8.html)
 - [Descrição de produto do Campaign v8](https://helpx.adobe.com/br/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
-- [Documentação de tags do Experience Platform](https://experienceleague.adobe.com/docs/launch.html?lang=pt-BR)
-- [Documentação do Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=pt-BR)
+- [Documentação de tags do Experience Platform](https://experienceleague.adobe.com/docs/launch.html)
+- [Documentação do Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html)

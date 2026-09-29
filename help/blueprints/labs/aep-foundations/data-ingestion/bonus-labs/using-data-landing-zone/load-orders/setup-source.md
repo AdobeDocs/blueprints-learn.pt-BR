@@ -4,13 +4,14 @@ description: Faça upload de um arquivo JSON de pedidos históricos para a Data 
 doc-type: article
 solution: Experience Platform
 exl-id: 046d50ad-687e-4cdb-a8b1-3c55ab39b68e
-source-git-commit: 3039df0c022176e9dada9c5a300f2df14429033d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 
 # Configurar a origem
 

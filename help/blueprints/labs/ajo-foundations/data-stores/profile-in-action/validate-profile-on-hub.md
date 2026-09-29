@@ -4,13 +4,14 @@ description: Saiba como pesquisar um perfil no Real-time Customer Profile Hub e 
 doc-type: article
 solution: Experience Platform
 exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
-
 ---
-
 
 # Validar perfil no hub
 
@@ -74,7 +75,7 @@ Na Adobe Experience Platform, procure o perfil que você acabou de enviar a part
 >
 >**Como ler segmentMembership?**
 >
->[https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/field-groups/profile/segmentation)
+>[https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/segmentation)
 >
 >**ups:** esta é a chave de mapa para diferentes tipos de públicos suportados pelo AEP.  A chave ups contém públicos-alvo criados pelo Construtor de regras.  Outros públicos-alvo estarão contidos em outras chaves (por exemplo, AAM).
 >

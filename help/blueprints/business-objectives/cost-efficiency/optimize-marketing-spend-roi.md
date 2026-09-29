@@ -3,7 +3,12 @@ title: Otimizar os gastos com marketing e o ROI
 description: Saiba como melhorar o retorno do investimento em marketing por meio de melhor direcionamento, atribuição, supressão de público-alvo e alocação de orçamento.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: c744898b-bcb1-4338-ab97-e2fe6d4883b8
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%

@@ -4,7 +4,10 @@ description: Crie campos e objetos personalizados de conta, plano e customerID n
 doc-type: article
 solution: Experience Platform
 exl-id: 8c39b226-05f3-458a-b023-c59221a6713a
-source-git-commit: df6c1852a6e0357dc9f166c88e77dcf9d334f955
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -106,7 +109,7 @@ Conforme discutido na palestra, não há grupos de campos padrão pré-criados o
 
    >[!NOTE]
    >
-   >A meta de Enumerar e Valores sugeridos é facilitar a segmentação para o usuário final. As enumerações impõem validação no momento da assimilação de dados, enquanto os valores sugeridos não. Para saber mais sobre este recurso, leia mais na documentação aqui -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=pt-BR#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=pt-BR#enums-and-suggested-values)
+   >A meta de Enumerar e Valores sugeridos é facilitar a segmentação para o usuário final. As enumerações impõem validação no momento da assimilação de dados, enquanto os valores sugeridos não. Para saber mais sobre este recurso, leia mais na documentação aqui -> [https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/fields/enum.html?lang=en#enums-and-suggested-values)
 
 
 

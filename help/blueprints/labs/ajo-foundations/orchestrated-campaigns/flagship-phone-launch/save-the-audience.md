@@ -4,13 +4,14 @@ description: Saiba como alterar a dimensão, desduplicar e salvar um público-al
 doc-type: article
 solution: Experience Platform
 exl-id: 6422ea8d-146b-4fc7-86e6-491f77590ca1
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
-
 ---
-
 
 # Salvar o público
 
@@ -50,7 +51,7 @@ No próximo conjunto de etapas, você salvará o público-alvo criado no Portal 
 
 ## Desduplicar o resultado
 
-1. Clique no ícone **+** **3&rbrace; após a atividade Change Dimension e, na lista de atividades, selecione a atividade** Deduplication **&#x200B;**
+1. Clique no ícone **+** **3} após a atividade Change Dimension e, na lista de atividades, selecione a atividade** Deduplication ****
 
    ![Adicionar a atividade de Eliminação de Duplicação após Change Dimension](assets/save-the-audience-add-deduplication-activity.png)
 

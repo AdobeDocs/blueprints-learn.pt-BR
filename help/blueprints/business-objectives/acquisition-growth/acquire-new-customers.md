@@ -3,13 +3,16 @@ title: Adquirir novos clientes
 description: Saiba como expandir a base de clientes por meio de campanhas de aquisição direcionadas, públicos semelhantes e otimização de mídia paga.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: 57b2da92-f099-4c82-899b-9023f1ac81dc
-source-git-commit: 8284380fb9202991f3da7d755225da2e38a50cac
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 5%
-
 ---
-
 # Adquirir novos clientes
 
 Expanda a base de clientes por meio de campanhas de aquisição direcionadas, públicos semelhantes e otimização de mídia paga. Esse objetivo se concentra em alcançar novas perspectivas em escala, mantendo a eficiência de custos por meio do direcionamento preciso de público-alvo e da supressão de clientes existentes.

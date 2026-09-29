@@ -3,7 +3,12 @@ title: Consolidar e modernizar a tecnologia de marketing
 description: Saiba como reduzir a fragmentação de ferramentas e o débito técnico migrando para plataformas unificadas e escaláveis.
 solution: Experience Platform, Real-Time Customer Data Platform
 exl-id: 5ab6071e-e1b3-488a-b7ed-3153c9bf6cdb
-source-git-commit: ccfd8c987a0090ca690e15a4bd89f4d96ec9c01f
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 3%
