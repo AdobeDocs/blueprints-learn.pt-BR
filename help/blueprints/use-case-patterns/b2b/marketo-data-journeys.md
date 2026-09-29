@@ -2,7 +2,10 @@
 title: Jornadas B2B usando o blueprint de dados do Marketo
 description: Blueprint para implantação rápida do Journey Optimizer B2B Edition usando dados do Marketo Engage.
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 2%
@@ -202,7 +205,7 @@ Para obter uma compreensão abrangente das medidas de proteção aplicáveis às
 
 * [Adobe Journey Optimizer B2B Edition - Descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-journey-optimizer-b2b.html)
 Inclui medidas de proteção e parâmetros de uso específicos para o Journey Optimizer B2B Edition.
-* [Medidas de Proteção de Implantação do Adobe Experience Platform](https://experienceleague.adobe.com/pt-br/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
+* [Medidas de Proteção de Implantação do Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-overview/guardrails?lang=en)
 Aborda medidas gerais de proteção de arquitetura e implantação em todas as soluções da Adobe Experience Platform.
 * [Adobe Marketo Engage - Descrição do produto](https://helpx.adobe.com/br/legal/product-descriptions/adobe-marketo-engage---product-description.html#performance-guardrails)
 Detalha as medidas de proteção de desempenho e uso do Marketo Engage, incluindo considerações de ativação e sincronização de CRM.

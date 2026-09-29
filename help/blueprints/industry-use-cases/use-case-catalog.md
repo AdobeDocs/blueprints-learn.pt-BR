@@ -3,13 +3,14 @@ title: Catálogo de casos de uso
 description: Navegue por casos de uso do setor verticalmente para encontrar o ponto de partida certo para sua jornada de Adobe Experience Platform e aplicativos, com links para padrões de implementação e objetivos de negócios.
 doc-type: overview-page
 exl-id: 38593314-b8c9-49f6-85db-a4345ec444e7
-source-git-commit: e79d9d6490e4f50c4611dd879b53f0e63a90cd65
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '4157'
 ht-degree: 30%
-
 ---
-
 # Catálogo de casos de uso
 
 Casos de uso do setor mostram como as organizações em mercados verticais específicos aplicam o Adobe Experience Platform e os aplicativos para alcançar resultados mensuráveis nos negócios. Cada caso de uso descreve um cenário comercial concreto, seu impacto esperado e links para o [padrão de caso de uso](/help/blueprints/use-case-patterns/overview.md) que fornece orientação detalhada de implementação.

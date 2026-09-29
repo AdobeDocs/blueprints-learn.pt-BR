@@ -3,13 +3,18 @@ title: Casos de uso de mídia e entretenimento
 description: Descubra como as organizações de mídia e entretenimento usam o Adobe Experience Platform para personalizar a descoberta de conteúdo, reduzir a rotatividade do assinante e aumentar a participação do público.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: cfcf689f-9579-447f-9ef9-72e0c80c1f27
-source-git-commit: e8185f348f926acab2ca2e0c3cd55c08c663cf41
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 0%
-
 ---
-
 # Casos de uso de mídia e entretenimento
 
 As organizações de mídia e entretenimento usam o Adobe Experience Platform para unificar os dados de público-alvo de plataformas de transmissão, bibliotecas de conteúdo e contas de assinantes em uma única visualização de cada visualizador ou ouvinte. Essa base permite a descoberta personalizada de conteúdo, a retenção proativa de assinantes e estratégias de engajamento que mantêm os públicos-alvo voltando para obter mais.

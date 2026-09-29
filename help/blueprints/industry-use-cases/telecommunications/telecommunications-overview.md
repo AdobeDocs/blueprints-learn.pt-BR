@@ -3,13 +3,18 @@ title: Casos de uso de telecomunicações
 description: Descubra como as organizações de telecomunicações usam o Adobe Experience Platform para reduzir churn, impulsionar atualizações de dispositivos e planos e melhorar o engajamento do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 653632f0-81be-435c-a703-56c5bc132794
-source-git-commit: 4b4d85f80abaa6219e7ea210864a07a141564921
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3527'
 ht-degree: 0%
-
 ---
-
 # Casos de uso de telecomunicações
 
 As organizações de telecomunicações usam o Adobe Experience Platform para criar uma visualização unificada de cada assinante e fornecer experiências personalizadas que reduzem o churn, aumentam as atualizações de planos e dispositivos e fortalecem os relacionamentos de longo prazo com os clientes. Conectando dados de uso da rede, informações de faturamento e interações com os clientes, os provedores de telecomunicações podem antecipar as necessidades dos assinantes e engajá-los no momento certo por meio de seus canais preferidos.

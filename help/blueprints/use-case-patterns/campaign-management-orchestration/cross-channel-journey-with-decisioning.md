@@ -3,13 +3,16 @@ title: Jornada entre canais com decisão
 description: Saiba como orquestrar uma jornada de várias etapas, incorporando a decisão em tempo real para selecionar o canal, conteúdo ou oferta ideal.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: eabdd91f-bb7d-4de3-adb5-5940d3ca4a78
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1983'
+source-wordcount: '2070'
 ht-degree: 5%
-
 ---
-
 # Jornada entre canais com decisão
 
 Este guia descreve a jornada entre canais com o padrão de caso de uso de decisão, que usa o [!DNL Adobe Journey Optimizer] e o [!DNL Adobe Real-Time Customer Data Platform] para orquestrar jornadas multicanais e de várias etapas que incorporam a tomada de decisão em tempo real em um ou mais nós de jornada. Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam entender o que esse padrão faz, os objetivos de negócios que ele aceita, os casos de uso táticos que ele permite e os aplicativos Adobe envolvidos.

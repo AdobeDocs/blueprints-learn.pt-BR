@@ -3,13 +3,16 @@ title: Compra de marketing baseado em grupo e gerenciamento de Jornadas
 description: Saiba como desenvolver jornadas a nível de conta que qualifiquem leads em grupos de compra para melhorar a eficácia do marketing B2B.
 solution: Journey Optimizer B2B Edition, Real-Time Customer Data Platform
 exl-id: 2bf57f67-80c8-4368-98d2-05706427772d
-source-git-commit: c0a9cba3d6a55fae8f149f7ca479625458cd1b22
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 1%
-
 ---
-
 # Compra de marketing baseado em grupo e gerenciamento de jornadas
 
 Este guia descreve o padrão de caso de uso de gerenciamento de jornadas e marketing com base em grupos de compras, que usa o [!DNL Adobe Journey Optimizer B2B Edition] e o [!DNL Real-Time CDP B2B Edition] para implementar a orquestração de jornadas no nível de conta com o gerenciamento de grupos de compras. Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam entender o que esse padrão faz, os objetivos de negócios que ele aceita, os casos de uso táticos que ele permite e os aplicativos Adobe envolvidos.
@@ -101,7 +104,7 @@ Os recursos a seguir fornecem detalhes adicionais sobre os aplicativos e recurso
 
 ### [!DNL Journey Optimizer B2B Edition]
 
-- [Página inicial da documentação do Journey Optimizer B2B edition](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/guide-overview)
+- [Página inicial da documentação do Journey Optimizer B2B Edition](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/guide-overview)
 - [Visão geral dos grupos de compras](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview)
 - [Interesses da solução](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/solution-interests)
 - [Modelos de função](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-role-templates)
@@ -116,7 +119,7 @@ Os recursos a seguir fornecem detalhes adicionais sobre os aplicativos e recurso
 
 - [Criação de email B2B](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/journey-content/email-channel/email-authoring)
 - [Criação de SMS B2B](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/journey-content/sms-authoring)
-- [Gerar conteúdo para criação de email](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
+- [Gerar conteúdo para criação de email](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/ai-assistant-emails)
 
 ### Análises e painéis B2B
 

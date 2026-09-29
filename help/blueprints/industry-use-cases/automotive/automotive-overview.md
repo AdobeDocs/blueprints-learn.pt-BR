@@ -3,13 +3,18 @@ title: Casos de uso automotivo
 description: Descubra como as organizações automotivas usam o Adobe Experience Platform para personalizar a jornada de compra do veículo, melhorar a retenção de serviços e criar a fidelidade do proprietário.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: ee83c739-0907-481d-ba3f-358af4e03c67
-source-git-commit: e5c88f240fe86bbc494402842a3d974f803aab03
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 4%
-
 ---
-
 # Casos de uso automotivo
 
 As organizações automotivas usam o Adobe Experience Platform para unificar os dados dos clientes provenientes de interações com concessionárias, pesquisa online de veículos, registros de serviços e sistemas de carro conectados em uma única visualização de cada proprietário. Essa base permite experiências personalizadas em todo o ciclo de vida da propriedade, desde a pesquisa inicial do veículo até a compra, o serviço e a fidelidade.

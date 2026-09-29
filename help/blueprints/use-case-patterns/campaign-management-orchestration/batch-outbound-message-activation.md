@@ -3,13 +3,16 @@ title: Ativação de mensagem de saída em lote
 description: Saiba como avaliar um público-alvo e fornecer uma mensagem de saída agendada em uma única execução em lote.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 192853ce-02ab-46e6-9092-3db5354bc19c
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 4%
-
 ---
-
 # Ativação de mensagem de saída em lote
 
 Este guia descreve o padrão de caso de uso de ativação de mensagem de saída em lote, que usa o [!DNL Adobe Journey Optimizer] (AJO) e o [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) para entregar mensagens de saída agendadas a segmentos de público-alvo definidos. Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam entender o que esse padrão faz, os objetivos de negócios que ele aceita, os casos de uso táticos que ele permite e os aplicativos Adobe envolvidos.

@@ -3,13 +3,16 @@ title: Análise B2B
 description: Saiba como incluir informações a nível de conta B2B na análise de jornada de clientes entre canais.
 solution: Customer Journey Analytics, Real-Time Customer Data Platform
 exl-id: 9d576e5c-cbd2-4c60-a6b0-88f8b8b963b4
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1811'
 ht-degree: 2%
-
 ---
-
 # Análise B2B
 
 Este guia descreve o padrão de caso de uso de análise B2B, que usa o B2B edition [!DNL Customer Journey Analytics] ([!DNL CJA]) e o B2B edition [!DNL Real-Time Customer Data Platform] ([!DNL RT-CDP]) para incorporar informações de nível de conta B2B na análise de jornada de clientes entre canais. Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam entender o que esse padrão faz, os objetivos de negócios que ele aceita, os casos de uso táticos que ele permite e os aplicativos Adobe envolvidos.

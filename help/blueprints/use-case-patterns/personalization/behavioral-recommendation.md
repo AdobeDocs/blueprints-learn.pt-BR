@@ -3,13 +3,16 @@ title: Recomendação comportamental
 description: Saiba como gerar recomendações de item e conteúdo usando estratégias de seleção e modelos de classificação.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: db16e773-e0da-46c4-9fa5-d16f04feb46b
-source-git-commit: 9ea30e48ec0fade2f9a97b185e35fbfa93f49c43
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 5%
-
 ---
-
 # Recomendação comportamental
 
 Este guia descreve o padrão de caso de uso de recomendação comportamental, que usa a Decisão do [!DNL Adobe Journey Optimizer] (AJO), o [!DNL Real-Time Customer Data Platform] (RT-CDP) e o [!DNL Adobe Experience Platform] (AEP) para fornecer experiências de recomendação personalizadas em canais da Web, de aplicativos móveis e de email. Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam entender o que esse padrão faz, os objetivos de negócios que ele aceita, os casos de uso táticos que ele permite e os aplicativos Adobe envolvidos.

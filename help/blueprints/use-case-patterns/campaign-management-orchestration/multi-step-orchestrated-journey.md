@@ -3,13 +3,16 @@ title: Jornada orquestrada em várias etapas
 description: Saiba como guiar um perfil por meio de uma jornada multitoque com esperas, condições e várias ações de mensagem ao longo do tempo.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 5667b188-1b20-4a85-aebb-74efd5f771a1
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 5%
-
 ---
-
 # Jornada orquestrada em várias etapas
 
 Este guia descreve o padrão de caso de uso de jornada orquestrada em várias etapas, que usa o [!DNL Adobe Journey Optimizer] (AJO) e o [!DNL Real-Time Customer Data Platform] (RT-CDP) para orquestrar jornadas de clientes multitoque de ramificação que entregam várias mensagens ao longo do tempo. Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam entender o que esse padrão faz, os objetivos de negócios que ele aceita, os casos de uso táticos que ele permite e os aplicativos Adobe envolvidos.

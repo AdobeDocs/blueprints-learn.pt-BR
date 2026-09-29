@@ -4,13 +4,14 @@ description: Use o Assistente de IA do Adobe Journey Optimizer para gerar linhas
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 5%
-
 ---
-
 
 # Assistente de IA e personalização de conteúdo
 

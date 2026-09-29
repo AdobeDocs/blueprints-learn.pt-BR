@@ -4,7 +4,10 @@ description: Saiba como adicionar e configurar duas atividades de email em ramif
 doc-type: article
 solution: Experience Platform
 exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%

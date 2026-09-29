@@ -3,7 +3,14 @@ title: Casos de uso B2B
 description: Descubra como as organizações B2B usam o Adobe Experience Platform para acelerar o pipeline, melhorar a qualidade dos leads e impulsionar a expansão do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 6073bdc4-e148-455e-aa4e-3d5226d4b5a2
-source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '3479'
 ht-degree: 0%

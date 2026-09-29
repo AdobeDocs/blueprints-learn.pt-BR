@@ -3,13 +3,16 @@ title: Personalization de aplicativo/Web de visitante conhecido
 description: Saiba como fornecer conteúdo, ofertas ou promoções personalizadas para visitantes identificados com base no perfil em tempo real e na associação do segmento.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 585adc0e-f528-4a09-b931-ef6b45fa8ec8
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1819'
 ht-degree: 4%
-
 ---
-
 # Personalização da Web/aplicativo de visitante conhecido
 
 Este guia descreve o padrão de caso de uso de personalização de aplicativo/Web de visitante conhecido, que usa o [!DNL Adobe Journey Optimizer] (AJO) e o [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) para fornecer conteúdo personalizado a visitantes identificados em superfícies digitais. Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam entender o que esse padrão faz, os objetivos de negócios que ele aceita, os casos de uso táticos que ele permite e os aplicativos Adobe envolvidos.

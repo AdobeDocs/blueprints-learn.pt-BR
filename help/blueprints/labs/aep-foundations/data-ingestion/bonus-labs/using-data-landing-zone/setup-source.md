@@ -4,13 +4,14 @@ description: Faça upload de um exemplo de arquivo de Conta do cliente para a Da
 doc-type: article
 solution: Experience Platform
 exl-id: 1c80e71b-19a7-45e9-9961-d72b3f03ecae
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
-
 ---
-
 
 # Configurar a origem
 

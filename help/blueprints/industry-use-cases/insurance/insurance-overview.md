@@ -3,13 +3,18 @@ title: Casos de uso de seguro
 description: Descubra como as organizações de seguros usam o Adobe Experience Platform para personalizar o gerenciamento de políticas, melhorar as experiências com solicitações e impulsionar a retenção do cliente.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: a082598f-555b-49a4-b201-a55bee793959
-source-git-commit: 5cbdfd028816a872c9424daf29aabe8db1954197
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '2543'
 ht-degree: 0%
-
 ---
-
 # Casos de uso de seguro
 
 As organizações de seguros usam o Adobe Experience Platform para unificar os dados dos segurados em sistemas de gerenciamento de políticas, solicitações e contratos, a fim de fornecer comunicações personalizadas em cada estágio do relacionamento com o cliente. Conectando sinais comportamentais a informações de políticas e avisos de sinistro, as seguradoras podem envolver proativamente os clientes com ofertas relevantes, atualizações oportunas de serviços e suporte significativo que impulsiona a retenção e o valor vitalício.

@@ -3,13 +3,16 @@ title: Análise do cliente e geração de Insight
 description: Saiba como criar espaços de trabalho de análise entre canais, métricas calculadas e painéis para análise de comportamento e desempenho.
 solution: Customer Journey Analytics, Experience Platform
 exl-id: 235a4eb0-91ae-4030-b90e-7eda08c67ae1
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+    internal-label: Customer Journey Analytics
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 3%
-
 ---
-
 # Análise do cliente e geração de insight
 
 Este guia descreve o padrão de caso de uso da geração de insight e análise do cliente, que conecta conjuntos de dados do [!DNL Adobe Experience Platform] ao [!DNL Customer Journey Analytics] para criar visualizações de dados, espaços de trabalho de análise de forma livre, métricas computadas, painéis e scorecards para dispositivos móveis e, opcionalmente, publicar públicos definidos pela CJA de volta no [!DNL Adobe Experience Platform] para ativação.

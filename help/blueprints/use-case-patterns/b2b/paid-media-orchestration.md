@@ -2,7 +2,10 @@
 title: Controlador de mídia paga B2B do AJO
 description: Prioridade de campanhas e ativação de contas para destinos de Mídia paga
 solution: Journey Optimizer B2B Edition
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '1499'
 ht-degree: 0%

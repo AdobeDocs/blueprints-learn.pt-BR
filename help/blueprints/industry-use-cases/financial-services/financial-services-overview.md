@@ -3,13 +3,18 @@ title: Casos de uso de serviços financeiros
 description: Descubra como as organizações de serviços financeiros usam o Adobe Experience Platform para personalizar ofertas de produtos, evitar churn e aprofundar os relacionamentos com os clientes.
 solution: Experience Platform, Real-Time Customer Data Platform, Journey Optimizer
 exl-id: 1f22d684-11bd-473d-8b10-5f88cb0cd088
-source-git-commit: 0236bd326730ee9a0be621ee0e60ddc3d352410d
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
 source-wordcount: '4039'
 ht-degree: 0%
-
 ---
-
 # Casos de uso de serviços financeiros
 
 As organizações de serviços financeiros confiam na Adobe Experience Platform para unificar os dados dos clientes em canais bancários, de concessão de empréstimos e de investimento, permitindo experiências personalizadas que fortalecem os relacionamentos e impulsionam o crescimento. Reunindo a atividade da conta, o histórico de transações e os sinais comportamentais, essas organizações podem fornecer a oferta certa no momento certo e, ao mesmo tempo, manter a confiança e a conformidade que seus clientes esperam.
