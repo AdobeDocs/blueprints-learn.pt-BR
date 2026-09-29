@@ -39,6 +39,6 @@ A arquitetura conecta a entrega do Journey Optimizer e os dados de interação c
 
 ## Leitura adicional
 
-- [Relatórios do Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/reports/sharing-overview)
-- [Visão geral do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)
-- [Publicar públicos da Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+- [Relatórios do Journey Optimizer](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/reporting/reports/sharing-overview)
+- [Visão geral do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-overview)
+- [Publicar públicos da Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-components/audiences/publish)

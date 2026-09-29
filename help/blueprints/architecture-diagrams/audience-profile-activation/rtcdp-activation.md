@@ -39,6 +39,6 @@ A arquitetura acima aceita os seguintes padrões de caso de uso:
 
 ## Leitura adicional
 
-- [Destinos do Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
-- [Ativar públicos para destinos](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
-- [Medidas de proteção do Adobe Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/guardrails/overview)
+- [Destinos do Adobe Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/home)
+- [Ativar públicos para destinos](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations)
+- [Medidas de proteção do Adobe Real-Time CDP](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/guardrails/overview)

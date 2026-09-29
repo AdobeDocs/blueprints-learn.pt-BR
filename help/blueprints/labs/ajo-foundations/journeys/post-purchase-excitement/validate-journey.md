@@ -120,7 +120,7 @@ Os resultados têm mais de 100 colunas e dão uma ideia de quais registros de Ev
 
 >[!NOTE]
 >
->Curioso sobre o que cada campo significa, verifique o Dicionário de Esquemas do AJO e altere a lista suspensa para o esquema de Eventos de etapa do Jornada: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en)
+>Curioso sobre o que cada campo significa, verifique o Dicionário de Esquemas do AJO e altere a lista suspensa para o esquema de Eventos de etapa do Jornada: [https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=pt-BR)
 
 
 

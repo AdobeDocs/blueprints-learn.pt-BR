@@ -109,4 +109,4 @@ O Dimension de direcionamento de perfil é usado para informar à Adobe Journey 
 
 Agora você viu como é fácil navegar pelo Esquema, marcar um atributo como uma Identidade e criar o Dimension de direcionamento de perfil.
 
-Você pode ler mais [aqui](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension), se estiver interessado.
+Você pode ler mais [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension), se estiver interessado.
