@@ -7,7 +7,7 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -39,21 +39,21 @@ ht-degree: 0%
 ## Configurar o CBE e a política de decisão
 
 1. Expanda a opção **Ações** à esquerda da tela, arraste o elemento **Ação** para a tela e conecte-o ao primeiro nó.
-2. Quando a sobreposição &#39;Selecionar tipo de ação&#39; for exibida, selecione a ação **Experiência baseada em código** e clique no botão azul **Adicionar**.
-3. Nas propriedades &#39;Action\:Code-based experience&#39; agora visíveis, clique no botão **Configurar Ação**.
+1. Quando a sobreposição &#39;Selecionar tipo de ação&#39; for exibida, selecione a ação **Experiência baseada em código** e clique no botão azul **Adicionar**.
+1. Nas propriedades &#39;Action\:Code-based experience&#39; agora visíveis, clique no botão **Configurar Ação**.
 
    ![Propriedades de ação de experiência baseada em código com o botão Configurar Ação](assets/create-the-journey-configure-action-button.png)
 
-4. Altere a lista suspensa **Configuração baseada em código** para o cubo **jsonOffer\_cbe** que você criou na última seção.
+1. Altere a lista suspensa **Configuração baseada em código** para o cubo **jsonOffer\_cbe** que você criou na última seção.
 
    ![Lista suspensa de configuração baseada em código definida para o canal jsonOffer_cbe](assets/create-the-journey-select-jsonoffer-cbe.png)
 
-5. Clique no botão **Editar conteúdo** logo acima do menu suspenso &#39;Configuração baseada em código&#39;.
-6. Na tela resultante do Editor de experiência Code-base, clique no botão **Editar código**. A tela resultante é onde você adiciona o JSON retornado às solicitações do Evento de experiência
+1. Clique no botão **Editar conteúdo** logo acima do menu suspenso &#39;Configuração baseada em código&#39;.
+1. Na tela resultante do Editor de experiência Code-base, clique no botão **Editar código**. A tela resultante é onde você adiciona o JSON retornado às solicitações do Evento de experiência
 
    ![Editar tela de código para o editor de experiência baseado em código](assets/create-the-journey-edit-code-screen.png)
 
-7. No lado esquerdo do editor de código, clique no item de menu **Política de decisão**, seguido por um clique no botão **Adicionar política de decisão** no novo menu.
+1. No lado esquerdo do editor de código, clique no item de menu **Política de decisão**, seguido por um clique no botão **Adicionar política de decisão** no novo menu.
 
    ![Menu de política de decisão com o botão Adicionar política de decisão](assets/create-the-journey-add-decision-policy-button.png)
 
@@ -61,22 +61,22 @@ ht-degree: 0%
    >
    >Se uma estratégia de seleção é onde você vincula uma coleção de ofertas a um método de classificação (e aplica elegibilidade no nível da estratégia), uma política de decisão é onde você vincula uma estratégia de seleção a um delivery específico de um canal.
 
-8. Nomeie esta política de decisão como **iPhone 17 DP** e deixe o Número de itens definido como 1.
+1. Nomeie esta política de decisão como **iPhone 17 DP** e deixe o Número de itens definido como 1.
 
    >[!NOTE]
    >
    >Até o momento, você configurou as ofertas e como solicitá-las, mas não configurou quantas serão retornadas. É aqui que você configura quantas ofertas devem ser retornadas.
 
-9. Clique no botão azul **Avançar**. É aqui que você adiciona a estratégia de seleção. Clique no botão **+Adicionar** (talvez seja necessário rolar para baixo para vê-lo) e escolha **Estratégia de seleção**.
-10. Marque a caixa ao lado da única estratégia de seleção que você deve ter (**Estratégia de seleção do iPhone 17**) e clique em **Salvar**. Quando terminar, você verá o seguinte:
+1. Clique no botão azul **Avançar**. É aqui que você adiciona a estratégia de seleção. Clique no botão **+Adicionar** (talvez seja necessário rolar para baixo para vê-lo) e escolha **Estratégia de seleção**.
+1. Marque a caixa ao lado da única estratégia de seleção que você deve ter (**Estratégia de seleção do iPhone 17**) e clique em **Salvar**. Quando terminar, você verá o seguinte:
 
-![Estratégia de seleção do iPhone 17 selecionada para a política de decisão](assets/create-the-journey-selection-strategy-selected.png)
+   ![Estratégia de seleção do iPhone 17 selecionada para a política de decisão](assets/create-the-journey-selection-strategy-selected.png)
 
->[!NOTE]
->
->Observe como você pode adicionar várias estratégias de seleção ou apenas adicionar os próprios itens de decisão. Quando você usaria estratégias de seleção múltipla? Imagine que você tenha uma grade de recomendações 4 X 4 em uma de suas propriedades digitais. Preencha todos eles com 16 ofertas. Você pode ter essas ofertas distribuídas em algumas coleções ou talvez as duas primeiras linhas exijam uma estratégia de seleção, enquanto as duas últimas linhas precisam de uma estratégia diferente. Na tela anterior, você teria escolhido 16 e usado essa tela para adicionar quantas estratégias ou ofertas de seleção forem necessárias para atingir 16.
->
->A oferta substituta é opcional porque só seria aplicável se os usuários finais pudessem ser (ou se tornarem) inelegíveis para qualquer uma das ofertas. No nosso caso, nossa estratégia de seleção era para todos os visitantes e as únicas pessoas que atingiriam o nó CBE eram aquelas que entraram na Jornada. Ser autenticado é um requisito para a entrada da Jornada (o namespace definido na Jornada é aquele que eles só teriam se estivessem autenticados). Também criamos uma oferta substituta em nossa fórmula de Classificação, portanto, em nosso caso, não há necessidade de definir essa oferta substituta.
+   >[!NOTE]
+   >
+   >Observe como você pode adicionar várias estratégias de seleção ou apenas adicionar os próprios itens de decisão. Quando você usaria estratégias de seleção múltipla? Imagine que você tenha uma grade de recomendações 4 X 4 em uma de suas propriedades digitais. Preencha todos eles com 16 ofertas. Você pode ter essas ofertas distribuídas em algumas coleções ou talvez as duas primeiras linhas exijam uma estratégia de seleção, enquanto as duas últimas linhas precisam de uma estratégia diferente. Na tela anterior, você teria escolhido 16 e usado essa tela para adicionar quantas estratégias ou ofertas de seleção forem necessárias para atingir 16.
+   >
+   >A oferta substituta é opcional porque só seria aplicável se os usuários finais pudessem ser (ou se tornarem) inelegíveis para qualquer uma das ofertas. No nosso caso, nossa estratégia de seleção era para todos os visitantes e as únicas pessoas que atingiriam o nó CBE eram aquelas que entraram na Jornada. Ser autenticado é um requisito para a entrada da Jornada (o namespace definido na Jornada é aquele que eles só teriam se estivessem autenticados). Também criamos uma oferta substituta em nossa fórmula de Classificação, portanto, em nosso caso, não há necessidade de definir essa oferta substituta.
 
 1. Clique no botão azul **Avançar** para revisar a política de decisão.
 
