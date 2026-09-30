@@ -3,13 +3,16 @@ title: Offer Decisioning
 description: Saiba como usar a lógica de decisão centralizada para selecionar a próxima melhor oferta ou conteúdo para um perfil em vários canais.
 solution: Journey Optimizer, Real-Time Customer Data Platform
 exl-id: 8fd511b3-0200-41bf-aff1-e3f2a00a578e
-source-git-commit: 349d26f612d4002d1de3d27c7f893bd63ac467a3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1707'
 ht-degree: 5%
-
 ---
-
 # Offer Decisioning
 
 Este guia descreve o padrão de caso de uso do Offer Decisioning, que usa a Decisão do [!DNL Adobe Journey Optimizer] (AJO) e o [!DNL Adobe Real-Time Customer Data Platform] (RT-CDP) para implementar uma lógica de seleção de oferta centralizada que determina a próxima melhor oferta para cada perfil de cliente em todos os canais. Ele foi projetado para arquitetos de soluções, tecnólogos de marketing e engenheiros de implementação que precisam entender o que esse padrão faz, os objetivos de negócios que ele aceita, os casos de uso táticos que ele permite e os aplicativos Adobe envolvidos.

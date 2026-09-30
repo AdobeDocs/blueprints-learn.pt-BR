@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -34,24 +34,25 @@ Por fim, tudo sendo igual, Connection 5G preferiria vender o nível Ultra, segui
 O primeiro item de oferta mais fácil que você criar é a oferta substituta, que qualquer pessoa pode exibir por um período ilimitado.
 
 1. Se necessário, expanda **Decisão** no painel esquerdo e clique em **Catálogos**
-2. Uma página de ofertas vazia é exibida:
+1. Uma página de ofertas vazia é exibida:
 
    ![Página vazia do catálogo de ofertas antes de criar qualquer item de oferta](assets/create-offer-items-empty-offers-page.png)
 
-3. Clique no botão azul **Criar item**. Isso abre a página &quot;Criar item de oferta&quot;.
-4. No campo &#39;Offer name&#39;, digite o texto **iphone:17\:generic**. Digite uma descrição se desejar.
+1. Clique no botão azul **Criar item**. Isso abre a página &quot;Criar item de oferta&quot;.
+1. No campo &#39;Offer name&#39;, digite o texto **iphone:17\:generic**. Digite uma descrição se desejar.
 
    >[!NOTE]
    >
    >A convenção de nomenclatura separada por dois-pontos, totalmente em minúsculas, é apenas um de nossos designs que pode servir como um modelo a ser seguido para um cliente real. Na prática, você pode desenvolver uma estratégia de nomenclatura diferente para seus itens de oferta. Certifique-se de que ele esteja documentado e consistente antes de criar itens de oferta. Isso garantirá que os itens de oferta sejam fáceis de encontrar e agrupados em coleções. Mais informações sobre isso depois.
 
-5. Como esse é o item de oferta de prioridade mais baixa/padrão, deixe a Prioridade padrão como 1.
+1. Como esse é o item de oferta de prioridade mais baixa/padrão, deixe a Prioridade padrão como 1.
 
    >[!NOTE]
    >
    >Na Decisão, quanto menor o número, menor a prioridade. Por exemplo, um item de oferta com prioridade 100 é mostrado antes de um item de oferta com prioridade 1
 
-6. Expanda o item **Dispositivo** na área &#39;Atributos personalizados&#39; e insira as seguintes informações nas caixas de texto:
+1. Expanda o item **Dispositivo** na área &#39;Atributos personalizados&#39; e insira as seguintes informações nas caixas de texto:
+
    - Camada: **Genérica**
    - Modelo: **17**
    - Marca: **iPhone**
@@ -70,20 +71,20 @@ O primeiro item de oferta mais fácil que você criar é a oferta substituta, qu
    >
    >A seção anterior mencionou a necessidade de ter muito cuidado ao adicionar atributos personalizados ao esquema &quot;Itens de oferta personalizados - Decisão da experiência&quot; gerado pelo sistema. Cada nó personalizado adicional será exibido como um campo possível para cada item de oferta que estiver avançando. A criação de atributos desnecessários ou específicos da campanha sobrecarregará a interface de criação do item de oferta e poderá causar confusão.
 
-7. Clique no botão azul **Avançar** no canto superior direito para seguir para a próxima etapa.
-8. Essa oferta deve estar disponível para todos/Todos os visitantes e não ter limite de frequência, portanto, não há necessidade de fazer alterações nas seções &quot;Qualificação&quot; ou &quot;Limite&quot;. Clique no botão azul **Avançar** novamente para prosseguir para a última etapa.
-9. Na etapa &quot;Revisar&quot;, verifique se todos os dados estão corretos:
+1. Clique no botão azul **Avançar** no canto superior direito para seguir para a próxima etapa.
+1. Essa oferta deve estar disponível para todos/Todos os visitantes e não ter limite de frequência, portanto, não há necessidade de fazer alterações nas seções &quot;Qualificação&quot; ou &quot;Limite&quot;. Clique no botão azul **Avançar** novamente para prosseguir para a última etapa.
+1. Na etapa &quot;Revisar&quot;, verifique se todos os dados estão corretos:
 
    ![Etapa de revisão que confirma os detalhes do item de oferta genérico antes de salvar](assets/create-offer-items-generic-offer-review-step.png "Etapa de revisão que confirma os detalhes do item de oferta genérico antes de salvar")
 
-10. Faça as alterações necessárias. Quando estiver pronto, clique no botão azul **Salvar**.
-11. Depois de salvo, um botão branco &quot;Aprovar&quot; é exibido onde o botão &quot;Salvar&quot; costumava estar. Clique no botão branco **Aprovar** para aprovar esse item de oferta. Você verá um indicador verde &quot;Aprovado&quot; abaixo do título do item de oferta:
+1. Faça as alterações necessárias. Quando estiver pronto, clique no botão azul **Salvar**.
+1. Depois de salvo, um botão branco &quot;Aprovar&quot; é exibido onde o botão &quot;Salvar&quot; costumava estar. Clique no botão branco **Aprovar** para aprovar esse item de oferta. Você verá um indicador verde &quot;Aprovado&quot; abaixo do título do item de oferta:
 
-![Indicador verde aprovado no item de oferta genérico](assets/create-offer-items-generic-offer-approved.png)
+   ![Indicador verde aprovado no item de oferta genérico](assets/create-offer-items-generic-offer-approved.png)
 
->[!NOTE]
->
->Na prática, e com ofertas mais complexas, um processo de aprovação adequado deve estar em vigor para garantir que os itens da oferta tenham sido criados corretamente. Para economizar tempo nesse laboratório, basta aprovar cada item de oferta criado.
+   >[!NOTE]
+   >
+   >Na prática, e com ofertas mais complexas, um processo de aprovação adequado deve estar em vigor para garantir que os itens da oferta tenham sido criados corretamente. Para economizar tempo nesse laboratório, basta aprovar cada item de oferta criado.
 
 1. Clique na **seta para a esquerda** ao lado do título do item de oferta para retornar à página &#39;Ofertas&#39; e você verá sua oferta iphone:17\:generic listada.
 
