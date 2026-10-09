@@ -2,26 +2,12 @@
 title: Medidas de proteção para Adobe Experience Platform e aplicativos
 description: As medidas de proteção definem o impacto e as expectativas de desempenho dos componentes e serviços na Adobe Experience Platform e em Aplicativos da Adobe
 solution: Experience Platform
-thumbnail: null
+thumbnail:
 exl-id: b64cf3e4-cc5d-4984-8a0f-4736d432b8e1
-TQID: https://experienceleague.adobe.com/ZSHbFR3sEy4C-876IU3yN8U5vOUVvDWIP-O3l-wKm78
+TQID: 'https://experienceleague.adobe.com/ZSHbFR3sEy4C-876IU3yN8U5vOUVvDWIP-O3l-wKm78'
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-feature_v2:
-  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
-    internal-label: Segmentation
-  - id: c132d929-fa62-4271-803e-b823be07b914
-    internal-label: Profile
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
-subfeature_v2:
-  - id: d1823595-9241-4128-8a33-e4ac3bf08773
-    internal-label: Audiences
-  - id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74
-    internal-label: Guardrails
-  - id: ee602049-8a18-43df-9299-a689a025a371
-    internal-label: Use cases
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 81056fd01c1a767743712c8c0826a7d4107eb8d4
+source-git-commit: be435d6d8bb87cd327e45910dbb63d9989ea5402
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 13%
@@ -44,7 +30,7 @@ As medidas de proteção refletem as restrições do sistema, as latências espe
 | Tipo de grade de proteção | Descrição |
 |---|---|
 | Proteção de desempenho (limite flexível) | As medidas de proteção de desempenho são limites de uso que estão relacionados ao escopo dos seus casos de uso e descrevem o desempenho esperado em condições normais. Quando excedido, pode ocorrer degradação do desempenho e latência. As medidas de proteção de desempenho estão documentadas nos documentos da Experience League, nas seções de proteção de cada solução, conforme descrito abaixo. |
-| Limite estático (limite permanente) | São limites impostos pelo sistema que não podem ser excedidos. Normalmente, os limites estáticos são vinculados por contrato e descritos no contrato do cliente e nas [Descrições do produto](https://helpx.adobe.com/br/legal/product-descriptions.html). |
+| Limite estático (limite permanente) | São limites impostos pelo sistema que não podem ser excedidos. Normalmente, os limites estáticos são vinculados por contrato e descritos no contrato do cliente e nas [Descrições do produto](https://helpx.adobe.com/legal/product-descriptions.html). |
 
 >[!NOTE]
 >
@@ -60,14 +46,14 @@ As seguintes páginas fornecem informações sobre medidas de proteção para re
 
 **aplicativos Experience Platform**
 
-* [Visão geral das medidas de proteção do Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html?lang=pt-BR)
-* [Medidas de proteção de compartilhamento de público do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html?lang=pt-BR#latency)
-* [Medidas de proteção de assimilação de dados do Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=pt-BR#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
-* [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html?lang=pt-BR)
+* [Visão geral das medidas de proteção do Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/guardrails/overview.html)
+* [Medidas de proteção de compartilhamento de público do Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/audiences/publish.html#latency)
+* [Medidas de proteção de assimilação de dados do Customer Journey Analytics](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html#what-is-the-expected-latency-for-analytics-data-on-platform%3F)
+* [Medidas de proteção do Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/guardrails.html)
 
 **Serviços da Experience Platform**
 
-* [Medidas de proteção para a assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=pt-BR)
+* [Medidas de proteção para a assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html)
 * [[!DNL Edge Network] Medidas de proteção de API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
 * [Proteções de perfil e segmentação do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 * [Proteções de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=pt-BR)
