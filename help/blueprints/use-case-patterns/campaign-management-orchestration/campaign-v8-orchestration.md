@@ -49,7 +49,7 @@ Ele também inclui um servidor de mensagens escalável em tempo real que permite
 
 ## Diagramas de arquitetura
 
-Saiba mais sobre os [modelos de implantação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html#ac-deployment){target="_blank"}.
+Saiba mais sobre os [modelos de implantação do Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=pt-BR#ac-deployment){target="_blank"}.
 
 ### Implantação do Campaign Enterprise (FFDA)
 
