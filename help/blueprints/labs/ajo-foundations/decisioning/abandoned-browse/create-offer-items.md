@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: f76215380509d20a9204e6dd3cab4cb852e0ad31
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -86,7 +86,7 @@ O primeiro item de oferta mais fácil que você criar é a oferta substituta, qu
    >
    >Na prática, e com ofertas mais complexas, um processo de aprovação adequado deve estar em vigor para garantir que os itens da oferta tenham sido criados corretamente. Para economizar tempo nesse laboratório, basta aprovar cada item de oferta criado.
 
-1. Clique na **seta para a esquerda** ao lado do título do item de oferta para retornar à página &#39;Ofertas&#39; e você verá sua oferta iphone:17\:generic listada.
+12. Clique na **seta para a esquerda** ao lado do título do item de oferta para retornar à página &#39;Ofertas&#39; e você verá sua oferta iphone:17\:generic listada.
 
 ## Criar item de oferta de modelo base
 
