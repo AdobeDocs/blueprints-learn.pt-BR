@@ -54,7 +54,7 @@ As seguintes páginas fornecem informações sobre medidas de proteção para re
 **Serviços da Experience Platform**
 
 * [Medidas de proteção para a assimilação de dados](https://experienceleague.adobe.com/docs/experience-platform/ingestion/guardrails.html?lang=pt-BR)
-* [[!DNL Edge Network] Medidas de proteção de API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [[!DNL Edge Network] Medidas de proteção de API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=pt-BR)
 * [Proteções de perfil e segmentação do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
 * [Proteções de identidade](https://experienceleague.adobe.com/docs/experience-platform/identity/guardrails.html?lang=pt-BR)
 * [Proteções do Serviço de consulta](https://experienceleague.adobe.com/docs/experience-platform/query/guardrails.html?lang=pt-BR)

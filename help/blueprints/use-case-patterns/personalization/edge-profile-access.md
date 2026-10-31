@@ -56,7 +56,7 @@ Este blueprint requer o uso de um dos seguintes métodos de coleção de dados s
 ## Medidas de proteção
 
 * [Medidas de proteção para dados do [!UICONTROL Perfil de cliente em tempo real]](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=pt-BR)
-* [Medidas de proteção do Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html)
+* [Medidas de proteção do Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/guardrails.html?lang=pt-BR)
 * Os perfis do Edge têm um TTL (time-to-live) de 14 dias. Se um usuário não estiver ativo na borda por 14 dias, o perfil da borda pode expirar e precisa ser buscado no hub, o que pode afetar a personalização da primeira página.
 * A personalização do Edge oferece suporte à avaliação de associação de público-alvo em tempo real para públicos que atendem aos critérios de segmentação de borda. Os públicos-alvo de lote e transmissão do hub também estão disponíveis na borda com a configuração apropriada.
 
