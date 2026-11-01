@@ -7,7 +7,7 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 43fcd38b8bd9c068695b1f325c367d35381d6dbe
+source-git-commit: 999b0f4e8d401991e099c0598b8031ceb632d8fd
 workflow-type: tm+mt
 source-wordcount: '1726'
 ht-degree: 0%
@@ -18,17 +18,17 @@ ht-degree: 0%
 ## Nomeie e defina critérios de entrada
 
 1. Se necessário, expanda o item de menu **Jornada management** no painel esquerdo e clique em **Jornada**. Você chega na página da Jornada.
-2. Clique no botão azul **Criar Jornada**.
-3. Quando a sobreposição &quot;Criar uma Jornada&quot; aparecer, selecione **Criar do zero** e clique em **Confirmar**
-4. No painel direito, nomeie a Jornada como **iPhone 17 Abandonar Navegação** e clique no botão azul **Salvar** para começar a adicionar ações à tela de Jornada.
-5. Arraste o evento **Qualificação do público-alvo** para a tela.
-6. No painel direito, clique no ícone de **Lápis** para selecionar o público-alvo deste evento.
-7. Selecione o público-alvo **dep: Interested in iPhone 17**.
-8. Verifique se o menu suspenso **Namespace** está definido como **customerID.** Neste ponto, sua Jornada terá esta aparência:
+1. Clique no botão azul **Criar Jornada**.
+1. Quando a sobreposição &quot;Criar uma Jornada&quot; aparecer, selecione **Criar do zero** e clique em **Confirmar**
+1. No painel direito, nomeie a Jornada como **iPhone 17 Abandonar Navegação** e clique no botão azul **Salvar** para começar a adicionar ações à tela de Jornada.
+1. Arraste o evento **Qualificação do público-alvo** para a tela.
+1. No painel direito, clique no ícone de **Lápis** para selecionar o público-alvo deste evento.
+1. Selecione o público-alvo **dep: Interested in iPhone 17**.
+1. Verifique se o menu suspenso **Namespace** está definido como **customerID.** Neste ponto, sua Jornada terá esta aparência:
 
    ![Jornada a tela com o evento de qualificação de público-alvo adicionado e o namespace definido como customerID](assets/create-the-journey-audience-qualification-event.png)
 
-9. Quando todos parecerem corretos, clique no botão azul **Salvar** para salvar seu progresso.
+1. Quando todos parecerem corretos, clique no botão azul **Salvar** para salvar seu progresso.
 
 >[!NOTE]
 >
