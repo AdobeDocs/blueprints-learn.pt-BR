@@ -7,7 +7,7 @@ exl-id: 76214d87-5107-4829-9d6e-91073e1008ca
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: f76215380509d20a9204e6dd3cab4cb852e0ad31
+source-git-commit: 08b695f42c2652edba7d3119734b7e8a7b3235e2
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -86,15 +86,15 @@ O primeiro item de oferta mais fácil que você criar é a oferta substituta, qu
    >
    >Na prática, e com ofertas mais complexas, um processo de aprovação adequado deve estar em vigor para garantir que os itens da oferta tenham sido criados corretamente. Para economizar tempo nesse laboratório, basta aprovar cada item de oferta criado.
 
-&#x200B;12. Clique na **seta para a esquerda** ao lado do título do item de oferta para retornar à página &#39;Ofertas&#39; e você verá sua oferta iphone:17\:generic listada.
+1. Clique na **seta para a esquerda** ao lado do título do item de oferta para retornar à página &#39;Ofertas&#39; e você verá sua oferta iphone:17\:generic listada.
 
 ## Criar item de oferta de modelo base
 
 Agora que o item de oferta genérico foi criado, você pode criar o item de oferta de prioridade seguinte para o modelo base do iPhone 17.
 
 1. Clique no botão azul **Criar Item** novamente e nomeie a oferta **iphone:17\:base**
-2. Como este é o próximo item de oferta de prioridade mais baixa, aumente o campo **Prioridade** para **2**
-3. Expanda a área **Dispositivo** e forneça aos campos estes valores:
+1. Como este é o próximo item de oferta de prioridade mais baixa, aumente o campo **Prioridade** para **2**
+1. Expanda a área **Dispositivo** e forneça aos campos estes valores:
    - Camada: **Base**
    - Modelo: **17**
    - Marca: **iPhone**
@@ -105,9 +105,9 @@ Agora que o item de oferta genérico foi criado, você pode criar o item de ofer
 
    Quando tudo estiver correto, clique no botão azul **Avançar** para prosseguir para a próxima etapa.
 
-4. Esse item de oferta deve estar disponível para todos, portanto, não há requisito de qualificação; no entanto, ele deve ser limitado a 3 impressões por dia. Clique no botão &#39;**+ Criar limite&#39;**.
-5. Na nova regra de limite, altere o **Escolher evento de limite** para **Impressão.**
-6. Altere a **Contagem de eventos de limite** para **3**. Depois de concluída, sua regra de limitação tem esta aparência:
+1. Esse item de oferta deve estar disponível para todos, portanto, não há requisito de qualificação; no entanto, ele deve ser limitado a 3 impressões por dia. Clique no botão &#39;**+ Criar limite&#39;**.
+1. Na nova regra de limite, altere o **Escolher evento de limite** para **Impressão.**
+1. Altere a **Contagem de eventos de limite** para **3**. Depois de concluída, sua regra de limitação tem esta aparência:
 
    ![Regra de limite para a oferta base definida como 3 impressões](assets/create-offer-items-base-offer-capping-rule.png)
 
@@ -123,9 +123,9 @@ Agora que o item de oferta genérico foi criado, você pode criar o item de ofer
    >
    >Os &quot;dias&quot; mencionados nas regras de limite de frequência se referem aos dias no fuso horário GMT.  O limite de frequência com dias na lógica é redefinido à meia-noite, GMT.
 
-7. Clique em **Avançar** para prosseguir para a etapa de revisão.
-8. Verifique se tudo aparece conforme o esperado e clique no botão **Salvar**. Depois de salvo, clique em **Aprovar.**
-9. Depois de aprovado, clique na seta à esquerda ao lado do título e retorne à página de ofertas. Agora você vê duas ofertas, cada uma com a prioridade apropriada.
+1. Clique em **Avançar** para prosseguir para a etapa de revisão.
+1. Verifique se tudo aparece conforme o esperado e clique no botão **Salvar**. Depois de salvo, clique em **Aprovar.**
+1. Depois de aprovado, clique na seta à esquerda ao lado do título e retorne à página de ofertas. Agora você vê duas ofertas, cada uma com a prioridade apropriada.
 
 ![Página de ofertas listando os itens de oferta genéricos e básicos com suas prioridades](assets/create-offer-items-first-two-offers-priority.png)
 
@@ -134,23 +134,23 @@ Agora que o item de oferta genérico foi criado, você pode criar o item de ofer
 Agora que as ofertas do modelo genérico e do modelo base foram criadas, é possível migrar para os itens de oferta dos modelos pro e ultra. Esses itens de oferta também precisam incluir um elemento de qualificação, pois somente os membros com um determinado nível de plano devem ver essas ofertas.
 
 1. Seguindo as mesmas etapas e padrões de nomenclatura descritos nas seções acima, crie uma nova oferta chamada **iphone:17\:pro** e defina sua prioridade como **3.**
-2. Defina o atributo **Tier** como **Pro** e os outros atributos personalizados conforme você fez nas outras ofertas.
-3. Na etapa &quot;Qualificação&quot;, selecione o botão de opção **Por regra**.
-4. O painel esquerdo mostra apenas uma regra de decisão, a criada anteriormente chamada &quot;Planos de camada superior&quot;. Clique no ícone **+** ao lado dessa regra para adicioná-lo à tela.
-5. Como mencionado anteriormente, a empresa declarou que as ofertas não substitutas devem ter um limite de frequência de 3 exibições (ou impressões) por dia. Siga as etapas da seção anterior para criar uma regra de limitação para 3 impressões por dia. Quando terminar, sua página ficará assim:
+1. Defina o atributo **Tier** como **Pro** e os outros atributos personalizados conforme você fez nas outras ofertas.
+1. Na etapa &quot;Qualificação&quot;, selecione o botão de opção **Por regra**.
+1. O painel esquerdo mostra apenas uma regra de decisão, a criada anteriormente chamada &quot;Planos de camada superior&quot;. Clique no ícone **+** ao lado dessa regra para adicioná-lo à tela.
+1. Como mencionado anteriormente, a empresa declarou que as ofertas não substitutas devem ter um limite de frequência de 3 exibições (ou impressões) por dia. Siga as etapas da seção anterior para criar uma regra de limitação para 3 impressões por dia. Quando terminar, sua página ficará assim:
 
    ![Qualificação de item de oferta profissional e configuração de limite para 3 impressões por dia](assets/create-offer-items-pro-offer-eligibility-capping.png)
 
-6. Depois de verificar que tudo está correto, clique em **Avançar**. A configuração do item de oferta final é semelhante a:
+1. Depois de verificar que tudo está correto, clique em **Avançar**. A configuração do item de oferta final é semelhante a:
 
    ![Configuração concluída para o item de oferta da camada Pro](assets/create-offer-items-pro-offer-final-config.png)
 
-7. Quando tudo estiver correto, **Salve** e **Aprove** o item de oferta.
-8. Retorne à página de ofertas e verifique se as 3 ofertas estão lá e se cada uma tem a prioridade adequada.
-9. Crie o item de oferta final e nomeie-o como **iphone:17\:ultra,** dê a ele uma prioridade **4,** e defina os outros atributos personalizados com os mesmos valores que as outras ofertas.
-10. Assim como no último item de oferta, defina a qualificação para a regra de decisão &quot;Planos de nível superior&quot; e defina um limite de frequência de 3 impressões por dia. Quando terminar, seu item de oferta ficará assim:
+1. Quando tudo estiver correto, **Salve** e **Aprove** o item de oferta.
+1. Retorne à página de ofertas e verifique se as 3 ofertas estão lá e se cada uma tem a prioridade adequada.
+1. Crie o item de oferta final e nomeie-o como **iphone:17\:ultra,** dê a ele uma prioridade **4,** e defina os outros atributos personalizados com os mesmos valores que as outras ofertas.
+1. Assim como no último item de oferta, defina a qualificação para a regra de decisão &quot;Planos de nível superior&quot; e defina um limite de frequência de 3 impressões por dia. Quando terminar, seu item de oferta ficará assim:
 
-![Configuração concluída para o item de oferta da Camada Ultramarina](assets/create-offer-items-ultra-offer-final-config.png)
+   ![Configuração concluída para o item de oferta da Camada Ultramarina](assets/create-offer-items-ultra-offer-final-config.png)
 
 1. Depois de verificar se todas as configurações estão corretas, salve e aprove este item de oferta. Agora você vê todos os quatro itens de oferta, cada um com uma prioridade exclusiva.
 
