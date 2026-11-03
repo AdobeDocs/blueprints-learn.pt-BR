@@ -2,13 +2,14 @@
 name: Adobe Experience League Authoring Guidelines
 description: Referência completa das regras de criação do Markdown da Adobe Experience League, rastreada do guia de criação oficial em março de 2026.
 type: reference
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
-
 ---
-
 
 # Diretrizes de criação da Adobe Experience League
 
@@ -178,7 +179,7 @@ seo-title, seo-description, público-alvo, dificuldade, uuid (da era de migraç�
 >[!SUCCESS]
 ```
 
-- CRÍTICO: Nenhum espaço entre `>` e `[ !` — use `>[!NOTE]` NOT `> [!NOTE]`
+- CRÍTICO: Nenhum espaço entre `>` e `[!` — use `>[!NOTE]` NOT `> [!NOTE]`
 - Adicionar linha em branco entre `>[!NOTE]` e a linha de texto do corpo
 
 ### Guias
@@ -362,7 +363,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (vermelho), `Neutral
 - Hierarquia de cabeçalho sequencial (h1 → h2 → h3, nunca ignore níveis)
 - Incluir palavras-chave em H1, corpo de texto e metadados (não a meta tag `keywords` — a Google a ignora)
 - Evite o uso de palavras-chave (intenção > frequência)
-- Título: máx. de 50 a 60 caracteres; anexos de sistema &quot;| Adobe&quot; automaticamente
+- Título: máximo de 50 a 60 caracteres; o sistema anexa o &quot;| Adobe ProductName&quot; automaticamente
 - Descrição: 150-160 caracteres; deve ser um call to action, não uma repetição de conteúdo
 - Adicionar texto alternativo descritivo a todas as imagens
 - Incluir transcrições de vídeo (os mecanismos de pesquisa só podem ler o texto)
@@ -408,7 +409,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (vermelho), `Neutral
 
 - `title` ou `description` metadados ausentes ou em branco
 - `description` não começa com &quot;Saiba mais sobre...&quot; ou &quot;Saiba como...&quot;
-- Espaço entre `>` e `[ !` na sintaxe de texto explicativo (`> [!NOTE]` em vez de `>[!NOTE]`)
+- Espaço entre `>` e `[!` na sintaxe de texto explicativo (`> [!NOTE]` em vez de `>[!NOTE]`)
 - Espaços em negrito: `**text **` (espaço à direita quebra negrito)
 - Sintaxe de Markdown dentro de tabelas do HTML (por exemplo, chamadas de retorno não funcionam lá)
 - IDs de âncora de cabeçalho duplicadas em um documento
