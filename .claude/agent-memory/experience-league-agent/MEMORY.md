@@ -1,10 +1,13 @@
 ---
-source-git-commit: a632042b3a7434dd88f52804e15e30fa06057e3b
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 0%
-
+source-wordcount: '210'
+ht-degree: 2%
 ---
+
 # Memória do agente Experience League
 
 ## Arquivos de Referência Chave neste Repositório

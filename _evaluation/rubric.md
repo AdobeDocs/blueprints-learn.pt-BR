@@ -1,9 +1,13 @@
 ---
-source-git-commit: c766cd3153efce4635089d008daf3eb426eb7a24
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 1%
 ---
+
 # Rubrica de avaliação do blueprint
 
 Esta rubrica é aplicada a todos os documentos na seção &quot;Diagramas de arquitetura e blueprints&quot;
@@ -41,11 +45,11 @@ apenas uma breve visão geral.
 
 ### Sinais de diagrama (cada = +1 Diagrama)
 
-&#x200B;6. **Imagem de arquitetura/fluxo de dados presente** — `.svg`, `.png` ou `.jpg` mostrando a topologia do sistema,
+6. **Imagem de arquitetura/fluxo de dados presente** — `.svg`, `.png` ou `.jpg` mostrando a topologia do sistema,
 fluxo de dados ou setas de integração.
-&#x200B;7. **Topologia de integração entre sistemas, forma de implantação ou medidas de proteção** — descreve como
+7. **Topologia de integração entre sistemas, forma de implantação ou medidas de proteção** — descreve como
 conexão de componentes, onde os dados estão, modelos de implantação (borda vs. hub) ou limites de capacidade.
-&#x200B;8. **O público-alvo são arquitetos de soluções** — a estrutura usa implantação, SDK, borda, hub ou semelhante
+8. **O público-alvo são arquitetos de soluções** — a estrutura usa implantação, SDK, borda, hub ou semelhante
 terminologia orientada por arquiteto em vez de enquadramento orientado por profissionais de marketing (campanhas, jornadas,
 públicos-alvo).
 

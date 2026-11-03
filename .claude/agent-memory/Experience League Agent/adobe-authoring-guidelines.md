@@ -2,20 +2,21 @@
 name: Adobe Experience League Authoring Guidelines
 description: Referência completa das regras de criação do Markdown da Adobe Experience League, rastreada do guia de criação oficial em março de 2026.
 type: reference
-source-git-commit: 61c2666b4546222423e85e52270b436c59d846a3
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
-
 ---
-
 
 # Diretrizes de criação da Adobe Experience League
 
 Source: https://experienceleague.adobe.com/en/docs/authoring-guide/using/home
 Rastreado: 15/03/2026
 
-&#x200B;---
+---
 
 ## &#x200B;1. METADADOS / MATÉRIA PRINCIPAL
 
@@ -54,7 +55,7 @@ Rastreado: 15/03/2026
 ### Campos obsoletos
 seo-title, seo-description, público-alvo, dificuldade, uuid (da era de migração)
 
-&#x200B;---
+---
 
 ## &#x200B;2. SINTAXE DO MARKDOWN (COM SABOR DE ADOBE)
 
@@ -120,13 +121,10 @@ seo-title, seo-description, público-alvo, dificuldade, uuid (da era de migraç�
 
   ```
   ```javascript
-
   code here
-
   ```
 
   ```
-
   
   
 - Opções: `{line-numbers="true"}`, `{start-line="7"}`, `{highlight="11-13, 16"}`
@@ -143,7 +141,7 @@ seo-title, seo-description, público-alvo, dificuldade, uuid (da era de migraç�
 - Opção de layout de tabela do Markdown: adicionar `{style="table-layout:auto"}` após tabela com linhas em branco
 - Evite tabelas muito largas/altas devido a problemas de visibilidade da barra de rolagem horizontal
 
-&#x200B;---
+---
 
 ## &#x200B;3. EXTENSÕES ESPECIAIS DO ADOBE SYNTAX
 
@@ -177,8 +175,7 @@ seo-title, seo-description, público-alvo, dificuldade, uuid (da era de migraç�
 >[!ERROR]
 >[!SUCCESS]
 ```
-
-- CRÍTICO: Nenhum espaço entre `>` e `[ !` — use `>[!NOTE]` NOT `> [!NOTE]`
+- CRÍTICO: Nenhum espaço entre `>` e `[!` — use `>[!NOTE]` NOT `> [!NOTE]`
 - Adicionar linha em branco entre `>[!NOTE]` e a linha de texto do corpo
 
 ### Guias
@@ -202,7 +199,6 @@ Content here
 Content inside
 +++
 ```
-
 Observação: NÃO há suporte para seções agrupáveis aninhadas.
 
 ### Sombrear Caixas
@@ -218,7 +214,6 @@ Content here
 ```
 >[!VIDEO](https://video.tv.adobe.com/v/ID/?quality=12&learn=on)
 ```
-
 Adicionar `{transcript=true}` para transcrições.
 
 ### Mais artigos como este
@@ -244,7 +239,6 @@ Adicionar `{transcript=true}` para transcrições.
 ```
 [!BADGE Label]{type=Informative url="https://example.com" tooltip="text"}
 ```
-
 Tipos: `Informative` (azul), `Positive` (verde), `Negative` (vermelho), `Neutral` (cinza), `Caution` (amarelo)
 
 ### Realce do Texto (Visualização)
@@ -278,7 +272,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (vermelho), `Neutral
 - Réguas horizontais
 - Seções recolhíveis aninhadas
 
-&#x200B;---
+---
 
 ## &#x200B;4. NOMEAÇÃO DE ARQUIVOS E ESTRUTURA DE PASTAS
 
@@ -308,7 +302,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (vermelho), `Neutral
 - Metadados do sumário: `user-guide-description`, opcionalmente `breadcrumb-title`
 - `mini-toc-levels`: controla a exibição do cabeçalho de navegação à direita (1-6, padrão 2)
 
-&#x200B;---
+---
 
 ## &#x200B;5. QUALIDADE DO CONTEÚDO E PADRÕES EDITORIAIS
 
@@ -354,7 +348,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (vermelho), `Neutral
 - Caso de título SOMENTE para o campo de metadados `title`
 - Substantivos próprios sempre com inicial maiúscula
 
-&#x200B;---
+---
 
 ## &#x200B;6. PRÁTICAS RECOMENDADAS DA SEO
 
@@ -362,7 +356,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (vermelho), `Neutral
 - Hierarquia de cabeçalho sequencial (h1 → h2 → h3, nunca ignore níveis)
 - Incluir palavras-chave em H1, corpo de texto e metadados (não a meta tag `keywords` — a Google a ignora)
 - Evite o uso de palavras-chave (intenção > frequência)
-- Título: máx. de 50 a 60 caracteres; anexos de sistema &quot;| Adobe&quot; automaticamente
+- Título: máximo de 50 a 60 caracteres; o sistema anexa o &quot;| Adobe ProductName&quot; automaticamente
 - Descrição: 150-160 caracteres; deve ser um call to action, não uma repetição de conteúdo
 - Adicionar texto alternativo descritivo a todas as imagens
 - Incluir transcrições de vídeo (os mecanismos de pesquisa só podem ler o texto)
@@ -371,7 +365,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (vermelho), `Neutral
 - Use ferramentas como AnswerThePublic e Google Trends para pesquisar palavras-chave
 - O conteúdo deve demonstrar o E-E-A-T (experiência, conhecimento, capacidade de autoridade, confiabilidade)
 
-&#x200B;---
+---
 
 ## &#x200B;7. LOCALIZAÇÃO
 
@@ -391,7 +385,7 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (vermelho), `Neutral
 - `[!DNL ProductName]` — impede que os nomes de produtos/marcas sejam traduzidos
 - As imagens em uma pasta &quot;não traduzir&quot; são excluídas da localização
 
-&#x200B;---
+---
 
 ## &#x200B;8. TIPOS DE CONTEÚDO
 
@@ -402,13 +396,13 @@ Tipos: `Informative` (azul), `Positive` (verde), `Negative` (vermelho), `Neutral
 - **Artigos da Base de Dados de Conhecimento**: conteúdo de solução de problemas breve e temporariamente relevante
 - **Página de aterrissagem/Página inicial**: gerenciado separadamente (SCCM)
 
-&#x200B;---
+---
 
 ## &#x200B;9. ERROS COMUNS DE VALIDAÇÃO A SEREM EVITADOS
 
 - `title` ou `description` metadados ausentes ou em branco
 - `description` não começa com &quot;Saiba mais sobre...&quot; ou &quot;Saiba como...&quot;
-- Espaço entre `>` e `[ !` na sintaxe de texto explicativo (`> [!NOTE]` em vez de `>[!NOTE]`)
+- Espaço entre `>` e `[!` na sintaxe de texto explicativo (`> [!NOTE]` em vez de `>[!NOTE]`)
 - Espaços em negrito: `**text **` (espaço à direita quebra negrito)
 - Sintaxe de Markdown dentro de tabelas do HTML (por exemplo, chamadas de retorno não funcionam lá)
 - IDs de âncora de cabeçalho duplicadas em um documento

@@ -1,13 +1,14 @@
 ---
 name: blueprint-document-reference
 description: Referência para criar e editar documentos do Blueprint de experiência digital do Adobe. Use ao criar novos blueprints, adicionar páginas de blueprint ou quando o usuário perguntar sobre a estrutura do blueprint, seções, modelos ou fazer referência à Adobe Experience League.
-source-git-commit: 83e85d946e455cde46001af0a2112637b7fe24cc
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: b88e86c3ab3b344de7dbc2b207b2b107d9ea27cb
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
-
 ---
-
 
 # Referência do documento de blueprint
 
@@ -98,8 +99,8 @@ Para obter uma visão geral ou páginas de hub, use uma estrutura mais curta: in
 ## Referência à Adobe Experience League
 
 - **Quando vincular**: vincular à Experience League para obter a documentação do produto, referências de API, medidas de proteção, tutoriais e etapas de configuração. Não duplique procedimentos longos; resuma e vincule.
-- **Formato de URL**: usar URLs completas. Prefira `https://experienceleague.adobe.com/docs/?lang=pt-BR...` ou `https://experienceleague.adobe.com/pt-br/docs/...`. Para documentos do desenvolvedor, `https://developer.adobe.com/...` também é válido.
-- **Texto do link**: use texto descritivo (por exemplo, &quot;[Criar esquemas] (url)&quot; e não &quot;Clique aqui&quot;). Para nomes de produtos no texto do link, use `[!DNL Product Name]` quando apropriado.
+- **Formato de URL**: usar URLs completas. Prefira `https://experienceleague.adobe.com/docs/...` ou `https://experienceleague.adobe.com/en/docs/...`. Para documentos do desenvolvedor, `https://developer.adobe.com/...` também é válido.
+- **Texto do link**: use texto descritivo (por exemplo, &quot;[Criar esquemas](url)&quot; e não &quot;Clique aqui&quot;). Para nomes de produtos no texto do link, use `[!DNL Product Name]` quando apropriado.
 - **Seção de documentação relacionada**: encerre blueprints com uma seção de &quot;Documentação relacionada&quot; agrupando links por categoria (por exemplo, configurações de destino, documentação do SDK, Perfil e segmentação, Tutoriais).
 
 Para obter padrões detalhados de URL, agrupamento de links e exemplos, consulte [reference.md](reference.md).
