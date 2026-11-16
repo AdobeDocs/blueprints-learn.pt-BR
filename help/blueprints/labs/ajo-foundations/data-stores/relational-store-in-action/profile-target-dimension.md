@@ -7,7 +7,7 @@ exl-id: bfc71051-e471-4d5c-a9a7-bb6805a5acb1
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 9750fa1d2fe4054d4c9efd76f5f58210a4d99adc
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -93,7 +93,7 @@ O Dimension de direcionamento de perfil é usado para informar à Adobe Journey 
 
 
 
-6. Clique no botão **Salvar** para criar o Dimension de Destino de Perfil. Você verá o registro aparecer.
+6. Clique no botão **Criar** para criar o Dimension de Destino de Perfil. Você verá o registro aparecer.
 
 ![Registro de Dimension de Destino de Perfil salvo na lista](assets/profile-target-dimension-saved-record.png)
 
@@ -109,4 +109,4 @@ O Dimension de direcionamento de perfil é usado para informar à Adobe Journey 
 
 Agora você viu como é fácil navegar pelo Esquema, marcar um atributo como uma Identidade e criar o Dimension de direcionamento de perfil.
 
-Você pode ler mais [aqui](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension), se estiver interessado.
+Você pode ler mais [aqui](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/campaigns/orchestrated-campaigns/data-configuration/target-dimension), se estiver interessado.
