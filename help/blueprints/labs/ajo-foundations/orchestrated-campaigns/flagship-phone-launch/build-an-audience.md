@@ -4,13 +4,11 @@ description: Saiba como usar a atividade Build Audience em uma campanha orquestr
 doc-type: article
 solution: Experience Platform
 exl-id: 697d3edb-2b63-4038-a934-3587495e17f7
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 44d25df10492b3df80fe3887f75ab71e1ebf4743
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # Criar um público
 
@@ -165,6 +163,6 @@ Considere por um momento que você digitou a última condição de forma que `Ma
 
 ## Recapitulação
 
-Você criou seu primeiro público-alvo com sucesso e agora deve ver como é fácil desenvolver e validar suas contagens na atividade Criar público-alvo.
+Você criou um público-alvo com sucesso e agora deve ver como é fácil desenvolver e validar suas contagens na atividade Criar público-alvo.
 
 ![Atividade Criar público concluída após a recapitulação](assets/build-an-audience-recap-completed-audience.png)
