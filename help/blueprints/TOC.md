@@ -6,9 +6,9 @@ product: Adobe Experience Platform
 mini-toc-levels: 3
 role: Developer, User
 nudge: orange
-source-git-commit: 7349d665e8bea0dfff5d088e2c3a56f33e5924cb
+source-git-commit: ea991411ae0339bb4a1a36ac994fa76097d37307
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1040'
 ht-degree: 15%
 ---
 
@@ -106,7 +106,6 @@ ht-degree: 15%
   + Ativação e marketing B2B{#b2b-activation-marketing}
     + [Visão geral](/help/blueprints/architecture-diagrams/b2b-activation-marketing/overview.md)
     + [Ativação de público-alvo e perfil B2B](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-audience-profile-activation.md)
-    + [Ativação da conta B2B](/help/blueprints/architecture-diagrams/b2b-activation-marketing/b2b-account-activation.md)
   + Insights do cliente{#customer-insights}
     + [Visão geral](/help/blueprints/architecture-diagrams/customer-insights/overview.md)
     + [Adobe Customer Journey Analytics](/help/blueprints/architecture-diagrams/customer-insights/cja.md)
