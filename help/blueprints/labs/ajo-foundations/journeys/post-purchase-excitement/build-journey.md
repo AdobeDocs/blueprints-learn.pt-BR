@@ -4,9 +4,9 @@ description: Crie uma jornada unitária que responda a um evento de Pedido envia
 doc-type: article
 solution: Experience Platform
 exl-id: 4dd15071-51e5-445a-932d-690d9a73a913
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: 93fba2a4818790431306801b43a791508451f344
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1078'
 ht-degree: 0%
 ---
 
@@ -18,7 +18,7 @@ Crie uma jornada unitária que comece com o evento Pedido enviado configurado, o
 
 ## Criar jornada
 
-Vá para **Jornada** e clique em **Criar Jornada - Criar do zero**
+Vá para **Jornada** e clique em **Criar Jornada**
 
 ![Criar Jornada - Criar a partir da tela de rascunho no Adobe Journey Optimizer](assets/build-journey-create-journey-from-scratch.png)
 
@@ -29,7 +29,7 @@ Vá para **Jornada** e clique em **Criar Jornada - Criar do zero**
 1. Atualize as Propriedades da Jornada no painel direito com o seguinte:
    - **Nome**: `Order Shipped Journey`
    - **Descrição**: `Notify customer that order has shipped. Include shipping details.`
-   - **Marcas**: `Default`
+   - **Marcas**: *deixar em branco*
    - **métricas de Jornada**: *deixe em branco*
 
      >[!NOTE]
@@ -69,7 +69,7 @@ Vá para **Jornada** e clique em **Criar Jornada - Criar do zero**
 
 ### Adicionar um evento unitário
 
-No painel esquerdo, no **menu Eventos**, arraste e solte o evento **orderShipped** na tela conforme mostrado abaixo
+Clique em um ícone de adição, navegue até **Eventos personalizados** e selecione o evento **orderShipped**, conforme mostrado abaixo
 
 ![Arraste o evento orderShipped do menu Eventos para a tela de jornada](assets/build-journey-drag-order-shipped-event-onto-canvas.png)
 
@@ -83,7 +83,7 @@ No painel esquerdo, no **menu Eventos**, arraste e solte o evento **orderShipped
 
 ### Adicionar uma ação personalizada
 
-1. Se o painel esquerdo expandir o **menu Ações** e arrastar e soltar na tela a ação que você criou chamada **GetShippingDetails** após o evento orderShipped
+1. Clique em um ícone de adição, navegue até **Ações personalizadas** e selecione a ação que você criou denominada **GetShippingDetails** para que ela apareça após o evento orderShipped
 
    ![Arraste a ação personalizada GetShippingDetails para a tela após o evento orderShipped](assets/build-journey-drag-getshippingdetails-action-onto-canvas.png)
 
@@ -107,7 +107,7 @@ No painel esquerdo, no **menu Eventos**, arraste e solte o evento **orderShipped
 
 ### Adicionar ação de email
 
-1. No menu Ações, arraste e solte a ação **Ação** na tela após a ação GetShippingDetails
+1. Clique no ícone de adição após o evento personalizado GetShippingDetails e selecione **Ação**.
 
    ![Arraste o nó Ação para a tela após a ação GetShippingDetails](assets/build-journey-drag-email-action-onto-canvas.png)
 
@@ -137,11 +137,11 @@ Para conteúdo, você vai manter as coisas simples. Como estúpido simples.
 
    ![Criar a partir do bloco de conteúdo Scratch na barra superior](assets/build-journey-click-design-from-scratch.png)
 
-3. Na barra esquerda, sob o contêiner Estrutura, arraste e solte a **Coluna 1:1** sobre a tela
+3. Na barra esquerda, vá para a guia Componentes e, no contêiner Estrutura, arraste e solte a **Coluna 1:1** na tela
 
    ![Arraste o elemento de estrutura de Coluna 1:1 para a tela de email](assets/build-journey-drag-1-1-column-onto-canvas.png)
 
-4. Em seguida, no contêiner de Conteúdo, arraste e solte o componente **Texto** na sua **Coluna 1:1**
+4. Em seguida, no contêiner Conteúdo, arraste e solte o componente **Texto** na sua **Coluna 1:1**
 
    ![Arraste o componente de Texto para a coluna 1:1](assets/build-journey-drag-text-component-into-column.png)
 
@@ -206,7 +206,8 @@ De volta à tela principal da Jornada, no nó Email, verifique se você pode ver
 
    ![Habilitar o ícone de substituição de parâmetro em Parâmetros de Email](assets/build-journey-enable-parameter-override.png)
 
-2. Clique na caixa de texto vazia e, em seguida, no painel à esquerda, detalhe o **Contexto** -> **orderShipped** -> **\_dep** e clique no campo **personalEmail**.  Clique no **botão OK**
+2. Clique na caixa de texto vazia e, em seguida, no painel à esquerda, detalhe o **Contexto** -> **orderShipped** -> **\_dep** e clique no campo **personalEmail**.  Clique no botão **OK**
+(Observe que o nome do locatário que começa com sublinhado pode ser diferente para seu ambiente; neste exemplo, ele é _dep.)
 
    ![Selecione o campo personalEmail em orderShipped context _dep](assets/build-journey-select-personalemail-context-field.png)
 
