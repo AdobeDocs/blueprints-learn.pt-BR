@@ -20,10 +20,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: c2381a0f7223d8cbb0dae05d056fd45ff5701f0f
+source-git-commit: ea991411ae0339bb4a1a36ac994fa76097d37307
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 80%
+source-wordcount: '164'
+ht-degree: 82%
 ---
 # Ativação e marketing B2B
 
@@ -33,5 +33,4 @@ Com uma abordagem que prioriza os canais, cada canal age como um silo, no qual o
 
 | Diagrama | Descrição |
 | --- | --- |
-| [Público-alvo B2B e ativação de perfil](b2b-audience-profile-activation.md) | Ative públicos com base em contas e pessoas com o Real-Time Customer Data Platform B2B edition |
-| [Ativação da conta B2B](b2b-account-activation.md) | Contas B2B do Target por meio de publicidade e destinos baseados em arquivo |
+| [Público-alvo B2B e ativação de perfil](b2b-audience-profile-activation.md) | Ative públicos de pessoas nos canais e contas compatíveis para publicidade e destinos de arquivos com o Real-Time Customer Data Platform B2B edition |

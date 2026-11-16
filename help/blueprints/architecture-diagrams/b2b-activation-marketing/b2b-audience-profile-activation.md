@@ -5,27 +5,33 @@ solution: Real-Time Customer Data Platform
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: ea991411ae0339bb4a1a36ac994fa76097d37307
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 5%
+source-wordcount: '1745'
+ht-degree: 4%
 ---
 
 # Público-alvo B2B e ativação de perfil
 
-Use o **Real-Time Customer Data Platform B2B edition** para reunir dados de conta, oportunidade e pessoa em perfis B2B unificados e, em seguida, ativar públicos de pessoas e contas em destinos como LinkedIn, Marketo Engage e armazenamento na nuvem. Este blueprint descreve como projetar esquemas B2B, criar públicos de várias entidades e exportá-los para ativação em vários canais e destinos, bem como para orquestração e análise em aplicativos como o **Journey Optimizer B2B edition** e o **Customer Journey Analytics B2B edition**.
+Use o **Real-Time Customer Data Platform B2B edition** para reunir dados de conta, oportunidade e pessoa em perfis B2B unificados e, em seguida, ativar públicos de pessoas e contas em destinos como LinkedIn, Marketo Engage e armazenamento na nuvem. Este blueprint descreve como projetar esquemas B2B, criar públicos de várias entidades e exportá-los para ativação em vários canais e destinos, bem como para orquestração e análise em aplicativos como o **Journey Optimizer B2B Edition** e o **Customer Journey Analytics B2B edition**.
 
 ## Casos de uso
 
 - Crie públicos-alvo de pessoas para direcionamento e personalização em canais com base em dados B2B, incluindo contas, oportunidades e leads.
 - Crie públicos-alvo de várias entidades que combinam atributos de nível de conta e oportunidade com comportamento de nível de pessoa usando uma abordagem de **segmento de segmentos** (por exemplo, &quot;Pessoas que visitaram a página de preços nos últimos 3 dias e são tomadores de decisão em oportunidades no estágio X para contas no setor Y&quot;).
-- Ative pessoas e públicos-alvo de contas para destinos de armazenamento na Experience Platform e na nuvem, como Marketo Engage, LinkedIn Matched Audiences, Google Customer Match, DV360, The Trade Desk, Amazon Ads, Bombora e Demandbase, para direcionamento, personalização, alcance de vendas e análise.
+- Ative públicos-alvo de pessoas para destinos compatíveis do Experience Platform para direcionamento e personalização, e considere públicos-alvo para destinos compatíveis do advertising e do armazenamento na nuvem para direcionamento, alcance de vendas e análise. O suporte ao destino difere de acordo com o tipo de público-alvo; consulte [Destinos de público-alvo de conta](#account-audience-destinations) para ativação de conta.
+
+### Casos de uso baseados em conta
+
+- **Preencha as lacunas do grupo de compras:** crie um público-alvo de contas sem contatos em funções como CMO ou CIO. Ative-a para o LinkedIn Matched Audiences ou outro destino de publicidade compatível e use o direcionamento de cargo do destino para alcançar novos contatos nessas funções.
+- **Venda adicional ou venda cruzada para outras divisões de um cliente existente:** crie uma conta de público-alvo que comprou o produto X entre 3 e 9 meses atrás, mas ainda não tem o produto Y. Ative-a para destinos de anúncios com suporte ou exporte-a para o armazenamento em nuvem para alcance de vendas e marketing.
+- **Empresas de destino que usam produtos concorrentes:** use dados de parceiro ou intenção para identificar contas que usam o produto de um concorrente, mesmo quando nenhum contato é conhecido. Ative o público-alvo da conta para destinos de anúncios suportados para alcançar contatos nessas empresas.
 
 ## Aplicativos
 
 - Real-Time Customer Data Platform B2B edition
 - (Opcional) **Customer Journey Analytics B2B edition**
-- (Opcional) **Journey Optimizer B2B edition**
+- (Opcional) **Journey Optimizer B2B Edition**
 
 ## Padrões de integração
 
@@ -33,7 +39,7 @@ Os padrões típicos de integração B2B para este blueprint incluem:
 
 - **Engajamento B2B e fontes de CRM → RTCDP B2B → destinos**
 
-  Os sistemas de envolvimento B2B e CRM, como Marketo Engage, Salesforce e Microsoft Dynamics, enviam clientes em potencial/contatos, contas e oportunidades para o **Real-Time CDP B2B edition** usando os esquemas B2B padrão. A partir daí, públicos de pessoas e contas são ativados para destinos que incluem:
+  Os sistemas de envolvimento B2B e CRM, como Marketo Engage, Salesforce e Microsoft Dynamics, enviam clientes em potencial/contatos, contas e oportunidades para o **Real-Time CDP B2B edition** usando os esquemas e relações B2B padrão. A partir daí, os públicos-alvo de pessoas são ativados para destinos compatíveis, incluindo:
 
   - Marketo Engage
   - Públicos correspondentes do LinkedIn/LinkedIn
@@ -43,9 +49,11 @@ Os padrões típicos de integração B2B para este blueprint incluem:
   - Trade Desk CRM, Critério, Bing e outras plataformas de publicidade
   - Destinos de armazenamento na nuvem, como Amazon S3, ADLS e Snowflake, para uso downstream
 
+  Os públicos-alvo da conta usam o mesmo modelo de dados B2B unificado e são ativados separadamente para destinos de arquivo e publicidade compatíveis listados em [Destinos de público-alvo da conta](#account-audience-destinations).
+
 - **Fontes de evento e intenção B2B → RTCDP B2B → públicos → destinos**
 
-  Fontes de evento e intenção B2B, como intenção Bombora, intenção Demandbase, PathFactory e eventos de envolvimento de fluxo RainFocus no RTCDP B2B. Esses eventos são mapeados para esquemas B2B padrão e usados para criar pessoas e públicos-alvo de contas que podem ser ativados para destinos de publicidade e marketing.
+  Fontes de evento e intenção B2B, como intenção Bombora, intenção Demandbase, PathFactory e eventos de envolvimento de fluxo RainFocus no RTCDP B2B. Esses eventos são mapeados para esquemas B2B padrão e usados para criar pessoas e públicos-alvo de contas que podem ser ativados para destinos de publicidade e marketing. Por exemplo, contas que mostram a intenção em tópicos de concorrentes podem ser ativadas para destinos de conta compatíveis, como Bombora e Demandbase.
 
 Várias fontes de dados B2B podem ser usadas para mapear dados de conta, cliente potencial, oportunidade e pessoa para a B2B edition do Real-Time Customer Data Platform usando os **esquemas e relações B2B** padrão.
 
@@ -53,11 +61,28 @@ Várias fontes de dados B2B podem ser usadas para mapear dados de conta, cliente
 
 ![Arquitetura de referência para o Audience B2B e blueprint de Ativação de Perfil](assets/b2b-audience-profile-activation.png){width="1000" zoomable="yes"}
 
+## Destinos de público da conta
+
+Os públicos-alvo da conta podem ser ativados para os seguintes destinos de armazenamento de anúncios e na nuvem:
+
+- Públicos correspondentes do LinkedIn
+- Bombora
+- Demandbase
+- Armazenamento Azure Data Lake Gen2
+- Zona de aterrissagem de dados
+- SFTP
+- Blob do Azure
+- AWS S3
+
+Consulte [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en) para obter os destinos mais recentes com suporte e os mapeamentos necessários. Os destinos de público-alvo de pessoas listados nos padrões de integração não são necessariamente compatíveis com públicos-alvo de contas.
+
 ## Medidas de proteção
 
 Consulte as seguintes medidas de proteção e documentação de qualificação ao criar públicos-alvo e perfis B2B:
 
 - [Medidas de proteção para o Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
+- [Públicos da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
 - [Casos de uso de segmentação para o Real-Time CDP B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/segmentation/b2b)
 - [Proteções de perfil e segmentação](https://experienceleague.adobe.com/pt-br/docs/experience-platform/profile/guardrails)
 - [Atualização dos critérios de qualificação de segmentação de streaming](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/eligibility-criteria-update)
@@ -107,6 +132,12 @@ Dois padrões de implementação são comuns:
 
 Como parte das atualizações de arquitetura B2B do RTCDP, alguns padrões usados anteriormente agora estão obsoletos para entidades B2B. Para obter detalhes mais detalhados, consulte a documentação detalhada [aqui](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade).
 
+Para criar e ativar públicos-alvo da conta, consulte:
+
+- [Criar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/account-audiences?lang=en).
+- [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en).
+- [Mapeamentos necessários para Públicos correspondentes do LinkedIn](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en#required-mappings).
+
 ## Considerações de implantação
 
 Orientações sobre as principais considerações e configurações do blueprint.
@@ -117,10 +148,18 @@ Orientações sobre as principais considerações e configurações do blueprint
   - Se houver tabelas ou atributos adicionais do CRM que não passem pelo Marketo (por exemplo, objetos personalizados ou campos adicionais), conecte a origem do CRM diretamente ao Experience Platform usando os conectores de origem do CRM e mapeie essas tabelas para os esquemas e relacionamentos padrão B2B.
   - Projete a assimilação de CRM + Marketo para evitar representações duplicadas ou conflitantes de entidades B2B no RTCDP B2B e garantir que todas as entidades B2B estejam em conformidade com os esquemas padrão.
 
+- **Público-alvo mínimo do LinkedIn correspondente**
+
+  O LinkedIn Matched Audiences tem um requisito de tamanho mínimo de público (por exemplo, 300 membros correspondentes). Se um público-alvo da conta ativada não atender ao requisito, amplie a definição de público-alvo para aumentar o tamanho do público-alvo correspondente antes de iniciar uma campanha. Consulte a [documentação de destino do LinkedIn](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin?lang=en) para conhecer os requisitos atuais.
+
 ## Documentação relacionada
 
 - [B2B edition do Real-Time Customer Data Platform](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview)
 - [Introdução ao Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-tutorial?lang=en)
+- [Tutorial Criar e ativar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/platform-learn/tutorials/audiences/create-audiences-with-b2b-data?lang=en)
+- [Criar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/ui/account-audiences?lang=en)
+- [Ativar públicos-alvo da conta](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/ui/activate/activate-account-audiences?lang=en)
+- [Conector de destino do LinkedIn](https://experienceleague.adobe.com/pt-br/docs/experience-platform/destinations/catalog/social/linkedin?lang=en)
 - [Medidas de proteção para o Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-guardrails?lang=en)
 - [Esquemas no Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/schemas/b2b)
 - [Atualizações de arquitetura no Real-Time CDP B2B edition](https://experienceleague.adobe.com/pt-br/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-architecture-upgrade)

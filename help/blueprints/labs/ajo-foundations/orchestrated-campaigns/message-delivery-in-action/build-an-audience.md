@@ -4,13 +4,11 @@ description: Saiba como usar a atividade Criar público-alvo para direcionar mem
 doc-type: article
 solution: Experience Platform
 exl-id: 7576e64b-d99a-4864-b877-f4ae77e1d7bd
-source-git-commit: 3076f01e06023cebd30ead73d61f4540da9ce791
+source-git-commit: 9a38e7016b9fdca00bc49be00fe03a0e8e5ed26d
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
-
 ---
-
 
 # Criar um público
 
@@ -40,11 +38,11 @@ No próximo conjunto de etapas, você criará um público-alvo do esquema relaci
 
    ![Clique em Adicionar condição no painel Criar público-alvo](assets/build-an-audience-add-condition.png)
 
-6. Role para baixo e expanda o `dep-rel: Plan Lookup` clicando no **>** ao lado dele
+6. Role para baixo e expanda o `dep-rel: Plan [Lookup]` clicando no **>** ao lado dele
 
    ![Expandir dep-rel: Pesquisa de Plano](assets/build-an-audience-expand-plan-lookup.png)
 
-7. Selecione `dep-rel: Plan Name` e clique em **Confirmar**
+7. Selecione `Plan Name` e clique em **Confirmar**
 
    ![Selecionar dep-rel: Nome do Plano](assets/build-an-audience-select-plan-name.png)
 
