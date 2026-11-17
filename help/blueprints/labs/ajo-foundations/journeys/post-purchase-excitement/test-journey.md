@@ -27,7 +27,7 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
    ![Clique para validar a jornada](assets/test-journey-click-validate.png)
 
-5. Clique em **Alertas** e verifique se não há erros (avisos ok)
+&#x200B;5. Clique em **Alertas** e verifique se não há erros (avisos ok)
 
    ![O painel Alertas não mostra erros após abrir a jornada](assets/test-journey-alerts-no-errors.png)
 
@@ -37,9 +37,9 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
    >
    >Indica que o link para opção de não participação está ausente em uma variante de email
 
-6. Clique em **Simular** e selecione **Modo de Teste**
+&#x200B;6. Clique em **Simular** e selecione **Modo de Teste**
 
-   ![Pressionar Simular ](assets/test-journey-select-test-mode.png)
+   ![Pressionar Simular &#x200B;](assets/test-journey-select-test-mode.png)
 
    ![Modo de teste selecionado no pop-up](assets/test-journey-select-test-mode-in-popup.png)
 
@@ -51,11 +51,11 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
 
 
-7. Clique em **Acionar um Evento** no lado esquerdo e preencha estas propriedades:
+&#x200B;7. Clique em **Acionar um Evento** no lado esquerdo e preencha estas propriedades:
    - **Tipo de evento**: `orders.shipped`
    - **Email Pessoal**: `henry.creel@emailsim.io`
    - **ID do pedido**: `123`
-8. Clique em **Enviar** (observe que demora alguns segundos para responder depois de clicar em enviar)
+&#x200B;8. Clique em **Enviar** (observe que demora alguns segundos para responder depois de clicar em enviar)
 
    ![Acionar um Formulário de evento preenchido e Enviar clicado](assets/test-journey-trigger-event-send.png)
 
@@ -71,7 +71,7 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
 
 
-9. Em **Resultados** -> Clique em **Mostrar Log** no lado esquerdo
+&#x200B;9. Em **Resultados** -> Clique em **Mostrar Log** no lado esquerdo
 
 ![Opção Mostrar Log em Resultados após disparar o evento de teste](assets/test-journey-show-log-results.png)
 
