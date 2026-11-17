@@ -7,9 +7,9 @@ exl-id: 34f56d95-564b-4cf6-b105-22da276e8e41
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 999b0f4e8d401991e099c0598b8031ceb632d8fd
+source-git-commit: e973383e71d942cfeb86864cb92caddac6604d9a
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1740'
 ht-degree: 0%
 ---
 
@@ -19,9 +19,8 @@ ht-degree: 0%
 
 1. Se necessário, expanda o item de menu **Jornada management** no painel esquerdo e clique em **Jornada**. Você chega na página da Jornada.
 1. Clique no botão azul **Criar Jornada**.
-1. Quando a sobreposição &quot;Criar uma Jornada&quot; aparecer, selecione **Criar do zero** e clique em **Confirmar**
 1. No painel direito, nomeie a Jornada como **iPhone 17 Abandonar Navegação** e clique no botão azul **Salvar** para começar a adicionar ações à tela de Jornada.
-1. Arraste o evento **Qualificação do público-alvo** para a tela.
+1. Clique no ícone de adição após o início da jornada e adicione o evento **Qualificação de público-alvo** à tela.
 1. No painel direito, clique no ícone de **Lápis** para selecionar o público-alvo deste evento.
 1. Selecione o público-alvo **dep: Interested in iPhone 17**.
 1. Verifique se o menu suspenso **Namespace** está definido como **customerID.** Neste ponto, sua Jornada terá esta aparência:
@@ -38,9 +37,9 @@ ht-degree: 0%
 
 ## Configurar o CBE e a política de decisão
 
-1. Expanda a opção **Ações** à esquerda da tela, arraste o elemento **Ação** para a tela e conecte-o ao primeiro nó.
+1. Clique no ícone de adição após a qualificação do público-alvo e adicione o elemento **Ação** à tela.
 1. Quando a sobreposição &#39;Selecionar tipo de ação&#39; for exibida, selecione a ação **Experiência baseada em código** e clique no botão azul **Adicionar**.
-1. Nas propriedades &#39;Action\:Code-based experience&#39; agora visíveis, clique no botão **Configurar Ação**.
+1. Nas propriedades &#39;Action\:Code-based experience&#39; agora visíveis, clique no botão **Configurar action**.
 
    ![Propriedades de ação de experiência baseada em código com o botão Configurar Ação](assets/create-the-journey-configure-action-button.png)
 
@@ -112,7 +111,7 @@ ht-degree: 0%
    >
    >Lembre-se de que você adicionou atributos ao esquema XDM da oferta padrão, especificamente, a marca, o modelo e a camada. Em seguida, você preencheu esses atributos quando as ofertas foram criadas. Agora você adiciona esses atributos como variáveis que são preenchidas com valores da oferta selecionada. O campo trackingToken é um valor gerado pelo sistema usado para rastrear cliques e impressões.
 
-1. Coloque o cursor entre o **&quot;** do nó &#39;make&#39;. Insira a marca da oferta navegando no menu de política de decisão para o nó **\_dep > Dispositivo > Criar**.  Clique no ícone **+** no elemento **Make** e você o verá preencher o editor.
+1. Coloque o cursor entre o **&quot;** do nó &#39;make&#39;. Insira a marca da oferta navegando no menu de política de decisão para o nó **\_dep > Dispositivo > Criar**.  Clique no ícone **+** no elemento **Make** e você o verá preencher o editor. (Observe que o nome do locatário que começa com um sublinhado pode ser diferente para seu ambiente, neste caso, é _dep.)
 
    ![Criar atributo da política de decisão preenchida no editor de JSON](assets/create-the-journey-populate-make-attribute.png)
 
@@ -134,11 +133,11 @@ ht-degree: 0%
 
    ![Jornada tela após retornar do editor de experiência baseado em código](assets/create-the-journey-return-to-canvas.png)
 
-1. Clique no botão azul **Salvar** para salvar o nó da ação CBE. Agora a Jornada tem esta aparência:
+1. Clique no botão azul **Salvar** para salvar o nó da ação Experiência baseada em código. Agora a Jornada tem esta aparência:
 
    ![Tela de Jornada mostrando o nó de ação do CBE concluído](assets/create-the-journey-completed-canvas.png)
 
-1. Com a Jornada concluída, clique no botão azul **Publicar** no canto superior direito e **Publicar** novamente quando a caixa de confirmação for exibida. Depois de um ou dois momentos, você verá que sua Jornada está ativa agora!
+1. Com a Jornada concluída, clique primeiro em **Validar** e depois clique no botão **Publicar** no canto superior direito e em **Publicar** novamente quando a caixa de confirmação for exibida. Depois de um ou dois momentos, você verá que sua Jornada está ativa agora!
 
 ![Jornada de Abandono de Navegação do iPhone 17 publicada e ao vivo](assets/create-the-journey-published-live.png)
 

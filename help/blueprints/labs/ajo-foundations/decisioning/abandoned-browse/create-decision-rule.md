@@ -7,9 +7,9 @@ exl-id: 1c1e2d82-ca09-4074-813d-3b29af77388b
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 74b5a717f6c16c75e26426619885202f4b658171
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '526'
 ht-degree: 0%
 ---
 
@@ -26,13 +26,13 @@ Como a qualificação é um dos blocos fundamentais de uma oferta, a primeira et
 
    >[!WARNING]
    >
-   >Certifique-se de estar no menu Decisão e NÃO no menu Gestão de decisões. Se o menu Gerenciamento de decisões for expandido, recolha-o para evitar confusão de navegação durante esse laboratório.
+   >Certifique-se de estar no menu Decisão e NÃO no menu Gestão de decisões (caso ambos estejam visíveis em seu ambiente). Se o menu Gerenciamento de decisões for expandido, recolha-o para evitar confusão de navegação durante esse laboratório.
 
 3. Clique em **Regras de Decisão** no menu &#39;Qualificação&#39;, seguido pelo botão **Criar regra** no canto superior direito.
 
    ![Página Regras de Decisão com o botão Criar regra](assets/create-decision-rule-create-rule-button.png)
 
-4. Isso abre uma tela semelhante à interface do usuário do Construtor de segmentos. Adicione o atributo ID do plano à tela da regra clicando em **Perfil Individual XDM > DEP > Detalhes do plano** e arrastando o atributo **ID do plano** para a tela.
+4. Isso abre uma tela semelhante à interface do usuário do Construtor de segmentos. Adicione o atributo ID do plano à tela da regra clicando em **Perfil Individual XDM > DEP > Detalhes do plano** e arrastando o atributo **ID do plano** para a tela. (Observe que o nome do locatário, que neste exemplo é Dep, pode ser diferente em seu ambiente. Também é possível pesquisar Detalhes do Plano na barra de pesquisa Atributos.)
 5. Altere o menu suspenso de igual a **contém.**
 6. Insira o texto **2** na caixa, pressione a tecla **Tab** para aceitar o valor 2 e insira um **3,** pressione **Tab** novamente para que a regra procure IDs de Plano que contenham um 2 ou 3
 7. Use a caixa de texto **Nome** no painel direito para nomear a Regra de decisão **Planos de camada superior**. Adicione uma descrição, se desejar. Quando terminar, sua Regra de decisão deverá ter esta aparência:
