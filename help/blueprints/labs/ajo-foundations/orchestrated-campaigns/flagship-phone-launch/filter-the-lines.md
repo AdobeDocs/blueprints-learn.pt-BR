@@ -7,9 +7,9 @@ exl-id: fb556a27-5c73-4457-ae98-dba43d445c7f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 689f227965176096ccd1785699de65046af4f3d3
+source-git-commit: f189618dc8bfa198b25d646faa3ca0e0f5af5916
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '443'
 ht-degree: 0%
 ---
 
@@ -57,9 +57,25 @@ No próximo conjunto de etapas, você filtrará todas as linhas que realmente n�
 
 
 
+## Adicionar dimensão de alteração
+
+1. Na tela do fluxo de trabalho, clique no ícone **+** após a condição de divisão adicionada e selecione a atividade **Alterar dimensão**
+
+   ![Adicionar a atividade Change dimension após a condição de divisão](assets/filter-the-lines-add-change-dimension-activity.png)
+
+2. Atualize as propriedades da dimensão de alteração conforme descrito abaixo e clique em **Confirmar**:
+Etiqueta: `Convert Line to Account`
+Nova dimensão de destino: `dep-rel: Customer Account`
+
+   ![Editar dimensão de destino](assets/filter-the-lines-add-edit-target-dimension.png)
+
+   ![Editar dimensão de destino](assets/filter-the-lines-add-select-target-dimension.png)
+
+
+
 ## Adicionar a atividade de SMS
 
-1. Na tela do fluxo de trabalho, clique no ícone **+** após a condição de divisão adicionada e selecione a **Atividade de mensagem móvel**
+1. Clique no ícone **+** após a dimensão Change que você adicionou e selecione a **Atividade de mensagem móvel**
 
    ![Adicionar a atividade de mensagem móvel após a condição de divisão](assets/filter-the-lines-add-sms-activity.png)
 
@@ -67,9 +83,9 @@ No próximo conjunto de etapas, você filtrará todas as linhas que realmente n�
 
 
 
-2. No painel direito, clique no botão Editar mensagem móvel para iniciar a configuração da mensagem SMS.
+2. No painel direito, primeiro altere a opção Target para **Uma mensagem por dimensão secundária** e, em seguida, clique no botão **Editar mensagem móvel** para iniciar a configuração da mensagem SMS
 
-   ![Botão Editar mensagem móvel no painel direito](assets/filter-the-lines-edit-sms-button.png)
+   ![Botão Direcionar e Editar mensagem móvel no painel direito](assets/filter-the-lines-edit-sms-button.png)
 
 
 
@@ -82,4 +98,4 @@ No próximo conjunto de etapas, você filtrará todas as linhas que realmente n�
 
 ## Recapitulação
 
-Você filtrou todas as linhas que não tinham permissão para serem direcionadas com uma mensagem SMS devido à recusa e adicionou uma atividade de SMS para aqueles que tinham permissão para serem direcionados.
+Você filtrou todas as linhas que não podiam ser direcionadas com uma mensagem SMS devido à recusa, alterou a dimensão de linha para conta e adicionou uma atividade SMS para aqueles que podiam ser direcionados.
