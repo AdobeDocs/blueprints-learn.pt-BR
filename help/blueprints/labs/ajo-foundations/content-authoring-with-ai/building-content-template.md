@@ -4,13 +4,11 @@ description: Saiba como criar um modelo de email reutilizável no Adobe Journey 
 doc-type: article
 solution: Experience Platform
 exl-id: e73f06b1-be8a-4096-949c-900db13db9f8
-source-git-commit: 0b33b2740ee7f5af73d64f217b4475650c1d28a0
+source-git-commit: 0ba4d425f258e4c02e1563cdec2da1f815bfcc65
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '842'
 ht-degree: 0%
-
 ---
-
 
 # Criação do modelo de conteúdo
 
@@ -104,7 +102,7 @@ Selecione a terceira opção. Clique em **Importar HTML**
 
 ### Painel esquerdo
 
-Os componentes de &quot;**Estruturas**&quot; e &quot;**Conteúdo**&quot; no Adobe Journey Optimizer (AJO) são elementos essenciais usados ao criar emails, páginas de aterrissagem e fragmentos de conteúdo. As estruturas definem a estrutura de layout, enquanto o Conteúdo fornece os blocos de construção reais colocados dentro desses layouts.
+Na guia Componentes, os componentes &quot;**Estruturas**&quot; e &quot;**Conteúdo**&quot; no Adobe Journey Optimizer (AJO) são elementos essenciais usados ao criar emails, páginas de aterrissagem e fragmentos de conteúdo. As estruturas definem a estrutura de layout, enquanto o Conteúdo fornece os blocos de construção reais colocados dentro desses layouts.
 
 A seção do corpo no Adobe Journey Optimizer é o container principal do seu conteúdo de email ou página. Ele serve como a raiz do espaço de design visual, onde todos os componentes de estrutura (colunas, layouts) e componentes de conteúdo (texto, imagens, botões etc.) são aninhados.
 
