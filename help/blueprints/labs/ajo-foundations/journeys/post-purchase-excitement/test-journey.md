@@ -39,7 +39,7 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
 5. Clique em **Simular** e selecione **Modo de Teste**
 
-   ![Pressionar Simular ](assets/test-journey-select-test-mode.png)
+   ![Pressionar Simular &#x200B;](assets/test-journey-select-test-mode.png)
 
    ![Modo de teste selecionado no pop-up](assets/test-journey-select-test-mode-in-popup.png)
 
