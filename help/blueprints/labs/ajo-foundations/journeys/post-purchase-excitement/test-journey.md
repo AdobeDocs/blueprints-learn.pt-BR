@@ -7,7 +7,7 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: cdd5113ade5b2e4b75a5572a3a83aecd2918e297
+source-git-commit: 929145a02a8a2f3505e9e12ff605c500eac1cc79
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
    ![Clique para validar a jornada](assets/test-journey-click-validate.png)
 
-&#x200B;5. Clique em **Alertas** e verifique se não há erros (avisos ok)
+4. Clique em **Alertas** e verifique se não há erros (avisos ok)
 
    ![O painel Alertas não mostra erros após abrir a jornada](assets/test-journey-alerts-no-errors.png)
 
@@ -37,9 +37,9 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
    >
    >Indica que o link para opção de não participação está ausente em uma variante de email
 
-&#x200B;6. Clique em **Simular** e selecione **Modo de Teste**
+5. Clique em **Simular** e selecione **Modo de Teste**
 
-   ![Pressionar Simular &#x200B;](assets/test-journey-select-test-mode.png)
+   ![Pressionar Simular ](assets/test-journey-select-test-mode.png)
 
    ![Modo de teste selecionado no pop-up](assets/test-journey-select-test-mode-in-popup.png)
 
@@ -51,11 +51,11 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
 
 
-&#x200B;7. Clique em **Acionar um Evento** no lado esquerdo e preencha estas propriedades:
+6. Clique em **Acionar um Evento** no lado esquerdo e preencha estas propriedades:
    - **Tipo de evento**: `orders.shipped`
    - **Email Pessoal**: `henry.creel@emailsim.io`
    - **ID do pedido**: `123`
-&#x200B;8. Clique em **Enviar** (observe que demora alguns segundos para responder depois de clicar em enviar)
+7. Clique em **Enviar** (observe que demora alguns segundos para responder depois de clicar em enviar)
 
    ![Acionar um Formulário de evento preenchido e Enviar clicado](assets/test-journey-trigger-event-send.png)
 
@@ -71,7 +71,7 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
 
 
-&#x200B;9. Em **Resultados** -> Clique em **Mostrar Log** no lado esquerdo
+8. Em **Resultados** -> Clique em **Mostrar Log** no lado esquerdo
 
 ![Opção Mostrar Log em Resultados após disparar o evento de teste](assets/test-journey-show-log-results.png)
 
