@@ -193,13 +193,13 @@ Role para baixo na coluna da esquerda e clique em **Mais configurações**
 
 ![Configurações de imagem do Firefly, incluindo taxa, tipo de conteúdo e iluminação, antes da geração](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-3. Selecione as variações no lado direito para visualizá-las e **Salve** alguns dos favoritos na pasta do Assets para uso posterior. Você também pode clicar em Gerar mais algumas vezes para obter mais variações.
+&#x200B;3. Selecione as variações no lado direito para visualizá-las e **Salve** alguns dos favoritos na pasta do Assets para uso posterior. Você também pode clicar em Gerar mais algumas vezes para obter mais variações.
 
 ![Navegue pelas variações e salve algumas](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
 ![Salvar na pasta do Assets](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-4. Em seguida, apenas **Cancelar** da interface de geração de imagem por enquanto.
+&#x200B;4. Em seguida, apenas **Cancelar** da interface de geração de imagem por enquanto.
 
 
 
@@ -209,11 +209,11 @@ Role para baixo na coluna da esquerda e clique em **Mais configurações**
 
 ![Clique em Procurar no bloco de imagem](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-2. Selecione uma de suas variações e clique em **Selecionar**
+&#x200B;2. Selecione uma de suas variações e clique em **Selecionar**
 
 ![Selecione uma de suas variações](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-3. Selecione a guia **Estilos** na coluna direita e aplique à imagem um raio de borda arredondado de 10
+&#x200B;3. Selecione a guia **Estilos** na coluna direita e aplique à imagem um raio de borda arredondado de 10
 
 ![Design final de bloco de email com cantos arredondados de imagem](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
