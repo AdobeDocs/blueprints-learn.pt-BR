@@ -7,7 +7,7 @@ exl-id: 3e2b064f-5680-461c-a49e-2a61514e146f
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: c0adb1eab9b0a1315e2041c1f2cb89a4bfdae4b2
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Um painel de simulação é aberto após alguns segundos.
 
    ![Botão Carregar para dados de entrada no painel de simulação](assets/content-simulation-click-upload-input-data.png)
 
-&#x200B;3. Escolha **sample.csv** e clique em **Continuar**.
+2. Escolha **sample.csv** e clique em **Continuar**.
 
    ![Escolhendo sample.csv e clicando em Abrir](assets/content-simulation-choose-sample-csv-continue.png)
 

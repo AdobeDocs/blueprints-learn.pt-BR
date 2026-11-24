@@ -4,7 +4,7 @@ description: Saiba como dividir um design de email em fragmentos reutilizáveis,
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: d935e9a5179579e35c6aa5fe9e495f5bba1a1b03
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -132,33 +132,31 @@ Crie um fragmento de cabeçalho para começar. No entanto, antes de criar o frag
 
 10. Clique em **&quot;Procurar&quot;** para selecionar a imagem de logotipo fornecida e já carregada na Assets.
 
-![Clique no botão Procurar para selecionar a imagem do logotipo](assets/building-content-fragments-click-browse-button.png)
+    ![Clique no botão Procurar para selecionar a imagem do logotipo](assets/building-content-fragments-click-browse-button.png)
 
-&#x200B;11. Navegue até a pasta, clique na imagem de logotipo (*C5G-Logo.png*) e clique em **Selecionar**.
+11. Navegue até a pasta, clique na imagem de logotipo (*C5G-Logo.png*) e clique em **Selecionar**.
 
-![Selecionando C5G-Logo.png na pasta Assets](assets/building-content-fragments-select-logo-from-assets.png)
+    ![Selecionando C5G-Logo.png na pasta Assets](assets/building-content-fragments-select-logo-from-assets.png)
 
-&#x200B;12. O logotipo é colocado corretamente, mas é muito grande e precisa ser redimensionado. Para redimensionar o logotipo, atualize suas propriedades. Clique na guia **Estilos** na coluna direita e defina a largura como 40% arrastando o controle deslizante, como mostrado abaixo.
+12. O logotipo é colocado corretamente, mas é muito grande e precisa ser redimensionado. Para redimensionar o logotipo, atualize suas propriedades. Clique na guia **Estilos** na coluna direita e defina a largura como 40% arrastando o controle deslizante, como mostrado abaixo.
 
->[!NOTE]
->
->Observe que quando o botão de alternância está ativado, o número 40 representa % e não pixels. Se quiser um valor absoluto de pixel perfeito, alterne o botão para px.
+    >[!NOTE]
+    >
+    >Observe que quando o botão de alternância está ativado, o número 40 representa % e não pixels. Se quiser um valor absoluto de pixel perfeito, alterne o botão para px.
 
+    ![Controle deslizante de largura da guia de estilo definido como 40% para redimensionar o logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
 
+13. Clique em **&quot;Salvar&quot;** e seu fragmento será salvo. Você recebe uma notificação de barra verde na confirmação.
 
-![Controle deslizante de largura da guia de estilo definido como 40% para redimensionar o logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
+    ![Barra de confirmação verde depois de salvar o fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
 
-&#x200B;13. Clique em **&quot;Salvar&quot;** e seu fragmento será salvo. Você recebe uma notificação de barra verde na confirmação.
+14. O fragmento salvo está no modo de rascunho. Antes de usá-lo, você precisa publicá-lo. Clique no botão **voltar**.
 
-![Barra de confirmação verde depois de salvar o fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
+    ![Botão Voltar para sair do fragmento de rascunho antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
 
-&#x200B;14. O fragmento salvo está no modo de rascunho. Antes de usá-lo, você precisa publicá-lo. Clique no botão **voltar**.
+15. Clique no botão **Publicar**. Você verá a mensagem &quot;Publicando fragmento, isso pode levar algum tempo. Notificaremos quando a tarefa for concluída.&quot; na confirmação. O fragmento está pronto para ser usado para criação de modelo.
 
-![Botão Voltar para sair do fragmento de rascunho antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
-
-&#x200B;15. Clique no botão **Publicar**. Você verá a mensagem &quot;Publicando fragmento, isso pode levar algum tempo. Notificaremos quando a tarefa for concluída.&quot; na confirmação. O fragmento está pronto para ser usado para criação de modelo.
-
-![Botão Publicar e mensagem de confirmação do fragmento de publicação](assets/building-content-fragments-click-publish-fragment-button.png)
+    ![Botão Publicar e mensagem de confirmação do fragmento de publicação](assets/building-content-fragments-click-publish-fragment-button.png)
 
 Você verá a alteração de status para **&quot;Ao vivo&quot;**. Nesse ponto, você concluiu a criação de um fragmento de cabeçalho, que é usado na próxima etapa.
 

@@ -7,7 +7,7 @@ exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: ea468b0eddaacdb7beaa1227c9c335371d089f34
+source-git-commit: 71aca15b0ca0257d3ea0a84b52fed76ca4e372f0
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 5%
@@ -191,31 +191,29 @@ Role para baixo na coluna da esquerda e clique em **Mais configurações**
 
 2. Pressione o botão **Gerar**
 
-![Configurações de imagem do Firefly, incluindo taxa, tipo de conteúdo e iluminação, antes da geração](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
+   ![Configurações de imagem do Firefly, incluindo taxa, tipo de conteúdo e iluminação, antes da geração](assets/ai-assistant-and-content-personalization-firefly-image-settings.png)
 
-&#x200B;3. Selecione as variações no lado direito para visualizá-las e **Salve** alguns dos favoritos na pasta do Assets para uso posterior. Você também pode clicar em Gerar mais algumas vezes para obter mais variações.
+3. Selecione as variações no lado direito para visualizá-las e **Salve** alguns dos favoritos na pasta do Assets para uso posterior. Você também pode clicar em Gerar mais algumas vezes para obter mais variações.
 
-![Navegue pelas variações e salve algumas](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
+   ![Navegue pelas variações e salve algumas](assets/ai-assistant-and-content-personalization-browse-image-variations.png)
 
-![Salvar na pasta do Assets](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
+   ![Salvar na pasta do Assets](assets/ai-assistant-and-content-personalization-save-image-variations-into-assets.png)
 
-&#x200B;4. Em seguida, apenas **Cancelar** da interface de geração de imagem por enquanto.
-
-
+4. Em seguida, apenas **Cancelar** da interface de geração de imagem por enquanto.
 
 ## Finalizar design de bloco
 
 1. De volta à interface do designer de email, clique em **Procurar** no bloco de imagem.
 
-![Clique em Procurar no bloco de imagem](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
+   ![Clique em Procurar no bloco de imagem](assets/ai-assistant-and-content-personalization-click-browse-in-image-block.png)
 
-&#x200B;2. Selecione uma de suas variações e clique em **Selecionar**
+2. Selecione uma de suas variações e clique em **Selecionar**
 
-![Selecione uma de suas variações](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
+   ![Selecione uma de suas variações](assets/ai-assistant-and-content-personalization-select-one-of-your-variations.png)
 
-&#x200B;3. Selecione a guia **Estilos** na coluna direita e aplique à imagem um raio de borda arredondado de 10
+3. Selecione a guia **Estilos** na coluna direita e aplique à imagem um raio de borda arredondado de 10
 
-![Design final de bloco de email com cantos arredondados de imagem](assets/ai-assistant-and-content-personalization-final-block-design.png)
+   ![Design final de bloco de email com cantos arredondados de imagem](assets/ai-assistant-and-content-personalization-final-block-design.png)
 
 Depois de algumas iterações e variações, você terá o design final. O layout final é semelhante ao exemplo acima.
 
