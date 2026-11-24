@@ -1,27 +1,27 @@
 ---
-title: Assistente de IA e personalização de conteúdo
-description: Use o Assistente de IA do Adobe Journey Optimizer para gerar linhas de assunto na marca, refinar a cópia e o tom do email e criar imagens geradas pela Firefly dentro do designer de email.
+title: Personalização de conteúdo assistido por IA
+description: Use a IA do Adobe Journey Optimizer para gerar linhas de assunto na marca, refinar a cópia e o tom do email e criar imagens geradas pela Firefly dentro do designer de email.
 doc-type: article
 solution: Experience Platform
 exl-id: 1f30c920-7b2b-4343-b663-ebbed1ae4709
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 43a7d8153e8ad7e24162b9bb6c0d5bbcea784330
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1322'
 ht-degree: 5%
 ---
 
-# Assistente de IA e personalização de conteúdo
+# Personalização de conteúdo assistido por IA
 
-**Finalidade:** saiba como usar o Assistente de IA do Adobe Journey Optimizer para gerar linhas de assunto, refinar texto de email, ajustar o tom e criar imagens Firefly sob a marca diretamente no designer de email.
+**Finalidade:** saiba como usar a IA do Adobe Journey Optimizer para gerar linhas de assunto, refinar texto de email, ajustar o tom e criar imagens Firefly sob a marca diretamente no designer de email.
 
 ## Objetivos de aprendizagem
 
 Ao final deste módulo, você será capaz de:
 
-1. Use o Assistente de IA para gerar linhas de assunto e pré-cabeçalhos.
+1. Use a IA para gerar linhas de assunto e pré-cabeçalhos.
 1. Refine o texto principal, as descrições, o tom e as mensagens.
 1. Aplique reformulação orientada por IA, resumo e ajustes de tom.
 1. Gere imagens usando o Adobe Firefly com estilo de referência e configurações de marca.
@@ -29,7 +29,7 @@ Ao final deste módulo, você será capaz de:
 
 ## Introdução
 
-O Assistente de IA no AJO ajuda você a criar conteúdo mais inteligente na marca.
+A assistência de IA no AJO ajuda a criar conteúdo mais inteligente na marca.
 Ele pode:
 
 - Gerar linhas de assunto
@@ -38,21 +38,21 @@ Ele pode:
 - Criar imagens da marca usando o Firefly
 - Verifique se tudo está alinhado às diretrizes 5G da Connection
 
-Neste exercício, você melhora o email criado usando o Assistente de IA.
+Neste exercício, você melhora o email criado usando IA.
 
 >[!NOTE]
 >
->O Assistente de IA é **não determinístico**, o que significa que pode gerar conteúdo ligeiramente diferente sempre que for usado. O que você vê durante sua prática pode não corresponder exatamente às capturas de tela ou exemplos neste guia. Tudo bem — concentre-se em aprender o processo e os conceitos em vez de esperar resultados idênticos.
+>A IA é **não determinística**, o que significa que pode gerar conteúdo ligeiramente diferente sempre que for usada. O que você vê durante sua prática pode não corresponder exatamente às capturas de tela ou exemplos neste guia. Tudo bem — concentre-se em aprender o processo e os conceitos em vez de esperar resultados idênticos.
 
-## Criar linha de assunto do email usando o Assistente do AI
+## Criar linha de assunto do email usando IA
 
 1. Retorne ao Campaign clicando no botão Voltar ou edite o email criado no módulo anterior. Na etapa anterior, você pode clicar na guia **Configurações** no lado direito.
 2. Clique em Container de email > Clique no botão Editar email.
 3. Clique na guia Content e, em seguida, clique no corpo do email
 4. Selecione o campo **Linha de assunto**.
-5. Clique no **ícone do Assistente de IA**. (veja abaixo)
+5. Clique no **ícone de IA**. (veja abaixo)
 
-   ![Ícone do Assistente de IA na barra de ferramentas do campo Linha de Assunto](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
+   ![Ícone de IA na barra de ferramentas do campo Linha de Assunto](assets/ai-assistant-and-content-personalization-ai-assistant-icon.png)
 
 6. Você percebe que a Diretriz da marca é selecionada por padrão.
 7. Digite o prompt:
@@ -63,7 +63,7 @@ Neste exercício, você melhora o email criado usando o Assistente de IA.
 9. Revise as quatro variantes geradas.
 10. Escolha a variante com a melhor pontuação de alinhamento e clique em **Selecionar**.
 
-![Selecionando a variante de linha de assunto mais alinhada do Assistente de IA](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
+![Selecionando a variante de linha de assunto mais alinhada da IA](assets/ai-assistant-and-content-personalization-select-subject-line-variant.png)
 
 >[!NOTE]
 >
@@ -79,13 +79,13 @@ Neste exercício, você melhora o email criado usando o Assistente de IA.
    ![Botão Editar corpo do email no editor do Campaign](assets/ai-assistant-and-content-personalization-edit-email-body-button.png)
 
 2. Clique no cabeçalho **Linha capturada do produto**.
-3. Abra o Assistente de IA clicando em **Gerar e selecionar um texto**
+3. Inicie a assistência da IA clicando em **Gerar e selecionar um texto**
 
-   ![Gerar e selecionar uma opção de texto abrindo o Assistente de IA](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
+   ![Gere e selecione uma opção de texto abrindo a IA](assets/ai-assistant-and-content-personalization-generate-and-select-text.png)
 
 4. Selecione **Diretrizes de Marca 5G da Conexão** na lista suspensa.
 
-   ![Opção Diretrizes de Marca 5G da Conexão selecionada na lista suspensa do Assistente de IA](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
+   ![Opção Diretrizes de Marca 5G da Conexão selecionada na lista suspensa IA](assets/ai-assistant-and-content-personalization-brand-guidelines-dropdown.png)
 
 5. Aviso:
 
@@ -117,7 +117,7 @@ Desta vez, você testa como a IA pode ajudar a encontrar problemas.
 
 2. Clique no botão de avaliação conforme mostrado abaixo.
 
-   ![Botão Avaliar no painel de texto do Assistente de IA](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
+   ![Botão Avaliar no painel de texto de IA](assets/ai-assistant-and-content-personalization-click-evaluate-button.png)
 
 3. O conteúdo original é selecionado automaticamente com a sua marca, conforme mostrado nas Etapas 1 e 2 abaixo. Clique no botão **Avaliar** para continuar.
 
@@ -125,7 +125,7 @@ Desta vez, você testa como a IA pode ajudar a encontrar problemas.
 
 4. Conforme esperado, você percebe muitos erros que violam as diretrizes da marca. Embora seja possível corrigi-los usando IA, nesse caso você não revisa os materiais existentes. Em vez disso, você os deixa como estão e cria novo conteúdo do zero que se alinha totalmente aos padrões da marca.
 
-   ![Resultados da avaliação do Assistente de IA mostrando violações das diretrizes de marca](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
+   ![Resultados da avaliação de IA mostrando violações da diretriz da marca](assets/ai-assistant-and-content-personalization-brand-guideline-errors.png)
 
 5. Use o novo parágrafo gerado para você usando IA com o prompt abaixo. Você pode usar a mesma abordagem para o texto de descrição usando o prompt abaixo.
 
@@ -146,7 +146,7 @@ Seu email é semelhante ao mostrado abaixo.
 
 ## Adicionar uma imagem gerada pela Firefly
 
-Até agora, testamos o Assistente de IA na linha de assunto e texto. E as imagens?
+Até agora, testamos a IA na linha de assunto e texto. E as imagens?
 
 Antes de mergulhar na geração de imagens de IA, analise quais tipos de experiências você pode criar.
 
@@ -228,7 +228,7 @@ Nesse ponto, você deve se sentir confiante usando IA para acelerar e elevar a c
 
 ## Recapitulação
 
-Você usou com sucesso o Assistente de IA para:
+Você usou com êxito a IA para:
 
 - Gerar linhas de assunto
 - Refinar texto herói

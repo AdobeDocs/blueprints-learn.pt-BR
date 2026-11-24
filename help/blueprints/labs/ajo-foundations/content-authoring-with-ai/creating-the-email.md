@@ -7,9 +7,9 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 6f54406bc0cda8e0fa5f028201a1ed1c2953e3cf
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '668'
 ht-degree: 0%
 ---
 
@@ -140,4 +140,4 @@ Neste módulo, você:
 - Imagens do herói e do produto atualizadas
 - Estilo aprimorado
 
-Agora você está pronto para seguir para o próximo módulo - **Assistente de IA e personalização de conteúdo**, em que você usará a IA para refinar o texto e gerar imagens automaticamente.
+Agora você está pronto para seguir para o próximo módulo - **Personalização de conteúdo assistido por IA**, em que você usará a IA para refinar o texto e gerar imagens automaticamente.
