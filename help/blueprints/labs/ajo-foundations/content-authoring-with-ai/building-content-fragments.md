@@ -4,9 +4,9 @@ description: Saiba como dividir um design de email em fragmentos reutilizáveis,
 doc-type: article
 solution: Experience Platform
 exl-id: 253a9332-dc08-420d-ac11-2bf342f0dc38
-source-git-commit: 96308d5726def849ef22540a5d13618017c40cc3
+source-git-commit: d935e9a5179579e35c6aa5fe9e495f5bba1a1b03
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '916'
 ht-degree: 0%
 ---
 
@@ -96,7 +96,13 @@ Crie um fragmento de cabeçalho para começar. No entanto, antes de criar o frag
 
    ![Nomeando a nova pasta de ativos com seu nome e sobrenome](assets/building-content-fragments-name-asset-folder.png)
 
-5. **Crie um novo fragmento:** Em Gerenciamento de Conteúdo, clique em **Fragmentos** e crie um novo fragmento.
+5. Clique duas vezes na pasta recém-criada para **abri-la**. Em seguida, clique em **Adicionar Assets** e navegue ou solte todas as imagens .png e .jpg da pasta do kit de ferramentas. Em seguida, clique em **Carregar**
+
+   ![Clique em Adicionar ativos e carregar arquivos de imagem](assets/building-content-fragments-add-assets-and-upload-image-files.png)
+
+   ![Clique em Carregar](assets/building-content-fragments-click-upload.png)
+
+6. **Crie um novo fragmento:** Em Gerenciamento de Conteúdo, clique em **Fragmentos** e crie um novo fragmento.
 
    Opção ![Fragmentos em Gerenciamento de conteúdo para criar um novo fragmento](assets/building-content-fragments-click-fragments-create-new.png)
 
@@ -110,53 +116,47 @@ Crie um fragmento de cabeçalho para começar. No entanto, antes de criar o frag
 
    ![Campos de tipo de fragmento Visual, nome e descrição do fragmento do cabeçalho](assets/building-content-fragments-fragment-name-type-details.png)
 
-6. Clique no **Botão Criar** no canto superior direito.
+7. Clique no **Botão Criar** no canto superior direito.
 
    ![Botão Criar na parte superior direita da caixa de diálogo Novo fragmento](assets/building-content-fragments-click-create-button-top-right.png)
 
    Isso abre uma tela em branco do criador de fragmentos.
 
-7. Clique nas colunas 1:1 em Estruturas e arraste na tela como mostrado abaixo. (Clique na imagem abaixo para ver o gráfico animado)
+8. Vá para a guia **Componentes** na coluna esquerda. Em seguida, clique em **1:1 Coluna** em Estruturas e arraste na tela como mostrado abaixo. (Clique na imagem abaixo para ver o gráfico animado)
 
-   ![Demonstração animada de arrastar uma estrutura de Colunas 1:1 para a tela do fragmento](assets/building-content-fragments-drag-1-1-columns-structure.gif)
+   ![Arrastando uma estrutura de colunas 1:1 para a tela do fragmento](assets/building-content-fragments-drag-1-1-columns-structure.png)
 
-8. Em seguida, arraste &quot;**image**&quot; na linha 1:1 que acabamos de adicionar
+9. Em seguida, arraste &quot;**image**&quot; na linha 1:1 que acabamos de adicionar
 
    ![Arrastando um componente de imagem para a linha 1:1](assets/building-content-fragments-drag-image-onto-row.png)
 
-9. Carregue a imagem do logotipo fornecida. Clique no **&quot;Botão Importar mídia&quot;**
+10. Clique em **&quot;Procurar&quot;** para selecionar a imagem de logotipo fornecida e já carregada na Assets.
 
-   ![Botão Importar mídia para carregar a imagem de logotipo](assets/building-content-fragments-click-import-media-button.png)
+![Clique no botão Procurar para selecionar a imagem do logotipo](assets/building-content-fragments-click-browse-button.png)
 
-10. **Carregue o logotipo:** Carregue o logotipo (*C5G-Logo.png*) da pasta de imagens do kit de ferramentas e clique em Avançar.
+&#x200B;11. Navegue até a pasta, clique na imagem de logotipo (*C5G-Logo.png*) e clique em **Selecionar**.
 
-![Selecionando C5G-Logo.png da pasta do kit de ferramentas para carregar](assets/building-content-fragments-upload-logo-select-file.png)
+![Selecionando C5G-Logo.png na pasta Assets](assets/building-content-fragments-select-logo-from-assets.png)
 
-![Clique em Avançar após selecionar o carregamento do logotipo](assets/building-content-fragments-upload-logo-click-next.png)
+&#x200B;12. O logotipo é colocado corretamente, mas é muito grande e precisa ser redimensionado. Para redimensionar o logotipo, atualize suas propriedades. Clique na guia **Estilos** na coluna direita e defina a largura como 40% arrastando o controle deslizante, como mostrado abaixo.
 
-1. Selecione a **pasta de ativos** que você criou e clique em **Importar**. O arquivo é salvo na sua pasta.
-
-   ![Selecionando a pasta de ativos criada e clicando em Importar](assets/building-content-fragments-select-asset-folder-import.png)
-
-1. O logotipo é colocado corretamente, mas é muito grande e precisa ser redimensionado. Para redimensionar o logotipo, atualize suas propriedades. Clique na **guia Estilo** e defina a largura para 40% arrastando o controle deslizante, como mostrado abaixo.
-
-   >[!NOTE]
-   >
-   >Observe que quando o botão de alternância está ativado, o número 40 representa % e não pixels. Se quiser um valor absoluto de pixel perfeito, alterne o botão para px.
+>[!NOTE]
+>
+>Observe que quando o botão de alternância está ativado, o número 40 representa % e não pixels. Se quiser um valor absoluto de pixel perfeito, alterne o botão para px.
 
 
 
-   ![Controle deslizante de largura da guia de estilo definido como 40% para redimensionar o logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
+![Controle deslizante de largura da guia de estilo definido como 40% para redimensionar o logotipo](assets/building-content-fragments-resize-logo-width-slider.png)
 
-1. Clique em **&quot;Salvar&quot;** e seu fragmento será salvo. Você recebe uma notificação de barra verde na confirmação.
+&#x200B;13. Clique em **&quot;Salvar&quot;** e seu fragmento será salvo. Você recebe uma notificação de barra verde na confirmação.
 
-   ![Barra de confirmação verde depois de salvar o fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
+![Barra de confirmação verde depois de salvar o fragmento](assets/building-content-fragments-save-fragment-confirmation.png)
 
-1. O fragmento salvo está no modo de rascunho. Antes de usá-lo, você precisa publicá-lo. Clique no botão **voltar**.
+&#x200B;14. O fragmento salvo está no modo de rascunho. Antes de usá-lo, você precisa publicá-lo. Clique no botão **voltar**.
 
-   ![Botão Voltar para sair do fragmento de rascunho antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
+![Botão Voltar para sair do fragmento de rascunho antes de publicar](assets/building-content-fragments-click-back-button-draft.png)
 
-1. Clique no botão **Publicar**. Você verá a mensagem &quot;Publicando fragmento, isso pode levar algum tempo. Notificaremos quando a tarefa for concluída.&quot; na confirmação. O fragmento está pronto para ser usado para criação de modelo.
+&#x200B;15. Clique no botão **Publicar**. Você verá a mensagem &quot;Publicando fragmento, isso pode levar algum tempo. Notificaremos quando a tarefa for concluída.&quot; na confirmação. O fragmento está pronto para ser usado para criação de modelo.
 
 ![Botão Publicar e mensagem de confirmação do fragmento de publicação](assets/building-content-fragments-click-publish-fragment-button.png)
 

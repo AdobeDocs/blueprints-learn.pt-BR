@@ -7,9 +7,9 @@ exl-id: bf823714-7298-48fc-a18b-9bf2462ae52e
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 6f54406bc0cda8e0fa5f028201a1ed1c2953e3cf
+source-git-commit: 8a0e198d205b9003fa61cf555debc6c20585b70a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '656'
 ht-degree: 0%
 ---
 
@@ -41,7 +41,7 @@ Esta etapa demonstra como os modelos podem ser reutilizados em jornadas, permiti
 
    ![Botão Criar Campanha no Gerenciamento do Jornada](assets/creating-the-email-click-create-campaign-button.png)
 
-3. Selecione &quot;**Orquestração - Marketing**&quot; e clique em **confirmar**
+3. Selecione &quot;**Marketing de orquestração e transacional**&quot; e clique em **Confirmar**
 
    ![Selecionar Orquestração - Marketing e clique em confirmar](assets/creating-the-email-select-orchestration-marketing.png)
 
@@ -107,19 +107,15 @@ Alterar as imagens do herói e do telefone. Você precisa fazer upload do conte�
 
    ![Removendo a URL de origem temporária da imagem](assets/creating-the-email-remove-temporary-source-url.png)
 
-3. Clique em **Importar mídia**
+3. Clique em **Selecionar um ativo**
 
-   ![Botão Importar Mídia para a imagem herói](assets/creating-the-email-click-import-media.png)
+   ![Selecione um botão de ativo para a imagem herói](assets/creating-the-email-click-import-media.png)
 
-4. Carregue `hero.png` do seu kit de ferramentas. (Você pode arrastar o arquivo)
+4. Selecione o `hero.png` da sua pasta e clique em **Selecionar**.
 
-   ![Carregando hero.png da pasta do kit de ferramentas](assets/creating-the-email-upload-hero-png-file.png)
+   ![Selecionando hero.png da pasta Assets](assets/creating-the-email-select-hero-png-file.png)
 
-5. Clique em **Avançar** Selecione **sua pasta para os ativos** e pressione **importar**
-
-   ![Selecionar a pasta de ativos e clicar em Importar para a imagem herói](assets/creating-the-email-select-folder-import-hero.png)
-
-6. Seu modelo de email está surgindo muito bem. Ela é exibida da seguinte forma. Clique em **&quot;Salvar&quot;** para salvar seu trabalho.
+5. Seu modelo de email está surgindo muito bem. Ela é exibida da seguinte forma. Clique em **&quot;Salvar&quot;** para salvar seu trabalho.
 
 ![Modelo de email atualizado com a nova imagem herói antes de salvar](assets/creating-the-email-save-updated-email-template.png)
 
@@ -128,7 +124,7 @@ Alterar as imagens do herói e do telefone. Você precisa fazer upload do conte�
 
 ### Substituir imagens do produto
 
-Vá em frente e atualize todas as imagens do produto (imagens fornecidas na pasta do kit de ferramentas) e também adicione borda arredondada ao seu gosto. Seu email fica melhor sem links quebrados, como mostrado abaixo. Repita o processo para todos os cartões de produto.
+Vá em frente e atualize todas as imagens do produto (imagens foram fornecidas na pasta do kit de ferramentas, você carregou-as no Assets) e também adicionou borda arredondada ao seu gosto. Seu email fica melhor sem links quebrados, como mostrado abaixo. Repita o processo para todos os cartões de produto.
 
 ![Email com todas as imagens do produto atualizadas e sem links corrompidos](assets/creating-the-email-product-images-updated-no-broken-links.png)
 

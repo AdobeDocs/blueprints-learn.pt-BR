@@ -7,9 +7,9 @@ exl-id: 1abab39e-811c-4010-a4f5-a7adc9e4e0a4
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: efdf51a410acd377a38ec73a9c71964a78320a0b
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '405'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ Neste ponto, você aprendeu que podemos não apenas personalizar os atributos do
 1. Clique em **Simular Conteúdo**.
 2. Selecione **Simular variação de conteúdo**.
 
-   ![Clicar em Simular conteúdo e selecionar Simular variação de conteúdo](assets/content-simulation-click-simulate-content-variation.png)
+   ![Clicando em Simular variação de Conteúdo](assets/content-simulation-click-simulate-content-variation.png)
 
    Um painel de simulação é aberto.
 
@@ -49,7 +49,7 @@ Neste ponto, você aprendeu que podemos não apenas personalizar os atributos do
 
 
 
-5. Selecione ambas as variantes.
+5. Selecione as duas primeiras variantes (a terceira é o fallback).
 6. Adicionar prefixo da linha de assunto
    1. Variante 1: acima de 40
    2. Variante 2: Abaixo de 40
