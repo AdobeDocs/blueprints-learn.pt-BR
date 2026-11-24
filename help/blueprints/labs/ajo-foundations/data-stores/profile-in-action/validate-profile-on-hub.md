@@ -7,9 +7,9 @@ exl-id: f1c8b1ac-e57c-48c6-aa91-5c83f79ce7e3
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: da2fcc7a4afc091c28a4cfdff96055dbf7dbb41a
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 0%
 ---
 
@@ -35,7 +35,7 @@ Na Adobe Experience Platform, procure o perfil que você acabou de enviar a part
 
 ## Verifique o perfil do hub
 
-1. Clique na **ID do Perfil** para abrir o perfil
+1. Clique no botão **Exibir** do perfil para abrir o perfil
 1. Clique primeiro na guia **Atributos** e depois no botão de opção **Hub** para ver o **Perfil de Hub**
 
 ![Perfil de Hub mostrado na guia Atributos](assets/validate-profile-on-hub-attributes-tab.png)

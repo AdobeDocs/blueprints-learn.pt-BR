@@ -7,9 +7,9 @@ exl-id: e911a251-9f9f-484c-a2de-101b0fc2c417
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 526f170e52c0479362c6a72bfd4cbeadc825d464
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '462'
 ht-degree: 0%
 ---
 
@@ -69,17 +69,13 @@ No próximo conjunto de etapas, você aproveitará a campanha para adicionar dua
 
    ![Clique na seta para a esquerda para sair do Email Designer](assets/add-email-activities-exit-email-designer.png)
 
-10. Uma caixa de diálogo de confirmação aparece, clique no botão **Salvar e fechar**
-
-![Caixa de diálogo de confirmação com o botão Salvar e fechar](assets/add-email-activities-save-and-close-dialog.png)
-
-1. Revise as propriedades e ações de Email, incluindo o texto adicionado ao corpo do Email. Clique na **seta para a esquerda** para voltar para a tela de campanha
+10. Revise as propriedades e ações de Email, incluindo o texto adicionado ao corpo do Email. Clique na **seta para a esquerda** para voltar para a tela de campanha
 
 ![Voltar para a tela do Campaign](assets/add-email-activities-back-to-campaign-canvas.png)
 
 ## Adicionar atividade de email da ramificação inferior
 
-De volta à tela da campanha, clique no **+** do fluxo inferior e selecione **Email** nas **Atividades do canal**. Siga as mesmas etapas descritas acima (Etapas 2 a 11), exceto para o seguinte:
+De volta à tela da campanha, clique no **+** do fluxo inferior e selecione **Email** nas **Atividades do canal**. Siga as mesmas etapas descritas acima (Etapas 2 a 10), exceto para o seguinte:
 
 - Renomeie o rótulo para **Email usando o Dimension de Destino** para a atividade **Email**
 - Nas configurações de Email, escolha a configuração do canal de email **Relational-Email**

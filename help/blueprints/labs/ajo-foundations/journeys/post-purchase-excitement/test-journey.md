@@ -7,9 +7,9 @@ exl-id: fc3dbfb9-b44b-4866-acc9-398a8b52f2b9
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 929145a02a8a2f3505e9e12ff605c500eac1cc79
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '429'
 ht-degree: 0%
 ---
 
@@ -21,9 +21,13 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
 ## Testar a jornada
 
-1. Clique em **Jornadas** no painel esquerdo e na **guia Procurar** se não vir uma lista de Jornadas
+1. Se você ainda não estiver na jornada, clique em **Jornadas** no painel esquerdo e na **guia Procurar** se não visualizar uma lista de Jornadas
 2. Clique na sua **Jornada** para abri-la
-3. Clique em **Alertas** e verifique se não há erros (avisos ok)
+3. Primeiro clique no botão **Validar**, na parte superior direita
+
+   ![Clique para validar a jornada](assets/test-journey-click-validate.png)
+
+4. Clique em **Alertas** e verifique se não há erros (avisos ok)
 
    ![O painel Alertas não mostra erros após abrir a jornada](assets/test-journey-alerts-no-errors.png)
 
@@ -33,9 +37,11 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
    >
    >Indica que o link para opção de não participação está ausente em uma variante de email
 
-4. Clique em **Simular** e, no lado esquerdo, selecione **Modo de Teste**
+5. Clique em **Simular** e selecione **Modo de Teste**
 
-   ![Modo de Teste selecionado em Simular no lado esquerdo](assets/test-journey-select-test-mode.png)
+   ![Pressionar Simular &#x200B;](assets/test-journey-select-test-mode.png)
+
+   ![Modo de teste selecionado no pop-up](assets/test-journey-select-test-mode-in-popup.png)
 
 
 
@@ -45,11 +51,11 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
 
 
-5. Clique em **Acionar um Evento** e preencha estas propriedades:
+6. Clique em **Acionar um Evento** no lado esquerdo e preencha estas propriedades:
    - **Tipo de evento**: `orders.shipped`
    - **Email Pessoal**: `henry.creel@emailsim.io`
    - **ID do pedido**: `123`
-6. Clique em **Enviar** (observe que demora alguns segundos para responder depois de clicar em enviar)
+7. Clique em **Enviar** (observe que demora alguns segundos para responder depois de clicar em enviar)
 
    ![Acionar um Formulário de evento preenchido e Enviar clicado](assets/test-journey-trigger-event-send.png)
 
@@ -65,7 +71,7 @@ Use as ferramentas de teste do jornada para verificar se o acionador do evento e
 
 
 
-7. Em **Resultados** -> Clique em **Mostrar Log** no lado esquerdo
+8. Em **Resultados** -> Clique em **Mostrar Log** no lado esquerdo
 
 ![Opção Mostrar Log em Resultados após disparar o evento de teste](assets/test-journey-show-log-results.png)
 
@@ -106,12 +112,12 @@ Você deve ver algo como isso no log:
 
 
 
-1. **Fechar** a **guia** do Navegador
+1. **Fechar** a **guia** do navegador para o log
 1. **Fechar Modo de Teste** no canto superior direito
 
    ![Botão Fechar Modo de Teste na parte superior direita](assets/test-journey-close-test-mode.png)
 
-1. Clique em **Publicar** a Jornada no canto superior direito
+1. Clique em **Validar** novamente e em **Publicar** a Jornada no canto superior direito
 
    ![Botão Publicar para a Jornada na parte superior direita](assets/test-journey-publish-journey.png)
 

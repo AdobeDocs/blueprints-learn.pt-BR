@@ -7,9 +7,9 @@ exl-id: e77ae8ab-f18f-4683-8fdd-ba4f4629d96c
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 7c7ee72676fd17a248694548fb59ea87c52a293c
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '661'
 ht-degree: 0%
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## Objetivo
 
-No próximo conjunto de etapas, execute a campanha no modo de teste para confirmar as funções da campanha, como esperado, antes de publicar a campanha. Nesse caso, o modo de teste não envia emails, mas ajuda a verificar todo o fluxo e identificar problemas antecipadamente.
+No próximo conjunto de etapas, execute a campanha no modo de Teste para confirmar as funções da campanha, como esperado, antes de publicá-la. Nesse caso, o modo de teste não envia emails, mas ajuda a verificar todo o fluxo e identificar problemas antecipadamente.
 
 ## Iniciar o fluxo de trabalho
 
-1. Após configurar os dois fluxos de email, a Campanha é semelhante à seguinte. Clique no botão **Iniciar** para executar a campanha no **Modo de teste**
+1. Após configurar os dois fluxos de email, a Campanha é semelhante à seguinte. Clique no botão **Iniciar** para executar a campanha no modo de Teste
 
    ![Clique em Iniciar para executar a campanha no modo de Teste](assets/test-the-campaign-click-start-test-mode.png)
 

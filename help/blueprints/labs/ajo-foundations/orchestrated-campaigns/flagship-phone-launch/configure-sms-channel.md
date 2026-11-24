@@ -7,9 +7,9 @@ exl-id: 63c994f2-4b6b-42e9-aa82-cb6697390a08
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 027d4d3373dd18fa4711e5c403465c03d374de70
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 0%
 ---
 
@@ -106,11 +106,11 @@ Ao selecionar Canal como Mensagem para dispositivo móvel, uma nova seção cham
 3. Em seguida, na subseção **Execution dimension**, verifique se os itens a seguir estão configurados da seguinte maneira:
    - **Entregar uma mensagem por:** `Target + Secondary Dimension`
    - **Dimension de Destino do Perfil:** `dep-rel: Customer Account - customer_id`
-   - **Dimension Secundário:** `Customer Line`
+   - **Dimension Secundário:** `dep-rel: Customer Line`
 
    ![Configurações da dimensão de execução com destino e dimensão secundária](assets/configure-sms-channel-execution-dimension-setup.png)
 
-   ![Dimension Secundário definido como Linha do Cliente nas configurações de dimensão de execução &quot;Dimension Secundário&quot;](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension Secundário")
+   ![Dimension Secundário definido como dep-rel: Linha do Cliente nas configurações de dimensão de execução &quot;Dimension Secundário&quot;](assets/configure-sms-channel-secondary-dimension-detail.png "Dimension Secundário")
 
    >[!NOTE]
    >

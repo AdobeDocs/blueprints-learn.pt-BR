@@ -7,9 +7,9 @@ exl-id: 8c4d8a66-190d-4714-95a3-37955b1e1a8c
 product_v2:
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
     internal-label: Experience Platform
-source-git-commit: 1d6ba1444c119437eb8a86d5c4a1050d56d16023
+source-git-commit: 54e14714c83a6815926f12db8aad1476b0266d7b
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 ---
 
@@ -21,7 +21,7 @@ Ao longo deste curso, você explorou a jornada completa de criar campanhas perso
 
 - Você pode criar, configurar e testar com confiança as comunicações da marca no Adobe Journey Optimizer (AJO).
 - O uso de **fragmentos** e **modelos** simplifica a criação de conteúdo e garante a consistência da marca entre as mensagens.
-- As ferramentas do **Assistente de IA** e da **Pontuação de alinhamento da marca** ajudam a manter o tom, a qualidade e a conformidade antes do lançamento.
+- As ferramentas de **IA** e **Pontuação de Alinhamento da Marca** ajudam a manter o tom, a qualidade e a conformidade antes do lançamento.
 - O **Personalization** permite personalizar o conteúdo individualmente com base em atributos de perfil e comportamento em tempo real.
 - **O conteúdo dinâmico** habilita a variação de mensagens entre segmentos usando regras de direcionamento e lógica condicional.
 - Testar com **perfis de simulação** e executar **verificações de conformidade** garante que as mensagens sejam renderizadas corretamente e correspondam aos padrões da marca antes de serem publicadas.
@@ -30,7 +30,7 @@ Ao longo deste curso, você explorou a jornada completa de criar campanhas perso
 
 - [ ] Você criou e configurou a marca 5G Connection?
 - [ ] Você criou e aplicou fragmentos de cabeçalho/rodapé?
-- [ ] Você usou o Assistente de IA para gerar conteúdo?
+- [ ] Você usou a IA para gerar conteúdo?
 - [ ] Você executou verificações de alinhamento da marca e resolveu problemas?
 - [ ] Você testou sua jornada com um perfil de teste e revisou o email?
 
